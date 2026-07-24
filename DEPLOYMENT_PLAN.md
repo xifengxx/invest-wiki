@@ -5,6 +5,8 @@
 
 ---
 
+> **GitHub**：https://github.com/xifengxx/invest-wiki
+
 ## 一、系统概述
 
 ### 1.1 Invest Wiki 是什么
