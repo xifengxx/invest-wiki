@@ -1,0 +1,144 @@
+{"ts":"2026-07-20T10:48:24.619Z","file":"/Users/mac/.claude/plans/witty-chasing-sparrow.md","category":"schema","lines":635,"summary":"Invest Wiki LLM-Wiki 四层架构建设方案"}
+{"ts":"2026-07-20T15:05:36.674Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/04-行业数据/2026-07-20-Invest-Wiki-全量基线快照.md","category":"general","lines":53,"summary":"---"}
+{"ts":"2026-07-20T15:06:40.364Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/消化笔记/2026-07-20-全量基线验证.md","category":"general","lines":54,"summary":"---"}
+{"ts":"2026-07-20T15:39:28.642Z","file":"/Users/mac/.claude/plans/witty-chasing-sparrow.md","category":"service","lines":220,"summary":"Invest Wiki — Obsidian 知识库五要素借鉴方案"}
+{"ts":"2026-07-20T15:47:46.389Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/link-enrich/SKILL.md","category":"schema","lines":58,"summary":"---"}
+{"ts":"2026-07-20T15:47:56.867Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/link-enrich/执行指令-链接增强.md","category":"schema","lines":50,"summary":"链接增强执行指令"}
+{"ts":"2026-07-20T15:51:08.391Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/schemas/thesis-schema.md","category":"schema","lines":52,"summary":"论点字段规范（thesis-schema）"}
+{"ts":"2026-07-20T15:51:10.915Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/templates/thesis-template.md","category":"schema","lines":34,"summary":"{{论点标题}}"}
+{"ts":"2026-07-20T15:51:31.260Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/nvidia-gpu-monopoly-3yr.md","category":"general","lines":54,"summary":"---"}
+{"ts":"2026-07-20T15:51:42.006Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/china-semi-localization.md","category":"general","lines":54,"summary":"---"}
+{"ts":"2026-07-20T15:51:52.997Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/ai-inference-surpass-training.md","category":"general","lines":52,"summary":"---"}
+{"ts":"2026-07-20T15:52:01.753Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/asic-structural-threat-to-gpu.md","category":"general","lines":51,"summary":"---"}
+{"ts":"2026-07-20T15:52:10.469Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/cowos-bottleneck-2027.md","category":"general","lines":53,"summary":"---"}
+{"ts":"2026-07-20T15:52:21.034Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/hbm-supply-shortage-2028.md","category":"general","lines":52,"summary":"---"}
+{"ts":"2026-07-20T15:52:28.503Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/cloud-self-developed-chips.md","category":"general","lines":51,"summary":"---"}
+{"ts":"2026-07-20T15:52:36.474Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/chiplet-ucie-restructure.md","category":"general","lines":53,"summary":"---"}
+{"ts":"2026-07-20T15:52:44.725Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/edge-ai-boom-2027.md","category":"general","lines":52,"summary":"---"}
+{"ts":"2026-07-20T15:52:54.248Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/advanced-node-competition.md","category":"general","lines":52,"summary":"---"}
+{"ts":"2026-07-21T02:59:53.422Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/schemas/company-schema.md","category":"schema","lines":175,"summary":"公司字段规范（company-schema）"}
+{"ts":"2026-07-21T03:02:04.369Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/schemas/concept-schema.md","category":"schema","lines":141,"summary":"概念卡片字段规范（concept-schema）"}
+{"ts":"2026-07-21T03:02:16.661Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/templates/concept-template.md","category":"schema","lines":146,"summary":"---"}
+{"ts":"2026-07-21T03:05:00.590Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/概念/hbm.md","category":"general","lines":172,"summary":"---"}
+{"ts":"2026-07-21T03:06:01.496Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/概念/cowos.md","category":"general","lines":171,"summary":"---"}
+{"ts":"2026-07-21T03:06:52.518Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/概念/cpo.md","category":"general","lines":169,"summary":"---"}
+{"ts":"2026-07-21T03:07:45.029Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/概念/chiplet.md","category":"general","lines":169,"summary":"---"}
+{"ts":"2026-07-21T03:08:52.138Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/概念/asic.md","category":"general","lines":173,"summary":"---"}
+{"ts":"2026-07-21T03:16:19.490Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/enrich_companies.py","category":"general","lines":148,"summary":"!/usr/bin/env python3"}
+{"ts":"2026-07-21T03:17:11.118Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/fix_oneliners.py","category":"general","lines":46,"summary":"!/usr/bin/env python3"}
+{"ts":"2026-07-21T03:26:59.221Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L3-网页产物/dashboard.html","category":"general","lines":282,"summary":"<!DOCTYPE html>"}
+{"ts":"2026-07-21T06:47:03.169Z","file":"/Users/mac/.claude/plans/witty-chasing-sparrow.md","category":"service","lines":113,"summary":"Invest Wiki — 公司/概念/论点详情页修复"}
+{"ts":"2026-07-22T02:50:19.018Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/消化笔记/2026-07-22-德勤全球半导体趋势.md","category":"general","lines":72,"summary":"---"}
+{"ts":"2026-07-22T02:50:49.049Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/消化笔记/2026-07-22-中原证券电子行业中期策略.md","category":"auth","lines":96,"summary":"---"}
+{"ts":"2026-07-22T02:51:07.132Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/消化笔记/2026-07-22-华为智能世界2035.md","category":"general","lines":64,"summary":"---"}
+{"ts":"2026-07-22T03:00:34.365Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/概念/huawei-tao-law.md","category":"general","lines":155,"summary":"---"}
+{"ts":"2026-07-22T03:00:46.478Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/cpu-return-to-datacenter-core.md","category":"general","lines":46,"summary":"---"}
+{"ts":"2026-07-22T03:01:00.082Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/ai-chip-concentration-risk.md","category":"general","lines":47,"summary":"---"}
+{"ts":"2026-07-22T03:30:25.805Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/_convert_thesis.py","category":"general","lines":111,"summary":"\"\"\"Convert thesis evidence items and ## 来源 sections to multi-line format.\"\"\""}
+{"ts":"2026-07-22T03:44:50.970Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/collector/执行指令-采集处理.md","category":"schema","lines":272,"summary":"采集处理执行指令"}
+{"ts":"2026-07-22T03:52:59.274Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/c784fc7a78ba4bfa8f11c182fd65fbbf20260626173158_QA_SchemaMapping.md","category":"schema","lines":1024,"summary":"QA + Schema-Mapping 归档"}
+{"ts":"2026-07-22T04:18:13.002Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/01-研报/2026-03-25-全球半导体行业趋势报告-Deloitte.md","category":"general","lines":143,"summary":"---"}
+{"ts":"2026-07-22T04:18:15.641Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/01-研报/2026-06-23-电子行业2026年中期策略-中原证券.md","category":"general","lines":206,"summary":"---"}
+{"ts":"2026-07-22T04:18:36.755Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/04-行业数据/2026-07-华为-智能世界2035.md","category":"general","lines":167,"summary":"---"}
+{"ts":"2026-07-22T04:19:29.995Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/消化笔记/2026-07-22-v1.1-德勤全球半导体趋势.md","category":"schema","lines":139,"summary":"---"}
+{"ts":"2026-07-22T04:19:39.921Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/消化笔记/2026-07-22-v1.1-华为智能世界2035.md","category":"schema","lines":179,"summary":"---"}
+{"ts":"2026-07-22T04:20:01.887Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/消化笔记/2026-07-22-v1.1-中原证券电子行业中期策略.md","category":"general","lines":514,"summary":"---"}
+{"ts":"2026-07-22T04:27:27.524Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/dc-hvdc-green-power.md","category":"general","lines":72,"summary":"---"}
+{"ts":"2026-07-22T04:27:38.516Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/概念/agentic-ai.md","category":"auth","lines":173,"summary":"---"}
+{"ts":"2026-07-22T04:27:44.982Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/post-moore-chiplet-3d.md","category":"general","lines":75,"summary":"---"}
+{"ts":"2026-07-22T04:28:00.750Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/storage-paradigm-shift.md","category":"api","lines":71,"summary":"---"}
+{"ts":"2026-07-22T04:28:18.381Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/ai-efficiency-deflation-chip-demand.md","category":"auth","lines":70,"summary":"---"}
+{"ts":"2026-07-22T04:29:28.805Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/概念/cpo.md","category":"auth","lines":175,"summary":"---"}
+{"ts":"2026-07-22T04:30:34.941Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/概念/compute-in-memory.md","category":"general","lines":175,"summary":"---"}
+{"ts":"2026-07-22T04:31:43.086Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/概念/hvdc-power.md","category":"general","lines":179,"summary":"---"}
+{"ts":"2026-07-22T04:32:58.929Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/概念/embodied-intelligence.md","category":"general","lines":175,"summary":"---"}
+{"ts":"2026-07-22T07:07:42.641Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/migrate_sources.py","category":"schema","lines":161,"summary":"!/usr/bin/env python3"}
+{"ts":"2026-07-22T08:05:06.990Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/update_autonomous_driving.py","category":"general","lines":113,"summary":"!/usr/bin/env python3"}
+{"ts":"2026-07-22T08:21:21.036Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/fix_autonomous_format.py","category":"test","lines":243,"summary":"!/usr/bin/env python3"}
+{"ts":"2026-07-22T09:07:06.451Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/migrate_structured.py","category":"schema","lines":292,"summary":"!/usr/bin/env python3"}
+{"ts":"2026-07-22T09:08:19.528Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/migrate_phase2.py","category":"schema","lines":156,"summary":"!/usr/bin/env python3"}
+{"ts":"2026-07-22T09:11:20.876Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/migrate_v2.py","category":"schema","lines":295,"summary":"!/usr/bin/env python3"}
+{"ts":"2026-07-22T09:14:58.210Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/recover_and_migrate.py","category":"schema","lines":324,"summary":"!/usr/bin/env python3"}
+{"ts":"2026-07-22T15:23:17.791Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/templates/company-template.md","category":"schema","lines":32,"summary":"{{公司全称}}"}
+{"ts":"2026-07-22T15:27:59.095Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/schemas/field-formats.md","category":"schema","lines":257,"summary":"字段格式规范（field-formats）"}
+{"ts":"2026-07-23T01:55:53.810Z","file":"/Users/mac/.claude/plans/delegated-wishing-allen.md","category":"database","lines":87,"summary":"Plan: 补充 20 家核心公司 Body 深度内容"}
+{"ts":"2026-07-23T01:59:01.392Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/asml_output.json","category":"general","lines":33,"summary":"{"}
+{"ts":"2026-07-23T02:00:06.085Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/asml_output.json","category":"general","lines":33,"summary":"{"}
+{"ts":"2026-07-23T06:13:25.886Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/.gitignore","category":"auth","lines":36,"summary":"invest_wiki .gitignore"}
+{"ts":"2026-07-23T07:50:06.189Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/03-新闻/2026-07-23-B5批次-5家半导体公司-数据溯源.md","category":"general","lines":126,"summary":"---"}
+{"ts":"2026-07-23T07:50:36.680Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/arm.md","category":"general","lines":134,"summary":"---"}
+{"ts":"2026-07-23T07:51:17.768Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/kla.md","category":"general","lines":112,"summary":"---"}
+{"ts":"2026-07-23T07:51:55.148Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/texas-instruments.md","category":"general","lines":124,"summary":"---"}
+{"ts":"2026-07-23T07:52:19.047Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/mediatek.md","category":"general","lines":111,"summary":"---"}
+{"ts":"2026-07-23T07:52:47.831Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/marvell.md","category":"general","lines":133,"summary":"---"}
+{"ts":"2026-07-23T07:55:36.979Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/analog-devices.md","category":"general","lines":112,"summary":"---"}
+{"ts":"2026-07-23T07:56:02.638Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/qualcomm.md","category":"general","lines":128,"summary":"---"}
+{"ts":"2026-07-23T07:56:20.661Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/advantest.md","category":"test","lines":102,"summary":"---"}
+{"ts":"2026-07-23T07:56:44.881Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/cambricon.md","category":"general","lines":123,"summary":"---"}
+{"ts":"2026-07-23T07:57:09.670Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/infineon.md","category":"general","lines":114,"summary":"---"}
+{"ts":"2026-07-23T08:01:04.696Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/ase.md","category":"general","lines":100,"summary":"---"}
+{"ts":"2026-07-23T08:01:25.708Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/synopsys.md","category":"general","lines":97,"summary":"---"}
+{"ts":"2026-07-23T08:01:48.626Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/nxp.md","category":"general","lines":109,"summary":"---"}
+{"ts":"2026-07-23T08:02:11.455Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/monolithic-power.md","category":"general","lines":102,"summary":"---"}
+{"ts":"2026-07-23T08:02:34.666Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/stmicro.md","category":"general","lines":116,"summary":"---"}
+{"ts":"2026-07-23T08:06:33.154Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/umc.md","category":"general","lines":91,"summary":"---"}
+{"ts":"2026-07-23T08:06:53.372Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/asm-international.md","category":"general","lines":91,"summary":"---"}
+{"ts":"2026-07-23T08:07:15.831Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/renesas.md","category":"general","lines":102,"summary":"---"}
+{"ts":"2026-07-23T08:07:37.574Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/microchip-technology.md","category":"general","lines":105,"summary":"---"}
+{"ts":"2026-07-23T08:08:02.646Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/globalfoundries.md","category":"general","lines":108,"summary":"---"}
+{"ts":"2026-07-23T08:11:04.012Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/coherent.md","category":"general","lines":89,"summary":"---"}
+{"ts":"2026-07-23T08:11:25.449Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/gigadevice.md","category":"general","lines":83,"summary":"---"}
+{"ts":"2026-07-23T08:11:48.726Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/cerebras.md","category":"general","lines":101,"summary":"---"}
+{"ts":"2026-07-23T08:12:10.497Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/disco.md","category":"general","lines":96,"summary":"---"}
+{"ts":"2026-07-23T08:12:37.175Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/nanya-technology.md","category":"general","lines":90,"summary":"---"}
+{"ts":"2026-07-23T08:14:50.075Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/on-semiconductor.md","category":"general","lines":86,"summary":"---"}
+{"ts":"2026-07-23T08:15:09.440Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/hua-hong.md","category":"general","lines":80,"summary":"---"}
+{"ts":"2026-07-23T08:15:27.375Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/towerjazz.md","category":"general","lines":76,"summary":"---"}
+{"ts":"2026-07-23T08:15:47.612Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/lasertec.md","category":"general","lines":90,"summary":"---"}
+{"ts":"2026-07-23T08:16:08.667Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/macom.md","category":"general","lines":86,"summary":"---"}
+{"ts":"2026-07-23T08:19:31.799Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/besi.md","category":"general","lines":82,"summary":"---"}
+{"ts":"2026-07-23T08:19:50.914Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/entegris.md","category":"general","lines":83,"summary":"---"}
+{"ts":"2026-07-23T08:20:09.141Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/astera-labs.md","category":"general","lines":75,"summary":"---"}
+{"ts":"2026-07-23T08:20:26.792Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/credo-technology.md","category":"general","lines":84,"summary":"---"}
+{"ts":"2026-07-23T08:20:46.396Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/technoprobe.md","category":"general","lines":78,"summary":"---"}
+{"ts":"2026-07-23T08:24:15.272Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/03-新闻/2026-07-23-B6批次-30家半导体公司-数据溯源.md","category":"general","lines":102,"summary":"---"}
+{"ts":"2026-07-23T08:31:25.517Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L3-网页产物/freshness_scan.py","category":"general","lines":240,"summary":"!/usr/bin/env python3"}
+{"ts":"2026-07-23T08:53:01.371Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/2026-Q3-audit.md","category":"general","lines":81,"summary":"论点审计报告 — 2026年Q3（7月）"}
+{"ts":"2026-07-23T09:27:19.553Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/shin-etsu.md","category":"general","lines":94,"summary":"---"}
+{"ts":"2026-07-23T09:27:35.430Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/sumco.md","category":"general","lines":81,"summary":"---"}
+{"ts":"2026-07-23T09:27:53.547Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/jsr.md","category":"general","lines":84,"summary":"---"}
+{"ts":"2026-07-23T09:28:09.346Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/tok.md","category":"general","lines":78,"summary":"---"}
+{"ts":"2026-07-23T09:28:29.800Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/cadence.md","category":"general","lines":95,"summary":"---"}
+{"ts":"2026-07-23T09:29:43.876Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/vat.md","category":"general","lines":70,"summary":"---"}
+{"ts":"2026-07-23T09:29:59.606Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/mks-instruments.md","category":"general","lines":68,"summary":"---"}
+{"ts":"2026-07-23T09:30:12.966Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/advanced-energy.md","category":"general","lines":66,"summary":"---"}
+{"ts":"2026-07-23T09:30:27.402Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/ultra-clean.md","category":"general","lines":68,"summary":"---"}
+{"ts":"2026-07-23T09:30:46.201Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/iqe.md","category":"general","lines":73,"summary":"---"}
+{"ts":"2026-07-23T09:31:56.076Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/jcet.md","category":"general","lines":68,"summary":"---"}
+{"ts":"2026-07-23T09:32:55.405Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/delta-electronics.md","category":"general","lines":63,"summary":"---"}
+{"ts":"2026-07-23T09:33:12.447Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/amkor.md","category":"general","lines":63,"summary":"---"}
+{"ts":"2026-07-23T09:33:20.724Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/powertech.md","category":"general","lines":62,"summary":"---"}
+{"ts":"2026-07-23T09:33:27.929Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/chipmos.md","category":"general","lines":48,"summary":"---"}
+{"ts":"2026-07-23T09:34:49.117Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/vertiv.md","category":"general","lines":64,"summary":"---"}
+{"ts":"2026-07-23T09:35:00.917Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/eaton.md","category":"general","lines":62,"summary":"---"}
+{"ts":"2026-07-23T09:35:10.974Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/schneider.md","category":"general","lines":59,"summary":"---"}
+{"ts":"2026-07-23T09:35:24.675Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/wolfspeed.md","category":"general","lines":72,"summary":"---"}
+{"ts":"2026-07-23T09:35:41.533Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/foxconn.md","category":"general","lines":71,"summary":"---"}
+{"ts":"2026-07-23T09:36:31.447Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/vis.md","category":"general","lines":57,"summary":"---"}
+{"ts":"2026-07-23T09:36:44.129Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/x-fab.md","category":"general","lines":55,"summary":"---"}
+{"ts":"2026-07-23T09:37:01.151Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/linde.md","category":"general","lines":62,"summary":"---"}
+{"ts":"2026-07-23T09:37:15.826Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/air-liquide.md","category":"general","lines":59,"summary":"---"}
+{"ts":"2026-07-23T09:37:26.952Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/db-hitek.md","category":"general","lines":49,"summary":"---"}
+{"ts":"2026-07-23T09:40:08.341Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/03-新闻/2026-07-23-B7批次-26家产业链公司-数据溯源.md","category":"general","lines":98,"summary":"---"}
+{"ts":"2026-07-23T10:10:10.194Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/03-新闻/2026-07-24-谷歌-Q2-2026财报.md","category":"general","lines":74,"summary":"---"}
+{"ts":"2026-07-23T10:11:29.357Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/google-alphabet.md","category":"general","lines":139,"summary":"---"}
+{"ts":"2026-07-23T10:36:57.779Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/ai-capex-roi-divergence.md","category":"database","lines":65,"summary":"---"}
+{"ts":"2026-07-23T10:37:17.220Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/03-新闻/2026-07-24-AI投资回报鸿沟-论点来源.md","category":"general","lines":67,"summary":"---"}
+{"ts":"2026-07-23T13:50:54.744Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/ai-capex-roi-divergence.md","category":"database","lines":96,"summary":"---"}
+{"ts":"2026-07-23T13:54:41.967Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/ai-capex-roi-divergence.md","category":"database","lines":106,"summary":"---"}
+{"ts":"2026-07-23T14:11:59.016Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/03-新闻/2026-07-24-微信公众号-AI产业机会-第五篇-逃生路线图.md","category":"general","lines":291,"summary":"---"}
+{"ts":"2026-07-23T14:12:29.558Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/03-新闻/2026-07-24-微信公众号-AI产业机会-第六篇-AI的钱赚回来了没有.md","category":"service","lines":237,"summary":"---"}
+{"ts":"2026-07-23T14:20:50.524Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L0-原始资料池/02-财报/2026-07-24-特斯拉-Q2-2026财报.md","category":"general","lines":76,"summary":"---"}
+{"ts":"2026-07-23T14:21:36.267Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/公司/tesla.md","category":"general","lines":109,"summary":"---"}
+{"ts":"2026-07-23T16:09:03.998Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/ARCHITECTURE.md","category":"schema","lines":243,"summary":"Invest Wiki 知识库设计文档"}
+{"ts":"2026-07-23T16:21:24.295Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/ARCHITECTURE.md","category":"schema","lines":557,"summary":"Invest Wiki 知识库设计文档"}

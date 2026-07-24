@@ -1,0 +1,38 @@
+# invest_wiki .gitignore
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Backups
+*.bak
+*.backup
+
+# IDE
+.vscode/
+.idea/
+
+# AuraKit session data (regenerated per session)
+.aura/logs/
+.aura/agent-memory/
+
+# Secrets
+.env
+.env.*
+
+# Attachments (PDFs and other binaries — not needed for deployment)
+L0-原始资料池/_attachments/
+
+# Temporary working files
+*_content.json
+!L0-原始资料池/**/*.json

@@ -1,0 +1,84 @@
+---
+name: 华虹半导体 (Hua Hong Semiconductor)
+slug: hua-hong
+country: 中国
+ticker: 1347.HK
+type: company
+updated: 2026-07
+data_freshness_date: 2026-07-23
+segments:
+- 成熟制程代工
+one_liner: 中国第二大/全球第七大纯晶圆代工厂，专注特色工艺（eNVM/BCD/功率分立器件），Q1 2026营收$660.9M（+22% YoY），产能利用率99.7%，12寸占比62.7%，Huali Micro Fab 5收购（+38K wpm 28-55nm）2026H2完成，潜在Fab 6 7nm注入催化剂，市值~HK$412B（~$53B）。
+chain_layer: L3
+chain_role: 核心参与者
+suppliers:
+- company: ASML/Applied Materials/Lam Research等
+  supplies: 晶圆制造设备
+  note: 12寸Fab 9扩产+Fab 9B设备2026.10迁入
+- company: 硅片供应商（沪硅产业等）
+  supplies: 12寸/8寸硅晶圆
+  note: 产能利用率99.7%，硅片需求旺盛
+customers:
+- company: 中国Fabless设计公司（MCU/NOR Flash/PMIC等）
+  revenue_pct: 60
+  note: 国产替代核心代工平台
+- company: 全球IDM/Fabless（TI/Infineon等）
+  revenue_pct: 40
+  note: 特色工艺代工溢出订单
+partners:
+- company: 华力微电子（Huali Micro，母公司华虹集团）
+  area: 产能注入
+  note: Fab 5（28-55nm 38K wpm）2026H2收购，Fab 6（7nm）潜在注入
+competitors:
+- company: 中芯国际
+  ticker: 0981.HK
+  area: 中国晶圆代工
+  note: 中国#1，先进+成熟制程全布局
+- company: UMC(联电)
+  ticker: UMC
+  area: 成熟制程代工
+  note: 全球#3，特色工艺直接对标
+- company: GlobalFoundries
+  ticker: GFS
+  area: 成熟制程代工
+  note: 特色工艺+FD-SOI
+core_business:
+- 嵌入式非易失性存储（eNVM）代工：MCU/智能卡芯片
+- 独立非易失性存储（NOR Flash）代工
+- 模拟与电源管理（BCD/PMIC）代工：AI服务器电源管理IC需求旺盛
+- 功率分立器件代工：中国最大功率分立器件代工产能
+- 逻辑与射频代工
+revenue_model: Q1 2026营收$660.9M（+22% YoY），Q2指引$690-700M，FY2026E $2.84-3.05B。12寸占比62.7%（Q1），产能利用率99.7%。毛利率13%（Q1）→14-16%（Q2指引），全年逐步改善。Huali Micro Fab 5收购（2H 2026）将增加~$680M年化营收+38K wpm产能。ASP预计年末+10-15%（AI驱动MCU/NOR Flash/BCD需求紧俏）。Fab 9A目标60-65K wpm（2026中），Fab 9B设备2026.10迁入。
+founded: 2003
+headquarters: 中国上海
+employees: ~6,500
+latest_revenue: Q1 2026 $660.9M（+22% YoY），FY2026E $2.84-3.05B
+market_cap: ~HK$412B（~$53B USD）（2026.7）
+description: 华虹半导体是中国第二大纯晶圆代工厂（仅次于中芯国际），2003年成立，专注特色工艺（eNVM/BCD/功率分立器件）成熟制程代工。公司运营4座晶圆厂（3座8寸+1座12寸Fab 9），Q1 2026产能利用率高达99.7%，受益于中国Fabless客户国产替代需求和全球成熟制程供应紧张。12寸占比从FY2024的~50%升至62.7%，驱动ASP和毛利率改善。Huali Micro Fab 5收购（28-55nm 38K wpm，2026H2完成）是近期最大催化剂。远期潜在催化剂：母公司华虹集团Fab 6（7nm先进制程）注入——目前尚未有时间表，但市场已部分定价（YTD +350%涨幅）。毛利率（13%）显著低于UMC（29%）和GF（29%），盈利能力改善是关键观察指标。
+website: https://www.huahonggrace.com
+industry: AI算力
+---
+
+# 华虹半导体 (Hua Hong Semiconductor)
+
+中国第二大晶圆代工厂，特色工艺（eNVM/BCD/功率器件）国产替代核心平台，产能利用率99.7%，Huali Micro Fab 5收购+潜在7nm Fab 6注入催化剂，YTD +350%.
+
+## 财务状况
+
+| 指标 | Q1 2026 | Q2 2026E | FY2026E |
+|------|---------|----------|---------|
+| **营收** | $660.9M | $690-700M | **$2.84-3.05B** |
+| **毛利率** | 13.0% | 14-16% | 逐步改善 |
+| **12寸占比** | 62.7% | — | — |
+| **产能利用率** | 99.7% | — | — |
+
+
+## 融资与现金流
+
+- 详见财务状况章节
+## 催化剂
+
+- **Huali Micro Fab 5收购**：2026H2完成，+38K wpm 28-55nm，+~$680M年化营收
+- **ASP涨价10-15%**：AI驱动MCU/NOR Flash/BCD需求紧俏（2026年底）
+- **潜在7nm注入**：Fab 6（华虹集团）7nm先进制程，市场已部分定价
+- **Fab 9扩产**：9A → 60-65K wpm（2026中），9B设备迁入（2026.10）

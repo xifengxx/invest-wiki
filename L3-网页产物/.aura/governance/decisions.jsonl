@@ -1,0 +1,19 @@
+{"ts":"2026-07-20T13:56:40.716Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/CLAUDE.md","category":"schema","lines":91,"summary":"Invest Wiki — LLM-Wiki 产业链知识库"}
+{"ts":"2026-07-20T13:56:50.207Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/CLAUDE.md","category":"schema","lines":38,"summary":"Invest Wiki — L1 操作规范"}
+{"ts":"2026-07-20T13:57:04.995Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/schemas/segment-schema.md","category":"schema","lines":71,"summary":"赛道字段规范（segment-schema）"}
+{"ts":"2026-07-20T13:57:24.157Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/schemas/field-formats.md","category":"schema","lines":143,"summary":"字段格式规范（field-formats）"}
+{"ts":"2026-07-20T13:57:31.545Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/schemas/company-schema.md","category":"schema","lines":36,"summary":"公司字段规范（company-schema）"}
+{"ts":"2026-07-20T13:57:34.627Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/templates/segment-template.md","category":"schema","lines":42,"summary":"{{赛道名称}}"}
+{"ts":"2026-07-20T13:57:38.367Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/templates/digest-template.md","category":"schema","lines":31,"summary":"---"}
+{"ts":"2026-07-20T13:58:09.447Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/collector/SKILL.md","category":"schema","lines":157,"summary":"---"}
+{"ts":"2026-07-20T13:58:28.832Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/collector/执行指令-采集处理.md","category":"schema","lines":123,"summary":"采集处理执行指令"}
+{"ts":"2026-07-20T13:58:55.372Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/lint/SKILL.md","category":"schema","lines":135,"summary":"---"}
+{"ts":"2026-07-20T13:59:05.045Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/lint/执行指令-定期扫描.md","category":"schema","lines":61,"summary":"定期扫描执行指令"}
+{"ts":"2026-07-20T14:25:24.252Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/DESIGN.md","category":"schema","lines":392,"summary":"Invest Wiki 知识库设计文档"}
+{"ts":"2026-07-20T14:31:30.022Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/DESIGN.md","category":"general","lines":661,"summary":"Invest Wiki 知识库设计文档"}
+{"ts":"2026-07-20T14:39:43.164Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/DESIGN_SPEC.md","category":"test","lines":661,"summary":"Invest Wiki 网页设计规范"}
+{"ts":"2026-07-20T14:57:48.343Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L3-网页产物/build_wiki_data.py","category":"general","lines":286,"summary":"!/usr/bin/env python3"}
+{"ts":"2026-07-23T06:33:35.300Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L3-网页产物/validate.py","category":"general","lines":62,"summary":"\"\"\"Wiki HTML 验证脚本——数据修改后运行此脚本检查完整性。\"\"\""}
+{"ts":"2026-07-23T07:16:58.206Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/.aura/snapshots/current.md","category":"auth","lines":48,"summary":"AuraKit Snapshot"}
+{"ts":"2026-07-23T14:06:14.516Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/ai-five-red-lights-framework.md","category":"general","lines":98,"summary":"---"}
+{"ts":"2026-07-23T14:06:44.140Z","file":"/Users/mac/Claude_projects/5factor_system/invest_wiki/L2-Wiki/论点/ai-capex-roi-divergence.md","category":"database","lines":87,"summary":"---"}

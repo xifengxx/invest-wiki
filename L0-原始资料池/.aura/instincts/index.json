@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "updated": "2026-07-22T02:49:11.167Z",
+  "patterns": [
+    {
+      "id": "pattern-002",
+      "category": "auth",
+      "language": "unknown",
+      "description": "2026-06-23-电子行业2026年中期策略-中原证券.md — auth 패턴 (unknown)",
+      "score": 53,
+      "success_count": 2,
+      "failure_count": 0,
+      "tags": [
+        "auth"
+      ],
+      "created": "2026-07-22T02:48:59.875Z",
+      "updated": "2026-07-22T02:49:11.167Z"
+    },
+    {
+      "id": "pattern-001",
+      "category": "general",
+      "language": "unknown",
+      "description": "2026-03-25-全球半导体行业趋势报告-Deloitte.md — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-07-22T02:48:43.230Z",
+      "updated": "2026-07-22T02:48:43.230Z"
+    }
+  ],
+  "anti_patterns": []
+}

@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "updated": "2026-07-23T03:40:59.041Z",
+  "patterns": [
+    {
+      "id": "pattern-002",
+      "category": "db",
+      "language": "unknown",
+      "description": "CLAUDE.md — db 패턴 (unknown)",
+      "score": 65,
+      "success_count": 6,
+      "failure_count": 0,
+      "tags": [
+        "db"
+      ],
+      "created": "2026-07-23T03:40:14.255Z",
+      "updated": "2026-07-23T03:40:59.038Z"
+    },
+    {
+      "id": "pattern-001",
+      "category": "api",
+      "language": "unknown",
+      "description": "2026-07-23-B4批次-20家核心公司-数据溯源.md — api 패턴 (unknown)",
+      "score": 53,
+      "success_count": 2,
+      "failure_count": 0,
+      "tags": [
+        "api"
+      ],
+      "created": "2026-07-23T03:39:35.684Z",
+      "updated": "2026-07-23T03:40:00.430Z"
+    }
+  ],
+  "anti_patterns": []
+}

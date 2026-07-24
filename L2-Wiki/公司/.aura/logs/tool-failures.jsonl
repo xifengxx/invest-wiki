@@ -1,0 +1,2 @@
+{"ts":"2026-07-23T03:38:25.110Z","event":"tool_failure","tool":"Read","error":"EISDIR: illegal operation on a directory, read '/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/templates'","input_keys":["file_path"]}
+{"ts":"2026-07-23T03:38:28.559Z","event":"tool_failure","tool":"Read","error":"EISDIR: illegal operation on a directory, read '/Users/mac/Claude_projects/5factor_system/invest_wiki/L1-Schema与Pipeline/collector'","input_keys":["file_path"]}
