@@ -224,9 +224,34 @@ python3 ~/.claude/skills/web-fetch/dispatch.py <url> [--max-chars 30000]
 
 以下所有产出均需归档：
 - WebSearch 的搜索词和返回的 URL 列表
-- WebFetch 抓取的页面内容（Markdown 或文本格式）
+- **WebFetch 抓取的完整页面内容**（Markdown 原文，**必须**另存为独立文件到 `_attachments/`，见下方「原文保存规范」）
 - 从页面中提取的关键数据点（带来源 URL）
 - 被拦截/失败的请求记录（URL + 错误码，供后续重试）
+
+#### 原文保存规范（强制）
+
+> **规则**：通过链接（微信公众号、网页等）采集的文章，**必须将 WebFetch 抓取的完整 Markdown 原文保存到 `_attachments/` 目录**，作为不可篡改的原始备份。链接可能失效，原文备份是唯一可追溯的原始证据。
+
+**操作步骤**：
+
+```bash
+# 1. 抓取全文（提高 max-chars 确保完整抓取）
+python3 ~/.claude/skills/web-fetch/dispatch.py "<url>" --max-chars 100000 \
+  > "L0-原始资料池/_attachments/{日期}-{标题}-原文.md"
+
+# 2. L0 归档文件中引用原文路径
+# raw_attachment: "_attachments/{日期}-{标题}-原文.md"
+```
+
+**文件命名**：`{YYYY-MM-DD}-{公司/主题}-{来源}-原文.md`
+- 例：`2026-07-22-特斯拉Q2财报-海豚研究-原文.md`
+
+**L0 归档文件引用**：在 YAML frontmatter 中新增 `raw_attachment` 字段，指向原文备份路径。
+
+**禁止行为**：
+- ❌ 仅保存链接 URL 而不保存原文（链接可能失效）
+- ❌ 仅保存"关键内容摘要"而不保存完整原文（摘要可能遗漏重要信息）
+- ❌ 在 L0 归档文件中内嵌全文（导致归档文件过长，分离存储便于管理）
 
 #### 目录映射
 
