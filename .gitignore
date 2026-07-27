@@ -30,11 +30,9 @@ build/
 .env
 .env.*
 
-# Attachments — track text backups, exclude binaries
+# Attachments — track text backups + downloaded images, exclude PDF/docx binaries
 L0-原始资料池/_attachments/*.pdf
 L0-原始资料池/_attachments/*.docx
-L0-原始资料池/_attachments/*.png
-L0-原始资料池/_attachments/*.jpg
 
 # Temporary working files
 *_content.json

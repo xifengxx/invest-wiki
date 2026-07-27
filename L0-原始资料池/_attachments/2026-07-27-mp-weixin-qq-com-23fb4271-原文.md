@@ -1,4 +1,4 @@
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/oqyvInCB8vTajPrqrMJGGy9U5UYkcic0cPzHdKmx3KYVMuwZMv0pESzngXEuOicibEGSghFeh68YWXBtKn1bD7rE3935upzBYYaaRqJgdLxGWY/640?wx_fmt=png&from=appmsg)
+![](images/713ac8b9be.png)
 
   
 
@@ -22,7 +22,7 @@
 
 **⑤ 经营利润大幅低于预期，利润率还在下滑：** 最后因为毛利率大幅低于预期，AI 投入带来的研发费用上升，以及 SBC 费用（主要系 CEO 绩效奖励）上行导致的销管费用增加，经营利润仅 4 亿元，大幅低于市场预期的 17.2 亿，经营利润率仅 1.4%，环比还在下滑 2.8 个百分点。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/oqyvInCB8vSmr7PxEicgw0E5ibZQnHTMpLz4DNYReXlMk9Vficeqo8Ps34U2l86Egycqew0qicOEo90q35V0GgianI3uw1y9UiaCjEDKLpL40RoEA/640?wx_fmt=jpeg&from=appmsg)
+![](images/14043dc192.jpeg)
 
 **海豚君观点**
 
@@ -64,7 +64,7 @@
 
 **而此次电话会中，上述关键节点都未得到再次确认，特斯拉仅画了一个更大的饼：预计 Optimus 4 的目标年产能达到 1000 万台/年，相比 Optimus (100 万台) 提升一个数量级。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/oqyvInCB8vTc0HHCO3Z1czEmQE6mrO4TiaF8MBzdtl6nmZ7H4tULJcZJwHVhNRragIWE4ia6nqJseKWYEZ4FFajNeLCRxOOWT3TPSHPcFnicXM/640?wx_fmt=jpeg&from=appmsg)
+![](images/a53437e999.jpeg)
 
 **② Robotaxi：投资者等待的大规模商业化 “拐点” 同样未得到验证**
 
@@ -88,7 +88,7 @@
 
 **对于 Cybercab（3 万美元车型，专用两座、无方向盘），目前已于 2026 年 4 月开始试生产，但产量有限，尚未进入大规模生产阶段，特斯拉对于 Cybercab 何时大规模量产也未提供具体指引。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/oqyvInCB8vSby1pqMI6SwEDGlwTfQibSiccT12SIRS1NHTb6ibbTiacdEf3LgJfic30oP5EKZEr3G7GZ6DwJafYPFjUHGl8yYoAiarV73OESib7Ws4/640?wx_fmt=jpeg&from=appmsg)
+![](images/fb6557360c.jpeg)
 
 **③ FSD：未确认提供 “完全无人驾驶监督时间点”**
 
@@ -154,17 +154,17 @@ b. 工商业储能 ASP 因竞争加剧而持续下降;
 
 管理层预计储能业务毛利率长期将稳定在 20% 出头的中低区间，这其实大幅低于之前特斯拉储能业务 30%+ 的稳态水平，也反映储能的竞争即使在美国也在实质性加大。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/oqyvInCB8vRTkRkcXXINeHsUWGOpWbHCCdustld7ar5xVCSANUvShTPuFDbLWBiaicOfcDVjl35lhJnEGHdPfyTbkVlWibXOB4gRk3wNCJVhia8/640?wx_fmt=jpeg&from=appmsg)
+![](images/76e1a46650.jpeg)
 
 **③ 服务业务表现不错**
 
 二季度服务业务 45.8 亿，超预期 37.2 亿，毛利率环比从 9.2% 提升至 14.1%，创历史新高，主要受销量提升及车队成本管理改善（二手车、超充、服务中心、保险业务）驱动。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/oqyvInCB8vTmD10icLzd5quj6gs0CKl3uztHNMQqibVoicgT4d22vfah7FHFEUcLqhtwnv4kfGYHCag7spEn6SmKFibx8IhkZOTNFWwgwN8icaBM/640?wx_fmt=jpeg&from=appmsg)
+![](images/e05c4357f9.jpeg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/oqyvInCB8vQI7x71OQ4OuIxz75tWdCyOw1NIxGJ34Q4mqt82lk8nKiaiaiaFQc7cZnLJnTibTemZElBxca8NkpDjQE9nKgNkGmRVDKvicLvdB5n8/640?wx_fmt=jpeg&from=appmsg)
+![](images/f5f896d55c.jpeg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/oqyvInCB8vTxic6Zuiboo5ISkiaJDNF7wBibO4vHudfFZiaHS8cPRrezYHea9Cv0lozmde4AQJliaibxJXTPSYPexBIacibrkdic96UkY9ib7tfbGFxbE/640?wx_fmt=jpeg&from=appmsg)
+![](images/f731eea327.jpeg)
 
 **二、卖车毛利率不及预期**
 
@@ -176,7 +176,7 @@ b. 工商业储能 ASP 因竞争加剧而持续下降;
 
 也因此，本季度真实卖车毛利率的环比下滑，主要由于上述的一次性收益不复存在，叠加卖车收入的下滑以及卖车原材料成本的上涨，具体来看：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/oqyvInCB8vRl3WAp2FHkL5fL2CTbMWbB1pnMFF2R8aicRxRASqQbUfxTkDYCAEmehpW46xaNiaIZ2LJY7t8HErGZY1zfCp0zFrBJgvyZ1TqIs/640?wx_fmt=jpeg&from=appmsg)
+![](images/8ac3cb51f9.jpeg)
 
 **从单车经济具体来看：**
 
@@ -186,7 +186,7 @@ b. 工商业储能 ASP 因竞争加剧而持续下降;
 
 环比下滑可能由于产品组合向低价车型倾斜（Model S/X 停产），促销优惠的持续抵消了对车型小幅提价的影响（尤其利率上升带动贴息成本上行），以及区域结构的负面影响（美国占比下滑，欧洲及其他国家占比提升）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/oqyvInCB8vSZgdqRRtxxgvhiaKU6TFiaAcmiaPh0FuLvRSCRLgFVib8c1VdOqxJD0krickKduqtvp6W3aOFsCbJOVO7MGvote3GnCpYtfia5sUmk4/640?wx_fmt=jpeg&from=appmsg)
+![](images/f414c96e22.jpeg)
 
 **具体来看：**
 
@@ -196,19 +196,19 @@ b. 工商业储能 ASP 因竞争加剧而持续下降;
 
 在美国市场，特斯拉对于 Model Y 小幅提价 1000 美元，但对 Model Y（RWD 后驱版）提供 72 个月 0% APR 贷款，以及对其他车型仍然延续 0.99% APR 带宽，和 FSD 30 天免费试用等促销折扣政策。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/oqyvInCB8vTqNqiag7cbqcicPOIQTEg5BxK6gSVxmIibfQibiaY2KCZdwJszQBZNOoia22TiaEX7YZqgEVjby0tYzRDJZTWXwvbkeR9VKvibe850OYU/640?wx_fmt=jpeg&from=appmsg)
+![](images/cea8448e38.jpeg)
 
 **b. 中国：延续补贴**
 
 虽然特斯拉在中国尚未调价，但同样也推出 “Easy Loan” 服务，降低消费者购车门槛，以及继续提供 5 年 0 息贷款，以及车漆优惠、库存车折扣等其他补贴；
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/oqyvInCB8vQgia03QxhiabBXqhkyatP9QCNvPpKiabrOVvO7D4vRltFdiboKh3Z57icMbRMOtsIRe5fBNIa9CnnXdQER3RhyHeuxibFFdq147ZR2Q/640?wx_fmt=jpeg&from=appmsg)
+![](images/915434e267.jpeg)
 
 **c. 欧洲：定价小幅上调**
 
 二季度，与美国一样，Model Y 价格小幅上调 1000 美元，特斯拉在欧洲主要市场也推出了 0 息贷款活动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/oqyvInCB8vSJ5RnQmMiacicEAoh7pjFfkJzBrPzED55GuoR5HibVHzMb8ia7BibgN4lzSQzvhlDVJ2WpQ09mqniaLCoJOHWAmJ92wqia9P0reGPCcg/640?wx_fmt=png&from=appmsg)
+![](images/8d28916b71.png)
 
 **② 车型结构：高价的 Model S/X+Cybertruck 占比下滑**
 
@@ -228,7 +228,7 @@ d. 自 2026 年 2 月 15 日 起，特斯拉在全球范围内取消了 FSD 的�
 
 本季度新增 FSD 用户数/新增销量的占比也达到了 42%，FSD 付费用户数占全球特斯拉存量车队比例约 15%。作为高毛利软件收入，它也直接增厚了核心汽车业务的毛利率。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/oqyvInCB8vQZc0bSeYN5BqnEp93ic93Z4zc21ctBrLqTbeGIm6EZNAWZYu4vUIiakOFRmBqgtH6EllicibBS6kiaGUSyWVETduECtsbsFfZ5xoick/640?wx_fmt=jpeg&from=appmsg)
+![](images/7e2aa703fd.jpeg)
 
 **2.3 单车成本仍在上行**
 
@@ -262,15 +262,15 @@ b. FSD（监督版）在第二季度也获得了荷兰、比利时、丹麦、�
 
 ③ 美国市场二季度销量基本环比持平：但销量同比仍下滑了 13%，主要受 2025 年同期 EV 补贴到期前的需求前置导致高基数影响。FSD 的吸引力（部分消费者为使用 FSD 而购车）和促销活动（0.99% APR、FSD 免费试用）对销量提供了支撑，但整体仍待恢复。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/oqyvInCB8vQIp5ZTGtiacMhv8iamxmxlqY7xAK1Sx9Zc8GfojT1H5pyP1d2Ad3iaQojv3HUCbAHlL4Zk5Sn2WntQtnVUodoj4bLDYssCAALeCE/640?wx_fmt=jpeg&from=appmsg)
+![](images/c09d443114.jpeg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/oqyvInCB8vQLaO0a5VGMGqeZrjr4icGRGo0SDAAbCwsZicTUMR0FuweOxgES9P0pVSdic6AYfOcYDDWR5fdZj8Egk93xwekKl8Vxv0YBRfYKiag/640?wx_fmt=jpeg&from=appmsg)
+![](images/51143ab3fe.jpeg)
 
 而从产销差来看，二季度特斯拉产量 45 万辆，而交付量达到了 48 万辆，产量低于交付量 2.8 万辆，库存有所消化，特斯拉库存周转天数也从上季度 16 天来到了本季度的 14 天。
 
 而库存的减少也直接改善了营运成本，带动了经营现金流环比上行了 7.6 亿美金至 47 亿美金。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/oqyvInCB8vTZcwfGJe0tg08nGUQ4miaSibMdCOoAnBwQVdX5D2ia5UHpwYwzETFKA5vtn0JIqw6zPZe6TG2g2dAV9mBSPaia3FHLKMcfHmXsIMw/640?wx_fmt=jpeg&from=appmsg)
+![](images/76275e0d7e.jpeg)
 
 **四、支出端：AI 业务仍然继续加大投入**
 
@@ -278,13 +278,13 @@ b. FSD（监督版）在第二季度也获得了荷兰、比利时、丹麦、�
 
 而销售与行政费用本季度 19.8 亿，环比上行 1.5 亿美元，也高出市场预计的 18 亿，主要由于本季度 SBC 费用上行了约 1.9 亿美元（主要由于 CEO 绩效奖励增加），带来了销管费用的上行。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/oqyvInCB8vQgdIib7C6XKYneCS5Uy5aK30aTsiatUK1IOia6rok60b8gfCUXgCS23icCkCtI5DTjxSwAD6ibmTJliaiaosGWsp8p0RnZ1geAQQribQ4/640?wx_fmt=jpeg&from=appmsg)
+![](images/8884327197.jpeg)
 
 最后由于毛利率端的低于预期，叠加研发和销管费用的上行，经营利润仅 4 亿，大幅低于市场预期的 17 亿。经营利润率也环比下滑了 2.8 个百分点至 1.4%。
 
 而在净利润方面，本季度由于 Space X 上市的股权投资收益（计提 10 亿美元收益），净利润达到 11 亿，净利润率环比上行 1.8 个百分点至 3.9%。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/oqyvInCB8vQxZs366dgb4yZ8vL4r91ZjEicicZMnFmt0Nf7Y9oW0kmTicorRSDf4s6C408sdqGRicZ9kSjx5uTM6ZHRliaRwCIoMgOT2icHMcNcfU/640?wx_fmt=png&from=appmsg)
+![](images/439aae4480.png)
 
 而在自由现金流方面，存货的释放使经营现金流环比增加 7.6 亿至 47 亿，但本季度资本开支的急剧增加（环比上行 33 亿至 58 亿），最后自由现金流仅-11 亿，环比下滑了 25 亿元。
 
@@ -296,9 +296,9 @@ b. FSD（监督版）在第二季度也获得了荷兰、比利时、丹麦、�
 
 尽管账面现金及投资仍充裕（435 亿美元），但以当前超过 250 亿美元/年的资本开支强度计算，现有现金仅能支撑不到两年的高强度投入。AI 远期宏大的蓝图，急需尽快转化为实质性的收入和现金流，否则公司将面临潜在的融资压力。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/oqyvInCB8vQnomw3VtuBz1lQFngrTfuZudsvnKpW99qr5GQClZ25ATZf3KP1dUPSYaoaDGIPvK1iaKrIoFF6JPQj07YoXWeO0aEpsicjKORG4/640?wx_fmt=jpeg&from=appmsg)
+![](images/eb962fb26f.jpeg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/oqyvInCB8vRocLQIbDMYxAoaHM6hm4LF3v7YRP9fNrfpSdXQzcmv73TuDFzSUzBCGTUgMNFeC2okzDlN44qYGXdcKfyriaLic4PsZph3ibSIwg/640?wx_fmt=jpeg&from=appmsg)
+![](images/f938623f2b.jpeg)
 
 <此处结束>
 
@@ -338,6 +338,6 @@ b. FSD（监督版）在第二季度也获得了荷兰、比利时、丹麦、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/oqyvInCB8vTXYAPeOlYwmQvLianGUVRVVBMNkaIuRTibPApBs7pSnhLVMaGoIcSCClIXm1e3oVQGq8LfnpRIFfdQ3WDG3mLQPjeyFrJn8x2XU/640?wx_fmt=gif&from=appmsg)
+![](images/a347c18227.gif)
 
 **文章不易，点个 “分享”，给我充点儿电吧~**

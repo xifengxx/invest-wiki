@@ -235,13 +235,22 @@ python3 ~/.claude/skills/web-fetch/dispatch.py <url> [--max-chars 30000]
 **操作步骤**：
 
 ```bash
-# 1. 抓取全文（提高 max-chars 确保完整抓取）
-python3 ~/.claude/skills/web-fetch/dispatch.py "<url>" --max-chars 100000 \
-  > "L0-原始资料池/_attachments/{日期}-{标题}-原文.md"
+# 抓取全文 + 自动下载图片到本地（强制使用 save_article.py）
+python3 engine/save_article.py "<url>" \
+  --output-dir L0-原始资料池/_attachments/ \
+  --max-chars 100000
 
-# 2. L0 归档文件中引用原文路径
-# raw_attachment: "_attachments/{日期}-{标题}-原文.md"
+# 输出：
+#   - L0-原始资料池/_attachments/{日期}-{标题}-原文.md  （Markdown，图片已替换为本地路径）
+#   - L0-原始资料池/_attachments/images/               （全部下载的图片）
 ```
+
+**图片处理**：`save_article.py` 自动完成：
+- 提取 Markdown 中所有 `![](远程URL)` 图片链接
+- 逐张下载到 `images/` 子目录
+- 替换原文中的远程 URL 为 `images/xxx.jpeg` 本地路径
+
+**文件名**：脚本自动从文章标题或 URL 生成，格式 `{YYYY-MM-DD}-{标题}-原文.md`。
 
 **文件命名**：`{YYYY-MM-DD}-{公司/主题}-{来源}-原文.md`
 - 例：`2026-07-22-特斯拉Q2财报-海豚研究-原文.md`
