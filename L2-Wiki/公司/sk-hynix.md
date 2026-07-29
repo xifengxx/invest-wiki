@@ -9,7 +9,9 @@ data_freshness_date: 2026-07-29
 segments:
 - HBM高带宽内存
 - 存储芯片(DRAM/NAND)
-one_liner: 全球HBM存储龙头(市占超56%)，专注AI用HBM/DRAM/NAND全栈内存芯片，通过高端AI存储溢价及长期供应协议实现盈利，位于半导体IDM制造中游——HBM占营收42%且产能售罄至2026全年。【2026.7.29更新】Q2营收79万亿(miss)，HBM4 Q2出货+HBM4E送样，LTA首次确认含保证金(未披露金额)，存储价格增速骤降(90%→50%→15%)，PE 4x历史底部。
+one_liner: |
+  全球HBM存储龙头(市占超56%)，专注AI用HBM/DRAM/NAND全栈内存芯片，通过高端AI存储溢价及长期供应协议实现盈利，位于半导体IDM制造中游——HBM占营收42%且产能售罄至2026全年。
+  【2026.7.29更新】Q2营收79万亿(miss)，HBM4 Q2出货+HBM4E送样，LTA首次确认含保证金(未披露金额)，存储价格增速骤降(90%→50%→15%)，PE 4x历史底部。
 chain_layer: L2
 chain_role: 龙头
 suppliers:

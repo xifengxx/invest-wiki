@@ -11,7 +11,9 @@ segments:
 - 自动驾驶
 - 边缘AI
 - 数据中心IDC
-one_liner: 全球最大电动车制造商+AI机器人公司，Q2 2026营收$282亿（+26%），交付48万辆（+25%），FSD订阅148万（+56%），Robotaxi奥斯汀试运营+Cybercab试生产，Optimus人形机器人Fremont产线筹建中，CAPEX $58亿（+142%），FCF转负（-$11亿），市值~$1.1T。【2026.7.27海豚研究更新】经营利润率仅1.4%；AI三大关键节点(Optimus V3量产/Robotaxi大规模扩张/无人监督FSD)均未获Q2确认；Cortex 2算力25万等效H100；FSD欧洲新增5国获批；海豚君判断AI变现节点缺失，股价继续承压。
+one_liner: |
+  全球最大电动车制造商+AI机器人公司，Q2 2026营收$282亿（+26%），交付48万辆（+25%），FSD订阅148万（+56%），Robotaxi奥斯汀试运营+Cybercab试生产，Optimus人形机器人Fremont产线筹建中，CAPEX $58亿（+142%），FCF转负（-$11亿），市值~$1.1T。
+  【2026.7.27海豚研究更新】经营利润率仅1.4%；AI三大关键节点(Optimus V3量产/Robotaxi大规模扩张/无人监督FSD)均未获Q2确认；Cortex 2算力25万等效H100；FSD欧洲新增5国获批；海豚君判断AI变现节点缺失，股价继续承压。
 chain_layer: L4
 chain_role: 龙头
 suppliers:

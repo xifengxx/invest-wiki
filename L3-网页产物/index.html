@@ -1000,7 +1000,7 @@ function renderCompany(c){
     // Part 1: 一句话公司介绍和定位
     if(c.one_liner){
       h+='<div style="margin-bottom:16px;"><div style="font-size:12px;font-weight:600;color:var(--text2);text-transform:uppercase;margin-bottom:6px;">定位与介绍</div>';
-      h+='<div style="border-left:4px solid #0071E3;padding:10px 14px;font-size:14px;color:var(--text);line-height:1.8;background:rgba(0,113,227,0.03);border-radius:0 8px 8px 0;">'+c.one_liner+'</div></div>';
+      h+='<div style="border-left:4px solid #0071E3;padding:10px 14px;font-size:14px;color:var(--text);line-height:1.8;background:rgba(0,113,227,0.03);border-radius:0 8px 8px 0;white-space:pre-line;">'+c.one_liner+'</div></div>';
     }
     // Part 2: 核心业务/产品
     if(coreBiz.length){
