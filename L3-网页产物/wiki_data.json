@@ -5,7 +5,8 @@
     "segment": 74,
     "concept": 10,
     "industry": 2,
-    "company": 392
+    "company": 391,
+    "unknown": 1
   },
   "entities": [
     {
@@ -27880,140 +27881,34 @@
       "sources": ""
     },
     {
-      "name": "Amazon(AWS)",
+      "name": "amazon-aws",
       "slug": "amazon-aws",
-      "type": "company",
-      "country": "US",
-      "ticker": "AMZN",
-      "one_liner": "全球最大云计算厂商，运营AWS云+自研Trainium AI训练芯片+Inferentia推理芯片，通过云计算+AI芯片+电商实现盈利，位于AI算力L4终端应用层",
-      "description": "全球最大公有云AWS+自研Trainium AI芯片+Anthropic战略联盟，AI基础设施全栈巨头",
-      "core_business": [
-        "云计算IaaS/PaaS基础设施（EC2/S3/Lambda等200+服务）",
-        "AI/ML平台与模型服务（Bedrock推理引擎、SageMaker训练平台）",
-        "自研AI芯片（Trainium2/3训练芯片、Graviton5 CPU，年化收入超$100亿）",
-        "数据库与分析（Aurora/Redshift/DynamoDB，云原生数据库生态）",
-        "企业级物联网与边缘计算（IoT Core、Wavelength 5G边缘节点）"
-      ],
-      "revenue_model": "按用量付费的IaaS/PaaS模式，2025年全年营收$1287亿（同比+20%），贡献Amazon总利润的57%，AI年化营收超$150亿（同比三位数增长），积压合同$2440亿；自研芯片Trainium挑战NVIDIA性价比高30-40%。",
-      "founded": 1994,
-      "headquarters": "美国华盛顿州西雅图",
-      "employees": "~1,550,000",
-      "latest_revenue": "Q1 2026 $181.5B（+28% YoY），AWS $37.6B（+28%）",
-      "market_cap": "~$2.3T",
-      "data_freshness_date": "2026-07-23",
-      "industry": "AI算力",
-      "segments": [
-        "AI Agent",
-        "AI推理API服务",
-        "AI模型训练平台",
-        "AI训练集群/超算",
-        "ASIC/AI定制芯片",
-        "云计算IaaS"
-      ],
-      "chain_layer": "L4",
-      "chain_role": "龙头",
-      "suppliers": [
-        {
-          "company": "NVIDIA",
-          "ticker": "NVDA",
-          "supplies": "H100/B200 GPU",
-          "note": "AWS云GPU实例"
-        },
-        {
-          "company": "Marvell",
-          "ticker": "MRVL",
-          "supplies": "Trainium ASIC设计服务",
-          "note": "联合设计Trainium"
-        },
-        {
-          "company": "台积电",
-          "ticker": "TSM",
-          "supplies": "Trainium晶圆代工+CoWoS"
-        },
-        {
-          "company": "AMD",
-          "supplies": "EPYC服务器CPU、Instinct GPU，与AWS深度合作"
-        },
-        {
-          "company": "Intel",
-          "supplies": "Xeon服务器CPU，传统x86算力基础"
-        },
-        {
-          "company": "Broadcom",
-          "supplies": "数据中心网络芯片、定制ASIC"
-        },
-        {
-          "company": "台积电TSMC",
-          "supplies": "为Trainium/Graviton自研芯片代工制造"
-        }
-      ],
-      "customers": [
-        {
-          "company": "Anthropic",
-          "note": "Claude大模型训练, AWS投资$8B"
-        },
-        {
-          "company": "全球企业AWS用户",
-          "note": "SageMaker AI+Bedrock平台"
-        },
-        {
-          "company": "OpenAI",
-          "note": "7年$380亿算力合同，数十万NVIDIA GPU集群"
-        },
-        {
-          "company": "Netflix",
-          "note": "长期AWS客户，流媒体全栈上云标杆"
-        },
-        {
-          "company": "Uber",
-          "note": "核心工作负载迁移至AWS，采用Graviton/Trainium芯片"
-        },
-        {
-          "company": "Sony、Ericsson",
-          "note": "首批采用AWS AgentCore AI智能体构建服务"
-        }
-      ],
-      "partners": [
-        {
-          "company": "Anthropic",
-          "area": "Claude大模型",
-          "note": "最大投资方+独占云服务商"
-        },
-        {
-          "company": "Marvell",
-          "ticker": "MRVL",
-          "area": "Trainium联合设计"
-        }
-      ],
-      "competitors": [
-        {
-          "company": "Microsoft Azure",
-          "ticker": "MSFT",
-          "area": "云计算",
-          "note": "AzurevsAWS"
-        },
-        {
-          "company": "Google Cloud",
-          "ticker": "GOOGL",
-          "area": "云计算+AI芯片",
-          "note": "TPU vs Trainium"
-        },
-        {
-          "company": "阿里云",
-          "note": "全球份额4%，中国市场份额36%居首，亚太优势"
-        },
-        {
-          "company": "Oracle OCI",
-          "note": "全球份额3%，增速66%，主打多云互联+数据库"
-        }
-      ],
-      "tags": [],
-      "website": "https://www.amazon.com",
+      "type": "unknown",
+      "industry": "",
+      "layer": 0,
+      "tam": 0.0,
+      "cagr": 0.0,
+      "margin": "",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Amazon(AWS)\n\n全球最大公有云AWS+自研Trainium AI芯片+Anthropic战略联盟，AI基础设施全栈巨头\n\n## 财务状况\n\n| 指标 | FY2023 | FY2024 | FY2025 |\n|------|--------|--------|--------|\n| 总营收($B) | 574 | 638 | 698 |\n| AWS营收($B) | 91 | 105 | 122 |\n| AWS营业利润($B) | 25 | 32 | 40 |\n| 营业利润率 | 6.4% | 9.0% | 10.5% |\n\nAWS贡献全公司约**65%的营业利润**，是利润核心。AI业务（Bedrock/SageMaker/Trainium）是AWS增长最快板块。FY2025 CapEx约**$85B**，绝大部分投向AI数据中心。\n\n## 产品线详解\n\n- **AWS云计算**：全球市占率约**32%**（领先Azure 23%、GCP 12%）。核心AI服务：Amazon Bedrock（多模型API）、SageMaker AI（ML训练推理）、Q Developer（AI编程助手）\n- **自研AI芯片**：**Trainium2**（训练芯片，EC2 Trn2实例，对标H100）、**Trainium3**（2025年发布，3nm制程，性能3x提升）、**Inferentia3**（推理芯片，成本比GPU低40%）\n- **Project Rainier**：与Anthropic合作的**10万+ Trainium芯片超算集群**（2025年上线），全球最大AI训练集群之一\n- **Anthropic生态**：累计投资**$8B**，Claude 4系列模型通过Bedrock独家分发，深度绑定\n- **电商+AI**：Rufus AI购物助手、AI仓储机器人（Sparrow/Proteus）、AI物流优化\n\n## 技术路线图\n\n- **Trainium3**：2025年发布，**3nm**制程，性能3x vs Trainium2，支持FP8/FP4混合精度训练，2026年大规模部署\n- **Inferentia3**：2026年，推理延迟降低50%，成本比GPU方案低40%\n- **Ultracluster**：2026-2027年，**20万+ Trainium3芯片**集群，面向AGI级训练（万亿参数模型）\n- **Nova模型家族**：自研LLM，对标GPT-5/Gemini，2025年发布Nova Pro/Ultra\n- **Graviton5**：ARM服务器CPU，2026年，数据中心能效比提升30%\n- **Project Kuiper**：卫星互联网，对标Starlink，2026年商用，低延迟边缘AI推理节点\n\n\n## 融资与现金流\n\n- 详见财务状况章节\n## 研发投入与专利\n\n| 指标 | FY2023 | FY2024 | FY2025 |\n|------|--------|--------|--------|\n| R&D($B) | 73 | 82 | 90 |\n| R&D占营收 | 12.7% | 12.9% | 12.9% |\n| CapEx($B) | 53 | 68 | 85 |\n\n- 全球专利组合超过**30,000项**（含AWS云计算+AI芯片+仓储机器人+卫星通信）\n- **核心技术壁垒**：Trainium/Inferentia自研芯片降低对外部GPU依赖；AWS全球105个可用区+32个区域网络基础设施；Anthropic独家合作+自研Nova双轨AI策略；全球最大电商物流网络的AI优化数据飞轮\n- AI/ML领域专利超过**8,000项**，集中在分布式训练架构、模型压缩推理、AI芯片互联拓扑",
-      "content_preview": "# Amazon(AWS)\n\n> 全球最大云计算厂商，运营AWS云+自研Trainium AI训练芯片+Inferentia推理芯片，通过云计算+AI芯片+电商实现盈利，位于AI算力L4终端应用层 | 全球最大公有云AWS+自研Trainium AI芯片+Anthropic战略联盟，AI基础设施全栈巨头",
-      "sources": ""
+      "content": "# amazon-aws\n\n> **** · L0 · TAM **$0.0B** · CAGR **0.0%**\n\n全球最大公有云AWS+自研Trainium AI芯片+Anthropic战略联盟，AI基础设施全栈巨头",
+      "_heat": 0.0,
+      "description": "全球最大公有云AWS+自研Trainium AI芯片+Anthropic战略联盟，AI基础设施全栈巨头",
+      "cost_share_pct": null,
+      "cost_share_context": "",
+      "profit_pool_pct": null,
+      "profit_pool_context": "",
+      "price_conduction": "",
+      "competition": "",
+      "key_trends": "",
+      "sources": "",
+      "key_inputs": "",
+      "key_customers": "",
+      "value_add": "",
+      "companies": [],
+      "contradictions": [],
+      "related_theses": [],
+      "updated": ""
     },
     {
       "name": "JSR Corporation",
@@ -28408,7 +28303,7 @@
       "type": "company",
       "country": "US",
       "ticker": "MSFT",
-      "one_liner": "全球最大软件和云计算公司，运营Azure云+自研Maia AI芯片+Copilot AI助手，通过软件订阅+云计算+AI API实现盈利，位于AI算力L4终端应用层——NVIDIA GPU最大采购方",
+      "one_liner": "全球最大软件和云计算公司，运营Azure云+自研Maia AI芯片+Copilot AI助手，通过软件订阅+云计算+AI API实现盈利，位于AI算力L4终端应用层——NVIDIA GPU最大采购方\n【2026.8.5更新】Q4 FY2026营收$900亿(+18%), Azure +43%加速超预期(Q1 FY2027指引45%), 经营利润$406亿(+18%)利润率未降, FCF $196亿唯一未崩云巨头, 签单$774亿回血, RPO $6780亿。\n",
       "description": "从自研AI芯片到Copilot应用的全球最强全栈AI帝国——Azure云年收入$750亿且增速高达34%，作为OpenAI独家算力合作伙伴，M365 Copilot正重塑全球数亿企业用户的工作方式。",
       "core_business": [
         "智能云Azure平台（计算/存储/AI推理，年营收超$750亿，增速40%）",
@@ -28417,13 +28312,13 @@
         "自研AI芯片（Maia 200加速器性能/瓦提升40%、Cobalt ARM CPU覆盖近半区域）",
         "GitHub与开发者工具（GitHub Copilot 2600万开发者、80%新用户首周启用）"
       ],
-      "revenue_model": "云订阅+消费量付费+AI增值三层模式，FY2025全年营收$2817亿（净利润$1018亿），Azure年营收超$750亿，AI业务年化$370亿（同比+123%），剩余履约义务$627亿；向混合消费模型转型，近60%客户已转为用量制积分。",
+      "revenue_model": "云订阅+消费量付费+AI增值三层模式，FY2025全年营收$2817亿（净利润$1018亿），Azure年营收超$750亿，AI业务年化$370亿（同比+123%）。Q4 FY2026 RPO积压$6780亿（+$500亿 QoQ），新签$774亿；向混合消费模型转型，近60%客户已转为用量制积分。Copilot从月费转向按用量计费（Github Copilot 6月起）。",
       "founded": 1975,
       "headquarters": "美国华盛顿州雷德蒙德",
-      "employees": "~228,000",
-      "latest_revenue": "Q1 2026 $82.9B（+18% YoY），Azure +40%，AI年化$37B+",
+      "employees": "~123,000（Q4 FY2026，财年内减员约5千，裁撤人头换AI投入）",
+      "latest_revenue": "Q4 FY2026（截至2026.6）$900亿（+17.7% YoY），Azure +43%，Q1 FY2027指引45%，经营利润$406亿（+18% YoY）",
       "market_cap": "~$3.2T",
-      "data_freshness_date": "2026-07-23",
+      "data_freshness_date": "2026-07-30",
       "industry": "AI算力",
       "segments": [
         "AI Agent",
@@ -28532,8 +28427,8 @@
       "website": "https://www.microsoft.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Microsoft\n\n从自研AI芯片到Copilot应用的全球最强全栈AI帝国——Azure云年收入$750亿且增速高达34%，作为OpenAI独家算力合作伙伴，M365 Copilot正重塑全球数亿企业用户的工作方式。\n\n## 财务状况\n\n| 指标 | FY2023 | FY2024 | FY2025 |\n|------|--------|--------|--------|\n| 总营收 | $2119亿 | $2451亿 | $2817亿 |\n| 运营利润 | $977亿 | $1094亿 | $1285亿 |\n| Azure增速 | ~27% | ~29% | **34%** |\n| 净利润 | $824亿 | $881亿 | $1018亿 |\n\n**Azure AI成增长主引擎**：Azure年收入突破$750亿，Q4单季增速高达39%。AI服务已连续多个季度贡献Azure增长的显著份额（约12-13个百分点），预计AI年化收入run rate即将突破$150亿。微软云（含Azure+M365 Commercial+其他）Q4单季收入$467亿，同比+27%，是公司营收最大增长极。\n\n## 产品线详解\n\n- **Azure AI**：全球第二大公有云，市场份额约24%，提供OpenAI全系列模型（GPT-4o/o3）、自研Phi小模型及AI Foundry一站式开发平台，作为OpenAI**独家算力供应商**构建了不可复制的竞争壁垒\n- **M365 Copilot**：深度嵌入Word、Excel、Teams、Outlook等办公套件，按月付费每用户$30，面向全球超4亿商用Office用户群体，是企业级AI变现的标杆模式\n- **GitHub Copilot**：开发者AI编程助手，已积累180万+付费用户，牢牢占据AI编码工具赛道第一\n- **Dynamics 365 + Copilot**：CRM与ERP系统内置AI代理，季度增速达23%\n- **全球数据中心**：覆盖60+Azure区域、超300座数据中心，FY2025资本开支突破$500亿用于AI算力基础设施扩建\n\n## 技术路线图\n\n**短期（2025-2026）**：\n- Azure AI加速全球扩容，新增区域以GPU集群（NVIDIA H100/B200）为核心\n- **Maia 100**自研AI芯片量产部署，降低对外部GPU依赖\n- Copilot代理（Agent）功能上线，实现跨应用自动化工作流\n- 与OpenAI合作升级，Stargate超级计算机项目持续推进\n\n**中期（2026-2028）**：\n- Maia 200下一代芯片流片，瞄准训练+推理全场景\n- AI基础设施年CapEx维持$600亿+水平\n- Copilot深度融入Windows/Edge/Bing，AI原生OS雏形显现\n\n\n## 融资与现金流\n\n- 详见财务状况章节\n## 研发投入与专利\n\n- **FY2025研发支出**：约**$320亿+**，占总营收11%+，全球科技公司中绝对金额最大\n- **AI专利布局**：全球AI相关专利超10万项，覆盖大模型训练、推理优化、AI安全对齐、小模型压缩\n- **OpenAI生态壁垒**：累计投资OpenAI超**$130亿**（含算力券），获得其盈利分配权（上限约$920亿），是唯一可将OpenAI模型嵌入全线产品的公司\n- **人才密度**：AI研究团队超5000人，囊括多名图灵奖得主及Transformer核心发明人\n- 研发聚焦五大方向：**AI基础设施、AI应用层、量子计算、混合现实、网络安全**",
-      "content_preview": "# Microsoft\n\n> 全球最大软件和云计算公司，运营Azure云+自研Maia AI芯片+Copilot AI助手，通过软件订阅+云计算+AI API实现盈利，位于AI算力L4终端应用层——NVIDIA GPU最大采购方 | 从自研AI芯片到Copilot应用的全球最强全栈AI帝国——Azure云年收入$750亿且增速高达34%，作为OpenAI独家算力合作伙伴，M365 Copilot正重塑全球数亿企业用户的工作方式。",
+      "content": "# Microsoft\n\n从自研AI芯片到Copilot应用的全球最强全栈AI帝国——Azure云年收入$750亿且增速高达34%，作为OpenAI独家算力合作伙伴，M365 Copilot正重塑全球数亿企业用户的工作方式。\n\n## 财务状况\n\n| 指标 | FY2023 | FY2024 | FY2025 | Q4 FY2026 |\n|------|--------|--------|--------|-----------|\n| 总营收 | $2119亿 | $2451亿 | $2817亿 | **$900亿**（单季，+17.7% YoY） |\n| 运营利润 | $977亿 | $1094亿 | $1285亿 | **$406亿**（单季，+18% YoY） |\n| Azure增速 | ~27% | ~29% | **34%** | **43%**（Q4，Q1 FY2027指引45%） |\n| 净利润 | $824亿 | $881亿 | $1018亿 | —（单季未披露） |\n\n**Azure AI成增长主引擎**：Azure年收入突破$750亿，Q4单季增速高达39%。AI服务已连续多个季度贡献Azure增长的显著份额（约12-13个百分点），预计AI年化收入run rate即将突破$150亿。微软云（含Azure+M365 Commercial+其他）Q4单季收入$467亿，同比+27%，是公司营收最大增长极。\n\n### Q4 FY2026 详情（截至2026.6）\n\n- **Capex**：$410亿（含资本租赁），现金性Capex约$365亿；下季度指引$500亿。FY2026自然年从$190B→$175B是会计调整（资本租赁分类变动），实际指引未变。短周期资产（服务器等）占比从50%拉至2/3+，意味着摊销折旧反噬尚未到来\n- **现金流**：经营流入单季$550亿，FCF约$196亿（同比-23%），预计FY2027全年FCF勉强守住\n- **新签合同**：单季签$774亿（恢复增长），RPO积压至$6780亿（+$500亿 QoQ），远超当季确认收入$593亿\n- **经营利润率**：小幅上扬（未降），智慧云板块经营利润率40.4%同比维稳；靠经营杠杆+裁员降本（财年减员5千至12.3万）\n- **生产力板块**：商业M365云+14%，E7定价$99/月（单独买$120的打包折扣），通过做高附加值产品渗透率实现ASP名降实升\n- **个人计算**：-5%（好于预期-10%），Windows OEM -7%（预期-15%+），搜索广告+7%（剔汇率+10%）\n\n## 产品线详解\n\n- **Azure AI**：全球第二大公有云，市场份额约24%，提供OpenAI全系列模型（GPT-4o/o3）、自研Phi小模型及AI Foundry一站式开发平台，作为OpenAI**独家算力供应商**构建了不可复制的竞争壁垒\n- **M365 Copilot**：深度嵌入Word、Excel、Teams、Outlook等办公套件，按月付费每用户$30，面向全球超4亿商用Office用户群体，是企业级AI变现的标杆模式\n- **GitHub Copilot**：开发者AI编程助手，已积累180万+付费用户，牢牢占据AI编码工具赛道第一\n- **Dynamics 365 + Copilot**：CRM与ERP系统内置AI代理，季度增速达23%\n- **全球数据中心**：覆盖60+Azure区域、超300座数据中心，FY2025资本开支突破$500亿用于AI算力基础设施扩建\n\n## 技术路线图\n\n**短期（2025-2026）**：\n- Azure AI加速全球扩容，新增区域以GPU集群（NVIDIA H100/B200）为核心\n- **Maia 100**自研AI芯片量产部署，降低对外部GPU依赖\n- Copilot代理（Agent）功能上线，实现跨应用自动化工作流\n- 与OpenAI合作升级，Stargate超级计算机项目持续推进\n- **【2026.8更新】** Azure Q4 FY2026同增43%→Q1 FY2027指引45%，确定性进入加速通道；Github Copilot 6月起从月费转向按用量计费；OAI 7月GPT 5.6发布将继续拉动云用量；商业M365推E7($99/月打包Copilot+Agent+安全)拉升ASP\n\n**中期（2026-2028）**：\n- Maia 200下一代芯片流片，瞄准训练+推理全场景\n- AI基础设施年CapEx维持$600亿+水平\n- Copilot深度融入Windows/Edge/Bing，AI原生OS雏形显现\n\n\n## 融资与现金流\n\n- 详见财务状况章节\n## 研发投入与专利\n\n- **FY2025研发支出**：约**$320亿+**，占总营收11%+，全球科技公司中绝对金额最大\n- **AI专利布局**：全球AI相关专利超10万项，覆盖大模型训练、推理优化、AI安全对齐、小模型压缩\n- **OpenAI生态壁垒**：累计投资OpenAI超**$130亿**（含算力券），获得其盈利分配权（上限约$920亿），是唯一可将OpenAI模型嵌入全线产品的公司\n- **人才密度**：AI研究团队超5000人，囊括多名图灵奖得主及Transformer核心发明人\n- 研发聚焦五大方向：**AI基础设施、AI应用层、量子计算、混合现实、网络安全**\n\n### 2026.8.5 Q4 FY2026 更新\n\n**Azure确定性重启加速**：Q4同比+43%（超乐观预期42%），Q1 FY2027指引45%，管理层明确下半年整体比上半年加速。催化因素：(1) OAI 7月GPT 5.6发布带动云用量加速；(2) Github Copilot 6月从月费转向按用量计费；(3) RPO $6780亿提供收入确认储备。\n\n**后OAI时代客户多元化见效**：微软与OAI貌合神离后，Azure增速曾放缓、办公软件AI化落地难产。但本季Azure加速+签单回血（$774亿），说明客户多元化策略开始取得成效。模型/芯片自研虽弱，但增长有力+估值折价（相对同行）+利润率稳+现金流不崩=具备性价比。\n\n**Capex与摊销的错配窗口**：短周期资产（服务器等）占比从50%拉到2/3+，意味着现有Capex转化为折旧的速度快于长周期资产（数据中心建筑），但当前摊销折旧额同比几乎零增，折旧反噬尚未到来。需持续关注短周期资产占比变化对后续利润率的影响。\n\n## 动态更新记录\n\n- 2026.8.5: Q4 FY2026财报更新（海豚研究）— Azure 43%加速超预期、Capex $410亿克制、FCF $196亿未崩、签单$774亿回血、RPO $6780亿、经营利润率未降。新增Q4 FY2026详情小节 + 财务状况表Q4列 + revenue_model/one_liner/description/employees字段更新。input_id: input_20260805_002",
+      "content_preview": "# Microsoft\n\n> 全球最大软件和云计算公司，运营Azure云+自研Maia AI芯片+Copilot AI助手，通过软件订阅+云计算+AI API实现盈利，位于AI算力L4终端应用层——NVIDIA GPU最大采购方\n【2026.8.5更新】Q4 FY2026营收$900亿(+18%), Azure +43%加速超预期(Q1 FY2027指引45%), 经营利润$406亿(+18%)利润率未降, FCF $196亿唯一未崩云巨头, 签单$774亿回血, RPO $6780亿。\n | 从自研AI芯片到Copilot应用的全球最强全栈AI帝国——Azure云年收入$750亿且增速高达34%，作为OpenAI独家算力合作伙伴，M365 Copilot正重塑全球数亿企业用户的工作方式。",
       "sources": ""
     },
     {
@@ -37241,10 +37136,10 @@
         }
       },
       {
-        "name": "Amazon(AWS)",
+        "name": "amazon-aws",
         "symbolSize": 12,
         "itemStyle": {
-          "color": "#34C759"
+          "color": "#86868B"
         }
       },
       {

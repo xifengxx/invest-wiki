@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-23T16:21:24.314Z",
+  "updated": "2026-08-05T03:51:35.577Z",
   "patterns": [
     {
       "id": "pattern-005",
@@ -8,13 +8,13 @@
       "language": "unknown",
       "description": "index.html — db 패턴 (unknown)",
       "score": 100,
-      "success_count": 87,
+      "success_count": 95,
       "failure_count": 0,
       "tags": [
         "db"
       ],
       "created": "2026-07-20T10:27:34.581Z",
-      "updated": "2026-07-23T16:21:24.311Z"
+      "updated": "2026-08-05T03:48:26.996Z"
     },
     {
       "id": "pattern-001",
@@ -22,13 +22,13 @@
       "language": "unknown",
       "description": "index.html — ui 패턴 (unknown)",
       "score": 100,
-      "success_count": 142,
+      "success_count": 144,
       "failure_count": 0,
       "tags": [
         "ui"
       ],
       "created": "2026-07-20T10:07:18.304Z",
-      "updated": "2026-07-23T16:06:35.876Z"
+      "updated": "2026-07-29T07:24:52.817Z"
     },
     {
       "id": "pattern-011",
@@ -36,13 +36,13 @@
       "language": "unknown",
       "description": "cowos-bottleneck-2027.md — deploy 패턴 (unknown)",
       "score": 100,
-      "success_count": 35,
+      "success_count": 37,
       "failure_count": 0,
       "tags": [
         "deploy"
       ],
       "created": "2026-07-20T15:52:10.483Z",
-      "updated": "2026-07-23T02:21:57.199Z"
+      "updated": "2026-08-05T03:48:40.625Z"
     },
     {
       "id": "pattern-008",
@@ -50,13 +50,13 @@
       "language": "unknown",
       "description": "SKILL.md — auth 패턴 (unknown)",
       "score": 100,
-      "success_count": 36,
+      "success_count": 38,
       "failure_count": 0,
       "tags": [
         "auth"
       ],
       "created": "2026-07-20T15:47:46.391Z",
-      "updated": "2026-07-23T14:12:29.553Z"
+      "updated": "2026-08-05T03:33:40.292Z"
     },
     {
       "id": "pattern-007",
@@ -64,13 +64,13 @@
       "language": "unknown",
       "description": "2026-07-20-Invest-Wiki-全量基线快照.md — api 패턴 (unknown)",
       "score": 100,
-      "success_count": 28,
+      "success_count": 29,
       "failure_count": 0,
       "tags": [
         "api"
       ],
       "created": "2026-07-20T15:05:36.670Z",
-      "updated": "2026-07-23T13:54:41.992Z"
+      "updated": "2026-08-05T03:47:37.426Z"
     },
     {
       "id": "pattern-020",
@@ -78,27 +78,27 @@
       "language": "unknown",
       "description": "cpo.md — test 패턴 (unknown)",
       "score": 100,
-      "success_count": 60,
+      "success_count": 65,
       "failure_count": 0,
       "tags": [
         "test"
       ],
       "created": "2026-07-21T03:06:52.529Z",
-      "updated": "2026-07-23T09:36:44.124Z"
+      "updated": "2026-08-05T03:50:56.257Z"
     },
     {
       "id": "pattern-006",
       "category": "general",
       "language": "python",
       "description": "parser.py — general 패턴 (python)",
-      "score": 74,
-      "success_count": 9,
+      "score": 83,
+      "success_count": 12,
       "failure_count": 0,
       "tags": [
         "python"
       ],
       "created": "2026-07-20T15:03:47.490Z",
-      "updated": "2026-07-23T08:53:38.667Z"
+      "updated": "2026-07-27T08:13:11.200Z"
     },
     {
       "id": "pattern-016",
@@ -982,85 +982,121 @@
       "id": "pattern-081",
       "category": "general",
       "language": "unknown",
-      "description": "2026-07-24-AI投资回报鸿沟-论点来源.md — general 패턴 (unknown)",
+      "description": "amd.md — general 패턴 (unknown)",
       "score": 50,
       "success_count": 1,
       "failure_count": 0,
       "tags": [],
-      "created": "2026-07-23T10:43:34.330Z",
-      "updated": "2026-07-23T10:43:34.330Z"
+      "created": "2026-08-05T03:33:52.902Z",
+      "updated": "2026-08-05T03:33:52.902Z"
     },
     {
       "id": "pattern-082",
       "category": "general",
       "language": "unknown",
-      "description": "ai-capex-roi-divergence.md — general 패턴 (unknown)",
+      "description": "microsoft.md — general 패턴 (unknown)",
       "score": 50,
       "success_count": 1,
       "failure_count": 0,
       "tags": [],
-      "created": "2026-07-23T10:44:07.423Z",
-      "updated": "2026-07-23T10:44:07.424Z"
+      "created": "2026-08-05T03:48:04.070Z",
+      "updated": "2026-08-05T03:48:04.071Z"
     },
     {
       "id": "pattern-083",
       "category": "general",
       "language": "unknown",
-      "description": "2026-07-24-微信公众号-AI产业机会-第五篇-逃生路线图.md — general 패턴 (unknown)",
+      "description": "microsoft.md — general 패턴 (unknown)",
       "score": 50,
       "success_count": 1,
       "failure_count": 0,
       "tags": [],
-      "created": "2026-07-23T14:11:59.026Z",
-      "updated": "2026-07-23T14:11:59.027Z"
+      "created": "2026-08-05T03:48:49.139Z",
+      "updated": "2026-08-05T03:48:49.140Z"
     },
     {
       "id": "pattern-084",
       "category": "general",
       "language": "unknown",
-      "description": "tesla.md — general 패턴 (unknown)",
+      "description": "microsoft.md — general 패턴 (unknown)",
       "score": 50,
       "success_count": 1,
       "failure_count": 0,
       "tags": [],
-      "created": "2026-07-23T14:27:20.394Z",
-      "updated": "2026-07-23T14:27:20.397Z"
+      "created": "2026-08-05T03:49:06.414Z",
+      "updated": "2026-08-05T03:49:06.415Z"
     },
     {
       "id": "pattern-085",
       "category": "general",
       "language": "unknown",
-      "description": "CLAUDE.md — general 패턴 (unknown)",
+      "description": "microsoft.md — general 패턴 (unknown)",
       "score": 50,
       "success_count": 1,
       "failure_count": 0,
       "tags": [],
-      "created": "2026-07-23T16:04:49.686Z",
-      "updated": "2026-07-23T16:04:49.686Z"
+      "created": "2026-08-05T03:49:15.624Z",
+      "updated": "2026-08-05T03:49:15.625Z"
     },
     {
       "id": "pattern-086",
       "category": "general",
       "language": "unknown",
-      "description": "CLAUDE.md — general 패턴 (unknown)",
+      "description": "amazon-aws.md — general 패턴 (unknown)",
       "score": 50,
       "success_count": 1,
       "failure_count": 0,
       "tags": [],
-      "created": "2026-07-23T16:04:55.022Z",
-      "updated": "2026-07-23T16:04:55.025Z"
+      "created": "2026-08-05T03:49:52.316Z",
+      "updated": "2026-08-05T03:49:52.318Z"
     },
     {
       "id": "pattern-087",
       "category": "general",
       "language": "unknown",
-      "description": "CLAUDE.md — general 패턴 (unknown)",
+      "description": "amazon-aws.md — general 패턴 (unknown)",
       "score": 50,
       "success_count": 1,
       "failure_count": 0,
       "tags": [],
-      "created": "2026-07-23T16:05:39.281Z",
-      "updated": "2026-07-23T16:05:39.283Z"
+      "created": "2026-08-05T03:50:11.110Z",
+      "updated": "2026-08-05T03:50:11.113Z"
+    },
+    {
+      "id": "pattern-088",
+      "category": "general",
+      "language": "unknown",
+      "description": "amazon-aws.md — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-08-05T03:50:32.196Z",
+      "updated": "2026-08-05T03:50:32.197Z"
+    },
+    {
+      "id": "pattern-089",
+      "category": "general",
+      "language": "unknown",
+      "description": "amazon-aws.md — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-08-05T03:50:46.843Z",
+      "updated": "2026-08-05T03:50:46.844Z"
+    },
+    {
+      "id": "pattern-090",
+      "category": "general",
+      "language": "unknown",
+      "description": "microsoft.md — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-08-05T03:51:35.576Z",
+      "updated": "2026-08-05T03:51:35.577Z"
     }
   ],
   "anti_patterns": []
