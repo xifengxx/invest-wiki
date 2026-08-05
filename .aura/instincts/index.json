@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-05T03:51:35.577Z",
+  "updated": "2026-08-05T03:53:27.674Z",
   "patterns": [
     {
       "id": "pattern-005",
@@ -1097,6 +1097,18 @@
       "tags": [],
       "created": "2026-08-05T03:51:35.576Z",
       "updated": "2026-08-05T03:51:35.577Z"
+    },
+    {
+      "id": "pattern-091",
+      "category": "general",
+      "language": "unknown",
+      "description": "amazon-aws.md — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-08-05T03:53:27.673Z",
+      "updated": "2026-08-05T03:53:27.674Z"
     }
   ],
   "anti_patterns": []
