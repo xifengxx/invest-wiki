@@ -155,6 +155,6 @@ AWS贡献全公司约**65%的营业利润**，是利润核心。AI业务（Bedro
 
 ## 动态更新记录
 
-- 2026-08-05 | 海豚研究Q2 FY2026财报分析 | 更新one_liner/latest_revenue/data_freshness_date/description/财务状况/研发投入CapEx/动态更新记录 | input_20260805_002
+- 2026-08-05 | 海豚研究Q2 FY2026财报分析 | 更新one_liner/latest_revenue/data_freshness_date/description/财务状况/研发投入CapEx/动态更新记录 | input_20260805_003
 - 2026-07-23 | Tier 1 A7批次：Amazon AWS 深度覆盖初始化 | 填充14/14字段，创建完整实体
 
