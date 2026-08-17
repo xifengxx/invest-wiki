@@ -1813,6 +1813,10 @@ function renderGraphView(){
   var connCount={};
   links.forEach(function(l){connCount[l.source]=(connCount[l.source]||0)+1;connCount[l.target]=(connCount[l.target]||0)+1;});
   nodes.forEach(function(n){var c=connCount[n.id]||0;n.symbolSize=c===0?6:Math.max(8,Math.min(55,Math.sqrt(c)*14+6));});
+  // 分级显示标签：赛道(产业链骨架)全显示 + 其他类型按连接数取 top 40，其余 hover 显示
+  var otherCounts=nodes.filter(function(n){return n.type!=='segment';}).map(function(n){return connCount[n.id]||0;}).sort(function(a,b){return b-a;});
+  var labelTh=otherCounts[Math.min(24,otherCounts.length-1)]||0;
+  nodes.forEach(function(n){var c=connCount[n.id]||0;n.label={show:n.type==='segment'||c>=labelTh,fontSize:n.type==='segment'?11:9};});
   // Render with ECharts
   if(gh) gh.dispose();
   var dom=document.getElementById('graphChart'); gh=echarts.init(dom);
@@ -1820,7 +1824,7 @@ function renderGraphView(){
   gh.setOption({
     tooltip:{formatter:function(p){if(p.dataType==='node'){var d=p.data;var cnt=connCount[d.id]||0;return'<b>'+d.name+'</b><br>'+typeIcons[d.type]+' '+d.type+' · '+cnt+' 关联';}return'';}},backgroundColor:'#fff',
     legend:{show:false},
-    series:[{type:'graph',layout:'force',roam:true,draggable:true,force:{repulsion:450,edgeLength:[60,200],gravity:0.1,friction:0.6},data:nodes,links:links.slice(0,5000),categories:categories,label:{show:false},emphasis:{focus:'adjacency',lineStyle:{width:4},label:{show:true,fontSize:13,fontWeight:'bold'}},lineStyle:{color:'#B0B8C0',curveness:0,opacity:0.25}}]
+    series:[{type:'graph',layout:'force',roam:true,draggable:true,force:{repulsion:450,edgeLength:[60,200],gravity:0.1,friction:0.6},data:nodes,links:links.slice(0,5000),categories:categories,label:{show:true,fontSize:10,color:'#1D1D1F',formatter:function(p){return p.data&&p.data.type==='segment'?p.name:(p.name.length>14?p.name.slice(0,14)+'…':p.name);}},emphasis:{focus:'adjacency',lineStyle:{width:4},label:{show:true,fontSize:13,fontWeight:'bold'}},lineStyle:{color:'#B0B8C0',curveness:0,opacity:0.25}}]
   });
   gh.on('click',function(p){if(p.dataType==='node'&&p.data&&p.data.id){openDetail(p.data.id);}});
 }
