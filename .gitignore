@@ -25,6 +25,9 @@ build/
 # AuraKit session data (regenerated per session)
 .aura/logs/
 .aura/agent-memory/
+.aura/governance/
+.aura/instincts/
+.aura/snapshots/
 
 # Secrets
 .env

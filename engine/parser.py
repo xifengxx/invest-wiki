@@ -94,10 +94,19 @@ class WikiParser:
         )
 
     def _compute_backlinks(self):
-        """计算每个词条的反向引用（被哪些词条引用）"""
-        # 构建 name→slug 映射（[[中文名]] 也支持）
-        name_to_slug = {e.name: e.slug for e in self.entities.values()}
-        name_to_slug.update({e.slug: e.slug for e in self.entities.values()})
+        """计算每个词条的反向引用（被哪些词条引用）。
+
+        处理跨产业重名：AI算力/半导体存在同名赛道（如"晶圆代工(先进制程)"），
+        单一 name→slug 映射会互相覆盖，导致部分赛道 backlink 被静默清零。
+        这里改用 name→[entities] 多值映射，重名时按引用方的 industry 消歧，
+        无法消歧（如 thesis 无 industry）时全部计入，宁可多算不漏算。
+        """
+        # name → [entities]（同名赛道会有多个）；slug → entity（唯一）
+        name_to_entities: Dict[str, List[Entity]] = {}
+        slug_to_entity: Dict[str, Entity] = {}
+        for e in self.entities.values():
+            name_to_entities.setdefault(e.name, []).append(e)
+            slug_to_entity[e.slug] = e
 
         for entity in self.entities.values():
             entity.backlinks = []
@@ -106,11 +115,32 @@ class WikiParser:
                     continue
                 # 检查 other 是否引用了 entity
                 for link_text in other.wikilinks:
-                    linked_slug = name_to_slug.get(link_text)
-                    if linked_slug == entity.slug:
+                    targets = self._resolve_link_targets(other, link_text, name_to_entities, slug_to_entity)
+                    if any(t.slug == entity.slug for t in targets):
                         entity.backlinks.append(other.name)
                         break
             entity.backlink_count = len(entity.backlinks)
+
+    @staticmethod
+    def _resolve_link_targets(source: Entity, link_text: str,
+                              name_to_entities: Dict[str, List[Entity]],
+                              slug_to_entity: Dict[str, Entity]) -> List[Entity]:
+        """把 wikilink 文本解析为目标实体列表（处理跨产业重名消歧）。"""
+        # 优先 slug 精确匹配
+        if link_text in slug_to_entity:
+            return [slug_to_entity[link_text]]
+        # name 匹配（可能重名）
+        candidates = name_to_entities.get(link_text, [])
+        if len(candidates) <= 1:
+            return candidates
+        # 重名消歧：优先同 industry
+        src_ind = source.frontmatter.get('industry')
+        if src_ind:
+            same = [c for c in candidates if c.frontmatter.get('industry') == src_ind]
+            if same:
+                return same
+        # 无法消歧（source 无 industry 或候选 industry 均不同）→ 全部返回
+        return candidates
 
     def get_entity(self, slug: str) -> Optional[Entity]:
         return self.entities.get(slug)

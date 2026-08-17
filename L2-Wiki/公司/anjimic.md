@@ -3,6 +3,7 @@ name: 安集科技
 slug: anjimic
 country: CN
 type: company
+ticker: "688019"
 updated: 2026-07
 segments:
 - CMP抛光液与抛光垫

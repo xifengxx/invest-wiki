@@ -3,6 +3,7 @@ name: 韦尔股份
 slug: will-semi
 country: CN
 type: company
+ticker: "603501"
 updated: 2026-07
 segments:
 - CIS图像传感器

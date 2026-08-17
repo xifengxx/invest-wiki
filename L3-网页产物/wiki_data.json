@@ -1,11 +1,11 @@
 {
-  "total": 496,
+  "total": 489,
   "by_type": {
     "thesis": 18,
     "segment": 74,
     "concept": 10,
     "industry": 2,
-    "company": 392
+    "company": 385
   },
   "entities": [
     {
@@ -2945,7 +2945,7 @@
       "tam": 33.0,
       "cagr": 16.0,
       "margin": "50-55%",
-      "backlinks": 0,
+      "backlinks": 11,
       "wikilinks": [
         "高纯硅料与硅片",
         "光刻胶与湿化学品",
@@ -2960,7 +2960,7 @@
         "存储芯片(DRAM/NAND)"
       ],
       "content": "# 光刻机\n\n> **半导体** · L2 · TAM **$33.0B** · CAGR **16.0%**\n\n光刻机是芯片制造中**最核心、最昂贵的设备**——通过光学系统将电路图案投影到硅片上。一台EUV光刻机售价超过$3亿，重达180吨，包含超过10万个零部件。|**ASML垄断全球EUV市场（100%份额）和整体光刻机市场83%份额**。FY2025营收€32.7B(+15% YoY)，净利€9.6B，毛利率52.8%。EUV出货48台(€11.6B,+39%)。订单积压€38.8B创纪录(EUV占",
-      "_heat": 4.7,
+      "_heat": 15.4,
       "description": "光刻机是芯片制造中**最核心、最昂贵的设备**——通过光学系统将电路图案投影到硅片上。一台EUV光刻机售价超过$3亿，重达180吨，包含超过10万个零部件。|**ASML垄断全球EUV市场（100%份额）和整体光刻机市场83%份额**。FY2025营收€32.7B(+15% YoY)，净利€9.6B，毛利率52.8%。EUV出货48台(€11.6B,+39%)。订单积压€38.8B创纪录(EUV占66%)。|**High-NA EUV（EXE:5200）是下一代光刻技术**，2025年首批交付Intel(18A HVM)，单台售价$380-400M。Nikon和Canon在DUV中低端市场有一定份额。中国SMEE在90nm量产，28nm浸没式研发中，差距约15年。",
       "cost_share_pct": 25,
       "cost_share_context": "晶圆厂设备(WFE)支出",
@@ -3106,7 +3106,7 @@
       "tam": 5.0,
       "cagr": 12.0,
       "margin": "45-60%",
-      "backlinks": 0,
+      "backlinks": 2,
       "wikilinks": [
         "封装测试(OSAT)",
         "先进封装(CoWoS/3D)",
@@ -3115,7 +3115,7 @@
         "半导体设备零部件"
       ],
       "content": "# 封装基板材料\n\n> **半导体** · L1 · TAM **$5.0B** · CAGR **12.0%**\n\n封装基板是连接芯片与PCB的**「桥梁」**——承担电气连接、机械支撑和散热功能。**ABF（Ajinomoto Build-up Film）是FC-BGA基板的核心绝缘材料**，由日本味之素独家供应（>95%全球份额）。|**AI芯片驱动封装基板层数从14层增加到20+层**，线宽/线距从15/15μm向8/8μm推进。封装基板是仅次于硅片的第二大半导体材料市场。|**味之素ABF膜是FC-BG",
-      "_heat": 0.7,
+      "_heat": 2.7,
       "description": "封装基板是连接芯片与PCB的**「桥梁」**——承担电气连接、机械支撑和散热功能。**ABF（Ajinomoto Build-up Film）是FC-BGA基板的核心绝缘材料**，由日本味之素独家供应（>95%全球份额）。|**AI芯片驱动封装基板层数从14层增加到20+层**，线宽/线距从15/15μm向8/8μm推进。封装基板是仅次于硅片的第二大半导体材料市场。|**味之素ABF膜是FC-BGA产能的最大瓶颈**——ABF扩产速度跟不上AI芯片需求增长，供给短缺预计持续至2028+。全球FC-BGA产能集中在台湾（Unimicron #1）和日本（Ibiden/Shinko），中国深南电路（002916）和鹏鼎控股（002938）正在从传统PCB向FC-BGA转型。",
       "cost_share_pct": 6,
       "cost_share_context": "芯片封装成本",
@@ -3256,7 +3256,7 @@
       "tam": 6.0,
       "cagr": 5.0,
       "margin": "35-45%",
-      "backlinks": 0,
+      "backlinks": 8,
       "wikilinks": [
         "高纯硅料与硅片",
         "光刻机",
@@ -3268,7 +3268,7 @@
         "光刻胶与湿化学品"
       ],
       "content": "# 电子特气\n\n> **半导体** · L1 · TAM **$6.0B** · CAGR **5.0%**\n\n**电子特气是半导体制造的「血液」**——包括刻蚀气体(NF₃/CF₄/SF₆)、沉积气体(SiH₄/NH₃/WF₆)、掺杂气体(PH₃/AsH₃)和清洗气体，一台12寸晶圆厂消耗30-50种不同气体。|**纯度和稳定性是核心竞争力**——先进制程要求气体纯度从5N(99.999%)向6-7N(99.99999%)升级，任何微量杂质都会导致芯片缺陷。NF₃是最大品类($2.5B,2024)，WF₆",
-      "_heat": 0.9,
+      "_heat": 8.7,
       "description": "**电子特气是半导体制造的「血液」**——包括刻蚀气体(NF₃/CF₄/SF₆)、沉积气体(SiH₄/NH₃/WF₆)、掺杂气体(PH₃/AsH₃)和清洗气体，一台12寸晶圆厂消耗30-50种不同气体。|**纯度和稳定性是核心竞争力**——先进制程要求气体纯度从5N(99.999%)向6-7N(99.99999%)升级，任何微量杂质都会导致芯片缺陷。NF₃是最大品类($2.5B,2024)，WF₆增速最快(+12% YoY，3D NAND驱动)。|**全球$6.3B(2025)，Linde(23-25%)、Air Liquide(17-19%)、Air Products(12-14%)、SK Materials(8-10%)四大巨头**。中国中船特气NF₃全球份额18%，国产替代进展在材料中最快。",
       "cost_share_pct": 5,
       "cost_share_context": "晶圆制造成本",
@@ -3582,7 +3582,7 @@
       "tam": 20.0,
       "cagr": 9.0,
       "margin": "40-50%",
-      "backlinks": 0,
+      "backlinks": 9,
       "wikilinks": [
         "半导体设备零部件",
         "溅射靶材",
@@ -3596,7 +3596,7 @@
         "存储芯片(DRAM/NAND)"
       ],
       "content": "# 薄膜沉积设备\n\n> **半导体** · L2 · TAM **$20.0B** · CAGR **9.0%**\n\n薄膜沉积是在硅片表面生长或沉积纳米级厚度薄膜的工艺，是芯片制造中**重复次数最多的步骤之一**。三大主流技术：**CVD（化学气相沉积）、PVD（物理气相沉积/溅射）、ALD（原子层沉积，增速最快）**。|**全球WFE（晶圆厂设备）~$41.4B(2025)，薄膜沉积CR3~75%：AMAT(42%，PVD/CVD#1)、Lam Research(19%，ALD#1)、TEL(14%，CVD/A",
-      "_heat": 2.9,
+      "_heat": 11.6,
       "description": "薄膜沉积是在硅片表面生长或沉积纳米级厚度薄膜的工艺，是芯片制造中**重复次数最多的步骤之一**。三大主流技术：**CVD（化学气相沉积）、PVD（物理气相沉积/溅射）、ALD（原子层沉积，增速最快）**。|**全球WFE（晶圆厂设备）~$41.4B(2025)，薄膜沉积CR3~75%：AMAT(42%，PVD/CVD#1)、Lam Research(19%，ALD#1)、TEL(14%，CVD/ALD)**。ALD是增长最快的细分市场——3D NAND和GAA晶体管对原子级精度的薄膜沉积需求指数增长。|**中国拓荆科技(688072，PECVD国产龙头)和微导纳米(688147，ALD国产龙头)**在国产替代中快速增长。AMAT在PVD/CVD/成熟蚀刻领域正被中国蚕食（每年丢2-4%份额）。AMAT中国收入预计2026降15-20%。",
       "cost_share_pct": 18,
       "cost_share_context": "晶圆厂设备(WFE)支出",
@@ -3736,7 +3736,7 @@
       "tam": 14.0,
       "cagr": 50.0,
       "margin": "45-60%",
-      "backlinks": 0,
+      "backlinks": 11,
       "wikilinks": [
         "先进封装(CoWoS/3D)",
         "封装测试(OSAT)",
@@ -3748,7 +3748,7 @@
         "FPGA"
       ],
       "content": "# Chiplet与异构集成\n\n> **半导体** · L2 · TAM **$14.0B** · CAGR **50.0%**\n\nChiplet将传统单一大芯片拆分为多个功能模块（Compute Die + I/O Die + Memory Die），分别在不同工艺节点制造后再通过先进封装集成——**「分而治之」**。AMD是Chiplet商业化先驱（EPYC的CCD+IOD架构，MI300X使用9颗Chiplet）。|**UCIe 1.0/2.0标准推动Chiplet从私有方案走向开放生态**——Intel/AMD/ARM",
-      "_heat": 2.0,
+      "_heat": 12.7,
       "description": "Chiplet将传统单一大芯片拆分为多个功能模块（Compute Die + I/O Die + Memory Die），分别在不同工艺节点制造后再通过先进封装集成——**「分而治之」**。AMD是Chiplet商业化先驱（EPYC的CCD+IOD架构，MI300X使用9颗Chiplet）。|**UCIe 1.0/2.0标准推动Chiplet从私有方案走向开放生态**——Intel/AMD/ARM/Qualcomm/NVIDIA/TSMC联合制定标准，实现1.6TB/s die-to-die带宽。Chiplet可将芯片设计成本从$500M降至$100M（IP复用）。|**市场$13.6B(2025)→$22.6B(2026)→$168.6B(2030)，CAGR 65%**。TSMC主导先进封装产能(~55%全球份额，CoWoS/SoIC/3DFabric)。",
       "cost_share_pct": 10,
       "cost_share_context": "芯片总成本（设计+制造+封装）",
@@ -3912,7 +3912,7 @@
       "tam": 40.0,
       "cagr": 10.0,
       "margin": "55-70%",
-      "backlinks": 0,
+      "backlinks": 9,
       "wikilinks": [
         "晶圆代工(先进制程)",
         "高纯硅料与硅片",
@@ -3926,7 +3926,7 @@
         "数据中心IDC"
       ],
       "content": "# CPU(服务器级)\n\n> **半导体** · L3 · TAM **$40.0B** · CAGR **10.0%**\n\n服务器CPU是数据中心的**通用计算大脑**——运行OS、管理内存、调度任务、协调GPU/HBM/网络等加速器。**Agentic AI训练让CPU重回数据中心核心**：RL训练循环需大量CPU做编译+验证+Tool Use，CPU:GPU比例从1:8→1:1。|**x86双雄：Intel Xeon(~59-71%单位份额) vs AMD EPYC（收入份额首破41.3%，Q4 2025）**。A",
-      "_heat": 5.7,
+      "_heat": 14.5,
       "description": "服务器CPU是数据中心的**通用计算大脑**——运行OS、管理内存、调度任务、协调GPU/HBM/网络等加速器。**Agentic AI训练让CPU重回数据中心核心**：RL训练循环需大量CPU做编译+验证+Tool Use，CPU:GPU比例从1:8→1:1。|**x86双雄：Intel Xeon(~59-71%单位份额) vs AMD EPYC（收入份额首破41.3%，Q4 2025）**。AMD Turin 192核(Zen 5c/3nm)、Intel Granite Rapids 128核(Intel 3)。AMD ASP是Intel 2x。2026年双方均涨价(Intel 8-10%, AMD 16-17%)。|**ARM阵营快速增长（13-16%份额）**：AWS Graviton(2M+颗,30-40%性价比优势)、NVIDIA Grace(2025出货~2.5M颗, 2x perf/watt vs x86)、Ampere(SoftBank收购)。ARM目标2030年40%份额。中国CPU三路线：海光(x86 AMD授权)+飞腾(ARM)+鲲鹏(ARM)。",
       "cost_share_pct": 25,
       "cost_share_context": "服务器总成本",
@@ -4196,7 +4196,7 @@
       "tam": 15.0,
       "cagr": 7.0,
       "margin": "30-40%",
-      "backlinks": 0,
+      "backlinks": 11,
       "wikilinks": [
         "晶圆代工(先进制程)",
         "成熟制程代工",
@@ -4207,7 +4207,7 @@
         "溅射靶材"
       ],
       "content": "# 高纯硅料与硅片\n\n> **半导体** · L1 · TAM **$15.0B** · CAGR **7.0%**\n\n半导体级多晶硅（纯度99.999999999%即11N）经过拉晶、切割、研磨、抛光等工序制成单晶硅片——芯片制造的**「画布」**。300mm（12英寸）是当前主流尺寸，占全球出货量70%以上。|**全球$14.6B市场(2025)，信越化学(24%/$3.8B)、SUMCO(20%/$3.1B)、环球晶圆(16%/$2.5B)、Siltronic(11%)、SK Siltron(9%)**——T",
-      "_heat": 2.1,
+      "_heat": 12.9,
       "description": "半导体级多晶硅（纯度99.999999999%即11N）经过拉晶、切割、研磨、抛光等工序制成单晶硅片——芯片制造的**「画布」**。300mm（12英寸）是当前主流尺寸，占全球出货量70%以上。|**全球$14.6B市场(2025)，信越化学(24%/$3.8B)、SUMCO(20%/$3.1B)、环球晶圆(16%/$2.5B)、Siltronic(11%)、SK Siltron(9%)**——Top5占>85%份额。日本产35%。|**中国国产化率仅4.2%**——所有半导体材料中最低。NSIG（沪硅产业688126）领衔国产替代，12寸硅片出货量3年10x倍增但全球份额仍微小。先进制程（3nm以下）对硅片缺陷密度要求<0.01 defects/cm²。",
       "cost_share_pct": 10,
       "cost_share_context": "晶圆制造成本",
@@ -4373,12 +4373,12 @@
       "tam": 13.0,
       "cagr": 8.0,
       "margin": "50-60%",
-      "backlinks": 0,
+      "backlinks": 7,
       "wikilinks": [
         "光刻机"
       ],
       "content": "# 检测量测设备\n\n> **半导体** · L2 · TAM **$13.0B** · CAGR **8.0%**\n\n半导体检测量测设备是芯片制造的**「眼睛」**——在数百道工艺步骤后检查晶圆是否合格。分为**缺陷检测**（找出污染、划痕、图案缺陷）和**量测**（测量膜厚、线宽、套刻精度）两大类。|**KLA在全球检测市场的垄断地位堪比ASML在光刻机**——全球$12.6B(2025)，KLA绝对垄断(~50%份额，~7x第二名)。KLA+AMAT+Hitachi+ASML+Onto Innovation ",
-      "_heat": 1.9,
+      "_heat": 8.7,
       "description": "半导体检测量测设备是芯片制造的**「眼睛」**——在数百道工艺步骤后检查晶圆是否合格。分为**缺陷检测**（找出污染、划痕、图案缺陷）和**量测**（测量膜厚、线宽、套刻精度）两大类。|**KLA在全球检测市场的垄断地位堪比ASML在光刻机**——全球$12.6B(2025)，KLA绝对垄断(~50%份额，~7x第二名)。KLA+AMAT+Hitachi+ASML+Onto Innovation Top5占>57%。|**一台先进检测设备价格可达$30-50M，AI+深度学习缺陷分类**是重要技术趋势。KLA先进封装收入从$635M(2025)→$1B(2026)。中国中科飞测(688361)和华峰测控(688200)在细分领域突破。",
       "cost_share_pct": 12,
       "cost_share_context": "晶圆厂设备(WFE)支出",
@@ -4887,7 +4887,7 @@
       "tam": 2.5,
       "cagr": 45.0,
       "margin": "40-55%",
-      "backlinks": 0,
+      "backlinks": 1,
       "wikilinks": [
         "AI芯片设计(Fabless)",
         "CPU(服务器级)",
@@ -4897,7 +4897,7 @@
         "Chiplet与异构集成"
       ],
       "content": "# RISC-V AI芯片\n\n> **半导体** · L4 · TAM **$2.5B** · CAGR **45.0%**\n\nRISC-V是一个**开源指令集架构（ISA）**——任何人可以免费使用和修改，不像x86（Intel/AMD专有）或ARM（高昂授权费+地缘政治限制）。|在AI芯片领域，RISC-V让创业公司以极低成本设计AI加速器（无ISA授权费，$0 vs ARM $10M+）。**Tenstorrent（Jim Keller领衔，RISC-V+Chiplet AI芯片）和Esperanto（千核RISC-",
-      "_heat": 0.4,
+      "_heat": 1.3,
       "description": "RISC-V是一个**开源指令集架构（ISA）**——任何人可以免费使用和修改，不像x86（Intel/AMD专有）或ARM（高昂授权费+地缘政治限制）。|在AI芯片领域，RISC-V让创业公司以极低成本设计AI加速器（无ISA授权费，$0 vs ARM $10M+）。**Tenstorrent（Jim Keller领衔，RISC-V+Chiplet AI芯片）和Esperanto（千核RISC-V AI推理）是两大标杆**。|**中国RISC-V生态全球最活跃**——阿里平头哥玄铁(C910/C920系列)、中科院包云岗团队（香山处理器）、芯来科技。RISC-V AI芯片份额从近乎零(2023)→~2%(2025)→预计10%+(2030)。中国受ARM授权限制（美国制裁）→加速RISC-V替代，地缘政治是最大催化剂。",
       "cost_share_pct": 2,
       "cost_share_context": "AI芯片总市场",
@@ -5042,7 +5042,7 @@
       "tam": 25.0,
       "cagr": 8.0,
       "margin": "40-50%",
-      "backlinks": 0,
+      "backlinks": 11,
       "wikilinks": [
         "半导体设备零部件",
         "电子特气",
@@ -5055,7 +5055,7 @@
         "存储芯片(DRAM/NAND)"
       ],
       "content": "# 刻蚀设备\n\n> **半导体** · L2 · TAM **$25.0B** · CAGR **8.0%**\n\n刻蚀设备用于在硅片上去除不需要的材料，形成电路图案。分为**干法刻蚀（等离子体）和湿法刻蚀（化学溶液）**两大类。3D NAND 400+层和GAA晶体管驱动高深宽比刻蚀（100:1以上）和原子层刻蚀（ALE）需求。|**全球$22.6B(2024)→$34B(2031)，CAGR 6.1%**。三巨头垄断~90%份额：Lam Research(45%，FY2025 +28.4%)、TEL(25%",
-      "_heat": 3.6,
+      "_heat": 14.3,
       "description": "刻蚀设备用于在硅片上去除不需要的材料，形成电路图案。分为**干法刻蚀（等离子体）和湿法刻蚀（化学溶液）**两大类。3D NAND 400+层和GAA晶体管驱动高深宽比刻蚀（100:1以上）和原子层刻蚀（ALE）需求。|**全球$22.6B(2024)→$34B(2031)，CAGR 6.1%**。三巨头垄断~90%份额：Lam Research(45%，FY2025 +28.4%)、TEL(25%)、AMAT(16%，-1.6%被中国蚕食)。|**中国厂商全球份额从1.2%(2021)→6.5%(2025)，增速+30.5%远超外资+9.3%**。中微半导体(688012，CCP刻蚀进入TSMC 5nm验证)和北方华创(002371，品类最全国产设备#1)是国产替代主力。Mizuho预计AMAT 2026中国收入降15-20%。",
       "cost_share_pct": 20,
       "cost_share_context": "晶圆厂设备(WFE)支出",
@@ -5565,7 +5565,7 @@
       "tam": 5.0,
       "cagr": 12.0,
       "margin": "40-55%",
-      "backlinks": 0,
+      "backlinks": 4,
       "wikilinks": [
         "高纯硅料与硅片",
         "光刻机",
@@ -5576,7 +5576,7 @@
         "刻蚀设备"
       ],
       "content": "# 光刻胶与湿化学品\n\n> **半导体** · L1 · TAM **$5.0B** · CAGR **12.0%**\n\n光刻胶是光刻工艺中的**关键耗材**——通过紫外光或极紫外光曝光将掩模版图案转移到硅片上。分为正性和负性两种类型，**分辨率、对比度、灵敏度**是三大核心指标。|**高端光刻胶技术壁垒极高**——ArF浸没式和EUV光刻胶全球仅JSR、TOK、Shin-Etsu、DuPont等少数企业掌握量产能力。EUV光刻胶需满足13.5nm波长分辨率，是光刻胶中最高技术壁垒。|**中国ArF光刻胶国产化率不足",
-      "_heat": 0.7,
+      "_heat": 4.6,
       "description": "光刻胶是光刻工艺中的**关键耗材**——通过紫外光或极紫外光曝光将掩模版图案转移到硅片上。分为正性和负性两种类型，**分辨率、对比度、灵敏度**是三大核心指标。|**高端光刻胶技术壁垒极高**——ArF浸没式和EUV光刻胶全球仅JSR、TOK、Shin-Etsu、DuPont等少数企业掌握量产能力。EUV光刻胶需满足13.5nm波长分辨率，是光刻胶中最高技术壁垒。|**中国ArF光刻胶国产化率不足1%**，KrF约2%，是所有半导体材料中国产化率最低的环节。彤程新材（603650）、南大光电（300346）、上海新阳（300236）正在快速追赶。日本JSR被JIC国有化后，光刻胶已成地缘政治武器。",
       "cost_share_pct": 5,
       "cost_share_context": "晶圆制造成本(光刻工艺)",
@@ -5882,7 +5882,7 @@
       "tam": 170.0,
       "cagr": 24.0,
       "margin": "55-66%",
-      "backlinks": 0,
+      "backlinks": 28,
       "wikilinks": [
         "高纯硅料与硅片",
         "光刻胶与湿化学品",
@@ -5903,7 +5903,7 @@
         "GPU"
       ],
       "content": "# 晶圆代工(先进制程)\n\n> **半导体** · L3 · TAM **$170.0B** · CAGR **24.0%**\n\n晶圆代工是芯片制造的**「工厂模式」**——无晶圆厂设计公司（NVIDIA/AMD/Qualcomm/Apple）将芯片版图交给代工厂在晶圆上刻出物理电路。|**TSMC在先进制程拥有绝对垄断**——全球份额72%(Q1 2026)，3nm/2nm独占>90%。FY2025营收$122.5B(+36% YoY)，毛利率66.2%，净利$40B+。2026 Capex $52-56B(+40% Yo",
-      "_heat": 24.3,
+      "_heat": 51.6,
       "description": "晶圆代工是芯片制造的**「工厂模式」**——无晶圆厂设计公司（NVIDIA/AMD/Qualcomm/Apple）将芯片版图交给代工厂在晶圆上刻出物理电路。|**TSMC在先进制程拥有绝对垄断**——全球份额72%(Q1 2026)，3nm/2nm独占>90%。FY2025营收$122.5B(+36% YoY)，毛利率66.2%，净利$40B+。2026 Capex $52-56B(+40% YoY)。2nm(N2) 2025Q4量产，$30K/wafer(比3nm贵50%)，Apple锁定>50%初期产能，**满单排到2028年**。|**三星2nm GAA良率40-60% vs TSMC 70-80%**，代工份额跌至~7%。Intel 18A(RibbonFET+PowerVia首创)HVM 2025年10月，良率65-75%，运营亏损$10.3B。SMIC受限于DUV光刻机停在7nm（N+2工艺），是中国半导体最大瓶颈。",
       "cost_share_pct": 35,
       "cost_share_context": "芯片制造成本（代工占芯片总成本35-40%）",
@@ -6040,12 +6040,12 @@
       "tam": 18.0,
       "cagr": 13.0,
       "margin": "60-75%",
-      "backlinks": 0,
+      "backlinks": 6,
       "wikilinks": [
         "GPU"
       ],
       "content": "# EDA与IP核\n\n> **半导体** · L2 · TAM **$18.0B** · CAGR **13.0%**\n\n**EDA是芯片设计的「操作系统」**——从架构设计到物理验证的全流程自动化工具。没有EDA，设计一颗1000亿晶体管的AI芯片是不可能的。**IP核是预先设计好、经过验证的可复用电路模块**——现代SoC设计越来越像「搭乐高」，CPU核(ARM)、GPU核、DDR/HBM PHY、PCIe SerDes等都是可购买的IP模块。|**全球EDA+IP市场~$18B(2025)，三巨头CR3>85%",
-      "_heat": 2.6,
+      "_heat": 8.4,
       "description": "**EDA是芯片设计的「操作系统」**——从架构设计到物理验证的全流程自动化工具。没有EDA，设计一颗1000亿晶体管的AI芯片是不可能的。**IP核是预先设计好、经过验证的可复用电路模块**——现代SoC设计越来越像「搭乐高」，CPU核(ARM)、GPU核、DDR/HBM PHY、PCIe SerDes等都是可购买的IP模块。|**全球EDA+IP市场~$18B(2025)，三巨头CR3>85%：Synopsys(FY2025含Ansys $9.56B，积压$11.4B，100%先进节点份额)、Cadence($5.3B，积压$7.8B，硬件仿真55-60%份额)、Siemens EDA($2.2-2.5B)**。3nm工具价格是28nm的3-5倍，95%+客户留存，3-7%年涨价+AI溢价20%。|**AI-EDA增速~20% CAGR**——Synopsys AgentEngineer用LLM/Agentic AI将设计效率提升5倍。超大规模客户(GPU/TPU/AI ASIC)贡献EDA 45%需求，5年前几乎为零。中国华大九天(301269)国产EDA#1，但全流程差距10年+。",
       "cost_share_pct": 5,
       "cost_share_context": "芯片设计成本",
@@ -6184,7 +6184,7 @@
       "tam": 2.5,
       "cagr": 6.0,
       "margin": "30-40%",
-      "backlinks": 0,
+      "backlinks": 3,
       "wikilinks": [
         "高纯硅料与硅片",
         "薄膜沉积设备",
@@ -6193,7 +6193,7 @@
         "刻蚀设备"
       ],
       "content": "# 溅射靶材\n\n> **半导体** · L1 · TAM **$2.5B** · CAGR **6.0%**\n\n溅射靶材是PVD物理气相沉积工艺中的**核心耗材**——高能离子轰击靶材表面，将原子「溅射」出来沉积到硅片形成薄膜。半导体用靶材要求纯度5N+（99.999%以上），品类包括**高纯铜靶、钽靶、钛靶、铝靶和钨靶**。|**靶材是消耗品**——一片12寸晶圆需要溅射数十层薄膜，每道PVD工序都消耗靶材。AI芯片互连层增加⇒高纯钽靶/铜靶需求增长。|**全球~$2.5B市场，日本JX Metals主导",
-      "_heat": 0.4,
+      "_heat": 3.3,
       "description": "溅射靶材是PVD物理气相沉积工艺中的**核心耗材**——高能离子轰击靶材表面，将原子「溅射」出来沉积到硅片形成薄膜。半导体用靶材要求纯度5N+（99.999%以上），品类包括**高纯铜靶、钽靶、钛靶、铝靶和钨靶**。|**靶材是消耗品**——一片12寸晶圆需要溅射数十层薄膜，每道PVD工序都消耗靶材。AI芯片互连层增加⇒高纯钽靶/铜靶需求增长。|**全球~$2.5B市场，日本JX Metals主导(~35%份额)**，Tosoh(15%)、Honeywell(12%)、Plansee(10%)紧随。中国江丰电子(300666)在铜/钽靶细分快速追赶，已进入TSMC供应链。",
       "cost_share_pct": 3,
       "cost_share_context": "晶圆制造成本(PVD工艺)",
@@ -6501,12 +6501,12 @@
       "tam": 9.0,
       "cagr": 12.0,
       "margin": "55-70%",
-      "backlinks": 0,
+      "backlinks": 6,
       "wikilinks": [
         "GPU"
       ],
       "content": "# FPGA\n\n> **半导体** · L3 · TAM **$9.0B** · CAGR **12.0%**\n\nFPGA（Field-Programmable Gate Array）是制造后可通过软件**重新配置其逻辑电路**的芯片——介于ASIC（固定功能）和CPU/GPU（通用计算）之间。核心优势：**硬件级可编程性+微秒级超低延迟**——金融量化交易、网络包处理、信号情报和AI推理中不可替代。|**AMD(Xilinx，#1，~55%份额，Versal AI Edge)和Intel(Altera，#2",
-      "_heat": 1.3,
+      "_heat": 7.1,
       "description": "FPGA（Field-Programmable Gate Array）是制造后可通过软件**重新配置其逻辑电路**的芯片——介于ASIC（固定功能）和CPU/GPU（通用计算）之间。核心优势：**硬件级可编程性+微秒级超低延迟**——金融量化交易、网络包处理、信号情报和AI推理中不可替代。|**AMD(Xilinx，#1，~55%份额，Versal AI Edge)和Intel(Altera，#2，~28%份额，Agilex)**主导CR2>80%。Lattice(~8%)在低功耗FPGA领先。全球市场$9B(2025)。|**中国复旦微电(688385)28nm FPGA量产**，安路科技(688107)和紫光同创快速追赶。国产化率从<5%→15%+。RISC-V+FPGA组合降低硬件设计门槛。",
       "cost_share_pct": 2,
       "cost_share_context": "半导体总市场",
@@ -7778,7 +7778,7 @@
       "tam": 60.0,
       "cagr": 45.0,
       "margin": "45-60%",
-      "backlinks": 0,
+      "backlinks": 18,
       "wikilinks": [
         "GPU",
         "边缘AI",
@@ -7787,7 +7787,7 @@
         "先进封装CoWoS"
       ],
       "content": "# ASIC/AI定制芯片\n\n> **AI算力** · L3 · TAM **$60.0B** · CAGR **45.0%**\n\nASIC是针对特定AI工作负载**定制的芯片**——在特定任务上性能和能效可超越GPU 3-10倍，TCO优势40-65%。Google TPU(Ironwood v7, 4,614 TFLOPS FP8, $13K vs B200 $35K)是最大规模部署。|**JPMorgan预计2027年ASIC出货量(12.5M颗)将超过GPU(10.9M颗)**。Broadcom主导80-85%高端AS",
-      "_heat": 8.6,
+      "_heat": 26.1,
       "description": "ASIC是针对特定AI工作负载**定制的芯片**——在特定任务上性能和能效可超越GPU 3-10倍，TCO优势40-65%。Google TPU(Ironwood v7, 4,614 TFLOPS FP8, $13K vs B200 $35K)是最大规模部署。|**JPMorgan预计2027年ASIC出货量(12.5M颗)将超过GPU(10.9M颗)**。Broadcom主导80-85%高端ASIC市场，AI收入$20B(FY2025)→>$60B(FY2026)→>$150B(FY2027 tracking)，6大客户含Google/Meta/ByteDance/OpenAI/SoftBank/Anthropic。Marvell占10-12%，AWS Trainium 3(3nm)+Microsoft Maia。|ASIC劣势是开发周期18-24个月且灵活性差，但在推理侧渗透率正从20%→40%+快速增长。",
       "cost_share_pct": 20,
       "cost_share_context": "AI推理总成本",
@@ -7968,13 +7968,13 @@
       "tam": 6.0,
       "cagr": 7.0,
       "margin": "30-50%",
-      "backlinks": 9,
+      "backlinks": 2,
       "wikilinks": [
         "晶圆代工(先进制程)",
         "存储芯片(DRAM/NAND)"
       ],
       "content": "# 电子特气\n\n> **AI算力** · L1 · TAM **$6.0B** · CAGR **7.0%**\n\n电子特气是半导体制造的**「血液」**——刻蚀(NF₃/CF₄)、沉积(SiH₄/WF₆)、掺杂(PH₃)和清洗气体，12寸晶圆厂消耗30-50种气体。纯度从5N向6-7N升级。|**全球$6.3B(2025,TECHCET)→$6.8B(2026),CAGR 5%**。NF₃是最大品类($2.5B,2024)，WF₆增速最快(+12% YoY,3D NAND驱动)。**Linde(~23-25%",
-      "_heat": 9.6,
+      "_heat": 2.8,
       "description": "电子特气是半导体制造的**「血液」**——刻蚀(NF₃/CF₄)、沉积(SiH₄/WF₆)、掺杂(PH₃)和清洗气体，12寸晶圆厂消耗30-50种气体。纯度从5N向6-7N升级。|**全球$6.3B(2025,TECHCET)→$6.8B(2026),CAGR 5%**。NF₃是最大品类($2.5B,2024)，WF₆增速最快(+12% YoY,3D NAND驱动)。**Linde(~23-25%),Air Liquide(17-19%),Air Products(12-14%),SK Materials(8-10%)** 四大巨头。|**电子特气在晶圆成本中占~5%，但NF₃/WF₆不可替代**。中国国产替代加速(中船特气NF₃全球18%份额)，但高端品类仍依赖进口。",
       "cost_share_pct": 5,
       "cost_share_context": "芯片制造成本",
@@ -8713,12 +8713,12 @@
       "tam": 14.0,
       "cagr": 50.0,
       "margin": "40-50%",
-      "backlinks": 0,
+      "backlinks": 8,
       "wikilinks": [
         "GPU"
       ],
       "content": "# Chiplet与异构集成\n\n> **AI算力** · L2 · TAM **$14.0B** · CAGR **50.0%**\n\nChiplet将传统单一大芯片拆分为多个功能模块分别制造后集成——**「分而治之」，将设计成本从$500M降至$100M**。AMD是商业化先驱(EPYC CCD+IOD,MI300X 9颗Chiplet,>50%份额)。|**UCIe 1.0/2.0标准推动开放生态**——Intel/AMD/ARM/Qualcomm/NVIDIA/TSMC联合制定，1.6TB/s die-to-die带宽。TS",
-      "_heat": 2.0,
+      "_heat": 9.8,
       "description": "Chiplet将传统单一大芯片拆分为多个功能模块分别制造后集成——**「分而治之」，将设计成本从$500M降至$100M**。AMD是商业化先驱(EPYC CCD+IOD,MI300X 9颗Chiplet,>50%份额)。|**UCIe 1.0/2.0标准推动开放生态**——Intel/AMD/ARM/Qualcomm/NVIDIA/TSMC联合制定，1.6TB/s die-to-die带宽。TSMC主导先进封装产能(~55%全球份额，CoWoS/SoIC)，AMD MI400+Intel Foveros/EMIB+NVIDIA NVLink-C2C各有方案。|**市场$13.6B(2025)→$22.6B(2026)→$168.6B(2030),CAGR 65%**。AI加速器+服务器CPU+HBM驱动，先进封装产能翻倍扩张。",
       "cost_share_pct": 5,
       "cost_share_context": "芯片设计成本",
@@ -8877,7 +8877,7 @@
       "tam": 55.0,
       "cagr": 40.0,
       "margin": "50-60%",
-      "backlinks": 0,
+      "backlinks": 13,
       "wikilinks": [
         "GPU",
         "AI服务器",
@@ -8886,7 +8886,7 @@
         "ASIC/AI定制芯片"
       ],
       "content": "# HBM高带宽内存\n\n> **AI算力** · L2 · TAM **$55.0B** · CAGR **40.0%**\n\nHBM通过**硅通孔（TSV）技术垂直堆叠多层DRAM芯片**，带宽比DDR5高10-20倍。NVIDIA H100使用6颗HBM3提供3.35TB/s带宽，B200升级至192GB HBM3E。|**全球仅三家供应商，2026年全部售罄**——SK Hynix(62%)2026年产能$17.1B预订(+39%)独家供应NVIDIA HBM3E；Micron(21%)2025年放弃消费DRAM全面",
-      "_heat": 7.9,
+      "_heat": 20.5,
       "description": "HBM通过**硅通孔（TSV）技术垂直堆叠多层DRAM芯片**，带宽比DDR5高10-20倍。NVIDIA H100使用6颗HBM3提供3.35TB/s带宽，B200升级至192GB HBM3E。|**全球仅三家供应商，2026年全部售罄**——SK Hynix(62%)2026年产能$17.1B预订(+39%)独家供应NVIDIA HBM3E；Micron(21%)2025年放弃消费DRAM全面转HBM；三星(17%)因HBM3E验证延迟从2024年41%份额暴跌。|**HBM4 2H26量产，NVIDIA Vera Rubin选定三星+SK Hynix独家供应，Micron被排除出初始分配**。HBM3E合约价2026涨20%。",
       "cost_share_pct": 20,
       "cost_share_context": "AI服务器BOM(GPU+HBM)",
@@ -9614,7 +9614,7 @@
       "tam": 40.0,
       "cagr": 20.0,
       "margin": "50-65%",
-      "backlinks": 10,
+      "backlinks": 5,
       "wikilinks": [
         "GPU",
         "AI服务器",
@@ -9623,7 +9623,7 @@
         "AI芯片设计(Fabless)"
       ],
       "content": "# CPU(服务器级)\n\n> **AI算力** · L3 · TAM **$40.0B** · CAGR **20.0%**\n\n服务器CPU是数据中心的**通用计算大脑**——运行OS、管理内存、调度任务和协调加速器。**Agentic AI训练让CPU重回数据中心核心**：RL训练循环需大量CPU做编译+验证+Tool Use。|**x86双雄：Intel Xeon(~59-71%单位份额,但AMD EPYC收入份额首破41.3%**)。AMD Turin 192核(3nm)vs Intel Granite Rapids",
-      "_heat": 15.5,
+      "_heat": 10.6,
       "description": "服务器CPU是数据中心的**通用计算大脑**——运行OS、管理内存、调度任务和协调加速器。**Agentic AI训练让CPU重回数据中心核心**：RL训练循环需大量CPU做编译+验证+Tool Use。|**x86双雄：Intel Xeon(~59-71%单位份额,但AMD EPYC收入份额首破41.3%**)。AMD Turin 192核(3nm)vs Intel Granite Rapids 128核。AMD ASP是Intel 2x。2026双方均涨价(Intel 8-10%,AMD 16-17%)。|**ARM阵营快速增长(13-16%份额)**：AWS Graviton(2M+颗,30-40%性价比优势)、NVIDIA Grace(2025出货~2.5M颗,2x perf/watt vs x86)、Ampere(SoftBank收购)。ARM目标2030年40%份额。",
       "cost_share_pct": 10,
       "cost_share_context": "AI服务器",
@@ -9745,14 +9745,14 @@
       "tam": 15.0,
       "cagr": 8.0,
       "margin": "20-40%",
-      "backlinks": 12,
+      "backlinks": 2,
       "wikilinks": [
         "成熟制程代工",
         "晶圆代工(先进制程)",
         "存储芯片(DRAM/NAND)"
       ],
       "content": "# 高纯硅料与硅片\n\n> **AI算力** · L1 · TAM **$15.0B** · CAGR **8.0%**\n\n半导体级多晶硅(11N纯度)经拉晶/切割/研磨/抛光制成单晶硅片——芯片制造的**「画布」**。300mm(12英寸)是当前主流，占全球出货量70%+。|**全球市场$14.6B(2025)→$20.2B(2030)，CAGR 6.7%**。Top5占>85%份额：**信越化学(24%,$3.8B)、SUMCO(20%,$3.1B)、环球晶圆(16%,$2.5B)、Siltronic(11%,$1",
-      "_heat": 13.9,
+      "_heat": 4.1,
       "description": "半导体级多晶硅(11N纯度)经拉晶/切割/研磨/抛光制成单晶硅片——芯片制造的**「画布」**。300mm(12英寸)是当前主流，占全球出货量70%+。|**全球市场$14.6B(2025)→$20.2B(2030)，CAGR 6.7%**。Top5占>85%份额：**信越化学(24%,$3.8B)、SUMCO(20%,$3.1B)、环球晶圆(16%,$2.5B)、Siltronic(11%,$1.8B)、SK Siltron(9%,$1.4B)**。12英寸晶圆市场$12.9B，日本产35%。|**中国国产化率仅4.2%**(8家国产厂商合计)，NSIG(沪硅产业)领衔国产替代但差距巨大。先进制程对硅片缺陷密度要求<0.01 defects/cm²。",
       "cost_share_pct": 10,
       "cost_share_context": "芯片制造成本",
@@ -10151,13 +10151,13 @@
       "tam": 2.5,
       "cagr": 8.0,
       "margin": "30-40%",
-      "backlinks": 5,
+      "backlinks": 2,
       "wikilinks": [
         "薄膜沉积设备",
         "晶圆代工(先进制程)"
       ],
       "content": "# 溅射靶材\n\n> **AI算力** · L1 · TAM **$2.5B** · CAGR **8.0%**\n\n溅射靶材是PVD工艺**核心耗材**——高能离子轰击靶材表面，溅射原子沉积薄膜。半导体用要求5N+纯度，品类含高纯铜/钽/钛/铝/钨靶。|**全球市场~$2B+，日本JX Metals主导(~30-40%)**，Tosoh、Honeywell、Plansee紧随。中国江丰电子(300666)在铜/钽靶细分快速追赶，已进入TSMC供应链。|AI芯片互连层增加→高纯钽靶/铜靶需求增长。靶材在晶圆成本<",
-      "_heat": 5.2,
+      "_heat": 2.3,
       "description": "溅射靶材是PVD工艺**核心耗材**——高能离子轰击靶材表面，溅射原子沉积薄膜。半导体用要求5N+纯度，品类含高纯铜/钽/钛/铝/钨靶。|**全球市场~$2B+，日本JX Metals主导(~30-40%)**，Tosoh、Honeywell、Plansee紧随。中国江丰电子(300666)在铜/钽靶细分快速追赶，已进入TSMC供应链。|AI芯片互连层增加→高纯钽靶/铜靶需求增长。靶材在晶圆成本<5%但不可替代，国产化率从10%→25%+提升。",
       "cost_share_pct": 3,
       "cost_share_context": "晶圆制造成本",
@@ -10319,7 +10319,7 @@
       "tam": 20.0,
       "cagr": 9.0,
       "margin": "45-55%",
-      "backlinks": 11,
+      "backlinks": 2,
       "wikilinks": [
         "溅射靶材",
         "半导体设备零部件",
@@ -10327,7 +10327,7 @@
         "前驱体与ALD/CVD材料"
       ],
       "content": "# 薄膜沉积设备\n\n> **AI算力** · L2 · TAM **$20.0B** · CAGR **9.0%**\n\n薄膜沉积在硅片表面生长/沉积纳米级厚度薄膜——是芯片制造中**重复次数最多的步骤**。三大技术：CVD(化学气相)、PVD(物理溅射)、ALD(原子层,增速最快)。|**全球WFE~$41.4B(2025)，CR3~75%：AMAT(42%,PVD/CVD)、Lam(19%,ALD)、TEL(14%)**。3D NAND+ GAA驱动原子级ALD需求指数增长。AMAT在PVD/CVD/成熟蚀刻领域",
-      "_heat": 13.6,
+      "_heat": 4.8,
       "description": "薄膜沉积在硅片表面生长/沉积纳米级厚度薄膜——是芯片制造中**重复次数最多的步骤**。三大技术：CVD(化学气相)、PVD(物理溅射)、ALD(原子层,增速最快)。|**全球WFE~$41.4B(2025)，CR3~75%：AMAT(42%,PVD/CVD)、Lam(19%,ALD)、TEL(14%)**。3D NAND+ GAA驱动原子级ALD需求指数增长。AMAT在PVD/CVD/成熟蚀刻领域正被中国蚕食，每年丢2-4%份额。|**中国国产替代加速**：拓荆科技(PECVD龙头)+微导纳米(ALD龙头)。中国半导体设备整体份额从1.2%(2021)→6.5%(2025)，AMAT中国收入预计2026降15-20%。",
       "cost_share_pct": 15,
       "cost_share_context": "芯片制造成本",
@@ -10709,7 +10709,8 @@
         "CIS图像传感器",
         "MCU与嵌入式处理器",
         "功率半导体",
-        "FPGA"
+        "FPGA",
+        "800G/1.6T光模块"
       ],
       "content": "# 自动驾驶\n\n> **AI算力** · L3 · TAM **$48.0B** · CAGR **30.0%**\n\n自动驾驶(Autonomous Driving)是利用AI芯片、多传感器融合(激光雷达/摄像头/毫米波雷达)与端到端神经网络实现车辆自主感知、决策与控制的系统性技术,覆盖从L2+高级辅助驾驶到L4全无人自动驾驶全栈方案,是边缘AI最大规模商用场景。2026年全球AV系统级市场规模约$48B(CAGR~30%),Robotaxi专项服务市场增速最快(CAGR 74.5%,$2.1B→$104B)。|",
       "_heat": 10.8,
@@ -10907,7 +10908,7 @@
         "ASIC/AI定制芯片"
       ],
       "key_customers": [
-        "光模块",
+        "800G/1.6T光模块",
         "散热液冷系统",
         "CIS图像传感器",
         "MCU与嵌入式处理器",
@@ -11032,12 +11033,12 @@
       "tam": 5.0,
       "cagr": 10.0,
       "margin": "40-60%",
-      "backlinks": 5,
+      "backlinks": 1,
       "wikilinks": [
         "晶圆代工(先进制程)"
       ],
       "content": "# 光刻胶与湿化学品\n\n> **AI算力** · L1 · TAM **$5.0B** · CAGR **10.0%**\n\n光刻胶是光刻工艺**关键耗材**——通过UV/EUV曝光将掩模图案转移到硅片。分为正性/负性，**分辨率+对比度+灵敏度**三大核心指标。|**高端光刻胶壁垒极高**——ArF浸没式和EUV光刻胶全球仅JSR、TOK、Shin-Etsu、DuPont等少数企业掌握。EUV光刻胶市场CAGR 25%+。|**中国ArF国产化率<1%，KrF约2%**——是所有半导体材料中国产化率最低环节。彤程新材(",
-      "_heat": 5.6,
+      "_heat": 1.7,
       "description": "光刻胶是光刻工艺**关键耗材**——通过UV/EUV曝光将掩模图案转移到硅片。分为正性/负性，**分辨率+对比度+灵敏度**三大核心指标。|**高端光刻胶壁垒极高**——ArF浸没式和EUV光刻胶全球仅JSR、TOK、Shin-Etsu、DuPont等少数企业掌握。EUV光刻胶市场CAGR 25%+。|**中国ArF国产化率<1%，KrF约2%**——是所有半导体材料中国产化率最低环节。彤程新材(ArF验证中)、南大光电、上海新阳快速追赶。日本JSR/TOK/Shin-Etsu垄断>85%EUV份额。",
       "cost_share_pct": 5,
       "cost_share_context": "芯片制造成本",
@@ -11591,13 +11592,13 @@
       "tam": 13.0,
       "cagr": 9.0,
       "margin": "50-60%",
-      "backlinks": 8,
+      "backlinks": 1,
       "wikilinks": [
         "晶圆代工(先进制程)",
         "存储芯片(DRAM/NAND)"
       ],
       "content": "# 检测量测设备\n\n> **AI算力** · L2 · TAM **$13.0B** · CAGR **9.0%**\n\n半导体检测量测是芯片制造的**「眼睛」**——在数百道工序后检查晶圆是否合格。分为**缺陷检测**(污染/划痕)和**量测**(膜厚/线宽/套刻精度)。|**全球$12.6B(2025)，KLA绝对垄断(~7x第二名份额)**，KLA+AMAT+Hitachi+ASML+Onto Innovation Top5占>57%。KLA先进封装收入从$635M(2025)→$1B(2026)。Onto I",
-      "_heat": 9.7,
+      "_heat": 2.8,
       "description": "半导体检测量测是芯片制造的**「眼睛」**——在数百道工序后检查晶圆是否合格。分为**缺陷检测**(污染/划痕)和**量测**(膜厚/线宽/套刻精度)。|**全球$12.6B(2025)，KLA绝对垄断(~7x第二名份额)**，KLA+AMAT+Hitachi+ASML+Onto Innovation Top5占>57%。KLA先进封装收入从$635M(2025)→$1B(2026)。Onto Innovation Dragonfly获>$240M HBM采购协议至2027年，2026年营收>30%增长。|**一台先进检测设备$30-50M，AI+深度学习缺陷分类**是核心趋势。中国中科飞测+华峰测控在细分突破。",
       "cost_share_pct": 10,
       "cost_share_context": "芯片制造成本",
@@ -11927,7 +11928,7 @@
       "tam": 170.0,
       "cagr": 24.0,
       "margin": "55-66%",
-      "backlinks": 38,
+      "backlinks": 13,
       "wikilinks": [
         "光刻机",
         "溅射靶材",
@@ -11952,7 +11953,7 @@
         "AI芯片设计(Fabless)"
       ],
       "content": "# 晶圆代工(先进制程)\n\n> **AI算力** · L2 · TAM **$170.0B** · CAGR **24.0%**\n\n晶圆代工是芯片制造的**「工厂模式」**——NVIDIA/AMD/Apple将芯片版图交给代工厂在晶圆上刻出物理电路。|**TSMC绝对垄断先进制程**——全球份额72%(Q1 2026)，3nm/2nm独占>90%。FY2025营收$122.5B(+36%)，毛利率66.2%，2026 Capex $52-56B。2nm(N2)Q4 2025量产，$30K/wafer(比3nm贵50%)，App",
-      "_heat": 61.4,
+      "_heat": 37.0,
       "description": "晶圆代工是芯片制造的**「工厂模式」**——NVIDIA/AMD/Apple将芯片版图交给代工厂在晶圆上刻出物理电路。|**TSMC绝对垄断先进制程**——全球份额72%(Q1 2026)，3nm/2nm独占>90%。FY2025营收$122.5B(+36%)，毛利率66.2%，2026 Capex $52-56B。2nm(N2)Q4 2025量产，$30K/wafer(比3nm贵50%)，Apple锁定>50%初期产能，**满单排到2028**。|**三星2nm GAA良率40-60% vs TSMC 70-80%**，代工份额跌至7%。Intel 18A(RibbonFET+PowerVia)HVM 2025年10月良率65-75%，获Microsoft Maia/Amazon定制芯片订单，NVIDIA $5B备选协议。SMIC受限于DUV停在7nm。",
       "cost_share_pct": 35,
       "cost_share_context": "芯片制造成本",
@@ -12137,14 +12138,14 @@
       "tam": 18.0,
       "cagr": 14.0,
       "margin": "80%+",
-      "backlinks": 6,
+      "backlinks": 2,
       "wikilinks": [
         "GPU",
         "AI芯片设计(Fabless)",
         "IC设计服务(Fabless)"
       ],
       "content": "# EDA与IP核\n\n> **AI算力** · L2 · TAM **$18.0B** · CAGR **14.0%**\n\n**EDA是芯片设计的「操作系统」**——从架构设计到物理验证全流程自动化。没有EDA，设计千亿晶体管AI芯片不可能。|**全球EDA+IP市场~$18B(2025)，三巨头CR3>85%**：Synopsys(FY2025含Ansys $9.56B,积压$11.4B,100%先进节点份额)、Cadence($5.3B,积压$7.8B,硬件仿真55-60%份额)、Siemens EDA($2.2-",
-      "_heat": 8.4,
+      "_heat": 4.5,
       "description": "**EDA是芯片设计的「操作系统」**——从架构设计到物理验证全流程自动化。没有EDA，设计千亿晶体管AI芯片不可能。|**全球EDA+IP市场~$18B(2025)，三巨头CR3>85%**：Synopsys(FY2025含Ansys $9.56B,积压$11.4B,100%先进节点份额)、Cadence($5.3B,积压$7.8B,硬件仿真55-60%份额)、Siemens EDA($2.2-2.5B)。3nm工具价格是28nm的3-5x，95%+客户留存，3-7%年涨价+AI溢价20%。|**AI-EDA增速~20% CAGR**——Synopsys AgentEngineer用LLM/Agentic AI将设计效率提升5倍。超大规模客户(GPU/TPU/AI ASIC)贡献EDA 45%需求，5年前几乎为零。",
       "cost_share_pct": 3,
       "cost_share_context": "芯片设计成本",
@@ -13061,14 +13062,14 @@
       "tam": 26.0,
       "cagr": 50.0,
       "margin": "35-50%",
-      "backlinks": 5,
+      "backlinks": 6,
       "wikilinks": [
         "GPU",
         "DSP与光芯片",
         "AI训练集群/超算"
       ],
       "content": "# 800G/1.6T光模块\n\n> **AI算力** · L2 · TAM **$26.0B** · CAGR **50.0%**\n\n光模块将电信号转光信号在光纤中传输，是AI集群GPU间通信的**「数据高速公路」**——集群规模越大，光模块数量和速率需求指数增长。|**800G→1.6T迭代加速**：800G 2025出货~24M只→2026预计63M只，1.6T从0到5-20M只。AI光模块市场$16.5B(2025)→$26B(2026)。|**中国厂商全球主导**：中际旭创(全球28-30%份额,1.6T 50-70%垄",
-      "_heat": 8.6,
+      "_heat": 9.6,
       "description": "光模块将电信号转光信号在光纤中传输，是AI集群GPU间通信的**「数据高速公路」**——集群规模越大，光模块数量和速率需求指数增长。|**800G→1.6T迭代加速**：800G 2025出货~24M只→2026预计63M只，1.6T从0到5-20M只。AI光模块市场$16.5B(2025)→$26B(2026)。|**中国厂商全球主导**：中际旭创(全球28-30%份额,1.6T 50-70%垄断)和新易盛(全球15-18%,LPO独占75%)双寡头格局。核心瓶颈是200G EML激光器芯片——全球缺口20-30%，Lumentum/Coherent订单排至2028。",
       "cost_share_pct": 8,
       "cost_share_context": "AI训练集群网络成本(GPU间互联)",
@@ -13471,13 +13472,13 @@
       "tam": 5.0,
       "cagr": 12.0,
       "margin": "25-35%",
-      "backlinks": 2,
+      "backlinks": 0,
       "wikilinks": [
         "封装测试(OSAT)",
         "先进封装(CoWoS/3D)"
       ],
       "content": "# 封装基板材料\n\n> **AI算力** · L1 · TAM **$5.0B** · CAGR **12.0%**\n\n封装基板连接芯片与PCB的**「桥梁」**——承担电气连接+机械支撑+散热。ABF(Ajinomoto Build-up Film)是FC-BGA核心绝缘材料，日本味之素独家供应。|**AI芯片驱动封装基板层数14→20+层，线宽/线距15/15→8/8μm**。封装基板是仅次于硅片的第二大半导体材料市场。**味之素ABF膜是FC-BGA产能最大瓶颈**。|日本Shinko/Ibiden+台湾Un",
-      "_heat": 2.7,
+      "_heat": 0.7,
       "description": "封装基板连接芯片与PCB的**「桥梁」**——承担电气连接+机械支撑+散热。ABF(Ajinomoto Build-up Film)是FC-BGA核心绝缘材料，日本味之素独家供应。|**AI芯片驱动封装基板层数14→20+层，线宽/线距15/15→8/8μm**。封装基板是仅次于硅片的第二大半导体材料市场。**味之素ABF膜是FC-BGA产能最大瓶颈**。|日本Shinko/Ibiden+台湾Unimicron(#1)主导全球FC-BGA产能。中国深南电路(002916)+鹏鼎控股(002938)从传统PCB向FC-BGA转型。",
       "cost_share_pct": 6,
       "cost_share_context": "芯片封装成本",
@@ -14180,12 +14181,12 @@
       "tam": 9.0,
       "cagr": 12.0,
       "margin": "60-70%",
-      "backlinks": 9,
+      "backlinks": 5,
       "wikilinks": [
         "GPU"
       ],
       "content": "# FPGA\n\n> **AI算力** · L3 · TAM **$9.0B** · CAGR **12.0%**\n\nFPGA是制造后可通过软件**重新配置逻辑电路**的芯片，介于ASIC和CPU/GPU之间。核心优势：硬件级可编程+微秒级超低延迟——金融交易/网络包处理/信号情报/AI推理不可替代。|**AMD(Xilinx)#1、Intel(Altera)#2主导全球FPGA市场**，CR2>80%。AI推理FPGA在微软Azure/AWS有规模化部署。**中国复旦微电(688385)+安路科技(688107",
-      "_heat": 10.1,
+      "_heat": 6.2,
       "description": "FPGA是制造后可通过软件**重新配置逻辑电路**的芯片，介于ASIC和CPU/GPU之间。核心优势：硬件级可编程+微秒级超低延迟——金融交易/网络包处理/信号情报/AI推理不可替代。|**AMD(Xilinx)#1、Intel(Altera)#2主导全球FPGA市场**，CR2>80%。AI推理FPGA在微软Azure/AWS有规模化部署。**中国复旦微电(688385)+安路科技(688107)+紫光同创**快速追赶，国产化率从<5%→15%+。",
       "cost_share_pct": 3,
       "cost_share_context": "AI推理总成本",
@@ -14337,14 +14338,14 @@
       "tam": 25.0,
       "cagr": 8.0,
       "margin": "45-55%",
-      "backlinks": 12,
+      "backlinks": 2,
       "wikilinks": [
         "半导体设备零部件",
         "晶圆代工(先进制程)",
         "存储芯片(DRAM/NAND)"
       ],
       "content": "# 刻蚀设备\n\n> **AI算力** · L2 · TAM **$25.0B** · CAGR **8.0%**\n\n刻蚀设备在硅片上去除不需要材料形成电路图案——分为**干法(等离子体)和湿法(化学)**两大类。|**全球$22.6B(2024)→$34B(2031)，CAGR 6.1%。三巨头垄断~90%：Lam Research(45%,FY2025 +28.4%)、TEL(25%)、AMAT(16%,-1.6%被中国蚕食)**。3D NAND 400+层+GAA驱动高深宽比刻蚀(100:1+)和ALE。|",
-      "_heat": 15.3,
+      "_heat": 5.5,
       "description": "刻蚀设备在硅片上去除不需要材料形成电路图案——分为**干法(等离子体)和湿法(化学)**两大类。|**全球$22.6B(2024)→$34B(2031)，CAGR 6.1%。三巨头垄断~90%：Lam Research(45%,FY2025 +28.4%)、TEL(25%)、AMAT(16%,-1.6%被中国蚕食)**。3D NAND 400+层+GAA驱动高深宽比刻蚀(100:1+)和ALE。|**中国厂商全球份额从1.2%(2021)→6.5%(2025)，增速+30.5%远超外资+9.3%**。中微半导体(AMEC)CCP刻蚀+北方华创(NAURA)PVD/CVD/刻蚀全面开花。Mizuho预计AMAT 2026中国收入降15-20%。",
       "cost_share_pct": 15,
       "cost_share_context": "芯片制造成本",
@@ -14496,13 +14497,13 @@
       "tam": 2.5,
       "cagr": 60.0,
       "margin": "30-50%",
-      "backlinks": 1,
+      "backlinks": 0,
       "wikilinks": [
         "边缘AI",
         "AI芯片设计(Fabless)"
       ],
       "content": "# RISC-V AI芯片\n\n> **AI算力** · L3 · TAM **$2.5B** · CAGR **60.0%**\n\nRISC-V是**开源指令集架构(ISA)**——任何人免费使用修改，不像x86(专有)或ARM(高昂授权)。**在AI芯片领域让创业公司以极低成本设计加速器**。Tenstorrent(Jim Keller)+Esperanto两大标杆。|**中国RISC-V生态最活跃**——阿里平头哥玄铁+中科院包云岗团队。RISC-V AI芯片份额从近乎零(2023)→~2%(2025)→预计10%+(20",
-      "_heat": 1.3,
+      "_heat": 0.4,
       "description": "RISC-V是**开源指令集架构(ISA)**——任何人免费使用修改，不像x86(专有)或ARM(高昂授权)。**在AI芯片领域让创业公司以极低成本设计加速器**。Tenstorrent(Jim Keller)+Esperanto两大标杆。|**中国RISC-V生态最活跃**——阿里平头哥玄铁+中科院包云岗团队。RISC-V AI芯片份额从近乎零(2023)→~2%(2025)→预计10%+(2030)。RISC-V+ASIC降低AI芯片设计门槛→定制芯片成本下降→更多创业公司进入。",
       "cost_share_pct": 1,
       "cost_share_context": "AI芯片设计成本",
@@ -14656,7 +14657,7 @@
       "tam": 33.0,
       "cagr": 12.0,
       "margin": "50%+",
-      "backlinks": 12,
+      "backlinks": 1,
       "wikilinks": [
         "光掩模版",
         "半导体设备零部件",
@@ -14664,7 +14665,7 @@
         "涂胶显影设备(Track)"
       ],
       "content": "# 光刻机\n\n> **AI算力** · L2 · TAM **$33.0B** · CAGR **12.0%**\n\n光刻机是芯片制造中**最核心、最昂贵的设备**——通过光学系统将电路图案投影到硅片上。一台EUV售价>$3亿，重180吨，超10万个零部件。|**ASML垄断全球EUV(100%)和整体光刻机市场83%**。FY2025营收€32.7B(+15%)，净利€9.6B，毛利率52.8%。EUV出货48台(€11.6B,+39%)。订单积压€38.8B创纪录(EUV占66%)。**2026年预计出货60",
-      "_heat": 16.4,
+      "_heat": 5.7,
       "description": "光刻机是芯片制造中**最核心、最昂贵的设备**——通过光学系统将电路图案投影到硅片上。一台EUV售价>$3亿，重180吨，超10万个零部件。|**ASML垄断全球EUV(100%)和整体光刻机市场83%**。FY2025营收€32.7B(+15%)，净利€9.6B，毛利率52.8%。EUV出货48台(€11.6B,+39%)。订单积压€38.8B创纪录(EUV占66%)。**2026年预计出货60+台EUV**，营收€34-40B。SK Hynix下单$8B(30台EUV至2027)。|**High-NA EUV(EXE:5200,$380-400M/台)2025首批交付**，Intel首家HVM采纳(18A)，TSMC推迟3-4年暂不采用。ASML 2030目标€44-60B营收，毛利率56-60%。",
       "cost_share_pct": 20,
       "cost_share_context": "芯片制造成本",
@@ -15036,7 +15037,7 @@
           "relation": "ASIC天然适合Chiplet路线——不同功能模块用不同工艺节点制造"
         }
       ],
-      "backlinks": 10,
+      "backlinks": 7,
       "wikilinks": [
         "Chiplet与异构集成",
         "先进封装CoWoS",
@@ -15107,7 +15108,7 @@
           "relation": "ASIC通常采用CoWoS封装实现HBM集成"
         }
       ],
-      "backlinks": 17,
+      "backlinks": 11,
       "wikilinks": [
         "ASIC/AI定制芯片",
         "GPU",
@@ -15369,7 +15370,7 @@
           "relation": "TSV硅通孔是HBM的核心制造工艺"
         }
       ],
-      "backlinks": 13,
+      "backlinks": 7,
       "wikilinks": [
         "CoWoS先进封装",
         "GPU",
@@ -18868,7 +18869,7 @@
       "slug": "red-avenue",
       "type": "company",
       "country": "CN",
-      "ticker": "",
+      "ticker": "603650",
       "one_liner": "",
       "description": "国内半导体光刻胶龙头，SEMI全球光刻胶八强唯一中国企业，ArF/KrF量产",
       "core_business": [],
@@ -19084,7 +19085,7 @@
       "slug": "leadmicro",
       "type": "company",
       "country": "CN",
-      "ticker": "",
+      "ticker": "688147",
       "one_liner": "",
       "description": "国产ALD设备龙头，28nm High-k ALD量产",
       "core_business": [],
@@ -19475,7 +19476,7 @@
       "slug": "anjimic",
       "type": "company",
       "country": "CN",
-      "ticker": "",
+      "ticker": "688019",
       "one_liner": "",
       "description": "国产CMP抛光液和光刻胶去除剂，先进制程配套",
       "core_business": [],
@@ -21362,7 +21363,7 @@
       "slug": "will-semi",
       "type": "company",
       "country": "CN",
-      "ticker": "",
+      "ticker": "603501",
       "one_liner": "",
       "description": "CMOS图像传感器龙头，车载CIS，AI视觉感知芯片",
       "core_business": [],
@@ -24326,7 +24327,7 @@
       "data_freshness_date": "",
       "industry": "",
       "segments": [
-        "PCB/IC载板"
+        "PCB与IC载板"
       ],
       "chain_layer": "L2",
       "chain_role": "龙头",
@@ -24338,7 +24339,7 @@
       "website": "",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# 沪电股份(002463)\n\n国内AI PCB（印制电路板）龙头企业，专注高多层、高速PCB产品的研发与制造。公司为AI服务器、高端交换机、基站设备等提供高可靠性PCB板，产品广泛应用于数据中心、通信设备、汽车电子等领域。AI算力需求爆发推动高端PCB需求快速增长，公司作为国内少数具备高多层PCB量产能力的企业深度受益。\n\n## 基本信息\n- 国家: 中国\n- 股票代码: 002463",
+      "content": "# 沪电股份(002463)\n\n国内AI PCB（印制电路板）龙头企业，专注高多层、高速PCB产品的研发与制造。公司为AI服务器、高端交换机、基站设备等提供高可靠性PCB板，产品广泛应用于数据中心、通信设备、汽车电子等领域。AI算力需求爆发推动高端PCB需求快速增长，公司作为国内少数具备高多层PCB量产能力的企业深度受益。\n\n## 基本信息\n- 国家: 中国\n- 股票代码: 002463\n- 网站: https://www.wuscn.com",
       "content_preview": "# 沪电股份\n\n> 国内AI PCB龙头，深耕高多层高速PCB板制造，通过AI服务器+交换机PCB批量供货实现盈利，位于产业链L2——AI服务器/交换机PCB核心供应商 | 国内AI PCB（印制电路板）龙头企业，专注高多层、高速PCB产品的研发与制造。公司为AI服务器、高端交换机、基站设备等提供高可靠性PCB板，产品广泛应用于数据中心、通信设备、汽车电子等领域。AI算力需求爆发推动高端PCB需求快速增长，公司作为国内少数具备高多层PCB量产能力的企业深度受益。",
       "sources": ""
     },
@@ -24987,41 +24988,6 @@
       "sources": ""
     },
     {
-      "name": "安集科技",
-      "slug": "anji-microelectronics",
-      "type": "company",
-      "country": "中国",
-      "ticker": "",
-      "one_liner": "",
-      "description": "CMP抛光液国产龙头(#1),科创板688019",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
-      "industry": "",
-      "segments": [
-        "CMP抛光液与抛光垫",
-        "光刻胶与湿化学品"
-      ],
-      "chain_layer": "L1",
-      "chain_role": "核心参与者",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
-      "tags": [],
-      "website": "",
-      "backlinks": 0,
-      "wikilinks": [],
-      "content": "# 安集科技\n\nCMP抛光液国产龙头(#1),科创板688019\n\n## 基本信息\n- 国家: 中国\n- 网站: N/A",
-      "content_preview": "# 安集科技\n\n> CMP抛光液国产龙头(#1),科创板688019",
-      "sources": ""
-    },
-    {
       "name": "Samtec",
       "slug": "samtec",
       "type": "company",
@@ -25359,40 +25325,6 @@
       "sources": ""
     },
     {
-      "name": "拓荆科技",
-      "slug": "tuojing",
-      "type": "company",
-      "country": "CN",
-      "ticker": "",
-      "one_liner": "",
-      "description": "国产CVD/PVD薄膜沉积设备，PECVD/ALD/SACVD",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
-      "industry": "",
-      "segments": [
-        "薄膜沉积设备"
-      ],
-      "chain_layer": "L2",
-      "chain_role": "核心参与者",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
-      "tags": [],
-      "website": "",
-      "backlinks": 0,
-      "wikilinks": [],
-      "content": "# 拓荆科技\n\n国产CVD/PVD薄膜沉积设备，PECVD/ALD/SACVD\n\n## 基本信息\n- 国家: CN\n- 网站: https://www.tuojingtech.com",
-      "content_preview": "# 拓荆科技\n\n> 国产CVD/PVD薄膜沉积设备，PECVD/ALD/SACVD",
-      "sources": ""
-    },
-    {
       "name": "Entegris",
       "slug": "entegris",
       "type": "company",
@@ -25577,40 +25509,6 @@
       "wikilinks": [],
       "content": "# Mistral\n\n欧洲最大开源大模型，Mistral Large和Le Chat\n\n## 基本信息\n- 国家: FR\n- 网站: https://www.mistral.ai",
       "content_preview": "# Mistral\n\n> 欧洲最大开源大模型，Mistral Large和Le Chat",
-      "sources": ""
-    },
-    {
-      "name": "彤程新材",
-      "slug": "tongcheng-new-material",
-      "type": "company",
-      "country": "中国",
-      "ticker": "",
-      "one_liner": "",
-      "description": "ArF光刻胶国产龙头,科创板603650",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
-      "industry": "",
-      "segments": [
-        "光刻胶与湿化学品"
-      ],
-      "chain_layer": "L1",
-      "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
-      "tags": [],
-      "website": "",
-      "backlinks": 0,
-      "wikilinks": [],
-      "content": "# 彤程新材\n\nArF光刻胶国产龙头,科创板603650\n\n## 基本信息\n- 国家: 中国\n- 网站: N/A",
-      "content_preview": "# 彤程新材\n\n> ArF光刻胶国产龙头,科创板603650",
       "sources": ""
     },
     {
@@ -25813,40 +25711,6 @@
       "wikilinks": [],
       "content": "# 联想\n\n全球最大PC和AI服务器厂商之一，ThinkSystem\n\n## 基本信息\n- 国家: CN\n- 网站: https://www.lenovo.com",
       "content_preview": "# 联想\n\n> 全球最大PC和AI服务器厂商之一，ThinkSystem",
-      "sources": ""
-    },
-    {
-      "name": "微导纳米",
-      "slug": "weidao-nano",
-      "type": "company",
-      "country": "中国",
-      "ticker": "",
-      "one_liner": "",
-      "description": "ALD设备国产龙头,科创板688147",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
-      "industry": "",
-      "segments": [
-        "薄膜沉积设备"
-      ],
-      "chain_layer": "L2",
-      "chain_role": "核心参与者",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
-      "tags": [],
-      "website": "",
-      "backlinks": 0,
-      "wikilinks": [],
-      "content": "# 微导纳米\n\nALD设备国产龙头,科创板688147\n\n## 基本信息\n- 国家: 中国\n- 网站: N/A",
-      "content_preview": "# 微导纳米\n\n> ALD设备国产龙头,科创板688147",
       "sources": ""
     },
     {
@@ -26900,40 +26764,6 @@
       "sources": ""
     },
     {
-      "name": "拓荆科技",
-      "slug": "tuojing-technology",
-      "type": "company",
-      "country": "中国",
-      "ticker": "",
-      "one_liner": "",
-      "description": "PECVD设备国产龙头,科创板688072",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
-      "industry": "",
-      "segments": [
-        "薄膜沉积设备"
-      ],
-      "chain_layer": "L2",
-      "chain_role": "核心参与者",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
-      "tags": [],
-      "website": "",
-      "backlinks": 0,
-      "wikilinks": [],
-      "content": "# 拓荆科技\n\nPECVD设备国产龙头,科创板688072\n\n## 基本信息\n- 国家: 中国\n- 网站: N/A",
-      "content_preview": "# 拓荆科技\n\n> PECVD设备国产龙头,科创板688072",
-      "sources": ""
-    },
-    {
       "name": "Cirrus Logic",
       "slug": "cirrus-logic",
       "type": "company",
@@ -27519,7 +27349,7 @@
       "slug": "piotech",
       "type": "company",
       "country": "CN",
-      "ticker": "",
+      "ticker": "688072",
       "one_liner": "",
       "description": "国产PECVD龙头，SACVD/ALD/HDPCVD全布局",
       "core_business": [],
@@ -28011,7 +27841,7 @@
       "website": "https://www.amazon.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Amazon(AWS)\n\n全球最大公有云AWS+自研Trainium AI芯片+Anthropic战略联盟，AI基础设施全栈巨头\n\n## 财务状况\n\n| 指标 | FY2023 | FY2024 | FY2025 | Q1 FY2026 | Q2 FY2026 |\n|------|--------|--------|--------|-----------|-----------|\n| 总营收($B) | 574 | 638 | 698 | 181.5 | — |\n| AWS营收($B) | 91 | 105 | 122 | 37.6 | **42.2** |\n| AWS营业利润($B) | 25 | 32 | 40 | — | **~16.6** |\n| AWS营业利润率 | — | — | — | — | **39.4%** |\n| 营业利润率 | 6.4% | 9.0% | 10.5% | — | — |\n\nAWS贡献全公司约**65%的营业利润**，是利润核心。AI业务（Bedrock/SageMaker/Trainium）是AWS增长最快板块。FY2025 CapEx约**$85B**，绝大部分投向AI数据中心。\n\n### Q2 FY2026 详情（海豚研究）\n\n- **AWS加速飙涨**：营收$422亿（+37% YoY，上季+28%），营业利润率39.4%（环比+1.7pct，近历史新高），收入与利润双重加速\n- **合同余额暴涨**：Backlog达$4,690亿（环比+$1,000亿），新签订单~$1,500亿，远超确收额，预示收入将持续加速\n- **AI收入**：年化$250亿（三位数同比增长），对AWS增速贡献约50%\n- **自研芯片**：年化$250亿（上季$200亿），推理时代硬件线走强\n- **全年Capex**：从$2,000亿上调至$2,200亿（存储涨价驱动），H2单季~$600亿，CapEx/毛利达50%\n- **FCF深度转负**：单季运营现金流$450亿 vs Capex $530亿，后续$600亿/季将持续恶化\n- **折旧压力**：$200亿/季摊折（营收10%），高位趋稳但后续压力将提高\n\n## 产品线详解\n\n- **AWS云计算**：全球市占率约**32%**（领先Azure 23%、GCP 12%）。核心AI服务：Amazon Bedrock（多模型API）、SageMaker AI（ML训练推理）、Q Developer（AI编程助手）\n- **自研AI芯片**：**Trainium2**（训练芯片，EC2 Trn2实例，对标H100）、**Trainium3**（2025年发布，3nm制程，性能3x提升）、**Inferentia3**（推理芯片，成本比GPU低40%）\n- **Project Rainier**：与Anthropic合作的**10万+ Trainium芯片超算集群**（2025年上线），全球最大AI训练集群之一\n- **Anthropic生态**：累计投资**$8B**，Claude 4系列模型通过Bedrock独家分发，深度绑定\n- **电商+AI**：Rufus AI购物助手、AI仓储机器人（Sparrow/Proteus）、AI物流优化\n\n## 技术路线图\n\n- **Trainium3**：2025年发布，**3nm**制程，性能3x vs Trainium2，支持FP8/FP4混合精度训练，2026年大规模部署\n- **Inferentia3**：2026年，推理延迟降低50%，成本比GPU方案低40%\n- **Ultracluster**：2026-2027年，**20万+ Trainium3芯片**集群，面向AGI级训练（万亿参数模型）\n- **Nova模型家族**：自研LLM，对标GPT-5/Gemini，2025年发布Nova Pro/Ultra\n- **Graviton5**：ARM服务器CPU，2026年，数据中心能效比提升30%\n- **Project Kuiper**：卫星互联网，对标Starlink，2026年商用，低延迟边缘AI推理节点\n\n\n## 融资与现金流\n\n- 详见财务状况章节\n## 研发投入与专利\n\n| 指标 | FY2023 | FY2024 | FY2025 | Q2 FY2026 |\n|------|--------|--------|--------|-----------|\n| R&D($B) | 73 | 82 | 90 | — |\n| R&D占营收 | 12.7% | 12.9% | 12.9% | — |\n| CapEx($B) | 53 | 68 | 85 | **~53（单季）** |\n\n- FY2026全年CapEx指引：**$2,200亿**（从$2,000亿上调，存储涨价驱动），H2单季~$600亿\n\n- 全球专利组合超过**30,000项**（含AWS云计算+AI芯片+仓储机器人+卫星通信）\n- **核心技术壁垒**：Trainium/Inferentia自研芯片降低对外部GPU依赖；AWS全球105个可用区+32个区域网络基础设施；Anthropic独家合作+自研Nova双轨AI策略；全球最大电商物流网络的AI优化数据飞轮\n- AI/ML领域专利超过**8,000项**，集中在分布式训练架构、模型压缩推理、AI芯片互联拓扑\n\n## 动态更新记录\n\n- 2026-08-05 | 海豚研究Q2 FY2026财报分析 | 更新one_liner/latest_revenue/data_freshness_date/description/财务状况/研发投入CapEx/动态更新记录 | input_20260805_002\n- 2026-07-23 | Tier 1 A7批次：Amazon AWS 深度覆盖初始化 | 填充14/14字段，创建完整实体",
+      "content": "# Amazon(AWS)\n\n全球最大公有云AWS+自研Trainium AI芯片+Anthropic战略联盟，AI基础设施全栈巨头\n\n## 财务状况\n\n| 指标 | FY2023 | FY2024 | FY2025 | Q1 FY2026 | Q2 FY2026 |\n|------|--------|--------|--------|-----------|-----------|\n| 总营收($B) | 574 | 638 | 698 | 181.5 | — |\n| AWS营收($B) | 91 | 105 | 122 | 37.6 | **42.2** |\n| AWS营业利润($B) | 25 | 32 | 40 | — | **~16.6** |\n| AWS营业利润率 | — | — | — | — | **39.4%** |\n| 营业利润率 | 6.4% | 9.0% | 10.5% | — | — |\n\nAWS贡献全公司约**65%的营业利润**，是利润核心。AI业务（Bedrock/SageMaker/Trainium）是AWS增长最快板块。FY2025 CapEx约**$85B**，绝大部分投向AI数据中心。\n\n### Q2 FY2026 详情（海豚研究）\n\n- **AWS加速飙涨**：营收$422亿（+37% YoY，上季+28%），营业利润率39.4%（环比+1.7pct，近历史新高），收入与利润双重加速\n- **合同余额暴涨**：Backlog达$4,690亿（环比+$1,000亿），新签订单~$1,500亿，远超确收额，预示收入将持续加速\n- **AI收入**：年化$250亿（三位数同比增长），对AWS增速贡献约50%\n- **自研芯片**：年化$250亿（上季$200亿），推理时代硬件线走强\n- **全年Capex**：从$2,000亿上调至$2,200亿（存储涨价驱动），H2单季~$600亿，CapEx/毛利达50%\n- **FCF深度转负**：单季运营现金流$450亿 vs Capex $530亿，后续$600亿/季将持续恶化\n- **折旧压力**：$200亿/季摊折（营收10%），高位趋稳但后续压力将提高\n\n## 产品线详解\n\n- **AWS云计算**：全球市占率约**32%**（领先Azure 23%、GCP 12%）。核心AI服务：Amazon Bedrock（多模型API）、SageMaker AI（ML训练推理）、Q Developer（AI编程助手）\n- **自研AI芯片**：**Trainium2**（训练芯片，EC2 Trn2实例，对标H100）、**Trainium3**（2025年发布，3nm制程，性能3x提升）、**Inferentia3**（推理芯片，成本比GPU低40%）\n- **Project Rainier**：与Anthropic合作的**10万+ Trainium芯片超算集群**（2025年上线），全球最大AI训练集群之一\n- **Anthropic生态**：累计投资**$8B**，Claude 4系列模型通过Bedrock独家分发，深度绑定\n- **电商+AI**：Rufus AI购物助手、AI仓储机器人（Sparrow/Proteus）、AI物流优化\n\n## 技术路线图\n\n- **Trainium3**：2025年发布，**3nm**制程，性能3x vs Trainium2，支持FP8/FP4混合精度训练，2026年大规模部署\n- **Inferentia3**：2026年，推理延迟降低50%，成本比GPU方案低40%\n- **Ultracluster**：2026-2027年，**20万+ Trainium3芯片**集群，面向AGI级训练（万亿参数模型）\n- **Nova模型家族**：自研LLM，对标GPT-5/Gemini，2025年发布Nova Pro/Ultra\n- **Graviton5**：ARM服务器CPU，2026年，数据中心能效比提升30%\n- **Project Kuiper**：卫星互联网，对标Starlink，2026年商用，低延迟边缘AI推理节点\n\n\n## 融资与现金流\n\n- 详见财务状况章节\n## 研发投入与专利\n\n| 指标 | FY2023 | FY2024 | FY2025 | Q2 FY2026 |\n|------|--------|--------|--------|-----------|\n| R&D($B) | 73 | 82 | 90 | — |\n| R&D占营收 | 12.7% | 12.9% | 12.9% | — |\n| CapEx($B) | 53 | 68 | 85 | **~53（单季）** |\n\n- FY2026全年CapEx指引：**$2,200亿**（从$2,000亿上调，存储涨价驱动），H2单季~$600亿\n\n- 全球专利组合超过**30,000项**（含AWS云计算+AI芯片+仓储机器人+卫星通信）\n- **核心技术壁垒**：Trainium/Inferentia自研芯片降低对外部GPU依赖；AWS全球105个可用区+32个区域网络基础设施；Anthropic独家合作+自研Nova双轨AI策略；全球最大电商物流网络的AI优化数据飞轮\n- AI/ML领域专利超过**8,000项**，集中在分布式训练架构、模型压缩推理、AI芯片互联拓扑\n\n## 动态更新记录\n\n- 2026-08-05 | 海豚研究Q2 FY2026财报分析 | 更新one_liner/latest_revenue/data_freshness_date/description/财务状况/研发投入CapEx/动态更新记录 | input_20260805_003\n- 2026-07-23 | Tier 1 A7批次：Amazon AWS 深度覆盖初始化 | 填充14/14字段，创建完整实体",
       "content_preview": "# Amazon(AWS)\n\n> 全球最大云计算厂商，运营AWS云+自研Trainium AI训练芯片+Inferentia推理芯片，通过云计算+AI芯片+电商实现盈利，位于AI算力L4终端应用层。\n【2026.8.5更新】Q2 AWS营收$422亿(+37%)，利润率39.4%近历史新高，Backlog $4,690亿（环比+千亿）；AI收入+自研芯片各$250亿年化；全年Capex上调至$2,200亿，FCF深度转负。\n | 全球最大公有云AWS+自研Trainium AI芯片+Anthropic战略联盟，AI基础设施全栈巨头",
       "sources": ""
     },
@@ -32232,40 +32062,6 @@
       "sources": ""
     },
     {
-      "name": "沪电股份",
-      "slug": "wus-pcb",
-      "type": "company",
-      "country": "CN",
-      "ticker": "",
-      "one_liner": "",
-      "description": "高多层PCB和IC载板，AI服务器主板核心供应商",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
-      "industry": "",
-      "segments": [
-        "PCB与IC载板"
-      ],
-      "chain_layer": "L2",
-      "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
-      "tags": [],
-      "website": "",
-      "backlinks": 0,
-      "wikilinks": [],
-      "content": "# 沪电股份\n\n高多层PCB和IC载板，AI服务器主板核心供应商\n\n## 基本信息\n- 国家: CN\n- 网站: https://www.wuscn.com",
-      "content_preview": "# 沪电股份\n\n> 高多层PCB和IC载板，AI服务器主板核心供应商",
-      "sources": ""
-    },
-    {
       "name": "环球晶圆 (GlobalWafers)",
       "slug": "globalwafers",
       "type": "company",
@@ -34014,41 +33810,6 @@
       "sources": ""
     },
     {
-      "name": "韦尔股份",
-      "slug": "will-semiconductor",
-      "type": "company",
-      "country": "中国",
-      "ticker": "",
-      "one_liner": "",
-      "description": "收购OmniVision全球CIS #3,汽车CIS全球#1,603501",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
-      "industry": "",
-      "segments": [
-        "CIS图像传感器",
-        "边缘AI"
-      ],
-      "chain_layer": "L4",
-      "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
-      "tags": [],
-      "website": "",
-      "backlinks": 0,
-      "wikilinks": [],
-      "content": "# 韦尔股份\n\n收购OmniVision全球CIS #3,汽车CIS全球#1,603501\n\n## 基本信息\n- 国家: 中国\n- 网站: N/A",
-      "content_preview": "# 韦尔股份\n\n> 收购OmniVision全球CIS #3,汽车CIS全球#1,603501",
-      "sources": ""
-    },
-    {
       "name": "江丰电子",
       "slug": "kfmi",
       "type": "company",
@@ -35023,7 +34784,7 @@
       },
       {
         "name": "光刻机",
-        "symbolSize": 12,
+        "symbolSize": 22,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35037,7 +34798,7 @@
       },
       {
         "name": "电子特气",
-        "symbolSize": 12,
+        "symbolSize": 16,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35051,21 +34812,21 @@
       },
       {
         "name": "薄膜沉积设备",
-        "symbolSize": 12,
+        "symbolSize": 18,
         "itemStyle": {
           "color": "#0071E3"
         }
       },
       {
         "name": "Chiplet与异构集成",
-        "symbolSize": 12,
+        "symbolSize": 22,
         "itemStyle": {
           "color": "#0071E3"
         }
       },
       {
         "name": "CPU(服务器级)",
-        "symbolSize": 12,
+        "symbolSize": 18,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35079,14 +34840,14 @@
       },
       {
         "name": "高纯硅料与硅片",
-        "symbolSize": 12,
+        "symbolSize": 22,
         "itemStyle": {
           "color": "#0071E3"
         }
       },
       {
         "name": "检测量测设备",
-        "symbolSize": 12,
+        "symbolSize": 14,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35114,7 +34875,7 @@
       },
       {
         "name": "刻蚀设备",
-        "symbolSize": 12,
+        "symbolSize": 22,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35149,7 +34910,7 @@
       },
       {
         "name": "晶圆代工(先进制程)",
-        "symbolSize": 12,
+        "symbolSize": 50,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35226,7 +34987,7 @@
       },
       {
         "name": "ASIC/AI定制芯片",
-        "symbolSize": 12,
+        "symbolSize": 36,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35254,7 +35015,7 @@
       },
       {
         "name": "HBM高带宽内存",
-        "symbolSize": 12,
+        "symbolSize": 26,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -36884,13 +36645,6 @@
         }
       },
       {
-        "name": "拓荆科技",
-        "symbolSize": 12,
-        "itemStyle": {
-          "color": "#34C759"
-        }
-      },
-      {
         "name": "Entegris",
         "symbolSize": 12,
         "itemStyle": {
@@ -37193,6 +36947,13 @@
       },
       {
         "name": "MKS Instruments",
+        "symbolSize": 12,
+        "itemStyle": {
+          "color": "#34C759"
+        }
+      },
+      {
+        "name": "拓荆科技",
         "symbolSize": 12,
         "itemStyle": {
           "color": "#34C759"
@@ -39376,12 +39137,6 @@
       "backlinks": 7
     },
     {
-      "name": "晶圆代工(先进制程)",
-      "score": 61.4,
-      "tam": 170.0,
-      "backlinks": 38
-    },
-    {
       "name": "GPU",
       "score": 58.6,
       "tam": 130.0,
@@ -39394,6 +39149,12 @@
       "backlinks": 26
     },
     {
+      "name": "晶圆代工(先进制程)",
+      "score": 51.6,
+      "tam": 170.0,
+      "backlinks": 28
+    },
+    {
       "name": "存储芯片(DRAM/NAND)",
       "score": 44.2,
       "tam": 200.0,
@@ -39401,9 +39162,15 @@
     },
     {
       "name": "晶圆代工(先进制程)",
-      "score": 24.3,
+      "score": 37.0,
       "tam": 170.0,
-      "backlinks": 0
+      "backlinks": 13
+    },
+    {
+      "name": "ASIC/AI定制芯片",
+      "score": 26.1,
+      "tam": 60.0,
+      "backlinks": 18
     },
     {
       "name": "AI推理API服务",
@@ -39424,6 +39191,12 @@
       "backlinks": 9
     },
     {
+      "name": "HBM高带宽内存",
+      "score": 20.5,
+      "tam": 55.0,
+      "backlinks": 13
+    },
+    {
       "name": "AI训练集群/超算",
       "score": 19.2,
       "tam": 80.0,
@@ -39436,28 +39209,16 @@
       "backlinks": 3
     },
     {
-      "name": "光刻机",
-      "score": 16.4,
-      "tam": 33.0,
-      "backlinks": 12
-    },
-    {
       "name": "封装测试(OSAT)",
       "score": 15.8,
       "tam": 42.0,
       "backlinks": 10
     },
     {
-      "name": "CPU(服务器级)",
-      "score": 15.5,
-      "tam": 40.0,
-      "backlinks": 10
-    },
-    {
-      "name": "刻蚀设备",
-      "score": 15.3,
-      "tam": 25.0,
-      "backlinks": 12
+      "name": "光刻机",
+      "score": 15.4,
+      "tam": 33.0,
+      "backlinks": 11
     },
     {
       "name": "先进封装(CoWoS/3D)",
@@ -39472,21 +39233,21 @@
       "backlinks": 11
     },
     {
-      "name": "AI芯片设计(Fabless)",
+      "name": "CPU(服务器级)",
+      "score": 14.5,
+      "tam": 40.0,
+      "backlinks": 9
+    },
+    {
+      "name": "刻蚀设备",
       "score": 14.3,
       "tam": 25.0,
       "backlinks": 11
     },
     {
-      "name": "高纯硅料与硅片",
-      "score": 13.9,
-      "tam": 15.0,
-      "backlinks": 12
-    },
-    {
-      "name": "薄膜沉积设备",
-      "score": 13.6,
-      "tam": 20.0,
+      "name": "AI芯片设计(Fabless)",
+      "score": 14.3,
+      "tam": 25.0,
       "backlinks": 11
     },
     {
@@ -39502,6 +39263,24 @@
       "backlinks": 4
     },
     {
+      "name": "高纯硅料与硅片",
+      "score": 12.9,
+      "tam": 15.0,
+      "backlinks": 11
+    },
+    {
+      "name": "Chiplet与异构集成",
+      "score": 12.7,
+      "tam": 14.0,
+      "backlinks": 11
+    },
+    {
+      "name": "薄膜沉积设备",
+      "score": 11.6,
+      "tam": 20.0,
+      "backlinks": 9
+    },
+    {
       "name": "功率半导体",
       "score": 10.9,
       "tam": 42.0,
@@ -39514,10 +39293,10 @@
       "backlinks": 4
     },
     {
-      "name": "FPGA",
-      "score": 10.1,
-      "tam": 9.0,
-      "backlinks": 9
+      "name": "CPU(服务器级)",
+      "score": 10.6,
+      "tam": 40.0,
+      "backlinks": 5
     },
     {
       "name": "GPU制造代工",
@@ -39526,28 +39305,10 @@
       "backlinks": 2
     },
     {
-      "name": "检测量测设备",
-      "score": 9.7,
-      "tam": 13.0,
+      "name": "Chiplet与异构集成",
+      "score": 9.8,
+      "tam": 14.0,
       "backlinks": 8
-    },
-    {
-      "name": "电子特气",
-      "score": 9.6,
-      "tam": 6.0,
-      "backlinks": 9
-    },
-    {
-      "name": "MCU与嵌入式处理器",
-      "score": 8.6,
-      "tam": 26.0,
-      "backlinks": 5
-    },
-    {
-      "name": "800G/1.6T光模块",
-      "score": 8.6,
-      "tam": 26.0,
-      "backlinks": 5
     }
   ],
   "thesis_index": {

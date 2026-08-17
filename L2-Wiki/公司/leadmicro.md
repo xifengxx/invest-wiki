@@ -3,6 +3,7 @@ name: 微导纳米
 slug: leadmicro
 country: CN
 type: company
+ticker: "688147"
 updated: 2026-07
 segments:
 - 薄膜沉积设备

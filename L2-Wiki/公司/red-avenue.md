@@ -3,6 +3,7 @@ name: 彤程新材
 slug: red-avenue
 country: CN
 type: company
+ticker: "603650"
 updated: 2026-07
 segments:
 - 光刻胶与湿化学品

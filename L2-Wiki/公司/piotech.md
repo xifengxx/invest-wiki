@@ -3,6 +3,7 @@ name: 拓荆科技
 slug: piotech
 country: CN
 type: company
+ticker: "688072"
 updated: 2026-07
 segments:
 - 薄膜沉积设备

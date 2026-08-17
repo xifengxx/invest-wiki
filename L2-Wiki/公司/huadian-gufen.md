@@ -6,7 +6,7 @@ type: "company"
 ticker: "002463"
 updated: "2026-07"
 segments:
-  - "PCB/IC载板"
+  - "PCB与IC载板"
 one_liner: "国内AI PCB龙头，深耕高多层高速PCB板制造，通过AI服务器+交换机PCB批量供货实现盈利，位于产业链L2——AI服务器/交换机PCB核心供应商"
 chain_layer: "L2"
 chain_role: "龙头"
@@ -19,3 +19,4 @@ chain_role: "龙头"
 ## 基本信息
 - 国家: 中国
 - 股票代码: 002463
+- 网站: https://www.wuscn.com
