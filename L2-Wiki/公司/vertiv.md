@@ -4,12 +4,14 @@ slug: vertiv
 country: US
 ticker: VRT
 type: company
-updated: 2026-07
-data_freshness_date: 2026-07-23
+updated: 2026-08
+data_freshness_date: 2026-08-18
 segments:
 - 散热液冷系统
 - 服务器电源与UPS
-one_liner: 全球AI数据中心电源管理（UPS/配电）和液冷散热龙头，NVIDIA Vera Rubin DSX AI工厂核心冷却合作伙伴，Q1 2026营收$2.65B（+30% YoY），FY2026E上调至$13.5-14B，积压订单>$15B（订单暴增252%），收购Strategic Thermal Labs+ThermoKey构建端到端热管理链，市值~$120B。
+one_liner: |
+  全球AI数据中心电源管理（UPS/配电）和液冷散热龙头，NVIDIA Vera Rubin DSX AI工厂核心冷却合作伙伴，Q1 2026营收$2.65B（+30% YoY），FY2026E上调至$13.5-14B，积压订单>$15B（订单暴增252%），收购Strategic Thermal Labs+ThermoKey构建端到端热管理链，市值~$120B。
+  【2026.8.18更新】Q2 2026营收$3.274B（+24% YoY），GAAP净利$497.8M（+53.5%），毛利率37.7%。
 chain_layer: L2
 chain_role: 龙头
 suppliers:
@@ -46,7 +48,7 @@ revenue_model: Q1 2026 $2.65B（+30%），FY2026E $13.5-14B（上调15%），Adj
 founded: 2016（从Emerson分拆）
 headquarters: 美国俄亥俄州Westerville
 employees: ~27,000
-latest_revenue: Q1 2026 $2.65B（+30%），FY2026E $13.5-14B
+latest_revenue: Q2 2026 $3.274B（+24% YoY，GAAP净利$497.8M +53.5%）
 market_cap: ~$120B（2026.7）
 description: Vertiv是全球AI数据中心电源和液冷散热的领导者，2016年从Emerson分拆独立。与NVIDIA Vera Rubin DSX平台深度合作，提供AI工厂的端到端电源+冷却方案。积压订单>$15B，订单暴增252%——AI数据中心建设潮的最直接受益者。
 website: https://www.vertiv.com
@@ -57,10 +59,12 @@ industry: AI算力
 
 全球AI数据中心电源+液冷散热龙头，NVIDIA Vera Rubin核心冷却伙伴，积压>$15B（订单+252%），FY2026E上调15%至$13.5-14B。
 
-| 指标 | Q1 2026 | FY2026E |
-|------|---------|---------|
-| **营收** | $2.65B（+30%） | **$13.5-14B** |
-| **积压订单** | — | **>$15B** |
+| 指标 | Q1 2026 | Q2 2026 | FY2026E |
+|------|---------|---------|---------|
+| **营收** | $2.65B（+30%） | **$3.274B（+24%）** | **$13.5-14B** |
+| **净利** | — | **$497.8M（+53.5%）** | — |
+| **毛利率** | — | **37.7%** | — |
+| **积压订单** | — | **>$15B** | **>$15B** |
 
 ## 融资与现金流
 

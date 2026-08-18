@@ -4,8 +4,8 @@ slug: marvell
 country: US
 ticker: MRVL
 type: company
-updated: 2026-07
-data_freshness_date: 2026-07-23
+updated: 2026-08
+data_freshness_date: 2026-08-18
 segments:
 - AI芯片设计(Fabless)
 - ASIC/AI定制芯片
@@ -13,7 +13,9 @@ segments:
 - DSP与光芯片
 - IC设计服务(Fabless)
 - 网络交换芯片
-one_liner: 全球第二大AI ASIC定制芯片设计商（与Broadcom双寡头，份额~20-25%），为Amazon定制Trainium/Inferentia、为Microsoft定制Maia AI加速器，通过ASIC设计服务+数据中心芯片（DSP/光互联/交换机）销售实现盈利，FY2026营收$8.2B（+42%），数据中心占76%，市值~$190B。
+one_liner: |
+  全球第二大AI ASIC定制芯片设计商（与Broadcom双寡头，份额~20-25%），为Amazon定制Trainium/Inferentia、为Microsoft定制Maia AI加速器，通过ASIC设计服务+数据中心芯片（DSP/光互联/交换机）销售实现盈利，FY2026营收$8.2B（+42%），数据中心占76%，市值~$190B。
+  【2026.8.18更新】Q1 FY2027营收$2.418B（+28% YoY，超指引$18M），Non-GAAP净利$718M/毛利率58.9%，数据中心$1.83B占76%（+27% YoY）；Q2指引营收$2.7B（±5%，+35% YoY）、Non-GAAP EPS $0.93；FY2027E上调至$11.5B（+40%），FY2028E $16.5B（+45%）。
 chain_layer: L3
 chain_role: 龙头
 suppliers:
@@ -73,9 +75,12 @@ revenue_model: FY2026营收$8.195B（+42% YoY），Q1 FY2027 $2.418B（+28% YoY�
 founded: 1995
 headquarters: 美国加州Santa Clara
 employees: ~13,000
-latest_revenue: FY2026 $8.195B（+42% YoY），FY2027E ~$11.5B
-market_cap: ~$190B（2026.7）
-description: Marvell Technology是全球第二大AI定制芯片（ASIC）设计服务商，1995年成立于美国加州Santa Clara。公司从存储控制器和网络芯片起家，近年通过收购（Cavium/Aquantia/Inphi/Innovium/Celestial AI/XConn）和剥离非核心业务（汽车以太网→Infineon $2.5B），全面转型为AI基础设施核心供应商。数据中心业务占比从FY2022的~30%飙升至76%（FY2027 Q1），与Broadcom形成AI ASIC双寡头格局。2026年3月NVIDIA $2B战略投资+NVLink Fusion合作，确认Marvell作为AI计算生态关键互补角色。
+latest_revenue: Q1 FY2027 $2.418B（+28% YoY，Non-GAAP EPS $0.80，数据中心$1.83B占76%）；FY2027E ~$11.5B（+40%）
+market_cap: ~$205B（2026.8）
+description: |
+  Marvell Technology是全球第二大AI定制芯片（ASIC）设计服务商，1995年成立于美国加州Santa Clara。公司从存储控制器和网络芯片起家，近年通过收购（Cavium/Aquantia/Inphi/Innovium/Celestial AI/XConn）和剥离非核心业务（汽车以太网→Infineon $2.5B），全面转型为AI基础设施核心供应商。数据中心业务占比从FY2022的~30%飙升至76%（FY2027 Q1），与Broadcom形成AI ASIC双寡头格局。2026年3月NVIDIA $2B战略投资+NVLink Fusion合作，确认Marvell作为AI计算生态关键互补角色。
+
+  【2026.8.18 海豚研究分析】Q1 FY2027营收$2.418B创纪录（+28% YoY），数据中心$1.83B占76%，Non-GAAP毛利率58.9%/净利$718M（EPS $0.80），GAAP净利仅$34.5M受收购摊销与股权激励压缩；Q2指引$2.7B（+35% YoY），FY2027E上调至$11.5B（+40%）、FY2028E $16.5B（+45%）。
 website: https://www.marvell.com
 industry: AI算力
 ---
@@ -90,11 +95,11 @@ Marvell财年截至每年1月底。AI定制芯片和数据中心光互联双引�
 
 ### 年度核心财务指标
 
-| 指标 | FY2025 | FY2026 | 同比变化 |
-|------|--------|--------|----------|
-| **总营收** | ~$5.8B | **$8.195B** | +42% |
-| **Data Center占比** | ~55% | **~70%** | +15pp |
-| **Non-GAAP运营利润率** | ~30% | **~35-38%** | +5-8pp |
+| 指标 | FY2025 | FY2026 | Q1 FY2027 | 同比变化 |
+|------|--------|--------|-----------|----------|
+| **总营收** | ~$5.8B | **$8.195B** | **$2.418B**（+28% YoY） | +42% |
+| **Data Center占比** | ~55% | **~70%** | **76%** | +15pp |
+| **Non-GAAP运营利润率** | ~30% | **~35-38%** | **~35%** | +5-8pp |
 
 ### FY2027共识预测
 
@@ -104,6 +109,25 @@ Marvell财年截至每年1月底。AI定制芯片和数据中心光互联双引�
 | FY2027E营收 | **~$11.5B**（+40% YoY） |
 | Data Center占比（Q1） | **76%** |
 | 定制ASIC Design Wins | **50+**个项目/**10+**个客户 |
+
+### 最新季度 详情（海豚研究）
+
+Q1 FY2027（财季截至 2026-05-02，2026-05-27 发布）——最新已发布财报：
+
+| 指标 | 数值 | 对比 |
+|------|------|------|
+| 总营收 | $2.418B（创纪录） | +28% YoY，+9% QoQ，超指引中点 $18M |
+| 数据中心营收 | $1.83B（创纪录，占76%） | +27% YoY，+11% QoQ |
+| Non-GAAP 净利 | $718.0M（EPS $0.80） | +29% YoY（上季同期 $0.62） |
+| GAAP 净利 | $34.5M（EPS $0.04） | 受收购摊销+股权激励压缩 |
+| Non-GAAP 毛利率 | 58.9% | 上年同期 59.8% |
+| GAAP 毛利率 | 52.1% | — |
+| Non-GAAP 营业利润率 | 35% | — |
+| 经营现金流 | $638.8M | 公司纪录 |
+
+**Q2 FY2027 指引（2026-05-27 发布，财报定于 2026-08-27 盘后）**：营收 ~$2.7B（±5%，+35% YoY / +12% QoQ），Non-GAAP EPS $0.93（区间 $0.88-0.98），Non-GAAP 毛利率 58.25%-59.25%。
+
+**全年展望上调**：FY2027 营收 ~$11.5B（+40% YoY）、数据中心全年 +~50%、光互联 +>70%（此前 50%）；FY2028 营收 ~$16.5B（+45%），定制芯片收入翻倍以上。
 
 ## 业务板块
 
@@ -135,3 +159,7 @@ Marvell财年截至每年1月底。AI定制芯片和数据中心光互联双引�
 | 以太网交换机 | Teralynx 51.2T | Tomahawk 51.2T |
 | 定制ASIC客户 | Amazon、Microsoft、Google（洽谈） | Google TPU、Meta MTIA |
 | NVIDIA关系 | 合作伙伴（NVLink Fusion+$2B投资） | 竞争关系 |
+
+## 动态更新记录
+
+- 【2026-08-18】归档 Q1 FY2027 最新已发布财报（input_20260818_015）：营收 $2.418B（+28% YoY）、Non-GAAP 净利 $718M、毛利率 58.9%、数据中心 $1.83B 占 76%；追加 Q2 FY2027 指引 $2.7B（±5%）与 FY2027E/FY2028E 上调；替换 latest_revenue/market_cap/data_freshness_date/updated。

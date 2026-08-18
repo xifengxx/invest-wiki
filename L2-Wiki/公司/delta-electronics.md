@@ -4,12 +4,14 @@ slug: delta-electronics
 country: 台湾
 ticker: "2308.TW"
 type: company
-updated: 2026-07
-data_freshness_date: 2026-07-23
+updated: 2026-08
+data_freshness_date: 2026-08-18
 segments:
 - 数据中心IDC
 - 功率半导体
-one_liner: 全球AI数据中心电源管理与液冷散热龙头（Grid-to-Chip全栈方案），NVIDIA/Google/Meta AI服务器核心电源供应商，Q2 2026营收NT$1,833亿（+48% YoY），AI相关营收+70% YoY，数据中心收入占比从35%→55%（2024→2026），液冷解决方案2026Q1开始贡献营收，市值~$160B。
+one_liner: |
+  全球AI数据中心电源管理与液冷散热龙头（Grid-to-Chip全栈方案），NVIDIA/Google/Meta AI服务器核心电源供应商，Q2 2026营收NT$1,833亿（+48% YoY），AI相关营收+70% YoY，数据中心收入占比从35%→55%（2024→2026），液冷解决方案2026Q1开始贡献营收，市值~$160B。
+  【2026.8.18更新】Q2 2026营收NT$1,832.6亿（+47.7% YoY）/净利NT$251.4亿（+80.2% YoY）/毛利率35.64%
 chain_layer: L2
 chain_role: 龙头
 suppliers:
@@ -41,7 +43,7 @@ revenue_model: Q2 2026营收NT$1,833亿（+48% YoY），基础设施板块+77% Y
 founded: 1971
 headquarters: 台湾台北
 employees: ~85,000
-latest_revenue: Q2 2026 NT$1,833亿（+48% YoY）
+latest_revenue: Q2 2026 NT$1,832.6亿（+47.7% YoY）
 market_cap: ~$160B USD（2026.7，台湾第二大市值公司）
 description: 台达电子（Delta Electronics）是全球AI数据中心电源管理和液冷散热的绝对龙头，1971年成立于台湾。公司从PC电源起家，现转型为AI基础设施核心供应商——提供从电网到GPU芯片的完整电源链（Grid-to-Chip）和液冷散热方案。NVIDIA GB200/GB300 NVL72机柜的电源和液冷系统大量采用Delta方案，Google/Meta也是核心客户。AI数据中心电源效率（~97.5%的PSU转换效率）和功率密度全球领先，液冷方案（直接芯片液冷/浸没式）2026Q1开始贡献营收。台湾母公司市值~$160B（台股#2），泰国子公司市值突破$100B（泰国股市历史性里程碑）。Q2 2026基础设施板块+77% YoY，AI相关+70% YoY。
 website: https://www.deltaww.com
@@ -57,8 +59,10 @@ industry: AI算力
 
 | 指标 | Q1 2026 | Q2 2026 | FY2026E |
 |------|---------|---------|---------|
-| **营收** | NT$1,593亿 | **NT$1,833亿** | — |
-| **YoY增长** | +34% | **+48%** | — |
+| **营收** | NT$1,593亿 | **NT$1,832.6亿** | — |
+| **YoY增长** | +34% | **+47.7%** | — |
+| **毛利率** | — | **35.64%** | — |
+| **净利** | — | **NT$251.4亿**（+80.2% YoY） | — |
 | **AI相关增长** | — | — | **+70%** |
 | **数据中心占比** | — | — | **55%**（vs 35% 2024） |
 

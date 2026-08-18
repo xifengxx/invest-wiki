@@ -4,12 +4,14 @@ slug: wolfspeed
 country: US
 ticker: WOLF
 type: company
-updated: 2026-07
-data_freshness_date: 2026-07-23
+updated: 2026-08
+data_freshness_date: 2026-08-18
 segments:
 - 功率半导体
 - 高纯硅料与硅片
-one_liner: 全球碳化硅（SiC）衬底和功率器件先驱，200mm SiC产能全球最大（Mohawk Valley Fab），功率器件~67%+衬底材料~33%营收，TTM营收~$730M（-6-8% YoY，行业低谷），持续经营亏损但SiC长期结构性增长受益于电动车/AI数据中心电源/新能源，市值~$1.7B。
+one_liner: |
+  全球碳化硅（SiC）衬底和功率器件先驱，200mm SiC产能全球最大（Mohawk Valley Fab），功率器件~67%+衬底材料~33%营收，TTM营收~$730M（-6-8% YoY，行业低谷），持续经营亏损但SiC长期结构性增长受益于电动车/AI数据中心电源/新能源，市值~$1.7B。
+  【2026.8.18更新】Q3 FY2026营收$150.2M/净亏损$119.9M/毛利率-26.6%（GAAP，non-GAAP -20.6%）
 chain_layer: L1
 chain_role: 龙头
 suppliers:
@@ -53,7 +55,7 @@ revenue_model: TTM营收~$730M（-6-8%），净亏损持续（季度亏损~$150M
 founded: 1987
 headquarters: 美国北卡罗来纳州Durham
 employees: ~5,000
-latest_revenue: TTM ~$730M（-6-8% YoY）
+latest_revenue: Q3 FY2026 $150.2M（YoY -19%）
 market_cap: ~$1.7B（2026.7）
 description: Wolfspeed是全球SiC碳化硅衬底和功率器件的先驱，1987年成立于北卡，前身Cree公司。200mm SiC产能全球最大（Mohawk Valley Fab），是汽车/能源/工业SiC器件的核心供应商。但近年来SiC市场需求疲软（EV增速放缓+中国竞争加剧）导致营收下滑、持续亏损。长期看SiC结构性增长逻辑不变（EV 800V平台+AI数据中心高效电源+新能源），但短期财务压力巨大——负毛利率+$922M债务+YTD股价+274%反映市场在博弈SiC周期拐点。
 website: https://www.wolfspeed.com
@@ -64,12 +66,17 @@ industry: 半导体
 
 全球SiC碳化硅先驱，200mm全球最大产能，EV+AI电源+新能源SiC结构性增长受益者，但短期营收下滑（-6-8%）+持续亏损+高债务，YTD +274%博弈周期拐点。
 
-| 指标 | TTM |
-|------|:------:|
-| **营收** | ~$730M（-6-8%） |
-| **净亏损** | ~$500M+ |
-| **债务** | ~$922M |
+| 指标 | TTM | Q3 FY2026 |
+|------|:------:|:------:|
+| **营收** | ~$730M（-6-8%） | **$150.2M**（YoY -19%） |
+| **净亏损** | ~$500M+ | **$119.9M** |
+| **毛利率** | 负 | **-26.6%**（GAAP） |
+| **债务** | ~$922M | — |
 
 ## 融资与现金流
 
 - 长期债务: ~
+
+## 动态更新记录
+
+- 2026-08-18：归档 Q3 FY2026 财报（营收$150.2M YoY -19%，净亏损$119.9M，GAAP毛利率-26.6%/non-GAAP -20.6%），来源 input_20260818_069

@@ -4,11 +4,13 @@ slug: powertech
 country: 台湾
 ticker: "6239.TW"
 type: company
-updated: 2026-07
-data_freshness_date: 2026-07-23
+updated: 2026-08
+data_freshness_date: 2026-08-18
 segments:
 - 半导体封测(OSAT)
-one_liner: 全球存储器封装测试龙头（DRAM/NAND/SSD封测全球领先），在2.5D/3D先进封装+Fan-Out面板级封装领域布局，TTM营收NT$807.5亿（~$2.5B），毛利率17.6%，服务美光/Kioxia/SanDisk等存储大厂，市值~NT$2,760亿（~$8.8B）。
+one_liner: |
+  全球存储器封装测试龙头（DRAM/NAND/SSD封测全球领先），在2.5D/3D先进封装+Fan-Out面板级封装领域布局，TTM营收NT$807.5亿（~$2.5B），毛利率17.6%，服务美光/Kioxia/SanDisk等存储大厂，市值~NT$2,760亿（~$8.8B）。
+  【2026.8.18更新】Q2 2026营收NT$231.16亿/净利NT$22.19亿/毛利率21.8%
 chain_layer: L2
 chain_role: 核心参与者
 suppliers:
@@ -43,7 +45,7 @@ revenue_model: TTM营收NT$807.5亿（~$2.5B），净利NT$62亿。毛利率17.6
 founded: 1997
 headquarters: 台湾新竹
 employees: ~8,900
-latest_revenue: TTM NT$807.5亿（~$2.5B）
+latest_revenue: Q2 2026 NT$231.16亿（+28.0% YoY）
 market_cap: ~NT$2,760亿（~$8.8B USD）（2026.7）
 description: 力成科技是全球存储器封装测试龙头，1997年成立于台湾新竹。在DRAM/NAND/SSD存储封装领域全球领先，美光/Kioxia/SanDisk核心封测外包伙伴。HBM/3D NAND堆叠封装精度要求极高，力成的专业化工艺构成差异化护城河。同时布局Fan-Out/2.5D/3D先进封装从存储向AI芯片延伸。
 website: https://www.pti.com.tw
@@ -54,11 +56,11 @@ industry: 半导体
 
 全球存储器封装测试龙头，DRAM/NAND/SSD封测全球领先，美光/Kioxia核心外包伙伴，TTM营收NT$808亿，AI存储+先进封装双驱动。
 
-| 指标 | TTM |
-|------|:------:|
-| **营收** | NT$807.5亿 (~$2.5B) |
-| **毛利率** | 17.62% |
-| **净利率** | 9.94% |
+| 指标 | TTM | Q2 2026 |
+|------|:------:|:------:|
+| **营收** | NT$807.5亿 (~$2.5B) | NT$231.16亿（+28.0%） |
+| **净利** | NT$62亿 | NT$22.19亿（+131%） |
+| **毛利率** | 17.62% | 21.8% |
 
 ## 融资与现金流
 

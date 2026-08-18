@@ -4,13 +4,15 @@ slug: arm
 country: UK
 ticker: ARM
 type: company
-updated: 2026-07
-data_freshness_date: 2026-07-23
+updated: 2026-08
+data_freshness_date: 2026-08-18
 segments:
 - EDA与IP核
 - AI芯片设计(Fabless)
 - CPU(服务器级)
-one_liner: 全球最大CPU IP核授权商和AI计算架构平台公司，通过ARMv9架构授权费（ Licensing）+芯片版税（Royalty）实现盈利，FY2026营收$4.92B，市值~$350B，拥有400+授权客户和2200万+开发者生态，2026年3月发布首款自研AGI CPU与Meta合作进入芯片制造领域。
+one_liner: |
+  全球最大CPU IP核授权商和AI计算架构平台公司，通过ARMv9架构授权费（ Licensing）+芯片版税（Royalty）实现盈利，FY2026营收$4.92B，市值~$350B，拥有400+授权客户和2200万+开发者生态，2026年3月发布首款自研AGI CPU与Meta合作进入芯片制造领域。
+  【2026.8.18更新】Q1 FY2027营收$1.29B(+22% YoY)，GAAP净利$270M(+107.7%)，Non-GAAP净利$480M(+28%)，毛利率98.1%，Royalty $715M(+22%)/Licensing $574M(+23%)双创Q1新高；数据中心版税翻倍，AGI CPU需求管线>$2B。
 chain_layer: L2
 chain_role: 龙头
 suppliers:
@@ -81,7 +83,7 @@ revenue_model: FY2026（截至2026.3）营收$4.92B（+22.8% YoY），Royalty $2
 founded: 1990
 headquarters: 英国剑桥
 employees: ~9,584
-latest_revenue: FY2026 $4.92B（+22.8% YoY）
+latest_revenue: Q1 FY2027 $1.29B（+22% YoY，Royalty $715M +22% / Licensing $574M +23%）
 market_cap: ~$350B（2026.7，全球前40大公司）
 description: Arm Holdings是全球最大的CPU IP核授权商，1990年由Acorn Computers、Apple和VLSI Technology合资成立于英国剑桥。公司设计ARM架构CPU/GPU/NPU核心，授权给全球400+芯片公司（Apple、Qualcomm、NVIDIA、Samsung等），按授权费和芯片版税收费。2016年被SoftBank以$32B收购，2023年9月在纳斯达克IPO（$54.5B估值），截至2026年市值飙升至~$350B。2026年3月发布首款自研AGI CPU，标志从纯IP授权模式向芯片制造的战略转型。
 website: https://www.arm.com
@@ -98,19 +100,34 @@ Arm财年截至每年3月底。AI驱动的ARMv9采用率提升和服务器市场
 
 ### 年度核心财务指标
 
-| 指标 | FY2025（2025.3止） | FY2026（2026.3止） | 同比变化 |
-|------|---------------------|---------------------|----------|
-| **总营收** | $4.01B | **$4.92B** | +22.8% |
-| **Royalty收入** | ~$2.1B | **$2.61B** | +24% |
-| **Licensing收入** | ~$1.9B | **$2.31B** | +21% |
-| **Non-GAAP EPS** | $1.41 | **$1.77** | +25.5% |
-| **Non-GAAP毛利率** | 97% | **98%** | +1pp |
+| 指标 | FY2025（2025.3止） | FY2026（2026.3止） | 同比变化 | Q1 FY2027（2026.6止） |
+|------|---------------------|---------------------|----------|----------------------|
+| **总营收** | $4.01B | **$4.92B** | +22.8% | $1.29B（+22%） |
+| **Royalty收入** | ~$2.1B | **$2.61B** | +24% | $715M（+22%） |
+| **Licensing收入** | ~$1.9B | **$2.31B** | +21% | $574M（+23%） |
+| **Non-GAAP EPS** | $1.41 | **$1.77** | +25.5% | $0.45（+29%） |
+| **Non-GAAP毛利率** | 97% | **98%** | +1pp | 98.1% |
 
 ### FY2027展望
 
 - AGI CPU预订单 > $2B（覆盖FY2027-FY2028）
 - 50+公司公开支持AGI CPU平台
 - 管理层目标FY2031营收$25B（AGI CPU $15B + IP授权$10B）
+
+### 最新季度 详情（海豚研究）
+
+Q1 FY2027（财季截止 2026-06-30，2026-07-29 盘后发布）：
+
+- 总营收 $1.29B（+22% YoY），历史新高，beat 共识 ~$1.26-1.27B
+- Royalty 收入 $715M（+22% YoY，Q1 历史新高），其中数据中心版税收入同比翻倍以上（AI 基础设施 Arm 采用加速）
+- Licensing 收入 $574M（+23% YoY，Q1 历史新高），含 SoftBank 技术授权/设计服务协议 $193M
+- GAAP 净利 $270M（+107.7% YoY，上年 $130M），GAAP 摊薄 EPS $0.25；Non-GAAP 净利 $480M（+28%），Non-GAAP EPS $0.45（+29%，beat 共识 $0.40）
+- Non-GAAP 毛利率 98.1%；Non-GAAP 运营利润 $531M（+29%），运营利润率 ~41%（+2pp）
+- 自由现金流 $665M（TTM $1.4B）；ACV $1.732B（+13% YoY）
+- Q2 FY2027 指引：营收 $1.38B ± $50M（中值 +22%，高于共识 ~$1.35B），Non-GAAP EPS $0.47 ± $0.04，Licensing ~+30%，Royalty 低 teens，Non-GAAP opex ~$780M
+- 全年展望：Royalty 增速指引下调至高 teens（此前 ~20%），因存储成本压力导致手机市场疲软；管理层称 Licensing 强劲增长可对冲
+- AGI CPU 需求管线 > $2B（较最初 $1B 机会翻倍）；Neoverse 累计出货 > 15 亿核；长期目标 FY2031 营收 ~$25B（IP/CSS $10B + AGI CPU $15B）
+- 财报后股价盘后跌逾 2%（Royalty 增速下修引发担忧）
 
 ## 业务板块
 

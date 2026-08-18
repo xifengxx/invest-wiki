@@ -4,11 +4,13 @@ slug: nanya-technology
 country: 台湾
 ticker: 2408.TW
 type: company
-updated: 2026-07
-data_freshness_date: 2026-07-23
+updated: 2026-08
+data_freshness_date: 2026-08-18
 segments:
 - 存储芯片(DRAM/NAND)
-one_liner: 全球第六大DRAM制造商和利基DRAM（DDR4/DDR3）龙头，受益于三星/SK海力士/美光将产能转向DDR5/HBM造成的成熟DRAM供应缺口，Q2 2026毛利率79.5%（超越台积电），H1 EPS NT$23.38（+643% YoY），AI服务器DRAM占>20%营收，4家战略投资者（SanDisk/Cisco/Kioxia/Solidigm）LTA锁定~50%产出，市值~NT$1.5T（~$46B）。
+one_liner: |
+  全球第六大DRAM制造商和利基DRAM（DDR4/DDR3）龙头，受益于三星/SK海力士/美光将产能转向DDR5/HBM造成的成熟DRAM供应缺口，Q2 2026毛利率79.5%（超越台积电），H1 EPS NT$23.38（+643% YoY），AI服务器DRAM占>20%营收，4家战略投资者（SanDisk/Cisco/Kioxia/Solidigm）LTA锁定~50%产出，市值~NT$1.5T（~$46B）。
+  【2026.8.18更新】Q2 2026营收NT$825.5亿（+68.2% QoQ / +684.2% YoY），毛利率79.5%创历史新高（营业毛利NT$656.2亿，超越台积电），税后净利NT$501.9亿（净利率60.8%，EPS NT$14.66），DRAM ASP环比+60%量平价涨，AI服务器DRAM占>20%营收，H1累计净利NT$762.5亿。
 chain_layer: L3
 chain_role: 核心参与者
 suppliers:
@@ -53,7 +55,7 @@ revenue_model: H1 2026营收NT$1,316亿（+643% YoY），Q2 NT$825.5亿（+68% Q
 founded: 1995
 headquarters: 台湾新北（泰山）
 employees: ~4,000
-latest_revenue: H1 2026 NT$1,316亿（+643% YoY），Q2 NT$825.5亿（+684% YoY）
+latest_revenue: Q2 2026 NT$825.5亿（+68% QoQ / +684% YoY），H1 2026 NT$1,316亿（+643% YoY）
 market_cap: ~NT$1.5T（~$46B USD）（2026.7）
 description: 南亚科技（Nanya Technology）是全球第六大DRAM制造商和利基DRAM领域的隐形冠军，1995年成立，隶属台塑集团。公司的核心战略是利用三星/SK海力士/美光三大DRAM巨头将产能加速转向DDR5和HBM所造成的DDR4/DDR3供应缺口——当三巨头减少成熟DRAM产能时，南亚科成为全球为数不多仍在扩大DDR4/DDR3供应的厂商，从而实现了Q2 2026 79.5%的惊人毛利率（超越台积电）。AI服务器DRAM占比已超20%（目标2027年30%），定制高I/O DRAM（WoW晶圆堆叠+3D IC封装）技术和台积电合作，有望2027年起量。4家战略投资者（SanDisk/Cisco/Kioxia/Solidigm）2026年4月私募入股10.19%+LTA锁定~50%产出，降低周期波动。$16B新5A厂（2028年量产）将产能提升69%+。分析师预测2027年EPS NT$127+。
 website: https://www.nanya.com
@@ -72,6 +74,15 @@ industry: AI算力
 | **毛利率** | 67.9% | **79.5%** | — |
 | **净利率** | 53.1% | 60.8% | — |
 | **EPS** | NT$8.41 | **NT$14.66** | **NT$23.38** |
+
+### Q2 2026 详情（海豚研究）
+
+- **营收**：NT$825.49亿（+68.2% QoQ / +684.2% YoY），DRAM 平均售价（ASP）环比 +60%，位元出货量与上季持平（量平价涨）
+- **毛利率**：79.5% 创历史新高（营业毛利 NT$656.19亿），环比 +11.6pp，大幅超越台积电（Q1 约 66%）
+- **净利**：税后净利 NT$501.92亿（净利率 60.8%），环比 +92.6%、同比 +1323.6%；营业净利 NT$608.26亿（营业净利率 73.7%）
+- **EPS**：单季 NT$14.66（上季 NT$8.41）；H1 累计净利 NT$762.5亿、EPS NT$23.38
+- **其他**：每股净值 NT$93.49，期末净现金 NT$1,984亿；AI 基础设施/服务器相关产品营收占比 >20%
+- **展望**：管理层预期 Q3 2026 营运继续改善，DRAM 价格趋势走高，AI 驱动的结构性需求使供给短缺预计持续数个季度
 
 ## 利基DRAM战略
 
@@ -92,3 +103,7 @@ industry: AI算力
 - **定制AI DRAM**：WoW堆叠+3D IC，DRAM直接集成到CPU/ASIC，带宽5-10x
 - **AI服务器DRAM 20%→30%**（2027E）：DDR5/LPDDR5 AI需求爆发
 - **新5A厂$16B**：2028年量产，产能+69%，总产出+120%
+
+## 动态更新记录
+
+- 2026-08-18：归档 Q2 2026 财报（海豚研究，input_20260818_049），刷新 data_freshness_date / updated / latest_revenue，one_liner 追加更新，body 新增 Q2 2026 详情。
