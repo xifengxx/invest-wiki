@@ -7,6 +7,7 @@ type: company
 updated: 2026-08
 data_freshness_date: 2026-08-18
 segments:
+- 封装设备
 - 先进封装CoWoS
 - 封装测试(OSAT)
 one_liner: |

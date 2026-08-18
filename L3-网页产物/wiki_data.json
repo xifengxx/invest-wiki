@@ -1,8 +1,8 @@
 {
-  "total": 489,
+  "total": 493,
   "by_type": {
     "thesis": 18,
-    "segment": 74,
+    "segment": 78,
     "concept": 10,
     "industry": 2,
     "company": 385
@@ -2456,7 +2456,7 @@
       "tam": 42.0,
       "cagr": 8.0,
       "margin": "20-30%",
-      "backlinks": 10,
+      "backlinks": 12,
       "wikilinks": [
         "成熟制程代工",
         "封装基板材料",
@@ -2467,7 +2467,7 @@
         "IC设计服务(Fabless)"
       ],
       "content": "# 封装测试(OSAT)\n\n> **半导体** · L3 · TAM **$42.0B** · CAGR **8.0%**\n\n封装测试（OSAT = Outsourced Semiconductor Assembly and Test）将晶圆切割、封装、测试为成品芯片——是芯片从晶圆到产品的**「最后一公里」**。封装从传统引线键合→FC-BGA→2.5D/3D先进封装演进。|**全球OSAT市场$42B+(2025)，日月光(ASE台湾#1，~25%份额)、Amkor(美国#2，~15%)、长电科技(JCAP中国#3，",
-      "_heat": 15.8,
+      "_heat": 17.7,
       "description": "封装测试（OSAT = Outsourced Semiconductor Assembly and Test）将晶圆切割、封装、测试为成品芯片——是芯片从晶圆到产品的**「最后一公里」**。封装从传统引线键合→FC-BGA→2.5D/3D先进封装演进。|**全球OSAT市场$42B+(2025)，日月光(ASE台湾#1，~25%份额)、Amkor(美国#2，~15%)、长电科技(JCAP中国#3，~10%)、SPIL(台湾)、力成(PTI台湾)**为五大龙头。|**先进封装（FC-BGA/SiP/Fan-out/2.5D/3D）CAGR 15%+远高于传统封装3%**。TSMC切入CoWoS/InFO/SoIC挤压传统OSAT高端空间。中国长电科技/通富微电先进封装投资翻倍。",
       "cost_share_pct": 15,
       "cost_share_context": "芯片总成本（封装+测试占15-25%）",
@@ -3415,7 +3415,7 @@
       "tam": 30.0,
       "cagr": 40.0,
       "margin": "55-65%",
-      "backlinks": 11,
+      "backlinks": 12,
       "wikilinks": [
         "GPU",
         "封装基板材料",
@@ -3423,7 +3423,7 @@
         "AI芯片设计(Fabless)"
       ],
       "content": "# 先进封装(CoWoS/3D)\n\n> **半导体** · L3 · TAM **$30.0B** · CAGR **40.0%**\n\n先进封装将多颗芯片（GPU+HBM+硅中介层）通过**2.5D/3D技术集成**在单一封装内——是当前AI芯片供应链的**#1瓶颈**。|**TSMC CoWoS（Chip-on-Wafer-on-Substrate）绝对垄断>90%份额**。产能从~55K wpm(2025)→~120K wpm(end 2026,+118%)。NVIDIA独占~60%产能(700K wafers/yr)。CoW",
-      "_heat": 15.0,
+      "_heat": 16.0,
       "description": "先进封装将多颗芯片（GPU+HBM+硅中介层）通过**2.5D/3D技术集成**在单一封装内——是当前AI芯片供应链的**#1瓶颈**。|**TSMC CoWoS（Chip-on-Wafer-on-Substrate）绝对垄断>90%份额**。产能从~55K wpm(2025)→~120K wpm(end 2026,+118%)。NVIDIA独占~60%产能(700K wafers/yr)。CoWoS wafer ASP从$10K(2025)→$17K+(2026)，毛利率~60%。产能售罄至2027年中。|**CoWoS-L良率问题（CTE热膨胀系数不匹配）导致2025年前三季Blackwell产出减半**。Intel EMIB+Foveros（NVIDIA $5B备选协议）和三星I-Cube+Hybrid Bonding是两大替代方案。中国长电科技XDFOI和通富微电Vision在先进封装承接溢出需求。",
       "cost_share_pct": 15,
       "cost_share_context": "AI芯片总成本（CoWoS封装占15-20%）",
@@ -4188,6 +4188,287 @@
       "updated": "2026-07"
     },
     {
+      "name": "MEMS传感器",
+      "slug": "semi-mems-sensor",
+      "type": "segment",
+      "industry": "半导体",
+      "layer": 4,
+      "tam": 16.0,
+      "cagr": 3.7,
+      "margin": "35-45%",
+      "backlinks": 0,
+      "wikilinks": [
+        "模拟芯片",
+        "功率半导体",
+        "边缘AI"
+      ],
+      "content": "# MEMS传感器\n\n> **半导体** · L4 · TAM **$16.0B** · CAGR **3.7%**\n\nMEMS（微机电系统）传感器是将机械结构与电子电路集成在硅片上的微型传感器，涵盖惯性传感器（加速度计/陀螺仪）、麦克风、压力传感器、环境传感器等。智能手机、汽车自动驾驶和AI终端是三大核心应用，推动MEMS从单一传感器走向多传感器融合。",
+      "_heat": 2.3,
+      "description": "MEMS（微机电系统）传感器是将机械结构与电子电路集成在硅片上的微型传感器，涵盖惯性传感器（加速度计/陀螺仪）、麦克风、压力传感器、环境传感器等。智能手机、汽车自动驾驶和AI终端是三大核心应用，推动MEMS从单一传感器走向多传感器融合。",
+      "cost_share_pct": 5,
+      "cost_share_context": "消费电子/汽车BOM",
+      "profit_pool_pct": 6,
+      "profit_pool_context": "MEMS传感器利润池",
+      "price_conduction": [
+        "MEMS传感器是智能设备感知层核心",
+        "Bosch/ST在汽车级惯性传感议价权强",
+        "消费电子价格竞争激烈，汽车级溢价高",
+        "国产在声学突破，高精度惯性仍依赖进口"
+      ],
+      "competition": {
+        "global": [
+          {
+            "name": "Bosch博世",
+            "share": "~13-14%",
+            "note": "德国，全球最大MEMS厂商（2025营收$22亿），汽车惯性传感领先"
+          },
+          {
+            "name": "Broadcom",
+            "share": "-",
+            "note": "全球第二（$13亿），FBAR/谐振器"
+          },
+          {
+            "name": "STMicroelectronics",
+            "share": "-",
+            "note": "汽车级惯性传感与Bosch合计~40%份额"
+          }
+        ],
+        "china": [
+          {
+            "name": "歌尔微电子",
+            "share": "-",
+            "note": "国产MEMS麦克风龙头"
+          },
+          {
+            "name": "敏芯股份",
+            "share": "-",
+            "note": "688286 国产MEMS声学/压力传感器"
+          }
+        ],
+        "barriers": [
+          {
+            "item": "微加工工艺",
+            "detail": "MEMS悬臂梁/薄膜微加工良率控制"
+          },
+          {
+            "item": "封装气密性",
+            "detail": "惯性/压力传感器需真空/气密封装"
+          },
+          {
+            "item": "汽车级可靠性认证",
+            "detail": "AEC-Q100车规认证周期长"
+          }
+        ],
+        "tech_gap": [
+          {
+            "dimension": "中国在MEMS麦克风突破，但高精度惯性/压力传感器仍依赖进口，国产化率约20-30%",
+            "detail": ""
+          }
+        ]
+      },
+      "key_trends": [
+        {
+          "title": "AI终端传感器升级",
+          "detail": "AI手机/AR眼镜驱动惯性/环境传感器需求，MEMS市场2025强势复苏"
+        },
+        {
+          "title": "汽车智能化增量",
+          "detail": "自动驾驶推动MEMS惯性传感器/激光雷达MEMS镜面需求"
+        },
+        {
+          "title": "微型化与集成化",
+          "detail": "多传感器融合封装（惯性+磁力+压力）趋势"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yole《MEMS市场2025》",
+          "summary": "2025全球MEMS组件约$160亿(CAGR 3.7%)，Bosch全球最大($22亿，~13-14%)，消费占一半、汽车/工业各$29亿",
+          "url": "https://techsplicit.com/mems-market-bounce-benefits-bosch-says-yole/"
+        }
+      ],
+      "key_inputs": [
+        "晶圆代工(成熟制程)",
+        "封装测试(OSAT)"
+      ],
+      "key_customers": [
+        "智能手机",
+        "汽车电子",
+        "物联网设备"
+      ],
+      "value_add": "medium",
+      "companies": [
+        {
+          "ticker": "BOSCH",
+          "name": "博世(Bosch)",
+          "role": "全球龙头",
+          "rev": 55
+        },
+        {
+          "ticker": "STM",
+          "name": "意法半导体",
+          "role": "汽车传感龙头",
+          "rev": 50
+        },
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom",
+          "role": "FBAR/谐振器",
+          "rev": 45
+        },
+        {
+          "ticker": "688286",
+          "name": "敏芯股份",
+          "role": "国产龙头",
+          "rev": 35
+        }
+      ],
+      "contradictions": [],
+      "related_theses": [],
+      "updated": "2026-08"
+    },
+    {
+      "name": "测试设备",
+      "slug": "semi-test-equipment",
+      "type": "segment",
+      "industry": "半导体",
+      "layer": 2,
+      "tam": 7.65,
+      "cagr": 7.35,
+      "margin": "45-55%",
+      "backlinks": 0,
+      "wikilinks": [
+        "检测量测设备",
+        "封装测试(OSAT)",
+        "存储芯片(DRAM/NAND)"
+      ],
+      "content": "# 测试设备\n\n> **半导体** · L2 · TAM **$7.65B** · CAGR **7.35%**\n\n半导体测试设备（ATE自动测试设备/探针台/分选机）是芯片出厂前的最后一道质量关口，覆盖晶圆探针测试（CP）和成品测试（FT），确保芯片功能与性能达标。AI芯片复杂度提升和HBM堆叠测试需求，驱动测试设备成为半导体设备中增速最快的细分之一。",
+      "_heat": 1.1,
+      "description": "半导体测试设备（ATE自动测试设备/探针台/分选机）是芯片出厂前的最后一道质量关口，覆盖晶圆探针测试（CP）和成品测试（FT），确保芯片功能与性能达标。AI芯片复杂度提升和HBM堆叠测试需求，驱动测试设备成为半导体设备中增速最快的细分之一。",
+      "cost_share_pct": 8,
+      "cost_share_context": "半导体后道测试设备投资",
+      "profit_pool_pct": 10,
+      "profit_pool_context": "半导体设备利润池（Teradyne/Advantest双寡头）",
+      "price_conduction": [
+        "测试设备是芯片良率与质量的最后一道关口",
+        "Teradyne/Advantest双寡头合计~70%份额",
+        "AI芯片测试需求驱动测试设备量价齐升",
+        "测试成本占芯片成本比例持续上升",
+        "国产华峰测控/长川科技在成熟制程替代"
+      ],
+      "competition": {
+        "global": [
+          {
+            "name": "Teradyne",
+            "share": "~38%",
+            "note": "美国，数字ATE龙头，SoC/CPU/GPU测试领先（UltraFLEX/J750平台）"
+          },
+          {
+            "name": "Advantest",
+            "share": "~32%",
+            "note": "日本，存储测试龙头（HBM/3D NAND，市占超50%），T2000/T3000系列"
+          },
+          {
+            "name": "Cohu",
+            "share": "~10%",
+            "note": "美国，Handler/分选机龙头"
+          }
+        ],
+        "china": [
+          {
+            "name": "华峰测控",
+            "share": "-",
+            "note": "688200 国产模拟/混合信号ATE龙头，成熟制程突破"
+          },
+          {
+            "name": "长川科技",
+            "share": "-",
+            "note": "300604 国产测试设备，覆盖分选机/探针台"
+          }
+        ],
+        "barriers": [
+          {
+            "item": "高精度测试向量生成",
+            "detail": "先进制程SoC测试需数千通道并行高速测试"
+          },
+          {
+            "item": "HBM堆叠测试复杂度",
+            "detail": "HBM3e/HBM4多层堆叠的TSV互连测试难度极高"
+          },
+          {
+            "item": "AI芯片测试成本占比上升",
+            "detail": "大芯片测试时长与成本随复杂度飙升"
+          }
+        ],
+        "tech_gap": [
+          {
+            "dimension": "中国差距约5-8年，华峰测控在模拟测试突破但高端SoC/存储测试仍空白，国产测试设备市占率<10%",
+            "detail": ""
+          }
+        ]
+      },
+      "key_trends": [
+        {
+          "title": "HBM测试需求爆发",
+          "detail": "HBM3e/HBM4多层堆叠测试时间与复杂度大幅提升，Advantest存储测试机供不应求"
+        },
+        {
+          "title": "AI芯片测试成本占比上升",
+          "detail": "大芯片（如NVIDIA GPU）测试成本占芯片成本比例升至10-15%"
+        },
+        {
+          "title": "探针卡/Handler配套需求增长",
+          "detail": "Technoprobe探针卡、Cohu分选机随ATE同步增长"
+        }
+      ],
+      "sources": [
+        {
+          "title": "雪球《半导体测试设备总览2025》",
+          "summary": "2025全球测试设备约$85亿（ATE 63%/探针台22%/分选机15%），Teradyne+Advantest合计~70%",
+          "url": "https://xueqiu.com/4313629558/371788291"
+        }
+      ],
+      "key_inputs": [
+        "半导体设备零部件",
+        "电子特气"
+      ],
+      "key_customers": [
+        "晶圆代工(先进制程)",
+        "存储芯片(DRAM/NAND)",
+        "封装测试(OSAT)"
+      ],
+      "value_add": "high",
+      "companies": [
+        {
+          "ticker": "6857.T",
+          "name": "Advantest",
+          "role": "存储测试龙头",
+          "rev": 60
+        },
+        {
+          "ticker": "TER",
+          "name": "Teradyne",
+          "role": "数字测试龙头",
+          "rev": 55
+        },
+        {
+          "ticker": "688200",
+          "name": "华峰测控",
+          "role": "国产龙头",
+          "rev": 40
+        },
+        {
+          "ticker": "300604",
+          "name": "长川科技",
+          "role": "国产二线",
+          "rev": 35
+        }
+      ],
+      "contradictions": [],
+      "related_theses": [],
+      "updated": "2026-08"
+    },
+    {
       "name": "高纯硅料与硅片",
       "slug": "semi-silicon-wafer",
       "type": "segment",
@@ -4365,6 +4646,290 @@
       "updated": "2026-07"
     },
     {
+      "name": "射频芯片",
+      "slug": "semi-rf-chip",
+      "type": "segment",
+      "industry": "半导体",
+      "layer": 4,
+      "tam": 29.5,
+      "cagr": 10.0,
+      "margin": "40-50%",
+      "backlinks": 0,
+      "wikilinks": [
+        "模拟芯片",
+        "功率半导体",
+        "边缘AI"
+      ],
+      "content": "# 射频芯片\n\n> **半导体** · L4 · TAM **$29.5B** · CAGR **10.0%**\n\n射频芯片（射频前端RF Front-end）是无线通信的核心芯片，负责信号的收发、放大、滤波与开关切换，涵盖功率放大器（PA）、低噪声放大器（LNA）、滤波器、开关等组件。5G/6G升级和AI手机推动射频前端从分立器件走向高集成模块化（FEM），单机价值量持续提升。",
+      "_heat": 4.2,
+      "description": "射频芯片（射频前端RF Front-end）是无线通信的核心芯片，负责信号的收发、放大、滤波与开关切换，涵盖功率放大器（PA）、低噪声放大器（LNA）、滤波器、开关等组件。5G/6G升级和AI手机推动射频前端从分立器件走向高集成模块化（FEM），单机价值量持续提升。",
+      "cost_share_pct": 8,
+      "cost_share_context": "智能手机BOM",
+      "profit_pool_pct": 12,
+      "profit_pool_context": "手机射频前端利润池",
+      "price_conduction": [
+        "射频前端是手机通信核心，5G升级提升单机价值量",
+        "Skyworks+Qorvo合并后议价权增强",
+        "高端滤波器(BAW)供不应求",
+        "国产卓胜微/唯捷创芯在低端替代，高端仍依赖进口"
+      ],
+      "competition": {
+        "global": [
+          {
+            "name": "Skyworks+Qorvo",
+            "share": "~27%",
+            "note": "2025年10月合并，估值$220亿，登顶射频前端（PA/LNA/滤波器）"
+          },
+          {
+            "name": "Broadcom",
+            "share": "~16%",
+            "note": "FBAR滤波器龙头，苹果核心供应商"
+          },
+          {
+            "name": "村田Murata",
+            "share": "-",
+            "note": "日本，SAW滤波器+模块龙头"
+          },
+          {
+            "name": "高通Qualcomm",
+            "share": "-",
+            "note": "RF前端模块+基带捆绑，毫米波领先"
+          }
+        ],
+        "china": [
+          {
+            "name": "卓胜微",
+            "share": "-",
+            "note": "300782 国产射频开关/LNA龙头，国产替代主力"
+          },
+          {
+            "name": "唯捷创芯",
+            "share": "-",
+            "note": "688153 国产PA龙头"
+          }
+        ],
+        "barriers": [
+          {
+            "item": "滤波器工艺壁垒",
+            "detail": "BAW/FBAR滤波器工艺被Broadcom/村田垄断"
+          },
+          {
+            "item": "毫米波射频前端",
+            "detail": "高频段PA/LNA设计难度极高"
+          },
+          {
+            "item": "与基带协同优化",
+            "detail": "头部厂商与高通/联发科基带深度绑定"
+          }
+        ],
+        "tech_gap": [
+          {
+            "dimension": "中国在开关/LNA突破，但高端BAW滤波器/毫米波PA仍依赖进口，国产化率约15-20%",
+            "detail": ""
+          }
+        ]
+      },
+      "key_trends": [
+        {
+          "title": "5G/6G射频模块化",
+          "detail": "射频前端从分立走向高集成模块(FEM)，单机价值量提升"
+        },
+        {
+          "title": "行业整合加速",
+          "detail": "Skyworks+Qorvo合并应对中国厂商崛起，前五大合计~70%份额"
+        },
+        {
+          "title": "汽车/物联网射频新增长",
+          "detail": "V2X/卫星通信射频需求打开第二增长曲线"
+        }
+      ],
+      "sources": [
+        {
+          "title": "2025射频前端产业年终盘点",
+          "summary": "2025全球射频前端约$295.6亿，Skyworks+Qorvo合并后~27%份额登顶，超越Broadcom(16%)",
+          "url": "https://www.laoyaoba.com/n/972174"
+        }
+      ],
+      "key_inputs": [
+        "晶圆代工(先进制程)",
+        "模拟芯片"
+      ],
+      "key_customers": [
+        "边缘AI",
+        "自动驾驶"
+      ],
+      "value_add": "high",
+      "companies": [
+        {
+          "ticker": "SWKS",
+          "name": "Skyworks",
+          "role": "全球龙头",
+          "rev": 50
+        },
+        {
+          "ticker": "QRVO",
+          "name": "Qorvo",
+          "role": "全球龙头",
+          "rev": 50
+        },
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom",
+          "role": "FBAR滤波器龙头",
+          "rev": 55
+        },
+        {
+          "ticker": "300782",
+          "name": "卓胜微",
+          "role": "国产龙头",
+          "rev": 40
+        }
+      ],
+      "contradictions": [],
+      "related_theses": [],
+      "updated": "2026-08"
+    },
+    {
+      "name": "封装设备",
+      "slug": "semi-packaging-equipment",
+      "type": "segment",
+      "industry": "半导体",
+      "layer": 2,
+      "tam": 6.9,
+      "cagr": 5.8,
+      "margin": "45-55%",
+      "backlinks": 0,
+      "wikilinks": [
+        "先进封装(CoWoS/3D)",
+        "封装测试(OSAT)",
+        "检测量测设备"
+      ],
+      "content": "# 封装设备\n\n> **半导体** · L2 · TAM **$6.9B** · CAGR **5.8%**\n\n半导体封装设备（键合机/划片机/减薄机/贴片机）是芯片从晶圆到成品的封装环节核心装备，覆盖传统引线键合、倒装、热压键合（TCB）到混合键合（Hybrid Bonding）的演进路线。HBM堆叠和Chiplet异构集成推动先进封装设备成为半导体设备中增速最快的方向。",
+      "_heat": 1.0,
+      "description": "半导体封装设备（键合机/划片机/减薄机/贴片机）是芯片从晶圆到成品的封装环节核心装备，覆盖传统引线键合、倒装、热压键合（TCB）到混合键合（Hybrid Bonding）的演进路线。HBM堆叠和Chiplet异构集成推动先进封装设备成为半导体设备中增速最快的方向。",
+      "cost_share_pct": 6,
+      "cost_share_context": "半导体后端设备投资",
+      "profit_pool_pct": 8,
+      "profit_pool_context": "半导体设备利润池（Besi混合键合高溢价）",
+      "price_conduction": [
+        "封装设备是先进封装（CoWoS/HBM）落地的物理基础",
+        "Besi在混合键合近乎垄断，议价权强",
+        "HBM/Chiplet扩产驱动封装设备量价齐升",
+        "国产封装设备在传统封装替代，先进封装仍空白"
+      ],
+      "competition": {
+        "global": [
+          {
+            "name": "Besi",
+            "share": "~39%",
+            "note": "荷兰，贴片机(Die Bonder)全球龙头，混合键合技术领先，获AMAT 9%入股"
+          },
+          {
+            "name": "ASMPT",
+            "share": "-",
+            "note": "新加坡，TCB热压键合龙头，先进封装设备全面布局"
+          },
+          {
+            "name": "Kulicke & Soffa",
+            "share": "-",
+            "note": "美国，引线键合(Wire Bonding)传统龙头"
+          },
+          {
+            "name": "Disco",
+            "share": "-",
+            "note": "日本，划片/减薄设备龙头，全球市占90%+"
+          }
+        ],
+        "china": [
+          {
+            "name": "新益昌",
+            "share": "-",
+            "note": "国产固晶机/键合机，成熟封装突破"
+          }
+        ],
+        "barriers": [
+          {
+            "item": "混合键合对准精度",
+            "detail": "亚微米级对准精度，Besi独家领先"
+          },
+          {
+            "item": "TCB热压键合良率",
+            "detail": "HBM/Chiplet堆叠对键合良率要求极高"
+          },
+          {
+            "item": "高精度运动控制",
+            "detail": "键合机需纳米级运动精度与高速并行"
+          }
+        ],
+        "tech_gap": [
+          {
+            "dimension": "中国封装设备国产化率<14%，传统封装设备突破但先进封装（TCB/混合键合）仍依赖进口",
+            "detail": ""
+          }
+        ]
+      },
+      "key_trends": [
+        {
+          "title": "混合键合(Hybrid Bonding)爆发",
+          "detail": "2025年$1.52亿→2030年$3.97亿(CAGR 21%)，Besi领先，HBM4/3D堆叠核心"
+        },
+        {
+          "title": "TCB热压键合随HBM扩张",
+          "detail": "HBM堆栈驱动TCB需求，ASMPT/Hanmi领先"
+        },
+        {
+          "title": "AI驱动传统封装同步复苏",
+          "detail": "传统封装设备随AI数据中心投资同步回暖"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yole《后端设备市场2025》",
+          "summary": "2025半导体后端设备约$69亿(CAGR 5.8%)，键合机TCB $5.42亿/混合键合$1.52亿(CAGR 21%)，Besi贴片机份额~39%",
+          "url": "https://www.electronicsweekly.com/news/business/back-end-equipment-sales-growing-at-6-cagr-2025-08/"
+        }
+      ],
+      "key_inputs": [
+        "半导体设备零部件",
+        "电子特气"
+      ],
+      "key_customers": [
+        "封装测试(OSAT)",
+        "晶圆代工(先进制程)",
+        "存储芯片(DRAM/NAND)"
+      ],
+      "value_add": "high",
+      "companies": [
+        {
+          "ticker": "BESI.AS",
+          "name": "Besi",
+          "role": "贴片/混合键合龙头",
+          "rev": 55
+        },
+        {
+          "ticker": "0522.HK",
+          "name": "ASMPT",
+          "role": "TCB龙头",
+          "rev": 50
+        },
+        {
+          "ticker": "KLIC",
+          "name": "Kulicke & Soffa",
+          "role": "引线键合龙头",
+          "rev": 45
+        },
+        {
+          "ticker": "6146.T",
+          "name": "Disco",
+          "role": "划片机龙头",
+          "rev": 60
+        }
+      ],
+      "contradictions": [],
+      "related_theses": [],
+      "updated": "2026-08"
+    },
+    {
       "name": "检测量测设备",
       "slug": "semi-inspection-metrology",
       "type": "segment",
@@ -4373,12 +4938,12 @@
       "tam": 13.0,
       "cagr": 8.0,
       "margin": "50-60%",
-      "backlinks": 7,
+      "backlinks": 9,
       "wikilinks": [
         "光刻机"
       ],
       "content": "# 检测量测设备\n\n> **半导体** · L2 · TAM **$13.0B** · CAGR **8.0%**\n\n半导体检测量测设备是芯片制造的**「眼睛」**——在数百道工艺步骤后检查晶圆是否合格。分为**缺陷检测**（找出污染、划痕、图案缺陷）和**量测**（测量膜厚、线宽、套刻精度）两大类。|**KLA在全球检测市场的垄断地位堪比ASML在光刻机**——全球$12.6B(2025)，KLA绝对垄断(~50%份额，~7x第二名)。KLA+AMAT+Hitachi+ASML+Onto Innovation ",
-      "_heat": 8.7,
+      "_heat": 10.6,
       "description": "半导体检测量测设备是芯片制造的**「眼睛」**——在数百道工艺步骤后检查晶圆是否合格。分为**缺陷检测**（找出污染、划痕、图案缺陷）和**量测**（测量膜厚、线宽、套刻精度）两大类。|**KLA在全球检测市场的垄断地位堪比ASML在光刻机**——全球$12.6B(2025)，KLA绝对垄断(~50%份额，~7x第二名)。KLA+AMAT+Hitachi+ASML+Onto Innovation Top5占>57%。|**一台先进检测设备价格可达$30-50M，AI+深度学习缺陷分类**是重要技术趋势。KLA先进封装收入从$635M(2025)→$1B(2026)。中国中科飞测(688361)和华峰测控(688200)在细分领域突破。",
       "cost_share_pct": 12,
       "cost_share_context": "晶圆厂设备(WFE)支出",
@@ -4523,13 +5088,13 @@
       "tam": 95.0,
       "cagr": 8.0,
       "margin": "45-65%",
-      "backlinks": 3,
+      "backlinks": 5,
       "wikilinks": [
         "AI服务器",
         "成熟制程代工"
       ],
       "content": "# 模拟芯片\n\n> **半导体** · L4 · TAM **$95.0B** · CAGR **8.0%**\n\n模拟芯片处理真实世界的连续信号（声音/光/温度/压力/电压）——是**数字世界与物理世界的「接口」**。电源管理芯片（PMIC）和信号链（放大器/ADC/DAC/接口）为两大品类。|全球$95B+(2025)，**TI(美国#1，~20%，65%+毛利率，12寸厂成本优势，80,000+料号)、ADI(#2，~12%，高性能信号链)、Infineon、ST主导**。PMIC在AI服务器中需求暴增—",
-      "_heat": 16.5,
+      "_heat": 18.4,
       "description": "模拟芯片处理真实世界的连续信号（声音/光/温度/压力/电压）——是**数字世界与物理世界的「接口」**。电源管理芯片（PMIC）和信号链（放大器/ADC/DAC/接口）为两大品类。|全球$95B+(2025)，**TI(美国#1，~20%，65%+毛利率，12寸厂成本优势，80,000+料号)、ADI(#2，~12%，高性能信号链)、Infineon、ST主导**。PMIC在AI服务器中需求暴增——每台GB200 NVL72需要200+颗PMIC。|中国圣邦股份(300661，国产模拟#1，3000+料号)、思瑞浦(688536，信号链)、纳芯微(688052，隔离+传感器)追赶。TI 12寸厂成本优势⇒对中国模拟芯片进行价格战。",
       "cost_share_pct": 15,
       "cost_share_context": "电子系统BOM成本",
@@ -5197,7 +5762,7 @@
       "tam": 42.0,
       "cagr": 12.0,
       "margin": "30-45%",
-      "backlinks": 5,
+      "backlinks": 7,
       "wikilinks": [
         "高纯硅料与硅片",
         "模拟芯片",
@@ -5209,7 +5774,7 @@
         "晶圆代工(先进制程)"
       ],
       "content": "# 功率半导体\n\n> **半导体** · L3 · TAM **$42.0B** · CAGR **12.0%**\n\n功率半导体是管理和转换电能的**「电力电子心脏」**——MOSFET/IGBT/SiC/GaN四大品类。新能源车（主驱逆变器+OBC+DC/DC）、光伏逆变器、充电桩、数据中心UPS四大增长引擎。|**全球$42B+(2025)，Infineon(德国#1，~20%份额，SiC/GaN/IGBT全品类)、ON Semi(~12%，汽车+工业)、STMicroelectronics(~10%，SiC",
-      "_heat": 10.9,
+      "_heat": 12.8,
       "description": "功率半导体是管理和转换电能的**「电力电子心脏」**——MOSFET/IGBT/SiC/GaN四大品类。新能源车（主驱逆变器+OBC+DC/DC）、光伏逆变器、充电桩、数据中心UPS四大增长引擎。|**全球$42B+(2025)，Infineon(德国#1，~20%份额，SiC/GaN/IGBT全品类)、ON Semi(~12%，汽车+工业)、STMicroelectronics(~10%，SiC #1/Tesla供应商)、Wolfspeed(SiC衬底#1)**主导。SiC增速>30%（Tesla/比亚迪主驱逆变器800V平台驱动），GaN在快充+数据中心UPS爆发。|**中国时代电气(688187，中车旗下IGBT龙头)、斯达半导(603290，IGBT模块#1)、士兰微(600460)**在IGBT和SiC领域快速追赶。比亚迪半导体自供IGBT。中国IGBT国产化率~25%→目标50%。",
       "cost_share_pct": 10,
       "cost_share_context": "新能源车BOM（主驱逆变器+OBC+DC/DC占整车BOM 8-12%）",
@@ -6655,7 +7220,7 @@
       "tam": 200.0,
       "cagr": 18.0,
       "margin": "30-50%",
-      "backlinks": 16,
+      "backlinks": 17,
       "wikilinks": [
         "光掩模版",
         "电子特气",
@@ -6668,7 +7233,7 @@
         "AI芯片设计(Fabless)"
       ],
       "content": "# 存储芯片(DRAM/NAND)\n\n> **半导体** · L3 · TAM **$200.0B** · CAGR **18.0%**\n\n存储芯片是半导体产业中**最大的单一品类**（占全球半导体市场30%+）。DRAM（动态随机存取存储器）和NAND Flash（闪存）为两大核心产品。|**DRAM市场三巨头垄断>95%：三星(~38%)、SK Hynix(~34%)、Micron(~25%)**。HBM是DRAM中最高端品类——HBM3E 2026合约价涨20%，三巨头全部售罄。DDR5价格涨60%+(Samsung 32GB ",
-      "_heat": 44.2,
+      "_heat": 45.2,
       "description": "存储芯片是半导体产业中**最大的单一品类**（占全球半导体市场30%+）。DRAM（动态随机存取存储器）和NAND Flash（闪存）为两大核心产品。|**DRAM市场三巨头垄断>95%：三星(~38%)、SK Hynix(~34%)、Micron(~25%)**。HBM是DRAM中最高端品类——HBM3E 2026合约价涨20%，三巨头全部售罄。DDR5价格涨60%+(Samsung 32GB $149→$239)。NAND由三星+Kioxia+WDC+Micron+SK Hynix+YMTC六家主导。|**中国CXMT(长鑫存储)DRAM 17nm DDR5 2026量产**，YMTC(长江存储)NAND 232层量产。国产存储芯片从零到一突破，但全球份额仍<5%，且受美国制裁持续限制先进制程设备获取。",
       "cost_share_pct": 30,
       "cost_share_context": "全球半导体总市场",
@@ -11785,13 +12350,13 @@
       "tam": 25.0,
       "cagr": 35.0,
       "margin": "30-50%",
-      "backlinks": 5,
+      "backlinks": 7,
       "wikilinks": [
         "自动驾驶",
         "ASIC/AI定制芯片"
       ],
       "content": "# 边缘AI\n\n> **AI算力** · L4 · TAM **$25.0B** · CAGR **35.0%**\n\n边缘AI将推理从云端**下沉到设备端**(手机/汽车/摄像头/机器人)实时推理。核心优势：毫秒级延迟+本地隐私+离线可用。|**2025年Edge AI芯片市场$23.5-26B，智能手机占~38%(~$9B)**。Qualcomm Snapdragon X2 Elite 80 TOPS NPU(2026H1)、Apple M4 Neural Engine 38 TOPS、AMD Ryzen AI",
-      "_heat": 8.4,
+      "_heat": 10.4,
       "description": "边缘AI将推理从云端**下沉到设备端**(手机/汽车/摄像头/机器人)实时推理。核心优势：毫秒级延迟+本地隐私+离线可用。|**2025年Edge AI芯片市场$23.5-26B，智能手机占~38%(~$9B)**。Qualcomm Snapdragon X2 Elite 80 TOPS NPU(2026H1)、Apple M4 Neural Engine 38 TOPS、AMD Ryzen AI 55 TOPS。汽车为增速最快子赛道(CAGR 22.4%)，NVIDIA DRIVE Thor 2000 TOPS。|**端侧大模型(LLM on-device)是最大催化剂**——73%高端手机AI-capable，AI PC 48M+台(2025)需40 TOPS+ NPU。Gartner预计2026年40%企业应用嵌入Agent驱动端侧推理需求。",
       "cost_share_pct": 10,
       "cost_share_context": "AI推理总成本",
@@ -19972,7 +20537,7 @@
       "data_freshness_date": "2026-08-18",
       "industry": "AI算力",
       "segments": [
-        "检测量测设备"
+        "测试设备"
       ],
       "chain_layer": "L2",
       "chain_role": "龙头",
@@ -22617,6 +23182,7 @@
       "data_freshness_date": "2026-08-18",
       "industry": "AI算力",
       "segments": [
+        "封装设备",
         "先进封装CoWoS",
         "封装测试(OSAT)"
       ],
@@ -34472,8 +35038,36 @@
       }
     },
     {
+      "name": "MEMS传感器",
+      "value": 16.0,
+      "itemStyle": {
+        "color": "#94a3b8"
+      }
+    },
+    {
+      "name": "测试设备",
+      "value": 7.65,
+      "itemStyle": {
+        "color": "#94a3b8"
+      }
+    },
+    {
       "name": "高纯硅料与硅片",
       "value": 15.0,
+      "itemStyle": {
+        "color": "#94a3b8"
+      }
+    },
+    {
+      "name": "射频芯片",
+      "value": 29.5,
+      "itemStyle": {
+        "color": "#94a3b8"
+      }
+    },
+    {
+      "name": "封装设备",
+      "value": 6.9,
       "itemStyle": {
         "color": "#94a3b8"
       }
@@ -34763,7 +35357,7 @@
       },
       {
         "name": "封装测试(OSAT)",
-        "symbolSize": 20,
+        "symbolSize": 24,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -34805,7 +35399,7 @@
       },
       {
         "name": "先进封装(CoWoS/3D)",
-        "symbolSize": 22,
+        "symbolSize": 24,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -34839,6 +35433,20 @@
         }
       },
       {
+        "name": "MEMS传感器",
+        "symbolSize": 12,
+        "itemStyle": {
+          "color": "#0071E3"
+        }
+      },
+      {
+        "name": "测试设备",
+        "symbolSize": 12,
+        "itemStyle": {
+          "color": "#0071E3"
+        }
+      },
+      {
         "name": "高纯硅料与硅片",
         "symbolSize": 22,
         "itemStyle": {
@@ -34846,8 +35454,22 @@
         }
       },
       {
+        "name": "射频芯片",
+        "symbolSize": 12,
+        "itemStyle": {
+          "color": "#0071E3"
+        }
+      },
+      {
+        "name": "封装设备",
+        "symbolSize": 12,
+        "itemStyle": {
+          "color": "#0071E3"
+        }
+      },
+      {
         "name": "检测量测设备",
-        "symbolSize": 14,
+        "symbolSize": 18,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -34882,7 +35504,7 @@
       },
       {
         "name": "功率半导体",
-        "symbolSize": 12,
+        "symbolSize": 14,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -34945,7 +35567,7 @@
       },
       {
         "name": "存储芯片(DRAM/NAND)",
-        "symbolSize": 32,
+        "symbolSize": 34,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35078,7 +35700,7 @@
       },
       {
         "name": "边缘AI",
-        "symbolSize": 12,
+        "symbolSize": 14,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -37964,6 +38586,10 @@
         "target": "CMP抛光液与抛光垫"
       },
       {
+        "source": "测试设备",
+        "target": "封装测试(OSAT)"
+      },
+      {
         "source": "高纯硅料与硅片",
         "target": "光刻机"
       },
@@ -37974,6 +38600,14 @@
       {
         "source": "高纯硅料与硅片",
         "target": "电子特气"
+      },
+      {
+        "source": "封装设备",
+        "target": "先进封装(CoWoS/3D)"
+      },
+      {
+        "source": "封装设备",
+        "target": "封装测试(OSAT)"
       },
       {
         "source": "检测量测设备",
@@ -39070,7 +39704,19 @@
         "name": "CMP设备"
       },
       {
+        "name": "MEMS传感器"
+      },
+      {
+        "name": "测试设备"
+      },
+      {
         "name": "高纯硅料与硅片"
+      },
+      {
+        "name": "射频芯片"
+      },
+      {
+        "name": "封装设备"
       },
       {
         "name": "检测量测设备"
@@ -39156,9 +39802,9 @@
     },
     {
       "name": "存储芯片(DRAM/NAND)",
-      "score": 44.2,
+      "score": 45.2,
       "tam": 200.0,
-      "backlinks": 16
+      "backlinks": 17
     },
     {
       "name": "晶圆代工(先进制程)",
@@ -39204,26 +39850,26 @@
     },
     {
       "name": "模拟芯片",
-      "score": 16.5,
+      "score": 18.4,
       "tam": 95.0,
-      "backlinks": 3
+      "backlinks": 5
     },
     {
       "name": "封装测试(OSAT)",
-      "score": 15.8,
+      "score": 17.7,
       "tam": 42.0,
-      "backlinks": 10
+      "backlinks": 12
+    },
+    {
+      "name": "先进封装(CoWoS/3D)",
+      "score": 16.0,
+      "tam": 30.0,
+      "backlinks": 12
     },
     {
       "name": "光刻机",
       "score": 15.4,
       "tam": 33.0,
-      "backlinks": 11
-    },
-    {
-      "name": "先进封装(CoWoS/3D)",
-      "score": 15.0,
-      "tam": 30.0,
       "backlinks": 11
     },
     {
@@ -39269,6 +39915,12 @@
       "backlinks": 11
     },
     {
+      "name": "功率半导体",
+      "score": 12.8,
+      "tam": 42.0,
+      "backlinks": 7
+    },
+    {
       "name": "Chiplet与异构集成",
       "score": 12.7,
       "tam": 14.0,
@@ -39281,16 +39933,16 @@
       "backlinks": 9
     },
     {
-      "name": "功率半导体",
-      "score": 10.9,
-      "tam": 42.0,
-      "backlinks": 5
-    },
-    {
       "name": "自动驾驶",
       "score": 10.8,
       "tam": 48.0,
       "backlinks": 4
+    },
+    {
+      "name": "检测量测设备",
+      "score": 10.6,
+      "tam": 13.0,
+      "backlinks": 9
     },
     {
       "name": "CPU(服务器级)",
@@ -39299,16 +39951,10 @@
       "backlinks": 5
     },
     {
-      "name": "GPU制造代工",
-      "score": 9.8,
-      "tam": 55.0,
-      "backlinks": 2
-    },
-    {
-      "name": "Chiplet与异构集成",
-      "score": 9.8,
-      "tam": 14.0,
-      "backlinks": 8
+      "name": "边缘AI",
+      "score": 10.4,
+      "tam": 25.0,
+      "backlinks": 7
     }
   ],
   "thesis_index": {
