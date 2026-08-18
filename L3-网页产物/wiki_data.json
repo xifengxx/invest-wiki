@@ -1,8 +1,8 @@
 {
-  "total": 493,
+  "total": 496,
   "by_type": {
     "thesis": 18,
-    "segment": 78,
+    "segment": 81,
     "concept": 10,
     "industry": 2,
     "company": 385
@@ -8138,7 +8138,7 @@
       "tam": 220.0,
       "cagr": 25.0,
       "margin": "10-20%",
-      "backlinks": 26,
+      "backlinks": 28,
       "wikilinks": [
         "GPU",
         "散热液冷系统",
@@ -8151,7 +8151,7 @@
         "DPU/SmartNIC"
       ],
       "content": "# AI服务器\n\n> **AI算力** · L3 · TAM **$220.0B** · CAGR **25.0%**\n\nAI服务器是为深度学习训练和推理**专门优化**的高性能计算系统——集成多颗GPU、配备HBM高带宽内存、液冷散热、高速互联。|**GB200 NVL72是当前旗舰**——72颗B200 GPU通过NVLink全互联集成在液冷机柜中，单机柜ASP超$300万。2025年出货~20K机柜，2026年预计30K+。|**NVIDIA从芯片走向完整系统**：DGX+GB200 NVL机柜级方案定义行业标",
-      "_heat": 56.8,
+      "_heat": 58.7,
       "description": "AI服务器是为深度学习训练和推理**专门优化**的高性能计算系统——集成多颗GPU、配备HBM高带宽内存、液冷散热、高速互联。|**GB200 NVL72是当前旗舰**——72颗B200 GPU通过NVLink全互联集成在液冷机柜中，单机柜ASP超$300万。2025年出货~20K机柜，2026年预计30K+。|**NVIDIA从芯片走向完整系统**：DGX+GB200 NVL机柜级方案定义行业标准，ODM从组装向散热/测试差异化转型。AI服务器2026年将占全球服务器市场74%价值。",
       "cost_share_pct": 25,
       "cost_share_context": "数据中心TCO",
@@ -9068,14 +9068,14 @@
       "tam": 11.0,
       "cagr": 50.0,
       "margin": "50-70%",
-      "backlinks": 5,
+      "backlinks": 6,
       "wikilinks": [
         "云计算IaaS",
         "AI推理API服务",
         "ASIC/AI定制芯片"
       ],
       "content": "# AI Agent\n\n> **AI算力** · L4 · TAM **$11.0B** · CAGR **50.0%**\n\nAI Agent是能**自主感知环境、制定计划、使用工具、执行多步骤任务**的智能体——与聊天机器人不同，Agent可调用API、读写文件、操作软件完成复杂工作流。|**2025是Agent元年**：OpenAI Agents SDK、Anthropic Claude Code($1B ARR/6个月)+Computer Use、Google Mariner、Microsoft Copilot A",
-      "_heat": 6.4,
+      "_heat": 7.4,
       "description": "AI Agent是能**自主感知环境、制定计划、使用工具、执行多步骤任务**的智能体——与聊天机器人不同，Agent可调用API、读写文件、操作软件完成复杂工作流。|**2025是Agent元年**：OpenAI Agents SDK、Anthropic Claude Code($1B ARR/6个月)+Computer Use、Google Mariner、Microsoft Copilot Agents发布。MCP协议(Linux基金会)成为Agent-工具交互行业标准，获OpenAI/Google/Microsoft联合采用。|**Gartner预计2026年40%企业应用嵌入Agent**(2025年<5%)。Agent成本$0.25-0.50/interaction vs 人工$3-6。垂直Agent(Harvey法律/Sierra客服/Devin编程)在专业领域超越通用Agent。",
       "cost_share_pct": 15,
       "cost_share_context": "AI推理总成本",
@@ -9864,7 +9864,7 @@
       "tam": 420.0,
       "cagr": 28.0,
       "margin": "30-40%",
-      "backlinks": 7,
+      "backlinks": 8,
       "wikilinks": [
         "GPU",
         "AI服务器",
@@ -9873,7 +9873,7 @@
         "AI推理API服务"
       ],
       "content": "# 云计算IaaS\n\n> **AI算力** · L4 · TAM **$420.0B** · CAGR **28.0%**\n\n云计算IaaS将服务器/存储/网络以**按需付费方式**提供。AI时代竞争核心从通用计算性价比转向**GPU/TPU供给能力**。|**FY2025全球云基础设施$419B(+30% Q4)，AWS 28-29%($128.7B)/Azure 20-21%/GCP 13-15%**。NeoCloud(CoreWeave $5.13B营收2025,从零到全球Top10仅2年)以60-70%折扣抢GP",
-      "_heat": 66.8,
+      "_heat": 67.8,
       "description": "云计算IaaS将服务器/存储/网络以**按需付费方式**提供。AI时代竞争核心从通用计算性价比转向**GPU/TPU供给能力**。|**FY2025全球云基础设施$419B(+30% Q4)，AWS 28-29%($128.7B)/Azure 20-21%/GCP 13-15%**。NeoCloud(CoreWeave $5.13B营收2025,从零到全球Top10仅2年)以60-70%折扣抢GPU云市场，NeoCloud集体营收$23-25B(2025)，预计2030年$180B。|**AWS Trainium+Graviton超$10B年化营收**，中国阿里云国内#1(~35%)。云厂商自研AI芯片+NeoCloud崛起重塑格局。",
       "cost_share_pct": 45,
       "cost_share_context": "数据中心",
@@ -10502,7 +10502,7 @@
       "tam": 83.0,
       "cagr": 17.0,
       "margin": "40-60%",
-      "backlinks": 9,
+      "backlinks": 10,
       "wikilinks": [
         "AI服务器",
         "散热液冷系统",
@@ -10511,7 +10511,7 @@
         "服务器电源与UPS"
       ],
       "content": "# 数据中心IDC\n\n> **AI算力** · L4 · TAM **$83.0B** · CAGR **17.0%**\n\n数据中心IDC为IT设备提供**物理基础设施**——电力、冷却、安防和网络接入。|**AI使功率密度飙升10-20倍**：传统5-10kW/rack→AI 40-120kW/rack，GB200 NVL72单机柜>120kW。液冷从选配变标配——Vertiv/Schneider/CoolIT订单排至2027，Aligned DeltaFlow支持300kW/rack。|**Equinix(#1,2",
-      "_heat": 20.6,
+      "_heat": 21.6,
       "description": "数据中心IDC为IT设备提供**物理基础设施**——电力、冷却、安防和网络接入。|**AI使功率密度飙升10-20倍**：传统5-10kW/rack→AI 40-120kW/rack，GB200 NVL72单机柜>120kW。液冷从选配变标配——Vertiv/Schneider/CoolIT订单排至2027，Aligned DeltaFlow支持300kW/rack。|**Equinix(#1,270+IBX,$9B年收入,22年连续增长)和Digital Realty(#2,5GW可建IT容量,支持70kW/rack)为最大IDC REITs**。2026美国托管市场$47B(+16.5%)。电力成核心瓶颈：北弗吉尼亚电网排队至2030-31年，新加坡/都柏林限制新建。",
       "cost_share_pct": 25,
       "cost_share_context": "数据中心",
@@ -11793,7 +11793,7 @@
       "tam": 80.0,
       "cagr": 50.0,
       "margin": "20-30%",
-      "backlinks": 8,
+      "backlinks": 10,
       "wikilinks": [
         "GPU",
         "AI服务器",
@@ -11804,7 +11804,7 @@
         "800G/1.6T光模块"
       ],
       "content": "# AI训练集群/超算\n\n> **AI算力** · L3 · TAM **$80.0B** · CAGR **50.0%**\n\nAI训练集群将**数千到百万颗GPU通过网络互联**，作为整体训练超大模型的超级计算系统。**核心挑战是通信和电力**——十万卡集群需TB/s级互联带宽和100MW+供电。|**xAI Colossus是全球最大集群**：20万H100(122天建成)→2026年55.5万GPU/2GW→目标100万GPU；Anthropic以$1.25B/月租赁Colossus 1产能至2029年。|**Met",
-      "_heat": 19.2,
+      "_heat": 21.2,
       "description": "AI训练集群将**数千到百万颗GPU通过网络互联**，作为整体训练超大模型的超级计算系统。**核心挑战是通信和电力**——十万卡集群需TB/s级互联带宽和100MW+供电。|**xAI Colossus是全球最大集群**：20万H100(122天建成)→2026年55.5万GPU/2GW→目标100万GPU；Anthropic以$1.25B/月租赁Colossus 1产能至2029年。|**Meta Prometheus 1GW/36万GPU(2026)→Hyperion 5GW/180万GPU(2027)；OpenAI Stargate $500B，Phase 1 40万GPU/1.2GW(2026中)**。2026年超大规模Capex总计~$725B。",
       "cost_share_pct": 60,
       "cost_share_context": "AI训练平台",
@@ -11965,6 +11965,148 @@
       "updated": "2026-07"
     },
     {
+      "name": "网络设备（交换机）",
+      "slug": "network-equipment",
+      "type": "segment",
+      "industry": "AI算力",
+      "layer": 3,
+      "tam": 16.2,
+      "cagr": 8.3,
+      "margin": "60-65%",
+      "backlinks": 0,
+      "wikilinks": [
+        "网络交换芯片",
+        "800G/1.6T光模块",
+        "AI服务器",
+        "AI训练集群/超算"
+      ],
+      "content": "# 网络设备（交换机）\n\n> **AI算力** · L3 · TAM **$16.2B** · CAGR **8.3%**\n\n数据中心交换机是AI集群Scale-out互联的核心系统级设备，负责GPU服务器之间的高速数据传输。AI训练推动后端网络从InfiniBand向以太网迁移，800G端口主导当前、1.6T即将量产，NVIDIA Spectrum-X凭借GPU捆绑切入，冲击Cisco/Arista传统格局。",
+      "_heat": 2.3,
+      "description": "数据中心交换机是AI集群Scale-out互联的核心系统级设备，负责GPU服务器之间的高速数据传输。AI训练推动后端网络从InfiniBand向以太网迁移，800G端口主导当前、1.6T即将量产，NVIDIA Spectrum-X凭借GPU捆绑切入，冲击Cisco/Arista传统格局。",
+      "cost_share_pct": 15,
+      "cost_share_context": "AI集群网络成本",
+      "profit_pool_pct": 20,
+      "profit_pool_context": "数据中心网络利润池",
+      "price_conduction": [
+        "交换机是AI集群Scale-out互联核心",
+        "AI后端网络需求爆发，800G/1.6T端口量价齐升",
+        "NVIDIA Spectrum-X捆绑GPU销售，冲击Cisco/Arista",
+        "交换机成本占AI集群网络成本大头"
+      ],
+      "competition": {
+        "global": [
+          {
+            "name": "Cisco",
+            "share": "~29.8%",
+            "note": "美国，整体交换机龙头，但企业园区收入占比高、数据中心增速慢(16.9%)"
+          },
+          {
+            "name": "Arista",
+            "share": "~19.2%",
+            "note": "美国，数据中心交换机龙头，AI后端网络份额第三，同比增长29%"
+          },
+          {
+            "name": "NVIDIA Spectrum-X",
+            "share": "~25.9%",
+            "note": "AI后端网络挑战者，Spectrum-X以太网平台，Q2 2025收入飙升647%"
+          }
+        ],
+        "china": [
+          {
+            "name": "华为",
+            "share": "-",
+            "note": "数据中心交换机，中国份额领先"
+          },
+          {
+            "name": "锐捷网络",
+            "share": "-",
+            "note": "国产数据中心交换机"
+          }
+        ],
+        "barriers": [
+          {
+            "item": "高速交换芯片与系统协同",
+            "detail": "800G/1.6T端口需芯片、光模块、系统级协同优化"
+          },
+          {
+            "item": "大规模集群流量调度",
+            "detail": "十万卡集群的拥塞控制与负载均衡（NVIDIA Spectrum-X优势）"
+          },
+          {
+            "item": "无损网络（RoCE/IB）",
+            "detail": "AI训练对丢包零容忍，需无损以太网"
+          }
+        ],
+        "tech_gap": [
+          {
+            "dimension": "中国交换机硬件追平，但高速交换芯片依赖Broadcom，AI集群级调度软件落后于NVIDIA Spectrum-X",
+            "detail": ""
+          }
+        ]
+      },
+      "key_trends": [
+        {
+          "title": "AI后端网络以太网化",
+          "detail": "2025以太网超InfiniBand两倍成AI首选架构，AI后端以太网销售翻倍"
+        },
+        {
+          "title": "800G→1.6T升级",
+          "detail": "800G主导2025，1.6T交换机2026下半年出货"
+        },
+        {
+          "title": "NVIDIA挑战传统双雄",
+          "detail": "Spectrum-X凭借GPU捆绑切入，Celestica+NVIDIA占AI后端~50%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dell'Oro《AI后端网络2025》",
+          "summary": "2025数据中心交换机$162亿(CAGR 8.3%)，AI后端以太网翻倍超InfiniBand两倍，Celestica+NVIDIA占~50%",
+          "url": "https://www.delloro.com/news/ethernet-more-than-doubles-size-of-infiniband-as-the-leading-fabric-for-ai-scale-out-networks-in-2025/"
+        }
+      ],
+      "key_inputs": [
+        "网络交换芯片",
+        "800G/1.6T光模块",
+        "DSP与光芯片"
+      ],
+      "key_customers": [
+        "云计算IaaS",
+        "AI训练集群/超算",
+        "数据中心IDC"
+      ],
+      "value_add": "high",
+      "companies": [
+        {
+          "ticker": "CSCO",
+          "name": "Cisco",
+          "role": "整体龙头",
+          "rev": 55
+        },
+        {
+          "ticker": "ANET",
+          "name": "Arista",
+          "role": "数据中心龙头",
+          "rev": 60
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "role": "AI后端挑战者",
+          "rev": 50
+        },
+        {
+          "ticker": "000063",
+          "name": "中兴通讯",
+          "role": "国产厂商",
+          "rev": 40
+        }
+      ],
+      "contradictions": [],
+      "related_theses": [],
+      "updated": "2026-08"
+    },
+    {
       "name": "AI开发者工具",
       "slug": "ai-dev-tools",
       "type": "segment",
@@ -11973,13 +12115,13 @@
       "tam": 8.0,
       "cagr": 45.0,
       "margin": "60-80%",
-      "backlinks": 1,
+      "backlinks": 2,
       "wikilinks": [
         "AI Agent",
         "AI推理API服务"
       ],
       "content": "# AI开发者工具\n\n> **AI算力** · L4 · TAM **$8.0B** · CAGR **45.0%**\n\nAI开发者工具是帮助程序员利用AI能力构建软件的**IDE插件、API和平台**。|核心品类：**AI代码补全（GitHub Copilot 180万+付费用户）、AI代码审查、AI自动化测试、AI文档生成、AI API管理**。|AI开发者工具正从「辅助」（提示下一行代码）向**「自主」**（AI Agent独立完成开发任务）演进。Cursor估值$10B+成为VS Code最强竞品。",
-      "_heat": 2.1,
+      "_heat": 3.1,
       "description": "AI开发者工具是帮助程序员利用AI能力构建软件的**IDE插件、API和平台**。|核心品类：**AI代码补全（GitHub Copilot 180万+付费用户）、AI代码审查、AI自动化测试、AI文档生成、AI API管理**。|AI开发者工具正从「辅助」（提示下一行代码）向**「自主」**（AI Agent独立完成开发任务）演进。Cursor估值$10B+成为VS Code最强竞品。",
       "cost_share_pct": 5,
       "cost_share_context": "AI推理总成本",
@@ -13059,14 +13201,14 @@
       "tam": 6.0,
       "cagr": 15.0,
       "margin": "40-50%",
-      "backlinks": 2,
+      "backlinks": 3,
       "wikilinks": [
         "GPU",
         "AI服务器",
         "AI训练集群/超算"
       ],
       "content": "# NVMe/存储芯片\n\n> **AI算力** · L3 · TAM **$6.0B** · CAGR **15.0%**\n\nNVMe/存储芯片是AI系统的**「仓库」**——负责训练数据存取、模型检查点存储和推理缓存管理。|AI训练的数据管道是I/O密集型——预处理后的数据需要以**100GB/s+的速度喂给GPU集群**，慢速存储会导致昂贵的GPU空闲。|**CXL正在打破内存和存储的边界**——允许CPU通过PCIe总线直接访问远端内存池，让AI集群的内存「池化」。",
-      "_heat": 2.8,
+      "_heat": 3.8,
       "description": "NVMe/存储芯片是AI系统的**「仓库」**——负责训练数据存取、模型检查点存储和推理缓存管理。|AI训练的数据管道是I/O密集型——预处理后的数据需要以**100GB/s+的速度喂给GPU集群**，慢速存储会导致昂贵的GPU空闲。|**CXL正在打破内存和存储的边界**——允许CPU通过PCIe总线直接访问远端内存池，让AI集群的内存「池化」。",
       "cost_share_pct": 5,
       "cost_share_context": "AI服务器成本",
@@ -13232,7 +13374,7 @@
       "tam": 106.0,
       "cagr": 50.0,
       "margin": "40-60%",
-      "backlinks": 8,
+      "backlinks": 9,
       "wikilinks": [
         "GPU",
         "AI开发者工具",
@@ -13241,7 +13383,7 @@
         "AI模型训练平台"
       ],
       "content": "# AI推理API服务\n\n> **AI算力** · L4 · TAM **$106.0B** · CAGR **50.0%**\n\nAI推理API将训练好的大模型部署在云端，通过API提供AI能力的**商业模式**——用户按Token付费，无需自购GPU。|**2025年DeepSeek颠覆行业格局**：训练成本$5.6M vs GPT-4 $100M+，推理成本从$60/M token降至$0.15(降幅99.75%)。2026年中国模型价仅为美国7%(中国$0.48 vs 美国$3.38/M token)。|**OpenA",
-      "_heat": 22.9,
+      "_heat": 23.9,
       "description": "AI推理API将训练好的大模型部署在云端，通过API提供AI能力的**商业模式**——用户按Token付费，无需自购GPU。|**2025年DeepSeek颠覆行业格局**：训练成本$5.6M vs GPT-4 $100M+，推理成本从$60/M token降至$0.15(降幅99.75%)。2026年中国模型价仅为美国7%(中国$0.48 vs 美国$3.38/M token)。|**OpenAI ARR $250-300B，Anthropic $47B run-rate，DeepSeek仅$220M但token量匹配**。市场两极分化：企业付溢价换可靠性，开发者极致追求性价比。全球token量150万亿/月(2千万亿年化)。",
       "cost_share_pct": 70,
       "cost_share_context": "AI推理总成本",
@@ -13619,6 +13761,148 @@
       "updated": "2026-07"
     },
     {
+      "name": "大模型",
+      "slug": "foundation-model",
+      "type": "segment",
+      "industry": "AI算力",
+      "layer": 4,
+      "tam": 82.0,
+      "cagr": 100.0,
+      "margin": "60-70%",
+      "backlinks": 0,
+      "wikilinks": [
+        "AI训练集群/超算",
+        "AI推理API服务",
+        "AI Agent",
+        "AI开发者工具"
+      ],
+      "content": "# 大模型\n\n> **AI算力** · L4 · TAM **$82.0B** · CAGR **100.0%**\n\n大模型（基础模型/LLM）是生成式AI产业链的核心软件层，提供通用智能能力，通过API订阅和消费订阅变现。2026年商业化进入加速兑现阶段，Anthropic以企业API+开发者路线反超OpenAI成为全球营收第一，行业从\"烧钱换规模\"转向\"收入质量与盈利能力\"的分化验证。",
+      "_heat": 11.7,
+      "description": "大模型（基础模型/LLM）是生成式AI产业链的核心软件层，提供通用智能能力，通过API订阅和消费订阅变现。2026年商业化进入加速兑现阶段，Anthropic以企业API+开发者路线反超OpenAI成为全球营收第一，行业从\"烧钱换规模\"转向\"收入质量与盈利能力\"的分化验证。",
+      "cost_share_pct": 40,
+      "cost_share_context": "大模型训练/推理总成本",
+      "profit_pool_pct": 35,
+      "profit_pool_context": "AI产业链利润池（模型层议价权）",
+      "price_conduction": [
+        "大模型是AI产业链的价值高地，议价权强",
+        "企业级API客单价远高于消费订阅",
+        "推理成本下降推动毛利率提升",
+        "模型层挤占下游应用层利润"
+      ],
+      "competition": {
+        "global": [
+          {
+            "name": "Anthropic",
+            "share": "~31.4%",
+            "note": "美国，2026 Q1营收份额全球第一，ARR $440-470亿，Claude Code占AI编程54%"
+          },
+          {
+            "name": "OpenAI",
+            "share": "~29%",
+            "note": "美国，ChatGPT月活9亿，ARR超$400亿，仍深度亏损(2026预计亏$270亿)"
+          },
+          {
+            "name": "Google Gemini",
+            "share": "-",
+            "note": "美国，Google Cloud生成式AI产品收入+800%"
+          }
+        ],
+        "china": [
+          {
+            "name": "字节跳动",
+            "share": "-",
+            "note": "中国第一，大模型年化收入约$40亿"
+          },
+          {
+            "name": "DeepSeek",
+            "share": "-",
+            "note": "开源路线，年化$4-5亿，九成来自API"
+          }
+        ],
+        "barriers": [
+          {
+            "item": "模型能力军备竞赛",
+            "detail": "前沿模型训练成本指数级上升"
+          },
+          {
+            "item": "企业级信任与安全",
+            "detail": "数据隐私、合规、幻觉控制"
+          },
+          {
+            "item": "推理成本优化",
+            "detail": "推理毛利率从38%升至70-85%是盈利关键"
+          }
+        ],
+        "tech_gap": [
+          {
+            "dimension": "中国模型能力追平但商业化体量小，美国走企业优先高客单价、中国走开源铺量+API变现",
+            "detail": ""
+          }
+        ]
+      },
+      "key_trends": [
+        {
+          "title": "商业化加速兑现",
+          "detail": "2026 Q1全球LLM季度营收$207亿，月活38亿，从烧钱转向盈利验证"
+        },
+        {
+          "title": "Anthropic反超OpenAI",
+          "detail": "Anthropic以企业API+开发者路线(客单价$16.2/月)反超OpenAI(消费订阅$2.2/月)"
+        },
+        {
+          "title": "AI Agent/编程驱动",
+          "detail": "Coding和Agent是收入核心引擎，Claude Code占AI编程市场54%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Counterpoint《全球LLM收入Q1 2026》",
+          "summary": "2026 Q1全球LLM季度营收$207亿，Anthropic以31.4%份额反超OpenAI(29%)，月活38亿",
+          "url": "https://counterpointresearch.com/en/insights/Global-LLM-Adoption-and-Revenue-Snapshot"
+        }
+      ],
+      "key_inputs": [
+        "AI训练集群/超算",
+        "GPU",
+        "AI服务器"
+      ],
+      "key_customers": [
+        "AI Agent",
+        "AI开发者工具",
+        "企业AI应用"
+      ],
+      "value_add": "high",
+      "companies": [
+        {
+          "ticker": "未上市",
+          "name": "Anthropic",
+          "role": "全球营收第一",
+          "rev": 60
+        },
+        {
+          "ticker": "未上市",
+          "name": "OpenAI",
+          "role": "用户规模第一",
+          "rev": 55
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Google(Gemini)",
+          "role": "云+模型协同",
+          "rev": 55
+        },
+        {
+          "ticker": "META",
+          "name": "Meta(Llama)",
+          "role": "开源路线",
+          "rev": 45
+        }
+      ],
+      "contradictions": [],
+      "related_theses": [],
+      "updated": "2026-08"
+    },
+    {
       "name": "800G/1.6T光模块",
       "slug": "optical-transceiver",
       "type": "segment",
@@ -13627,14 +13911,14 @@
       "tam": 26.0,
       "cagr": 50.0,
       "margin": "35-50%",
-      "backlinks": 6,
+      "backlinks": 7,
       "wikilinks": [
         "GPU",
         "DSP与光芯片",
         "AI训练集群/超算"
       ],
       "content": "# 800G/1.6T光模块\n\n> **AI算力** · L2 · TAM **$26.0B** · CAGR **50.0%**\n\n光模块将电信号转光信号在光纤中传输，是AI集群GPU间通信的**「数据高速公路」**——集群规模越大，光模块数量和速率需求指数增长。|**800G→1.6T迭代加速**：800G 2025出货~24M只→2026预计63M只，1.6T从0到5-20M只。AI光模块市场$16.5B(2025)→$26B(2026)。|**中国厂商全球主导**：中际旭创(全球28-30%份额,1.6T 50-70%垄",
-      "_heat": 9.6,
+      "_heat": 10.5,
       "description": "光模块将电信号转光信号在光纤中传输，是AI集群GPU间通信的**「数据高速公路」**——集群规模越大，光模块数量和速率需求指数增长。|**800G→1.6T迭代加速**：800G 2025出货~24M只→2026预计63M只，1.6T从0到5-20M只。AI光模块市场$16.5B(2025)→$26B(2026)。|**中国厂商全球主导**：中际旭创(全球28-30%份额,1.6T 50-70%垄断)和新易盛(全球15-18%,LPO独占75%)双寡头格局。核心瓶颈是200G EML激光器芯片——全球缺口20-30%，Lumentum/Coherent订单排至2028。",
       "cost_share_pct": 8,
       "cost_share_context": "AI训练集群网络成本(GPU间互联)",
@@ -14215,13 +14499,13 @@
       "tam": 12.0,
       "cagr": 38.0,
       "margin": "55-65%",
-      "backlinks": 3,
+      "backlinks": 4,
       "wikilinks": [
         "GPU",
         "AI训练集群/超算"
       ],
       "content": "# 网络交换芯片\n\n> **AI算力** · L3 · TAM **$12.0B** · CAGR **38.0%**\n\n网络交换芯片是数据中心的**「交通调度中心」**——决定数据包路由、优先级和拥塞控制。AI集群要求51.2Tbps→102.4Tbps交换容量+纳秒级延迟。|**Broadcom Tomahawk/Jericho是商用芯片#1**，NVIDIA Spectrum/Quantum+InfiniBand在AI训练是事实标准，垄断GPU集群互联。Ultra Ethernet Consortium(UEC",
-      "_heat": 4.6,
+      "_heat": 5.6,
       "description": "网络交换芯片是数据中心的**「交通调度中心」**——决定数据包路由、优先级和拥塞控制。AI集群要求51.2Tbps→102.4Tbps交换容量+纳秒级延迟。|**Broadcom Tomahawk/Jericho是商用芯片#1**，NVIDIA Spectrum/Quantum+InfiniBand在AI训练是事实标准，垄断GPU集群互联。Ultra Ethernet Consortium(UEC)试图用标准以太替代InfiniBand。|**AI集群推动交换机ASIC升级**：GPU:交换机比例从1:0.5升至1:2，800G→1.6T端口驱动下一代51.2T芯片。NVIDIA Spectrum-X以太网平台直接挑战Broadcom。",
       "cost_share_pct": 4,
       "cost_share_context": "AI集群总成本",
@@ -14893,6 +15177,152 @@
       "contradictions": [],
       "related_theses": [],
       "updated": "2026-07"
+    },
+    {
+      "name": "企业级存储",
+      "slug": "enterprise-storage",
+      "type": "segment",
+      "industry": "AI算力",
+      "layer": 3,
+      "tam": 32.0,
+      "cagr": 6.0,
+      "margin": "60-70%",
+      "backlinks": 0,
+      "wikilinks": [
+        "NVMe/存储芯片",
+        "AI服务器",
+        "云计算IaaS",
+        "数据中心IDC"
+      ],
+      "content": "# 企业级存储\n\n> **AI算力** · L3 · TAM **$32.0B** · CAGR **6.0%**\n\n企业级存储系统是AI数据中心的数据持久层，为AI训练和推理提供高性能、高可靠的数据存取。全闪存阵列（AFA）取代传统机械盘成为核心增长引擎，AI工作负载推动高IOPS、低延迟存储需求爆发，Pure Storage/NetApp等全闪存厂商受益明显。",
+      "_heat": 4.6,
+      "description": "企业级存储系统是AI数据中心的数据持久层，为AI训练和推理提供高性能、高可靠的数据存取。全闪存阵列（AFA）取代传统机械盘成为核心增长引擎，AI工作负载推动高IOPS、低延迟存储需求爆发，Pure Storage/NetApp等全闪存厂商受益明显。",
+      "cost_share_pct": 10,
+      "cost_share_context": "数据中心基础设施成本",
+      "profit_pool_pct": 12,
+      "profit_pool_context": "企业存储利润池",
+      "price_conduction": [
+        "企业存储是AI数据中心数据层核心",
+        "全闪存替代混合/机械盘，价格上行",
+        "AI高IOPS存储溢价显著",
+        "存储控制器芯片是利润核心"
+      ],
+      "competition": {
+        "global": [
+          {
+            "name": "Dell",
+            "share": "~22.7%",
+            "note": "美国，企业存储整体龙头，但同比-4.9%"
+          },
+          {
+            "name": "华为",
+            "share": "~12.0%",
+            "note": "中国，全闪存增长强劲(+9.5%)"
+          },
+          {
+            "name": "NetApp",
+            "share": "~9.4%",
+            "note": "美国，全闪存阵列第三，AI存储布局"
+          },
+          {
+            "name": "Pure Storage",
+            "share": "~6.8%",
+            "note": "美国，全闪存增速最快(+15.5%)，AI优化存储平台"
+          }
+        ],
+        "china": [
+          {
+            "name": "华为",
+            "share": "-",
+            "note": "国产存储龙头，全闪存阵列增长领先"
+          },
+          {
+            "name": "浪潮信息",
+            "share": "-",
+            "note": "国产存储服务器"
+          }
+        ],
+        "barriers": [
+          {
+            "item": "全闪存控制器与介质协同",
+            "detail": "高性能存储控制器芯片与NAND介质协同优化"
+          },
+          {
+            "item": "AI工作负载高IOPS",
+            "detail": "AI训练/推理对高IOPS、低延迟存储需求"
+          },
+          {
+            "item": "数据韧性与可靠性",
+            "detail": "企业级五九(99.999%)可用性与勒索防护"
+          }
+        ],
+        "tech_gap": [
+          {
+            "dimension": "中国存储整机追平，但高端存储控制器芯片和存储软件生态仍依赖进口",
+            "detail": ""
+          }
+        ]
+      },
+      "key_trends": [
+        {
+          "title": "全闪存阵列爆发",
+          "detail": "2025 Q3全闪存阵列+17.6%远超整体市场2.1%，成存储核心增长引擎"
+        },
+        {
+          "title": "AI存储需求驱动",
+          "detail": "AI训练/推理推动高IOPS存储，AI存储市场CAGR 22%+"
+        },
+        {
+          "title": "中端存储主导",
+          "detail": "中端产品(均价$2.5-25万)占外部存储67.5%，增长8.1%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "IDC《全球企业存储系统Q3 2025》",
+          "summary": "2025 Q3企业存储$79.7亿(整体+2.1%)，全闪存+17.6%，Dell 22.7%/华为12%/NetApp 9.4%/Pure 6.8%(+15.5%)",
+          "url": "http://www.163.com/dy/article/KGMIL5T60511D6RL.html"
+        }
+      ],
+      "key_inputs": [
+        "NVMe/存储芯片",
+        "存储芯片(DRAM/NAND)"
+      ],
+      "key_customers": [
+        "云计算IaaS",
+        "数据中心IDC",
+        "AI训练集群/超算"
+      ],
+      "value_add": "medium",
+      "companies": [
+        {
+          "ticker": "DELL",
+          "name": "Dell",
+          "role": "整体龙头",
+          "rev": 50
+        },
+        {
+          "ticker": "NTAP",
+          "name": "NetApp",
+          "role": "全闪存龙头",
+          "rev": 50
+        },
+        {
+          "ticker": "PSTG",
+          "name": "Pure Storage",
+          "role": "全闪存黑马",
+          "rev": 55
+        },
+        {
+          "ticker": "HPE",
+          "name": "HPE",
+          "role": "存储厂商",
+          "rev": 45
+        }
+      ],
+      "contradictions": [],
+      "related_theses": [],
+      "updated": "2026-08"
     },
     {
       "name": "刻蚀设备",
@@ -34798,6 +35228,13 @@
       }
     },
     {
+      "name": "网络设备（交换机）",
+      "value": 16.2,
+      "itemStyle": {
+        "color": "#94a3b8"
+      }
+    },
+    {
       "name": "AI开发者工具",
       "value": 8.0,
       "itemStyle": {
@@ -34861,6 +35298,13 @@
       }
     },
     {
+      "name": "大模型",
+      "value": 82.0,
+      "itemStyle": {
+        "color": "#94a3b8"
+      }
+    },
+    {
       "name": "800G/1.6T光模块",
       "value": 26.0,
       "itemStyle": {
@@ -34905,6 +35349,13 @@
     {
       "name": "FPGA",
       "value": 9.0,
+      "itemStyle": {
+        "color": "#94a3b8"
+      }
+    },
+    {
+      "name": "企业级存储",
+      "value": 32.0,
       "itemStyle": {
         "color": "#94a3b8"
       }
@@ -35651,7 +36102,7 @@
       },
       {
         "name": "云计算IaaS",
-        "symbolSize": 14,
+        "symbolSize": 16,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35665,7 +36116,7 @@
       },
       {
         "name": "数据中心IDC",
-        "symbolSize": 18,
+        "symbolSize": 20,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35686,7 +36137,14 @@
       },
       {
         "name": "AI训练集群/超算",
-        "symbolSize": 16,
+        "symbolSize": 20,
+        "itemStyle": {
+          "color": "#0071E3"
+        }
+      },
+      {
+        "name": "网络设备（交换机）",
+        "symbolSize": 12,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35721,7 +36179,7 @@
       },
       {
         "name": "AI推理API服务",
-        "symbolSize": 16,
+        "symbolSize": 18,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35734,8 +36192,15 @@
         }
       },
       {
-        "name": "800G/1.6T光模块",
+        "name": "大模型",
         "symbolSize": 12,
+        "itemStyle": {
+          "color": "#0071E3"
+        }
+      },
+      {
+        "name": "800G/1.6T光模块",
+        "symbolSize": 14,
         "itemStyle": {
           "color": "#0071E3"
         }
@@ -35756,6 +36221,13 @@
       },
       {
         "name": "DSP与光芯片",
+        "symbolSize": 12,
+        "itemStyle": {
+          "color": "#0071E3"
+        }
+      },
+      {
+        "name": "企业级存储",
         "symbolSize": 12,
         "itemStyle": {
           "color": "#0071E3"
@@ -39086,6 +39558,14 @@
         "target": "AI模型训练平台"
       },
       {
+        "source": "网络设备（交换机）",
+        "target": "AI服务器"
+      },
+      {
+        "source": "网络设备（交换机）",
+        "target": "AI训练集群/超算"
+      },
+      {
         "source": "AI开发者工具",
         "target": "AI Agent"
       },
@@ -39258,6 +39738,22 @@
         "target": "数据中心IDC"
       },
       {
+        "source": "大模型",
+        "target": "AI训练集群/超算"
+      },
+      {
+        "source": "大模型",
+        "target": "AI推理API服务"
+      },
+      {
+        "source": "大模型",
+        "target": "AI Agent"
+      },
+      {
+        "source": "大模型",
+        "target": "AI开发者工具"
+      },
+      {
         "source": "800G/1.6T光模块",
         "target": "GPU"
       },
@@ -39312,6 +39808,22 @@
       {
         "source": "FPGA",
         "target": "GPU"
+      },
+      {
+        "source": "企业级存储",
+        "target": "NVMe/存储芯片"
+      },
+      {
+        "source": "企业级存储",
+        "target": "AI服务器"
+      },
+      {
+        "source": "企业级存储",
+        "target": "云计算IaaS"
+      },
+      {
+        "source": "企业级存储",
+        "target": "数据中心IDC"
       },
       {
         "source": "刻蚀设备",
@@ -39597,6 +40109,9 @@
         "name": "AI训练集群/超算"
       },
       {
+        "name": "网络设备（交换机）"
+      },
+      {
         "name": "AI开发者工具"
       },
       {
@@ -39624,6 +40139,9 @@
         "name": "散热液冷系统"
       },
       {
+        "name": "大模型"
+      },
+      {
         "name": "800G/1.6T光模块"
       },
       {
@@ -39643,6 +40161,9 @@
       },
       {
         "name": "FPGA"
+      },
+      {
+        "name": "企业级存储"
       },
       {
         "name": "刻蚀设备"
@@ -39778,21 +40299,21 @@
   "hot": [
     {
       "name": "云计算IaaS",
-      "score": 66.8,
+      "score": 67.8,
       "tam": 420.0,
-      "backlinks": 7
+      "backlinks": 8
+    },
+    {
+      "name": "AI服务器",
+      "score": 58.7,
+      "tam": 220.0,
+      "backlinks": 28
     },
     {
       "name": "GPU",
       "score": 58.6,
       "tam": 130.0,
       "backlinks": 41
-    },
-    {
-      "name": "AI服务器",
-      "score": 56.8,
-      "tam": 220.0,
-      "backlinks": 26
     },
     {
       "name": "晶圆代工(先进制程)",
@@ -39820,9 +40341,9 @@
     },
     {
       "name": "AI推理API服务",
-      "score": 22.9,
+      "score": 23.9,
       "tam": 106.0,
-      "backlinks": 8
+      "backlinks": 9
     },
     {
       "name": "成熟制程代工",
@@ -39832,21 +40353,21 @@
     },
     {
       "name": "数据中心IDC",
-      "score": 20.6,
+      "score": 21.6,
       "tam": 83.0,
-      "backlinks": 9
+      "backlinks": 10
+    },
+    {
+      "name": "AI训练集群/超算",
+      "score": 21.2,
+      "tam": 80.0,
+      "backlinks": 10
     },
     {
       "name": "HBM高带宽内存",
       "score": 20.5,
       "tam": 55.0,
       "backlinks": 13
-    },
-    {
-      "name": "AI训练集群/超算",
-      "score": 19.2,
-      "tam": 80.0,
-      "backlinks": 8
     },
     {
       "name": "模拟芯片",
@@ -39927,6 +40448,12 @@
       "backlinks": 11
     },
     {
+      "name": "大模型",
+      "score": 11.7,
+      "tam": 82.0,
+      "backlinks": 0
+    },
+    {
       "name": "薄膜沉积设备",
       "score": 11.6,
       "tam": 20.0,
@@ -39949,12 +40476,6 @@
       "score": 10.6,
       "tam": 40.0,
       "backlinks": 5
-    },
-    {
-      "name": "边缘AI",
-      "score": 10.4,
-      "tam": 25.0,
-      "backlinks": 7
     }
   ],
   "thesis_index": {
