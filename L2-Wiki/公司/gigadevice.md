@@ -57,7 +57,7 @@ founded: 2005
 headquarters: 中国北京
 employees: ~1,800
 latest_revenue: Q1 2026营收¥41.88亿（+119% YoY），H1 2026E ~¥115亿（+177%）
-market_cap: ~¥4万亿（~$47B USD）（2026.7）
+market_cap: ~¥3100亿（~$43B，2026.8）
 description: 兆易创新（GigaDevice）是中国最大的32位MCU供应商（GD32系列）和全球NOR Flash龙头之一，2005年成立于北京。公司通过Fabless模式，构建了NOR Flash + MCU + 利基DRAM三驾马车，是中国半导体国产替代的标志性企业。2025年起受益于AI服务器NOR Flash需求暴增+DRAM涨价周期+MCU市场份额提升三重共振，Q1 2026营收+119%、毛利率跃升至57%，H1净利润超过去年全年4倍。与长鑫存储（CXMT）的深度DRAM代工合作为关键竞争优势（2026关联交易上限¥571亿），港交所2026年1月上市募资HK$53亿加速全球扩张。18家分析师全部"买入"，但公司警示产品价格处于历史高位，半导体周期可能回调。
 website: https://www.gigadevice.com
 industry: AI算力
