@@ -5,7 +5,7 @@ country: US
 ticker: NVDA
 type: company
 updated: 2026-08
-data_freshness_date: 2026-08-18
+data_freshness_date: 2026-08-27
 segments:
 - AI服务器
 - AI模型训练平台
@@ -26,6 +26,7 @@ segments:
 one_liner: |
   全球领先的AI全栈基础设施公司，核心为AI训练/推理GPU与数据中心系统（Blackwell、Rubin、DGX），通过GPU芯片与系统级解决方案销售实现盈利（数据中心收入占约90%），位于AI计算基础设施核心供应商——掌握约80%市场份额与CUDA生态壁垒的AI算力平台。
   【2026.8.18更新】Q1 FY2027营收$81.6B(+85%)历史新高，数据中心$75.2B占92%，净利$58.3B(+211%)；Q2指引$91B(8/26发布)，股息提高至$0.25/股。
+  【2026.8.27更新】Q2 FY2027营收$96.2B(+106%)、净利$59.7B(+126%)、数据中心$89B(+117%)创新高；首次提前给FY2028指引+70%，Q3指引$108B；Rubin全面量产Q4放量；Commitments$279B+担保最高$1050亿，构建算力"融资央行"模式。
 chain_layer: L3
 chain_role: 龙头
 suppliers:
@@ -116,8 +117,8 @@ revenue_model: FY2026（截止2026年1月）营收$2159亿，其中数据中心C
 founded: 1993
 headquarters: 美国加州圣克拉拉
 employees: ~36,000
-latest_revenue: Q1 FY2027 $81.6B（+85% YoY，历史新高）；Q2 指引$91B
-market_cap: ~$4.8T（2026.7，全球第一）
+latest_revenue: Q2 FY2027 $96.2B（+106% YoY，历史新高）；Q3 指引$108B，FY2028指引+70%
+market_cap: ~$5.1T（2026.8，全球第一）
 description: 英伟达（NVIDIA）是全球AI算力芯片绝对龙头，1993年由黄仁勋、Chris Malachowsky和Curtis Priem创立于美国加州。1999年发明GPU，2006年推出CUDA并行计算平台，2016年后全面转型AI计算，市值从数百亿美元飙升至超4万亿美元。FY2026营收$2,159亿，数据中心业务占比超90%，是ChatGPT时代最大的基础设施赢家。
 website: https://www.nvidia.com
 industry: AI算力
@@ -162,6 +163,32 @@ industry: AI算力
 **Q2 FY2027 指引**（8/26 盘后发布）：营收 ~$91B（$89.2-92.8B），毛利率 GAAP 74.9% / non-GAAP 75.0%，不含中国数据中心计算收入。
 
 **资本回报**：季度股息从 $0.01 提高至 $0.25/股，追加 $80B 回购授权，Q1 回购 ~$20B（单季纪录），自由现金流 $48.6B。FY2027 税率指引下调至 16-18%。
+
+### FY2027 Q2（2026年8月报告）
+
+| 指标 | 数据 |
+|------|------|
+| 单季营收 | **$962.2亿**（+106% YoY，+18% QoQ，历史新高） |
+| 数据中心收入 | **$890.2亿**（+117% YoY；Hyperscale $487亿 / ACIE $403亿） |
+| 净利（GAAP） | **$596.9亿**（+126% YoY） |
+| 运营利润 | **$637.3亿**（+124% YoY，核心经营利润率 66%） |
+| 毛利率 | **75%**（GAAP / non-GAAP 均 75%，高于上季 74.9%） |
+| 摊薄 EPS（GAAP） | **$2.46**（+128% YoY） |
+| 摊薄 EPS（non-GAAP） | **$2.22**（超预期 $2.10） |
+
+#### Q2 FY2027 详情（海豚研究 + 腾讯科技）
+
+**全面超预期**：营收 $96.2B（+106%）历史新高，净利 $59.7B（+126%）。数据中心 $89B（+117%）贡献几乎全部增量，按新口径拆为 Hyperscale $48.7B / ACIE $40.3B（后者为本季最大增量）。毛利率 75% 环比持平。
+
+**首次提前一年给 FY2028 指引 +70%**（市场预期 ~45%）——本季最大利好，盘后股价 -3%→+5%。Q3 FY2027 指引 $108B（±2%），GAAP 毛利率 74%（-1pct，低于市场 75%）；中国大陆数据中心计算收入不计入指引（Q2 运往大陆 Hopper 收入占数据中心 <1%）。
+
+**新模式（本季最大增量信息）**：披露 Commitments $279B（对上游锁定 HBM/DRAM 产能，新增 ~$1,600 亿主要针对 2028-29 财年）、Additional Commitments（AI cloud $36B + 代签租约 $20B，首披）、Guarantees（AI cloud 伙伴 ~$3.5B + SB Energy PORTS-Pike 4.25GW 20 年租约，OpenAI 承租，担保最高 $1,050 亿）。叠加 8/10 宣布的 $5,000 亿 AI 工厂融资平台（Apollo/BlackRock/Blackstone/Brookfield/GS/KKR，25% 残值支持），形成「供应承诺→附加承诺→担保→融资平台」四级结构，即算力"融资央行"角色——市场争议点在于循环融资风险。
+
+**资本回报**：Q2 回购+股息返还 ~$260 亿，回购授权剩余 ~$990 亿，10/1 派息 $0.25/股。
+
+**产品**：Blackwell Ultra 大规模部署为主要驱动；Vera Rubin 全面量产（史上最快量产，约占 Q3 数据中心收入 20%），Q4 才是真正放量点；Groq 3 LPX 投产；Rubin Ultra 未延迟。
+
+**竞争与估值**：AI 芯片份额 >70%，推理侧受定制 ASIC 与 AMD MI450X Helios 竞争；市值 ~$5.1T，对应 FY2028 税后核心经营利润约 13x PE。
 
 ### 市值里程碑
 
@@ -215,8 +242,8 @@ industry: AI算力
 ### 即将到来
 | 平台 | 时间 | 关键参数 | 亮点 |
 |------|------|----------|------|
-| **Vera Rubin NVL144** | 2026 H2 | TSMC 3nm, 288GB HBM4, 3.6 EFLOPS FP4 | 全新Vera CPU（88核ARM），100%液冷，模块化无电缆设计 |
-| **Rubin Ultra NVL576** | 2027 H2 | TSMC 3nm, 1TB HBM4e, 15 EFLOPS FP4 | 4颗retical-size die拼装，~600kW/机柜，800VDC供电 |
+| **Vera Rubin（VR200 NVL72）** | 2026 H2（已全面量产，Q4 放量） | 72×Rubin GPU（单颗2 die）+ 36×Vera CPU, 260 TB/s NVLink, 3.6 EFLOPS推理/2.5 EFLOPS训练 | 100%液冷；史上最快量产平台，2026.8 起在 CoreWeave/Google Cloud 运行，约占Q3数据中心收入20% |
+| **Rubin Ultra NVL576** | 2027 H2（IR确认未延迟） | TSMC 3nm, 1TB HBM4e, 15 EFLOPS FP4 | 4颗retical-size die拼装，~600kW/机柜，800VDC供电 |
 | **Feynman GPU + Rosa CPU** | 2028 | — | 下一代架构，光学NVLink互联 |
 
 ### 互联技术路线
@@ -253,4 +280,13 @@ industry: AI算力
 ### 专利资产
 - 拥有**超过2万项**已授权和申请中的全球专利
 - 核心专利覆盖GPU架构、并行计算、光线追踪、AI推理加速、互联技术（NVLink/NVSwitch）、内存子系统等关键技术领域
+
+## 动态更新记录
+
+### 2026-08-27（海豚研究 + 腾讯科技 Q2 FY2027财报分析）
+- **来源**：`L0-原始资料池/03-新闻/2026-08-27-NVIDIA-Q2-FY2027-财报分析-海豚研究.md` (input_20260827_001) + `2026-08-27-NVIDIA-Q2-FY2027-财报解读-腾讯科技.md` (input_20260827_002)
+- **核心更新**：Q2 FY2027 营收 $96.2B（+106%）/ 数据中心 $89B（+117%）/ 净利 $59.7B（+126%），均创历史新高
+- **增量信息**：Commitments $279B + Additional Commitments + Guarantees（担保最高 $1,050 亿）；$5,000 亿 AI 工厂融资平台 → 算力"融资央行"模式
+- **指引**：Q3 FY2027 $108B；首次提前一年给 FY2028 +70% 营收指引
+- **产品**：Vera Rubin 全面量产（Q4 放量），VR200 NVL72 参数确认；Rubin Ultra 未延迟
 
