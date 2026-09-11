@@ -53,9 +53,11 @@ for e in wiki.get_hot(5):
 
 # 3. LLM 采集更新
 # 见 L1-Schema与Pipeline/collector/执行指令-采集处理.md
+# 批量财报归档（省钱版）见 collector/执行指令-财报批量归档.md
 
 # 4. 生成 HTML（L2 → L3 编译）
 # python L3-网页产物/build_wiki_data.py
+# python L3-网页产物/build_chain_universe.py
 
 # 5. 预览
 cd L3-网页产物 && python3 -m http.server 8760
@@ -95,6 +97,8 @@ invest_wiki/
     ├── index.html          ← 单文件 SPA（7页面：全景/赛道/公司/概念/论点/知识库/可视化图谱）
     ├── wiki_data.json      ← 编译中间数据
     ├── build_wiki_data.py  ← L2→L3 编译脚本
+    ├── chain_universe.json ← 日报可计算产业链宇宙快照
+    ├── build_chain_universe.py ← 日报产业链宇宙编译脚本
     └── validate.py         ← 格式验证
 ```
 

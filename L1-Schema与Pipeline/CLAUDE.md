@@ -99,7 +99,7 @@ Step 0: 完整读取原始资料全部页面 + 7项QA自检 → QA通过
   → Step 4: 输出更新建议 → 等待用户确认
   → Step 5: 执行更新（YAML字段 + 动态更新记录 + 回写L0/消化笔记status）
   → Step 6: 更新 index.md 索引 + 维护记录
-  → Step 7: 重新编译 wiki_data.json + 验证输出
+  → Step 7: 重新编译 wiki_data.json + chain_universe.json + 验证输出
   → Step 8: 前端验证
 
 定期触发 L1/lint → 发现问题 → 触发重新 Ingest
@@ -117,7 +117,7 @@ Step 0: 完整读取原始资料全部页面 + 7项QA自检 → QA通过
 
 ## 禁止操作
 
-- 直接修改 `L3-网页产物/wiki_data.json`（由编译脚本生成）
+- 直接修改 `L3-网页产物/wiki_data.json` 或 `L3-网页产物/chain_universe.json`（均由编译脚本生成）
 - 直接修改 `L3-网页产物/index.html` 中的数据部分
 - 删除 L0 原始资料（只能标记 `status: 已处理`）
 - 在未读 `schemas/field-formats.md` 的情况下修改竞争格局/传导链/趋势字段
@@ -136,10 +136,11 @@ Step 0: 完整读取原始资料全部页面 + 7项QA自检 → QA通过
 |---------|--------|
 | 发送研报/新闻/数据/文件 | **v1.1 完整 Collection 流程**：`collector/执行指令-采集处理.md`（Step 0→8，含QA自检+Schema-Mapping） |
 | "采集" / "ingest" / "处理" / "归档" / "更新知识库" | 同上，进入 Collection 模式 |
+| "批量归档财报" / "财报季刷新" / "归档多家财报" | `collector/执行指令-财报批量归档.md`（**省钱版**：串行 + 默认 flash + 共享上下文，禁止大规模并行冷启动） |
 | "检查知识库" / "lint" | `lint/执行指令-定期扫描.md` |
 | "更新赛道X" | 先读 `schemas/segment-schema.md` + `schemas/field-formats.md`，再改 L2 文件 |
 | "新建赛道" | 先读 `templates/segment-template.md`，再创建 |
-| "重新编译" | 运行 `L3-网页产物/build_wiki_data.py` |
+| "重新编译" | 运行 `L3-网页产物/build_wiki_data.py` 和 `L3-网页产物/build_chain_universe.py` |
 | "增强链接" / "enrich links" | `link-enrich/执行指令-链接增强.md` |
 | "refine" / "提炼" / "审计" | 进入 Refinement 模式（见下方） |
 | "科普XX" / "解释XX" / "什么是XX" / "概念卡片" | `concept-card/SKILL.md` → 按11模块生成概念卡片 |
@@ -178,7 +179,7 @@ Invest Wiki 维护分两种模式，需交替执行：
   4. **更新建议 + 确认**：输出汇总表，等待用户确认
   5. **执行更新**：修改YAML frontmatter → 追加动态更新记录 → 回写L0 status: 已处理 → 回写消化笔记 status: 已应用
   6. **更新索引**：更新 index.md 统计/维护记录/QA版本号
-  7. **重新编译**：运行 build_wiki_data.py，验证实体数和类型分布
+  7. **重新编译**：运行 build_wiki_data.py 和 build_chain_universe.py，验证实体数、类型分布和 universe 统计
   8. **前端验证**：打开 index.html 确认渲染正常
 - **格式要求**：sources和thesis_evidence使用v1.1多行格式；Schema-Mapping第一列必须是原文原句
 - **节奏**：每个素材独立处理，规模较大的可并行（多Agent同时处理多份报告）
@@ -198,7 +199,7 @@ Invest Wiki 维护分两种模式，需交替执行：
   5. 检查孤立页面（backlinks=0），补充链接或标记原因
   6. 检查无匹配内容池（L0 Schema-Mapping中的"无匹配内容"表），判断是否有累积到需要新建赛道/概念的程度
   7. 更新 `L2-Wiki/index.md` 统计 + 质量版本号 + 维护记录
-  8. 重新编译 + 输出 Refinement 报告（格式如下）
+  8. 重新编译两份 JSON + 输出 Refinement 报告（格式如下）
 
 ### Refinement 报告格式
 

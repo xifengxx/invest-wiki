@@ -122,6 +122,8 @@ invest_wiki/
 │   ├── index.html                         ← 单文件 SPA（7页面 + 全局搜索）
 │   ├── wiki_data.json                     ← 编译中间数据（~1.6MB）
 │   ├── build_wiki_data.py                 ← L2→L3 编译脚本
+│   ├── chain_universe.json                ← 日报可计算产业链宇宙快照（~335KB）
+│   ├── build_chain_universe.py            ← L3→日报 universe 编译脚本
 │   ├── validate.py                        ← 格式验证（HTML/JSON/函数）
 │   └── freshness_scan.py                  ← Phase 3 数据新鲜度扫描器
 │
@@ -222,7 +224,7 @@ Step 0: 完整读取原始资料 + 7项QA自检 → QA通过
   → Step 4: 输出更新建议 → 等待用户确认
   → Step 5: 执行更新（YAML 字段 + 动态更新记录 + 回写 L0/消化笔记 status）
   → Step 6: 更新 index.md 索引 + 维护记录
-  → Step 7: 重新编译 wiki_data.json + 验证输出
+  → Step 7: 重新编译 wiki_data.json + chain_universe.json + 验证输出
   → Step 8: 前端验证
 ```
 
@@ -240,7 +242,7 @@ Step 0: 完整读取原始资料 + 7项QA自检 → QA通过
 - Step 4: 更新建议 + 确认（输出汇总表，等待用户确认）
 - Step 5: 执行更新（修改 YAML → 追加动态更新记录 → 回写 L0 status: 已处理 → 回写消化笔记 status: 已应用）
 - Step 6: 更新 index.md 索引统计/维护记录/QA版本号
-- Step 7: 重新编译 wiki_data.json + 验证
+- Step 7: 重新编译 wiki_data.json + chain_universe.json + 验证
 - Step 8: 前端验证
 
 **产出**：L0归档文件（含QA+Schema-Mapping） / 消化笔记 / 赛道字段更新 / 新概念卡片 / 新论点 / index.md更新
@@ -431,6 +433,7 @@ L2-Wiki/**/*.md
   → engine/parser.py（解析 YAML frontmatter + 提取 [[wikilink]] + 计算 backlinks）
   → engine/graph.py（构建 Treemap / Graph / Sankey 数据）
   → build_wiki_data.py（合并所有实体 → wiki_data.json，~1.6MB）
+  → build_chain_universe.py（编译 81 个原始段 → canonical 产业链宇宙，~335KB）
   → index.html（fetch wiki_data.json → 前端 SPA 渲染）
 ```
 
@@ -442,11 +445,15 @@ L2-Wiki/**/*.md
 
 格式验证脚本，检查：HTML 结构（div 平衡/script 平衡）、数据完整性（词条数/赛道数/热力图/unknown 实体）、JS 关键函数存在性（buildTree/renderView/openDetail/closeDetail/doSearch）。
 
-### 7.4 freshness_scan.py
+### 7.4 build_chain_universe.py
+
+日报简报专用的产业链宇宙编译器。读取 `wiki_data.json` 中的 segment 实体，合并 AI算力与半导体跨赛道重名段，按 ticker 去重，区分海外行情候选、A股映射和私有/未上市实体。输出 `chain_universe.json`，包含 canonical segments、companies、统计信息、`logic_version`、`source_sha256` 和 `source_commit`。该 JSON 是美股日报第四部分产业链热力的唯一结构数据源。
+
+### 7.5 freshness_scan.py
 
 Phase 3 数据新鲜度扫描器。读取 wiki_data.json，检查所有公司的 `data_freshness_date` 字段，按 90 天阈值标记过期，按 60 天阈值标记预警。支持 `--days` 自定义阈值、`--json` 输出。财报季（1/4/7/10月）自动提醒。
 
-### 7.5 前端功能
+### 7.6 前端功能
 
 **7 个导航页面**：产业链图谱 / 赛道分析 / 个股关联 / 概念卡片 / 论点 / 知识库 / 可视化图谱
 
@@ -494,7 +501,7 @@ Phase 3 数据新鲜度扫描器。读取 wiki_data.json，检查所有公司的
   → L1 collector Step 4：LLM 列出建议更新表格 → 等待用户确认
   → 用户确认
   → L2：LLM 更新 YAML 字段 → 追加 ## 动态更新记录 → 回写 L0 status
-  → L3 编译：Python parser → graph → wiki_data.json → index.html
+  → L3 编译：Python parser → graph → wiki_data.json → chain_universe.json → index.html
   → 用户浏览器：7 页面 + 4 图视图 + 全局搜索 + 排序筛选
   → 定期触发 L1/lint → 发现问题 → 触发重新 Ingest
 ```
@@ -543,6 +550,7 @@ cd ~/Claude_projects/5factor_system/invest_wiki
 
 # 编译
 python3 L3-网页产物/build_wiki_data.py
+python3 L3-网页产物/build_chain_universe.py
 
 # 验证
 python3 L3-网页产物/validate.py
