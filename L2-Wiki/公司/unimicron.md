@@ -4,8 +4,9 @@ slug: unimicron
 country: 台湾
 ticker: 3037.TW
 type: company
+website: "https://www.unimicron.com"
 updated: 2026-08
-data_freshness_date: 2026-08-18
+data_freshness_date: 2026-09-13
 industries:
 - AI算力
 - 半导体
@@ -15,17 +16,65 @@ segments:
 one_liner: |-
   全球最大PCB/IC载板制造商之一，ABF载板产能领先。
   【2026.8.18更新】Q2 2026（2026-07-29发布）合并营收NT$428.90亿（QoQ+14.5%/YoY+32.1%，创单季历史新高），毛利率24.08%（QoQ+6.84pp/YoY+11.72pp），归母净利NT$131.15亿（QoQ+160%/YoY+441倍），EPS NT$8.45创历史新高；AI产品营收占比已超6成，H2看升至7成。
-chain_layer: ''
-chain_role: 直接相关
-suppliers: []
-customers: []
-partners: []
-competitors: []
+chain_layer: L1
+chain_role: 龙头
+core_business:
+- ABF载板（AI加速器、高端CPU和交换芯片FC-BGA）
+- BT载板（存储、射频、MEMS和移动计算封装）
+- HDI板（手机、可穿戴、汽车电子和高效能计算）
+- 传统多层PCB（服务器、网络、通信和工业设备）
+revenue_model: "以封装基板和PCB制造销售为主，AI载板按层数、线宽/线距、良率和订单承诺定价；产能通过大客户认证绑定平台级需求，再由稼动率、良率改善和服务交付摊薄资本开支"
+suppliers:
+- company: Ajinomoto
+  supplies: "ABF积层绝缘膜"
+  note: "高端FC-BGA关键材料，供给与配方认证影响扩产节奏"
+- company: 铜箔、玻纤布与树脂供应商
+  supplies: "低粗糙度铜箔、低介电玻纤布、特种树脂和半固化片"
+  note: "影响载板信号完整性、翘曲、钻孔可靠性和成本"
+- company: 钻孔、电镀与检测设备商
+  supplies: "激光钻孔、盲埋孔、精细线路电镀和AOI/量测设备"
+  note: "20+层FC-BGA对孔位精度和层间对位要求持续提升"
+customers:
+- company: NVIDIA及AI加速板卡供应链
+  supplies: "20+层FC-BGA/ABF载板"
+  note: "AI芯片封装基板是公司增长最快、单价最高的产品线"
+- company: 全球云服务器与网络设备厂商
+  supplies: "高速交换芯片载板、服务器PCB"
+  note: "SerDes速率提升带动层数、材料和可靠性升级"
+- company: 高端手机、存储和通信客户
+  supplies: "HDI板、BT载板"
+  note: "提供出货规模基础，但增长弹性低于AI载板"
+partners:
+- company: 先进封装平台客户
+  area: "CoWoS类先进封装基板联合设计"
+  note: "载板与中介层、封装体热膨胀系数和布线密度协同优化"
+- company: 上游材料厂商
+  area: "ABF替代膜、低损耗材料与铜箔验证"
+  note: "绑定关键材料产能并准备下一代低粗糙度方案"
+competitors:
+- company: Ibiden
+  ticker: 4062.T
+  area: "AI芯片FC-BGA载板"
+  note: "日本高端载板代表，与Unimicron争夺NVIDIA等平台订单"
+- company: Shinko Electric
+  ticker: 6967.T
+  area: "封装基板"
+  note: "FC-BGA与BT载板产能和技术重叠"
+- company: AT&S
+  ticker: ATS.VI
+  area: "IC载板与高端PCB"
+  note: "欧洲布局，服务AI、移动和汽车客户"
+- company: 南亚电路板
+  ticker: 8046.TW
+  area: "ABF/BT载板"
+  note: "台系载板主要竞争者，价格和产能节奏影响较大"
 founded: 1990
 headquarters: 台湾桃园市龟山区
-employees: ~31,500
+employees: "~31,584"
 latest_revenue: Q2 2026 合并营收NT$428.90亿（约$1.36B USD，+14.5% QoQ / +32.1% YoY，创单季历史新高）
-market_cap: ~NT$1.35兆（~$42B）
+market_cap: "~NT$1.60兆（2026.9）"
+description: |
+  欣兴电子1990年成立，总部位于台湾桃园，是全球最大PCB/IC载板厂商之一。公司产品覆盖ABF载板、BT载板、HDI板和传统多层PCB，其中ABF载板主要用于AI加速器、高端CPU和交换芯片，是先进封装从硅中介层走向PCB系统的关键桥梁。
 ---
 
 
@@ -64,6 +113,37 @@ Unimicron 财年=自然年。Q2 2026（2026年4-6月，截止 2026-06-30）受AI
 ## 融资与现金流
 
 - 详见财务状况章节
+
+## 产品线详解
+
+| 产品线 | 技术方向 | 主要应用 |
+|--------|----------|----------|
+| **ABF载板** | 高层数FC-BGA、细线路、多阶盲埋孔 | AI加速器、高端CPU、交换芯片和HPC封装 |
+| **BT载板** | 高可靠封装、小型化和高密度布线 | 存储、射频、MEMS、移动计算和网络通信 |
+| **HDI板** | 微孔、任意层互联、高密度组装 | 高端手机、可穿戴、汽车电子和轻薄计算设备 |
+| **多层PCB** | 高层数背板、电源板和高速信号板 | AI服务器、交换机、通信基础设施和工业设备 |
+
+Unimicron的价值来自“材料+制程+良率+产能”的联合能力。ABF膜、铜箔粗糙度、树脂体系、激光钻孔、电镀均匀性和翘曲控制共同决定20+层FC-BGA良率；客户一旦完成封装平台认证，切换载板厂会牵动设计规则、可靠性和交期，粘性较高。
+
+## 技术路线图
+
+- **更高层数FC-BGA**：适配AI芯片封装面积扩大、功耗上升和20+层设计需求，持续压缩线宽/线距并改善层间对位
+- **低损耗与散热**：优化低介电材料、铜箔粗糙度和CTE匹配，服务224G SerDes、高功率GPU和异构集成封装
+- **玻璃基板前瞻布局**：跟踪玻璃芯板替代有机基板的信号完整性和翘曲收益，保持下一代封装选项
+- **AI产能扩张**：杨梅二厂已动土、三厂预计2026年底动土，2026年资本开支上调至约NT$537亿，80%以上投向ABF载板
+- **制造智能化**：用AOI、工艺数据和预测性维护提升良率稳定性，缩短高端订单爬坡时间
+
+## 研发投入与专利
+
+- 员工约31,584人，研发集中在高层数布线、激光钻孔、电镀、压合、材料界面和可靠性验证
+- 高端载板壁垒不是单一设备，而是ABF膜选用、铜箔结合力、钻孔锥度、镀层厚度、板翘控制和批量良率的系统优化
+- 与封装厂、芯片平台和材料商的联合验证决定了下一代FC-BGA导入节奏；Q2 2026稼动率已达9成以上，AI产品营收占比超过6成
+
+## 动态更新记录
+
+### 2026-09-13（D4批次：待深化龙头清单补全）
+- **来源**：`L0-原始资料池/03-新闻/2026-09-13-D4批次-5家薄档龙头公司-数据溯源.md` (input_20260913_121)
+- **核心更新**：保留既有Q2 2026财务叙事，补入chain_layer/role、core_business、revenue_model、description、website、供应链、客户、伙伴、竞争者、产品线、技术路线和研发能力；员工与市值按本轮核验刷新
 ## 基本信息
 - 国家: 台湾
 - 网站: https://www.unimicron.com
