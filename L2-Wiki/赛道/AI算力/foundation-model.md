@@ -89,13 +89,15 @@ key_customers:
 - AI开发者工具
 - 企业AI应用
 companies:
-- ticker: 未上市
+- ticker: ANTHROPIC
   name: Anthropic
   role: 全球营收第一
+  note: 未上市，用规范非交易键（原填 `未上市`，与另 3 家碰撞成同一个键互相覆盖）
   rev: 60
-- ticker: 未上市
+- ticker: OPENAI
   name: OpenAI
   role: 用户规模第一
+  note: 未上市，用规范非交易键
   rev: 55
 - ticker: GOOGL
   name: Google(Alphabet)
@@ -113,13 +115,15 @@ companies:
   name: MiniMax
   role: 国产上市
   rev: 45
-- ticker: 未上市
+- ticker: MOONSHOT
   name: 月之暗面
   role: 国产高增长
+  note: 未上市，用规范非交易键
   rev: 45
-- ticker: 未上市
+- ticker: BYTEDANCE
   name: 字节跳动
   role: 中国第一
+  note: 未上市，用规范非交易键
   rev: 50
 sources:
 - title: Counterpoint《全球LLM收入Q1 2026》

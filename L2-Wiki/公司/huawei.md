@@ -2,7 +2,7 @@
 name: 华为
 slug: huawei
 country: CN
-ticker: 未上市
+ticker: HUAWEI   # 未上市；用公司专属非交易键，勿用通用占位符「未上市」（会与其他未上市公司在 companies 字典里碰撞）
 type: company
 updated: 2026-08
 data_freshness_date: 2026-08-18
@@ -82,7 +82,6 @@ headquarters: 中国深圳
 employees: ~207,000
 latest_revenue: FY2025 ¥8809亿（2025年报，2026-03-31发布，净利润680亿）
 market_cap: 未上市
-ticker: 未上市
 description: 华为是全球领先的ICT基础设施和智能终端提供商，也是中国AI芯片国产替代的领军企业。昇腾（Ascend）AI芯片系列是国内唯一实现大规模数据中心部署的AI训练/推理芯片，通过Atlas服务器和华为云对外提供服务。受美国制裁下实现全栈自主可控，是中国AI算力自主化的核心底座。
 website: https://www.huawei.com
 industries:

@@ -96,7 +96,10 @@ TICKER_ALIASES = {
 }
 
 PRIVATE_TICKERS = {
-    "未上市",
+    "SMEE",        # 上海微电子，未上市
+    "JSR",         # 2025 年被 JIC 私有化退市，原 4185.T 已不可交易
+    "未上市",       # 兼容旧写法；但**不要再新用**——它在 companies 字典里是同一个键，
+                   # 多家公司填它会导致互相覆盖（2026-09-13 修：大模型赛道 4 家只剩 1 家）
     "HUAWEI",
     "HUAWEI-POWER",
     "BYTEDANCE",
@@ -165,6 +168,7 @@ MARKET_BY_SUFFIX = {
     ".HK": "HK",
     ".SS": "CN",
     ".SZ": "CN",
+    ".SH": "CN",   # 上交所；数据里 .SH 与 .SS 两种写法并存，此前只认 .SS
     ".DE": "DE",
     ".AS": "NL",
     ".PA": "FR",
@@ -173,6 +177,7 @@ MARKET_BY_SUFFIX = {
     ".SW": "CH",
     ".TO": "CA",
     ".V": "CA",
+    ".VI": "AT",   # 维也纳；AT&S 的 ticker ATS 被别名映射到 ATS.VI，此前无此市场
 }
 
 

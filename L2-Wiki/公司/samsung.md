@@ -54,7 +54,6 @@ core_business:
 - System LSI逻辑芯片（Exynos移动处理器/200MP影像传感器）
 - 面板级SoP先进封装与HBM逻辑-存储一体化平台
 revenue_model: 以内存产品销售为主导，DRAM/HBM占半导体营收约80%($728亿)；晶圆代工服务约$120-130亿(2025年)。FY2025半导体总营收$910亿（KRW130.1万亿），营业利润$174亿。代工业务2025年仍亏损，预计2026年Q3扭亏。
-ticker: 005930.KS
 description: 三星电子是全球最大的半导体公司之一，DS（设备解决方案）部门涵盖存储器、晶圆代工和系统LSI三大业务。DRAM与NAND闪存市占率全球第一，HBM高带宽存储器为AI加速器关键组件。3nm GAA工艺率先量产，2nm和1.4nm节点持续推进。公司同时是全球最大的消费电子企业，横跨手机、电视、家电等领域，形成了从芯片设计到制造的全产业链垂直整合能力。
 website: https://semiconductor.samsung.com
 industries:

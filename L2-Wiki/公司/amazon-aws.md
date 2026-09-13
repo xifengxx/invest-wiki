@@ -83,7 +83,6 @@ headquarters: 美国华盛顿州西雅图
 employees: ~1,550,000
 latest_revenue: Q2 2026 AWS $42.2B（+37% YoY），AI收入年化$250亿（三位数增长），自研芯片年化$250亿
 market_cap: ~$2.3T
-ticker: AMZN
 description: |
   亚马逊（Amazon）是全球最大电商和云计算公司。AWS是全球第一大公有云，FY2025营收超$110B。自研Trainium/Inferentia AI芯片+Anthropic深度合作+Project Rainier超算集群，构成全栈AI基础设施能力。
   

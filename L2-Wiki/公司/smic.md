@@ -78,7 +78,6 @@ headquarters: 中国上海
 employees: ~20,000
 latest_revenue: Q2 FY2026 30.06亿美元（约$3.0B，+36.1% YoY，单季首破30亿美元）
 market_cap: ~$50B(H股)
-ticker: '688981'
 description: 中芯国际（SMIC）是中国大陆规模最大、技术最先进的晶圆代工厂。拥有从0.35μm到7nm（N+2）的全制程能力，是中国半导体产业链自主可控的核心枢纽。成熟制程具备全球竞争力，先进制程通过N+1/N+2工艺实现14nm和7nm量产，是华为昇腾芯片的核心代工伙伴。
 website: https://www.smics.com
 industries:

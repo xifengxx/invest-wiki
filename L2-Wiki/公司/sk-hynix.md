@@ -87,7 +87,6 @@ headquarters: 韩国利川
 employees: ~38,000
 latest_revenue: Q2 FY2026 79万亿韩元（约$540亿，+51% QoQ，miss 85万亿预期）
 market_cap: ~$160B / PE ~4x（2026.7，历史底部）
-ticker: 000660.KS
 description: SK海力士（SK hynix）是全球第二大存储半导体企业，总部位于韩国利川。公司以DRAM和NAND闪存为核心产品，是全球HBM（高带宽内存）市场的绝对领导者。SK海力士独家向NVIDIA供应HBM3E 12-Hi产品，占据HBM市场约70%份额。2025财年营收97.15万亿韩元（约662亿美元），营业利润47.21万亿韩元，营业利润率高达49%，市值超过1300万亿韩元（约915亿美元）。公司加速推进HBM4及HBM5研发，并布局CXL、PIM等下一代内存架构。
 website: https://www.skhynix.com
 industries:

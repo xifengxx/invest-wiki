@@ -7,10 +7,10 @@
     "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
     "source_company_links": 494,
-    "unique_companies": 328,
-    "overseas_quote_candidates": 177,
-    "a_share_mapping_companies": 93,
-    "private_or_untradable": 58
+    "unique_companies": 327,
+    "overseas_quote_candidates": 174,
+    "a_share_mapping_companies": 94,
+    "private_or_untradable": 59
   },
   "segments": [
     {
@@ -2982,7 +2982,7 @@
             "二线弹性"
           ],
           "rev": 30.0,
-          "market_guess": "UNKNOWN",
+          "market_guess": "AT",
           "tradable": true,
           "in_overseas_heat": true
         },
@@ -3558,20 +3558,6 @@
       "chain_note": "光刻机是芯片制造中**最核心、最昂贵的设备**——通过光学系统将电路图案投影到硅片上。一台EUV售价>$3亿，重180吨，超10万个零部件。|**ASML垄断全球EUV(100%)和整体光刻机市场83%**。FY2025营收€32.7B(+15%)，净利€9.6B，毛利率52.8%。EUV出货48台(€11.6B,+39%)。订单积压€38.8B创纪录(EUV占66%)。**2026年预计出货60+台EUV**，营收€34-40B。SK Hynix下单$8B(30台EUV至2027)。|**High-NA EUV(EXE:5200,$380-400M/台)2025首批交付**，Intel首家HVM采纳(18A)，TSMC推迟3-4年暂不采用。ASML 2030目标€44-60B营收，毛利率56-60%。|**Nikon和Canon在DUV中低端/i-line/KrF市场仍有一定份额**，Canon纳米压印(NIL)5nm已实现但产能远低于EUV。中国SMEE 90nm量产、28nm浸没式研发中，整体差距约15年。",
       "companies": [
         {
-          "ticker": "-",
-          "source_tickers": [
-            "-"
-          ],
-          "name": "SMEE(上海微电子)",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 60.0,
-          "market_guess": "UNKNOWN",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
           "ticker": "7731.T",
           "source_tickers": [
             "7731.T"
@@ -3626,11 +3612,25 @@
           "market_guess": "US_LIKE",
           "tradable": true,
           "in_overseas_heat": true
+        },
+        {
+          "ticker": "SMEE",
+          "source_tickers": [
+            "SMEE"
+          ],
+          "name": "SMEE(上海微电子)",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 60.0,
+          "market_guess": "PRIVATE",
+          "tradable": false,
+          "in_overseas_heat": false
         }
       ],
       "n_source_companies": 5,
       "n_unique_companies": 5,
-      "n_overseas_candidates": 5,
+      "n_overseas_candidates": 4,
       "n_a_share_mapping": 0,
       "a_share": []
     },
@@ -3719,20 +3719,6 @@
           "in_overseas_heat": true
         },
         {
-          "ticker": "4185.T",
-          "source_tickers": [
-            "4185.T"
-          ],
-          "name": "JSR Corporation",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 70.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
           "ticker": "4186.T",
           "source_tickers": [
             "4186.T"
@@ -3787,11 +3773,25 @@
           "market_guess": "CN",
           "tradable": true,
           "in_overseas_heat": false
+        },
+        {
+          "ticker": "JSR",
+          "source_tickers": [
+            "JSR"
+          ],
+          "name": "JSR Corporation",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 70.0,
+          "market_guess": "PRIVATE",
+          "tradable": false,
+          "in_overseas_heat": false
         }
       ],
       "n_source_companies": 10,
       "n_unique_companies": 10,
-      "n_overseas_candidates": 5,
+      "n_overseas_candidates": 4,
       "n_a_share_mapping": 5,
       "a_share": [
         {
@@ -3965,6 +3965,34 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "ANTHROPIC",
+          "source_tickers": [
+            "ANTHROPIC"
+          ],
+          "name": "Anthropic",
+          "roles": [
+            "全球营收第一"
+          ],
+          "rev": 60.0,
+          "market_guess": "PRIVATE",
+          "tradable": false,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "BYTEDANCE",
+          "source_tickers": [
+            "BYTEDANCE"
+          ],
+          "name": "字节跳动",
+          "roles": [
+            "中国第一"
+          ],
+          "rev": 50.0,
+          "market_guess": "PRIVATE",
+          "tradable": false,
+          "in_overseas_heat": false
+        },
+        {
           "ticker": "GOOGL",
           "source_tickers": [
             "GOOGL"
@@ -3993,25 +4021,36 @@
           "in_overseas_heat": true
         },
         {
-          "ticker": "未上市",
+          "ticker": "MOONSHOT",
           "source_tickers": [
-            "未上市"
+            "MOONSHOT"
           ],
-          "name": "Anthropic",
+          "name": "月之暗面",
           "roles": [
-            "全球营收第一",
-            "用户规模第一",
-            "国产高增长",
-            "中国第一"
+            "国产高增长"
           ],
-          "rev": 60.0,
+          "rev": 45.0,
+          "market_guess": "PRIVATE",
+          "tradable": false,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "OPENAI",
+          "source_tickers": [
+            "OPENAI"
+          ],
+          "name": "OpenAI",
+          "roles": [
+            "用户规模第一"
+          ],
+          "rev": 55.0,
           "market_guess": "PRIVATE",
           "tradable": false,
           "in_overseas_heat": false
         }
       ],
       "n_source_companies": 8,
-      "n_unique_companies": 5,
+      "n_unique_companies": 8,
       "n_overseas_candidates": 4,
       "n_a_share_mapping": 0,
       "a_share": []
@@ -6057,9 +6096,9 @@
             "直接相关"
           ],
           "rev": 85.0,
-          "market_guess": "UNKNOWN",
+          "market_guess": "CN",
           "tradable": true,
-          "in_overseas_heat": true
+          "in_overseas_heat": false
         },
         {
           "ticker": "ROG",
@@ -6078,8 +6117,8 @@
       ],
       "n_source_companies": 7,
       "n_unique_companies": 7,
-      "n_overseas_candidates": 4,
-      "n_a_share_mapping": 3,
+      "n_overseas_candidates": 3,
+      "n_a_share_mapping": 4,
       "a_share": [
         {
           "name": "雅克科技",
@@ -6095,6 +6134,11 @@
           "name": "生益科技",
           "ticker": "600183",
           "role": "龙头"
+        },
+        {
+          "name": "华正新材",
+          "ticker": "603186.SH",
+          "role": "直接相关"
         }
       ]
     },
@@ -8824,15 +8868,6 @@
     }
   ],
   "companies": {
-    "-": {
-      "ticker": "-",
-      "name": "SMEE(上海微电子)",
-      "market_guess": "UNKNOWN",
-      "tradable": true,
-      "segments": [
-        "lithography"
-      ]
-    },
     "000034": {
       "ticker": "000034",
       "name": "神州数码",
@@ -9571,15 +9606,6 @@
         "electronic-gas"
       ]
     },
-    "4185.T": {
-      "ticker": "4185.T",
-      "name": "JSR Corporation",
-      "market_guess": "JP",
-      "tradable": true,
-      "segments": [
-        "photoresist"
-      ]
-    },
     "4186.T": {
       "ticker": "4186.T",
       "name": "Tokyo Ohka Kogyo (TOK)",
@@ -9713,7 +9739,7 @@
     "603186.SH": {
       "ticker": "603186.SH",
       "name": "华正新材",
-      "market_guess": "UNKNOWN",
+      "market_guess": "CN",
       "tradable": true,
       "segments": [
         "ccl-high-freq-material"
@@ -10416,7 +10442,8 @@
       "tradable": false,
       "segments": [
         "ai-dev-tools",
-        "ai-inference-api"
+        "ai-inference-api",
+        "foundation-model"
       ]
     },
     "ANYSCALE": {
@@ -10467,7 +10494,7 @@
     "ATS.VI": {
       "ticker": "ATS.VI",
       "name": "AT&S",
-      "market_guess": "UNKNOWN",
+      "market_guess": "AT",
       "tradable": true,
       "segments": [
         "pcb-ic-substrate"
@@ -10564,7 +10591,8 @@
       "market_guess": "PRIVATE",
       "tradable": false,
       "segments": [
-        "ai-agent"
+        "ai-agent",
+        "foundation-model"
       ]
     },
     "CAMT": {
@@ -11059,6 +11087,15 @@
         "switch-chip"
       ]
     },
+    "JSR": {
+      "ticker": "JSR",
+      "name": "JSR Corporation",
+      "market_guess": "PRIVATE",
+      "tradable": false,
+      "segments": [
+        "photoresist"
+      ]
+    },
     "KALRAY": {
       "ticker": "KALRAY",
       "name": "Kalray",
@@ -11197,7 +11234,8 @@
       "market_guess": "PRIVATE",
       "tradable": false,
       "segments": [
-        "ai-agent"
+        "ai-agent",
+        "foundation-model"
       ]
     },
     "MPWR": {
@@ -11407,7 +11445,8 @@
       "market_guess": "PRIVATE",
       "tradable": false,
       "segments": [
-        "ai-inference-api"
+        "ai-inference-api",
+        "foundation-model"
       ]
     },
     "ORCL": {
@@ -11604,6 +11643,15 @@
       "tradable": true,
       "segments": [
         "ai-server"
+      ]
+    },
+    "SMEE": {
+      "ticker": "SMEE",
+      "name": "SMEE(上海微电子)",
+      "market_guess": "PRIVATE",
+      "tradable": false,
+      "segments": [
+        "lithography"
       ]
     },
     "SMHN": {
@@ -11927,23 +11975,14 @@
       "segments": [
         "liquid-cooling"
       ]
-    },
-    "未上市": {
-      "ticker": "未上市",
-      "name": "Anthropic",
-      "market_guess": "PRIVATE",
-      "tradable": false,
-      "segments": [
-        "foundation-model"
-      ]
     }
   },
-  "version": "2026-09-13.24",
+  "version": "2026-09-13.27",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-13T20:32:13+08:00",
-  "source_generated_at": "2026-09-13T20:32:13+08:00",
-  "source_sha256": "760c65559f3498812563ab5b5229f0012766940ef6fcece23a6f523a0c2ed09f",
-  "source_hash8": "760c6555",
-  "source_commit": "725affb495e08437152106196dce54d0b5f9bfa1",
+  "built_at": "2026-09-13T21:22:38+08:00",
+  "source_generated_at": "2026-09-13T21:22:38+08:00",
+  "source_sha256": "5b77712b1744b3b3a1e67399fedab898e532b42eeecf6ec9ca7e0e923cebef46",
+  "source_hash8": "5b77712b",
+  "source_commit": "4d4a3e9c5e073242ca3c18bf0d1c9a5cfec4a691",
   "source_dirty": true
 }

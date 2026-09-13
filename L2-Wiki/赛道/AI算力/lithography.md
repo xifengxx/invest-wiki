@@ -82,9 +82,10 @@ companies:
   name: Nikon
   role: 全球二线
   rev: 20
-- ticker: '-'
+- ticker: SMEE
   name: SMEE(上海微电子)
   role: 国产替代
+  note: 未上市，非交易标记键（原为 '-'，会在 companies 字典里生成垃圾键）
   rev: 60
 wikilinks:
 - 光掩模版

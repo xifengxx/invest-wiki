@@ -2,7 +2,7 @@
 name: JSR Corporation
 slug: jsr
 country: 日本
-ticker: "4185.T（已退市）"
+ticker: "JSR"   # 原 4185.T；2025 年被 JIC 私有化退市后已不可交易，改用非交易标记键（见 build_chain_universe.PRIVATE_TICKERS）
 type: company
 updated: 2026-08
 data_freshness_date: 2026-08-18

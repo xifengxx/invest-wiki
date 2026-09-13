@@ -79,7 +79,6 @@ headquarters: 日本东京
 employees: ~17,000
 latest_revenue: "Q1 FY2027 ¥732.3B (~$4.6B)"
 market_cap: ~¥25T (~$165B)
-ticker: 8035.T
 description: 东京电子（Tokyo Electron，TEL）是全球前三大半导体设备巨头，与Applied Materials、Lam Research并列。公司成立于1963年，总部位于日本东京，以涂胶显影（Coater/Developer）设备垄断全球90%+市场，同时在刻蚀、沉积、清洗领域具备全栈能力。FY2025营收约2.2万亿日元，是台积电、三星、Intel等全球顶尖晶圆厂的核心供应商。
 website: https://www.tel.com
 industries:

@@ -84,9 +84,10 @@ price_conduction:
 - 推动制造成本上升
 - 加速国产光刻胶验证进程
 companies:
-- ticker: 4185.T
+- ticker: JSR
   name: JSR Corporation
   role: 龙头
+  note: 原 4185.T；2025 年被 JIC 私有化退市，已不可交易（非交易标记键）
   rev: 70
 - ticker: 4186.T
   name: Tokyo Ohka Kogyo (TOK)

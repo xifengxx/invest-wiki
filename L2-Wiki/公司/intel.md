@@ -88,7 +88,6 @@ core_business:
 - 晶圆代工服务(Intel Foundry, 18A/14A制程, 先进封装EMIB)
 - 网络与边缘计算芯片(Ethernet控制器, FPGA, IPU)
 revenue_model: PC处理器占营收61%($322亿 FY2025)，数据中心与AI芯片占32%($169亿)，代工占34%($178亿含内部交付)，外部代工仅$1.74亿。向产品+代工双轨转型，代工目标2027年盈亏平衡。
-ticker: INTC
 description: 英特尔（Intel）成立于1968年，总部位于美国加州圣克拉拉，是全球最大的半导体IDM企业之一，主导x86架构CPU市场。产品覆盖PC、数据中心、网络边缘及AI加速。近年来推动IDM 2.0战略转型，大举投资晶圆代工（Intel Foundry），与台积电、三星竞争先进制程。尽管收入连年下滑、毛利率承压、代工持续亏损，公司凭借深厚技术积累、CHIPS法案资金及新任CEO Lip-Bu
   Tan的领导，力图在AI时代重振。
 website: https://www.intel.com

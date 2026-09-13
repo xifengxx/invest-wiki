@@ -29,6 +29,9 @@ sys.path.insert(0, str(ROOT))
 from engine.parser import WikiParser          # noqa: E402
 from engine.graph import GraphBuilder         # noqa: E402
 
+sys.path.insert(0, str(ROOT / 'L3-网页产物'))
+from build_chain_universe import market_guess, normalize_ticker  # noqa: E402
+
 WIKI_DIR = ROOT / 'L2-Wiki'
 L3_DIR = ROOT / 'L3-网页产物'
 WIKI_JSON = L3_DIR / 'wiki_data.json'
@@ -62,11 +65,31 @@ def soft(cond, ok_msg, bad_msg):
 
 
 # ── 1. L2 解析 ────────────────────────────────────────────────────────────
+def check_dup_keys():
+    """frontmatter 顶层键不得重复 —— PyYAML 静默取最后一个，前者被丢弃。
+
+    2026-09-13 实测全库有 13 个公司词条重复了 `ticker` 键（模板遗留的镜像副本），
+    其中 3 个两处取值不同（`002371.SZ` vs `'002371'`），前者被静默丢掉。
+    """
+    bad = []
+    for p in WIKI_DIR.rglob('*.md'):
+        parts = p.read_text(encoding='utf-8').split('---')
+        if len(parts) < 3:
+            continue
+        keys = re.findall(r'^([A-Za-z_][A-Za-z0-9_]*):', parts[1], re.M)
+        dups = sorted({k for k in keys if keys.count(k) > 1})
+        if dups:
+            bad.append(f"{p.relative_to(WIKI_DIR)}: {dups}")
+    hard(not bad, "frontmatter 无重复顶层键",
+         f"{len(bad)} 个文件有重复顶层键（PyYAML 静默取最后一个，前者丢失）: {bad[:5]}")
+
+
 def check_l2(parser):
     print("1. L2 解析")
     total = len(parser.entities)
     unknown = [e for e in parser.entities.values() if e.entity_type == 'unknown']
     hard(total > 0, f"解析到 {total} 个词条", "L2 一个词条都没解析出来")
+    check_dup_keys()
     if not hard(
         len(unknown) == 0,
         "unknown 实体 = 0",
@@ -268,7 +291,59 @@ def check_index(parser):
          f"index.md 赛道总数记 {m.group(1) if m else '?'}，实际唯一数 {len(segs)}")
 
 
-# ── 8. index.html 结构（复用 validate.py）─────────────────────────────────
+# ── 8. ticker 规范（chain_universe 的键）─────────────────────────────────
+def check_tickers(parser):
+    """ticker 会被 build_chain_universe 直接当作 companies 字典的键。
+
+    两个真实踩过的坑：
+    - 值无法被 market_guess 分类（如 `-`、`4185.T（已退市）`）→ 生成 UNKNOWN 条目，
+      且退市股会被标 tradable=True
+    - **同一赛道内 ticker 重复** → 后写入的条目覆盖先写入的，静默丢公司
+      （曾发生：大模型赛道 4 家都填 `未上市`，只剩 1 家活下来）
+    """
+    print("\n8. ticker 规范")
+    PLACEHOLDERS = {'未上市', '-', '无', 'N/A', 'NA', '--'}
+    bad_unknown, dupes, placeholders = [], [], []
+    for e in parser.entities.values():
+        if e.entity_type == 'company':
+            t = e.frontmatter.get('ticker')
+            if t and str(t).strip() and market_guess(normalize_ticker(t)) == 'UNKNOWN':
+                bad_unknown.append(f"{e.name}: {t!r}")
+            if t and str(t).strip().upper() in PLACEHOLDERS:
+                placeholders.append(f"公司词条 {e.name}: {t!r}")
+        if e.entity_type == 'segment':
+            seen = {}
+            for c in (e.frontmatter.get('companies') or []):
+                if not isinstance(c, dict):
+                    continue
+                t = c.get('ticker')
+                if not t or not str(t).strip():
+                    continue
+                key = normalize_ticker(t)
+                if market_guess(key) == 'UNKNOWN':
+                    bad_unknown.append(f"{e.name} → {c.get('name')}: {t!r}")
+                if key in seen:
+                    dupes.append(f"{e.name}: {key!r} 同时用于 {seen[key]!r} 与 {c.get('name')!r}")
+                else:
+                    seen[key] = c.get('name')
+                if str(t).strip().upper() in PLACEHOLDERS:
+                    placeholders.append(f"{e.name} → {c.get('name')}: {t!r}")
+    hard(not bad_unknown,
+         "所有 ticker 均可被 market_guess 分类（或为已登记的非交易键）",
+         f"{len(bad_unknown)} 个 ticker 无法分类，会让 chain_universe 生成 UNKNOWN 条目"
+         f"（未上市/退市请用 build_chain_universe.PRIVATE_TICKERS 里的键）: {bad_unknown[:6]}")
+    hard(not dupes,
+         "同一赛道内 ticker 无重复",
+         f"{len(dupes)} 处赛道内 ticker 重复，后写入者会静默覆盖前者: {dupes[:6]}")
+    # 通用占位符虽然能通过分类（在 PRIVATE_TICKERS 里），但它不指向任何一家具体公司，
+    # 跨赛道共用时会互相污染，所以只用告警。正确的做法是用公司专属的非交易键。
+    soft(not placeholders,
+         "未使用通用占位符作为 ticker",
+         f"{len(placeholders)} 处使用了通用占位符（应用公司专属非交易键，见 "
+         f"build_chain_universe.PRIVATE_TICKERS）: {placeholders[:6]}")
+
+
+# ── 9. index.html 结构（复用 validate.py）─────────────────────────────────
 def check_html():
     print("\n8. index.html 结构")
     proc = subprocess.run(
@@ -294,6 +369,7 @@ def main():
     check_link_edge(data, graph)
     check_universe(universe)
     check_index(parser)
+    check_tickers(parser)
     if '--no-html' not in args:
         check_html()
 

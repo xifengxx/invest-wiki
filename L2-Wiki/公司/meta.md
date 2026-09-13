@@ -84,7 +84,6 @@ core_business:
 - VR/AR硬件（Quest头显全球73%份额，Ray-Ban Meta智能眼镜）
 - 自研AI芯片MTIA/Iris（第四代训练推理加速器，2026年9月量产）
 revenue_model: 广告收入占98%，2025年达1962亿美元（同比增22%），核心驱动来自AI优化投放Advantage+、Reels短视频及WhatsApp商业消息。2025年总营收2009.7亿美元，净利润约605亿美元。2026年起开辟Meta Compute云算力租赁新收入来源，租250MW算力年收入可达100亿美元（摩根士丹利测算）。
-ticker: META
 description: Meta Platforms是全球最大社交媒体公司，旗下Facebook、Instagram、WhatsApp月活用户超40亿。公司全面转型AI算力巨头，FY2025资本开支超630亿美元投入AI基础设施，自研MTIA芯片与开源Llama大模型构成完整AI技术栈。通过AI赋能广告精准投放，FY2025营收突破2000亿美元(+22% YoY)，是AI商业化的全球标杆企业。
 website: https://www.meta.com
 industries:

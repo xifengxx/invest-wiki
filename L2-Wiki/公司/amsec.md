@@ -58,7 +58,6 @@ headquarters: 中国上海
 employees: ~2,500
 latest_revenue: Q2 2026 营收约¥37.76亿（+35.5% YoY）；H1归母净利¥27-29亿（+282%-311%）；H1毛利率约39.7%
 market_cap: ~$15B
-ticker: '688012'
 description: 中微半导体（AMEC）是中国介质刻蚀和MOCVD设备龙头企业。公司由尹志尧博士（前应用材料/泛林高管）于2004年创立，其CCP电容耦合等离子体刻蚀机已进入台积电5nm产线，是全球少数能与AMAT/泛林在高端刻蚀领域竞争的中国企业。MOCVD设备在Mini/Micro LED领域全球市占率第一。
 website: https://www.amec-inc.com
 industries:
