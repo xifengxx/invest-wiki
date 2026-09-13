@@ -1,0 +1,35 @@
+#!/bin/sh
+# Invest Wiki pre-commit 校验。
+#
+# 安装（一次性，每个 clone 都要做一次，因为 core.hooksPath 是本地配置）：
+#     git config core.hooksPath .githooks
+#
+# 绕过：
+#     SKIP_WIKI_CHECK=1 git commit ...
+#
+# 设计取舍：只在改动涉及 L2-Wiki / L3-网页产物 时触发，避免无关提交（改文档、
+# 改脚本）被校验拖慢或误拦。
+
+if [ "${SKIP_WIKI_CHECK:-}" = "1" ]; then
+    echo "⏭  已跳过 Invest Wiki 校验（SKIP_WIKI_CHECK=1）"
+    exit 0
+fi
+
+changed=$(git diff --cached --name-only --diff-filter=ACMR)
+if ! printf '%s\n' "$changed" | grep -qE '^(L2-Wiki/|L3-网页产物/)'; then
+    exit 0
+fi
+
+root=$(git rev-parse --show-toplevel)
+echo "🔍 检测到 Wiki 数据改动，运行校验…"
+
+if ! output=$(cd "$root" && python3 L1-Schema与Pipeline/lint/verify_all.py 2>&1); then
+    printf '%s\n' "$output" | tail -45
+    echo ""
+    echo "❌ 校验未通过，提交已阻断。"
+    echo "   修好后重试；确需绕过：SKIP_WIKI_CHECK=1 git commit ..."
+    exit 1
+fi
+
+printf '%s\n' "$output" | tail -2
+exit 0
