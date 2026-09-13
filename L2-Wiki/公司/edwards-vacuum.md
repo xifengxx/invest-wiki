@@ -4,6 +4,8 @@ slug: edwards-vacuum
 country: 英国
 type: company
 updated: 2026-07
+segments:
+- 半导体设备零部件
 one_liner: ''
 chain_layer: ''
 chain_role: 直接相关

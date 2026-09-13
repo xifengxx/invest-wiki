@@ -4,6 +4,8 @@ slug: nan-ya-pcb
 country: 台湾
 type: company
 updated: 2026-07
+segments:
+- PCB与IC载板
 one_liner: ''
 chain_layer: ''
 chain_role: 直接相关

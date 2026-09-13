@@ -4,6 +4,8 @@ slug: globalwafers
 country: 台湾
 type: company
 updated: 2026-07
+segments:
+- 高纯硅料与硅片
 one_liner: ''
 chain_layer: ''
 chain_role: 直接相关

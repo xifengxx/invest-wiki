@@ -102,6 +102,7 @@ wikilinks:
 - EDA与IP核
 - CIS图像传感器
 - 封装测试(OSAT)
+- 安全芯片
 key_inputs:
 - EDA与IP核
 - 封装测试(OSAT)

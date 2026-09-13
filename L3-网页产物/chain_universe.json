@@ -3,13 +3,13 @@
   "source_file": "L3-网页产物/wiki_data.json",
   "note": "Canonical segments merge exact cross-track duplicate names. Overseas quote candidates exclude A-shares and known private companies.",
   "stats": {
-    "source_segments": 65,
-    "canonical_segments": 65,
+    "source_segments": 67,
+    "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
-    "source_company_links": 479,
-    "unique_companies": 319,
+    "source_company_links": 485,
+    "unique_companies": 321,
     "overseas_quote_candidates": 172,
-    "a_share_mapping_companies": 89,
+    "a_share_mapping_companies": 91,
     "private_or_untradable": 58
   },
   "segments": [
@@ -5951,6 +5951,65 @@
       ]
     },
     {
+      "segment_id": "ccl-high-freq-material",
+      "name": "覆铜板与高频材料",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 1,
+      "source_slugs": [
+        "ccl-high-freq-material"
+      ],
+      "description": "覆铜板（CCL）是PCB的**核心基材**——由铜箔、玻纤布浸渍树脂后压合而成，决定PCB的电气性能上限。AI服务器把PCB从12-16层推到20-30层、材料从M4推到M6/M7，**单板CCL价值量成倍增长**。中低端中国已主导（建滔+生益份额超25%），但**最高等级材料仍是卡脖子环节**——与封装基板材料中的ABF膜同属一类。",
+      "chain_note": "覆铜板（CCL）是PCB的**核心基材**——由铜箔、玻纤布浸渍树脂后压合而成，决定PCB的电气性能上限。AI服务器把PCB从12-16层推到20-30层、材料从M4推到M6/M7，**单板CCL价值量成倍增长**。中低端中国已主导（建滔+生益份额超25%），但**最高等级材料仍是卡脖子环节**——与封装基板材料中的ABF膜同属一类。",
+      "companies": [
+        {
+          "ticker": "002409",
+          "source_tickers": [
+            "002409"
+          ],
+          "name": "雅克科技",
+          "roles": [
+            "直接相关"
+          ],
+          "rev": 15.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "600183",
+          "source_tickers": [
+            "600183"
+          ],
+          "name": "生益科技",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 60.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        }
+      ],
+      "n_source_companies": 2,
+      "n_unique_companies": 2,
+      "n_overseas_candidates": 0,
+      "n_a_share_mapping": 2,
+      "a_share": [
+        {
+          "name": "雅克科技",
+          "ticker": "002409",
+          "role": "直接相关"
+        },
+        {
+          "name": "生益科技",
+          "ticker": "600183",
+          "role": "龙头"
+        }
+      ]
+    },
+    {
       "segment_id": "edge-ai",
       "name": "边缘AI",
       "industry_tags": [
@@ -7701,6 +7760,93 @@
       "a_share": []
     },
     {
+      "segment_id": "semi-security-chip",
+      "name": "安全芯片",
+      "industry_tags": [
+        "半导体"
+      ],
+      "layer": 3,
+      "source_slugs": [
+        "semi-security-chip"
+      ],
+      "description": "安全芯片是**用硬件保证\"身份与交易不可伪造\"的专用芯片**——金融IC、SIM卡、eSE/iSE、车规HSM、TPM。它的护城河不是制程而是**认证**：银行卡要过 CC EAL5+/EAL6+、车规要过 AEC-Q100 与 SHE+、无线支付要过 WPC。认证周期长、切换成本高，因此毛利率（35-50%）显著高于普通MCU。中国在SIM卡与身份证已主导，**最高安全等级与车规HSM仍是缺口**。",
+      "chain_note": "安全芯片是**用硬件保证\"身份与交易不可伪造\"的专用芯片**——金融IC、SIM卡、eSE/iSE、车规HSM、TPM。它的护城河不是制程而是**认证**：银行卡要过 CC EAL5+/EAL6+、车规要过 AEC-Q100 与 SHE+、无线支付要过 WPC。认证周期长、切换成本高，因此毛利率（35-50%）显著高于普通MCU。中国在SIM卡与身份证已主导，**最高安全等级与车规HSM仍是缺口**。",
+      "companies": [
+        {
+          "ticker": "002049",
+          "source_tickers": [
+            "002049"
+          ],
+          "name": "紫光国微",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 50.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688385",
+          "source_tickers": [
+            "688385"
+          ],
+          "name": "复旦微电",
+          "roles": [
+            "核心参与者"
+          ],
+          "rev": 40.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "IFX.DE",
+          "source_tickers": [
+            "IFX.DE"
+          ],
+          "name": "Infineon Technologies",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 50.0,
+          "market_guess": "DE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "NXPI",
+          "source_tickers": [
+            "NXPI"
+          ],
+          "name": "NXP Semiconductors",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 55.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 4,
+      "n_unique_companies": 4,
+      "n_overseas_candidates": 2,
+      "n_a_share_mapping": 2,
+      "a_share": [
+        {
+          "name": "紫光国微",
+          "ticker": "002049",
+          "role": "龙头"
+        },
+        {
+          "name": "复旦微电",
+          "ticker": "688385",
+          "role": "核心参与者"
+        }
+      ]
+    },
+    {
       "segment_id": "semi-osat",
       "name": "封装测试(OSAT)",
       "industry_tags": [
@@ -8636,6 +8782,15 @@
         "high-speed-connector"
       ]
     },
+    "002049": {
+      "ticker": "002049",
+      "name": "紫光国微",
+      "market_guess": "CN",
+      "tradable": true,
+      "segments": [
+        "semi-security-chip"
+      ]
+    },
     "002129": {
       "ticker": "002129",
       "name": "中环股份",
@@ -8709,6 +8864,7 @@
       "market_guess": "CN",
       "tradable": true,
       "segments": [
+        "ccl-high-freq-material",
         "electronic-gas"
       ]
     },
@@ -9309,6 +9465,15 @@
         "semi-cmp-materials"
       ]
     },
+    "600183": {
+      "ticker": "600183",
+      "name": "生益科技",
+      "market_guess": "CN",
+      "tradable": true,
+      "segments": [
+        "ccl-high-freq-material"
+      ]
+    },
     "600206": {
       "ticker": "600206",
       "name": "有研新材",
@@ -9722,7 +9887,8 @@
       "market_guess": "CN",
       "tradable": true,
       "segments": [
-        "fpga"
+        "fpga",
+        "semi-security-chip"
       ]
     },
     "688396": {
@@ -10656,7 +10822,8 @@
       "tradable": true,
       "segments": [
         "semi-mcu",
-        "semi-power-semiconductor"
+        "semi-power-semiconductor",
+        "semi-security-chip"
       ]
     },
     "ILUVATAR": {
@@ -11034,7 +11201,8 @@
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
-        "semi-mcu"
+        "semi-mcu",
+        "semi-security-chip"
       ]
     },
     "ON": {
@@ -11583,12 +11751,12 @@
       ]
     }
   },
-  "version": "2026-09-13.10",
+  "version": "2026-09-13.11",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-13T17:57:21+08:00",
-  "source_generated_at": "2026-09-13T17:57:21+08:00",
-  "source_sha256": "84b555924a8b6f156f6e59c138db03b53df8e686ca367607643300b316d0103c",
-  "source_hash8": "84b55592",
-  "source_commit": "9cb4652e51779a8cc604182a12c0fc8ae98b8e95",
+  "built_at": "2026-09-13T18:20:30+08:00",
+  "source_generated_at": "2026-09-13T18:20:30+08:00",
+  "source_sha256": "db3c267bddd4db22975d17a359f20568ca76f62aa8d9a955ca64cfc9082b99db",
+  "source_hash8": "db3c267b",
+  "source_commit": "83f8c3e503c588ad9ca593028641c73cb9e344ac",
   "source_dirty": false
 }

@@ -88,6 +88,7 @@ wikilinks:
 - 薄膜沉积设备
 - 电子特气
 - 溅射靶材
+- 覆铜板与高频材料
 companies:
 - ticker: 4063.T
   name: 信越化学 (Shin-Etsu Chemical)

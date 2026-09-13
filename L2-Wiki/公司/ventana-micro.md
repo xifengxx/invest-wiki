@@ -4,6 +4,8 @@ slug: ventana-micro
 country: 美国
 type: company
 updated: 2026-07
+segments:
+- RISC-V AI芯片
 one_liner: ''
 chain_layer: ''
 chain_role: 直接相关

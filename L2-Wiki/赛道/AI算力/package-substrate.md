@@ -126,6 +126,7 @@ wikilinks:
 - Chiplet与异构集成
 - PCB与IC载板
 - 半导体设备零部件
+- 覆铜板与高频材料
 key_inputs:
 - BT树脂
 - ABF膜

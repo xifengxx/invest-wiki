@@ -4,6 +4,8 @@ slug: acm-research
 country: 中国/美国
 type: company
 updated: 2026-07
+segments:
+- 清洗设备
 one_liner: ''
 chain_layer: ''
 chain_role: 直接相关

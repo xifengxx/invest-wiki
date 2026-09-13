@@ -77,6 +77,7 @@ wikilinks:
 - DPU/SmartNIC
 - 企业级存储
 - 网络设备（交换机）
+- 覆铜板与高频材料
 key_inputs:
 - GPU
 companies:

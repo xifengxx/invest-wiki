@@ -86,6 +86,7 @@ wikilinks:
 - ASIC/AI定制芯片
 - MEMS传感器
 - 射频芯片
+- 安全芯片
 sources:
 - title: Counterpoint《Edge AI Chip Market 2025》
   summary: ''

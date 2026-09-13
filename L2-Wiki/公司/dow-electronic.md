@@ -4,6 +4,8 @@ slug: dow-electronic
 country: 美国
 type: company
 updated: 2026-07
+segments:
+- 光刻胶与湿化学品
 one_liner: ''
 chain_layer: ''
 chain_role: 直接相关

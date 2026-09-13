@@ -65,6 +65,7 @@ price_conduction:
 - 先进制程FPGA单片$10K+(Versal/Agilex)，年涨3-5%
 wikilinks:
 - GPU
+- 安全芯片
 companies:
 - ticker: '688385'
   name: 复旦微电

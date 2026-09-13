@@ -4,6 +4,8 @@ slug: hisense-broadband
 country: CN
 type: company
 updated: 2026-07
+segments:
+- 800G/1.6T光模块
 one_liner: ''
 chain_layer: ''
 chain_role: 直接相关

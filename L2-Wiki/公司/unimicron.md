@@ -6,6 +6,9 @@ ticker: 3037.TW
 type: company
 updated: 2026-08
 data_freshness_date: 2026-08-18
+segments:
+- 封装基板材料
+- PCB与IC载板
 one_liner: |-
   全球最大PCB/IC载板制造商之一，ABF载板产能领先。
   【2026.8.18更新】Q2 2026（2026-07-29发布）合并营收NT$428.90亿（QoQ+14.5%/YoY+32.1%，创单季历史新高），毛利率24.08%（QoQ+6.84pp/YoY+11.72pp），归母净利NT$131.15亿（QoQ+160%/YoY+441倍），EPS NT$8.45创历史新高；AI产品营收占比已超6成，H2看升至7成。

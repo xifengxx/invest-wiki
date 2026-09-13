@@ -9,7 +9,7 @@ data_freshness_date: 2026-08-18
 segments:
 - AI芯片设计(Fabless)
 - ASIC/AI定制芯片
-- 手机SoC
+
 - 网络交换芯片
 one_liner: |
   全球最大智能手机SoC供应商（出货量#1）和AI ASIC新兴主力，通过手机SoC+Smart Edge+AI定制芯片三大板块实现盈利，2026年AI ASIC营收目标$2B，拿下Google TPU v9主供地位（取代Broadcom），Fabless模式依赖TSMC先进制程代工，市值~$191B。
@@ -121,7 +121,6 @@ industry: AI算力
 - 董事会通过 **$50亿美元** discretionary 融资预算，锁定供应链产能，从 ASIC 芯片扩展至完整数据中心系统。
 
 **Q3 2026 指引**：营收 NT$1,522-1,598亿（环比持平至+5% / 同比+7-12%），毛利率 46%±1.5pp；全年营收达目标高标，美元口径高个位数增长。
-
 
 ## 融资与现金流
 

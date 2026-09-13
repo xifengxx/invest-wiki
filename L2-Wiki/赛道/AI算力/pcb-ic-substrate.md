@@ -73,6 +73,7 @@ price_conduction:
 - PCB厂商更多受益于量的增长而非价格提升
 wikilinks:
 - AI服务器
+- 覆铜板与高频材料
 key_customers:
 - AI服务器
 companies:

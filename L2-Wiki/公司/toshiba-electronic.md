@@ -4,6 +4,8 @@ slug: toshiba-electronic
 country: 日本
 type: company
 updated: 2026-07
+segments:
+- 功率半导体
 one_liner: ''
 chain_layer: ''
 chain_role: 直接相关
