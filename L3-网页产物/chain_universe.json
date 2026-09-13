@@ -7,8 +7,8 @@
     "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
     "source_company_links": 494,
-    "unique_companies": 329,
-    "overseas_quote_candidates": 178,
+    "unique_companies": 328,
+    "overseas_quote_candidates": 177,
     "a_share_mapping_companies": 93,
     "private_or_untradable": 58
   },
@@ -7892,20 +7892,6 @@
           "in_overseas_heat": false
         },
         {
-          "ticker": "600198.SH",
-          "source_tickers": [
-            "600198.SH"
-          ],
-          "name": "大唐微电子",
-          "roles": [
-            "直接相关"
-          ],
-          "rev": 80.0,
-          "market_guess": "UNKNOWN",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
           "ticker": "688385",
           "source_tickers": [
             "688385"
@@ -7963,8 +7949,8 @@
         }
       ],
       "n_source_companies": 8,
-      "n_unique_companies": 7,
-      "n_overseas_candidates": 4,
+      "n_unique_companies": 6,
+      "n_overseas_candidates": 3,
       "n_a_share_mapping": 3,
       "a_share": [
         {
@@ -9646,15 +9632,6 @@
       "tradable": true,
       "segments": [
         "ccl-high-freq-material"
-      ]
-    },
-    "600198.SH": {
-      "ticker": "600198.SH",
-      "name": "大唐微电子",
-      "market_guess": "UNKNOWN",
-      "tradable": true,
-      "segments": [
-        "semi-security-chip"
       ]
     },
     "600206": {
@@ -11961,12 +11938,12 @@
       ]
     }
   },
-  "version": "2026-09-13.21",
+  "version": "2026-09-13.23",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-13T20:06:15+08:00",
-  "source_generated_at": "2026-09-13T20:06:15+08:00",
-  "source_sha256": "60d5802c71b1e2a1b667b6c06fc6f78c647f16a20487df4067e77d3e557fb7ad",
-  "source_hash8": "60d5802c",
-  "source_commit": "a12d522a7cd6173971359b376e756329d5881987",
+  "built_at": "2026-09-13T20:13:40+08:00",
+  "source_generated_at": "2026-09-13T20:13:40+08:00",
+  "source_sha256": "493eabe9f678fe4452cb12d755898122e6691c32ed2ee4392431f53db94ed207",
+  "source_hash8": "493eabe9",
+  "source_commit": "16b60bfccafb89d73b0b937d2d3a2169bb8177dc",
   "source_dirty": true
 }
