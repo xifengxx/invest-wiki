@@ -70,6 +70,7 @@ wikilinks:
 - GPU
 - AI服务器
 - AI训练集群/超算
+- 企业级存储
 companies:
 - ticker: YMTC
   name: YMTC (长江存储)

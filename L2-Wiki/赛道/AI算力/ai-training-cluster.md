@@ -65,6 +65,8 @@ wikilinks:
 - AI模型训练平台
 - NVMe/存储芯片
 - 800G/1.6T光模块
+- 大模型
+- 网络设备（交换机）
 key_inputs:
 - GPU
 companies:

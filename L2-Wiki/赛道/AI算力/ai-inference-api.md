@@ -62,6 +62,7 @@ wikilinks:
 - 云计算IaaS
 - AI Agent
 - AI模型训练平台
+- 大模型
 key_inputs:
 - GPU
 companies:

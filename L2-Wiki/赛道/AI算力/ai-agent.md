@@ -124,6 +124,7 @@ wikilinks:
 - 云计算IaaS
 - AI推理API服务
 - ASIC/AI定制芯片
+- 大模型
 key_inputs:
 - AI推理API服务
 sources:

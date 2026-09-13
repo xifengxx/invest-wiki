@@ -123,6 +123,7 @@ wikilinks:
 - 云计算IaaS
 - AI训练集群/超算
 - 服务器电源与UPS
+- 企业级存储
 key_inputs:
 - 散热液冷系统
 - 服务器电源与UPS

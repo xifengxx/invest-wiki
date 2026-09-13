@@ -73,6 +73,8 @@ wikilinks:
 - MCU与嵌入式处理器
 - 封装测试(OSAT)
 - 晶圆代工(先进制程)
+- MEMS传感器
+- 射频芯片
 key_inputs:
 - 硅晶圆
 - 成熟制程代工

@@ -67,6 +67,8 @@ price_conduction:
 wikilinks:
 - AI服务器
 - 成熟制程代工
+- MEMS传感器
+- 射频芯片
 key_customers:
 - AI服务器
 companies:

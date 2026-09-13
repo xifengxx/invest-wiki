@@ -77,6 +77,8 @@ wikilinks:
 - Chiplet与异构集成
 - 先进封装(CoWoS/3D)
 - IC设计服务(Fabless)
+- 封装设备
+- 测试设备
 key_inputs:
 - 晶圆代工(先进制程)
 - 成熟制程代工

@@ -116,6 +116,7 @@ wikilinks:
 - CMP抛光液与抛光垫
 - 晶圆代工(先进制程)
 - AI芯片设计(Fabless)
+- 测试设备
 key_inputs:
 - 光掩模版
 - 电子特气

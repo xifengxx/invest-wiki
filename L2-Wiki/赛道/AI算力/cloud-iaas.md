@@ -61,6 +61,7 @@ wikilinks:
 - 数据中心IDC
 - AI Agent
 - AI推理API服务
+- 企业级存储
 key_inputs:
 - GPU
 companies:

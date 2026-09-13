@@ -66,6 +66,7 @@ wikilinks:
 - 封装基板材料
 - 晶圆代工(先进制程)
 - AI芯片设计(Fabless)
+- 封装设备
 companies:
 - ticker: TSM
   name: TSMC(台积电)

@@ -69,6 +69,7 @@ price_conduction:
 wikilinks:
 - GPU
 - AI训练集群/超算
+- 网络设备（交换机）
 companies:
 - ticker: AVGO
   name: Broadcom

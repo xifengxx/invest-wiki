@@ -67,6 +67,8 @@ wikilinks:
 - AI训练集群/超算
 - 服务器电源与UPS
 - DPU/SmartNIC
+- 企业级存储
+- 网络设备（交换机）
 key_inputs:
 - GPU
 companies:

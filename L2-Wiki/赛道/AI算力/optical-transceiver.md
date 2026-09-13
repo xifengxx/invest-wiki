@@ -74,6 +74,7 @@ wikilinks:
 - GPU
 - DSP与光芯片
 - AI训练集群/超算
+- 网络设备（交换机）
 key_customers:
 - GPU
 companies:

@@ -55,6 +55,7 @@ price_conduction:
 wikilinks:
 - AI Agent
 - AI推理API服务
+- 大模型
 companies:
 - ticker: MSFT
   name: Microsoft
