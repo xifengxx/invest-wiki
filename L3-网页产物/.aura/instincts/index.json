@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-13T11:29:40.826Z",
+  "updated": "2026-09-13T12:41:03.798Z",
   "patterns": [
     {
       "id": "pattern-004",
@@ -8,14 +8,14 @@
       "language": "python",
       "description": "build_wiki_data.py — ui 패턴 (python)",
       "score": 100,
-      "success_count": 85,
+      "success_count": 98,
       "failure_count": 0,
       "tags": [
         "ui",
         "python"
       ],
       "created": "2026-07-20T14:57:48.361Z",
-      "updated": "2026-09-13T11:29:40.820Z"
+      "updated": "2026-09-13T12:41:03.796Z"
     },
     {
       "id": "pattern-001",
@@ -23,13 +23,13 @@
       "language": "unknown",
       "description": "CLAUDE.md — db 패턴 (unknown)",
       "score": 100,
-      "success_count": 18,
+      "success_count": 19,
       "failure_count": 0,
       "tags": [
         "db"
       ],
       "created": "2026-07-20T13:56:40.719Z",
-      "updated": "2026-07-23T06:36:28.676Z"
+      "updated": "2026-09-13T12:33:28.943Z"
     },
     {
       "id": "pattern-003",
@@ -86,6 +86,20 @@
       ],
       "created": "2026-07-23T06:26:48.635Z",
       "updated": "2026-07-23T06:27:38.759Z"
+    },
+    {
+      "id": "pattern-016",
+      "category": "deploy",
+      "language": "unknown",
+      "description": "index.html — deploy 패턴 (unknown)",
+      "score": 53,
+      "success_count": 2,
+      "failure_count": 0,
+      "tags": [
+        "deploy"
+      ],
+      "created": "2026-07-21T10:40:26.696Z",
+      "updated": "2026-09-13T12:33:17.251Z"
     },
     {
       "id": "pattern-005",
@@ -208,20 +222,6 @@
       "tags": [],
       "created": "2026-07-21T10:40:12.304Z",
       "updated": "2026-07-21T10:40:12.305Z"
-    },
-    {
-      "id": "pattern-016",
-      "category": "deploy",
-      "language": "unknown",
-      "description": "index.html — deploy 패턴 (unknown)",
-      "score": 50,
-      "success_count": 1,
-      "failure_count": 0,
-      "tags": [
-        "deploy"
-      ],
-      "created": "2026-07-21T10:40:26.696Z",
-      "updated": "2026-07-21T10:40:26.699Z"
     },
     {
       "id": "pattern-017",
@@ -378,6 +378,126 @@
       "tags": [],
       "created": "2026-07-23T07:08:33.392Z",
       "updated": "2026-07-23T07:08:33.395Z"
+    },
+    {
+      "id": "pattern-031",
+      "category": "general",
+      "language": "unknown",
+      "description": "index.html — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-09-13T12:33:02.118Z",
+      "updated": "2026-09-13T12:33:02.119Z"
+    },
+    {
+      "id": "pattern-032",
+      "category": "general",
+      "language": "unknown",
+      "description": "index.html — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-09-13T12:33:02.405Z",
+      "updated": "2026-09-13T12:33:02.407Z"
+    },
+    {
+      "id": "pattern-033",
+      "category": "general",
+      "language": "unknown",
+      "description": "index.html — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-09-13T12:33:02.965Z",
+      "updated": "2026-09-13T12:33:02.965Z"
+    },
+    {
+      "id": "pattern-034",
+      "category": "general",
+      "language": "unknown",
+      "description": "index.html — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-09-13T12:33:03.299Z",
+      "updated": "2026-09-13T12:33:03.300Z"
+    },
+    {
+      "id": "pattern-035",
+      "category": "general",
+      "language": "unknown",
+      "description": "index.html — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-09-13T12:33:06.934Z",
+      "updated": "2026-09-13T12:33:06.935Z"
+    },
+    {
+      "id": "pattern-036",
+      "category": "general",
+      "language": "unknown",
+      "description": "index.html — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-09-13T12:33:07.287Z",
+      "updated": "2026-09-13T12:33:07.287Z"
+    },
+    {
+      "id": "pattern-037",
+      "category": "general",
+      "language": "unknown",
+      "description": "index.html — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-09-13T12:33:07.987Z",
+      "updated": "2026-09-13T12:33:07.987Z"
+    },
+    {
+      "id": "pattern-038",
+      "category": "general",
+      "language": "unknown",
+      "description": "index.html — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-09-13T12:33:26.455Z",
+      "updated": "2026-09-13T12:33:26.456Z"
+    },
+    {
+      "id": "pattern-039",
+      "category": "general",
+      "language": "unknown",
+      "description": "index.html — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-09-13T12:33:27.026Z",
+      "updated": "2026-09-13T12:33:27.027Z"
+    },
+    {
+      "id": "pattern-040",
+      "category": "general",
+      "language": "unknown",
+      "description": "index.html — general 패턴 (unknown)",
+      "score": 50,
+      "success_count": 1,
+      "failure_count": 0,
+      "tags": [],
+      "created": "2026-09-13T12:35:19.965Z",
+      "updated": "2026-09-13T12:35:19.965Z"
     }
   ],
   "anti_patterns": []
