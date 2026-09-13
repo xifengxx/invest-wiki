@@ -71,7 +71,7 @@ companies:
   role: 概念股
   rev: 70
 - ticker: KLAC
-  name: KLA
+  name: KLA Corporation
   role: 龙头
   rev: 60
 - ticker: AMAT
@@ -87,7 +87,7 @@ companies:
   role: 龙头
   rev: 25
 - ticker: 6920.T
-  name: Lasertec
+  name: Lasertec Corporation
   role: 龙头
   rev: 85
 - ticker: 8036.T

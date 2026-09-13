@@ -73,7 +73,7 @@ companies:
   role: 龙头
   rev: 15
 - ticker: '603501'
-  name: 韦尔股份
+  name: 豪威集团（原韦尔股份）
   role: 龙头
   rev: 55
 - ticker: '688728'

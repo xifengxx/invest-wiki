@@ -101,7 +101,7 @@ companies:
   role: 国产替代
   rev: 25
 - ticker: BABA
-  name: 阿里巴巴(平头哥)
+  name: 阿里巴巴
   role: 国产龙头
   rev: 10
 - ticker: '300223'
@@ -109,7 +109,7 @@ companies:
   role: 国产替代
   rev: 20
 - ticker: '603986'
-  name: 兆易创新
+  name: 兆易创新 (GigaDevice)
   role: 国产替代
   rev: 15
 sources:

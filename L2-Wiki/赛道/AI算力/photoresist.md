@@ -83,7 +83,7 @@ price_conduction:
 - 加速国产光刻胶验证进程
 companies:
 - ticker: 4185.T
-  name: JSR
+  name: JSR Corporation
   role: 龙头
   rev: 70
 - ticker: 4186.T
@@ -95,7 +95,7 @@ companies:
   role: 概念股
   rev: 60
 - ticker: '4063'
-  name: Shin-Etsu Chemical (信越化学)
+  name: 信越化学 (Shin-Etsu Chemical)
   role: 龙头
   rev: 25
 - ticker: '4005'
@@ -103,7 +103,7 @@ companies:
   role: 二线弹性
   rev: 10
 - ticker: '4901'
-  name: Fujifilm Electronic Materials
+  name: Fujifilm
   role: 二线弹性
   rev: 12
 - ticker: '300655'

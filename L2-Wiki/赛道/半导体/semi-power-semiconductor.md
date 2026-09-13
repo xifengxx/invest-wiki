@@ -83,15 +83,15 @@ key_customers:
 - 半导体设备零部件
 companies:
 - ticker: IFX.DE
-  name: 英飞凌(Infineon)
+  name: Infineon Technologies
   role: 全球龙头
   rev: 40
 - ticker: 'ON'
-  name: 安森美(onsemi)
+  name: ON Semiconductor (onsemi)
   role: 全球二线
   rev: 30
 - ticker: STM
-  name: 意法半导体(ST)
+  name: 意法半导体 (STMicroelectronics)
   role: 全球二线
   rev: 25
 - ticker: '688396'

@@ -65,7 +65,7 @@ companies:
   role: 龙头
   rev: 30
 - ticker: MRVL
-  name: Marvell
+  name: Marvell Technology
   role: 二线弹性
   rev: 20
 - ticker: GOOGL
@@ -93,7 +93,7 @@ companies:
   role: 二线弹性
   rev: 95
 - ticker: CBRS
-  name: Cerebras
+  name: Cerebras Systems
   role: 二线弹性
   rev: 95
 - ticker: KUNLUN

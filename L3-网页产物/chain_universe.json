@@ -115,7 +115,7 @@
           "source_tickers": [
             "COHR"
           ],
-          "name": "Coherent",
+          "name": "Coherent Corp.",
           "roles": [
             "龙头"
           ],
@@ -1503,7 +1503,7 @@
           "source_tickers": [
             "CBRS"
           ],
-          "name": "Cerebras",
+          "name": "Cerebras Systems",
           "roles": [
             "二线弹性"
           ],
@@ -1587,7 +1587,7 @@
           "source_tickers": [
             "MRVL"
           ],
-          "name": "Marvell",
+          "name": "Marvell Technology",
           "roles": [
             "二线弹性"
           ],
@@ -1683,7 +1683,7 @@
           "source_tickers": [
             "ARM"
           ],
-          "name": "ARM Holdings",
+          "name": "Arm Holdings",
           "roles": [
             "生态主导"
           ],
@@ -1979,7 +1979,7 @@
           "source_tickers": [
             "MRVL"
           ],
-          "name": "Marvell",
+          "name": "Marvell Technology",
           "roles": [
             "龙头"
           ],
@@ -2097,7 +2097,7 @@
           "source_tickers": [
             "COHR"
           ],
-          "name": "Coherent",
+          "name": "Coherent Corp.",
           "roles": [
             "龙头"
           ],
@@ -2125,7 +2125,7 @@
           "source_tickers": [
             "MRVL"
           ],
-          "name": "Marvell",
+          "name": "Marvell Technology",
           "roles": [
             "龙头"
           ],
@@ -2139,7 +2139,7 @@
           "source_tickers": [
             "MTSI"
           ],
-          "name": "Macom",
+          "name": "MACOM Technology Solutions",
           "roles": [
             "二线弹性"
           ],
@@ -2231,7 +2231,7 @@
           "source_tickers": [
             "CDNS"
           ],
-          "name": "Cadence",
+          "name": "Cadence Design Systems",
           "roles": [
             "龙头"
           ],
@@ -2695,7 +2695,7 @@
           "source_tickers": [
             "2408"
           ],
-          "name": "Nanya(南亚科)",
+          "name": "Nanya Technology (南亚科技)",
           "roles": [
             "概念股"
           ],
@@ -2757,7 +2757,7 @@
           "source_tickers": [
             "005930"
           ],
-          "name": "三星电子",
+          "name": "Samsung",
           "roles": [
             "龙头"
           ],
@@ -3061,7 +3061,7 @@
           "source_tickers": [
             "603986"
           ],
-          "name": "兆易创新",
+          "name": "兆易创新 (GigaDevice)",
           "roles": [
             "国产替代"
           ],
@@ -3089,7 +3089,7 @@
           "source_tickers": [
             "BABA"
           ],
-          "name": "阿里巴巴(平头哥)",
+          "name": "阿里巴巴",
           "roles": [
             "国产龙头"
           ],
@@ -3110,7 +3110,7 @@
           "role": "国产替代"
         },
         {
-          "name": "兆易创新",
+          "name": "兆易创新 (GigaDevice)",
           "ticker": "603986",
           "role": "国产替代"
         },
@@ -3417,7 +3417,7 @@
           "source_tickers": [
             "3711.TW"
           ],
-          "name": "日月光 (ASE)",
+          "name": "日月光 (ASE Group)",
           "roles": [
             "龙头"
           ],
@@ -3445,7 +3445,7 @@
           "source_tickers": [
             "6239"
           ],
-          "name": "力成科技",
+          "name": "力成科技 (Powertech Technology)",
           "roles": [
             "二线弹性"
           ],
@@ -3556,7 +3556,7 @@
           "source_tickers": [
             "-"
           ],
-          "name": "上海微电子(SMEE)",
+          "name": "SMEE(上海微电子)",
           "roles": [
             "国产替代"
           ],
@@ -3570,7 +3570,7 @@
           "source_tickers": [
             "7731.T"
           ],
-          "name": "尼康(Nikon)",
+          "name": "Nikon",
           "roles": [
             "全球二线"
           ],
@@ -3584,7 +3584,7 @@
           "source_tickers": [
             "7751.T"
           ],
-          "name": "佳能(Canon)",
+          "name": "Canon",
           "roles": [
             "全球二线"
           ],
@@ -3702,7 +3702,7 @@
           "source_tickers": [
             "4063"
           ],
-          "name": "Shin-Etsu Chemical (信越化学)",
+          "name": "信越化学 (Shin-Etsu Chemical)",
           "roles": [
             "龙头"
           ],
@@ -3716,7 +3716,7 @@
           "source_tickers": [
             "4185.T"
           ],
-          "name": "JSR",
+          "name": "JSR Corporation",
           "roles": [
             "龙头"
           ],
@@ -3744,7 +3744,7 @@
           "source_tickers": [
             "4901"
           ],
-          "name": "Fujifilm Electronic Materials",
+          "name": "Fujifilm",
           "roles": [
             "二线弹性"
           ],
@@ -3947,7 +3947,7 @@
           "source_tickers": [
             "02513.HK"
           ],
-          "name": "智谱",
+          "name": "智谱AI",
           "roles": [
             "国产第一股"
           ],
@@ -3961,7 +3961,7 @@
           "source_tickers": [
             "GOOGL"
           ],
-          "name": "Google(Gemini)",
+          "name": "Google(Alphabet)",
           "roles": [
             "云+模型协同"
           ],
@@ -3975,7 +3975,7 @@
           "source_tickers": [
             "META"
           ],
-          "name": "Meta(Llama)",
+          "name": "Meta",
           "roles": [
             "开源路线"
           ],
@@ -4267,7 +4267,7 @@
           "source_tickers": [
             "VRT"
           ],
-          "name": "Vertiv",
+          "name": "Vertiv Holdings",
           "roles": [
             "龙头"
           ],
@@ -4648,7 +4648,7 @@
           "source_tickers": [
             "2308"
           ],
-          "name": "Delta Electronics",
+          "name": "Delta Electronics (台达电子)",
           "roles": [
             "二线弹性"
           ],
@@ -4690,7 +4690,7 @@
           "source_tickers": [
             "ETN"
           ],
-          "name": "Eaton",
+          "name": "Eaton Corporation",
           "roles": [
             "二线弹性"
           ],
@@ -4746,7 +4746,7 @@
           "source_tickers": [
             "VRT"
           ],
-          "name": "Vertiv",
+          "name": "Vertiv Holdings",
           "roles": [
             "龙头"
           ],
@@ -4836,7 +4836,7 @@
           "source_tickers": [
             "6920.T"
           ],
-          "name": "Lasertec",
+          "name": "Lasertec Corporation",
           "roles": [
             "龙头"
           ],
@@ -4892,7 +4892,7 @@
           "source_tickers": [
             "KLAC"
           ],
-          "name": "KLA",
+          "name": "KLA Corporation",
           "roles": [
             "龙头"
           ],
@@ -5026,7 +5026,7 @@
           "source_tickers": [
             "5016.T"
           ],
-          "name": "JX Advanced Metals (JX金属)",
+          "name": "JX Metals",
           "roles": [
             "龙头"
           ],
@@ -5137,7 +5137,7 @@
           "source_tickers": [
             "036490"
           ],
-          "name": "SK Materials",
+          "name": "SK Specialty（原 SK Materials）",
           "roles": [
             "二线弹性"
           ],
@@ -5249,7 +5249,7 @@
           "source_tickers": [
             "LIN"
           ],
-          "name": "Linde",
+          "name": "Linde plc",
           "roles": [
             "龙头"
           ],
@@ -5270,7 +5270,7 @@
           "role": "国产二线"
         },
         {
-          "name": "SK Materials",
+          "name": "SK Specialty（原 SK Materials）",
           "ticker": "036490",
           "role": "二线弹性"
         },
@@ -5412,7 +5412,7 @@
           "source_tickers": [
             "MRVL"
           ],
-          "name": "Marvell",
+          "name": "Marvell Technology",
           "roles": [
             "二线弹性"
           ],
@@ -5562,7 +5562,7 @@
           "source_tickers": [
             "9660"
           ],
-          "name": "地平线",
+          "name": "地平线机器人",
           "roles": [
             "龙头"
           ],
@@ -5982,7 +5982,7 @@
           "source_tickers": [
             "603501"
           ],
-          "name": "韦尔股份",
+          "name": "豪威集团（原韦尔股份）",
           "roles": [
             "二线弹性"
           ],
@@ -6068,7 +6068,7 @@
       "n_a_share_mapping": 1,
       "a_share": [
         {
-          "name": "韦尔股份",
+          "name": "豪威集团（原韦尔股份）",
           "ticker": "603501",
           "role": "二线弹性"
         }
@@ -6092,7 +6092,7 @@
           "source_tickers": [
             "002129"
           ],
-          "name": "TCL中环",
+          "name": "中环股份",
           "roles": [
             "国产二线"
           ],
@@ -6106,7 +6106,7 @@
           "source_tickers": [
             "3436.T"
           ],
-          "name": "SUMCO",
+          "name": "SUMCO Corporation",
           "roles": [
             "龙头"
           ],
@@ -6120,7 +6120,7 @@
           "source_tickers": [
             "4063.T"
           ],
-          "name": "信越化学 (Shin-Etsu)",
+          "name": "信越化学 (Shin-Etsu Chemical)",
           "roles": [
             "龙头"
           ],
@@ -6234,7 +6234,7 @@
       "n_a_share_mapping": 5,
       "a_share": [
         {
-          "name": "TCL中环",
+          "name": "中环股份",
           "ticker": "002129",
           "role": "国产二线"
         },
@@ -6454,7 +6454,7 @@
           "source_tickers": [
             "MRVL"
           ],
-          "name": "Marvell",
+          "name": "Marvell Technology",
           "roles": [
             "二线弹性"
           ],
@@ -6502,7 +6502,7 @@
           "source_tickers": [
             "603501"
           ],
-          "name": "韦尔股份",
+          "name": "豪威集团（原韦尔股份）",
           "roles": [
             "龙头"
           ],
@@ -6574,7 +6574,7 @@
       "n_a_share_mapping": 2,
       "a_share": [
         {
-          "name": "韦尔股份",
+          "name": "豪威集团（原韦尔股份）",
           "ticker": "603501",
           "role": "龙头"
         },
@@ -6828,7 +6828,7 @@
           "source_tickers": [
             "MRVL"
           ],
-          "name": "Marvell",
+          "name": "Marvell Technology",
           "roles": [
             "龙头"
           ],
@@ -6876,7 +6876,7 @@
           "source_tickers": [
             "IFX.DE"
           ],
-          "name": "英飞凌(Infineon)",
+          "name": "Infineon Technologies",
           "roles": [
             "全球龙头"
           ],
@@ -6890,7 +6890,7 @@
           "source_tickers": [
             "NXPI"
           ],
-          "name": "恩智浦(NXP)",
+          "name": "NXP Semiconductors",
           "roles": [
             "全球龙头"
           ],
@@ -6904,7 +6904,7 @@
           "source_tickers": [
             "RNECF"
           ],
-          "name": "瑞萨电子(Renesas)",
+          "name": "瑞萨电子 (Renesas Electronics)",
           "roles": [
             "全球二线"
           ],
@@ -6918,7 +6918,7 @@
           "source_tickers": [
             "STM"
           ],
-          "name": "意法半导体(ST)",
+          "name": "意法半导体 (STMicroelectronics)",
           "roles": [
             "全球二线"
           ],
@@ -6932,7 +6932,7 @@
           "source_tickers": [
             "TXN"
           ],
-          "name": "德州仪器(TI)",
+          "name": "Texas Instruments",
           "roles": [
             "全球二线"
           ],
@@ -7008,7 +7008,7 @@
           "source_tickers": [
             "STM"
           ],
-          "name": "意法半导体",
+          "name": "意法半导体 (STMicroelectronics)",
           "roles": [
             "汽车传感龙头"
           ],
@@ -7296,7 +7296,7 @@
           "source_tickers": [
             "MRK.DE"
           ],
-          "name": "Merck KGaA (Versum)",
+          "name": "Merck KGaA (EMD Electronics)",
           "roles": [
             "龙头"
           ],
@@ -7388,7 +7388,7 @@
           "source_tickers": [
             "IFX.DE"
           ],
-          "name": "英飞凌(Infineon)",
+          "name": "Infineon Technologies",
           "roles": [
             "全球龙头"
           ],
@@ -7402,7 +7402,7 @@
           "source_tickers": [
             "ON"
           ],
-          "name": "安森美(onsemi)",
+          "name": "ON Semiconductor (onsemi)",
           "roles": [
             "全球二线"
           ],
@@ -7416,7 +7416,7 @@
           "source_tickers": [
             "STM"
           ],
-          "name": "意法半导体(ST)",
+          "name": "意法半导体 (STMicroelectronics)",
           "roles": [
             "全球二线"
           ],
@@ -7600,7 +7600,7 @@
           "source_tickers": [
             "2408"
           ],
-          "name": "Nanya Technology (南亚科)",
+          "name": "Nanya Technology (南亚科技)",
           "roles": [
             "二线弹性"
           ],
@@ -7732,7 +7732,7 @@
           "source_tickers": [
             "3711.TW"
           ],
-          "name": "日月光投控(ASE)",
+          "name": "日月光 (ASE Group)",
           "roles": [
             "全球龙头"
           ],
@@ -7746,7 +7746,7 @@
           "source_tickers": [
             "600584"
           ],
-          "name": "长电科技(JCET)",
+          "name": "长电科技",
           "roles": [
             "国产龙头"
           ],
@@ -7774,7 +7774,7 @@
           "source_tickers": [
             "AMKR"
           ],
-          "name": "安靠科技(Amkor)",
+          "name": "Amkor Technology",
           "roles": [
             "全球二线"
           ],
@@ -7795,7 +7795,7 @@
           "role": "国产二线"
         },
         {
-          "name": "长电科技(JCET)",
+          "name": "长电科技",
           "ticker": "600584",
           "role": "国产龙头"
         },
@@ -7838,7 +7838,7 @@
           "source_tickers": [
             "6146.T"
           ],
-          "name": "Disco",
+          "name": "Disco Corporation",
           "roles": [
             "划片机龙头"
           ],
@@ -7852,7 +7852,7 @@
           "source_tickers": [
             "BESI.AS"
           ],
-          "name": "Besi",
+          "name": "BE Semiconductor Industries (Besi)",
           "roles": [
             "贴片/混合键合龙头"
           ],
@@ -7866,7 +7866,7 @@
           "source_tickers": [
             "KLIC"
           ],
-          "name": "Kulicke & Soffa",
+          "name": "Kulicke & Soffa (K&S)",
           "roles": [
             "引线键合龙头"
           ],
@@ -7942,7 +7942,7 @@
           "source_tickers": [
             "SWKS"
           ],
-          "name": "Skyworks",
+          "name": "Skyworks Solutions",
           "roles": [
             "全球龙头"
           ],
@@ -7982,7 +7982,7 @@
           "source_tickers": [
             "1347.HK"
           ],
-          "name": "华虹半导体",
+          "name": "华虹半导体 (Hua Hong Semiconductor)",
           "roles": [
             "国内二线"
           ],
@@ -8010,7 +8010,7 @@
           "source_tickers": [
             "GFS"
           ],
-          "name": "格芯",
+          "name": "GlobalFoundries",
           "roles": [
             "全球二线"
           ],
@@ -8024,7 +8024,7 @@
           "source_tickers": [
             "TSM"
           ],
-          "name": "台积电",
+          "name": "TSMC(台积电)",
           "roles": [
             "全球龙头"
           ],
@@ -8038,7 +8038,7 @@
           "source_tickers": [
             "UMC"
           ],
-          "name": "联电",
+          "name": "UMC(联电)",
           "roles": [
             "全球二线"
           ],
@@ -8412,7 +8412,7 @@
           "source_tickers": [
             "6146.T"
           ],
-          "name": "Disco",
+          "name": "Disco Corporation",
           "roles": [
             "龙头"
           ],
@@ -8440,7 +8440,7 @@
           "source_tickers": [
             "7735.T"
           ],
-          "name": "SCREEN Holdings",
+          "name": "SCREEN Semiconductor",
           "roles": [
             "龙头"
           ],
@@ -8468,7 +8468,7 @@
           "source_tickers": [
             "ACMR"
           ],
-          "name": "盛美半导体",
+          "name": "ACM Research (盛美半导体)",
           "roles": [
             "二线弹性"
           ],
@@ -8556,7 +8556,7 @@
   "companies": {
     "-": {
       "ticker": "-",
-      "name": "上海微电子(SMEE)",
+      "name": "SMEE(上海微电子)",
       "market_guess": "UNKNOWN",
       "tradable": true,
       "segments": [
@@ -8638,7 +8638,7 @@
     },
     "002129": {
       "ticker": "002129",
-      "name": "TCL中环",
+      "name": "中环股份",
       "market_guess": "CN",
       "tradable": true,
       "segments": [
@@ -8799,7 +8799,7 @@
     },
     "02513.HK": {
       "ticker": "02513.HK",
-      "name": "智谱",
+      "name": "智谱AI",
       "market_guess": "HK",
       "tradable": true,
       "segments": [
@@ -8808,7 +8808,7 @@
     },
     "036490": {
       "ticker": "036490",
-      "name": "SK Materials",
+      "name": "SK Specialty（原 SK Materials）",
       "market_guess": "CN",
       "tradable": true,
       "segments": [
@@ -8863,7 +8863,7 @@
     },
     "1347.HK": {
       "ticker": "1347.HK",
-      "name": "华虹半导体",
+      "name": "华虹半导体 (Hua Hong Semiconductor)",
       "market_guess": "HK",
       "tradable": true,
       "segments": [
@@ -8881,7 +8881,7 @@
     },
     "2308.TW": {
       "ticker": "2308.TW",
-      "name": "Delta Electronics",
+      "name": "Delta Electronics (台达电子)",
       "market_guess": "TW",
       "tradable": true,
       "segments": [
@@ -8927,7 +8927,7 @@
     },
     "2408.TW": {
       "ticker": "2408.TW",
-      "name": "Nanya(南亚科)",
+      "name": "Nanya Technology (南亚科技)",
       "market_guess": "TW",
       "tradable": true,
       "segments": [
@@ -9192,7 +9192,7 @@
     },
     "3436.T": {
       "ticker": "3436.T",
-      "name": "SUMCO",
+      "name": "SUMCO Corporation",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9201,7 +9201,7 @@
     },
     "3711.TW": {
       "ticker": "3711.TW",
-      "name": "日月光 (ASE)",
+      "name": "日月光 (ASE Group)",
       "market_guess": "TW",
       "tradable": true,
       "segments": [
@@ -9238,7 +9238,7 @@
     },
     "4063.T": {
       "ticker": "4063.T",
-      "name": "Shin-Etsu Chemical (信越化学)",
+      "name": "信越化学 (Shin-Etsu Chemical)",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9257,7 +9257,7 @@
     },
     "4185.T": {
       "ticker": "4185.T",
-      "name": "JSR",
+      "name": "JSR Corporation",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9275,7 +9275,7 @@
     },
     "4901.T": {
       "ticker": "4901.T",
-      "name": "Fujifilm Electronic Materials",
+      "name": "Fujifilm",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9284,7 +9284,7 @@
     },
     "5016.T": {
       "ticker": "5016.T",
-      "name": "JX Advanced Metals (JX金属)",
+      "name": "JX Metals",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9387,7 +9387,7 @@
     },
     "603501": {
       "ticker": "603501",
-      "name": "韦尔股份",
+      "name": "豪威集团（原韦尔股份）",
       "market_guess": "CN",
       "tradable": true,
       "segments": [
@@ -9406,7 +9406,7 @@
     },
     "603986": {
       "ticker": "603986",
-      "name": "兆易创新",
+      "name": "兆易创新 (GigaDevice)",
       "market_guess": "CN",
       "tradable": true,
       "segments": [
@@ -9424,7 +9424,7 @@
     },
     "6146.T": {
       "ticker": "6146.T",
-      "name": "Disco",
+      "name": "Disco Corporation",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9434,7 +9434,7 @@
     },
     "6239.TW": {
       "ticker": "6239.TW",
-      "name": "力成科技",
+      "name": "力成科技 (Powertech Technology)",
       "market_guess": "TW",
       "tradable": true,
       "segments": [
@@ -9809,7 +9809,7 @@
     },
     "6920.T": {
       "ticker": "6920.T",
-      "name": "Lasertec",
+      "name": "Lasertec Corporation",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9836,7 +9836,7 @@
     },
     "7731.T": {
       "ticker": "7731.T",
-      "name": "尼康(Nikon)",
+      "name": "Nikon",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9855,7 +9855,7 @@
     },
     "7751.T": {
       "ticker": "7751.T",
-      "name": "佳能(Canon)",
+      "name": "Canon",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9922,7 +9922,7 @@
     },
     "9660.T": {
       "ticker": "9660.T",
-      "name": "地平线",
+      "name": "地平线机器人",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9979,7 +9979,7 @@
     },
     "ACMR": {
       "ticker": "ACMR",
-      "name": "盛美半导体",
+      "name": "ACM Research (盛美半导体)",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10113,7 +10113,7 @@
     },
     "ARM": {
       "ticker": "ARM",
-      "name": "ARM Holdings",
+      "name": "Arm Holdings",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10188,7 +10188,7 @@
     },
     "BESI.AS": {
       "ticker": "BESI.AS",
-      "name": "Besi",
+      "name": "BE Semiconductor Industries (Besi)",
       "market_guess": "NL",
       "tradable": true,
       "segments": [
@@ -10243,7 +10243,7 @@
     },
     "CBRS": {
       "ticker": "CBRS",
-      "name": "Cerebras",
+      "name": "Cerebras Systems",
       "market_guess": "PRIVATE",
       "tradable": false,
       "segments": [
@@ -10270,7 +10270,7 @@
     },
     "CDNS": {
       "ticker": "CDNS",
-      "name": "Cadence",
+      "name": "Cadence Design Systems",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10288,7 +10288,7 @@
     },
     "COHR": {
       "ticker": "COHR",
-      "name": "Coherent",
+      "name": "Coherent Corp.",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10466,7 +10466,7 @@
     },
     "ETN": {
       "ticker": "ETN",
-      "name": "Eaton",
+      "name": "Eaton Corporation",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10511,7 +10511,7 @@
     },
     "GFS": {
       "ticker": "GFS",
-      "name": "格芯",
+      "name": "GlobalFoundries",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10651,7 +10651,7 @@
     },
     "IFX.DE": {
       "ticker": "IFX.DE",
-      "name": "英飞凌(Infineon)",
+      "name": "Infineon Technologies",
       "market_guess": "DE",
       "tradable": true,
       "segments": [
@@ -10725,7 +10725,7 @@
     },
     "KLAC": {
       "ticker": "KLAC",
-      "name": "KLA",
+      "name": "KLA Corporation",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10734,7 +10734,7 @@
     },
     "KLIC": {
       "ticker": "KLIC",
-      "name": "Kulicke & Soffa",
+      "name": "Kulicke & Soffa (K&S)",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10761,7 +10761,7 @@
     },
     "LIN": {
       "ticker": "LIN",
-      "name": "Linde",
+      "name": "Linde plc",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10875,7 +10875,7 @@
     },
     "MRK.DE": {
       "ticker": "MRK.DE",
-      "name": "Merck KGaA (Versum)",
+      "name": "Merck KGaA (EMD Electronics)",
       "market_guess": "DE",
       "tradable": true,
       "segments": [
@@ -10884,7 +10884,7 @@
     },
     "MRVL": {
       "ticker": "MRVL",
-      "name": "Marvell",
+      "name": "Marvell Technology",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10930,7 +10930,7 @@
     },
     "MTSI": {
       "ticker": "MTSI",
-      "name": "Macom",
+      "name": "MACOM Technology Solutions",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -11030,7 +11030,7 @@
     },
     "NXPI": {
       "ticker": "NXPI",
-      "name": "恩智浦(NXP)",
+      "name": "NXP Semiconductors",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -11039,7 +11039,7 @@
     },
     "ON": {
       "ticker": "ON",
-      "name": "安森美(onsemi)",
+      "name": "ON Semiconductor (onsemi)",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -11189,7 +11189,7 @@
     },
     "RNECF": {
       "ticker": "RNECF",
-      "name": "瑞萨电子(Renesas)",
+      "name": "瑞萨电子 (Renesas Electronics)",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -11335,7 +11335,7 @@
     },
     "STM": {
       "ticker": "STM",
-      "name": "意法半导体(ST)",
+      "name": "意法半导体 (STMicroelectronics)",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -11373,7 +11373,7 @@
     },
     "SWKS": {
       "ticker": "SWKS",
-      "name": "Skyworks",
+      "name": "Skyworks Solutions",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -11454,7 +11454,7 @@
     },
     "TXN": {
       "ticker": "TXN",
-      "name": "德州仪器(TI)",
+      "name": "Texas Instruments",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -11464,7 +11464,7 @@
     },
     "UMC": {
       "ticker": "UMC",
-      "name": "联电",
+      "name": "UMC(联电)",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -11482,7 +11482,7 @@
     },
     "VRT": {
       "ticker": "VRT",
-      "name": "Vertiv",
+      "name": "Vertiv Holdings",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -11583,12 +11583,12 @@
       ]
     }
   },
-  "version": "2026-09-13.4",
+  "version": "2026-09-13.5",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-13T17:12:17+08:00",
-  "source_generated_at": "2026-09-13T17:12:17+08:00",
-  "source_sha256": "1e5219bf6220990d0d63b812ddbc7c7d03dd2df87b5fb1f8b0da2a06549315e4",
-  "source_hash8": "1e5219bf",
-  "source_commit": "0ad031acbc910e6a19724982a517d4bc385eb018",
+  "built_at": "2026-09-13T17:20:19+08:00",
+  "source_generated_at": "2026-09-13T17:20:19+08:00",
+  "source_sha256": "2c7de123e540daf5e20bbb497709a23737eb0c9de5ceff131583c9fdf2e52dc4",
+  "source_hash8": "2c7de123",
+  "source_commit": "15424d20f20f4bafc2636fd08538a1776ae63041",
   "source_dirty": false
 }

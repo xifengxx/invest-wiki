@@ -91,7 +91,7 @@ companies:
   role: 概念股
   rev: 10
 - ticker: MRVL
-  name: Marvell
+  name: Marvell Technology
   role: 二线弹性
   rev: 30
 - ticker: IBM

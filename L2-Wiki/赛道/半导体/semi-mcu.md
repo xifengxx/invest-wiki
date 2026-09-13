@@ -76,23 +76,23 @@ key_customers:
 - 封装测试(OSAT)
 companies:
 - ticker: NXPI
-  name: 恩智浦(NXP)
+  name: NXP Semiconductors
   role: 全球龙头
   rev: 45
 - ticker: STM
-  name: 意法半导体(ST)
+  name: 意法半导体 (STMicroelectronics)
   role: 全球二线
   rev: 30
 - ticker: RNECF
-  name: 瑞萨电子(Renesas)
+  name: 瑞萨电子 (Renesas Electronics)
   role: 全球二线
   rev: 35
 - ticker: IFX.DE
-  name: 英飞凌(Infineon)
+  name: Infineon Technologies
   role: 全球龙头
   rev: 40
 - ticker: TXN
-  name: 德州仪器(TI)
+  name: Texas Instruments
   role: 全球二线
   rev: 20
 sources:

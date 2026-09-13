@@ -90,11 +90,11 @@ wikilinks:
 - 溅射靶材
 companies:
 - ticker: 4063.T
-  name: 信越化学 (Shin-Etsu)
+  name: 信越化学 (Shin-Etsu Chemical)
   role: 龙头
   rev: 30
 - ticker: 3436.T
-  name: SUMCO
+  name: SUMCO Corporation
   role: 龙头
   rev: 90
 - ticker: WAF.DE
@@ -118,7 +118,7 @@ companies:
   role: 国产龙头
   rev: 50
 - ticker: '002129'
-  name: TCL中环
+  name: 中环股份
   role: 国产二线
   rev: 20
 - ticker: '688432'

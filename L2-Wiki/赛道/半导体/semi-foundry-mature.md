@@ -104,19 +104,19 @@ companies:
   role: 国内龙头
   rev: 70
 - ticker: 1347.HK
-  name: 华虹半导体
+  name: 华虹半导体 (Hua Hong Semiconductor)
   role: 国内二线
   rev: 60
 - ticker: TSM
-  name: 台积电
+  name: TSMC(台积电)
   role: 全球龙头
   rev: 20
 - ticker: UMC
-  name: 联电
+  name: UMC(联电)
   role: 全球二线
   rev: 50
 - ticker: GFS
-  name: 格芯
+  name: GlobalFoundries
   role: 全球二线
   rev: 45
 sources:

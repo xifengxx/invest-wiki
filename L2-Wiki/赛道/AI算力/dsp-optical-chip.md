@@ -70,11 +70,11 @@ companies:
   role: 二线弹性
   rev: 15
 - ticker: MRVL
-  name: Marvell
+  name: Marvell Technology
   role: 龙头
   rev: 25
 - ticker: COHR
-  name: Coherent
+  name: Coherent Corp.
   role: 龙头
   rev: 15
 - ticker: LITE
@@ -86,7 +86,7 @@ companies:
   role: 二线弹性
   rev: 70
 - ticker: MTSI
-  name: Macom
+  name: MACOM Technology Solutions
   role: 二线弹性
   rev: 20
 - ticker: SMTC

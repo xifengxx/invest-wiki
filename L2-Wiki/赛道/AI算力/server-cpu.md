@@ -81,7 +81,7 @@ companies:
   role: 二线弹性
   rev: 5
 - ticker: ARM
-  name: ARM Holdings
+  name: Arm Holdings
   role: 生态主导
   rev: 10
 - ticker: '688047'

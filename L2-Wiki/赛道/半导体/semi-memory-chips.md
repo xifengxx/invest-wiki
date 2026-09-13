@@ -103,7 +103,7 @@ companies:
   role: 二线弹性
   rev: 70
 - ticker: '2408'
-  name: Nanya Technology (南亚科)
+  name: Nanya Technology (南亚科技)
   role: 二线弹性
   rev: 80
 wikilinks:

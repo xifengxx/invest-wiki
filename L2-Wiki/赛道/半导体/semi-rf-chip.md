@@ -71,7 +71,7 @@ key_customers:
 - 自动驾驶
 companies:
 - ticker: SWKS
-  name: Skyworks
+  name: Skyworks Solutions
   role: 全球龙头
   rev: 50
 - ticker: QRVO

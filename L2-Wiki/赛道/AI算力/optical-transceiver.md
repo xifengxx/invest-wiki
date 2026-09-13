@@ -79,7 +79,7 @@ key_customers:
 - GPU
 companies:
 - ticker: COHR
-  name: Coherent
+  name: Coherent Corp.
   role: 龙头
   rev: 35
 - ticker: '300308'

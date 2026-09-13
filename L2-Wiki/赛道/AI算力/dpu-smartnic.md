@@ -48,7 +48,7 @@ key_inputs:
 - FPGA
 companies:
 - ticker: MRVL
-  name: Marvell
+  name: Marvell Technology
   role: 龙头
   rev: 10
 - ticker: NVDA

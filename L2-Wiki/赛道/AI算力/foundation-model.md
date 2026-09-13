@@ -97,15 +97,15 @@ companies:
   role: 用户规模第一
   rev: 55
 - ticker: GOOGL
-  name: Google(Gemini)
+  name: Google(Alphabet)
   role: 云+模型协同
   rev: 55
 - ticker: META
-  name: Meta(Llama)
+  name: Meta
   role: 开源路线
   rev: 45
 - ticker: 02513.HK
-  name: 智谱
+  name: 智谱AI
   role: 国产第一股
   rev: 50
 - ticker: 00100.HK
@@ -113,11 +113,11 @@ companies:
   role: 国产上市
   rev: 45
 - ticker: 未上市
-  name: 月之暗面(Kimi)
+  name: 月之暗面
   role: 国产高增长
   rev: 45
 - ticker: 未上市
-  name: 字节跳动(豆包)
+  name: 字节跳动
   role: 中国第一
   rev: 50
 sources:

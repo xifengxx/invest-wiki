@@ -58,7 +58,7 @@ price_conduction:
 - 部分对冲
 companies:
 - ticker: MRK.DE
-  name: Merck KGaA (Versum)
+  name: Merck KGaA (EMD Electronics)
   role: 龙头
   rev: 15
 - ticker: '300346'

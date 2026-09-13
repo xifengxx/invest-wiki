@@ -73,7 +73,7 @@ companies:
   role: 全球龙头
   rev: 55
 - ticker: STM
-  name: 意法半导体
+  name: 意法半导体 (STMicroelectronics)
   role: 汽车传感龙头
   rev: 50
 - ticker: AVGO

@@ -69,7 +69,7 @@ key_customers:
 - 存储芯片(DRAM/NAND)
 companies:
 - ticker: BESI.AS
-  name: Besi
+  name: BE Semiconductor Industries (Besi)
   role: 贴片/混合键合龙头
   rev: 55
 - ticker: 0522.HK
@@ -77,11 +77,11 @@ companies:
   role: TCB龙头
   rev: 50
 - ticker: KLIC
-  name: Kulicke & Soffa
+  name: Kulicke & Soffa (K&S)
   role: 引线键合龙头
   rev: 45
 - ticker: '6146.T'
-  name: Disco
+  name: Disco Corporation
   role: 划片机龙头
   rev: 60
 sources:

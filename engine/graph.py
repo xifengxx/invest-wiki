@@ -41,11 +41,17 @@ class GraphBuilder:
         } for s in segments]
 
     def build_graph(self) -> Dict:
-        """构建力导向关系图"""
+        """构建力导向关系图
+
+        注意：必须**两遍扫描**——先收齐全部节点，再建边。
+        单遍扫描时 `link_text in node_set` 只在目标节点"已被先加入"时成立，
+        导致边依赖实体遍历顺序、大量合法 wikilink 被静默丢弃。
+        （2026-09-13 修复）
+        """
         nodes = []
-        edges = []
         node_set = set()
 
+        # 第一遍：收齐全部节点
         for entity in self.parser.entities.values():
             if entity.name not in node_set:
                 node_set.add(entity.name)
@@ -55,9 +61,36 @@ class GraphBuilder:
                     'itemStyle': {'color': TYPE_COLORS.get(entity.entity_type, '#86868B')},
                 })
 
+        # 第二遍：建边（节点集已完整，不再依赖遍历顺序）
+        edges = []
+        seen = set()
+        for entity in self.parser.entities.values():
             for link_text in entity.wikilinks:
-                if link_text in node_set:
-                    edges.append({'source': entity.name, 'target': link_text})
+                if link_text == entity.name:      # 去自环
+                    continue
+                if link_text not in node_set:     # 去悬空引用
+                    continue
+                key = (entity.name, link_text)
+                if key in seen:                   # 去重边
+                    continue
+                seen.add(key)
+                edges.append({'source': entity.name, 'target': link_text})
+
+        # 第三遍：赛道 → 公司边
+        # 赛道页用纯文本列"核心标的"（companies 字段）而非 wikilink，
+        # 若不合成则 373 个公司节点在图谱中完全孤立。（2026-09-13 新增）
+        for entity in self.parser.entities.values():
+            if entity.entity_type != 'segment':
+                continue
+            for c in (entity.frontmatter.get('companies') or []):
+                cname = c.get('name') if isinstance(c, dict) else str(c)
+                if not cname or cname not in node_set:
+                    continue          # 公司页缺失的引用跳过（不造悬空节点）
+                key = (entity.name, cname)
+                if key in seen:
+                    continue
+                seen.add(key)
+                edges.append({'source': entity.name, 'target': cname})
 
         return {'nodes': nodes, 'edges': edges}
 

@@ -86,7 +86,7 @@ companies:
   role: 概念股
   rev: 5
 - ticker: MRVL
-  name: Marvell
+  name: Marvell Technology
   role: 龙头
   rev: 40
 - ticker: 3034.TW

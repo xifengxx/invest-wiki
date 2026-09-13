@@ -87,7 +87,7 @@ companies:
   role: 二线弹性
   rev: 95
 - ticker: CDNS
-  name: Cadence
+  name: Cadence Design Systems
   role: 龙头
   rev: 85
 - ticker: SNPS

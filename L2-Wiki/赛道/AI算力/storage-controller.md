@@ -77,7 +77,7 @@ companies:
   role: 二线弹性
   rev: 60
 - ticker: 005930
-  name: 三星电子
+  name: Samsung
   role: 龙头
   rev: 40
 - ticker: 285A

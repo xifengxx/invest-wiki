@@ -64,7 +64,7 @@ key_customers:
 - AI服务器
 companies:
 - ticker: VRT
-  name: Vertiv
+  name: Vertiv Holdings
   role: 龙头
   rev: 30
 - ticker: 002837

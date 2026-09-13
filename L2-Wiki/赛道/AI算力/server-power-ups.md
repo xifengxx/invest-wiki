@@ -80,7 +80,7 @@ key_customers:
 - GPU
 companies:
 - ticker: VRT
-  name: Vertiv
+  name: Vertiv Holdings
   role: 龙头
   rev: 40
 - ticker: SU
@@ -88,7 +88,7 @@ companies:
   role: 龙头
   rev: 20
 - ticker: ETN
-  name: Eaton
+  name: Eaton Corporation
   role: 二线弹性
   rev: 18
 - ticker: ABBN
@@ -96,7 +96,7 @@ companies:
   role: 二线弹性
   rev: 15
 - ticker: '2308'
-  name: Delta Electronics
+  name: Delta Electronics (台达电子)
   role: 二线弹性
   rev: 20
 - ticker: HUAWEI-POWER

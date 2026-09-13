@@ -77,7 +77,7 @@ price_conduction:
 - 存储芯片制造成本微增
 companies:
 - ticker: LIN
-  name: Linde
+  name: Linde plc
   role: 龙头
   rev: 10
 - ticker: AI.PA
@@ -89,7 +89,7 @@ companies:
   role: 龙头
   rev: 30
 - ticker: 036490
-  name: SK Materials
+  name: SK Specialty（原 SK Materials）
   role: 二线弹性
   rev: 70
 - ticker: '4091'

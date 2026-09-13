@@ -92,7 +92,7 @@ companies:
   role: 龙头
   rev: 5
 - ticker: '3711.TW'
-  name: 日月光 (ASE)
+  name: 日月光 (ASE Group)
   role: 龙头
   rev: 25
 - ticker: AMKR
@@ -100,7 +100,7 @@ companies:
   role: 二线弹性
   rev: 30
 - ticker: '6239'
-  name: 力成科技
+  name: 力成科技 (Powertech Technology)
   role: 二线弹性
   rev: 20
 - ticker: '2449'

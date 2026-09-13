@@ -78,7 +78,7 @@ price_conduction:
 - 部分对冲进口涨价
 companies:
 - ticker: 5016.T
-  name: JX Advanced Metals (JX金属)
+  name: JX Metals
   role: 龙头
   rev: 50
 - ticker: MTRN

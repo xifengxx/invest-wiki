@@ -73,15 +73,15 @@ companies:
   role: 龙头
   rev: 25
 - ticker: 7751.T
-  name: 佳能(Canon)
+  name: Canon
   role: 全球二线
   rev: 30
 - ticker: 7731.T
-  name: 尼康(Nikon)
+  name: Nikon
   role: 全球二线
   rev: 20
 - ticker: '-'
-  name: 上海微电子(SMEE)
+  name: SMEE(上海微电子)
   role: 国产替代
   rev: 60
 wikilinks:

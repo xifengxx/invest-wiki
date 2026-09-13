@@ -57,11 +57,11 @@ price_conduction:
 - 但先进制程清洗仍依赖进口
 companies:
 - ticker: 7735.T
-  name: SCREEN Holdings
+  name: SCREEN Semiconductor
   role: 龙头
   rev: 45
 - ticker: ACMR
-  name: 盛美半导体
+  name: ACM Research (盛美半导体)
   role: 二线弹性
   rev: 60
 - ticker: 8035.T
@@ -69,7 +69,7 @@ companies:
   role: 龙头
   rev: 20
 - ticker: 6146.T
-  name: Disco
+  name: Disco Corporation
   role: 龙头
   rev: 40
 - ticker: '688037'

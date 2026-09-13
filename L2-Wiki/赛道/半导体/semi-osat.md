@@ -89,15 +89,15 @@ key_customers:
 - 存储芯片(DRAM/NAND)
 companies:
 - ticker: 3711.TW
-  name: 日月光投控(ASE)
+  name: 日月光 (ASE Group)
   role: 全球龙头
   rev: 70
 - ticker: AMKR
-  name: 安靠科技(Amkor)
+  name: Amkor Technology
   role: 全球二线
   rev: 60
 - ticker: '600584'
-  name: 长电科技(JCET)
+  name: 长电科技
   role: 国产龙头
   rev: 65
 - ticker: '002156'

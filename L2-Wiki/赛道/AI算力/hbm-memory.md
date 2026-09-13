@@ -93,7 +93,7 @@ companies:
   role: 概念股
   rev: 5
 - ticker: '2408'
-  name: Nanya(南亚科)
+  name: Nanya Technology (南亚科技)
   role: 概念股
   rev: 10
 key_inputs:

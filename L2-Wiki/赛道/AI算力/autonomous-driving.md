@@ -144,7 +144,7 @@ companies:
   role: 龙头
   rev: 15
 - ticker: '9660'
-  name: 地平线
+  name: 地平线机器人
   role: 龙头
   rev: 80
 - ticker: GOOGL
