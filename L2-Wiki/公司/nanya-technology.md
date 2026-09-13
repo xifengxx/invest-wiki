@@ -8,6 +8,7 @@ updated: 2026-08
 data_freshness_date: 2026-08-18
 segments:
 - 存储芯片(DRAM/NAND)
+- HBM高带宽内存
 one_liner: |
   全球第六大DRAM制造商和利基DRAM（DDR4/DDR3）龙头，受益于三星/SK海力士/美光将产能转向DDR5/HBM造成的成熟DRAM供应缺口，Q2 2026毛利率79.5%（超越台积电），H1 EPS NT$23.38（+643% YoY），AI服务器DRAM占>20%营收，4家战略投资者（SanDisk/Cisco/Kioxia/Solidigm）LTA锁定~50%产出，市值~NT$1.5T（~$46B）。
   【2026.8.18更新】Q2 2026营收NT$825.5亿（+68.2% QoQ / +684.2% YoY），毛利率79.5%创历史新高（营业毛利NT$656.2亿，超越台积电），税后净利NT$501.9亿（净利率60.8%，EPS NT$14.66），DRAM ASP环比+60%量平价涨，AI服务器DRAM占>20%营收，H1累计净利NT$762.5亿。

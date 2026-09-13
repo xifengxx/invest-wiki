@@ -9,6 +9,7 @@ industries:
 - AI算力
 segments:
 - 网络交换芯片
+- 网络设备（交换机）
 one_liner: "云数据中心交换机领导者，AI集群RoCE/InfiniBand网络，位于产业链L3核心产品与集成（核心参与者）"
 chain_layer: L3
 chain_role: 核心参与者

@@ -9,6 +9,7 @@ industries:
 - 半导体
 segments:
 - 存储芯片(DRAM/NAND)
+- HBM高带宽内存
 one_liner: "DRAM+NOR Flash+NAND,利基型存储#1（直接相关）"
 chain_layer: ''
 chain_role: 直接相关

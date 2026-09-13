@@ -17510,7 +17510,8 @@
         "AI算力"
       ],
       "segments": [
-        "AI服务器"
+        "AI服务器",
+        "企业级存储"
       ],
       "chain_layer": "L3",
       "chain_role": "核心参与者",
@@ -17658,7 +17659,8 @@
         "AI算力"
       ],
       "segments": [
-        "AI Agent"
+        "AI Agent",
+        "大模型"
       ],
       "chain_layer": "L4",
       "chain_role": "龙头",
@@ -17703,7 +17705,9 @@
       "segments": [
         "功率半导体",
         "模拟芯片",
-        "MEMS传感器"
+        "MEMS传感器",
+        "MCU与嵌入式处理器",
+        "安全芯片"
       ],
       "chain_layer": "L3",
       "chain_role": "龙头",
@@ -17848,6 +17852,9 @@
       "segments": [
         "AI芯片设计(Fabless)",
         "ASIC/AI定制芯片",
+        "网络交换芯片",
+        "IC设计服务(Fabless)",
+        "边缘AI",
         "网络交换芯片"
       ],
       "chain_layer": "L3",
@@ -18220,7 +18227,8 @@
         "AI算力"
       ],
       "segments": [
-        "先进封装CoWoS"
+        "先进封装CoWoS",
+        "Chiplet与异构集成"
       ],
       "chain_layer": "L2",
       "chain_role": "核心参与者",
@@ -19372,7 +19380,8 @@
       "segments": [
         "AI开发者工具",
         "AI推理API服务",
-        "AI Agent"
+        "AI Agent",
+        "大模型"
       ],
       "chain_layer": "L4",
       "chain_role": "龙头",
@@ -21700,7 +21709,8 @@
         "半导体"
       ],
       "segments": [
-        "前驱体与ALD/CVD材料"
+        "前驱体与ALD/CVD材料",
+        "光刻胶与湿化学品"
       ],
       "chain_layer": "L1",
       "chain_role": "龙头",
@@ -21787,7 +21797,8 @@
         "MCU与嵌入式处理器",
         "功率半导体",
         "自动驾驶",
-        "网络交换芯片"
+        "网络交换芯片",
+        "安全芯片"
       ],
       "chain_layer": "L3",
       "chain_role": "龙头",
@@ -22156,7 +22167,8 @@
       ],
       "segments": [
         "网络交换芯片",
-        "AI服务器"
+        "AI服务器",
+        "网络设备（交换机）"
       ],
       "chain_layer": "L2",
       "chain_role": "龙头",
@@ -22637,7 +22649,8 @@
       "segments": [
         "ASIC/AI定制芯片",
         "AI芯片设计(Fabless)",
-        "边缘AI"
+        "边缘AI",
+        "CPU(服务器级)"
       ],
       "chain_layer": "L3",
       "chain_role": "龙头",
@@ -23026,7 +23039,8 @@
       "segments": [
         "AI推理API服务",
         "AI Agent",
-        "AI模型训练平台"
+        "AI模型训练平台",
+        "大模型"
       ],
       "chain_layer": "L4",
       "chain_role": "龙头",
@@ -23168,7 +23182,8 @@
         "半导体"
       ],
       "segments": [
-        "测试设备"
+        "测试设备",
+        "检测量测设备"
       ],
       "chain_layer": "L2",
       "chain_role": "龙头",
@@ -23274,7 +23289,8 @@
       ],
       "segments": [
         "数据中心IDC",
-        "功率半导体"
+        "功率半导体",
+        "服务器电源与UPS"
       ],
       "chain_layer": "L2",
       "chain_role": "龙头",
@@ -23575,7 +23591,8 @@
         "DPU/SmartNIC",
         "FPGA",
         "GPU制造代工",
-        "GPU架构设计"
+        "GPU架构设计",
+        "GPU"
       ],
       "chain_layer": "L3",
       "chain_role": "龙头",
@@ -23976,7 +23993,8 @@
       "segments": [
         "HBM高带宽内存",
         "存储芯片(DRAM/NAND)",
-        "晶圆代工(先进制程)"
+        "晶圆代工(先进制程)",
+        "NVMe/存储芯片"
       ],
       "chain_layer": "L2",
       "chain_role": "龙头",
@@ -25782,7 +25800,8 @@
         "AI开发者工具",
         "AI推理API服务",
         "AI模型训练平台",
-        "AI训练集群/超算"
+        "AI训练集群/超算",
+        "大模型"
       ],
       "chain_layer": "L4",
       "chain_role": "龙头",
@@ -27252,7 +27271,8 @@
       "segments": [
         "前驱体与ALD/CVD材料",
         "光刻胶与湿化学品",
-        "电子特气"
+        "电子特气",
+        "覆铜板与高频材料"
       ],
       "chain_layer": "L1",
       "chain_role": "核心参与者",
@@ -27423,7 +27443,8 @@
         "AI训练集群/超算",
         "ASIC/AI定制芯片",
         "云计算IaaS",
-        "边缘AI"
+        "边缘AI",
+        "大模型"
       ],
       "chain_layer": "L4",
       "chain_role": "龙头",
@@ -28230,7 +28251,9 @@
         "AI开发者工具",
         "AI推理API服务",
         "ASIC/AI定制芯片",
-        "云计算IaaS"
+        "云计算IaaS",
+        "AI服务器",
+        "RISC-V AI芯片"
       ],
       "chain_layer": "L4",
       "chain_role": "龙头",
@@ -28465,7 +28488,8 @@
       "segments": [
         "功率半导体",
         "模拟芯片",
-        "模拟芯片"
+        "模拟芯片",
+        "MCU与嵌入式处理器"
       ],
       "chain_layer": "L3",
       "chain_role": "龙头",
@@ -28613,7 +28637,8 @@
         "半导体"
       ],
       "segments": [
-        "检测量测设备"
+        "检测量测设备",
+        "测试设备"
       ],
       "chain_layer": "L2",
       "chain_role": "龙头",
@@ -28748,7 +28773,8 @@
         "半导体"
       ],
       "segments": [
-        "存储芯片(DRAM/NAND)"
+        "存储芯片(DRAM/NAND)",
+        "HBM高带宽内存"
       ],
       "chain_layer": "",
       "chain_role": "直接相关",
@@ -29249,7 +29275,8 @@
         "AI算力"
       ],
       "segments": [
-        "先进封装CoWoS"
+        "先进封装CoWoS",
+        "封装测试(OSAT)"
       ],
       "chain_layer": "L2",
       "chain_role": "直接相关",
@@ -29631,7 +29658,8 @@
         "半导体"
       ],
       "segments": [
-        "模拟芯片"
+        "模拟芯片",
+        "射频芯片"
       ],
       "chain_layer": "L3",
       "chain_role": "核心参与者",
@@ -30728,7 +30756,8 @@
         "半导体"
       ],
       "segments": [
-        "存储芯片(DRAM/NAND)"
+        "存储芯片(DRAM/NAND)",
+        "HBM高带宽内存"
       ],
       "chain_layer": "L3",
       "chain_role": "核心参与者",
@@ -31009,7 +31038,8 @@
       ],
       "segments": [
         "AI推理API服务",
-        "自动驾驶"
+        "自动驾驶",
+        "数据中心IDC"
       ],
       "chain_layer": "L4",
       "chain_role": "龙头",
@@ -32429,7 +32459,8 @@
         "半导体"
       ],
       "segments": [
-        "FPGA"
+        "FPGA",
+        "安全芯片"
       ],
       "chain_layer": "L3",
       "chain_role": "核心参与者",
@@ -32627,7 +32658,8 @@
         "GPU制造代工",
         "先进封装(CoWoS/3D)",
         "先进封装CoWoS",
-        "晶圆代工(先进制程)"
+        "晶圆代工(先进制程)",
+        "成熟制程代工"
       ],
       "chain_layer": "L2",
       "chain_role": "龙头",
@@ -33706,7 +33738,8 @@
       ],
       "segments": [
         "AI服务器",
-        "散热液冷系统"
+        "散热液冷系统",
+        "企业级存储"
       ],
       "chain_layer": "L3",
       "chain_role": "龙头",
@@ -35474,7 +35507,8 @@
         "半导体"
       ],
       "segments": [
-        "前驱体与ALD/CVD材料"
+        "前驱体与ALD/CVD材料",
+        "光刻胶与湿化学品"
       ],
       "chain_layer": "L1",
       "chain_role": "龙头",
@@ -37451,7 +37485,8 @@
         "AI算力"
       ],
       "segments": [
-        "AI Agent"
+        "AI Agent",
+        "大模型"
       ],
       "chain_layer": "L4",
       "chain_role": "核心参与者",
@@ -37548,7 +37583,9 @@
         "数据中心IDC",
         "网络交换芯片",
         "自动驾驶",
-        "边缘AI"
+        "边缘AI",
+        "GPU",
+        "网络设备（交换机）"
       ],
       "chain_layer": "L3",
       "chain_role": "龙头",
@@ -37829,7 +37866,9 @@
         "DSP与光芯片",
         "IC设计服务(Fabless)",
         "网络交换芯片",
-        "高速连接器与铜缆"
+        "高速连接器与铜缆",
+        "MEMS传感器",
+        "射频芯片"
       ],
       "chain_layer": "L3",
       "chain_role": "龙头",
@@ -38500,7 +38539,8 @@
       ],
       "segments": [
         "光刻机",
-        "涂胶显影设备(Track)"
+        "涂胶显影设备(Track)",
+        "清洗设备"
       ],
       "chain_layer": "L2",
       "chain_role": "龙头",
@@ -38581,7 +38621,8 @@
         "半导体"
       ],
       "segments": [
-        "检测量测设备"
+        "检测量测设备",
+        "测试设备"
       ],
       "chain_layer": "L2",
       "chain_role": "龙头",
@@ -39043,7 +39084,8 @@
         "先进封装(CoWoS/3D)",
         "晶圆代工(先进制程)",
         "网络交换芯片",
-        "边缘AI"
+        "边缘AI",
+        "GPU"
       ],
       "chain_layer": "L3",
       "chain_role": "龙头",
@@ -39182,7 +39224,8 @@
         "半导体"
       ],
       "segments": [
-        "存储芯片(DRAM/NAND)"
+        "存储芯片(DRAM/NAND)",
+        "NVMe/存储芯片"
       ],
       "chain_layer": "",
       "chain_role": "直接相关",
@@ -39256,7 +39299,8 @@
         "AI算力"
       ],
       "segments": [
-        "PCB与IC载板"
+        "PCB与IC载板",
+        "封装基板材料"
       ],
       "chain_layer": "",
       "chain_role": "直接相关",
@@ -39827,7 +39871,8 @@
         "半导体"
       ],
       "segments": [
-        "模拟芯片"
+        "模拟芯片",
+        "射频芯片"
       ],
       "chain_layer": "L4",
       "chain_role": "核心参与者",
@@ -39871,7 +39916,9 @@
       ],
       "segments": [
         "先进封装(CoWoS/3D)",
-        "封装测试(OSAT)"
+        "封装测试(OSAT)",
+        "Chiplet与异构集成",
+        "先进封装CoWoS"
       ],
       "chain_layer": "L3",
       "chain_role": "龙头",
@@ -40080,7 +40127,8 @@
         "半导体"
       ],
       "segments": [
-        "存储芯片(DRAM/NAND)"
+        "存储芯片(DRAM/NAND)",
+        "HBM高带宽内存"
       ],
       "chain_layer": "",
       "chain_role": "直接相关",
@@ -40204,7 +40252,8 @@
       ],
       "segments": [
         "高纯硅料与硅片",
-        "前驱体与ALD/CVD材料"
+        "前驱体与ALD/CVD材料",
+        "光刻胶与湿化学品"
       ],
       "chain_layer": "L1",
       "chain_role": "龙头",
@@ -40619,7 +40668,8 @@
         "半导体"
       ],
       "segments": [
-        "封装测试(OSAT)"
+        "封装测试(OSAT)",
+        "先进封装CoWoS"
       ],
       "chain_layer": "L2",
       "chain_role": "核心参与者",
@@ -41021,7 +41071,8 @@
         "AI训练集群/超算",
         "自动驾驶",
         "边缘AI",
-        "数据中心IDC"
+        "数据中心IDC",
+        "AI Agent"
       ],
       "chain_layer": "L4",
       "chain_role": "龙头",
@@ -41189,7 +41240,9 @@
       ],
       "segments": [
         "先进封装(CoWoS/3D)",
-        "封装测试(OSAT)"
+        "封装测试(OSAT)",
+        "Chiplet与异构集成",
+        "先进封装CoWoS"
       ],
       "chain_layer": "L3",
       "chain_role": "核心参与者",
@@ -43360,7 +43413,8 @@
       ],
       "segments": [
         "MCU与嵌入式处理器",
-        "存储芯片(DRAM/NAND)"
+        "存储芯片(DRAM/NAND)",
+        "RISC-V AI芯片"
       ],
       "chain_layer": "L3",
       "chain_role": "龙头",
@@ -43610,7 +43664,8 @@
         "半导体"
       ],
       "segments": [
-        "封装测试(OSAT)"
+        "封装测试(OSAT)",
+        "封装设备"
       ],
       "chain_layer": "L3",
       "chain_role": "龙头",
@@ -44080,7 +44135,8 @@
         "AI算力"
       ],
       "segments": [
-        "AI推理API服务"
+        "AI推理API服务",
+        "大模型"
       ],
       "chain_layer": "L4",
       "chain_role": "核心参与者",
@@ -44123,6 +44179,9 @@
         "半导体"
       ],
       "segments": [
+        "检测量测设备",
+        "封装设备",
+        "清洗设备",
         "检测量测设备"
       ],
       "chain_layer": "L2",
@@ -44799,7 +44858,8 @@
         "AI算力"
       ],
       "segments": [
-        "网络交换芯片"
+        "网络交换芯片",
+        "网络设备（交换机）"
       ],
       "chain_layer": "L3",
       "chain_role": "核心参与者",

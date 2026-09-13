@@ -7,6 +7,9 @@ type: company
 updated: 2026-08
 data_freshness_date: 2026-08-18
 segments:
+- 检测量测设备
+- 封装设备
+- 清洗设备
 
 - 检测量测设备
 one_liner: |

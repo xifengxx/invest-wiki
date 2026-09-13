@@ -9,6 +9,9 @@ data_freshness_date: 2026-08-18
 segments:
 - AI芯片设计(Fabless)
 - ASIC/AI定制芯片
+- 网络交换芯片
+- IC设计服务(Fabless)
+- 边缘AI
 
 - 网络交换芯片
 one_liner: |

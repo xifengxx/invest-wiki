@@ -15,6 +15,7 @@ segments:
 - ASIC/AI定制芯片
 - 云计算IaaS
 - 边缘AI
+- 大模型
 one_liner: 全球AI全栈巨头（自研TPU+Gemini大模型+Google Cloud+搜索广告），Q2 2026营收$1,198亿（+24% YoY，连续12季双位数），Google Cloud $248亿（+82%，积压$5,140亿），Gemini App 9.5亿MAU，CAPEX指引上调至$1,950-2,050亿（年增约2倍），FCF首次单季转负，市值~$2.1T。
 chain_layer: L4
 chain_role: 龙头

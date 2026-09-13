@@ -10,6 +10,7 @@ industries:
 segments:
 - AI推理API服务
 - 自动驾驶
+- 数据中心IDC
 one_liner: "文心大模型，昆仑AI芯片，百度智能云，Apollo自动驾驶，位于产业链L4终端应用与服务（龙头）"
 chain_layer: L4
 chain_role: 龙头

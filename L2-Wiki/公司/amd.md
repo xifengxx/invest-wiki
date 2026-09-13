@@ -14,6 +14,7 @@ segments:
 - FPGA
 - GPU制造代工
 - GPU架构设计
+- GPU
 one_liner: |
   全球第二大x86处理器与AI GPU芯片设计公司，核心为数据中心CPU/GPU（EPYC Turin、Instinct MI350/MI450）、客户端PC芯片（Ryzen）及FPGA（Xilinx），通过无晶圆厂芯片设计与系统平台销售实现盈利，位于AI计算第二梯队挑战者——以开放生态（ROCm）和性价比重构AI基础设施竞争格局。
   【2026.8.5更新】Q2营收$115.4亿(+50%, beat)，数据中心$67.2亿(+107%)，核心经营利润$22.7亿(+29%)。MI455X/Helios机架平台Q3出货，已获OpenAI 6GW+Meta 6GW+Anthropic 2GW+微软订单(14GW+)，但管理层未上调全年AI GPU指引($140-150亿)，盘后承压。服务器CPU份额>20%，H2指引+80%。
