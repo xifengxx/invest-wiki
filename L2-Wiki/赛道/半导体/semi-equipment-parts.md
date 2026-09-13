@@ -83,10 +83,6 @@ companies:
   name: 富创精密
   role: 国产龙头
   rev: 50
-- ticker: '688012'
-  name: 新莱应材
-  role: 国产替代
-  rev: 30
 - ticker: '300260'
   name: 新莱应材
   role: 国产替代

@@ -92,10 +92,6 @@ companies:
   name: SK Materials
   role: 二线弹性
   rev: 70
-- ticker: AI
-  name: Air Liquide Electronics
-  role: 龙头
-  rev: 8
 - ticker: '4091'
   name: Nippon Sanso (大阳日酸)
   role: 二线弹性

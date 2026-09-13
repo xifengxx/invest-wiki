@@ -93,10 +93,6 @@ companies:
   name: 万国数据
   role: 二线弹性
   rev: 15
-- ticker: '9698'
-  name: 万国数据
-  role: 二线弹性
-  rev: 15
 - ticker: CD
   name: 秦淮数据
   role: 二线弹性

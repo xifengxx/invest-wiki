@@ -91,11 +91,7 @@ companies:
   name: NVIDIA
   role: 龙头
   rev: 5
-- ticker: '3711'
-  name: 日月光 (ASE)
-  role: 龙头
-  rev: 25
-- ticker: ASX
+- ticker: '3711.TW'
   name: 日月光 (ASE)
   role: 龙头
   rev: 25

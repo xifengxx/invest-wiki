@@ -106,10 +106,6 @@ companies:
   name: Nanya Technology (南亚科)
   role: 二线弹性
   rev: 80
-- ticker: '2344'
-  name: Winbond (华邦)
-  role: 二线弹性
-  rev: 50
 wikilinks:
 - 光掩模版
 - 电子特气

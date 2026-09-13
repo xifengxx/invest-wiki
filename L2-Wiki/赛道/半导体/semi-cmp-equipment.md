@@ -64,10 +64,6 @@ companies:
   name: 华海清科
   role: 二线弹性
   rev: 80
-- ticker: '6361'
-  name: Ebara
-  role: 龙头
-  rev: 20
 wikilinks:
 - CMP抛光液与抛光垫
 - 晶圆代工(先进制程)
