@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-23T14:06:44.147Z",
+  "updated": "2026-09-13T11:29:40.826Z",
   "patterns": [
     {
       "id": "pattern-004",
@@ -8,14 +8,14 @@
       "language": "python",
       "description": "build_wiki_data.py — ui 패턴 (python)",
       "score": 100,
-      "success_count": 84,
+      "success_count": 85,
       "failure_count": 0,
       "tags": [
         "ui",
         "python"
       ],
       "created": "2026-07-20T14:57:48.361Z",
-      "updated": "2026-07-23T14:06:14.531Z"
+      "updated": "2026-09-13T11:29:40.820Z"
     },
     {
       "id": "pattern-001",
