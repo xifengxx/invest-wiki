@@ -35,7 +35,8 @@ if os.path.exists(data_path):
     total = data.get('total', len(data.get('entities', [])))
     check(total > 400, f"词条数>400: {total}")
     segs = [e for e in data['entities'] if e['type'] == 'segment']
-    check(len(segs) >= 74, f"赛道数≥74: {len(segs)}")
+    # 阈值 60：2026-09-13 合并 16 组重复赛道后，赛道数由 81（含重复）→ 65（唯一）
+    check(len(segs) >= 60, f"赛道数≥60: {len(segs)}")
     wl = sum(1 for e in segs if len(e.get('wikilinks', [])) > 0)
     check(wl >= 60, f"有关联词条的赛道≥60: {wl}")
     check(len(data.get('hot', [])) >= 20, f"热力图≥20: {len(data.get('hot', []))}")

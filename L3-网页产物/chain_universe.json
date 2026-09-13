@@ -3,12 +3,12 @@
   "source_file": "L3-网页产物/wiki_data.json",
   "note": "Canonical segments merge exact cross-track duplicate names. Overseas quote candidates exclude A-shares and known private companies.",
   "stats": {
-    "source_segments": 81,
+    "source_segments": 65,
     "canonical_segments": 65,
-    "merged_exact_duplicate_records": 16,
-    "source_company_links": 522,
-    "unique_companies": 319,
-    "overseas_quote_candidates": 172,
+    "merged_exact_duplicate_records": 0,
+    "source_company_links": 487,
+    "unique_companies": 321,
+    "overseas_quote_candidates": 174,
     "a_share_mapping_companies": 89,
     "private_or_untradable": 58
   },
@@ -1624,6 +1624,274 @@
       ]
     },
     {
+      "segment_id": "server-cpu",
+      "name": "CPU(服务器级)",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 3,
+      "source_slugs": [
+        "server-cpu"
+      ],
+      "description": "服务器CPU是数据中心的**通用计算大脑**——运行OS、管理内存、调度任务和协调加速器。**Agentic AI训练让CPU重回数据中心核心**：RL训练循环需大量CPU做编译+验证+Tool Use。|**x86双雄：Intel Xeon(~59-71%单位份额,但AMD EPYC收入份额首破41.3%**)。AMD Turin 192核(3nm)vs Intel Granite Rapids 128核。AMD ASP是Intel 2x。2026双方均涨价(Intel 8-10%,AMD 16-17%)。|**ARM阵营快速增长(13-16%份额)**：AWS Graviton(2M+颗,30-40%性价比优势)、NVIDIA Grace(2025出货~2.5M颗,2x perf/watt vs x86)、Ampere(SoftBank收购)。ARM目标2030年40%份额。中国CPU三路线：海光(x86 AMD授权)+飞腾(ARM)+鲲鹏(ARM)。",
+      "chain_note": "服务器CPU是数据中心的**通用计算大脑**——运行OS、管理内存、调度任务和协调加速器。**Agentic AI训练让CPU重回数据中心核心**：RL训练循环需大量CPU做编译+验证+Tool Use。|**x86双雄：Intel Xeon(~59-71%单位份额,但AMD EPYC收入份额首破41.3%**)。AMD Turin 192核(3nm)vs Intel Granite Rapids 128核。AMD ASP是Intel 2x。2026双方均涨价(Intel 8-10%,AMD 16-17%)。|**ARM阵营快速增长(13-16%份额)**：AWS Graviton(2M+颗,30-40%性价比优势)、NVIDIA Grace(2025出货~2.5M颗,2x perf/watt vs x86)、Ampere(SoftBank收购)。ARM目标2030年40%份额。中国CPU三路线：海光(x86 AMD授权)+飞腾(ARM)+鲲鹏(ARM)。",
+      "companies": [
+        {
+          "ticker": "688047",
+          "source_tickers": [
+            "688047"
+          ],
+          "name": "龙芯中科",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 30.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688256",
+          "source_tickers": [
+            "688256"
+          ],
+          "name": "寒武纪",
+          "roles": [
+            "概念相关"
+          ],
+          "rev": 10.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "AMD",
+          "source_tickers": [
+            "AMD"
+          ],
+          "name": "AMD",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 30.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "ARM",
+          "source_tickers": [
+            "ARM"
+          ],
+          "name": "ARM Holdings",
+          "roles": [
+            "生态主导"
+          ],
+          "rev": 10.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "INTC",
+          "source_tickers": [
+            "INTC"
+          ],
+          "name": "Intel",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 55.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "NVDA",
+          "source_tickers": [
+            "NVDA"
+          ],
+          "name": "NVIDIA",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 5.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 6,
+      "n_unique_companies": 6,
+      "n_overseas_candidates": 4,
+      "n_a_share_mapping": 2,
+      "a_share": [
+        {
+          "name": "龙芯中科",
+          "ticker": "688047",
+          "role": "国产替代"
+        },
+        {
+          "name": "寒武纪",
+          "ticker": "688256",
+          "role": "概念相关"
+        }
+      ]
+    },
+    {
+      "segment_id": "chiplet",
+      "name": "Chiplet与异构集成",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 2,
+      "source_slugs": [
+        "chiplet"
+      ],
+      "description": "Chiplet将传统单一大芯片拆分为多个功能模块分别制造后集成——**「分而治之」，将设计成本从$500M降至$100M**。AMD是商业化先驱(EPYC CCD+IOD,MI300X 9颗Chiplet,>50%份额)。|**UCIe 1.0/2.0标准推动开放生态**——Intel/AMD/ARM/Qualcomm/NVIDIA/TSMC联合制定，1.6TB/s die-to-die带宽。TSMC主导先进封装产能(~55%全球份额，CoWoS/SoIC)，AMD MI400+Intel Foveros/EMIB+NVIDIA NVLink-C2C各有方案。|**市场$13.6B(2025)→$22.6B(2026)→$168.6B(2030),CAGR 65%**。AI加速器+服务器CPU+HBM驱动，先进封装产能翻倍扩张。细分上，芯片被拆为 Compute Die + I/O Die + Memory Die，各自在不同工艺节点制造后再通过先进封装集成；封测端中国长电科技(XDFOI)与通富微电是AMD Chiplet核心封测伙伴；华为「韬定律」路线以Chiplet+3D堆叠绕开光刻机封锁，性能提升55%，2031年等效1.4nm。",
+      "chain_note": "Chiplet将传统单一大芯片拆分为多个功能模块分别制造后集成——**「分而治之」，将设计成本从$500M降至$100M**。AMD是商业化先驱(EPYC CCD+IOD,MI300X 9颗Chiplet,>50%份额)。|**UCIe 1.0/2.0标准推动开放生态**——Intel/AMD/ARM/Qualcomm/NVIDIA/TSMC联合制定，1.6TB/s die-to-die带宽。TSMC主导先进封装产能(~55%全球份额，CoWoS/SoIC)，AMD MI400+Intel Foveros/EMIB+NVIDIA NVLink-C2C各有方案。|**市场$13.6B(2025)→$22.6B(2026)→$168.6B(2030),CAGR 65%**。AI加速器+服务器CPU+HBM驱动，先进封装产能翻倍扩张。细分上，芯片被拆为 Compute Die + I/O Die + Memory Die，各自在不同工艺节点制造后再通过先进封装集成；封测端中国长电科技(XDFOI)与通富微电是AMD Chiplet核心封测伙伴；华为「韬定律」路线以Chiplet+3D堆叠绕开光刻机封锁，性能提升55%，2031年等效1.4nm。",
+      "companies": [
+        {
+          "ticker": "002156",
+          "source_tickers": [
+            "002156"
+          ],
+          "name": "通富微电",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 35.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "002185",
+          "source_tickers": [
+            "002185"
+          ],
+          "name": "华天科技",
+          "roles": [
+            "国产二线"
+          ],
+          "rev": 25.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "600584",
+          "source_tickers": [
+            "600584"
+          ],
+          "name": "长电科技",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 30.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688521",
+          "source_tickers": [
+            "688521"
+          ],
+          "name": "芯原股份",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 40.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "AMD",
+          "source_tickers": [
+            "AMD"
+          ],
+          "name": "AMD",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 30.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "INTC",
+          "source_tickers": [
+            "INTC"
+          ],
+          "name": "Intel",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 15.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "NVDA",
+          "source_tickers": [
+            "NVDA"
+          ],
+          "name": "NVIDIA",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 10.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "TSM",
+          "source_tickers": [
+            "TSM"
+          ],
+          "name": "TSMC(台积电)",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 20.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 8,
+      "n_unique_companies": 8,
+      "n_overseas_candidates": 4,
+      "n_a_share_mapping": 4,
+      "a_share": [
+        {
+          "name": "通富微电",
+          "ticker": "002156",
+          "role": "国产龙头"
+        },
+        {
+          "name": "华天科技",
+          "ticker": "002185",
+          "role": "国产二线"
+        },
+        {
+          "name": "长电科技",
+          "ticker": "600584",
+          "role": "国产龙头"
+        },
+        {
+          "name": "芯原股份",
+          "ticker": "688521",
+          "role": "国产替代"
+        }
+      ]
+    },
+    {
       "segment_id": "dpu-smartnic",
       "name": "DPU/SmartNIC",
       "industry_tags": [
@@ -1914,6 +2182,208 @@
           "name": "源杰科技",
           "ticker": "688498",
           "role": "二线弹性"
+        }
+      ]
+    },
+    {
+      "segment_id": "eda-ip",
+      "name": "EDA与IP核",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 2,
+      "source_slugs": [
+        "eda-ip"
+      ],
+      "description": "**EDA是芯片设计的「操作系统」**——从架构设计到物理验证全流程自动化。没有EDA，设计千亿晶体管AI芯片不可能。|**全球EDA+IP市场~$18B(2025)，三巨头CR3>85%**：Synopsys(FY2025含Ansys $9.56B,积压$11.4B,100%先进节点份额)、Cadence($5.3B,积压$7.8B,硬件仿真55-60%份额)、Siemens EDA($2.2-2.5B)。3nm工具价格是28nm的3-5x，95%+客户留存，3-7%年涨价+AI溢价20%。|**AI-EDA增速~20% CAGR**——Synopsys AgentEngineer用LLM/Agentic AI将设计效率提升5倍。超大规模客户(GPU/TPU/AI ASIC)贡献EDA 45%需求，5年前几乎为零。**IP核是预先设计好、经过验证的可复用电路模块**——现代SoC设计越来越像「搭乐高」，CPU核(ARM)、GPU核、DDR/HBM PHY、PCIe SerDes都是可购买的IP模块。中国华大九天(301269)国产EDA#1，但全流程差距10年+。",
+      "chain_note": "**EDA是芯片设计的「操作系统」**——从架构设计到物理验证全流程自动化。没有EDA，设计千亿晶体管AI芯片不可能。|**全球EDA+IP市场~$18B(2025)，三巨头CR3>85%**：Synopsys(FY2025含Ansys $9.56B,积压$11.4B,100%先进节点份额)、Cadence($5.3B,积压$7.8B,硬件仿真55-60%份额)、Siemens EDA($2.2-2.5B)。3nm工具价格是28nm的3-5x，95%+客户留存，3-7%年涨价+AI溢价20%。|**AI-EDA增速~20% CAGR**——Synopsys AgentEngineer用LLM/Agentic AI将设计效率提升5倍。超大规模客户(GPU/TPU/AI ASIC)贡献EDA 45%需求，5年前几乎为零。**IP核是预先设计好、经过验证的可复用电路模块**——现代SoC设计越来越像「搭乐高」，CPU核(ARM)、GPU核、DDR/HBM PHY、PCIe SerDes都是可购买的IP模块。中国华大九天(301269)国产EDA#1，但全流程差距10年+。",
+      "companies": [
+        {
+          "ticker": "301269",
+          "source_tickers": [
+            "301269"
+          ],
+          "name": "华大九天",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 95.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688206",
+          "source_tickers": [
+            "688206"
+          ],
+          "name": "概伦电子",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 45.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "CDNS",
+          "source_tickers": [
+            "CDNS"
+          ],
+          "name": "Cadence",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 85.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "NVDA",
+          "source_tickers": [
+            "NVDA"
+          ],
+          "name": "NVIDIA",
+          "roles": [
+            "概念股"
+          ],
+          "rev": 5.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "SNPS",
+          "source_tickers": [
+            "SNPS"
+          ],
+          "name": "Synopsys",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 80.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 5,
+      "n_unique_companies": 5,
+      "n_overseas_candidates": 3,
+      "n_a_share_mapping": 2,
+      "a_share": [
+        {
+          "name": "华大九天",
+          "ticker": "301269",
+          "role": "二线弹性"
+        },
+        {
+          "name": "概伦电子",
+          "ticker": "688206",
+          "role": "国产替代"
+        }
+      ]
+    },
+    {
+      "segment_id": "fpga",
+      "name": "FPGA",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 3,
+      "source_slugs": [
+        "fpga"
+      ],
+      "description": "FPGA是制造后可通过软件**重新配置逻辑电路**的芯片，介于ASIC和CPU/GPU之间。核心优势：硬件级可编程+微秒级超低延迟——金融交易/网络包处理/信号情报/AI推理不可替代。|**AMD(Xilinx)#1、Intel(Altera)#2主导全球FPGA市场**，CR2>80%。AI推理FPGA在微软Azure/AWS有规模化部署。**中国复旦微电(688385)+安路科技(688107)+紫光同创**快速追赶，国产化率从<5%→15%+。FPGA全称 Field-Programmable Gate Array；按份额 AMD(Xilinx)~55%、Intel(Altera)~28%，Lattice(~8%)在低功耗FPGA领先；复旦微电28nm已量产，RISC-V+FPGA组合进一步降低硬件设计门槛。",
+      "chain_note": "FPGA是制造后可通过软件**重新配置逻辑电路**的芯片，介于ASIC和CPU/GPU之间。核心优势：硬件级可编程+微秒级超低延迟——金融交易/网络包处理/信号情报/AI推理不可替代。|**AMD(Xilinx)#1、Intel(Altera)#2主导全球FPGA市场**，CR2>80%。AI推理FPGA在微软Azure/AWS有规模化部署。**中国复旦微电(688385)+安路科技(688107)+紫光同创**快速追赶，国产化率从<5%→15%+。FPGA全称 Field-Programmable Gate Array；按份额 AMD(Xilinx)~55%、Intel(Altera)~28%，Lattice(~8%)在低功耗FPGA领先；复旦微电28nm已量产，RISC-V+FPGA组合进一步降低硬件设计门槛。",
+      "companies": [
+        {
+          "ticker": "688107",
+          "source_tickers": [
+            "688107"
+          ],
+          "name": "安路科技",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 55.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688385",
+          "source_tickers": [
+            "688385"
+          ],
+          "name": "复旦微电",
+          "roles": [
+            "概念股"
+          ],
+          "rev": 25.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "AMD",
+          "source_tickers": [
+            "AMD"
+          ],
+          "name": "AMD",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 15.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "INTC",
+          "source_tickers": [
+            "INTC"
+          ],
+          "name": "Intel",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 5.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "LSCC",
+          "source_tickers": [
+            "LSCC"
+          ],
+          "name": "Lattice Semiconductor",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 95.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 5,
+      "n_unique_companies": 5,
+      "n_overseas_candidates": 3,
+      "n_a_share_mapping": 2,
+      "a_share": [
+        {
+          "name": "安路科技",
+          "ticker": "688107",
+          "role": "国产替代"
+        },
+        {
+          "name": "复旦微电",
+          "ticker": "688385",
+          "role": "概念股"
         }
       ]
     },
@@ -2560,6 +3030,98 @@
       ]
     },
     {
+      "segment_id": "riscv-ai",
+      "name": "RISC-V AI芯片",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 3,
+      "source_slugs": [
+        "riscv-ai"
+      ],
+      "description": "RISC-V是**开源指令集架构(ISA)**——任何人免费使用修改，不像x86(专有)或ARM(高昂授权)。**在AI芯片领域让创业公司以极低成本设计加速器**。Tenstorrent(Jim Keller)+Esperanto两大标杆。|**中国RISC-V生态最活跃**——阿里平头哥玄铁+中科院包云岗团队。RISC-V AI芯片份额从近乎零(2023)→~2%(2025)→预计10%+(2030)。RISC-V+ASIC降低AI芯片设计门槛→定制芯片成本下降→更多创业公司进入。中国受ARM授权限制（ARM v9不授权中国公司，叠加美国制裁）→加速RISC-V替代，地缘政治是最大催化剂；芯来科技（Nuclei）是国产RISC-V IP代表，对标SiFive。",
+      "chain_note": "RISC-V是**开源指令集架构(ISA)**——任何人免费使用修改，不像x86(专有)或ARM(高昂授权)。**在AI芯片领域让创业公司以极低成本设计加速器**。Tenstorrent(Jim Keller)+Esperanto两大标杆。|**中国RISC-V生态最活跃**——阿里平头哥玄铁+中科院包云岗团队。RISC-V AI芯片份额从近乎零(2023)→~2%(2025)→预计10%+(2030)。RISC-V+ASIC降低AI芯片设计门槛→定制芯片成本下降→更多创业公司进入。中国受ARM授权限制（ARM v9不授权中国公司，叠加美国制裁）→加速RISC-V替代，地缘政治是最大催化剂；芯来科技（Nuclei）是国产RISC-V IP代表，对标SiFive。",
+      "companies": [
+        {
+          "ticker": "300223",
+          "source_tickers": [
+            "300223"
+          ],
+          "name": "北京君正",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 20.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "603986",
+          "source_tickers": [
+            "603986"
+          ],
+          "name": "兆易创新",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 15.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688521",
+          "source_tickers": [
+            "688521"
+          ],
+          "name": "芯原股份",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 25.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "BABA",
+          "source_tickers": [
+            "BABA"
+          ],
+          "name": "阿里巴巴(平头哥)",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 10.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 4,
+      "n_unique_companies": 4,
+      "n_overseas_candidates": 1,
+      "n_a_share_mapping": 3,
+      "a_share": [
+        {
+          "name": "北京君正",
+          "ticker": "300223",
+          "role": "国产替代"
+        },
+        {
+          "name": "兆易创新",
+          "ticker": "603986",
+          "role": "国产替代"
+        },
+        {
+          "name": "芯原股份",
+          "ticker": "688521",
+          "role": "国产替代"
+        }
+      ]
+    },
+    {
       "segment_id": "cloud-iaas",
       "name": "云计算IaaS",
       "industry_tags": [
@@ -2991,6 +3553,383 @@
       ]
     },
     {
+      "segment_id": "lithography",
+      "name": "光刻机",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 2,
+      "source_slugs": [
+        "lithography"
+      ],
+      "description": "光刻机是芯片制造中**最核心、最昂贵的设备**——通过光学系统将电路图案投影到硅片上。一台EUV售价>$3亿，重180吨，超10万个零部件。|**ASML垄断全球EUV(100%)和整体光刻机市场83%**。FY2025营收€32.7B(+15%)，净利€9.6B，毛利率52.8%。EUV出货48台(€11.6B,+39%)。订单积压€38.8B创纪录(EUV占66%)。**2026年预计出货60+台EUV**，营收€34-40B。SK Hynix下单$8B(30台EUV至2027)。|**High-NA EUV(EXE:5200,$380-400M/台)2025首批交付**，Intel首家HVM采纳(18A)，TSMC推迟3-4年暂不采用。ASML 2030目标€44-60B营收，毛利率56-60%。|**Nikon和Canon在DUV中低端/i-line/KrF市场仍有一定份额**，Canon纳米压印(NIL)5nm已实现但产能远低于EUV。中国SMEE 90nm量产、28nm浸没式研发中，整体差距约15年。",
+      "chain_note": "光刻机是芯片制造中**最核心、最昂贵的设备**——通过光学系统将电路图案投影到硅片上。一台EUV售价>$3亿，重180吨，超10万个零部件。|**ASML垄断全球EUV(100%)和整体光刻机市场83%**。FY2025营收€32.7B(+15%)，净利€9.6B，毛利率52.8%。EUV出货48台(€11.6B,+39%)。订单积压€38.8B创纪录(EUV占66%)。**2026年预计出货60+台EUV**，营收€34-40B。SK Hynix下单$8B(30台EUV至2027)。|**High-NA EUV(EXE:5200,$380-400M/台)2025首批交付**，Intel首家HVM采纳(18A)，TSMC推迟3-4年暂不采用。ASML 2030目标€44-60B营收，毛利率56-60%。|**Nikon和Canon在DUV中低端/i-line/KrF市场仍有一定份额**，Canon纳米压印(NIL)5nm已实现但产能远低于EUV。中国SMEE 90nm量产、28nm浸没式研发中，整体差距约15年。",
+      "companies": [
+        {
+          "ticker": "-",
+          "source_tickers": [
+            "-"
+          ],
+          "name": "上海微电子(SMEE)",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 60.0,
+          "market_guess": "UNKNOWN",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "7731.T",
+          "source_tickers": [
+            "7731.T"
+          ],
+          "name": "尼康(Nikon)",
+          "roles": [
+            "全球二线"
+          ],
+          "rev": 20.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "7751.T",
+          "source_tickers": [
+            "7751.T"
+          ],
+          "name": "佳能(Canon)",
+          "roles": [
+            "全球二线"
+          ],
+          "rev": 30.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "AFX.DE",
+          "source_tickers": [
+            "AFX.DE"
+          ],
+          "name": "Zeiss (蔡司)",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 25.0,
+          "market_guess": "DE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "ASML",
+          "source_tickers": [
+            "ASML"
+          ],
+          "name": "ASML",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 95.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 5,
+      "n_unique_companies": 5,
+      "n_overseas_candidates": 5,
+      "n_a_share_mapping": 0,
+      "a_share": []
+    },
+    {
+      "segment_id": "photoresist",
+      "name": "光刻胶与湿化学品",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 1,
+      "source_slugs": [
+        "photoresist"
+      ],
+      "description": "光刻胶是光刻工艺**关键耗材**——通过UV/EUV曝光将掩模图案转移到硅片。分为正性/负性，**分辨率+对比度+灵敏度**三大核心指标。|**高端光刻胶壁垒极高**——ArF浸没式和EUV光刻胶全球仅JSR、TOK、Shin-Etsu、DuPont等少数企业掌握。EUV光刻胶市场CAGR 25%+。|**中国ArF国产化率<1%，KrF约2%**——是所有半导体材料中国产化率最低环节。彤程新材(ArF验证中)、南大光电、上海新阳快速追赶。日本JSR/TOK/Shin-Etsu垄断>85%EUV份额。|**EUV光刻胶需满足13.5nm波长分辨率**，是光刻胶中技术壁垒最高的品类。日本JSR被JIC国有化后，光刻胶已成为地缘政治武器。",
+      "chain_note": "光刻胶是光刻工艺**关键耗材**——通过UV/EUV曝光将掩模图案转移到硅片。分为正性/负性，**分辨率+对比度+灵敏度**三大核心指标。|**高端光刻胶壁垒极高**——ArF浸没式和EUV光刻胶全球仅JSR、TOK、Shin-Etsu、DuPont等少数企业掌握。EUV光刻胶市场CAGR 25%+。|**中国ArF国产化率<1%，KrF约2%**——是所有半导体材料中国产化率最低环节。彤程新材(ArF验证中)、南大光电、上海新阳快速追赶。日本JSR/TOK/Shin-Etsu垄断>85%EUV份额。|**EUV光刻胶需满足13.5nm波长分辨率**，是光刻胶中技术壁垒最高的品类。日本JSR被JIC国有化后，光刻胶已成为地缘政治武器。",
+      "companies": [
+        {
+          "ticker": "300236",
+          "source_tickers": [
+            "300236"
+          ],
+          "name": "上海新阳",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 25.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "300346",
+          "source_tickers": [
+            "300346"
+          ],
+          "name": "南大光电",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 35.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "300655",
+          "source_tickers": [
+            "300655"
+          ],
+          "name": "晶瑞电材",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 50.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "4005.T",
+          "source_tickers": [
+            "4005"
+          ],
+          "name": "Sumitomo Chemical (住友化学)",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 10.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "4063.T",
+          "source_tickers": [
+            "4063"
+          ],
+          "name": "Shin-Etsu Chemical (信越化学)",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 25.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "4185.T",
+          "source_tickers": [
+            "4185.T"
+          ],
+          "name": "JSR",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 70.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "4186.T",
+          "source_tickers": [
+            "4186.T"
+          ],
+          "name": "Tokyo Ohka Kogyo (TOK)",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 65.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "4901.T",
+          "source_tickers": [
+            "4901"
+          ],
+          "name": "Fujifilm Electronic Materials",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 12.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "603650",
+          "source_tickers": [
+            "603650"
+          ],
+          "name": "彤程新材",
+          "roles": [
+            "概念股"
+          ],
+          "rev": 60.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688019",
+          "source_tickers": [
+            "688019"
+          ],
+          "name": "安集科技",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 30.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        }
+      ],
+      "n_source_companies": 10,
+      "n_unique_companies": 10,
+      "n_overseas_candidates": 5,
+      "n_a_share_mapping": 5,
+      "a_share": [
+        {
+          "name": "上海新阳",
+          "ticker": "300236",
+          "role": "国产替代"
+        },
+        {
+          "name": "南大光电",
+          "ticker": "300346",
+          "role": "国产龙头"
+        },
+        {
+          "name": "晶瑞电材",
+          "ticker": "300655",
+          "role": "国产龙头"
+        },
+        {
+          "name": "彤程新材",
+          "ticker": "603650",
+          "role": "概念股"
+        },
+        {
+          "name": "安集科技",
+          "ticker": "688019",
+          "role": "国产替代"
+        }
+      ]
+    },
+    {
+      "segment_id": "etch-equipment",
+      "name": "刻蚀设备",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 2,
+      "source_slugs": [
+        "etch-equipment"
+      ],
+      "description": "刻蚀设备在硅片上去除不需要材料形成电路图案——分为**干法(等离子体)和湿法(化学)**两大类。|**全球$22.6B(2024)→$34B(2031)，CAGR 6.1%。三巨头垄断~90%：Lam Research(45%,FY2025 +28.4%)、TEL(25%)、AMAT(16%,-1.6%被中国蚕食)**。3D NAND 400+层+GAA驱动高深宽比刻蚀(100:1+)和ALE。|**中国厂商全球份额从1.2%(2021)→6.5%(2025)，增速+30.5%远超外资+9.3%**。中微半导体(AMEC)CCP刻蚀+北方华创(NAURA)PVD/CVD/刻蚀全面开花。Mizuho预计AMAT 2026中国收入降15-20%。|**中微半导体(688012)CCP刻蚀已进入TSMC 5nm验证**，北方华创(002371)为品类最全国产设备#1。",
+      "chain_note": "刻蚀设备在硅片上去除不需要材料形成电路图案——分为**干法(等离子体)和湿法(化学)**两大类。|**全球$22.6B(2024)→$34B(2031)，CAGR 6.1%。三巨头垄断~90%：Lam Research(45%,FY2025 +28.4%)、TEL(25%)、AMAT(16%,-1.6%被中国蚕食)**。3D NAND 400+层+GAA驱动高深宽比刻蚀(100:1+)和ALE。|**中国厂商全球份额从1.2%(2021)→6.5%(2025)，增速+30.5%远超外资+9.3%**。中微半导体(AMEC)CCP刻蚀+北方华创(NAURA)PVD/CVD/刻蚀全面开花。Mizuho预计AMAT 2026中国收入降15-20%。|**中微半导体(688012)CCP刻蚀已进入TSMC 5nm验证**，北方华创(002371)为品类最全国产设备#1。",
+      "companies": [
+        {
+          "ticker": "002371",
+          "source_tickers": [
+            "002371"
+          ],
+          "name": "北方华创",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 45.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688012",
+          "source_tickers": [
+            "688012"
+          ],
+          "name": "中微公司",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 55.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "8035.T",
+          "source_tickers": [
+            "8035.T"
+          ],
+          "name": "Tokyo Electron",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 25.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "AMAT",
+          "source_tickers": [
+            "AMAT"
+          ],
+          "name": "Applied Materials",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 16.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "LRCX",
+          "source_tickers": [
+            "LRCX"
+          ],
+          "name": "Lam Research",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 50.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 5,
+      "n_unique_companies": 5,
+      "n_overseas_candidates": 3,
+      "n_a_share_mapping": 2,
+      "a_share": [
+        {
+          "name": "北方华创",
+          "ticker": "002371",
+          "role": "国产龙头"
+        },
+        {
+          "name": "中微公司",
+          "ticker": "688012",
+          "role": "国产龙头"
+        }
+      ]
+    },
+    {
       "segment_id": "foundation-model",
       "name": "大模型",
       "industry_tags": [
@@ -3082,6 +4021,135 @@
       "n_overseas_candidates": 4,
       "n_a_share_mapping": 0,
       "a_share": []
+    },
+    {
+      "segment_id": "package-substrate",
+      "name": "封装基板材料",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 1,
+      "source_slugs": [
+        "package-substrate"
+      ],
+      "description": "封装基板连接芯片与PCB的**「桥梁」**——承担电气连接+机械支撑+散热。ABF(Ajinomoto Build-up Film)是FC-BGA核心绝缘材料，日本味之素独家供应。|**AI芯片驱动封装基板层数14→20+层，线宽/线距15/15→8/8μm**。封装基板是仅次于硅片的第二大半导体材料市场。**味之素ABF膜是FC-BGA产能最大瓶颈**。|日本Shinko/Ibiden+台湾Unimicron(#1)主导全球FC-BGA产能。中国深南电路(002916)+鹏鼎控股(002938)从传统PCB向FC-BGA转型。|**味之素ABF膜全球份额>95%**，扩产周期长(2-3年)跟不上AI芯片迭代速度，供给短缺预计持续至2028+。中国ABF膜国产化率为零，生益科技(600183)/华正新材(603186)攻关中，2027年目标小批量。",
+      "chain_note": "封装基板连接芯片与PCB的**「桥梁」**——承担电气连接+机械支撑+散热。ABF(Ajinomoto Build-up Film)是FC-BGA核心绝缘材料，日本味之素独家供应。|**AI芯片驱动封装基板层数14→20+层，线宽/线距15/15→8/8μm**。封装基板是仅次于硅片的第二大半导体材料市场。**味之素ABF膜是FC-BGA产能最大瓶颈**。|日本Shinko/Ibiden+台湾Unimicron(#1)主导全球FC-BGA产能。中国深南电路(002916)+鹏鼎控股(002938)从传统PCB向FC-BGA转型。|**味之素ABF膜全球份额>95%**，扩产周期长(2-3年)跟不上AI芯片迭代速度，供给短缺预计持续至2028+。中国ABF膜国产化率为零，生益科技(600183)/华正新材(603186)攻关中，2027年目标小批量。",
+      "companies": [
+        {
+          "ticker": "002436",
+          "source_tickers": [
+            "002436"
+          ],
+          "name": "兴森科技",
+          "roles": [
+            "国产二线"
+          ],
+          "rev": 50.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "002916",
+          "source_tickers": [
+            "002916"
+          ],
+          "name": "深南电路",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 40.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "2802.T",
+          "source_tickers": [
+            "2802"
+          ],
+          "name": "味之素 (Ajinomoto)",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 8.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "3037.TW",
+          "source_tickers": [
+            "3037"
+          ],
+          "name": "Unimicron (欣兴电子)",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 60.0,
+          "market_guess": "TW",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "4062.T",
+          "source_tickers": [
+            "4062"
+          ],
+          "name": "Ibiden",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 55.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "6967.T",
+          "source_tickers": [
+            "6967"
+          ],
+          "name": "Shinko Electric (新光电气)",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 45.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "8046.T",
+          "source_tickers": [
+            "8046"
+          ],
+          "name": "Nan Ya PCB (南亚电路板)",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 40.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 7,
+      "n_unique_companies": 7,
+      "n_overseas_candidates": 5,
+      "n_a_share_mapping": 2,
+      "a_share": [
+        {
+          "name": "兴森科技",
+          "ticker": "002436",
+          "role": "国产二线"
+        },
+        {
+          "name": "深南电路",
+          "ticker": "002916",
+          "role": "国产龙头"
+        }
+      ]
     },
     {
       "segment_id": "liquid-cooling",
@@ -3515,6 +4583,82 @@
       ]
     },
     {
+      "segment_id": "foundry-advanced",
+      "name": "晶圆代工(先进制程)",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 2,
+      "source_slugs": [
+        "foundry-advanced"
+      ],
+      "description": "晶圆代工是芯片制造的**「工厂模式」**——NVIDIA/AMD/Apple将芯片版图交给代工厂在晶圆上刻出物理电路。|**TSMC绝对垄断先进制程**——全球份额72%(Q1 2026)，3nm/2nm独占>90%。FY2025营收$122.5B(+36%)，毛利率66.2%，净利$40B+，2026 Capex $52-56B。2nm(N2)Q4 2025量产，$30K/wafer(比3nm贵50%)，Apple锁定>50%初期产能，**满单排到2028**。|**三星2nm GAA良率40-60% vs TSMC 70-80%**，代工份额跌至7%，客户流失严重。Intel 18A(RibbonFET+PowerVia)HVM 2025年10月良率65-75%，获Microsoft Maia/Amazon定制芯片订单，NVIDIA $5B备选协议。SMIC受限于DUV停在7nm。**无晶圆厂设计公司阵营还包括Qualcomm**；代工占芯片总成本35-40%，TSMC净利$40B+占据晶圆代工行业80%+利润；SMIC卡在7nm(N+2)是中国半导体最大瓶颈。",
+      "chain_note": "晶圆代工是芯片制造的**「工厂模式」**——NVIDIA/AMD/Apple将芯片版图交给代工厂在晶圆上刻出物理电路。|**TSMC绝对垄断先进制程**——全球份额72%(Q1 2026)，3nm/2nm独占>90%。FY2025营收$122.5B(+36%)，毛利率66.2%，净利$40B+，2026 Capex $52-56B。2nm(N2)Q4 2025量产，$30K/wafer(比3nm贵50%)，Apple锁定>50%初期产能，**满单排到2028**。|**三星2nm GAA良率40-60% vs TSMC 70-80%**，代工份额跌至7%，客户流失严重。Intel 18A(RibbonFET+PowerVia)HVM 2025年10月良率65-75%，获Microsoft Maia/Amazon定制芯片订单，NVIDIA $5B备选协议。SMIC受限于DUV停在7nm。**无晶圆厂设计公司阵营还包括Qualcomm**；代工占芯片总成本35-40%，TSMC净利$40B+占据晶圆代工行业80%+利润；SMIC卡在7nm(N+2)是中国半导体最大瓶颈。",
+      "companies": [
+        {
+          "ticker": "005930.KS",
+          "source_tickers": [
+            "005930.KS"
+          ],
+          "name": "Samsung",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 15.0,
+          "market_guess": "KR",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "0981.HK",
+          "source_tickers": [
+            "SMIC"
+          ],
+          "name": "中芯国际",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 100.0,
+          "market_guess": "HK",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "INTC",
+          "source_tickers": [
+            "INTC"
+          ],
+          "name": "Intel",
+          "roles": [
+            "概念股"
+          ],
+          "rev": 10.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "TSM",
+          "source_tickers": [
+            "TSM"
+          ],
+          "name": "TSMC(台积电)",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 95.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 4,
+      "n_unique_companies": 4,
+      "n_overseas_candidates": 4,
+      "n_a_share_mapping": 0,
+      "a_share": []
+    },
+    {
       "segment_id": "server-power-ups",
       "name": "服务器电源与UPS",
       "industry_tags": [
@@ -3645,6 +4789,542 @@
       "n_overseas_candidates": 6,
       "n_a_share_mapping": 0,
       "a_share": []
+    },
+    {
+      "segment_id": "inspection-metrology",
+      "name": "检测量测设备",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 2,
+      "source_slugs": [
+        "inspection-metrology"
+      ],
+      "description": "半导体检测量测是芯片制造的**「眼睛」**——在数百道工序后检查晶圆是否合格。分为**缺陷检测**(污染/划痕)和**量测**(膜厚/线宽/套刻精度)。|**全球$12.6B(2025)，KLA绝对垄断(~7x第二名份额)**，KLA+AMAT+Hitachi+ASML+Onto Innovation Top5占>57%。KLA先进封装收入从$635M(2025)→$1B(2026)。Onto Innovation Dragonfly获>$240M HBM采购协议至2027年，2026年营收>30%增长。|**一台先进检测设备$30-50M，AI+深度学习缺陷分类**是核心趋势。中国中科飞测+华峰测控在细分突破。**KLA毛利率~60%（垄断利润堪比ASML在光刻机）；中国差距7-10年——中科飞测(688361)已在成熟制程(≥28nm)突破但先进制程空白，华峰测控(688200)为国产测试设备第一，国产检测设备市占率<5%**。",
+      "chain_note": "半导体检测量测是芯片制造的**「眼睛」**——在数百道工序后检查晶圆是否合格。分为**缺陷检测**(污染/划痕)和**量测**(膜厚/线宽/套刻精度)。|**全球$12.6B(2025)，KLA绝对垄断(~7x第二名份额)**，KLA+AMAT+Hitachi+ASML+Onto Innovation Top5占>57%。KLA先进封装收入从$635M(2025)→$1B(2026)。Onto Innovation Dragonfly获>$240M HBM采购协议至2027年，2026年营收>30%增长。|**一台先进检测设备$30-50M，AI+深度学习缺陷分类**是核心趋势。中国中科飞测+华峰测控在细分突破。**KLA毛利率~60%（垄断利润堪比ASML在光刻机）；中国差距7-10年——中科飞测(688361)已在成熟制程(≥28nm)突破但先进制程空白，华峰测控(688200)为国产测试设备第一，国产检测设备市占率<5%**。",
+      "companies": [
+        {
+          "ticker": "300567",
+          "source_tickers": [
+            "300567"
+          ],
+          "name": "精测电子",
+          "roles": [
+            "国产二线"
+          ],
+          "rev": 45.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "6857.T",
+          "source_tickers": [
+            "6857.T"
+          ],
+          "name": "Advantest",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 25.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "688200",
+          "source_tickers": [
+            "688200"
+          ],
+          "name": "华峰测控",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 50.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688361",
+          "source_tickers": [
+            "688361"
+          ],
+          "name": "中科飞测",
+          "roles": [
+            "概念股"
+          ],
+          "rev": 70.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "6920.T",
+          "source_tickers": [
+            "6920.T"
+          ],
+          "name": "Lasertec",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 85.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "8036.T",
+          "source_tickers": [
+            "8036.T"
+          ],
+          "name": "Hitachi High-Tech",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 15.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "AMAT",
+          "source_tickers": [
+            "AMAT"
+          ],
+          "name": "Applied Materials",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 12.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "CAMT",
+          "source_tickers": [
+            "CAMT"
+          ],
+          "name": "Camtek",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 60.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "KLAC",
+          "source_tickers": [
+            "KLAC"
+          ],
+          "name": "KLA",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 60.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "NVMI",
+          "source_tickers": [
+            "NVMI"
+          ],
+          "name": "Nova Measuring Instruments",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 75.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "TER",
+          "source_tickers": [
+            "TER"
+          ],
+          "name": "Teradyne",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 30.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 11,
+      "n_unique_companies": 11,
+      "n_overseas_candidates": 8,
+      "n_a_share_mapping": 3,
+      "a_share": [
+        {
+          "name": "精测电子",
+          "ticker": "300567",
+          "role": "国产二线"
+        },
+        {
+          "name": "华峰测控",
+          "ticker": "688200",
+          "role": "国产替代"
+        },
+        {
+          "name": "中科飞测",
+          "ticker": "688361",
+          "role": "概念股"
+        }
+      ]
+    },
+    {
+      "segment_id": "sputtering-target",
+      "name": "溅射靶材",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 1,
+      "source_slugs": [
+        "sputtering-target"
+      ],
+      "description": "溅射靶材是PVD工艺**核心耗材**——高能离子轰击靶材表面，溅射原子沉积薄膜。半导体用要求5N+纯度，品类含高纯铜/钽/钛/铝/钨靶。|**全球市场~$2B+，日本JX Metals主导(~30-40%)**，Tosoh、Honeywell、Plansee紧随。中国江丰电子(300666)在铜/钽靶细分快速追赶，已进入TSMC供应链。|AI芯片互连层增加→高纯钽靶/铜靶需求增长。靶材在晶圆成本<5%但不可替代，国产化率从10%→25%+提升。**靶材是消耗品——纯度要求5N+(99.999%以上)，一片12寸晶圆需溅射数十层薄膜，每道PVD工序都消耗靶材。Tosoh(~15%)、Honeywell(~12%，航空航天+半导体双线)、Plansee(~10%，钽靶/钨靶强)紧随。NVIDIA B200互连层数比H100多50%+；3nm以下杂质控制要求从ppm级收紧到ppb级；中国铜/钽靶国产化率~25%，先进制程(<5nm)靶材仍依赖进口（江丰电子进入TSMC 3nm是里程碑）。**",
+      "chain_note": "溅射靶材是PVD工艺**核心耗材**——高能离子轰击靶材表面，溅射原子沉积薄膜。半导体用要求5N+纯度，品类含高纯铜/钽/钛/铝/钨靶。|**全球市场~$2B+，日本JX Metals主导(~30-40%)**，Tosoh、Honeywell、Plansee紧随。中国江丰电子(300666)在铜/钽靶细分快速追赶，已进入TSMC供应链。|AI芯片互连层增加→高纯钽靶/铜靶需求增长。靶材在晶圆成本<5%但不可替代，国产化率从10%→25%+提升。**靶材是消耗品——纯度要求5N+(99.999%以上)，一片12寸晶圆需溅射数十层薄膜，每道PVD工序都消耗靶材。Tosoh(~15%)、Honeywell(~12%，航空航天+半导体双线)、Plansee(~10%，钽靶/钨靶强)紧随。NVIDIA B200互连层数比H100多50%+；3nm以下杂质控制要求从ppm级收紧到ppb级；中国铜/钽靶国产化率~25%，先进制程(<5nm)靶材仍依赖进口（江丰电子进入TSMC 3nm是里程碑）。**",
+      "companies": [
+        {
+          "ticker": "300395",
+          "source_tickers": [
+            "300395"
+          ],
+          "name": "隆华科技",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 30.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "300666",
+          "source_tickers": [
+            "300666"
+          ],
+          "name": "江丰电子",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 60.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "300855",
+          "source_tickers": [
+            "300855"
+          ],
+          "name": "图南股份",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 25.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "4042.T",
+          "source_tickers": [
+            "4042"
+          ],
+          "name": "TOSOH",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 20.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "5016.T",
+          "source_tickers": [
+            "5016.T",
+            "5016"
+          ],
+          "name": "JX Metals",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 50.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "600206",
+          "source_tickers": [
+            "600206"
+          ],
+          "name": "有研新材",
+          "roles": [
+            "国产二线"
+          ],
+          "rev": 40.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "HON",
+          "source_tickers": [
+            "HON"
+          ],
+          "name": "Honeywell Electronic Materials",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 5.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "MTRN",
+          "source_tickers": [
+            "MTRN"
+          ],
+          "name": "Materion",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 25.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 9,
+      "n_unique_companies": 8,
+      "n_overseas_candidates": 4,
+      "n_a_share_mapping": 4,
+      "a_share": [
+        {
+          "name": "隆华科技",
+          "ticker": "300395",
+          "role": "国产替代"
+        },
+        {
+          "name": "江丰电子",
+          "ticker": "300666",
+          "role": "国产龙头"
+        },
+        {
+          "name": "图南股份",
+          "ticker": "300855",
+          "role": "国产替代"
+        },
+        {
+          "name": "有研新材",
+          "ticker": "600206",
+          "role": "国产二线"
+        }
+      ]
+    },
+    {
+      "segment_id": "electronic-gas",
+      "name": "电子特气",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 1,
+      "source_slugs": [
+        "electronic-gas"
+      ],
+      "description": "电子特气是半导体制造的**「血液」**——刻蚀(NF₃/CF₄)、沉积(SiH₄/WF₆)、掺杂(PH₃)和清洗气体，12寸晶圆厂消耗30-50种气体。纯度从5N向6-7N升级。|**全球$6.3B(2025,TECHCET)→$6.8B(2026),CAGR 5%**。NF₃是最大品类($2.5B,2024)，WF₆增速最快(+12% YoY,3D NAND驱动)。**Linde(~23-25%),Air Liquide(17-19%),Air Products(12-14%),SK Materials(8-10%)** 四大巨头。|**电子特气在晶圆成本中占~5%，但NF₃/WF₆不可替代**。中国国产替代加速(中船特气NF₃全球18%份额)，但高端品类仍依赖进口。**纯度与稳定性是核心竞争力——任何微量杂质都会导致芯片缺陷，先进制程要求纯度从5N(99.999%)向6-7N(99.99999%)升级。Linde 总营收$33.4B、NF₃/WF₆/He 全品类；中国 NF₃ 国产化率已较高(~40%)，但高端品类(WF₆/SiH₄)仍依赖进口，中船特气国产替代进展在材料中最快；台/韩/美 fab 扩建（TSMC/Samsung/Intel 2026 Capex $150B+）持续拉动气体需求，EUV 光刻机还需大量超纯 He/N₂ 冷却光源。**",
+      "chain_note": "电子特气是半导体制造的**「血液」**——刻蚀(NF₃/CF₄)、沉积(SiH₄/WF₆)、掺杂(PH₃)和清洗气体，12寸晶圆厂消耗30-50种气体。纯度从5N向6-7N升级。|**全球$6.3B(2025,TECHCET)→$6.8B(2026),CAGR 5%**。NF₃是最大品类($2.5B,2024)，WF₆增速最快(+12% YoY,3D NAND驱动)。**Linde(~23-25%),Air Liquide(17-19%),Air Products(12-14%),SK Materials(8-10%)** 四大巨头。|**电子特气在晶圆成本中占~5%，但NF₃/WF₆不可替代**。中国国产替代加速(中船特气NF₃全球18%份额)，但高端品类仍依赖进口。**纯度与稳定性是核心竞争力——任何微量杂质都会导致芯片缺陷，先进制程要求纯度从5N(99.999%)向6-7N(99.99999%)升级。Linde 总营收$33.4B、NF₃/WF₆/He 全品类；中国 NF₃ 国产化率已较高(~40%)，但高端品类(WF₆/SiH₄)仍依赖进口，中船特气国产替代进展在材料中最快；台/韩/美 fab 扩建（TSMC/Samsung/Intel 2026 Capex $150B+）持续拉动气体需求，EUV 光刻机还需大量超纯 He/N₂ 冷却光源。**",
+      "companies": [
+        {
+          "ticker": "002409",
+          "source_tickers": [
+            "002409"
+          ],
+          "name": "雅克科技",
+          "roles": [
+            "国产二线"
+          ],
+          "rev": 15.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "036490",
+          "source_tickers": [
+            "036490"
+          ],
+          "name": "SK Materials",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 70.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "300346",
+          "source_tickers": [
+            "300346"
+          ],
+          "name": "南大光电",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 15.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "4091.T",
+          "source_tickers": [
+            "4091"
+          ],
+          "name": "Nippon Sanso (大阳日酸)",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 12.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "688106",
+          "source_tickers": [
+            "688106"
+          ],
+          "name": "金宏气体",
+          "roles": [
+            "国产二线"
+          ],
+          "rev": 30.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688146",
+          "source_tickers": [
+            "688146"
+          ],
+          "name": "中船特气",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 50.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688268",
+          "source_tickers": [
+            "688268"
+          ],
+          "name": "华特气体",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 55.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "AI.PA",
+          "source_tickers": [
+            "AI.PA",
+            "AI"
+          ],
+          "name": "Air Liquide",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 8.0,
+          "market_guess": "FR",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "ENTG",
+          "source_tickers": [
+            "ENTG"
+          ],
+          "name": "Entegris",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 30.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "LIN",
+          "source_tickers": [
+            "LIN"
+          ],
+          "name": "Linde",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 10.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 11,
+      "n_unique_companies": 10,
+      "n_overseas_candidates": 4,
+      "n_a_share_mapping": 6,
+      "a_share": [
+        {
+          "name": "雅克科技",
+          "ticker": "002409",
+          "role": "国产二线"
+        },
+        {
+          "name": "SK Materials",
+          "ticker": "036490",
+          "role": "二线弹性"
+        },
+        {
+          "name": "南大光电",
+          "ticker": "300346",
+          "role": "国产替代"
+        },
+        {
+          "name": "金宏气体",
+          "ticker": "688106",
+          "role": "国产二线"
+        },
+        {
+          "name": "中船特气",
+          "ticker": "688146",
+          "role": "国产龙头"
+        },
+        {
+          "name": "华特气体",
+          "ticker": "688268",
+          "role": "国产龙头"
+        }
+      ]
     },
     {
       "segment_id": "switch-chip",
@@ -4139,6 +5819,168 @@
       "a_share": []
     },
     {
+      "segment_id": "thin-film-deposition",
+      "name": "薄膜沉积设备",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 2,
+      "source_slugs": [
+        "thin-film-deposition"
+      ],
+      "description": "薄膜沉积在硅片表面生长/沉积纳米级厚度薄膜——是芯片制造中**重复次数最多的步骤**。三大技术：CVD(化学气相)、PVD(物理溅射)、ALD(原子层,增速最快)。|**全球WFE~$41.4B(2025)，CR3~75%：AMAT(42%,PVD/CVD)、Lam(19%,ALD)、TEL(14%)**。3D NAND+ GAA驱动原子级ALD需求指数增长。AMAT在PVD/CVD/成熟蚀刻领域正被中国蚕食，每年丢2-4%份额。|**中国国产替代加速**：拓荆科技(688072,PECVD龙头)+微导纳米(688147,ALD龙头)。中国半导体设备整体份额从1.2%(2021)→6.5%(2025)，AMAT中国收入预计2026降15-20%。|**工艺门槛与差距**：300mm晶圆整面膜厚差需<1nm、颗粒<0.1粒子/cm²、3D NAND 400+层深孔台阶覆盖是三大工艺难点；中国PECVD差距5-7年、ALD差距7-10年，先进制程(<7nm)薄膜沉积100%进口。",
+      "chain_note": "薄膜沉积在硅片表面生长/沉积纳米级厚度薄膜——是芯片制造中**重复次数最多的步骤**。三大技术：CVD(化学气相)、PVD(物理溅射)、ALD(原子层,增速最快)。|**全球WFE~$41.4B(2025)，CR3~75%：AMAT(42%,PVD/CVD)、Lam(19%,ALD)、TEL(14%)**。3D NAND+ GAA驱动原子级ALD需求指数增长。AMAT在PVD/CVD/成熟蚀刻领域正被中国蚕食，每年丢2-4%份额。|**中国国产替代加速**：拓荆科技(688072,PECVD龙头)+微导纳米(688147,ALD龙头)。中国半导体设备整体份额从1.2%(2021)→6.5%(2025)，AMAT中国收入预计2026降15-20%。|**工艺门槛与差距**：300mm晶圆整面膜厚差需<1nm、颗粒<0.1粒子/cm²、3D NAND 400+层深孔台阶覆盖是三大工艺难点；中国PECVD差距5-7年、ALD差距7-10年，先进制程(<7nm)薄膜沉积100%进口。",
+      "companies": [
+        {
+          "ticker": "002371",
+          "source_tickers": [
+            "002371"
+          ],
+          "name": "北方华创",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 40.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "6525.T",
+          "source_tickers": [
+            "6525.T"
+          ],
+          "name": "Kokusai Electric",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 70.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "6728.T",
+          "source_tickers": [
+            "6728"
+          ],
+          "name": "ULVAC",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 50.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "688072",
+          "source_tickers": [
+            "688072"
+          ],
+          "name": "拓荆科技",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 80.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688147",
+          "source_tickers": [
+            "688147"
+          ],
+          "name": "微导纳米",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 65.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "8035.T",
+          "source_tickers": [
+            "8035.T"
+          ],
+          "name": "Tokyo Electron",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 14.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "AMAT",
+          "source_tickers": [
+            "AMAT"
+          ],
+          "name": "Applied Materials",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 30.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "LRCX",
+          "source_tickers": [
+            "LRCX"
+          ],
+          "name": "Lam Research",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 19.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "PFV.DE",
+          "source_tickers": [
+            "PFV"
+          ],
+          "name": "Pfeiffer Vacuum",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 40.0,
+          "market_guess": "DE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 9,
+      "n_unique_companies": 9,
+      "n_overseas_candidates": 6,
+      "n_a_share_mapping": 3,
+      "a_share": [
+        {
+          "name": "北方华创",
+          "ticker": "002371",
+          "role": "国产龙头"
+        },
+        {
+          "name": "拓荆科技",
+          "ticker": "688072",
+          "role": "二线弹性"
+        },
+        {
+          "name": "微导纳米",
+          "ticker": "688147",
+          "role": "二线弹性"
+        }
+      ]
+    },
+    {
       "segment_id": "edge-ai",
       "name": "边缘AI",
       "industry_tags": [
@@ -4259,6 +6101,313 @@
           "name": "韦尔股份",
           "ticker": "603501",
           "role": "二线弹性"
+        }
+      ]
+    },
+    {
+      "segment_id": "silicon-wafer",
+      "name": "高纯硅料与硅片",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 1,
+      "source_slugs": [
+        "silicon-wafer"
+      ],
+      "description": "半导体级多晶硅(11N纯度)经拉晶/切割/研磨/抛光制成单晶硅片——芯片制造的**「画布」**。300mm(12英寸)是当前主流，占全球出货量70%+。|**全球市场$14.6B(2025)→$20.2B(2030)，CAGR 6.7%**。Top5占>85%份额：**信越化学(24%,$3.8B)、SUMCO(20%,$3.1B)、环球晶圆(16%,$2.5B)、Siltronic(11%,$1.8B)、SK Siltron(9%,$1.4B)**。12英寸晶圆市场$12.9B，日本产35%。|**中国国产化率仅4.2%**(8家国产厂商合计)，NSIG(沪硅产业)领衔国产替代但差距巨大。先进制程对硅片缺陷密度要求<0.01 defects/cm²。|**技术门槛与差距**：中国国产化率4.2%为所有半导体材料中最低，差距10年+，先进制程(<5nm)硅片100%依赖进口；11N+超高纯多晶硅提纯全球仅Wacker/Hemlock/三菱等少数掌握，300mm拉晶良率需>95%、晶体缺陷控制极难。",
+      "chain_note": "半导体级多晶硅(11N纯度)经拉晶/切割/研磨/抛光制成单晶硅片——芯片制造的**「画布」**。300mm(12英寸)是当前主流，占全球出货量70%+。|**全球市场$14.6B(2025)→$20.2B(2030)，CAGR 6.7%**。Top5占>85%份额：**信越化学(24%,$3.8B)、SUMCO(20%,$3.1B)、环球晶圆(16%,$2.5B)、Siltronic(11%,$1.8B)、SK Siltron(9%,$1.4B)**。12英寸晶圆市场$12.9B，日本产35%。|**中国国产化率仅4.2%**(8家国产厂商合计)，NSIG(沪硅产业)领衔国产替代但差距巨大。先进制程对硅片缺陷密度要求<0.01 defects/cm²。|**技术门槛与差距**：中国国产化率4.2%为所有半导体材料中最低，差距10年+，先进制程(<5nm)硅片100%依赖进口；11N+超高纯多晶硅提纯全球仅Wacker/Hemlock/三菱等少数掌握，300mm拉晶良率需>95%、晶体缺陷控制极难。",
+      "companies": [
+        {
+          "ticker": "002129",
+          "source_tickers": [
+            "002129"
+          ],
+          "name": "TCL中环",
+          "roles": [
+            "国产二线"
+          ],
+          "rev": 20.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "3436.T",
+          "source_tickers": [
+            "3436.T"
+          ],
+          "name": "SUMCO",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 90.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "4063.T",
+          "source_tickers": [
+            "4063.T"
+          ],
+          "name": "信越化学 (Shin-Etsu)",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 30.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "605358",
+          "source_tickers": [
+            "605358"
+          ],
+          "name": "立昂微",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 50.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "6488.TW",
+          "source_tickers": [
+            "6488.TW",
+            "6488"
+          ],
+          "name": "环球晶圆 (GlobalWafers)",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 85.0,
+          "market_guess": "TW",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "688126",
+          "source_tickers": [
+            "688126"
+          ],
+          "name": "沪硅产业",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": 55.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688432",
+          "source_tickers": [
+            "688432"
+          ],
+          "name": "有研硅",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 40.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "688584",
+          "source_tickers": [
+            "688584"
+          ],
+          "name": "上海合晶",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 45.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "SOI.PA",
+          "source_tickers": [
+            "SOI.PA"
+          ],
+          "name": "Soitec",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 70.0,
+          "market_guess": "FR",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "WAF.DE",
+          "source_tickers": [
+            "WAF.DE"
+          ],
+          "name": "Siltronic",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 90.0,
+          "market_guess": "DE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 11,
+      "n_unique_companies": 10,
+      "n_overseas_candidates": 5,
+      "n_a_share_mapping": 5,
+      "a_share": [
+        {
+          "name": "TCL中环",
+          "ticker": "002129",
+          "role": "国产二线"
+        },
+        {
+          "name": "立昂微",
+          "ticker": "605358",
+          "role": "国产龙头"
+        },
+        {
+          "name": "沪硅产业",
+          "ticker": "688126",
+          "role": "国产龙头"
+        },
+        {
+          "name": "有研硅",
+          "ticker": "688432",
+          "role": "国产替代"
+        },
+        {
+          "name": "上海合晶",
+          "ticker": "688584",
+          "role": "国产替代"
+        }
+      ]
+    },
+    {
+      "segment_id": "high-speed-connector",
+      "name": "高速连接器与铜缆",
+      "industry_tags": [
+        "AI算力"
+      ],
+      "layer": 2,
+      "source_slugs": [
+        "high-speed-connector"
+      ],
+      "description": "高速连接器是AI服务器内部**「神经系统」**——芯片间/板卡间传输超高速电信号。GB200 NVL72仅NVLink背板连接器价值$10,000+。信号速率112G→224G→448G演进。|**Amphenol(APH)凭NVLink独家供应成全球连接器龙头**，TE Connectivity+Tesla bot连接器,Molex。中国立讯精密(002475)AI服务器连接器份额快速上升，已进入NVIDIA供应链。|**价值量跃升**：连接器ASP随速率翻倍从$100→$1000+，每台GB200连接器成本$15K+，AI服务器连接器价值量远超传统服务器；信号完整性（SI/PI）成为核心设计挑战。",
+      "chain_note": "高速连接器是AI服务器内部**「神经系统」**——芯片间/板卡间传输超高速电信号。GB200 NVL72仅NVLink背板连接器价值$10,000+。信号速率112G→224G→448G演进。|**Amphenol(APH)凭NVLink独家供应成全球连接器龙头**，TE Connectivity+Tesla bot连接器,Molex。中国立讯精密(002475)AI服务器连接器份额快速上升，已进入NVIDIA供应链。|**价值量跃升**：连接器ASP随速率翻倍从$100→$1000+，每台GB200连接器成本$15K+，AI服务器连接器价值量远超传统服务器；信号完整性（SI/PI）成为核心设计挑战。",
+      "companies": [
+        {
+          "ticker": "002025",
+          "source_tickers": [
+            "002025"
+          ],
+          "name": "中航光电",
+          "roles": [
+            "国产二线"
+          ],
+          "rev": 25.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "002475",
+          "source_tickers": [
+            "002475"
+          ],
+          "name": "Luxshare Precision (立讯精密)",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 5.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "300602",
+          "source_tickers": [
+            "300602"
+          ],
+          "name": "飞荣达",
+          "roles": [
+            "国产替代"
+          ],
+          "rev": 15.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "APH",
+          "source_tickers": [
+            "APH"
+          ],
+          "name": "Amphenol",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 15.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "AVGO",
+          "source_tickers": [
+            "AVGO"
+          ],
+          "name": "Broadcom",
+          "roles": [
+            "概念股"
+          ],
+          "rev": 5.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "TEL",
+          "source_tickers": [
+            "TEL"
+          ],
+          "name": "TE Connectivity",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": 12.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        }
+      ],
+      "n_source_companies": 6,
+      "n_unique_companies": 6,
+      "n_overseas_candidates": 3,
+      "n_a_share_mapping": 3,
+      "a_share": [
+        {
+          "name": "中航光电",
+          "ticker": "002025",
+          "role": "国产二线"
+        },
+        {
+          "name": "Luxshare Precision (立讯精密)",
+          "ticker": "002475",
+          "role": "二线弹性"
+        },
+        {
+          "name": "飞荣达",
+          "ticker": "300602",
+          "role": "国产替代"
         }
       ]
     },
@@ -4625,496 +6774,6 @@
       ]
     },
     {
-      "segment_id": "server-cpu",
-      "name": "CPU(服务器级)",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 3,
-      "source_slugs": [
-        "semi-server-cpu",
-        "server-cpu"
-      ],
-      "description": "服务器CPU是数据中心的**通用计算大脑**——运行OS、管理内存、调度任务、协调GPU/HBM/网络等加速器。**Agentic AI训练让CPU重回数据中心核心**：RL训练循环需大量CPU做编译+验证+Tool Use，CPU:GPU比例从1:8→1:1。|**x86双雄：Intel Xeon(~59-71%单位份额) vs AMD EPYC（收入份额首破41.3%，Q4 2025）**。AMD Turin 192核(Zen 5c/3nm)、Intel Granite Rapids 128核(Intel 3)。AMD ASP是Intel 2x。2026年双方均涨价(Intel 8-10%, AMD 16-17%)。|**ARM阵营快速增长（13-16%份额）**：AWS Graviton(2M+颗,30-40%性价比优势)、NVIDIA Grace(2025出货~2.5M颗, 2x perf/watt vs x86)、Ampere(SoftBank收购)。ARM目标2030年40%份额。中国CPU三路线：海光(x86 AMD授权)+飞腾(ARM)+鲲鹏(ARM)。",
-      "chain_note": "服务器CPU是数据中心的**通用计算大脑**——运行OS、管理内存、调度任务、协调GPU/HBM/网络等加速器。**Agentic AI训练让CPU重回数据中心核心**：RL训练循环需大量CPU做编译+验证+Tool Use，CPU:GPU比例从1:8→1:1。|**x86双雄：Intel Xeon(~59-71%单位份额) vs AMD EPYC（收入份额首破41.3%，Q4 2025）**。AMD Turin 192核(Zen 5c/3nm)、Intel Granite Rapids 128核(Intel 3)。AMD ASP是Intel 2x。2026年双方均涨价(Intel 8-10%, AMD 16-17%)。|**ARM阵营快速增长（13-16%份额）**：AWS Graviton(2M+颗,30-40%性价比优势)、NVIDIA Grace(2025出货~2.5M颗, 2x perf/watt vs x86)、Ampere(SoftBank收购)。ARM目标2030年40%份额。中国CPU三路线：海光(x86 AMD授权)+飞腾(ARM)+鲲鹏(ARM)。",
-      "companies": [
-        {
-          "ticker": "688047",
-          "source_tickers": [
-            "688047"
-          ],
-          "name": "龙芯中科",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 30.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688256",
-          "source_tickers": [
-            "688256"
-          ],
-          "name": "寒武纪",
-          "roles": [
-            "概念相关"
-          ],
-          "rev": 10.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "AMD",
-          "source_tickers": [
-            "AMD"
-          ],
-          "name": "AMD",
-          "roles": [
-            "全球二线",
-            "龙头"
-          ],
-          "rev": 35.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "ARM",
-          "source_tickers": [
-            "ARM"
-          ],
-          "name": "ARM Holdings",
-          "roles": [
-            "生态主导"
-          ],
-          "rev": 10.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "INTC",
-          "source_tickers": [
-            "INTC"
-          ],
-          "name": "Intel",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 60.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "NVDA",
-          "source_tickers": [
-            "NVDA"
-          ],
-          "name": "NVIDIA(Grace)",
-          "roles": [
-            "新兴势力",
-            "二线弹性"
-          ],
-          "rev": 5.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 9,
-      "n_unique_companies": 6,
-      "n_overseas_candidates": 4,
-      "n_a_share_mapping": 2,
-      "a_share": [
-        {
-          "name": "龙芯中科",
-          "ticker": "688047",
-          "role": "国产替代"
-        },
-        {
-          "name": "寒武纪",
-          "ticker": "688256",
-          "role": "概念相关"
-        }
-      ]
-    },
-    {
-      "segment_id": "chiplet",
-      "name": "Chiplet与异构集成",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 2,
-      "source_slugs": [
-        "chiplet",
-        "semi-chiplet"
-      ],
-      "description": "Chiplet将传统单一大芯片拆分为多个功能模块（Compute Die + I/O Die + Memory Die），分别在不同工艺节点制造后再通过先进封装集成——**「分而治之」**。AMD是Chiplet商业化先驱（EPYC的CCD+IOD架构，MI300X使用9颗Chiplet）。|**UCIe 1.0/2.0标准推动Chiplet从私有方案走向开放生态**——Intel/AMD/ARM/Qualcomm/NVIDIA/TSMC联合制定标准，实现1.6TB/s die-to-die带宽。Chiplet可将芯片设计成本从$500M降至$100M（IP复用）。|**市场$13.6B(2025)→$22.6B(2026)→$168.6B(2030)，CAGR 65%**。TSMC主导先进封装产能(~55%全球份额，CoWoS/SoIC/3DFabric)。",
-      "chain_note": "Chiplet将传统单一大芯片拆分为多个功能模块（Compute Die + I/O Die + Memory Die），分别在不同工艺节点制造后再通过先进封装集成——**「分而治之」**。AMD是Chiplet商业化先驱（EPYC的CCD+IOD架构，MI300X使用9颗Chiplet）。|**UCIe 1.0/2.0标准推动Chiplet从私有方案走向开放生态**——Intel/AMD/ARM/Qualcomm/NVIDIA/TSMC联合制定标准，实现1.6TB/s die-to-die带宽。Chiplet可将芯片设计成本从$500M降至$100M（IP复用）。|**市场$13.6B(2025)→$22.6B(2026)→$168.6B(2030)，CAGR 65%**。TSMC主导先进封装产能(~55%全球份额，CoWoS/SoIC/3DFabric)。",
-      "companies": [
-        {
-          "ticker": "002156",
-          "source_tickers": [
-            "002156"
-          ],
-          "name": "通富微电",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 35.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "002185",
-          "source_tickers": [
-            "002185"
-          ],
-          "name": "华天科技",
-          "roles": [
-            "国产二线"
-          ],
-          "rev": 25.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "600584",
-          "source_tickers": [
-            "600584"
-          ],
-          "name": "长电科技",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 30.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688521",
-          "source_tickers": [
-            "688521"
-          ],
-          "name": "芯原股份",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 40.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "AMD",
-          "source_tickers": [
-            "AMD"
-          ],
-          "name": "AMD(Xilinx)",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 30.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "INTC",
-          "source_tickers": [
-            "INTC"
-          ],
-          "name": "Intel",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 15.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "NVDA",
-          "source_tickers": [
-            "NVDA"
-          ],
-          "name": "NVIDIA",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 10.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "TSM",
-          "source_tickers": [
-            "TSM"
-          ],
-          "name": "TSMC(台积电)",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 20.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 10,
-      "n_unique_companies": 8,
-      "n_overseas_candidates": 4,
-      "n_a_share_mapping": 4,
-      "a_share": [
-        {
-          "name": "通富微电",
-          "ticker": "002156",
-          "role": "国产龙头"
-        },
-        {
-          "name": "华天科技",
-          "ticker": "002185",
-          "role": "国产二线"
-        },
-        {
-          "name": "长电科技",
-          "ticker": "600584",
-          "role": "国产龙头"
-        },
-        {
-          "name": "芯原股份",
-          "ticker": "688521",
-          "role": "国产替代"
-        }
-      ]
-    },
-    {
-      "segment_id": "eda-ip",
-      "name": "EDA与IP核",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 2,
-      "source_slugs": [
-        "eda-ip",
-        "semi-eda-ip"
-      ],
-      "description": "**EDA是芯片设计的「操作系统」**——从架构设计到物理验证的全流程自动化工具。没有EDA，设计一颗1000亿晶体管的AI芯片是不可能的。**IP核是预先设计好、经过验证的可复用电路模块**——现代SoC设计越来越像「搭乐高」，CPU核(ARM)、GPU核、DDR/HBM PHY、PCIe SerDes等都是可购买的IP模块。|**全球EDA+IP市场~$18B(2025)，三巨头CR3>85%：Synopsys(FY2025含Ansys $9.56B，积压$11.4B，100%先进节点份额)、Cadence($5.3B，积压$7.8B，硬件仿真55-60%份额)、Siemens EDA($2.2-2.5B)**。3nm工具价格是28nm的3-5倍，95%+客户留存，3-7%年涨价+AI溢价20%。|**AI-EDA增速~20% CAGR**——Synopsys AgentEngineer用LLM/Agentic AI将设计效率提升5倍。超大规模客户(GPU/TPU/AI ASIC)贡献EDA 45%需求，5年前几乎为零。中国华大九天(301269)国产EDA#1，但全流程差距10年+。",
-      "chain_note": "**EDA是芯片设计的「操作系统」**——从架构设计到物理验证的全流程自动化工具。没有EDA，设计一颗1000亿晶体管的AI芯片是不可能的。**IP核是预先设计好、经过验证的可复用电路模块**——现代SoC设计越来越像「搭乐高」，CPU核(ARM)、GPU核、DDR/HBM PHY、PCIe SerDes等都是可购买的IP模块。|**全球EDA+IP市场~$18B(2025)，三巨头CR3>85%：Synopsys(FY2025含Ansys $9.56B，积压$11.4B，100%先进节点份额)、Cadence($5.3B，积压$7.8B，硬件仿真55-60%份额)、Siemens EDA($2.2-2.5B)**。3nm工具价格是28nm的3-5倍，95%+客户留存，3-7%年涨价+AI溢价20%。|**AI-EDA增速~20% CAGR**——Synopsys AgentEngineer用LLM/Agentic AI将设计效率提升5倍。超大规模客户(GPU/TPU/AI ASIC)贡献EDA 45%需求，5年前几乎为零。中国华大九天(301269)国产EDA#1，但全流程差距10年+。",
-      "companies": [
-        {
-          "ticker": "301269",
-          "source_tickers": [
-            "301269"
-          ],
-          "name": "华大九天",
-          "roles": [
-            "国产龙头",
-            "二线弹性"
-          ],
-          "rev": 95.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688206",
-          "source_tickers": [
-            "688206"
-          ],
-          "name": "概伦电子",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 45.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "CDNS",
-          "source_tickers": [
-            "CDNS"
-          ],
-          "name": "Cadence",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 85.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "NVDA",
-          "source_tickers": [
-            "NVDA"
-          ],
-          "name": "NVIDIA",
-          "roles": [
-            "概念股"
-          ],
-          "rev": 5.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "SNPS",
-          "source_tickers": [
-            "SNPS"
-          ],
-          "name": "Synopsys",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 80.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 8,
-      "n_unique_companies": 5,
-      "n_overseas_candidates": 3,
-      "n_a_share_mapping": 2,
-      "a_share": [
-        {
-          "name": "华大九天",
-          "ticker": "301269",
-          "role": "国产龙头; 二线弹性"
-        },
-        {
-          "name": "概伦电子",
-          "ticker": "688206",
-          "role": "国产替代"
-        }
-      ]
-    },
-    {
-      "segment_id": "fpga",
-      "name": "FPGA",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 3,
-      "source_slugs": [
-        "fpga",
-        "semi-fpga"
-      ],
-      "description": "FPGA（Field-Programmable Gate Array）是制造后可通过软件**重新配置其逻辑电路**的芯片——介于ASIC（固定功能）和CPU/GPU（通用计算）之间。核心优势：**硬件级可编程性+微秒级超低延迟**——金融量化交易、网络包处理、信号情报和AI推理中不可替代。|**AMD(Xilinx，#1，~55%份额，Versal AI Edge)和Intel(Altera，#2，~28%份额，Agilex)**主导CR2>80%。Lattice(~8%)在低功耗FPGA领先。全球市场$9B(2025)。|**中国复旦微电(688385)28nm FPGA量产**，安路科技(688107)和紫光同创快速追赶。国产化率从<5%→15%+。RISC-V+FPGA组合降低硬件设计门槛。",
-      "chain_note": "FPGA（Field-Programmable Gate Array）是制造后可通过软件**重新配置其逻辑电路**的芯片——介于ASIC（固定功能）和CPU/GPU（通用计算）之间。核心优势：**硬件级可编程性+微秒级超低延迟**——金融量化交易、网络包处理、信号情报和AI推理中不可替代。|**AMD(Xilinx，#1，~55%份额，Versal AI Edge)和Intel(Altera，#2，~28%份额，Agilex)**主导CR2>80%。Lattice(~8%)在低功耗FPGA领先。全球市场$9B(2025)。|**中国复旦微电(688385)28nm FPGA量产**，安路科技(688107)和紫光同创快速追赶。国产化率从<5%→15%+。RISC-V+FPGA组合降低硬件设计门槛。",
-      "companies": [
-        {
-          "ticker": "688107",
-          "source_tickers": [
-            "688107"
-          ],
-          "name": "安路科技",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 55.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688385",
-          "source_tickers": [
-            "688385"
-          ],
-          "name": "复旦微电",
-          "roles": [
-            "国产替代",
-            "概念股"
-          ],
-          "rev": 35.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "AMD",
-          "source_tickers": [
-            "AMD"
-          ],
-          "name": "AMD(Xilinx)",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 30.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "INTC",
-          "source_tickers": [
-            "INTC"
-          ],
-          "name": "Intel(Altera)",
-          "roles": [
-            "全球二线",
-            "龙头"
-          ],
-          "rev": 20.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "LSCC",
-          "source_tickers": [
-            "LSCC"
-          ],
-          "name": "Lattice Semi",
-          "roles": [
-            "全球二线",
-            "二线弹性"
-          ],
-          "rev": 95.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 9,
-      "n_unique_companies": 5,
-      "n_overseas_candidates": 3,
-      "n_a_share_mapping": 2,
-      "a_share": [
-        {
-          "name": "安路科技",
-          "ticker": "688107",
-          "role": "国产替代"
-        },
-        {
-          "name": "复旦微电",
-          "ticker": "688385",
-          "role": "国产替代; 概念股"
-        }
-      ]
-    },
-    {
       "segment_id": "semi-ic-design-service",
       "name": "IC设计服务(Fabless)",
       "industry_tags": [
@@ -5405,100 +7064,6 @@
       ]
     },
     {
-      "segment_id": "riscv-ai",
-      "name": "RISC-V AI芯片",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 4,
-      "source_slugs": [
-        "riscv-ai",
-        "semi-riscv-ai"
-      ],
-      "description": "RISC-V是一个**开源指令集架构（ISA）**——任何人可以免费使用和修改，不像x86（Intel/AMD专有）或ARM（高昂授权费+地缘政治限制）。|在AI芯片领域，RISC-V让创业公司以极低成本设计AI加速器（无ISA授权费，$0 vs ARM $10M+）。**Tenstorrent（Jim Keller领衔，RISC-V+Chiplet AI芯片）和Esperanto（千核RISC-V AI推理）是两大标杆**。|**中国RISC-V生态全球最活跃**——阿里平头哥玄铁(C910/C920系列)、中科院包云岗团队（香山处理器）、芯来科技。RISC-V AI芯片份额从近乎零(2023)→~2%(2025)→预计10%+(2030)。中国受ARM授权限制（美国制裁）→加速RISC-V替代，地缘政治是最大催化剂。",
-      "chain_note": "RISC-V是一个**开源指令集架构（ISA）**——任何人可以免费使用和修改，不像x86（Intel/AMD专有）或ARM（高昂授权费+地缘政治限制）。|在AI芯片领域，RISC-V让创业公司以极低成本设计AI加速器（无ISA授权费，$0 vs ARM $10M+）。**Tenstorrent（Jim Keller领衔，RISC-V+Chiplet AI芯片）和Esperanto（千核RISC-V AI推理）是两大标杆**。|**中国RISC-V生态全球最活跃**——阿里平头哥玄铁(C910/C920系列)、中科院包云岗团队（香山处理器）、芯来科技。RISC-V AI芯片份额从近乎零(2023)→~2%(2025)→预计10%+(2030)。中国受ARM授权限制（美国制裁）→加速RISC-V替代，地缘政治是最大催化剂。",
-      "companies": [
-        {
-          "ticker": "300223",
-          "source_tickers": [
-            "300223"
-          ],
-          "name": "北京君正",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 20.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "603986",
-          "source_tickers": [
-            "603986"
-          ],
-          "name": "兆易创新",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 15.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688521",
-          "source_tickers": [
-            "688521"
-          ],
-          "name": "芯原股份",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 25.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "BABA",
-          "source_tickers": [
-            "BABA"
-          ],
-          "name": "阿里巴巴(平头哥)",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 10.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 6,
-      "n_unique_companies": 4,
-      "n_overseas_candidates": 1,
-      "n_a_share_mapping": 3,
-      "a_share": [
-        {
-          "name": "北京君正",
-          "ticker": "300223",
-          "role": "国产替代"
-        },
-        {
-          "name": "兆易创新",
-          "ticker": "603986",
-          "role": "国产替代"
-        },
-        {
-          "name": "芯原股份",
-          "ticker": "688521",
-          "role": "国产替代"
-        }
-      ]
-    },
-    {
       "segment_id": "semi-advanced-packaging",
       "name": "先进封装(CoWoS/3D)",
       "industry_tags": [
@@ -5595,280 +7160,6 @@
       ]
     },
     {
-      "segment_id": "lithography",
-      "name": "光刻机",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 2,
-      "source_slugs": [
-        "lithography",
-        "semi-lithography"
-      ],
-      "description": "光刻机是芯片制造中**最核心、最昂贵的设备**——通过光学系统将电路图案投影到硅片上。一台EUV光刻机售价超过$3亿，重达180吨，包含超过10万个零部件。|**ASML垄断全球EUV市场（100%份额）和整体光刻机市场83%份额**。FY2025营收€32.7B(+15% YoY)，净利€9.6B，毛利率52.8%。EUV出货48台(€11.6B,+39%)。订单积压€38.8B创纪录(EUV占66%)。|**High-NA EUV（EXE:5200）是下一代光刻技术**，2025年首批交付Intel(18A HVM)，单台售价$380-400M。Nikon和Canon在DUV中低端市场有一定份额。中国SMEE在90nm量产，28nm浸没式研发中，差距约15年。",
-      "chain_note": "光刻机是芯片制造中**最核心、最昂贵的设备**——通过光学系统将电路图案投影到硅片上。一台EUV光刻机售价超过$3亿，重达180吨，包含超过10万个零部件。|**ASML垄断全球EUV市场（100%份额）和整体光刻机市场83%份额**。FY2025营收€32.7B(+15% YoY)，净利€9.6B，毛利率52.8%。EUV出货48台(€11.6B,+39%)。订单积压€38.8B创纪录(EUV占66%)。|**High-NA EUV（EXE:5200）是下一代光刻技术**，2025年首批交付Intel(18A HVM)，单台售价$380-400M。Nikon和Canon在DUV中低端市场有一定份额。中国SMEE在90nm量产，28nm浸没式研发中，差距约15年。",
-      "companies": [
-        {
-          "ticker": "688012",
-          "source_tickers": [
-            "688012"
-          ],
-          "name": "上海微电子",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 60.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "7731.T",
-          "source_tickers": [
-            "7731.T"
-          ],
-          "name": "佳能(Canon)",
-          "roles": [
-            "全球二线"
-          ],
-          "rev": 30.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "AFX.DE",
-          "source_tickers": [
-            "AFX.DE"
-          ],
-          "name": "Zeiss (蔡司)",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 25.0,
-          "market_guess": "DE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "ASML",
-          "source_tickers": [
-            "ASML"
-          ],
-          "name": "ASML",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 95.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 6,
-      "n_unique_companies": 4,
-      "n_overseas_candidates": 3,
-      "n_a_share_mapping": 1,
-      "a_share": [
-        {
-          "name": "上海微电子",
-          "ticker": "688012",
-          "role": "国产替代"
-        }
-      ]
-    },
-    {
-      "segment_id": "photoresist",
-      "name": "光刻胶与湿化学品",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 1,
-      "source_slugs": [
-        "photoresist",
-        "semi-photoresist"
-      ],
-      "description": "光刻胶是光刻工艺中的**关键耗材**——通过紫外光或极紫外光曝光将掩模版图案转移到硅片上。分为正性和负性两种类型，**分辨率、对比度、灵敏度**是三大核心指标。|**高端光刻胶技术壁垒极高**——ArF浸没式和EUV光刻胶全球仅JSR、TOK、Shin-Etsu、DuPont等少数企业掌握量产能力。EUV光刻胶需满足13.5nm波长分辨率，是光刻胶中最高技术壁垒。|**中国ArF光刻胶国产化率不足1%**，KrF约2%，是所有半导体材料中国产化率最低的环节。彤程新材（603650）、南大光电（300346）、上海新阳（300236）正在快速追赶。日本JSR被JIC国有化后，光刻胶已成地缘政治武器。",
-      "chain_note": "光刻胶是光刻工艺中的**关键耗材**——通过紫外光或极紫外光曝光将掩模版图案转移到硅片上。分为正性和负性两种类型，**分辨率、对比度、灵敏度**是三大核心指标。|**高端光刻胶技术壁垒极高**——ArF浸没式和EUV光刻胶全球仅JSR、TOK、Shin-Etsu、DuPont等少数企业掌握量产能力。EUV光刻胶需满足13.5nm波长分辨率，是光刻胶中最高技术壁垒。|**中国ArF光刻胶国产化率不足1%**，KrF约2%，是所有半导体材料中国产化率最低的环节。彤程新材（603650）、南大光电（300346）、上海新阳（300236）正在快速追赶。日本JSR被JIC国有化后，光刻胶已成地缘政治武器。",
-      "companies": [
-        {
-          "ticker": "300236",
-          "source_tickers": [
-            "300236"
-          ],
-          "name": "上海新阳",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 25.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "300346",
-          "source_tickers": [
-            "300346"
-          ],
-          "name": "南大光电",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 35.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "300655",
-          "source_tickers": [
-            "300655"
-          ],
-          "name": "晶瑞电材",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 50.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "4005.T",
-          "source_tickers": [
-            "4005"
-          ],
-          "name": "Sumitomo Chemical (住友化学)",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 10.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "4063.T",
-          "source_tickers": [
-            "4063"
-          ],
-          "name": "Shin-Etsu Chemical (信越化学)",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 25.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "4185.T",
-          "source_tickers": [
-            "4185.T"
-          ],
-          "name": "JSR",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 70.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "4186.T",
-          "source_tickers": [
-            "4186.T"
-          ],
-          "name": "Tokyo Ohka Kogyo (TOK)",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 65.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "4901.T",
-          "source_tickers": [
-            "4901"
-          ],
-          "name": "Fujifilm Electronic Materials",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 12.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "603650",
-          "source_tickers": [
-            "603650"
-          ],
-          "name": "彤程新材",
-          "roles": [
-            "国产龙头",
-            "概念股"
-          ],
-          "rev": 60.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688019",
-          "source_tickers": [
-            "688019"
-          ],
-          "name": "安集科技",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 30.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        }
-      ],
-      "n_source_companies": 11,
-      "n_unique_companies": 10,
-      "n_overseas_candidates": 5,
-      "n_a_share_mapping": 5,
-      "a_share": [
-        {
-          "name": "上海新阳",
-          "ticker": "300236",
-          "role": "国产替代"
-        },
-        {
-          "name": "南大光电",
-          "ticker": "300346",
-          "role": "国产龙头"
-        },
-        {
-          "name": "晶瑞电材",
-          "ticker": "300655",
-          "role": "国产龙头"
-        },
-        {
-          "name": "彤程新材",
-          "ticker": "603650",
-          "role": "国产龙头; 概念股"
-        },
-        {
-          "name": "安集科技",
-          "ticker": "688019",
-          "role": "国产替代"
-        }
-      ]
-    },
-    {
       "segment_id": "semi-photomask",
       "name": "光掩模版",
       "industry_tags": [
@@ -5947,112 +7238,6 @@
           "name": "清溢光电",
           "ticker": "688138",
           "role": "概念股"
-        }
-      ]
-    },
-    {
-      "segment_id": "etch-equipment",
-      "name": "刻蚀设备",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 2,
-      "source_slugs": [
-        "etch-equipment",
-        "semi-etch-equipment"
-      ],
-      "description": "刻蚀设备用于在硅片上去除不需要的材料，形成电路图案。分为**干法刻蚀（等离子体）和湿法刻蚀（化学溶液）**两大类。3D NAND 400+层和GAA晶体管驱动高深宽比刻蚀（100:1以上）和原子层刻蚀（ALE）需求。|**全球$22.6B(2024)→$34B(2031)，CAGR 6.1%**。三巨头垄断~90%份额：Lam Research(45%，FY2025 +28.4%)、TEL(25%)、AMAT(16%，-1.6%被中国蚕食)。|**中国厂商全球份额从1.2%(2021)→6.5%(2025)，增速+30.5%远超外资+9.3%**。中微半导体(688012，CCP刻蚀进入TSMC 5nm验证)和北方华创(002371，品类最全国产设备#1)是国产替代主力。Mizuho预计AMAT 2026中国收入降15-20%。",
-      "chain_note": "刻蚀设备用于在硅片上去除不需要的材料，形成电路图案。分为**干法刻蚀（等离子体）和湿法刻蚀（化学溶液）**两大类。3D NAND 400+层和GAA晶体管驱动高深宽比刻蚀（100:1以上）和原子层刻蚀（ALE）需求。|**全球$22.6B(2024)→$34B(2031)，CAGR 6.1%**。三巨头垄断~90%份额：Lam Research(45%，FY2025 +28.4%)、TEL(25%)、AMAT(16%，-1.6%被中国蚕食)。|**中国厂商全球份额从1.2%(2021)→6.5%(2025)，增速+30.5%远超外资+9.3%**。中微半导体(688012，CCP刻蚀进入TSMC 5nm验证)和北方华创(002371，品类最全国产设备#1)是国产替代主力。Mizuho预计AMAT 2026中国收入降15-20%。",
-      "companies": [
-        {
-          "ticker": "002371",
-          "source_tickers": [
-            "002371"
-          ],
-          "name": "北方华创",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 45.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688012",
-          "source_tickers": [
-            "688012"
-          ],
-          "name": "中微公司",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 55.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "8035.T",
-          "source_tickers": [
-            "8035.T"
-          ],
-          "name": "东京电子(TEL)",
-          "roles": [
-            "全球二线",
-            "龙头"
-          ],
-          "rev": 35.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "AMAT",
-          "source_tickers": [
-            "AMAT"
-          ],
-          "name": "应用材料(AMAT)",
-          "roles": [
-            "全球龙头",
-            "二线弹性"
-          ],
-          "rev": 40.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "LRCX",
-          "source_tickers": [
-            "LRCX"
-          ],
-          "name": "泛林半导体(Lam)",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 50.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 8,
-      "n_unique_companies": 5,
-      "n_overseas_candidates": 3,
-      "n_a_share_mapping": 2,
-      "a_share": [
-        {
-          "name": "北方华创",
-          "ticker": "002371",
-          "role": "国产龙头"
-        },
-        {
-          "name": "中微公司",
-          "ticker": "688012",
-          "role": "国产龙头"
         }
       ]
     },
@@ -6569,141 +7754,6 @@
       "a_share": []
     },
     {
-      "segment_id": "package-substrate",
-      "name": "封装基板材料",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 1,
-      "source_slugs": [
-        "package-substrate",
-        "semi-package-substrate"
-      ],
-      "description": "封装基板是连接芯片与PCB的**「桥梁」**——承担电气连接、机械支撑和散热功能。**ABF（Ajinomoto Build-up Film）是FC-BGA基板的核心绝缘材料**，由日本味之素独家供应（>95%全球份额）。|**AI芯片驱动封装基板层数从14层增加到20+层**，线宽/线距从15/15μm向8/8μm推进。封装基板是仅次于硅片的第二大半导体材料市场。|**味之素ABF膜是FC-BGA产能的最大瓶颈**——ABF扩产速度跟不上AI芯片需求增长，供给短缺预计持续至2028+。全球FC-BGA产能集中在台湾（Unimicron #1）和日本（Ibiden/Shinko），中国深南电路（002916）和鹏鼎控股（002938）正在从传统PCB向FC-BGA转型。",
-      "chain_note": "封装基板是连接芯片与PCB的**「桥梁」**——承担电气连接、机械支撑和散热功能。**ABF（Ajinomoto Build-up Film）是FC-BGA基板的核心绝缘材料**，由日本味之素独家供应（>95%全球份额）。|**AI芯片驱动封装基板层数从14层增加到20+层**，线宽/线距从15/15μm向8/8μm推进。封装基板是仅次于硅片的第二大半导体材料市场。|**味之素ABF膜是FC-BGA产能的最大瓶颈**——ABF扩产速度跟不上AI芯片需求增长，供给短缺预计持续至2028+。全球FC-BGA产能集中在台湾（Unimicron #1）和日本（Ibiden/Shinko），中国深南电路（002916）和鹏鼎控股（002938）正在从传统PCB向FC-BGA转型。",
-      "companies": [
-        {
-          "ticker": "002436",
-          "source_tickers": [
-            "002436"
-          ],
-          "name": "兴森科技",
-          "roles": [
-            "国产二线"
-          ],
-          "rev": 50.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "002916",
-          "source_tickers": [
-            "002916"
-          ],
-          "name": "深南电路",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 40.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "2802.T",
-          "source_tickers": [
-            "2802"
-          ],
-          "name": "味之素 (Ajinomoto)",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 8.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "3037.TW",
-          "source_tickers": [
-            "3037.TW",
-            "3037"
-          ],
-          "name": "欣兴电子(Unimicron)",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 60.0,
-          "market_guess": "TW",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "4062.T",
-          "source_tickers": [
-            "4062.T",
-            "4062"
-          ],
-          "name": "Ibiden(揖斐电)",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 55.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "6967.T",
-          "source_tickers": [
-            "6967"
-          ],
-          "name": "Shinko Electric (新光电气)",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 45.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "8046.T",
-          "source_tickers": [
-            "8046"
-          ],
-          "name": "Nan Ya PCB (南亚电路板)",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 40.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 9,
-      "n_unique_companies": 7,
-      "n_overseas_candidates": 5,
-      "n_a_share_mapping": 2,
-      "a_share": [
-        {
-          "name": "兴森科技",
-          "ticker": "002436",
-          "role": "国产二线"
-        },
-        {
-          "name": "深南电路",
-          "ticker": "002916",
-          "role": "国产龙头"
-        }
-      ]
-    },
-    {
       "segment_id": "semi-osat",
       "name": "封装测试(OSAT)",
       "industry_tags": [
@@ -7060,302 +8110,6 @@
           "name": "中芯国际",
           "ticker": "688981",
           "role": "国内龙头"
-        }
-      ]
-    },
-    {
-      "segment_id": "foundry-advanced",
-      "name": "晶圆代工(先进制程)",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 3,
-      "source_slugs": [
-        "foundry-advanced",
-        "semi-foundry-advanced"
-      ],
-      "description": "晶圆代工是芯片制造的**「工厂模式」**——无晶圆厂设计公司（NVIDIA/AMD/Qualcomm/Apple）将芯片版图交给代工厂在晶圆上刻出物理电路。|**TSMC在先进制程拥有绝对垄断**——全球份额72%(Q1 2026)，3nm/2nm独占>90%。FY2025营收$122.5B(+36% YoY)，毛利率66.2%，净利$40B+。2026 Capex $52-56B(+40% YoY)。2nm(N2) 2025Q4量产，$30K/wafer(比3nm贵50%)，Apple锁定>50%初期产能，**满单排到2028年**。|**三星2nm GAA良率40-60% vs TSMC 70-80%**，代工份额跌至~7%。Intel 18A(RibbonFET+PowerVia首创)HVM 2025年10月，良率65-75%，运营亏损$10.3B。SMIC受限于DUV光刻机停在7nm（N+2工艺），是中国半导体最大瓶颈。",
-      "chain_note": "晶圆代工是芯片制造的**「工厂模式」**——无晶圆厂设计公司（NVIDIA/AMD/Qualcomm/Apple）将芯片版图交给代工厂在晶圆上刻出物理电路。|**TSMC在先进制程拥有绝对垄断**——全球份额72%(Q1 2026)，3nm/2nm独占>90%。FY2025营收$122.5B(+36% YoY)，毛利率66.2%，净利$40B+。2026 Capex $52-56B(+40% YoY)。2nm(N2) 2025Q4量产，$30K/wafer(比3nm贵50%)，Apple锁定>50%初期产能，**满单排到2028年**。|**三星2nm GAA良率40-60% vs TSMC 70-80%**，代工份额跌至~7%。Intel 18A(RibbonFET+PowerVia首创)HVM 2025年10月，良率65-75%，运营亏损$10.3B。SMIC受限于DUV光刻机停在7nm（N+2工艺），是中国半导体最大瓶颈。",
-      "companies": [
-        {
-          "ticker": "005930.KS",
-          "source_tickers": [
-            "005930.KS"
-          ],
-          "name": "三星电子",
-          "roles": [
-            "全球二线",
-            "二线弹性"
-          ],
-          "rev": 30.0,
-          "market_guess": "KR",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "0981.HK",
-          "source_tickers": [
-            "SMIC"
-          ],
-          "name": "中芯国际",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 100.0,
-          "market_guess": "HK",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "688981",
-          "source_tickers": [
-            "688981"
-          ],
-          "name": "中芯国际",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 60.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "INTC",
-          "source_tickers": [
-            "INTC"
-          ],
-          "name": "Intel",
-          "roles": [
-            "全球二线",
-            "概念股"
-          ],
-          "rev": 15.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "TSM",
-          "source_tickers": [
-            "TSM"
-          ],
-          "name": "台积电(TSMC)",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 95.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 8,
-      "n_unique_companies": 5,
-      "n_overseas_candidates": 4,
-      "n_a_share_mapping": 1,
-      "a_share": [
-        {
-          "name": "中芯国际",
-          "ticker": "688981",
-          "role": "国产龙头"
-        }
-      ]
-    },
-    {
-      "segment_id": "inspection-metrology",
-      "name": "检测量测设备",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 2,
-      "source_slugs": [
-        "inspection-metrology",
-        "semi-inspection-metrology"
-      ],
-      "description": "半导体检测量测设备是芯片制造的**「眼睛」**——在数百道工艺步骤后检查晶圆是否合格。分为**缺陷检测**（找出污染、划痕、图案缺陷）和**量测**（测量膜厚、线宽、套刻精度）两大类。|**KLA在全球检测市场的垄断地位堪比ASML在光刻机**——全球$12.6B(2025)，KLA绝对垄断(~50%份额，~7x第二名)。KLA+AMAT+Hitachi+ASML+Onto Innovation Top5占>57%。|**一台先进检测设备价格可达$30-50M，AI+深度学习缺陷分类**是重要技术趋势。KLA先进封装收入从$635M(2025)→$1B(2026)。中国中科飞测(688361)和华峰测控(688200)在细分领域突破。",
-      "chain_note": "半导体检测量测设备是芯片制造的**「眼睛」**——在数百道工艺步骤后检查晶圆是否合格。分为**缺陷检测**（找出污染、划痕、图案缺陷）和**量测**（测量膜厚、线宽、套刻精度）两大类。|**KLA在全球检测市场的垄断地位堪比ASML在光刻机**——全球$12.6B(2025)，KLA绝对垄断(~50%份额，~7x第二名)。KLA+AMAT+Hitachi+ASML+Onto Innovation Top5占>57%。|**一台先进检测设备价格可达$30-50M，AI+深度学习缺陷分类**是重要技术趋势。KLA先进封装收入从$635M(2025)→$1B(2026)。中国中科飞测(688361)和华峰测控(688200)在细分领域突破。",
-      "companies": [
-        {
-          "ticker": "300567",
-          "source_tickers": [
-            "300567"
-          ],
-          "name": "精测电子",
-          "roles": [
-            "国产二线"
-          ],
-          "rev": 45.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "6857.T",
-          "source_tickers": [
-            "6857.T"
-          ],
-          "name": "Advantest",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 25.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "688200",
-          "source_tickers": [
-            "688200"
-          ],
-          "name": "华峰测控",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 50.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688361",
-          "source_tickers": [
-            "688361"
-          ],
-          "name": "中科飞测",
-          "roles": [
-            "国产龙头",
-            "概念股"
-          ],
-          "rev": 70.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "6920.T",
-          "source_tickers": [
-            "6920.T"
-          ],
-          "name": "Lasertec",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 85.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "8036.T",
-          "source_tickers": [
-            "8036.T"
-          ],
-          "name": "Hitachi High-Tech",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 15.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "AMAT",
-          "source_tickers": [
-            "AMAT"
-          ],
-          "name": "应用材料(AMAT)",
-          "roles": [
-            "全球二线",
-            "二线弹性"
-          ],
-          "rev": 25.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "CAMT",
-          "source_tickers": [
-            "CAMT"
-          ],
-          "name": "Camtek",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 60.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "KLAC",
-          "source_tickers": [
-            "KLAC"
-          ],
-          "name": "科磊(KLA)",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 70.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "NVMI",
-          "source_tickers": [
-            "NVMI"
-          ],
-          "name": "Nova Measuring Instruments",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 75.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "TER",
-          "source_tickers": [
-            "TER"
-          ],
-          "name": "Teradyne",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 30.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 14,
-      "n_unique_companies": 11,
-      "n_overseas_candidates": 8,
-      "n_a_share_mapping": 3,
-      "a_share": [
-        {
-          "name": "精测电子",
-          "ticker": "300567",
-          "role": "国产二线"
-        },
-        {
-          "name": "华峰测控",
-          "ticker": "688200",
-          "role": "国产替代"
-        },
-        {
-          "name": "中科飞测",
-          "ticker": "688361",
-          "role": "国产龙头; 概念股"
         }
       ]
     },
@@ -7790,356 +8544,6 @@
       ]
     },
     {
-      "segment_id": "sputtering-target",
-      "name": "溅射靶材",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 1,
-      "source_slugs": [
-        "semi-sputtering-target",
-        "sputtering-target"
-      ],
-      "description": "溅射靶材是PVD物理气相沉积工艺中的**核心耗材**——高能离子轰击靶材表面，将原子「溅射」出来沉积到硅片形成薄膜。半导体用靶材要求纯度5N+（99.999%以上），品类包括**高纯铜靶、钽靶、钛靶、铝靶和钨靶**。|**靶材是消耗品**——一片12寸晶圆需要溅射数十层薄膜，每道PVD工序都消耗靶材。AI芯片互连层增加⇒高纯钽靶/铜靶需求增长。|**全球~$2.5B市场，日本JX Metals主导(~35%份额)**，Tosoh(15%)、Honeywell(12%)、Plansee(10%)紧随。中国江丰电子(300666)在铜/钽靶细分快速追赶，已进入TSMC供应链。",
-      "chain_note": "溅射靶材是PVD物理气相沉积工艺中的**核心耗材**——高能离子轰击靶材表面，将原子「溅射」出来沉积到硅片形成薄膜。半导体用靶材要求纯度5N+（99.999%以上），品类包括**高纯铜靶、钽靶、钛靶、铝靶和钨靶**。|**靶材是消耗品**——一片12寸晶圆需要溅射数十层薄膜，每道PVD工序都消耗靶材。AI芯片互连层增加⇒高纯钽靶/铜靶需求增长。|**全球~$2.5B市场，日本JX Metals主导(~35%份额)**，Tosoh(15%)、Honeywell(12%)、Plansee(10%)紧随。中国江丰电子(300666)在铜/钽靶细分快速追赶，已进入TSMC供应链。",
-      "companies": [
-        {
-          "ticker": "300395",
-          "source_tickers": [
-            "300395"
-          ],
-          "name": "隆华科技",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 30.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "300666",
-          "source_tickers": [
-            "300666"
-          ],
-          "name": "江丰电子",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 60.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "300855",
-          "source_tickers": [
-            "300855"
-          ],
-          "name": "图南股份",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 25.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "4042.T",
-          "source_tickers": [
-            "4042"
-          ],
-          "name": "TOSOH",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 20.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "5016.T",
-          "source_tickers": [
-            "5016.T",
-            "5016"
-          ],
-          "name": "JX Metals",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 50.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "600206",
-          "source_tickers": [
-            "600206"
-          ],
-          "name": "有研新材",
-          "roles": [
-            "国产二线"
-          ],
-          "rev": 40.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "HON",
-          "source_tickers": [
-            "HON"
-          ],
-          "name": "Honeywell Electronic Materials",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 5.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "MTRN",
-          "source_tickers": [
-            "MTRN"
-          ],
-          "name": "Materion",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 25.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 9,
-      "n_unique_companies": 8,
-      "n_overseas_candidates": 4,
-      "n_a_share_mapping": 4,
-      "a_share": [
-        {
-          "name": "隆华科技",
-          "ticker": "300395",
-          "role": "国产替代"
-        },
-        {
-          "name": "江丰电子",
-          "ticker": "300666",
-          "role": "国产龙头"
-        },
-        {
-          "name": "图南股份",
-          "ticker": "300855",
-          "role": "国产替代"
-        },
-        {
-          "name": "有研新材",
-          "ticker": "600206",
-          "role": "国产二线"
-        }
-      ]
-    },
-    {
-      "segment_id": "electronic-gas",
-      "name": "电子特气",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 1,
-      "source_slugs": [
-        "electronic-gas",
-        "semi-electronic-gas"
-      ],
-      "description": "**电子特气是半导体制造的「血液」**——包括刻蚀气体(NF₃/CF₄/SF₆)、沉积气体(SiH₄/NH₃/WF₆)、掺杂气体(PH₃/AsH₃)和清洗气体，一台12寸晶圆厂消耗30-50种不同气体。|**纯度和稳定性是核心竞争力**——先进制程要求气体纯度从5N(99.999%)向6-7N(99.99999%)升级，任何微量杂质都会导致芯片缺陷。NF₃是最大品类($2.5B,2024)，WF₆增速最快(+12% YoY，3D NAND驱动)。|**全球$6.3B(2025)，Linde(23-25%)、Air Liquide(17-19%)、Air Products(12-14%)、SK Materials(8-10%)四大巨头**。中国中船特气NF₃全球份额18%，国产替代进展在材料中最快。",
-      "chain_note": "**电子特气是半导体制造的「血液」**——包括刻蚀气体(NF₃/CF₄/SF₆)、沉积气体(SiH₄/NH₃/WF₆)、掺杂气体(PH₃/AsH₃)和清洗气体，一台12寸晶圆厂消耗30-50种不同气体。|**纯度和稳定性是核心竞争力**——先进制程要求气体纯度从5N(99.999%)向6-7N(99.99999%)升级，任何微量杂质都会导致芯片缺陷。NF₃是最大品类($2.5B,2024)，WF₆增速最快(+12% YoY，3D NAND驱动)。|**全球$6.3B(2025)，Linde(23-25%)、Air Liquide(17-19%)、Air Products(12-14%)、SK Materials(8-10%)四大巨头**。中国中船特气NF₃全球份额18%，国产替代进展在材料中最快。",
-      "companies": [
-        {
-          "ticker": "002409",
-          "source_tickers": [
-            "002409"
-          ],
-          "name": "雅克科技",
-          "roles": [
-            "国产二线"
-          ],
-          "rev": 15.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "036490",
-          "source_tickers": [
-            "036490"
-          ],
-          "name": "SK Materials",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 70.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "300346",
-          "source_tickers": [
-            "300346"
-          ],
-          "name": "南大光电",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 15.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "4091.T",
-          "source_tickers": [
-            "4091"
-          ],
-          "name": "Nippon Sanso (大阳日酸)",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 12.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "688106",
-          "source_tickers": [
-            "688106"
-          ],
-          "name": "金宏气体",
-          "roles": [
-            "国产二线"
-          ],
-          "rev": 30.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688146",
-          "source_tickers": [
-            "688146"
-          ],
-          "name": "中船特气",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 50.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688268",
-          "source_tickers": [
-            "688268"
-          ],
-          "name": "华特气体",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 55.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "AI.PA",
-          "source_tickers": [
-            "AI.PA",
-            "AI"
-          ],
-          "name": "Air Liquide",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 8.0,
-          "market_guess": "FR",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "ENTG",
-          "source_tickers": [
-            "ENTG"
-          ],
-          "name": "Entegris",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 30.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "LIN",
-          "source_tickers": [
-            "LIN"
-          ],
-          "name": "Linde",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 10.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 11,
-      "n_unique_companies": 10,
-      "n_overseas_candidates": 4,
-      "n_a_share_mapping": 6,
-      "a_share": [
-        {
-          "name": "雅克科技",
-          "ticker": "002409",
-          "role": "国产二线"
-        },
-        {
-          "name": "SK Materials",
-          "ticker": "036490",
-          "role": "二线弹性"
-        },
-        {
-          "name": "南大光电",
-          "ticker": "300346",
-          "role": "国产替代"
-        },
-        {
-          "name": "金宏气体",
-          "ticker": "688106",
-          "role": "国产二线"
-        },
-        {
-          "name": "中船特气",
-          "ticker": "688146",
-          "role": "国产龙头"
-        },
-        {
-          "name": "华特气体",
-          "ticker": "688268",
-          "role": "国产龙头"
-        }
-      ]
-    },
-    {
       "segment_id": "semi-ion-implanter",
       "name": "离子注入设备",
       "industry_tags": [
@@ -8200,491 +8604,18 @@
       "n_overseas_candidates": 3,
       "n_a_share_mapping": 0,
       "a_share": []
-    },
-    {
-      "segment_id": "thin-film-deposition",
-      "name": "薄膜沉积设备",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 2,
-      "source_slugs": [
-        "semi-thin-film-deposition",
-        "thin-film-deposition"
-      ],
-      "description": "薄膜沉积是在硅片表面生长或沉积纳米级厚度薄膜的工艺，是芯片制造中**重复次数最多的步骤之一**。三大主流技术：**CVD（化学气相沉积）、PVD（物理气相沉积/溅射）、ALD（原子层沉积，增速最快）**。|**全球WFE（晶圆厂设备）~$41.4B(2025)，薄膜沉积CR3~75%：AMAT(42%，PVD/CVD#1)、Lam Research(19%，ALD#1)、TEL(14%，CVD/ALD)**。ALD是增长最快的细分市场——3D NAND和GAA晶体管对原子级精度的薄膜沉积需求指数增长。|**中国拓荆科技(688072，PECVD国产龙头)和微导纳米(688147，ALD国产龙头)**在国产替代中快速增长。AMAT在PVD/CVD/成熟蚀刻领域正被中国蚕食（每年丢2-4%份额）。AMAT中国收入预计2026降15-20%。",
-      "chain_note": "薄膜沉积是在硅片表面生长或沉积纳米级厚度薄膜的工艺，是芯片制造中**重复次数最多的步骤之一**。三大主流技术：**CVD（化学气相沉积）、PVD（物理气相沉积/溅射）、ALD（原子层沉积，增速最快）**。|**全球WFE（晶圆厂设备）~$41.4B(2025)，薄膜沉积CR3~75%：AMAT(42%，PVD/CVD#1)、Lam Research(19%，ALD#1)、TEL(14%，CVD/ALD)**。ALD是增长最快的细分市场——3D NAND和GAA晶体管对原子级精度的薄膜沉积需求指数增长。|**中国拓荆科技(688072，PECVD国产龙头)和微导纳米(688147，ALD国产龙头)**在国产替代中快速增长。AMAT在PVD/CVD/成熟蚀刻领域正被中国蚕食（每年丢2-4%份额）。AMAT中国收入预计2026降15-20%。",
-      "companies": [
-        {
-          "ticker": "002371",
-          "source_tickers": [
-            "002371"
-          ],
-          "name": "北方华创",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 40.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "6525.T",
-          "source_tickers": [
-            "6525.T"
-          ],
-          "name": "Kokusai Electric",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 70.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "6728.T",
-          "source_tickers": [
-            "6728"
-          ],
-          "name": "ULVAC",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 50.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "688072",
-          "source_tickers": [
-            "688072"
-          ],
-          "name": "拓荆科技",
-          "roles": [
-            "国产龙头",
-            "二线弹性"
-          ],
-          "rev": 80.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688147",
-          "source_tickers": [
-            "688147"
-          ],
-          "name": "微导纳米",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 65.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "8035.T",
-          "source_tickers": [
-            "8035.T"
-          ],
-          "name": "东京电子(TEL)",
-          "roles": [
-            "全球二线",
-            "二线弹性"
-          ],
-          "rev": 30.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "AMAT",
-          "source_tickers": [
-            "AMAT"
-          ],
-          "name": "应用材料(AMAT)",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 50.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "LRCX",
-          "source_tickers": [
-            "LRCX"
-          ],
-          "name": "泛林半导体(Lam)",
-          "roles": [
-            "全球二线",
-            "二线弹性"
-          ],
-          "rev": 35.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "PFV.DE",
-          "source_tickers": [
-            "PFV"
-          ],
-          "name": "Pfeiffer Vacuum",
-          "roles": [
-            "二线弹性"
-          ],
-          "rev": 40.0,
-          "market_guess": "DE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 13,
-      "n_unique_companies": 9,
-      "n_overseas_candidates": 6,
-      "n_a_share_mapping": 3,
-      "a_share": [
-        {
-          "name": "北方华创",
-          "ticker": "002371",
-          "role": "国产龙头"
-        },
-        {
-          "name": "拓荆科技",
-          "ticker": "688072",
-          "role": "国产龙头; 二线弹性"
-        },
-        {
-          "name": "微导纳米",
-          "ticker": "688147",
-          "role": "二线弹性"
-        }
-      ]
-    },
-    {
-      "segment_id": "silicon-wafer",
-      "name": "高纯硅料与硅片",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 1,
-      "source_slugs": [
-        "semi-silicon-wafer",
-        "silicon-wafer"
-      ],
-      "description": "半导体级多晶硅（纯度99.999999999%即11N）经过拉晶、切割、研磨、抛光等工序制成单晶硅片——芯片制造的**「画布」**。300mm（12英寸）是当前主流尺寸，占全球出货量70%以上。|**全球$14.6B市场(2025)，信越化学(24%/$3.8B)、SUMCO(20%/$3.1B)、环球晶圆(16%/$2.5B)、Siltronic(11%)、SK Siltron(9%)**——Top5占>85%份额。日本产35%。|**中国国产化率仅4.2%**——所有半导体材料中最低。NSIG（沪硅产业688126）领衔国产替代，12寸硅片出货量3年10x倍增但全球份额仍微小。先进制程（3nm以下）对硅片缺陷密度要求<0.01 defects/cm²。",
-      "chain_note": "半导体级多晶硅（纯度99.999999999%即11N）经过拉晶、切割、研磨、抛光等工序制成单晶硅片——芯片制造的**「画布」**。300mm（12英寸）是当前主流尺寸，占全球出货量70%以上。|**全球$14.6B市场(2025)，信越化学(24%/$3.8B)、SUMCO(20%/$3.1B)、环球晶圆(16%/$2.5B)、Siltronic(11%)、SK Siltron(9%)**——Top5占>85%份额。日本产35%。|**中国国产化率仅4.2%**——所有半导体材料中最低。NSIG（沪硅产业688126）领衔国产替代，12寸硅片出货量3年10x倍增但全球份额仍微小。先进制程（3nm以下）对硅片缺陷密度要求<0.01 defects/cm²。",
-      "companies": [
-        {
-          "ticker": "002129",
-          "source_tickers": [
-            "002129"
-          ],
-          "name": "TCL中环",
-          "roles": [
-            "国产二线"
-          ],
-          "rev": 20.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "3436.T",
-          "source_tickers": [
-            "3436.T"
-          ],
-          "name": "SUMCO",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 90.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "4063.T",
-          "source_tickers": [
-            "4063.T"
-          ],
-          "name": "信越化学 (Shin-Etsu)",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 30.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "605358",
-          "source_tickers": [
-            "605358"
-          ],
-          "name": "立昂微",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 50.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "6488.TW",
-          "source_tickers": [
-            "6488.TW",
-            "6488"
-          ],
-          "name": "环球晶圆 (GlobalWafers)",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 85.0,
-          "market_guess": "TW",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "688126",
-          "source_tickers": [
-            "688126"
-          ],
-          "name": "沪硅产业",
-          "roles": [
-            "国产龙头"
-          ],
-          "rev": 55.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688432",
-          "source_tickers": [
-            "688432"
-          ],
-          "name": "有研硅",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 40.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "688584",
-          "source_tickers": [
-            "688584"
-          ],
-          "name": "上海合晶",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 45.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "SOI.PA",
-          "source_tickers": [
-            "SOI.PA"
-          ],
-          "name": "Soitec",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 70.0,
-          "market_guess": "FR",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "WAF.DE",
-          "source_tickers": [
-            "WAF.DE"
-          ],
-          "name": "Siltronic",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 90.0,
-          "market_guess": "DE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 11,
-      "n_unique_companies": 10,
-      "n_overseas_candidates": 5,
-      "n_a_share_mapping": 5,
-      "a_share": [
-        {
-          "name": "TCL中环",
-          "ticker": "002129",
-          "role": "国产二线"
-        },
-        {
-          "name": "立昂微",
-          "ticker": "605358",
-          "role": "国产龙头"
-        },
-        {
-          "name": "沪硅产业",
-          "ticker": "688126",
-          "role": "国产龙头"
-        },
-        {
-          "name": "有研硅",
-          "ticker": "688432",
-          "role": "国产替代"
-        },
-        {
-          "name": "上海合晶",
-          "ticker": "688584",
-          "role": "国产替代"
-        }
-      ]
-    },
-    {
-      "segment_id": "high-speed-connector",
-      "name": "高速连接器与铜缆",
-      "industry_tags": [
-        "半导体",
-        "AI算力"
-      ],
-      "layer": 2,
-      "source_slugs": [
-        "high-speed-connector",
-        "semi-high-speed-connector"
-      ],
-      "description": "高速连接器是AI服务器内部和芯片间的**「神经系统」**——负责在芯片间、板卡间传输超高速电信号。信号速率从112Gbps→224Gbps→448Gbps PAM4快速演进。|**一台GB200 NVL72机柜仅NVLink背板连接器就价值$10,000+**——随着信号速率翻倍，连接器ASP从$100→$1000+。信号完整性（SI/PI）成为核心设计挑战。|**Amphenol(APH)凭借NVLink独家供应成为全球连接器龙头**，TE Connectivity(Molex竞品)+Tesla bot连接器。中国立讯精密(002475)AI服务器连接器进入NVIDIA供应链，份额快速上升。",
-      "chain_note": "高速连接器是AI服务器内部和芯片间的**「神经系统」**——负责在芯片间、板卡间传输超高速电信号。信号速率从112Gbps→224Gbps→448Gbps PAM4快速演进。|**一台GB200 NVL72机柜仅NVLink背板连接器就价值$10,000+**——随着信号速率翻倍，连接器ASP从$100→$1000+。信号完整性（SI/PI）成为核心设计挑战。|**Amphenol(APH)凭借NVLink独家供应成为全球连接器龙头**，TE Connectivity(Molex竞品)+Tesla bot连接器。中国立讯精密(002475)AI服务器连接器进入NVIDIA供应链，份额快速上升。",
-      "companies": [
-        {
-          "ticker": "002025",
-          "source_tickers": [
-            "002025"
-          ],
-          "name": "中航光电",
-          "roles": [
-            "国产二线"
-          ],
-          "rev": 25.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "002475",
-          "source_tickers": [
-            "002475"
-          ],
-          "name": "立讯精密",
-          "roles": [
-            "国产龙头",
-            "二线弹性"
-          ],
-          "rev": 20.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "300602",
-          "source_tickers": [
-            "300602"
-          ],
-          "name": "飞荣达",
-          "roles": [
-            "国产替代"
-          ],
-          "rev": 15.0,
-          "market_guess": "CN",
-          "tradable": true,
-          "in_overseas_heat": false
-        },
-        {
-          "ticker": "APH",
-          "source_tickers": [
-            "APH"
-          ],
-          "name": "安费诺(Amphenol)",
-          "roles": [
-            "全球龙头",
-            "龙头"
-          ],
-          "rev": 35.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "AVGO",
-          "source_tickers": [
-            "AVGO"
-          ],
-          "name": "Broadcom",
-          "roles": [
-            "概念股"
-          ],
-          "rev": 5.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
-          "ticker": "TEL",
-          "source_tickers": [
-            "TEL"
-          ],
-          "name": "泰科电子(TE)",
-          "roles": [
-            "全球龙头",
-            "二线弹性"
-          ],
-          "rev": 30.0,
-          "market_guess": "US_LIKE",
-          "tradable": true,
-          "in_overseas_heat": true
-        }
-      ],
-      "n_source_companies": 9,
-      "n_unique_companies": 6,
-      "n_overseas_candidates": 3,
-      "n_a_share_mapping": 3,
-      "a_share": [
-        {
-          "name": "中航光电",
-          "ticker": "002025",
-          "role": "国产二线"
-        },
-        {
-          "name": "立讯精密",
-          "ticker": "002475",
-          "role": "国产龙头; 二线弹性"
-        },
-        {
-          "name": "飞荣达",
-          "ticker": "300602",
-          "role": "国产替代"
-        }
-      ]
     }
   ],
   "companies": {
+    "-": {
+      "ticker": "-",
+      "name": "上海微电子(SMEE)",
+      "market_guess": "UNKNOWN",
+      "tradable": true,
+      "segments": [
+        "lithography"
+      ]
+    },
     "000034": {
       "ticker": "000034",
       "name": "神州数码",
@@ -8854,7 +8785,7 @@
     },
     "002475": {
       "ticker": "002475",
-      "name": "立讯精密",
+      "name": "Luxshare Precision (立讯精密)",
       "market_guess": "CN",
       "tradable": true,
       "segments": [
@@ -9305,7 +9236,7 @@
     },
     "3037.TW": {
       "ticker": "3037.TW",
-      "name": "欣兴电子(Unimicron)",
+      "name": "Unimicron (欣兴电子)",
       "market_guess": "TW",
       "tradable": true,
       "segments": [
@@ -9351,7 +9282,7 @@
     },
     "4062.T": {
       "ticker": "4062.T",
-      "name": "Ibiden(揖斐电)",
+      "name": "Ibiden",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9638,12 +9569,11 @@
     },
     "688012": {
       "ticker": "688012",
-      "name": "上海微电子",
+      "name": "中微公司",
       "market_guess": "CN",
       "tradable": true,
       "segments": [
         "etch-equipment",
-        "lithography",
         "semi-equipment-parts"
       ]
     },
@@ -9928,7 +9858,6 @@
       "market_guess": "CN",
       "tradable": true,
       "segments": [
-        "foundry-advanced",
         "semi-foundry-mature"
       ]
     },
@@ -9961,7 +9890,7 @@
     },
     "7731.T": {
       "ticker": "7731.T",
-      "name": "佳能(Canon)",
+      "name": "尼康(Nikon)",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9976,6 +9905,15 @@
       "segments": [
         "semi-clean-equipment",
         "semi-track-equipment"
+      ]
+    },
+    "7751.T": {
+      "ticker": "7751.T",
+      "name": "佳能(Canon)",
+      "market_guess": "JP",
+      "tradable": true,
+      "segments": [
+        "lithography"
       ]
     },
     "7911.T": {
@@ -9998,7 +9936,7 @@
     },
     "8035.T": {
       "ticker": "8035.T",
-      "name": "东京电子(TEL)",
+      "name": "Tokyo Electron",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -10140,7 +10078,7 @@
     },
     "AMAT": {
       "ticker": "AMAT",
-      "name": "应用材料(AMAT)",
+      "name": "Applied Materials",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10220,7 +10158,7 @@
     },
     "APH": {
       "ticker": "APH",
-      "name": "安费诺(Amphenol)",
+      "name": "Amphenol",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10859,7 +10797,7 @@
     },
     "KLAC": {
       "ticker": "KLAC",
-      "name": "科磊(KLA)",
+      "name": "KLA",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10913,7 +10851,7 @@
     },
     "LRCX": {
       "ticker": "LRCX",
-      "name": "泛林半导体(Lam)",
+      "name": "Lam Research",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -10923,7 +10861,7 @@
     },
     "LSCC": {
       "ticker": "LSCC",
-      "name": "Lattice Semi",
+      "name": "Lattice Semiconductor",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -11517,7 +11455,7 @@
     },
     "TEL": {
       "ticker": "TEL",
-      "name": "泰科电子(TE)",
+      "name": "TE Connectivity",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -11717,12 +11655,12 @@
       ]
     }
   },
-  "version": "2026-09-11.3",
+  "version": "2026-09-13.2",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-11T14:45:59+08:00",
-  "source_generated_at": "2026-09-11T14:39:55+08:00",
-  "source_sha256": "ba09966019c52b8185b1048477a2f3088ebdd732a0b95fdd4a080215a7344ec5",
-  "source_hash8": "ba099660",
-  "source_commit": "2eec6bc5e08a67a450ab411e2a81a253a3c3bace",
+  "built_at": "2026-09-13T16:58:44+08:00",
+  "source_generated_at": "2026-09-13T16:58:44+08:00",
+  "source_sha256": "58b688e3e2f0387141b3cc4028b7f228c3b33dc767a11575285d65d23a3ee682",
+  "source_hash8": "58b688e3",
+  "source_commit": "b7da1e04e29fc08177486a3157aa97f82bdf3dab",
   "source_dirty": false
 }
