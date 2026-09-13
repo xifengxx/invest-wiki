@@ -72,8 +72,17 @@ for e in wiki.get_hot(5):
 # 5. 预览
 cd L3-网页产物 && python3 -m http.server 8760
 
-# 6. Lint 健康检查
-# 见 L1-Schema与Pipeline/lint/执行指令-定期扫描.md
+# 6. 统一校验（强烈建议每次改完 L2 或编译后跑）
+python3 L1-Schema与Pipeline/lint/verify_all.py
+# 覆盖：L2 可解析/unknown=0、L2→L3 新鲜度、图谱四检、wikilink↔图边、
+#       chain_universe 新鲜度、index.md 一致性、index.html 结构
+# 已挂 pre-commit hook（一次性安装）：git config core.hooksPath .githooks
+# 绕过：SKIP_WIKI_CHECK=1 git commit ...
+# 详细 Lint 规范见 L1-Schema与Pipeline/lint/执行指令-定期扫描.md
+
+# 6b. 重新生成 index.md 的赛道清单与统计（不要手工改这两部分）
+python3 L1-Schema与Pipeline/lint/gen_index.py           # dry-run
+python3 L1-Schema与Pipeline/lint/gen_index.py --write   # 落盘
 
 # 7. 提炼模式（质量审计）
 # 见 L1-Schema与Pipeline/CLAUDE.md 维护模式章节

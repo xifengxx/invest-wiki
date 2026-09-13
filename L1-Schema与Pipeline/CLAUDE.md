@@ -147,7 +147,7 @@ Step 0: 完整读取原始资料全部页面 + 7项QA自检 → QA通过
 | "检查知识库" / "lint" | `lint/执行指令-定期扫描.md` |
 | "更新赛道X" | 先读 `schemas/segment-schema.md` + `schemas/field-formats.md`，再改 L2 文件 |
 | "新建赛道" | 先读 `templates/segment-template.md`，再创建 |
-| "重新编译" | 运行 `L3-网页产物/build_wiki_data.py` 和 `L3-网页产物/build_chain_universe.py` |
+| "重新编译" | 运行 `L3-网页产物/build_wiki_data.py` 和 `L3-网页产物/build_chain_universe.py`，然后跑 `L1-Schema与Pipeline/lint/verify_all.py` 校验 |
 | "增强链接" / "enrich links" | `link-enrich/执行指令-链接增强.md` |
 | "refine" / "提炼" / "审计" | 进入 Refinement 模式（见下方） |
 | "科普XX" / "解释XX" / "什么是XX" / "概念卡片" | `concept-card/SKILL.md` → 按11模块生成概念卡片 |
@@ -156,6 +156,7 @@ Step 0: 完整读取原始资料全部页面 + 7项QA自检 → QA通过
 | "dashboard" / "知识库仪表盘" | 打开 `L3-网页产物/index.html`（知识库页面已整合至主 SPA） |
 | "调研XX赛道" / "research XX" / "补充XX数据" / "新建产业链XX" | Research 模式：多Agent Web调研 + Judge交叉验证（见下方 Research 模式章节） |
 | "编译" | `Step 7`: 运行 build_wiki_data.py + 验证输出 |
+| "更新索引" / index.md 漂移 | 运行 `L1-Schema与Pipeline/lint/gen_index.py`（默认 dry-run，加 `--write` 落盘）—— **不要手工改赛道清单与统计数字** |
 
 ## 维护模式
 
