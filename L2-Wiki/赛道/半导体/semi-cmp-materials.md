@@ -19,9 +19,9 @@ tags:
 - L1
 competition:
   global:
-  - name: Cabot Microelectronics
+  - name: Entegris (CMC Materials)
     share: ~35%
-    note: 美国，抛光液全球#1，铜/钨/氧化物全品类, Dow Electronic
+    note: 美国，收购CMC Materials/原Cabot Microelectronics后承接抛光液全球#1地位，铜/钨/氧化物全品类；Dow Electronic仍是抛光垫重要竞争者
   - name: Fujimi
     share: '-'
     note: 日本，硅溶胶抛光液
@@ -54,13 +54,13 @@ key_trends:
 price_conduction:
 - CMP步骤数从20→50+（3D NAND+GAA驱动）
 - 耗材用量翻倍
-- 总CMP材料支出增长。Cabot/Dow主导高端市场
+- 总CMP材料支出增长。Entegris(CMC Materials)/Dow主导高端市场
 - 年涨3-5%
 - 晶圆制造成本微增。中国安集科技在铜/钨抛光液突破但份额仍<10%
 - 国产替代空间大但进程慢
 companies:
-- ticker: CCMP
-  name: Cabot Microelectronics
+- ticker: ENTG
+  name: Entegris (CMC Materials)
   role: 龙头
   rev: 80
 - ticker: '688019'
@@ -97,7 +97,7 @@ sources:
 - title: 鼎龙股份2025年报
   summary: ''
   url: ''
-- title: Cabot Microelectronics FY2025
+- title: Entegris CMP Materials FY2025
   summary: ''
   url: ''
 

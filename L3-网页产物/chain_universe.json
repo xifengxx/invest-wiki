@@ -7,8 +7,8 @@
     "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
     "source_company_links": 494,
-    "unique_companies": 327,
-    "overseas_quote_candidates": 174,
+    "unique_companies": 326,
+    "overseas_quote_candidates": 173,
     "a_share_mapping_companies": 94,
     "private_or_untradable": 59
   },
@@ -6849,11 +6849,11 @@
           "in_overseas_heat": false
         },
         {
-          "ticker": "CCMP",
+          "ticker": "ENTG",
           "source_tickers": [
-            "CCMP"
+            "ENTG"
           ],
-          "name": "Cabot Microelectronics",
+          "name": "Entegris (CMC Materials)",
           "roles": [
             "龙头"
           ],
@@ -10613,15 +10613,6 @@
         "asic-ai-chip"
       ]
     },
-    "CCMP": {
-      "ticker": "CCMP",
-      "name": "Cabot Microelectronics",
-      "market_guess": "US_LIKE",
-      "tradable": true,
-      "segments": [
-        "semi-cmp-materials"
-      ]
-    },
     "CD": {
       "ticker": "CD",
       "name": "秦淮数据",
@@ -10815,6 +10806,7 @@
       "tradable": true,
       "segments": [
         "electronic-gas",
+        "semi-cmp-materials",
         "semi-precursor"
       ]
     },
@@ -11977,12 +11969,12 @@
       ]
     }
   },
-  "version": "2026-09-13.33",
+  "version": "2026-09-13.34",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-13T22:35:44+08:00",
-  "source_generated_at": "2026-09-13T22:35:44+08:00",
-  "source_sha256": "b6cb4a4242ea689fd3c623eaa36cb11ef390a0e77bbc607d37b6b66f42eb6cd4",
-  "source_hash8": "b6cb4a42",
-  "source_commit": "e338d4498bfdf3771cd4056529da42e127d75937",
+  "built_at": "2026-09-13T22:58:50+08:00",
+  "source_generated_at": "2026-09-13T22:58:50+08:00",
+  "source_sha256": "328be44ed51e9c19f106d79ba0fa340b471afd15338289e166b3ad154a7c9099",
+  "source_hash8": "328be44e",
+  "source_commit": "e997d95fc59c830e212d27466b14341038185d4b",
   "source_dirty": true
 }

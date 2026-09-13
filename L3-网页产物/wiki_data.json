@@ -1,11 +1,11 @@
 {
-  "total": 503,
+  "total": 502,
   "by_type": {
     "thesis": 18,
     "segment": 67,
     "concept": 10,
     "industry": 2,
-    "company": 406
+    "company": 405
   },
   "entities": [
     {
@@ -2941,7 +2941,7 @@
       "price_conduction": [
         "CMP步骤数从20→50+（3D NAND+GAA驱动）",
         "耗材用量翻倍",
-        "总CMP材料支出增长。Cabot/Dow主导高端市场",
+        "总CMP材料支出增长。Entegris(CMC Materials)/Dow主导高端市场",
         "年涨3-5%",
         "晶圆制造成本微增。中国安集科技在铜/钨抛光液突破但份额仍<10%",
         "国产替代空间大但进程慢"
@@ -2949,9 +2949,9 @@
       "competition": {
         "global": [
           {
-            "name": "Cabot Microelectronics",
+            "name": "Entegris (CMC Materials)",
             "share": "~35%",
-            "note": "美国，抛光液全球#1，铜/钨/氧化物全品类, Dow Electronic"
+            "note": "美国，收购CMC Materials/原Cabot Microelectronics后承接抛光液全球#1地位，铜/钨/氧化物全品类；Dow Electronic仍是抛光垫重要竞争者"
           },
           {
             "name": "Fujimi",
@@ -3027,7 +3027,7 @@
           "url": ""
         },
         {
-          "title": "Cabot Microelectronics FY2025",
+          "title": "Entegris CMP Materials FY2025",
           "summary": "",
           "url": ""
         }
@@ -3044,8 +3044,8 @@
       "value_add": "high",
       "companies": [
         {
-          "ticker": "CCMP",
-          "name": "Cabot Microelectronics",
+          "ticker": "ENTG",
+          "name": "Entegris (CMC Materials)",
           "role": "龙头",
           "rev": 80
         },
@@ -17676,43 +17676,6 @@
       "sources": ""
     },
     {
-      "name": "Cabot Microelectronics",
-      "slug": "cabot-microelectronics",
-      "type": "company",
-      "country": "美国",
-      "ticker": "",
-      "one_liner": "CMP抛光液全球#1(~35%)，位于产业链L1原材料与资源（龙头）",
-      "description": "CMP抛光液全球#1(~35%)",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
-      "industry": "半导体",
-      "industries": [
-        "半导体"
-      ],
-      "segments": [
-        "CMP抛光液与抛光垫"
-      ],
-      "chain_layer": "L1",
-      "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
-      "tags": [],
-      "website": "N/A",
-      "backlinks": 0,
-      "wikilinks": [],
-      "content": "# Cabot Microelectronics\n\nCMP抛光液全球#1(~35%)",
-      "content_preview": "# Cabot Microelectronics\n\n> CMP抛光液全球#1(~35%)，位于产业链L1原材料与资源（龙头） | CMP抛光液全球#1(~35%)",
-      "sources": ""
-    },
-    {
       "name": "字节跳动",
       "slug": "bytedance",
       "type": "company",
@@ -30637,17 +30600,22 @@
       "slug": "huadian-gufen",
       "type": "company",
       "country": "中国",
-      "ticker": "002463",
-      "one_liner": "国内AI PCB龙头，深耕高多层高速PCB板制造，通过AI服务器+交换机PCB批量供货实现盈利，位于产业链L2——AI服务器/交换机PCB核心供应商",
-      "description": "国内AI PCB（印制电路板）龙头企业，专注高多层、高速PCB产品的研发与制造。公司为AI服务器、高端交换机、基站设备等提供高可靠性PCB板，产品广泛应用于数据中心、通信设备、汽车电子等领域。AI算力需求爆发推动高端PCB需求快速增长，公司作为国内少数具备高多层PCB量产能力的企业深度受益。",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "ticker": "002463.SZ",
+      "one_liner": "国内AI服务器与高速交换机PCB核心供应商，量产高多层、高速材料和高可靠性背板/主板/HDI板，通过AI算力硬件所需的PCB设计与批量制造服务实现盈利，位于AI算力L2核心产品层——承接AI芯片与整机之间的高速信号互联。\n【2026.9.13更新】FY2025营收¥18.95B（+42.0%）；Q1/Q2 2026合计¥13.69B，AI服务器PCB高景气延续。\n",
+      "description": "AI算力的性能不只是看GPU，也取决于GPU、HBM、NIC和CPU之间能否跑得快。沪电把高多层高速PCB做成这条信号通道的承载体，是AI服务器与交换机出货放大时最直接的制造端受益者之一。",
+      "core_business": [
+        "AI服务器主板、加速卡与电源板用高多层高速PCB",
+        "数据中心交换机背板/线路卡PCB",
+        "高密度互连（HDI）、混合介质与厚铜板",
+        "通信基站、核心网、半导体设备、汽车电子和工业控制PCB"
+      ],
+      "revenue_model": "按PCB层数、线宽线距、材料等级、可靠性和交付周期定价，向服务器/交换机整机厂、通信设备商、汽车与工业客户销售定制化PCB；AI产品结构升级带动ASP和产能利用率提升",
+      "founded": 1992,
+      "headquarters": "中国江苏昆山",
+      "employees": "~15,243",
+      "latest_revenue": "FY2025 ¥18.95B（约$2.6B，+42.0% YoY）；Q2 2026 ¥7.48B",
+      "market_cap": "~¥246.8B（约$34.5B，2026.9）",
+      "data_freshness_date": "2026-09-13",
       "industry": "AI算力",
       "industries": [
         "AI算力"
@@ -30657,16 +30625,79 @@
       ],
       "chain_layer": "L2",
       "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "suppliers": [
+        {
+          "company": "生益科技/建滔集团等覆铜板厂",
+          "supplies": "高速覆铜板、半固化片与基础材料",
+          "note": "高速材料等级和供应稳定性影响高端订单交付"
+        },
+        {
+          "company": "铜箔/玻纤布/树脂供应商",
+          "supplies": "铜箔、玻纤布、树脂及化学药水",
+          "note": "AI PCB材料升级和涨价的主要上游变量"
+        },
+        {
+          "company": "钻孔/电镀/检测设备与精密化学品供应商",
+          "supplies": "激光钻孔、电镀、AOI和湿制程能力",
+          "note": "高多层与HDI良率的核心工艺投入"
+        }
+      ],
+      "customers": [
+        {
+          "company": "全球AI服务器/交换机整机与ODM厂",
+          "supplies": "服务器主板、加速卡、电源板和交换机PCB",
+          "note": "受益于AI集群带宽与算力板卡升级"
+        },
+        {
+          "company": "通信设备与数据中心基础设施客户",
+          "supplies": "背板、线路卡、天线和高速互连板",
+          "note": "核心网络、无线基础设施与数据中心"
+        },
+        {
+          "company": "半导体设备、汽车电子与工业客户",
+          "supplies": "厚铜板、混合介质板、高可靠性PCB",
+          "note": "非AI业务提供周期对冲"
+        }
+      ],
+      "partners": [
+        {
+          "company": "AI服务器/交换机客户",
+          "area": "高速PCB联合设计与认证",
+          "note": "新产品需要与芯片、连接器和整机结构协同开发"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "深南电路",
+          "ticker": "002916.SZ",
+          "area": "AI服务器PCB与通信背板",
+          "note": "国内高多层PCB主要竞争者"
+        },
+        {
+          "company": "胜宏科技",
+          "ticker": "300476.SZ",
+          "area": "AI加速卡与高阶HDI PCB",
+          "note": "在AI算力PCB领域放量竞争"
+        },
+        {
+          "company": "鹏鼎控股",
+          "ticker": "002938.SZ",
+          "area": "高端PCB与IC载板",
+          "note": "规模更大，向FC-BGA和服务器领域延伸"
+        },
+        {
+          "company": "TTM Technologies",
+          "ticker": "TTMI",
+          "area": "北美服务器、军工与高端PCB",
+          "note": "海外高可靠性和数据中心PCB竞争者"
+        }
+      ],
       "tags": [],
-      "website": "",
+      "website": "https://www.wustec.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# 沪电股份(002463)\n\n国内AI PCB（印制电路板）龙头企业，专注高多层、高速PCB产品的研发与制造。公司为AI服务器、高端交换机、基站设备等提供高可靠性PCB板，产品广泛应用于数据中心、通信设备、汽车电子等领域。AI算力需求爆发推动高端PCB需求快速增长，公司作为国内少数具备高多层PCB量产能力的企业深度受益。\n\n## 基本信息\n- 国家: 中国\n- 股票代码: 002463\n- 网站: https://www.wuscn.com",
-      "content_preview": "# 沪电股份\n\n> 国内AI PCB龙头，深耕高多层高速PCB板制造，通过AI服务器+交换机PCB批量供货实现盈利，位于产业链L2——AI服务器/交换机PCB核心供应商 | 国内AI PCB（印制电路板）龙头企业，专注高多层、高速PCB产品的研发与制造。公司为AI服务器、高端交换机、基站设备等提供高可靠性PCB板，产品广泛应用于数据中心、通信设备、汽车电子等领域。AI算力需求爆发推动高端PCB需求快速增长，公司作为国内少数具备高多层PCB量产能力的企业深度受益。",
+      "content": "# 沪电股份(002463)\n\nAI算力的性能不只是看GPU，也取决于GPU、HBM、NIC和CPU之间能否跑得快。沪电把高多层高速PCB做成这条信号通道的承载体，是AI服务器与交换机出货放大时最直接的制造端受益者之一。\n\n## 财务状况\n\n沪电财年与自然年一致。FY2023-2025连续三年高增长，FY2025营收接近FY2022的2.3倍，净利增长快于营收，说明AI PCB产品结构升级带来的ASP和毛利率改善已经落地。\n\n### 年度核心财务指标\n\n| 指标 | 2022 | 2023 | 2024 | 2025 |\n|------|------|------|------|------|\n| **营收** | ¥8.34B | ¥8.94B | ¥13.34B | **¥18.95B** |\n| **同比** | — | +7.2% | +49.3% | +42.0% |\n| **净利** | ¥1.36B | ¥1.51B | ¥2.59B | **¥3.82B** |\n| **净利率** | 16.3% | 16.9% | 19.4% | 20.2% |\n\n### 2026年季度趋势\n\n| 季度 | 营收 | 净利 | 备注 |\n|------|------|------|------|\n| Q1 2026 | ¥6.21B | ¥1.24B | 春节和新建产能爬坡影响部分效率 |\n| **Q2 2026** | **¥7.48B** | **¥1.68B** | 环比+20.3%；AI服务器与交换机订单继续拉动 |\n\n2026上半年营收¥13.69B、净利¥2.92B，相当于FY2025全年的72.2%和76.4%。Yahoo口径最新毛利率36.4%、营业利润率27.1%、净利率21.0%；高营业利润率反映公司高多层高速板产能的议价能力和良率改善。\n\n## 产品线详解\n\n| 产品线 | 技术特征 | AI/数据中心场景 |\n|--------|----------|----------------|\n| **服务器主板/加速卡PCB** | 高层数、高速材料、低损耗、密集BGA与电源层 | AI训练/推理服务器、GPU/ASIC加速卡 |\n| **交换机背板与线路卡** | 高层数背板、高速差分对、阻抗一致性 | 400G/800G/1.6T交换机与数据中心网络 |\n| **HDI与高密度互连板** | 细线路、激光钻孔、盲埋孔 | 高集成服务器板卡、光模块、网络芯片外围 |\n| **混合介质/厚铜板** | 混合材料、厚铜散热、大电流承载 | 电源、电源背板、半导体设备、汽车与工业控制 |\n\nAI PCB的核心变化不是单纯“更多层”：层数增加、材料从M4向M6/M7升级、阻抗公差和背钻/孔铜均匀性要求同步提高，认证周期也更长。公司需要对高多层压合、激光钻孔、电镀均匀性、热膨胀匹配和AOI良率做系统投入。\n\n## 技术路线图\n\n- **更高层数与更低损耗**：跟随AI服务器和交换机从传统12-16层向20-30层以上演进，匹配M6/M7级高速覆铜板\n- **高速材料与工艺协同**：与上游覆铜板、树脂、玻纤布和铜箔供应商协同，解决介电常数、热膨胀、翘曲和钻孔可靠性\n- **HDI与异构集成适配**：支持更多GPU/ASIC、HBM、NIC和CXL接口的密集互联，向更高密度盲埋孔与局部堆叠发展\n- **电源完整性**：厚铜、嵌铜和散热结构配合大功率GPU供电，降低IR drop与热阻\n- **产能弹性**：通过设备改造、自动化和良率提升，把AI高阶产能与传统通信/工业产能动态调配\n\n## 融资与现金流\n\n- PCB属于重资产制造，扩产周期通常包含洁净厂房、激光钻孔、压合、电镀、AOI等长周期设备投入\n- FY2025净利¥3.82B、FY2026上半年净利¥2.92B，为后续扩产和设备更新提供内部现金来源\n- Yahoo接口未返回完整现金流明细；跟踪重点应是资本开支、存货、应收账款和高速材料成本涨价对现金转化率的影响\n\n## 研发投入与专利\n\n- 员工约15,243人，研发和生产团队覆盖信号完整性、材料选型、工艺设计、设备自动化和品质可靠性\n- 研发方向集中于高频高速材料选型、阻抗控制、背钻与层间对位、厚铜散热、HDI良率和自动化检测\n- 护城河来自客户认证+工艺know-how+高阶设备产能组合；专利与工艺文件的作用体现在高层数板和特殊材料的可复制量产能力\n\n## 动态更新记录\n\n### 2026-09-13（D2批次：待深化龙头清单补全）\n- **来源**：`L0-原始资料池/03-新闻/2026-09-13-D2批次-5家薄档龙头公司-数据溯源.md` (input_20260913_119)\n- **核心更新**：由11字段骨架补全至25字段+5 body段，补入FY2022-2025财务、2026Q1/Q2季度趋势、AI服务器/交换机产品线、材料供应商与竞争格局",
+      "content_preview": "# 沪电股份\n\n> 国内AI服务器与高速交换机PCB核心供应商，量产高多层、高速材料和高可靠性背板/主板/HDI板，通过AI算力硬件所需的PCB设计与批量制造服务实现盈利，位于AI算力L2核心产品层——承接AI芯片与整机之间的高速信号互联。\n【2026.9.13更新】FY2025营收¥18.95B（+42.0%）；Q1/Q2 2026合计¥13.69B，AI服务器PCB高景气延续。\n | AI算力的性能不只是看GPU，也取决于GPU、HBM、NIC和CPU之间能否跑得快。沪电把高多层高速PCB做成这条信号通道的承载体，是AI服务器与交换机出货放大时最直接的制造端受益者之一。",
       "sources": ""
     },
     {
@@ -32798,17 +32829,23 @@
       "slug": "soitec",
       "type": "company",
       "country": "法国",
-      "ticker": "",
-      "one_liner": "SOI硅片全球#1(垄断>70%),FD-SOI+POI+SiC衬底，位于产业链L1原材料与资源（龙头）",
-      "description": "SOI硅片全球#1(垄断>70%),FD-SOI+POI+SiC衬底",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "ticker": "SOI.PA",
+      "one_liner": "Smart Cut SOI晶圆全球龙头，量产RF-SOI、FD-SOI、POI、Power-SOI、SiC和Photonics-SOI衬底，通过向射频前端、手机、汽车功率、边缘AI、硅光和数据中心芯片厂销售高价值衬底实现盈利，位于半导体L1原材料与资源层——SOI/化合物衬底的关键材料平台。\n【2026.9.13更新】FY2026（截至2026年3月）营收€592M（-33.6%）、净亏€220M；但FY2026 Q4收入回升至€202M。\n",
+      "description": "Soitec不是普通硅片厂：Smart Cut技术让它在SOI衬底上拥有近乎平台级的话语权。手机射频让公司完成了规模化，AI边缘、汽车功率和硅光则是它穿越下一轮周期的关键赌注。",
+      "core_business": [
+        "RF-SOI晶圆（智能手机射频前端与天线开关）",
+        "FD-SOI晶圆（低功耗边缘AI、车规处理器和混合信号SoC）",
+        "POI晶圆（射频滤波器）",
+        "Power-SOI与Auto SiC衬底（汽车/工业功率器件）",
+        "Photonics-SOI、Imager-SOI、PD-SOI、MEMS-SOI"
+      ],
+      "revenue_model": "以200/300mm高价值半导体衬底销售为主，通过与芯片厂和代工厂的工艺平台绑定实现放量；Smart Cut授权、衬底规格定制和多年度供货协议增强客户粘性",
+      "founded": 1992,
+      "headquarters": "法国贝尔南",
+      "employees": "~1,961",
+      "latest_revenue": "FY2026 €592M（财年截至2026年3月，-33.6% YoY）；Q4 FY2026 €202M",
+      "market_cap": "~€5.05B（2026.9）",
+      "data_freshness_date": "2026-09-13",
       "industry": "AI算力",
       "industries": [
         "AI算力",
@@ -32819,16 +32856,100 @@
       ],
       "chain_layer": "L1",
       "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "suppliers": [
+        {
+          "company": "高纯硅料与基础晶圆供应商",
+          "supplies": "高纯硅片、化合物材料与辅助材料",
+          "note": "衬底质量取决于上游纯度与几何精度"
+        },
+        {
+          "company": "CEA-Leti",
+          "supplies": "Smart Cut基础技术与研究合作",
+          "note": "公司技术的最初研发源头"
+        },
+        {
+          "company": "键合/离子注入/抛光设备供应商",
+          "supplies": "晶圆键合、薄层转移、注入和抛光设备",
+          "note": "支撑Smart Cut量产良率与300mm扩展"
+        }
+      ],
+      "customers": [
+        {
+          "company": "射频前端/滤波器/开关芯片厂商",
+          "supplies": "RF-SOI、POI衬底",
+          "note": "智能手机射频前端是传统最大应用"
+        },
+        {
+          "company": "GlobalFoundries/STMicroelectronics/Samsung等FD-SOI平台使用方",
+          "supplies": "FD-SOI晶圆",
+          "note": "低功耗边缘AI、混合信号与车规SoC"
+        },
+        {
+          "company": "汽车功率与工业器件客户",
+          "supplies": "Power-SOI、SiC衬底",
+          "note": "电动车功率电子、工业电源和能源基础设施"
+        },
+        {
+          "company": "硅光/数据中心与传感器客户",
+          "supplies": "Photonics-SOI、Imager-SOI、MEMS-SOI",
+          "note": "AI数据中心互连、3D成像和MEMS"
+        }
+      ],
+      "partners": [
+        {
+          "company": "CEA-Leti",
+          "area": "Smart Cut与新材料研发",
+          "note": "长期技术合作来源"
+        },
+        {
+          "company": "GlobalFoundries/STMicroelectronics",
+          "area": "FD-SOI工艺平台",
+          "note": "衬底规格与工艺认证绑定"
+        },
+        {
+          "company": "NSIG / 上海硅产业生态",
+          "area": "亚洲衬底产业协同",
+          "note": "股东背景和中国市场布局"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "信越化学",
+          "ticker": "4063.T",
+          "area": "半导体硅片与SOI衬底",
+          "note": "全球硅片龙头，材料平台覆盖更广"
+        },
+        {
+          "company": "SUMCO",
+          "ticker": "3436.T",
+          "area": "半导体硅片",
+          "note": "12英寸量产规模和先进制程硅片更强"
+        },
+        {
+          "company": "环球晶圆",
+          "ticker": "6488.TW",
+          "area": "硅片与SOI/化合物衬底",
+          "note": "全球并购扩张，细分衬底竞争增加"
+        },
+        {
+          "company": "Siltronic",
+          "ticker": "WAF.DE",
+          "area": "半导体硅片",
+          "note": "欧洲硅片供应商"
+        },
+        {
+          "company": "沪硅产业/上海新傲等",
+          "ticker": "688126.SS",
+          "area": "国产SOI与硅片",
+          "note": "中国国产替代推进中"
+        }
+      ],
       "tags": [],
-      "website": "N/A",
+      "website": "https://www.soitec.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Soitec\n\nSOI硅片全球#1(垄断>70%),FD-SOI+POI+SiC衬底",
-      "content_preview": "# Soitec\n\n> SOI硅片全球#1(垄断>70%),FD-SOI+POI+SiC衬底，位于产业链L1原材料与资源（龙头） | SOI硅片全球#1(垄断>70%),FD-SOI+POI+SiC衬底",
+      "content": "# Soitec\n\nSoitec不是普通硅片厂：Smart Cut技术让它在SOI衬底上拥有近乎平台级的话语权。手机射频让公司完成了规模化，AI边缘、汽车功率和硅光则是它穿越下一轮周期的关键赌注。\n\n## 财务状况\n\nSoitec财年截至3月31日。FY2026（2025年4月至2026年3月）营收€592M、净亏€220M，较FY2025€891M、净利€92M大幅下滑，核心原因是智能手机射频去库存、汽车/工业功率需求疲软以及产能扩张后的固定成本放大经营杠杆。Yahoo口径最新毛利率16.3%、营业利润率-10.7%、净利率-37.1%。\n\n### 年度核心财务指标\n\n| 指标 | FY2023 | FY2024 | FY2025 | FY2026 |\n|------|--------|--------|--------|--------|\n| **营收** | €1.09B | €978M | €891M | **€592M** |\n| **同比** | — | -10.3% | -8.9% | **-33.6%** |\n| **净利** | €232M | €178M | €92M | **-€220M** |\n| **净利率** | 21.3% | 18.2% | 10.3% | -37.2% |\n\n### FY2026季度收入趋势\n\n| 季度 | 结束日 | 营收 | 备注 |\n|------|--------|------|------|\n| Q1 | 2025-06 | €92M | 去库存低谷 |\n| Q2 | 2025-09 | €139M | 环比修复 |\n| Q3 | 2025-12 | €160M | RF-SOI补库和部分平台出货改善 |\n| **Q4** | **2026-03** | **€202M** | 单季回到€200M量级，但全年仍大幅下滑 |\n\nFY2026前四季度营收分别为€92M/€139M/€160M/€202M，显示收入逐季回升；不过Yahoo季度净利口径未提供可比盈利，全年净亏主要需结合年报中的毛利率、产能利用率、减值和一次性项目解释。\n\n## 产品线详解\n\n| 衬底平台 | 技术特征 | 主要应用 |\n|----------|----------|----------|\n| **RF-SOI** | 高电阻率衬底、低寄生、线性度好 | 智能手机射频开关、天线调谐和LNA集成 |\n| **POI** | 压电层与衬底结合 | 射频滤波器，覆盖4G/5G频段 |\n| **FD-SOI** | 薄埋氧+超薄顶层硅，背偏置可调 | 低功耗边缘AI、车载雷达/处理器、混合信号SoC |\n| **Power-SOI** | 埋氧隔离提升功率密度 | 汽车、工业电源管理和驱动芯片 |\n| **SiC / Auto SiC** | 化合物衬底和Smart Cut转移 | 电动车逆变器、车载充电、工业电源 |\n| **Photonics-SOI** | 光波导与硅光器件集成 | 数据中心互连、光模块、传感 |\n| **Imager/MEMS-SOI** | 背照式传感、高深宽比MEMS结构 | 3D成像、指纹传感、惯性/压力传感器 |\n\nSoitec的价值不在硅片面积，而在“材料结构+器件工艺”绑定。RF-SOI进入手机射频平台后，衬底规格会与芯片设计和代工工艺共同锁定；FD-SOI和SiC则需要更长的平台认证。这带来高毛利潜力，也放大了下游单一应用去库存时的收入波动。\n\n## 技术路线图\n\n- **Smart Cut扩展**：从SOI向SiC、压电、光子学和异质堆叠材料扩展，把薄层转移能力平台化\n- **300mm升级**：RF-SOI和FD-SOI继续向300mm迁移，提高单片产出和晶圆均匀性\n- **RF-SOI 5G/6G**：支持更高频段、更高线性度和更高集成度的射频前端\n- **FD-SOI边缘AI**：以背偏置调功耗，面向可穿戴、工业边缘、车规处理器和低功耗推理\n- **SiC与功率电子**：Bernin 4等新产能支持SiC衬底和汽车功率器件需求，但短期需消化行业去库存\n- **Photonics-SOI**：承接AI数据中心光互连、CPO和光学传感需求，是中长期第二增长曲线\n\n## 融资与现金流\n\n- FY2026净亏€220M，收入下滑叠加产能扩张使固定成本难以摊薄，是本轮财务压力的核心\n- Yahoo接口未返回完整现金流明细；重点跟踪存货、资本开支、Bernin 4爬坡节奏和银行授信\n- 公司股东结构包含BPI France、NSIG、CEA、员工持股和机构投资者，重大产能扩张通常依赖战略股东与资本市场协同\n\n## 研发投入与专利\n\n- 员工约1,961人，研发、工艺工程和客户支持围绕Smart Cut、晶圆键合、薄层转移、抛光、量测和新材料展开\n- Smart Cut由CEA-Leti与公司共同产业化，已形成从基础专利、工艺授权到量产know-how的护城河\n- 核心壁垒在于材料缺陷控制、埋氧层厚度均匀性、晶圆翘曲和与下游器件工艺的可制造性；SiC、光子学和堆叠材料都依赖这套能力外溢\n\n## 动态更新记录\n\n### 2026-09-13（D2批次：待深化龙头清单补全）\n- **来源**：`L0-原始资料池/03-新闻/2026-09-13-D2批次-5家薄档龙头公司-数据溯源.md` (input_20260913_119)\n- **核心更新**：由11字段骨架补全至25字段+5 body段，补入FY2023-FY2026财务、FY2026季度收入趋势、Smart Cut技术路线和RF-SOI/FD-SOI/SiC/Photonics-SOI产品线",
+      "content_preview": "# Soitec\n\n> Smart Cut SOI晶圆全球龙头，量产RF-SOI、FD-SOI、POI、Power-SOI、SiC和Photonics-SOI衬底，通过向射频前端、手机、汽车功率、边缘AI、硅光和数据中心芯片厂销售高价值衬底实现盈利，位于半导体L1原材料与资源层——SOI/化合物衬底的关键材料平台。\n【2026.9.13更新】FY2026（截至2026年3月）营收€592M（-33.6%）、净亏€220M；但FY2026 Q4收入回升至€202M。\n | Soitec不是普通硅片厂：Smart Cut技术让它在SOI衬底上拥有近乎平台级的话语权。手机射频让公司完成了规模化，AI边缘、汽车功率和硅光则是它穿越下一轮周期的关键赌注。",
       "sources": ""
     },
     {
@@ -39911,17 +40032,22 @@
       "slug": "axcelis",
       "type": "company",
       "country": "美国",
-      "ticker": "",
-      "one_liner": "离子注入设备全球#2(~25%),高能量注入全球#1，位于产业链L2设备与零部件（龙头）",
-      "description": "离子注入设备全球#2(~25%),高能量注入全球#1",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "ticker": "ACLS",
+      "one_liner": "离子注入设备全球第二（约25%份额）、高能量注入领先者，设计制造Purion系列高能/高束流/中束流注入机及后市场服务，通过向晶圆厂和SiC功率器件厂销售设备+备件+服务实现盈利，位于半导体L2设备与零部件层——晶体管掺杂和SiC高温注入的关键设备供应商。\n【2026.9.13更新】FY2025营收$839M（-17.6%）；Q2 2026营收$215.2M、净利$23.3M，2025年10月宣布与Veeco全股票合并。\n",
+      "description": "在Applied Materials主导的离子注入市场里，Axcelis用Purion平台守住高能量注入和SiC高温注入的差异化阵地；与Veeco的合并则把两家中小型设备商的工艺版图合并成更大的平台。",
+      "core_business": [
+        "Purion高能量离子注入机",
+        "Purion高束流/中束流离子注入机",
+        "SiC功率半导体高温离子注入方案",
+        "备件、升级、维护、培训与二手设备后市场服务"
+      ],
+      "revenue_model": "通过晶圆厂设备销售确认主要收入，再以备件、维护、升级、培训、二手设备等服务形成后市场复购；SiC高温注入等差异化应用带来溢价",
+      "founded": 1995,
+      "headquarters": "美国马萨诸塞州贝弗利",
+      "employees": "~1,465",
+      "latest_revenue": "FY2025 $839M（-17.6% YoY）；Q2 2026 $215.2M",
+      "market_cap": "~$3.5B（2026.9）",
+      "data_freshness_date": "2026-09-13",
       "industry": "半导体",
       "industries": [
         "半导体"
@@ -39931,16 +40057,80 @@
       ],
       "chain_layer": "L2",
       "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "suppliers": [
+        {
+          "company": "半导体设备精密零部件供应商",
+          "supplies": "真空系统、射频电源、离子源、运动平台与控制模块",
+          "note": "设备交付周期和毛利率受子系统供应影响"
+        },
+        {
+          "company": "电子/控制/软件配套供应商",
+          "supplies": "自动化控制、传感器与工艺软件",
+          "note": "支持Purion平台一致性和远程服务"
+        }
+      ],
+      "customers": [
+        {
+          "company": "晶圆代工厂与IDM",
+          "supplies": "逻辑/存储/模拟/功率器件离子注入设备",
+          "note": "成熟制程、功率与专用器件是重要收入来源"
+        },
+        {
+          "company": "SiC功率器件制造商",
+          "supplies": "高温离子注入方案",
+          "note": "SiC器件对高温掺杂和注入损伤控制要求高"
+        },
+        {
+          "company": "后市场客户",
+          "supplies": "备件、维护、升级、培训和二手设备",
+          "note": "装机量带来长期服务复购"
+        }
+      ],
+      "partners": [
+        {
+          "company": "Veeco Instruments",
+          "ticker": "VECO",
+          "area": "2025年10月宣布全股票合并",
+          "note": "交易估值约$4.4B，Axcelis股东预计持股约58%，待监管审批"
+        },
+        {
+          "company": "晶圆厂工艺团队",
+          "area": "注入工艺联合验证",
+          "note": "掺杂深度、均匀性、损伤和良率联合调优"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "Applied Materials",
+          "ticker": "AMAT",
+          "area": "离子注入设备",
+          "note": "全球份额约60%，高束流/中束流/高能量全品类覆盖"
+        },
+        {
+          "company": "Sumitomo Heavy Industries",
+          "ticker": "6302.T",
+          "area": "中束流与高能注入",
+          "note": "日本离子注入设备竞争者"
+        },
+        {
+          "company": "Nissin Ion Equipment",
+          "ticker": "6824.T",
+          "area": "离子注入设备",
+          "note": "日本专用注入设备竞争者"
+        },
+        {
+          "company": "Veeco",
+          "ticker": "VECO",
+          "area": "合并对象，其他半导体设备能力互补",
+          "note": "合并后将从独立竞争关系转为同一新平台"
+        }
+      ],
       "tags": [],
-      "website": "N/A",
+      "website": "https://www.axcelis.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Axcelis Technologies\n\n离子注入设备全球#2(~25%),高能量注入全球#1",
-      "content_preview": "# Axcelis Technologies\n\n> 离子注入设备全球#2(~25%),高能量注入全球#1，位于产业链L2设备与零部件（龙头） | 离子注入设备全球#2(~25%),高能量注入全球#1",
+      "content": "# Axcelis Technologies\n\n在Applied Materials主导的离子注入市场里，Axcelis用Purion平台守住高能量注入和SiC高温注入的差异化阵地；与Veeco的合并则把两家中小型设备商的工艺版图合并成更大的平台。\n\n## 财务状况\n\nAxcelis财年与自然年一致。FY2023是上一轮设备周期高点，FY2024-2025受半导体设备资本开支回调影响连续下滑；2026年季度收入环比修复，但盈利仍未回到2023年高点。\n\n### 年度核心财务指标\n\n| 指标 | 2022 | 2023 | 2024 | 2025 |\n|------|------|------|------|------|\n| **营收** | $920M | $1,131M | $1,018M | **$839M** |\n| **同比** | — | +22.9% | -9.9% | -17.6% |\n| **净利** | $183M | $246M | $201M | **$120M** |\n| **净利率** | 19.9% | 21.8% | 19.7% | 14.3% |\n\n### 2026年季度趋势\n\n| 季度 | 营收 | 净利 | 备注 |\n|------|------|------|------|\n| Q1 2026 | $199.0M | $9.2M | 淡季+费用确认压力 |\n| **Q2 2026** | **$215.2M** | **$23.3M** | 环比+8.1%，盈利明显修复 |\n\nYahoo口径最新毛利率43.0%、营业利润率9.4%、净利率10.7%。设备公司收入确认滞后于订单，单季净利率波动较大；后市场服务和SiC设备占比是观察利润质量的关键。\n\n## 产品线详解\n\n| 产品/服务 | 工艺定位 | 说明 |\n|-----------|----------|------|\n| **Purion高能量注入机** | MeV级深掺杂/阱注入 | 公司差异化优势，用于CMOS阱、功率器件和SiC特定工艺 |\n| **Purion高束流注入机** | 源漏/接触区等高剂量掺杂 | 对束流稳定、晶圆温控和低损伤要求高 |\n| **Purion中束流注入机** | 阈值调整、阱区与精密掺杂 | 覆盖逻辑、模拟、图像传感器和功率器件 |\n| **SiC高温注入** | 高温激活与损伤控制 | SiC材料硬且掺杂激活难，高温注入能改善掺杂效率与器件良率 |\n| **后市场服务** | 备件/维护/升级/二手设备 | 随装机量积累形成经常性收入，平滑设备周期 |\n\n离子注入设备的市场规模远小于刻蚀、沉积和光刻，但它是晶体管电学性能的直接决定环节。Axcelis在高端逻辑先进制程面对AMAT的压力，但在SiC功率器件、成熟制程和特定高能注入上形成了相对聚焦的份额。\n\n## 技术路线图\n\n- **Purion平台扩展**：以统一平台覆盖高能、高束流、中束流配置，降低客户工艺迁移和维护成本\n- **SiC/GaN功率半导体**：强化高温注入、能量精度和晶圆损伤控制，匹配电动汽车、光伏储能和工业电源需求\n- **低损伤与均匀性**：GAA、背照式传感器和功率器件对浅结/深结掺杂均匀性要求提升，注入剂量和角度控制继续精细化\n- **数字化服务**：远程诊断、预测性维护和工艺配方管理提高设备稼动率，增强后市场粘性\n- **与Veeco合并整合**：两家公司若完成合并，可在离子注入、光刻、激光退火、刻蚀和封装相关设备之间扩大交叉销售\n\n## 融资与现金流\n\n- FY2025净利$120M、2026Q2净利$23.3M，周期底部仍保持盈利，显示后市场服务和聚焦产品线的缓冲作用\n- Yahoo接口未返回完整现金流明细；设备公司的现金转化核心看预收款、存货、验收节奏和资本开支\n- 2025年10月宣布与Veeco全股票合并，交易估值约$4.4B；合并完成后有望摊薄双方研发、供应链和管理费用，但短期仍需承担整合成本\n\n## 研发投入与专利\n\n- 员工约1,465人，研发、应用工程、现场服务和制造团队覆盖离子源、束线、真空、控制软件和工艺验证\n- 研发重点包括高能量束流稳定性、高温注入均匀性、低缺陷掺杂、自动化控制和Purion平台模块化\n- 护城河由离子注入工艺know-how、客户认证周期、装机量与服务网络共同构成；单靠专利数量不足以反映设备平台壁垒\n\n## 动态更新记录\n\n### 2026-09-13（D2批次：待深化龙头清单补全）\n- **来源**：`L0-原始资料池/03-新闻/2026-09-13-D2批次-5家薄档龙头公司-数据溯源.md` (input_20260913_119)\n- **核心更新**：由11字段骨架补全至25字段+5 body段，补入FY2022-2025财务、2026Q1/Q2季度趋势、Purion平台、SiC高温注入和2025年10月与Veeco合并事件",
+      "content_preview": "# Axcelis Technologies\n\n> 离子注入设备全球第二（约25%份额）、高能量注入领先者，设计制造Purion系列高能/高束流/中束流注入机及后市场服务，通过向晶圆厂和SiC功率器件厂销售设备+备件+服务实现盈利，位于半导体L2设备与零部件层——晶体管掺杂和SiC高温注入的关键设备供应商。\n【2026.9.13更新】FY2025营收$839M（-17.6%）；Q2 2026营收$215.2M、净利$23.3M，2025年10月宣布与Veeco全股票合并。\n | 在Applied Materials主导的离子注入市场里，Axcelis用Purion平台守住高能量注入和SiC高温注入的差异化阵地；与Veeco的合并则把两家中小型设备商的工艺版图合并成更大的平台。",
       "sources": ""
     },
     {
@@ -41731,17 +41921,22 @@
       "slug": "realtek",
       "type": "company",
       "country": "台湾",
-      "ticker": "",
-      "one_liner": "网卡/音频Codec/交换芯片/WiFi/BT,全球前三网卡芯片，位于产业链L4终端应用与服务（龙头）",
-      "description": "网卡/音频Codec/交换芯片/WiFi/BT,全球前三网卡芯片",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "ticker": "2379.TW",
+      "one_liner": "全球网络与消费电子连接IC设计龙头，Fabless设计以太网控制器/PHY、交换与网关芯片、Wi-Fi/BT及PC音频Codec，通过向PC OEM、网络设备商和消费电子品牌销售芯片实现盈利，位于半导体L3核心产品层——RTL8111等以太网方案和HD Audio Codec长期渗透全球PC/路由器主板。\n【2026.9.13更新】FY2025营收NT$122.7B（+8.2%）；Q1/Q2 2026营收合计NT$73.98B，网络升级与AIoT需求带动增长。\n",
+      "description": "从“螃蟹卡”RTL8111到主板标配的HD Audio Codec，Realtek以低集成成本、长生命周期和庞大装机量，把网络与消费连接芯片做成了全球电子设备里的隐形基础设施。",
+      "core_business": [
+        "以太网NIC/PHY与交换控制器（10/100M、千兆、多端口交换）",
+        "家庭网关、DSL/DTV demod、Wi-Fi与蓝牙连接芯片",
+        "PC/消费音频Codec、Class-D功放与摄像头控制器",
+        "Type-C PD、USB Hub、读卡器和Smart Interconnect芯片"
+      ],
+      "revenue_model": "Fabless模式设计连接与多媒体IC，通过直销+分销向PC OEM/ODM、网络设备厂、消费电子和工业客户销售芯片，以量换价并叠加后续驱动维护与平台兼容性壁垒",
+      "founded": 1987,
+      "headquarters": "台湾新竹科学园区",
+      "employees": "~6,900（2022年报口径）",
+      "latest_revenue": "FY2025 NT$122.7B（约$4.0B，+8.2% YoY）；Q2 2026 NT$37.6B",
+      "market_cap": "~NT$361B（约$11.8B，2026.9）",
+      "data_freshness_date": "2026-09-13",
       "industry": "半导体",
       "industries": [
         "半导体"
@@ -41749,18 +41944,88 @@
       "segments": [
         "IC设计服务(Fabless)"
       ],
-      "chain_layer": "L4",
+      "chain_layer": "L3",
       "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "suppliers": [
+        {
+          "company": "台积电",
+          "ticker": "TSM",
+          "supplies": "先进与成熟制程晶圆代工",
+          "note": "主力代工产能"
+        },
+        {
+          "company": "联华电子",
+          "ticker": "2303.TW",
+          "supplies": "成熟制程与混合信号晶圆代工",
+          "note": "网络、消费与模拟混合信号产品的重要产能"
+        },
+        {
+          "company": "ASE/SPIL等封测厂",
+          "supplies": "封装与测试",
+          "note": "Fabless模式下的外包后段产能"
+        }
+      ],
+      "customers": [
+        {
+          "company": "全球PC OEM/ODM",
+          "supplies": "以太网控制器、Wi-Fi/BT、HD Audio Codec",
+          "note": "主板与笔记本集成方案"
+        },
+        {
+          "company": "网络/通信设备厂",
+          "supplies": "交换控制器、网关控制器、Ethernet PHY",
+          "note": "路由器、交换机、家庭网关与企业网络"
+        },
+        {
+          "company": "消费电子/IoT品牌与ODM",
+          "supplies": "无线连接、多媒体、Type-C与读卡器芯片",
+          "note": "机顶盒、电视外设、智能家居与移动配件"
+        }
+      ],
+      "partners": [
+        {
+          "company": "台积电/联华电子",
+          "area": "先进与成熟制程工艺协同",
+          "note": "长期产能与混合信号工艺迭代"
+        },
+        {
+          "company": "ASE/SPIL",
+          "area": "封装测试与产能协同",
+          "note": "后段规模交付"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "Broadcom",
+          "ticker": "AVGO",
+          "area": "以太网/交换/网关芯片",
+          "note": "高端企业网络与数据中心方案更强"
+        },
+        {
+          "company": "MediaTek",
+          "ticker": "2454.TW",
+          "area": "家庭网关、Wi-Fi与连接SoC",
+          "note": "运营商网关与消费路由市场重叠"
+        },
+        {
+          "company": "Qualcomm",
+          "ticker": "QCOM",
+          "area": "Wi-Fi/BT与IoT连接",
+          "note": "高端手机与网状网络方案竞争"
+        },
+        {
+          "company": "Marvell / Microchip",
+          "ticker": "MRVL",
+          "area": "Ethernet PHY、控制器与汽车/工业网络",
+          "note": "在企业级、车载与专用接口领域竞争"
+        }
+      ],
       "tags": [],
-      "website": "N/A",
+      "website": "https://www.realtek.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Realtek (瑞昱)\n\n网卡/音频Codec/交换芯片/WiFi/BT,全球前三网卡芯片",
-      "content_preview": "# Realtek (瑞昱)\n\n> 网卡/音频Codec/交换芯片/WiFi/BT,全球前三网卡芯片，位于产业链L4终端应用与服务（龙头） | 网卡/音频Codec/交换芯片/WiFi/BT,全球前三网卡芯片",
+      "content": "# Realtek (瑞昱)\n\n从“螃蟹卡”RTL8111到主板标配的HD Audio Codec，Realtek以低集成成本、长生命周期和庞大装机量，把网络与消费连接芯片做成了全球电子设备里的隐形基础设施。\n\n## 财务状况\n\nRealtek财年与自然年一致。FY2025营收回到NT$120B以上，主要受益于网络、消费与AIoT出货修复；净利仍低于2022年周期高点，显示中低端连接芯片价格竞争仍然存在。\n\n### 年度核心财务指标\n\n| 指标 | 2022 | 2023 | 2024 | 2025 |\n|------|------|------|------|------|\n| **营收** | NT$111.8B | NT$95.2B | NT$113.4B | **NT$122.7B** |\n| **同比** | — | -14.9% | +19.1% | +8.2% |\n| **净利** | NT$16.2B | NT$9.15B | NT$15.3B | **NT$14.8B** |\n| **净利率** | 14.5% | 9.6% | 13.5% | 12.0% |\n\n### 2026年季度趋势\n\n| 季度 | 营收 | 净利 | 备注 |\n|------|------|------|------|\n| Q1 2026 | NT$36.4B | NT$4.33B | 春节与客户库存调整后修复 |\n| **Q2 2026** | **NT$37.6B** | **NT$3.81B** | 环比+3.1%；网络与消费连接出货延续 |\n\n2026上半年营收NT$73.98B，已达FY2025全年的60.3%。Yahoo口径最新毛利率48.6%、营业利润率9.9%、净利率11.0%；毛利率处于IC设计较健康水平，但费用和产品结构压制营业利润率。\n\n## 产品线详解\n\n| 产品线 | 代表产品/方向 | 说明 |\n|--------|--------------|------|\n| **通信网络IC** | Ethernet NIC/PHY、交换控制器、网关、DSL/DTV demod | RTL8111/RTL8125等方案长期进入PC主板、路由器和网关，是公司的规模基石 |\n| **无线连接** | Wi-Fi、蓝牙、GNSS、IoT连接 | 覆盖路由器、智能家居、TV外设与移动周边，向Wi-Fi 6/7升级 |\n| **PC与消费音频** | HD Audio Codec、Class-D功放、摄像头控制器 | ALC系列在集成音频市场渗透率高，受益于PC/游戏/影音外设装机量 |\n| **智能互联与多媒体** | USB Hub、Type-C PD、读卡器、多媒体控制器 | 围绕PC、移动配件、电视和家庭娱乐扩展高集成接口方案 |\n\nRealtek不追求少数大客户的高端定制，而是用“通用规格+成本/良率/兼容性+长周期供应”覆盖大量OEM/ODM和分销客户。这种结构在周期下行时更抗单一大客户波动，但价格弹性弱于独供高端产品。\n\n## 技术路线图\n\n- **高速以太网**：从千兆向2.5G/5G/10G Ethernet扩展，匹配路由器、NAS、企业网和游戏/创作终端带宽升级\n- **Wi-Fi 6/7与异构连接**：Wi-Fi+BT+Ethernet+GNSS组合集成，降低BOM成本并提升路由器、机顶盒和智能家居的方案粘性\n- **Type-C/USB生态**：Type-C PD、USB Hub与高速桥接控制器承接移动PC和配件接口统一趋势\n- **AIoT与边缘多媒体**：低功耗连接、视觉/音频接口和家庭媒体处理结合，面向边缘视频、智能音箱、电视外设和工业物联网\n- **车载与工业扩展**：利用以太网PHY和音频/连接方案的可靠性积累，向工业通信、车载信息娱乐外围和工业网关渗透\n\n## 融资与现金流\n\n- 公司为Fabless模式，资本开支压力低于IDM，产能主要通过台积电/联电及封测伙伴调配\n- Wikipedia收录的2022年财报显示总资产NT$113.7B、股东权益NT$46.76B；该口径可作为公司资产负债结构的基准，最新现金与负债明细需以2025年财务报告为准\n- Yahoo接口未返回完整现金流明细；从业务模式看，盈利质量主要由存货周转、代工预付和分销渠道回款决定\n\n## 研发投入与专利\n\n- 历史披露显示2019年约5,000名员工中78%从事研发，2022年员工约6,900人；研发人员占比长期处于IC设计公司高位\n- 研发重点是以太网PHY、无线共存、混合信号整合、音频信号链和USB/Type-C接口协议\n- 核心壁垒不是单一专利数量，而是RTL8111、ALC Codec等长生命周期产品与主板BIOS、操作系统驱动、路由器SDK形成的兼容性生态\n\n## 动态更新记录\n\n### 2026-09-13（D2批次：待深化龙头清单补全）\n- **来源**：`L0-原始资料池/03-新闻/2026-09-13-D2批次-5家薄档龙头公司-数据溯源.md` (input_20260913_119)\n- **核心更新**：由11字段骨架补全至25字段+5 body段，补入FY2022-2025财务、2026Q1/Q2季度趋势、网络/无线/音频/互联产品线和Fabless供应链",
+      "content_preview": "# Realtek (瑞昱)\n\n> 全球网络与消费电子连接IC设计龙头，Fabless设计以太网控制器/PHY、交换与网关芯片、Wi-Fi/BT及PC音频Codec，通过向PC OEM、网络设备商和消费电子品牌销售芯片实现盈利，位于半导体L3核心产品层——RTL8111等以太网方案和HD Audio Codec长期渗透全球PC/路由器主板。\n【2026.9.13更新】FY2025营收NT$122.7B（+8.2%）；Q1/Q2 2026营收合计NT$73.98B，网络升级与AIoT需求带动增长。\n | 从“螃蟹卡”RTL8111到主板标配的HD Audio Codec，Realtek以低集成成本、长生命周期和庞大装机量，把网络与消费连接芯片做成了全球电子设备里的隐形基础设施。",
       "sources": ""
     },
     {
@@ -46861,13 +47126,6 @@
         }
       },
       {
-        "name": "Cabot Microelectronics",
-        "symbolSize": 12,
-        "itemStyle": {
-          "color": "#34C759"
-        }
-      },
-      {
         "name": "字节跳动",
         "symbolSize": 12,
         "itemStyle": {
@@ -51545,10 +51803,6 @@
       {
         "source": "封装测试(OSAT)",
         "target": "甬矽电子"
-      },
-      {
-        "source": "CMP抛光液与抛光垫",
-        "target": "Cabot Microelectronics"
       },
       {
         "source": "CMP抛光液与抛光垫",
