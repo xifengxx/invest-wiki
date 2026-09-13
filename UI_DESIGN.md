@@ -465,8 +465,13 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
   - 状态着色:
     - `unresolved`: 琥珀色（`#D97706` 文字 + 半透明琥珀背景）
     - `resolved_a` / `resolved_b`: 绿色（`#059669` + 半透明绿背景）
-    - `superseded`: 灰色（`#86868B` + 浅灰背景）
+    - `superseded`: 灰色（`#86868B` + 浅灰背景）—— 两方口径均被更新的第三方来源取代
+    - `wontfix`: 灰色（`#86868B` + 浅灰背景）—— 确认为口径差异而非错误，不追
   - 显示: 矛盾描述（bold）+ 来源A/B + 发现日期 + 状态
+
+> **枚举的唯一定义在 `L1-Schema与Pipeline/schemas/field-formats.md` §8。**
+> 前端对未知 `status` 会静默降级为灰色且不报错，因此三处文档曾各自定义
+> （本文件、lint 规范、L1 CLAUDE.md）而不一致时无人发现 —— 2026-09-13 已统一。
 
 **数据源例子**:
 ```javascript

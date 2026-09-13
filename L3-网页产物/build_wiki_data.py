@@ -214,6 +214,27 @@ def _auto_derive_supply_chain(entities: list):
 # 实体转换
 # ---------------------------------------------------------------------------
 
+def _source_confidence(sources) -> str:
+    """按 sources 的来源类型派生可信度标签（编译期计算，不写回 YAML）。
+
+    - `external`：至少一条 url 以 http(s):// 开头，即存在可外部核验的链接
+    - `internal-only`：有 sources，但全部 url 为空串或指向仓内路径
+      （如 `L2-Wiki/公司/xxx.md`、`L0-原始资料池/...`）—— 结论只在本仓库内自洽，
+      未经外部来源核验
+    - `none`：完全没有 sources
+
+    背景：67 个赛道曾有 17 个的 sources 每一条 url 都是空串，"名义有来源、
+    实际无可核验链接"，但页面上与深度赛道长得一模一样。此标记让前端能区分。
+    """
+    if not sources:
+        return 'none'
+    for s in sources:
+        url = str(s.get('url', '') if isinstance(s, dict) else '').strip()
+        if url.startswith('http://') or url.startswith('https://'):
+            return 'external'
+    return 'internal-only'
+
+
 def entity_to_dict(entity, max_tam: float, max_backlinks: int) -> dict:
     """将 WikiParser Entity 转换为前端所需的 dict 格式。"""
     fm = entity.frontmatter
@@ -284,6 +305,7 @@ def entity_to_dict(entity, max_tam: float, max_backlinks: int) -> dict:
         'value_add': fm.get('value_add', ''),
         'companies': fm.get('companies', []),
         'contradictions': fm.get('contradictions', []),
+        'source_confidence': _source_confidence(get_structured('sources')),
         'related_theses': fm.get('related_theses', []),
         'updated': fm.get('updated', ''),
     }

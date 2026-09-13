@@ -153,6 +153,13 @@ sources:
 - title: 深南电路/兴森科技2025年报
   summary: 国产IC载板进入放量期，深南电路无锡基地产能翻倍
   url: https://data.eastmoney.com
+contradictions:
+- desc: '华正新材 CBF 积层绝缘膜（对标味之素 ABF）的国产化进度：原记「中国国产化率为零、2027年小批量」，新调研显示「一期300万㎡/年、良率超85%，已通过兴森科技/深南电路验证并向长电科技、华为昇腾小批量供货」'
+  source_a: '本赛道 tech_gap 原口径：国产化率为零，生益/华正预计 2027 年小批量'
+  source_b: '华正新材公司词条（2026-09-13 调研，L0 归档 input_20260913_116）：已小批量供货'
+  status: 'resolved_b'
+  resolved_date: '2026-09-13'
+  found_date: '2026-09-13'
 ---
 
 # 封装基板材料

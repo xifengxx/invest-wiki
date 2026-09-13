@@ -254,3 +254,59 @@ companies:
 - 支撑证据（`## 支撑证据`）和反对证据（`## 反对证据`）使用相同格式
 - build 脚本的 `_parse_thesis_evidence()` 自动解析为 `[{content, source_title, source_url}]` 结构化数组
 - 前端渲染：证据内容正文 + 来源标题蓝色小字 + 链接可点击
+
+---
+
+## 8. contradictions（矛盾追踪）
+
+### YAML 结构
+
+```yaml
+contradictions:
+  - desc: "矛盾内容的一句话描述"
+    source_a: "来源A（URL 或 L0 归档路径）"
+    source_b: "来源B（URL 或 L0 归档路径）"
+    status: "unresolved"
+    found_date: "2026-09-13"
+    resolved_date: "2026-09-20"   # status 非 unresolved 时填
+```
+
+### 子字段说明
+
+| 字段 | 类型 | 必填 | 说明 |
+|------|------|:--:|------|
+| `desc` | str | ✅ | 矛盾内容描述，≤120字。写清楚「两个数字/结论分别是什么」 |
+| `source_a` | str | ✅ | 来源A，URL 或 `L0-原始资料池/...` 路径 |
+| `source_b` | str | ✅ | 来源B，同上 |
+| `status` | enum | ✅ | 见下方枚举 |
+| `found_date` | str | ✅ | 发现日期 `YYYY-MM-DD` |
+| `resolved_date` | str | - | 解决日期，`status != unresolved` 时必填 |
+
+### `status` 枚举（**唯一定义，其他文档以此为准**）
+
+| 值 | 含义 | 前端颜色 |
+|------|------|:--:|
+| `unresolved` | 尚未解决 | 琥珀（警示） |
+| `resolved_a` | 已解决，采用**来源A**口径 | 绿 |
+| `resolved_b` | 已解决，采用**来源B**口径 | 绿 |
+| `superseded` | 两方口径均被更新的第三方来源取代 | 灰 |
+| `wontfix` | 确认为口径差异而非错误，不追 | 灰 |
+
+> **历史背景**：本枚举曾有三套互相冲突的定义 —— `lint/执行指令-定期扫描.md` 用
+> `resolved`、`UI_DESIGN.md` 与前端实现用 `resolved_a`/`resolved_b`、
+> `L1-Schema与Pipeline/CLAUDE.md` 用 `resolved`/`superseded`/`wontfix`。
+> 前端对未知 `status` 会**静默降级为灰色**、不报错，因此不统一就永远发现不了。
+> 2026-09-13 统一为上表，其余文档已同步。
+
+### 规则
+
+- 一条矛盾**追加**，不覆盖已有条目
+- 赛道已有 `contradictions` 时，新条目追加到数组末尾
+- 矛盾解决后更新 `status` 与 `resolved_date`，**不删除条目**（保留研究过程的痕迹）
+- **能标口径就不算矛盾**：若两个数字只是统计口径不同（如「全口径 vs 剔除大宗标准型」），
+  正确做法是在正文里写明两个口径，并登记一条 `status: wontfix` 的矛盾，
+  而不是二选一后隐去另一个
+
+### 前端渲染
+
+`index.html` 的赛道详情页模块 2.5「⚠️ 已知矛盾 (N项)」按上述颜色渲染；`contradictions` 为空时不显示该卡片。

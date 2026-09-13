@@ -31,7 +31,7 @@
 | 23 | key_inputs_detail | str | - | 预留：上游详细说明 | - |
 | 24 | key_customers_detail | str | - | 预留：下游详细说明 | - |
 | 25 | value_add | str | - | 附加值等级：high/medium/low | - |
-| 26 | contradictions | list/null | - | 矛盾追踪列表，见下方 contradictions 格式 | 矛盾提示卡片 |
+| 26 | contradictions | list/null | - | 矛盾追踪列表，格式见 `field-formats.md` §8 | 矛盾提示卡片 |
 | 27 | related_theses | list | - | 关联论点 slug 数组 | 投资论点模块 |
 
 ## 字段填充优先级

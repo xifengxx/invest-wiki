@@ -201,7 +201,7 @@ Invest Wiki 维护分两种模式，需交替执行：
 - **执行步骤**：
   1. 运行完整 Lint 四维扫描（矛盾/过期/孤立/格式，`lint/执行指令-定期扫描.md`）
   2. 审核所有 thesis：检查 status 是否需要变更（forming→active→invalidated/confirmed）、confidence 是否需要基于新证据调整
-  3. 解决所有 unresolved contradictions（标记为 resolved/superseded/wontfix）
+  3. 解决所有 unresolved contradictions（`status` 枚举的唯一定义见 `schemas/field-formats.md` §8：`unresolved` / `resolved_a` / `resolved_b` / `superseded` / `wontfix`；解决后填 `resolved_date`，但不删除条目）
   4. 运行链接增强（`link-enrich/执行指令-链接增强.md`），目标平均链接数≥5/赛道
   5. 检查孤立页面（backlinks=0），补充链接或标记原因
   6. 检查无匹配内容池（L0 Schema-Mapping中的"无匹配内容"表），判断是否有累积到需要新建赛道/概念的程度
