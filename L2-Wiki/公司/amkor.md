@@ -8,7 +8,7 @@ updated: 2026-08
 data_freshness_date: 2026-08-18
 segments:
 - 先进封装CoWoS
-- 半导体封测(OSAT)
+- "封装测试(OSAT)"
 one_liner: |
   全球第二大OSAT封测企业（仅次于日月光ASE），在先进封装（2.5D/HDFO/Flip Chip）领域与ASE并列领先，Q1 2026营收$1.69B（+27.5% YoY），先进封装营收$1.37B创新高，2.5D/HDFO（类CoWoS）2026年翻三倍，CAPEX $2.5-3B创纪录，Arizona美国本土封测新厂地缘价值，市值~$18B。
   【2026.8.18更新】Q2 2026营收$1.90B/净利$174M/毛利率16.8%

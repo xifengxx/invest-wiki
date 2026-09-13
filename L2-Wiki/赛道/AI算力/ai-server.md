@@ -37,8 +37,16 @@ competition:
   - name: Lenovo
     share: '-'
     note: 0992.HK ThinkSystem SR AI
-  barriers: []
-  tech_gap: []
+  barriers:
+  - item: GPU 供应配额
+    detail: NVIDIA 高端 GPU 分配决定出货节奏，ODM/品牌商几无议价能力
+  - item: 整机柜系统集成
+    detail: GB200 NVL72 级机柜的液冷 + 互联 + 供电集成门槛高
+  - item: 客户认证周期
+    detail: 超大规模客户验证周期长，新进入者难切入
+  tech_gap:
+  - dimension: 中国在 AI 服务器集成环节全球领先（工业富联份额约 40%，已在 NVIDIA Vera Rubin 平台前瞻卡位），核心差距在 GPU 本身受出口管制，国产算力方案单卡性能差距明显
+    detail: ''
 key_trends:
 - title: AI服务器2026年占全球服务器市场74%价值(TrendForce)
   detail: GB200/300机柜出货从20K(2025)增至30K+(2026)，ASP>$3M

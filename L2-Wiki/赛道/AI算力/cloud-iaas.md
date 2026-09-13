@@ -40,8 +40,16 @@ competition:
   - name: Nebius
     share: '-'
     note: 荷兰GDPR合规欧洲AI云
-  barriers: []
-  tech_gap: []
+  barriers:
+  - item: 资本开支规模
+    detail: 三大云年 Capex 千亿美元级，规模本身即壁垒
+  - item: 全栈服务矩阵
+    detail: 数据库/AI/安全/网络的完整能力难以短期复制
+  - item: 数据主权与合规
+    detail: 主权 AI 趋势要求本地化部署，跨国服务受限
+  tech_gap:
+  - dimension: 中国云厂商（阿里云/华为云）国内份额领先、AI 云收入增速 45%，但海外市场份额低；全球云基础设施仍由 AWS/Azure/GCP 主导
+    detail: ''
 key_trends:
 - title: GPU云增速3x传统云
   detail: AI工作负载驱动GPU云收入从$18B(2025)向$50B+(2027)增长

@@ -80,7 +80,7 @@ ticker: LRCX
 description: 泛林半导体（Lam Research）是全球领先的半导体晶圆制造设备供应商，总部位于美国加州弗里蒙特，成立于1980年。公司专注于刻蚀（Etch）、薄膜沉积（Deposition）和清洗（Strip & Clean）三大核心工艺领域，为台积电、三星、英特尔、SK海力士等全球顶级芯片制造商提供关键设备。泛林在导体刻蚀和原子层沉积（ALD）领域市占率全球领先，2025财年营收约184亿美元。受益于AI芯片需求爆发、3D
   NAND层数堆叠和GAA晶体管技术过渡，公司处于半导体设备升级周期的核心位置。
 website: https://www.lamresearch.com
-industry: 半导体设备
+industry: 半导体
 ---
 
 # Lam Research

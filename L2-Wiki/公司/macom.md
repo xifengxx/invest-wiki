@@ -8,7 +8,7 @@ updated: 2026-08
 data_freshness_date: 2026-08-18
 segments:
 - DSP与光芯片
-- RF/射频芯片
+- "射频芯片"
 one_liner: |
   全球化合物半导体（GaAs/GaN/InP）RF/微波/光电子芯片领先供应商，在数据中心PAM4光芯片（800G/1.6T）、国防雷达和5G射频领域具有独特工艺优势，Q2 FY2026营收$289M（+22.5% YoY），Q3指引$335M（加速至+40% YoY），TTM $1.07B，市值~$22B。
   【2026.8.18更新】Q3 FY2026营收$342.2M（+35.8% YoY，超指引$335M）创历史新高，GAAP净利$100.7M（EPS $1.28），Non-GAAP净利$109.8M（EPS $1.40），Non-GAAP毛利率59.7%；数据中心QoQ+~40%、Book-to-bill 1.6:1；Q4 FY2026指引营收$415-425M、Non-GAAP EPS $1.97-2.03。

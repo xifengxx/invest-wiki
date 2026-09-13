@@ -25,8 +25,16 @@ competition:
   - name: 自研DPU：AWS Nitro
     share: '-'
     note: 最早大规模部署, Microsoft Azure Boost
-  barriers: []
-  tech_gap: []
+  barriers:
+  - item: 完整卸载能力
+    detail: 需在芯片上实现网络/存储/安全的全栈卸载，工程难度高
+  - item: 云厂商自研替代
+    detail: AWS Nitro、阿里神龙等自研 DPU 挤压第三方市场空间
+  - item: 开发框架绑定
+    detail: DOCA 等框架与 NVIDIA 生态深度绑定，第三方兼容性差
+  tech_gap:
+  - dimension: 中国 DPU 厂商（中科驭数/云豹/大禹）起步晚，在性能、生态与商用规模上与 NVIDIA BlueField 差距明显
+    detail: ''
 key_trends:
 - title: DPU从可选→AI服务器标配
   detail: 卸载网络/存储/安全任务，释放CPU/GPU计算资源

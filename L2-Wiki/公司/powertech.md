@@ -7,7 +7,7 @@ type: company
 updated: 2026-08
 data_freshness_date: 2026-08-18
 segments:
-- 半导体封测(OSAT)
+- "封装测试(OSAT)"
 one_liner: |
   全球存储器封装测试龙头（DRAM/NAND/SSD封测全球领先），在2.5D/3D先进封装+Fan-Out面板级封装领域布局，TTM营收NT$807.5亿（~$2.5B），毛利率17.6%，服务美光/Kioxia/SanDisk等存储大厂，市值~NT$2,760亿（~$8.8B）。
   【2026.8.18更新】Q2 2026营收NT$231.16亿/净利NT$22.19亿/毛利率21.8%

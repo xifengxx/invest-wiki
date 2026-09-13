@@ -25,11 +25,11 @@ competition:
     share: ~12.0%
     note: 中国，全闪存增长强劲(+9.5%)
   - name: NetApp
-    share: ~9.4%
-    note: 美国，全闪存阵列第三，AI存储布局
-  - name: Pure Storage
-    share: ~6.8%
-    note: 美国，全闪存增速最快(+15.5%)，AI优化存储平台
+    share: ~9.9%
+    note: 美国，IDC 2026Q1 全闪存市占 9.9%，AI存储布局
+  - name: Pure Storage (Everpure)
+    share: ~8.9%
+    note: 美国，已更名 Everpure Inc.(2026-03)、NYSE代码 PSTG→P(2026-04)；IDC 2026Q1 全闪存市占 8.9%(+37.9%)、排名第3
   china:
   - name: 华为
     share: '-'
@@ -80,17 +80,19 @@ companies:
   name: NetApp
   role: 全闪存龙头
   rev: 50
-- ticker: PSTG
-  name: Pure Storage
-  role: 全闪存黑马
+- ticker: P
+  name: Pure Storage (Everpure)
+  role: 直接相关
   rev: 55
 - ticker: HPE
   name: HPE
   role: 存储厂商
   rev: 45
 sources:
-- title: IDC《全球企业存储系统Q3 2025》
-  summary: 2025 Q3企业存储$79.7亿(整体+2.1%)，全闪存+17.6%，Dell 22.7%/华为12%/NetApp 9.4%/Pure 6.8%(+15.5%)
+- title: IDC《全球企业存储系统 Q1 2026》
+  summary: 全闪存市占 Dell 31.2% / NetApp 9.9% / Pure(Everpure) 8.9%(+37.9%，排名第3)
+- title: IDC《全球企业存储系统 Q3 2025》
+  summary: 2025 Q3企业存储$79.7亿(整体+2.1%)，全闪存+17.6%，Dell 22.7%/华为12%/NetApp 9.4%/Pure 6.8%(+15.5%)（已被 2026Q1 数据更新，保留供趋势对比）
   url: http://www.163.com/dy/article/KGMIL5T60511D6RL.html
 ---
 

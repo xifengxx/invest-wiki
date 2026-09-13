@@ -28,8 +28,16 @@ competition:
   - name: AI PC NPU：Intel Core Ultra
     share: '-'
     note: ', AMD Ryzen AI'
-  barriers: []
-  tech_gap: []
+  barriers:
+  - item: 功耗与散热约束
+    detail: 端侧算力受电池容量与被动散热限制，算力天花板明确
+  - item: NPU 生态碎片化
+    detail: 各厂商 NPU 指令集与工具链不统一，模型适配成本高企
+  - item: 端侧模型能力
+    detail: 量化压缩后的精度损失制约复杂任务，高端能力仍需上云
+  tech_gap:
+  - dimension: 中国在端侧 AI 芯片设计上已具竞争力（地平线/瑞芯微/寒武纪），但端侧模型生态、开发者工具与系统级优化仍落后于 Apple Neural Engine、Qualcomm 方案
+    detail: ''
 key_trends:
 - title: 端侧大模型(LLM on-device)成新趋势
   detail: iPhone 17 Pro本地7B模型、高通骁龙8 Elite NPU 45 TOPS

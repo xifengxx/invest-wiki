@@ -97,7 +97,8 @@ companies:
   rev: 25
 - ticker: '300602'
   name: 飞荣达
-  role: 国产替代
+  role: 间接相关
+  note: 电磁屏蔽材料（高速铜缆在机柜内产生强EMI），非铜缆连接器制造商；其AI逻辑实际在液冷
   rev: 15
 key_inputs:
 - 铜合金

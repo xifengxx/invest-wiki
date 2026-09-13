@@ -3337,13 +3337,13 @@
           "in_overseas_heat": true
         },
         {
-          "ticker": "PSTG",
+          "ticker": "P",
           "source_tickers": [
-            "PSTG"
+            "P"
           ],
-          "name": "Pure Storage",
+          "name": "Pure Storage (Everpure)",
           "roles": [
-            "全闪存黑马"
+            "直接相关"
           ],
           "rev": 55.0,
           "market_guess": "US_LIKE",
@@ -6308,7 +6308,7 @@
           ],
           "name": "飞荣达",
           "roles": [
-            "国产替代"
+            "间接相关"
           ],
           "rev": 15.0,
           "market_guess": "CN",
@@ -6376,7 +6376,7 @@
         {
           "name": "飞荣达",
           "ticker": "300602",
-          "role": "国产替代"
+          "role": "间接相关"
         }
       ]
     },
@@ -11084,6 +11084,15 @@
         "ai-training-platform"
       ]
     },
+    "P": {
+      "ticker": "P",
+      "name": "Pure Storage (Everpure)",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "enterprise-storage"
+      ]
+    },
     "PERP": {
       "ticker": "PERP",
       "name": "Perplexity",
@@ -11137,15 +11146,6 @@
       "tradable": true,
       "segments": [
         "autonomous-driving"
-      ]
-    },
-    "PSTG": {
-      "ticker": "PSTG",
-      "name": "Pure Storage",
-      "market_guess": "US_LIKE",
-      "tradable": true,
-      "segments": [
-        "enterprise-storage"
       ]
     },
     "QCOM": {
@@ -11583,12 +11583,12 @@
       ]
     }
   },
-  "version": "2026-09-13.5",
+  "version": "2026-09-13.10",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-13T17:20:19+08:00",
-  "source_generated_at": "2026-09-13T17:20:19+08:00",
-  "source_sha256": "2c7de123e540daf5e20bbb497709a23737eb0c9de5ceff131583c9fdf2e52dc4",
-  "source_hash8": "2c7de123",
-  "source_commit": "15424d20f20f4bafc2636fd08538a1776ae63041",
+  "built_at": "2026-09-13T17:57:21+08:00",
+  "source_generated_at": "2026-09-13T17:57:21+08:00",
+  "source_sha256": "84b555924a8b6f156f6e59c138db03b53df8e686ca367607643300b316d0103c",
+  "source_hash8": "84b55592",
+  "source_commit": "9cb4652e51779a8cc604182a12c0fc8ae98b8e95",
   "source_dirty": false
 }

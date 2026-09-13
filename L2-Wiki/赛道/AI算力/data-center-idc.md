@@ -37,8 +37,16 @@ competition:
   - name: 宝信软件
     share: '-'
     note: 600845 宝之云IDC工业互联网
-  barriers: []
-  tech_gap: []
+  barriers:
+  - item: 电力与能耗指标
+    detail: 一线城市能耗指标稀缺，电力接入是最大瓶颈（单园区可达 GW 级）
+  - item: 选址约束
+    detail: 需同时靠近算力需求、电网与网络骨干，优质点位有限
+  - item: 资本密集
+    detail: GW 级园区投资达百亿美元量级，回收周期长
+  tech_gap:
+  - dimension: 中国 IDC 在建设速度与规模上有优势（润泽/万国数据/秦淮数据），差距在 PUE 优化与液冷改造成熟度，以及 REIT 化等金融工具成熟度落后于美国
+    detail: ''
 key_trends:
 - title: AI数据中心从100MW→1GW+级别
   detail: 单站点功耗指数级增长，选址从一线城市向水电/风电丰富地区迁移

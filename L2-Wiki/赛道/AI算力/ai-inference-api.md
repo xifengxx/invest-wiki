@@ -40,8 +40,16 @@ competition:
   - name: Groq
     share: '-'
     note: 美国LPU超低延迟<5ms
-  barriers: []
-  tech_gap: []
+  barriers:
+  - item: 推理成本
+    detail: 每 token 算力成本直接决定毛利，DeepSeek 已把价格压至 $0.14/M tokens 量级
+  - item: 模型能力
+    detail: API 竞争力最终取决于底层模型质量，非成本单因素
+  - item: 客户迁移成本
+    detail: 提示词工程与微调投入形成隐性锁定
+  tech_gap:
+  - dimension: 中国在推理成本上有结构性优势（开源 + MoE 路线），但海外市场受出口管制与数据合规限制；开发者生态与心智份额仍由 OpenAI/Anthropic 主导
+    detail: ''
 key_trends:
 - title: DeepSeek颠覆推理定价
   detail: 百万Token从$60→$0.15，降幅99.75%，通过MoE+KV Cache压缩实现

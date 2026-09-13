@@ -19,8 +19,8 @@ tags:
 competition:
   global:
   - name: Bosch博世
-    share: ~13-14%
-    note: 德国，全球最大MEMS厂商（2025营收$22亿），汽车惯性传感领先
+    share: ~13%（推算值）
+    note: 德国，整体MEMS口径全球最大（Yole 2025版口径 $2.0B/2024年，约13%为 $2.0B÷$15.4B 推算，Yole未明示）；**加速度计单品口径排名第3**（ADI第1、ST第2）；汽车惯性传感领先
   - name: Broadcom
     share: '-'
     note: 全球第二（$13亿），FBAR/谐振器

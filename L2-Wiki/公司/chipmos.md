@@ -7,7 +7,7 @@ type: company
 updated: 2026-08
 data_freshness_date: 2026-08-18
 segments:
-- 半导体封测(OSAT)
+- "封装测试(OSAT)"
 one_liner: |
   全球面板驱动IC（DDI）封装和金凸块（Gold Bump）制造绝对龙头，在LCD/OLED DDI的COF/COG封装领域全球#1，同时覆盖利基型DRAM/NAND/Flash存储封测，受益于4K/8K分辨率升级（每面板需更多DDI芯片）+OLED渗透率提升双驱动。
   【2026.8.18更新】Q2 2026（2026-07-10发布）营收NT$73.83亿（QoQ+6.5%/YoY+28.7%，创2014年以来单季新高），毛利率18.0%（YoY+11.4pp），归母净利NT$8.92亿（去年同期亏损NT$5.33亿，扭亏为盈）。

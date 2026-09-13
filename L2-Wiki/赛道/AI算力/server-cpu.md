@@ -34,8 +34,16 @@ competition:
   - name: Ampere
     share: '-'
     note: 美国，192核Oracle部署，已被SoftBank收购，云原生CPU定位
-  barriers: []
-  tech_gap: []
+  barriers:
+  - item: x86 软件生态
+    detail: 数十年积累的企业软件栈与开发者习惯锁定 x86，迁移成本极高
+  - item: 指令集授权
+    detail: x86 授权仅 Intel/AMD/海光持有；ARM 需架构授权且受地缘限制
+  - item: 制程与核心数
+    detail: 高端服务器 CPU 依赖先进制程，核心数竞赛需制程支撑
+  tech_gap:
+  - dimension: 中国 CPU 三路线（海光 x86 授权/飞腾 ARM/鲲鹏 ARM）中，海光性能最接近国际水平但受授权约束；整体在单核性能、软件生态与量产规模上差距约 5-8 年
+    detail: ''
 key_trends:
 - title: ARM服务器CPU渗透率从10%向20%+
   detail: AWS Graviton已占亚马逊新实例40%+，NVIDIA Grace+NVLink在AI服务器中占据独特位置；整体ARM份额13-16%，目标2030年达40%（Graviton/Grace/Ampere三重驱动）

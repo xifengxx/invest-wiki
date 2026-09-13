@@ -31,8 +31,16 @@ competition:
   - name: Devin
     share: '-'
     note: 编程AI $2B估值自主开发
-  barriers: []
-  tech_gap: []
+  barriers:
+  - item: 长任务可靠性
+    detail: 多步自主执行中错误逐步累积，Agent 端到端成功率仍低，距「无人值守」有距离
+  - item: 工具调用生态
+    detail: MCP 等协议标准尚未统一，跨系统集成与权限管理成本高
+  - item: 企业数据接入
+    detail: 私有数据权限、审计与合规要求阻碍 Agent 在核心业务落地
+  tech_gap:
+  - dimension: 中国在 Agent 框架层受益于开源生态与丰富场景，落地更快；但底层模型能力与 OpenAI 仍有代差，企业级 Agent 的可靠性工程（评测/回滚/可观测）整体落后
+    detail: ''
 key_trends:
 - title: 2025年是Agent元年
   detail: OpenAI Operator(2025.1)、Anthropic Computer Use(2025.3)、Google Project Mariner(2025.5)、Microsoft Copilot Agents(2025.6)相继发布，多Agent协作框架(AutoGen/CrewAI)快速成熟

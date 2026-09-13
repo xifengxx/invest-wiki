@@ -37,8 +37,16 @@ competition:
   - name: ZutaCore
     share: '-'
     note: 以色列，两相液冷900W/GPU
-  barriers: []
-  tech_gap: []
+  barriers:
+  - item: 漏液风险与可靠性
+    detail: 液冷回路故障可致整机柜损毁，客户接受度与保险成本受影响
+  - item: 接口标准不统一
+    detail: 快接头/CDU 接口缺乏统一标准，跨厂商兼容性差
+  - item: 存量 DC 改造周期
+    detail: 风冷改液冷需停机改造，周期长、成本高
+  tech_gap:
+  - dimension: 中国液冷厂商（英维克/高澜股份/曙光数创）在冷板式与浸没式上已具全球竞争力，主要差距在 CDU 大功率化（2.5MW+）与两相液冷的工程成熟度
+    detail: ''
 key_trends:
 - title: 液冷从选配变标配(GB200强制)
   detail: GPU功耗从700W→1500W+，风冷上限约30kW/机架，液冷可支持120kW+

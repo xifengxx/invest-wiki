@@ -37,8 +37,16 @@ competition:
   - name: 昆仑芯
     share: '-'
     note: 百度昆仑2代7nm
-  barriers: []
-  tech_gap: []
+  barriers:
+  - item: 先进 IP 与制程
+    detail: 高端 SerDes、HBM 控制器 IP 集中于美国厂商，5nm 以下流片成本数亿美元
+  - item: 单一大客户绑定
+    detail: 定制 ASIC 多为单客户，需求波动即冲击产能利用率
+  - item: 软件栈生态
+    detail: CUDA 生态迁移成本高，ASIC 需自建完整软件栈
+  tech_gap:
+  - dimension: 中国 ASIC（华为昇腾/寒武纪/昆仑芯）在国产替代中加速放量，但受先进制程限制，单芯片算力与 Google TPU、Broadcom 方案存在代差，软件生态成熟度差距更大
+    detail: ''
 key_trends:
 - title: ASIC在推理侧渗透率从20%向40%+
   detail: Google TPU v6/AWS Trainium2/Microsoft Maia2 2026年大规模部署

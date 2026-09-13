@@ -34,8 +34,16 @@ competition:
   - name: TestGenAI/Mabl
     share: '-'
     note: ''
-  barriers: []
-  tech_gap: []
+  barriers:
+  - item: 模型能力依赖
+    detail: 工具层无法脱离底层模型，被模型厂商垂直整合挤压（Cursor 自研 Composer 即为应对）
+  - item: 生态锁定
+    detail: GitHub Copilot 依托 GitHub 仓库与 CI/CD 闭环，企业切换成本高
+  - item: 企业代码安全
+    detail: 私有代码上传云端的合规顾虑限制大型企业采用
+  tech_gap:
+  - dimension: 中国开发者工具渗透率从 5% 向 30% 提升，但工具层产品（Cursor/Copilot 级）仍由美国主导，国产多以插件形态存在，缺乏独立 IDE 级产品
+    detail: ''
 key_trends:
 - title: AI代码生成从补全→Agent自主编程
   detail: Copilot Workspace/Cursor Agent/Devin可独立完成多文件项目开发
