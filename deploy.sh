@@ -43,6 +43,17 @@ step()   { printf '\n\033[36m▸ %s\033[0m\n' "$*"; }
 command -v gh >/dev/null || { c_err "未安装 gh CLI"; exit 1; }
 gh auth status >/dev/null 2>&1 || { c_err "gh 未登录（跑 gh auth login）"; exit 1; }
 
+# ── 0. 上线前校验 ─────────────────────────────────────────
+# 这是覆盖面最全的一闸：无论改动来自谁（人 / LLM / 脚本），上线前都会拦。
+# 特别是能抓到「改了 L2 但忘了重编译」—— 那种情况工作树是干净的，
+# 下面的第 1 步检查不出来，而第 4 步只会忠实地把过期产物部署上去并报"一致"。
+step "0/4 上线前校验（L2/L3 一致性 + 图谱 + 索引）"
+if ! python3 L1-Schema与Pipeline/lint/verify_all.py; then
+  c_err "❌ 校验未通过，已中止上线。修好后重跑本脚本。"
+  exit 1
+fi
+c_ok "✓ 校验通过"
+
 # ── 1. 推送 ──────────────────────────────────────────────
 if [ "$MODE" = "full" ]; then
   step "1/4 推送到 origin/master"
