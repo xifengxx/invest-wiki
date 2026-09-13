@@ -17533,16 +17533,21 @@
       "type": "company",
       "country": "台湾",
       "ticker": "",
-      "one_liner": "显示驱动IC(DDI)全球#1,TDDI+OLED DDI，位于产业链L4终端应用与服务（龙头）",
-      "description": "显示驱动IC(DDI)全球#1,TDDI+OLED DDI",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "one_liner": "全球显示驱动IC(DDI)龙头（市占率~25-30%），设计TFT-LCD/TDDI/OLED显示驱动芯片及显示SoC，通过Fabless模式向面板厂销售芯片实现盈利，位于半导体L3核心产品层——面板产业链的\"眼睛\"，连续多年DDI出货量全球第一。\n【2026.9.13更新】2024营收NT$161.7B(+39%)走出2023低谷，DDI全球第一地位稳固。\n",
+      "description": "从联电设计部门到全球DDI龙头，联咏凭借TDDI整合技术与OLED DDI布局，在显示芯片领域连续保持全球出货量第一，是台湾IC设计产业的隐形冠军。",
+      "core_business": [
+        "显示驱动IC（TFT-LCD DDI，覆盖TV/monitor/notebook/车载全尺寸）",
+        "TDDI触控显示整合芯片（智能手机/平板主力产品）",
+        "OLED显示驱动IC（智能手机OLED面板DDI）",
+        "显示SoC（TV SoC/机顶盒/音频SoC）"
+      ],
+      "revenue_model": "Fabless模式设计DDI/SoC芯片，通过面板厂（BOE/CSOT/AUO等）销售给TV/手机/车载终端实现盈利，毛利率约35-40%",
+      "founded": 1997,
+      "headquarters": "台湾新竹科学园区",
+      "employees": "~2,700",
+      "latest_revenue": "2024 NT$161.7B（~$5.0B，+39% YoY）",
+      "market_cap": "~NT$213B（~$6.9B）",
+      "data_freshness_date": "2026-09-13",
       "industry": "半导体",
       "industries": [
         "半导体"
@@ -17550,18 +17555,87 @@
       "segments": [
         "IC设计服务(Fabless)"
       ],
-      "chain_layer": "L4",
+      "chain_layer": "L3",
       "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
+      "suppliers": [
+        {
+          "company": "台积电",
+          "ticker": "TSM",
+          "supplies": "先进制程晶圆代工（22/28nm OLED DDI）",
+          "note": "主力代工厂"
+        },
+        {
+          "company": "联华电子",
+          "ticker": "2303.TW",
+          "supplies": "成熟制程晶圆代工（40/55nm）",
+          "note": "母公司集团，TDDI/大尺寸DDI主力"
+        }
+      ],
+      "customers": [
+        {
+          "company": "BOE京东方",
+          "supplies": "DDI/TDDI",
+          "note": "全球最大LCD面板厂"
+        },
+        {
+          "company": "CSOT华星光电",
+          "supplies": "DDI/TDDI",
+          "note": "TCL旗下面板厂"
+        },
+        {
+          "company": "AUO友达光电",
+          "supplies": "DDI",
+          "note": "台湾面板双虎之一"
+        },
+        {
+          "company": "Innolux群创光电",
+          "supplies": "DDI",
+          "note": "台湾面板双虎之一"
+        },
+        {
+          "company": "HKC惠科",
+          "supplies": "DDI",
+          "note": "中国面板厂"
+        },
+        {
+          "company": "Samsung Display / LG Display",
+          "supplies": "OLED DDI",
+          "note": "韩系OLED面板厂"
+        }
+      ],
       "partners": [],
-      "competitors": [],
+      "competitors": [
+        {
+          "company": "Himax奇景光电",
+          "ticker": "HIMX",
+          "area": "DDI/TDDI",
+          "note": "台湾DDI#2，Non-driver业务多元化"
+        },
+        {
+          "company": "LX Semicon",
+          "ticker": "011670.KS",
+          "area": "DDI",
+          "note": "韩国DDI龙头，全球#2"
+        },
+        {
+          "company": "Raydium瑞鼎科技",
+          "ticker": "3596.TWO",
+          "area": "OLED DDI",
+          "note": "OLED DDI主力供应商，供货Samsung/BOE"
+        },
+        {
+          "company": "Sitronix矽创电子",
+          "ticker": "8010.TW",
+          "area": "DDI",
+          "note": "中低端DDI/功能机DDI"
+        }
+      ],
       "tags": [],
-      "website": "N/A",
+      "website": "https://www.novatek.com.tw",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Novatek (联咏)\n\n显示驱动IC(DDI)全球#1,TDDI+OLED DDI",
-      "content_preview": "# Novatek (联咏)\n\n> 显示驱动IC(DDI)全球#1,TDDI+OLED DDI，位于产业链L4终端应用与服务（龙头） | 显示驱动IC(DDI)全球#1,TDDI+OLED DDI",
+      "content": "# Novatek (联咏)\n\n从联电设计部门到全球DDI龙头，联咏凭借TDDI整合技术与OLED DDI布局，在显示芯片领域连续保持全球出货量第一，是台湾IC设计产业的隐形冠军。\n\n## 财务状况\n\n联咏财年与自然年一致。DDI行业周期性明显：2022年见顶后2023年去库存下滑，2024年强劲复苏。\n\n### 年度核心财务指标\n\n| 指标 | 2022 | 2023 | 2024 |\n|------|------|------|------|\n| **营收** | NT$145.9B | NT$116.0B | **NT$161.7B** |\n| **同比** | -8% | -20% | **+39%** |\n| **毛利率** | ~42% | ~35% | ~37% |\n| **营业利益率** | ~30% | ~21% | ~24% |\n| **净利率** | ~26% | ~18% | ~20% |\n\n2025年延续复苏态势，全年营收约NT$188B（+16%），DDI需求受TV/IT换机周期与车载显示增长驱动。公司资产负债表现金充裕，分红率长期维持在80%以上，是台湾IC设计板块的高股息代表。\n\n## 产品线详解\n\n| 产品线 | 营收占比 | 说明 |\n|--------|---------|------|\n| **显示驱动IC** | ~80% | TFT-LCD DDI（TV/monitor/notebook）、TDDI（手机/平板）、OLED DDI（手机） |\n| **显示SoC** | ~15% | TV SoC、机顶盒SoC、音频SoC |\n| **其他** | ~5% | 显示PMIC、触控IC等 |\n\n按终端应用拆分：TV/IT显示器约40%、智能手机/平板约35%、车载/工业约15%、其他约10%。车载显示是增速最快的细分——AEC-Q100车规认证DDI已导入欧美与国内主流Tier-1。\n\n## 技术路线图\n\n- **OLED DDI 22nm**：OLED补偿算法+22nm制程，对标Samsung LSI自用DDI，供货BOE/Visionox等国产OLED面板\n- **TDDI 28nm**：TDDI从40nm向28nm迁移，集成度提升+功耗下降，智能手机主力\n- **车载DDI**：AEC-Q100 Grade 1-2车规认证，覆盖仪表/中控/乘客娱乐屏，布局Mini-LED背光驱动\n- **先进封装**：COF（Chip on Film）与COP封装配合高分辨率面板\n\n## 融资与现金流\n\n- 年度自由现金流约NT$30B（FCF margin ~19%）\n- 净现金资产负债表（现金>负债），无重大有息负债\n- 分红率80%+，近年年派息约NT$30-40/股，殖利率3-4%\n\n## 研发投入与专利\n\n- 年研发投入约NT$15-16B（占营收9-10%），研发人员占全员约70%\n- 专利储备3,000+件，覆盖TDDI整合架构、OLED像素补偿、车载EMC设计\n- 核心壁垒：TDDI整合设计的时序/功耗/触控信噪比协同优化know-how，以及与面板厂的联合调校经验\n\n## 动态更新记录\n\n### 2026-09-13（D1批次：待深化龙头清单补全）\n- **来源**：`L0-原始资料池/03-新闻/2026-09-13-D1批次-5家薄档龙头公司-数据溯源.md` (input_20260913_118)\n- **核心更新**：由11字段骨架补全至25字段+5 body段，补入2022-2024三年财务、产品线拆分、技术路线、供应商/客户/竞争对手全景",
+      "content_preview": "# Novatek (联咏)\n\n> 全球显示驱动IC(DDI)龙头（市占率~25-30%），设计TFT-LCD/TDDI/OLED显示驱动芯片及显示SoC，通过Fabless模式向面板厂销售芯片实现盈利，位于半导体L3核心产品层——面板产业链的\"眼睛\"，连续多年DDI出货量全球第一。\n【2026.9.13更新】2024营收NT$161.7B(+39%)走出2023低谷，DDI全球第一地位稳固。\n | 从联电设计部门到全球DDI龙头，联咏凭借TDDI整合技术与OLED DDI布局，在显示芯片领域连续保持全球出货量第一，是台湾IC设计产业的隐形冠军。",
       "sources": ""
     },
     {
@@ -21503,16 +21577,21 @@
       "type": "company",
       "country": "美国",
       "ticker": "",
-      "one_liner": "光掩模版全球#2(~25%),最大的独立掩模厂，位于产业链L1原材料与资源（龙头）",
-      "description": "光掩模版全球#2(~25%),最大的独立掩模厂",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "one_liner": "全球最大独立（第三方）光掩模制造商（份额~25%），生产IC用光掩模与平板显示器用掩模，通过向晶圆厂/面板厂销售定制掩模实现盈利，位于半导体L1材料与工具层——芯片制造的\"底片\"，每颗芯片流片都离不开。\n【2026.9.13更新】FY2024营收$868M（持平），IC+FPD双线。\n",
+      "description": "芯片制造每一步光刻都离不开掩模\"底片\"——Photronics是独立掩模市场的全球霸主，在先进节点被晶圆厂自留的格局下，守住成熟制程掩模的核心阵地。",
+      "core_business": [
+        "IC光掩模（成熟节点主力：180nm-28nm，供foundry/IDM/存储厂）",
+        "先进制程掩模（28nm以下ArF浸没式+EUV掩模，Dresden/新加坡厂）",
+        "平板显示器（FPD）掩模（LCD/OLED面板用大尺寸掩模）",
+        "掩模设计支持与reticle管理服务"
+      ],
+      "revenue_model": "通过定制光掩模销售实现盈利（每套掩模$1K-$150K+按节点/面积定价），IC掩模占~75%+FPD掩模占~25%",
+      "founded": 1969,
+      "headquarters": "美国康涅狄格州布鲁克菲尔德",
+      "employees": "~1,900",
+      "latest_revenue": "FY2024 $868M（~持平YoY，财年10月底止）",
+      "market_cap": "~$1.7B",
+      "data_freshness_date": "2026-09-13",
       "industry": "半导体",
       "industries": [
         "半导体"
@@ -21522,16 +21601,72 @@
       ],
       "chain_layer": "L1",
       "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
+      "suppliers": [
+        {
+          "company": "AGC/旭硝子",
+          "supplies": "掩模基板（mask blanks：石英+铬膜）",
+          "note": "基板原材料龙头"
+        },
+        {
+          "company": "Hoya",
+          "supplies": "高端掩模基板（EUV/ArF级）",
+          "note": "先进节点基板"
+        },
+        {
+          "company": "NuFlare/JEOL",
+          "supplies": "电子束掩模写入设备",
+          "note": "EBM核心设备"
+        }
+      ],
+      "customers": [
+        {
+          "company": "台积电",
+          "ticker": "TSM",
+          "supplies": "成熟/中段节点掩模",
+          "note": "先进节点掩模主要由TSMC内部掩模厂承接"
+        },
+        {
+          "company": "UMC/GlobalFoundries/SMIC",
+          "supplies": "成熟节点掩模",
+          "note": "foundry主力客户"
+        },
+        {
+          "company": "美光",
+          "ticker": "MU",
+          "supplies": "存储掩模（Boise合资厂）",
+          "note": "与Micron合资MPMask厂"
+        },
+        {
+          "company": "面板厂（BOE/CSOT等）",
+          "supplies": "FPD掩模",
+          "note": "LCD/OLED面板掩模"
+        }
+      ],
       "partners": [],
-      "competitors": [],
+      "competitors": [
+        {
+          "company": "Toppan",
+          "ticker": "7911.T",
+          "area": "光掩模",
+          "note": "全球#1掩模厂（日本，IC+FPD全覆盖）"
+        },
+        {
+          "company": "Dai Nippon Printing (DNP)",
+          "area": "光掩模",
+          "note": "全球#2（日本），EUV掩模强"
+        },
+        {
+          "company": "晶圆厂内部掩模厂",
+          "area": "先进节点掩模",
+          "note": "Intel/TSMC/Samsung先进掩模自产（不外放）"
+        }
+      ],
       "tags": [],
-      "website": "N/A",
+      "website": "https://www.photonics.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Photronics\n\n光掩模版全球#2(~25%),最大的独立掩模厂",
-      "content_preview": "# Photronics\n\n> 光掩模版全球#2(~25%),最大的独立掩模厂，位于产业链L1原材料与资源（龙头） | 光掩模版全球#2(~25%),最大的独立掩模厂",
+      "content": "# Photronics\n\n芯片制造每一步光刻都离不开掩模\"底片\"——Photronics是独立掩模市场的全球霸主，在先进节点被晶圆厂自留的格局下，守住成熟制程掩模的核心阵地。\n\n## 财务状况\n\nPhotronics财年截至10月底。掩模行业与晶圆厂流片量（design starts）+成熟制程稼动率相关，周期波动较晶圆制造温和。\n\n### 年度核心财务指标\n\n| 指标 | FY2023 | FY2024 |\n|------|--------|--------|\n| **营收** | $866M | **$868M** |\n| **毛利率** | ~28% | ~29% |\n| **营业利润率** | ~13% | ~13% |\n| **净利润** | ~$64M | ~$63M |\n\nFY2024营收持平（+0.3%）：IC掩模增长被FPD掩模下滑抵消。净利率~7%，掩模行业重设备（EBM写入机单台$20-50M）+重know-how，但商业模式轻资产运营（客户预付+定制生产无库存风险）。资产负债表净现金、无有息负债。\n\n## 产品线详解\n\n| 产品线 | 营收占比 | 说明 |\n|--------|---------|------|\n| **IC掩模** | ~75% | 成熟节点（180nm-28nm）为主力；Dresden/新加坡厂覆盖先进ArF/EUV；每套$1K-150K+按节点定价 |\n| **FPD掩模** | ~25% | 大尺寸LCD/OLED面板掩模，受面板周期影响波动大 |\n\n按区域：亚太（台湾/韩国/中国）贡献~60%营收，美洲~20%，欧洲~20%。全球约11座掩模工厂覆盖主要晶圆制造集群（美国双厂、台湾高雄、新加坡、中国上海、韩国、德国Dresden等）。\n\n## 技术路线图\n\n- **先进节点掩模**：ArF浸没式28nm以下+EUV掩模（Dresden厂毗邻英飞凌/GlobalFoundries欧洲基地），独立厂在先进掩模的份额受晶圆厂自留挤压，聚焦中段节点\n- **EUV掩模能力**：EUV空白基板（Hoya供应）+多层膜缺陷检测，独立掩模厂EUV产能稀缺\n- **FPD掩模大尺寸化**：G8.5+世代面板掩模，配合OLED需求\n- **核心壁垒**：EBM写入设备产能+掩模数据预处理（MRC/OPC）软件know-how+客户认证粘性（每套掩模绑定具体设计tape-out）\n\n## 融资与现金流\n\n- 年经营现金流~$130M，FCF ~$80-100M（扣除设备资本开支）\n- 净现金资产负债表：无有息负债，现金~$500M+\n- 股东回报：小额股息（年$0.24/股，殖利率~0.8%）+回购\n\n## 研发投入与专利\n\n- 研发聚焦掩模写入工艺、缺陷检测算法、OPC/MRC计算光刻配合\n- 与ASML/NuFlare等设备商联合验证新制程掩模\n- 核心壁垒：写板良率know-how + 客户tape-out绑定（更换掩模厂需重新认证，迁移成本高）\n\n## 动态更新记录\n\n### 2026-09-13（D1批次：待深化龙头清单补全）\n- **来源**：`L0-原始资料池/03-新闻/2026-09-13-D1批次-5家薄档龙头公司-数据溯源.md` (input_20260913_118)\n- **核心更新**：由骨架补全至25字段+5 body段，补入FY2023-2024财务、IC/FPD产品线拆分、掩模供应链（AGC/Hoya/NuFlare）与竞争格局",
+      "content_preview": "# Photronics\n\n> 全球最大独立（第三方）光掩模制造商（份额~25%），生产IC用光掩模与平板显示器用掩模，通过向晶圆厂/面板厂销售定制掩模实现盈利，位于半导体L1材料与工具层——芯片制造的\"底片\"，每颗芯片流片都离不开。\n【2026.9.13更新】FY2024营收$868M（持平），IC+FPD双线。\n | 芯片制造每一步光刻都离不开掩模\"底片\"——Photronics是独立掩模市场的全球霸主，在先进节点被晶圆厂自留的格局下，守住成熟制程掩模的核心阵地。",
       "sources": ""
     },
     {
@@ -31135,16 +31270,21 @@
       "type": "company",
       "country": "US",
       "ticker": "",
-      "one_liner": "全球最大数据中心REIT，260+数据中心，AI算力托管核心，位于产业链L4终端应用与服务（龙头）",
-      "description": "全球最大数据中心REIT，260+数据中心，AI算力托管核心",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "one_liner": "全球最大数据中心REIT与互联服务商，在33国运营260+数据中心并通过xScale计划承接AI/Hyperscale托管，通过机房租赁+cross-connect互联服务实现盈利，位于AI算力L4基础设施层——承载全球10000+企业云与网络互联的\"数字枢纽\"。\n【2026.9.13更新】FY2024营收$8.75B(+7%)，xScale AI基础设施加速扩张。\n",
+      "description": "从\"运营商中立的互联网交换中心\"到全球数字基础设施枢纽，Equinix用260+数据中心把10000+企业的云、网络和AI算力编织在同一张互联网络里。",
+      "core_business": [
+        "数据中心托管（零售colocation：机柜/机笼/私有机房租赁）",
+        "互联服务（cross-connect物理互联、Equinix Fabric虚拟互联、Equinix Internet Exchange）",
+        "xScale超大规模数据中心（AI训练/Hyperscale云，与GIC等财团JV建设）",
+        "边缘服务（Equinix Metal裸金属、Network Edge虚拟网络功能）"
+      ],
+      "revenue_model": "通过数据中心机柜租赁（recurring，~90%经常性收入）+cross-connect互联月费+xScale机房批发租赁实现盈利，REIT结构要求90%应税收入分配股东",
+      "founded": 1998,
+      "headquarters": "美国加州红木城",
+      "employees": "~13,000",
+      "latest_revenue": "FY2024 $8.75B（+7% YoY）",
+      "market_cap": "~$99B",
+      "data_freshness_date": "2026-09-13",
       "industry": "AI算力",
       "industries": [
         "AI算力"
@@ -31154,16 +31294,80 @@
       ],
       "chain_layer": "L4",
       "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "suppliers": [
+        {
+          "company": "Vertiv",
+          "ticker": "VRT",
+          "supplies": "数据中心制冷与电源设备",
+          "note": "主力基础设施供应商"
+        },
+        {
+          "company": "Schneider Electric",
+          "ticker": "SU.PA",
+          "supplies": "UPS/配电/制冷",
+          "note": "Global Supplier Agreement"
+        },
+        {
+          "company": "电力公司（各地区公用事业）",
+          "supplies": "电力供应",
+          "note": "数据中心最大运营成本项"
+        }
+      ],
+      "customers": [
+        {
+          "company": "AWS/Azure/Google Cloud",
+          "note": "云厂商on-ramp与企业互联"
+        },
+        {
+          "company": "全球企业客户（10000+）",
+          "note": "金融/制造/互联网企业IT上云与多云互联"
+        },
+        {
+          "company": "网络运营商/CDN",
+          "note": "Internet Exchange核心成员，480,000+ cross-connect"
+        }
+      ],
+      "partners": [
+        {
+          "company": "GIC（新加坡主权基金）",
+          "area": "xScale超大规模JV",
+          "note": "$15B JV建设Hyperscale数据中心"
+        },
+        {
+          "company": "NVIDIA",
+          "area": "AI基础设施",
+          "note": "AI Solutions计划，GPU即服务托管"
+        },
+        {
+          "company": "Packet（被收购→Equinix Metal）",
+          "area": "裸金属自动化",
+          "note": "2020年$335M收购"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "Digital Realty",
+          "ticker": "DLR",
+          "area": "数据中心REIT",
+          "note": "全球#2数据中心REIT，批发业务更强"
+        },
+        {
+          "company": "NTT Global Data Centers",
+          "area": "数据中心托管",
+          "note": "日本/亚洲市场强势"
+        },
+        {
+          "company": "Telehouse / CyrusOne",
+          "area": "数据中心托管",
+          "note": "区域竞争者"
+        }
+      ],
       "tags": [],
       "website": "https://www.equinix.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Equinix\n\n全球最大数据中心REIT，260+数据中心，AI算力托管核心",
-      "content_preview": "# Equinix\n\n> 全球最大数据中心REIT，260+数据中心，AI算力托管核心，位于产业链L4终端应用与服务（龙头） | 全球最大数据中心REIT，260+数据中心，AI算力托管核心",
+      "content": "# Equinix\n\n从\"运营商中立的互联网交换中心\"到全球数字基础设施枢纽，Equinix用260+数据中心把10000+企业的云、网络和AI算力编织在同一张互联网络里。\n\n## 财务状况\n\nEquinix为REIT，财年与自然年一致。收入模式以经常性租赁为主，现金流稳定。\n\n### 年度核心财务指标\n\n| 指标 | FY2022 | FY2023 | FY2024 |\n|------|--------|--------|--------|\n| **营收** | $7.27B | $8.19B | **$8.75B** |\n| **同比** | +15% | +13% | +7% |\n| **调整后EBITDA** | ~$3.34B | ~$3.77B | ~$4.11B |\n| **EBITDA margin** | ~46% | ~46% | ~47% |\n| **AFFO/股** | ~$29.6 | ~$32.3 | ~$35.0 |\n\n增速从2022年的15%回落至2024年的7%，主要受美元走强和批发业务节奏影响；经常性收入占比~91%，客户留存率>97%。2025年指引营收约$9.2B（+5-6%），xScale AI需求成为新增长引擎。\n\n## 产品线详解\n\n| 业务 | 营收占比 | 说明 |\n|------|---------|------|\n| **Colocation托管** | ~85% | 零售机柜/机笼/私有机房，按功率+面积计费 |\n| **互联服务** | ~12% | 480,000+ cross-connect，月费模式，毛利率>80% |\n| **其他（数字服务）** | ~3% | Equinix Metal、Network Edge、咨询 |\n\n按区域拆分：美洲~40%、EMEA~35%、亚太~25%。xScale批发业务按JV权益法核算（不并表营收），已建成/在建容量超1.5GW。\n\n## 技术路线图\n\n- **xScale AI基础设施**：与GIC等JV在美/欧/亚建设AI级数据中心（液冷ready、高密度机柜>100kW/柜），单项目投资$3-4B\n- **液冷与高密度**：应对AI机柜功率密度跃升（传统8-10kW → AI 40-130kW），与NVIDIA合作验证GB200 NVL72级部署\n- **Fabric虚拟互联**：软件定义互联替代物理cross-connect，扩展云on-ramp\n- **可持续运营**：PPA可再生能源覆盖率>95%，2050气候中性目标\n\n## 融资与现金流\n\n- REIT结构：90%应税收入强制分红，股息持续增长（2024年$17.05/股）\n- 年经营现金流~$4B，AFFO ~$3.5B\n- 资本开支重度：年度capex ~$3B（维护+扩张），xScale项目通过JV表外融资\n- 投资级信用评级（BBB/Baa1），全球银团循环授信支持扩建\n\n## 研发投入与专利\n\n- 研发投入占营收比低（~1-2%），重点在数据中心运营自动化与互联软件（Fabric/Portal）\n- 核心壁垒不在专利而在**资产+网络效应**：260+ DC的物理覆盖与480,000+ cross-connect形成的互联生态，复制需十年以上\n- 2020年收购Packet获得裸金属自动化技术，整合为Equinix Metal\n\n## 动态更新记录\n\n### 2026-09-13（D1批次：待深化龙头清单补全）\n- **来源**：`L0-原始资料池/03-新闻/2026-09-13-D1批次-5家薄档龙头公司-数据溯源.md` (input_20260913_118)\n- **核心更新**：由11字段骨架补全至25字段+5 body段，补入FY2022-2024三年财务、xScale AI基础设施布局、互联生态数据",
+      "content_preview": "# Equinix\n\n> 全球最大数据中心REIT与互联服务商，在33国运营260+数据中心并通过xScale计划承接AI/Hyperscale托管，通过机房租赁+cross-connect互联服务实现盈利，位于AI算力L4基础设施层——承载全球10000+企业云与网络互联的\"数字枢纽\"。\n【2026.9.13更新】FY2024营收$8.75B(+7%)，xScale AI基础设施加速扩张。\n | 从\"运营商中立的互联网交换中心\"到全球数字基础设施枢纽，Equinix用260+数据中心把10000+企业的云、网络和AI算力编织在同一张互联网络里。",
       "sources": ""
     },
     {
@@ -39856,16 +40060,22 @@
       "type": "company",
       "country": "美国",
       "ticker": "",
-      "one_liner": "射频前端(RF FEM)全球#2,iPhone PA+滤波器供应商，位于产业链L4终端应用与服务（核心参与者）",
-      "description": "射频前端(RF FEM)全球#2,iPhone PA+滤波器供应商",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "one_liner": "全球射频前端(RF FEM)#2，设计智能手机功率放大器/滤波器/开关及Sky5模组，通过向Apple等OEM销售RF前端芯片实现盈利，位于半导体L3核心产品层——iPhone射频链核心供应商（占营收65-70%），2025年10月宣布与Qorvo合并。\n【2026.9.13更新】FY2024营收$4.18B(-13%)，Qorvo合并待监管审批。\n",
+      "description": "从Alpha Industries的砷化镓PA到Sky5集成模组，Skyworks把iPhone的射频链做成了年入40亿美元的生意——而现在，它正与Qorvo走向合并，重划RF前端版图。",
+      "core_business": [
+        "射频前端模组（Sky5平台：PA+滤波器+开关集成的FEMiD/PAMiD）",
+        "功率放大器（蜂窝4G/5G PA，手机主力产品）",
+        "射频滤波器（SAW/BAW/TC-SAW，频段滤波）",
+        "射频开关与LNA（天线调谐/接收链路）",
+        "广域市场芯片（车载信息娱乐RF、工业IoT连接、5G小基站）"
+      ],
+      "revenue_model": "通过向OEM/ODM销售RF前端芯片与模组实现盈利（Apple占65-70%），移动业务~60%+广域市场~40%",
+      "founded": 2002,
+      "headquarters": "美国加州尔湾",
+      "employees": "~8,000",
+      "latest_revenue": "FY2024 $4.18B（-13% YoY，财年9月底止）",
+      "market_cap": "~$14B",
+      "data_freshness_date": "2026-09-13",
       "industry": "半导体",
       "industries": [
         "半导体"
@@ -39876,16 +40086,81 @@
       ],
       "chain_layer": "L4",
       "chain_role": "核心参与者",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "suppliers": [
+        {
+          "company": "台积电",
+          "ticker": "TSM",
+          "supplies": "RF SOI/CMOS晶圆代工（开关/LNA）",
+          "note": "射频SOI主力代工"
+        },
+        {
+          "company": "GlobalFoundries",
+          "ticker": "GFS",
+          "supplies": "RF SOI晶圆代工",
+          "note": "二线代工分散产能"
+        },
+        {
+          "company": "自有BAW滤波器产线（德州/墨西哥）",
+          "supplies": "BAW滤波器自产",
+          "note": "垂直整合滤波器产能（收购NEC/松下滤波器资产）"
+        }
+      ],
+      "customers": [
+        {
+          "company": "Apple",
+          "ticker": "AAPL",
+          "revenue_pct": 68,
+          "note": "iPhone PA/滤波器/开关主力供应商（65-70%营收占比）"
+        },
+        {
+          "company": "Samsung",
+          "supplies": "RF前端芯片",
+          "note": "安卓旗舰机RF供应商"
+        },
+        {
+          "company": "其他安卓OEM（小米/OPPO/vivo等）",
+          "supplies": "RF前端芯片",
+          "note": "通过ODM渠道供货"
+        }
+      ],
+      "partners": [
+        {
+          "company": "Apple",
+          "area": "iPhone射频联合设计",
+          "note": "深度绑定，FEMiD模组定制"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "Qorvo",
+          "ticker": "QRVO",
+          "area": "RF前端",
+          "note": "全球#3 RF厂商，**2025.10宣布与Skyworks合并**"
+        },
+        {
+          "company": "Broadcom",
+          "ticker": "AVGO",
+          "area": "BAW滤波器/FEM",
+          "note": "BAW滤波器技术领先，Apple FEMiD竞争"
+        },
+        {
+          "company": "Qualcomm",
+          "ticker": "QCOM",
+          "area": "RF前端模组",
+          "note": "随SoC捆绑RF360模组"
+        },
+        {
+          "company": "Murata村田",
+          "area": "SAW滤波器/模组",
+          "note": "SAW滤波器龙头"
+        }
+      ],
       "tags": [],
-      "website": "N/A",
+      "website": "https://www.skyworksinc.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Skyworks Solutions\n\n射频前端(RF FEM)全球#2,iPhone PA+滤波器供应商",
-      "content_preview": "# Skyworks Solutions\n\n> 射频前端(RF FEM)全球#2,iPhone PA+滤波器供应商，位于产业链L4终端应用与服务（核心参与者） | 射频前端(RF FEM)全球#2,iPhone PA+滤波器供应商",
+      "content": "# Skyworks Solutions\n\n从Alpha Industries的砷化镓PA到Sky5集成模组，Skyworks把iPhone的射频链做成了年入40亿美元的生意——而现在，它正与Qorvo走向合并，重划RF前端版图。\n\n## 财务状况\n\nSkyworks财年截至9月底。移动业务（主要是Apple）主导收入，行业受手机大盘与5G升级节奏影响。\n\n### 年度核心财务指标\n\n| 指标 | FY2023 | FY2024 | FY2025E |\n|------|--------|--------|---------|\n| **营收** | $4.77B | **$4.18B** | ~$4.1B |\n| **同比** | -13% | -13% | ~持平 |\n| **毛利率** | ~46% | ~46% | ~46% |\n| **营业利润率** | ~27% | ~24% | ~23% |\n| **净利润** | ~$977M | ~$596M | ~$600M |\n\nFY2024连续第二年下滑（-13%），原因：安卓市场竞争加剧+Apple内容占比受Broadcom分食+5G换机红利消退。GAAP净利受重组/减值影响波动较大。2025年10月宣布与Qorvo合并（新实体聚焦手机RF芯片），待监管审批。\n\n## 产品线详解\n\n| 产品线 | 营收占比 | 说明 |\n|--------|---------|------|\n| **移动（手机）** | ~60% | Apple占绝对主导（65-70%来自Apple整体），Sky5模组+分立PA/开关 |\n| **广域市场** | ~40% | 车载（信息娱乐/连接）、5G基础设施、工业IoT、Wi-Fi 6E/7 |\n\n移动业务核心产品：FEMiD（集成滤波器的前端模组，iPhone独供）、PAMiD（PA+滤波器集成模组）、分立PA/开关/LNA。广域市场增长点：车载DRM/连接模组（IATF 16949认证）、5G小基站RF、Wi-Fi前端。\n\n## 技术路线图\n\n- **BAW滤波器扩产**：德州Waco厂垂直整合BAW产能，对标Broadcom技术优势\n- **5G毫米波/Sub-6GHz模组**：更高集成度的毫米波AiP（antenna-in-package）\n- **与Qorvo合并**（2025.10宣布）：新实体聚焦手机RF芯片，合并后合计营收~$8B，规模效应对抗Broadcom/Qualcomm\n- **车载射频**：IATF 16949车规认证完成（2024），车联网V2X RF模组布局\n\n## 融资与现金流\n\n- 年经营现金流~$1.2B，自由现金流~$1.0B\n- 资产负债表稳健：净现金头寸，无重大杠杆\n- 股东回报：持续回购（年化~$500M-1B）+小额股息\n\n## 研发投入与专利\n\n- 年研发投入~$600M（占营收~15%），RF设计工程师占全员约40%\n- 专利储备5,000+件，覆盖BAW谐振器结构、PA Doherty架构、集成模组封装\n- 核心壁垒：Apple深度协同设计（FEMiD定制）、BAW垂直整合产能、RF系统级know-how\n\n## 动态更新记录\n\n### 2026-09-13（D1批次：待深化龙头清单补全）\n- **来源**：`L0-原始资料池/03-新闻/2026-09-13-D1批次-5家薄档龙头公司-数据溯源.md` (input_20260913_118)\n- **核心更新**：由11字段骨架补全至25字段+5 body段，补入FY2023-2024财务、Apple依赖度、**与Qorvo合并事件（2025.10）**",
+      "content_preview": "# Skyworks Solutions\n\n> 全球射频前端(RF FEM)#2，设计智能手机功率放大器/滤波器/开关及Sky5模组，通过向Apple等OEM销售RF前端芯片实现盈利，位于半导体L3核心产品层——iPhone射频链核心供应商（占营收65-70%），2025年10月宣布与Qorvo合并。\n【2026.9.13更新】FY2024营收$4.18B(-13%)，Qorvo合并待监管审批。\n | 从Alpha Industries的砷化镓PA到Sky5集成模组，Skyworks把iPhone的射频链做成了年入40亿美元的生意——而现在，它正与Qorvo走向合并，重划RF前端版图。",
       "sources": ""
     },
     {
@@ -41814,16 +42089,21 @@
       "type": "company",
       "country": "台湾",
       "ticker": "",
-      "one_liner": "全球硅片#3(16%),11座全球工厂,中美德日布局（直接相关）",
-      "description": "全球硅片#3(16%),11座全球工厂,中美德日布局",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "one_liner": "全球半导体硅片第三大供应商（份额~16%），生产12/8/6英寸抛光片、外延片与SOI晶圆，通过向晶圆厂销售硅片实现盈利，位于半导体L1原材料层——台/中/美/日/韩/义/马多地11座工厂，Shin-Etsu与SUMCO之后的\"第三极\"。\n【2026.9.13更新】德州Sherman 12\"厂2025.5投产，美国产能扩张主力。\n",
+      "description": "从中美晶分拆到全球硅片\"第三极\"：环球晶圆用SunEdison收购买到全球版图，用德州Sherman新厂押注美国制造回流。",
+      "core_business": [
+        "12英寸（300mm）半导体硅片（抛光片/外延片，先进制程主力）",
+        "8英寸（200mm）硅片（成熟制程/功率半导体/影像传感器）",
+        "SOI晶圆（绝缘体上硅，RF-SOI/FD-SOI）",
+        "蓝宝石基板与其他半导体衬底材料"
+      ],
+      "revenue_model": "通过向晶圆代工厂/IDM厂销售硅片（长协+现货结合，12英寸为主）实现盈利，硅片占半导体材料成本约7-10%",
+      "founded": 2011,
+      "headquarters": "台湾新竹",
+      "employees": "~5,500",
+      "latest_revenue": "2024 ~NT$63B（~$2.0B，硅片下行周期）",
+      "market_cap": "~NT$390B（~$12.7B）",
+      "data_freshness_date": "2026-09-13",
       "industry": "AI算力",
       "industries": [
         "AI算力",
@@ -41832,18 +42112,78 @@
       "segments": [
         "高纯硅料与硅片"
       ],
-      "chain_layer": "",
-      "chain_role": "直接相关",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "chain_layer": "L1",
+      "chain_role": "龙头",
+      "suppliers": [
+        {
+          "company": "多晶硅供应商（Wacker/Hemlock/OCI等）",
+          "supplies": "高纯多晶硅原料",
+          "note": "上游原料"
+        }
+      ],
+      "customers": [
+        {
+          "company": "台积电",
+          "ticker": "TSM",
+          "supplies": "12英寸硅片",
+          "note": "全球最大晶圆代工厂"
+        },
+        {
+          "company": "GlobalFoundries",
+          "ticker": "GFS",
+          "supplies": "12英寸硅片",
+          "note": "Missouri新厂配套合作"
+        },
+        {
+          "company": "UMC联电",
+          "ticker": "2303.TW",
+          "supplies": "12/8英寸硅片",
+          "note": "成熟制程主力"
+        },
+        {
+          "company": "三星/SK海力士/美光",
+          "supplies": "12英寸硅片（存储厂）",
+          "note": "DRAM/NAND晶圆"
+        }
+      ],
+      "partners": [
+        {
+          "company": "GlobalFoundries",
+          "area": "Missouri新厂配套",
+          "note": "2021年宣布美国Missouri建厂合作"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "信越化学",
+          "ticker": "4063.T",
+          "area": "硅片",
+          "note": "全球#1（~27%），12英寸龙头"
+        },
+        {
+          "company": "SUMCO",
+          "ticker": "3436.T",
+          "area": "硅片",
+          "note": "全球#2（~22%）"
+        },
+        {
+          "company": "Siltronic",
+          "ticker": "WAF.DE",
+          "area": "硅片",
+          "note": "全球#4，2020-2022收购尝试失败"
+        },
+        {
+          "company": "SK Siltron",
+          "area": "硅片",
+          "note": "全球#5（韩国，收购SunEdison硅片业务更名）"
+        }
+      ],
       "tags": [],
-      "website": "N/A",
+      "website": "https://www.globalwafers.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# 环球晶圆 (GlobalWafers)\n\n全球硅片#3(16%),11座全球工厂,中美德日布局",
-      "content_preview": "# 环球晶圆 (GlobalWafers)\n\n> 全球硅片#3(16%),11座全球工厂,中美德日布局（直接相关） | 全球硅片#3(16%),11座全球工厂,中美德日布局",
+      "content": "# 环球晶圆 (GlobalWafers)\n\n从中美晶分拆到全球硅片\"第三极\"：环球晶圆用SunEdison收购买到全球版图，用德州Sherman新厂押注美国制造回流。\n\n## 财务状况\n\n硅片行业2022年见顶后进入下行周期，2024年为周期底部区域，2025年起随半导体复苏回暖。\n\n### 年度核心财务指标\n\n| 指标 | 2022 | 2023 | 2024 |\n|------|------|------|------|\n| **营收** | ~NT$77B | ~NT$70.6B | **~NT$63B** |\n| **同比** | +12% | -8% | ~-11% |\n| **毛利率** | ~40% | ~34% | ~28% |\n| **营业利润率** | ~30% | ~22% | ~12% |\n\n周期底部毛利率压缩明显（长协价重谈+稼动率下滑），但公司维持正盈利与稳健现金流。2025年随晶圆厂稼动率回升+德州新厂爬坡，营收恢复增长；12英寸占比提升带动ASP结构改善。\n\n## 产品线详解\n\n| 产品 | 营收占比 | 说明 |\n|------|---------|------|\n| **12英寸硅片** | ~65% | 抛光片+外延片，先进制程（28nm以下）与存储主力 |\n| **8英寸硅片** | ~25% | 成熟制程/功率器件/ CIS，物联网与汽车需求支撑 |\n| **6英寸及以下+SOI** | ~10% | RF-SOI（手机射频开关）、功率SOI、蓝宝石基板 |\n\n按区域：美国客户（GlobalFoundries/TI/Micron）受益于Sherman新厂本土供应；亚洲客户（台积电/UMC/三星）为传统主力。\n\n## 技术路线图\n\n- **德州Sherman 12\"厂**：2025年5月投产，规划3期，一期年产能~120万片，定位\"北美半导体制造新中枢\"，获美国CHIPS Act补贴支持\n- **Missouri厂**：与GlobalFoundries配套的12\"新厂（2021年宣布），瞄准美国本土成熟制程需求\n- **外延片与SOI**：Epi-wafer占比提升（利润率更高），RF-SOI供货手机射频开关市场\n- **技术壁垒**：12英寸大直径拉晶/滚磨/抛光/外延全流程良率know-how + 长协客户认证周期（2-3年）\n\n## 融资与现金流\n\n- 硅片行业重资产：单座12\"厂投资~$2-3B，通过自有现金+台湾银行团融资\n- 2022-2024下行周期仍维持正FCF；Siltronic收购失败的$3B+转投德州/Missouri自有产能\n- 股东结构：中美晶为大股东（持股~30%+），Feng家族控制\n\n## 研发投入与专利\n\n- 研发聚焦大尺寸拉晶热场模拟、抛光液/研磨工艺、外延缺陷控制\n- 核心壁垒：12\"外延片缺陷密度控制（<0.1 defects/cm²）与长协客户认证粘性\n- 专利+know-how：拉晶/切片/抛光工艺专利数百件，行业know-how重于专利\n\n## 动态更新记录\n\n### 2026-09-13（D1批次：待深化龙头清单补全）\n- **来源**：`L0-原始资料池/03-新闻/2026-09-13-D1批次-5家薄档龙头公司-数据溯源.md` (input_20260913_118)\n- **核心更新**：由骨架补全至25字段+5 body段；修正chain_layer为L1（原材料）；补充德州Sherman/Missouri美国产能扩张与Siltronic收购失败史",
+      "content_preview": "# 环球晶圆 (GlobalWafers)\n\n> 全球半导体硅片第三大供应商（份额~16%），生产12/8/6英寸抛光片、外延片与SOI晶圆，通过向晶圆厂销售硅片实现盈利，位于半导体L1原材料层——台/中/美/日/韩/义/马多地11座工厂，Shin-Etsu与SUMCO之后的\"第三极\"。\n【2026.9.13更新】德州Sherman 12\"厂2025.5投产，美国产能扩张主力。\n | 从中美晶分拆到全球硅片\"第三极\"：环球晶圆用SunEdison收购买到全球版图，用德州Sherman新厂押注美国制造回流。",
       "sources": ""
     },
     {

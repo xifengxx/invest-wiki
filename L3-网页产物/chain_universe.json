@@ -11977,12 +11977,12 @@
       ]
     }
   },
-  "version": "2026-09-13.30",
+  "version": "2026-09-13.32",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-13T21:46:12+08:00",
-  "source_generated_at": "2026-09-13T21:45:56+08:00",
-  "source_sha256": "7f624117202b54ccc9cbdc540357d87a9e2974207755502ebb913cd625ce51f8",
-  "source_hash8": "7f624117",
-  "source_commit": "077a5f59c5d554d16df91dcffc70edd156f4d760",
+  "built_at": "2026-09-13T22:22:52+08:00",
+  "source_generated_at": "2026-09-13T22:22:52+08:00",
+  "source_sha256": "5902a28c16df880d8670b13b43908d443c70e1b334cc33d3ca7df9f2abdc58ff",
+  "source_hash8": "5902a28c",
+  "source_commit": "326d15a07407686ada0d9add8d66bc1aeee89651",
   "source_dirty": true
 }
