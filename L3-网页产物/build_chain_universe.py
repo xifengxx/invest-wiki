@@ -324,7 +324,8 @@ def build_universe(source_path):
 def source_commit():
     try:
         return subprocess.check_output(
-            ["git", "log", "-1", "--format=%H", "--", "wiki_data.json"],
+            # ":/" 前缀让 pathspec 相对仓库根解析，不随 cwd 变化
+            ["git", "log", "-1", "--format=%H", "--", ":/L3-网页产物/wiki_data.json"],
             cwd=SCRIPT_DIR,
             text=True,
         ).strip()
@@ -335,7 +336,9 @@ def source_commit():
 def source_is_dirty():
     try:
         result = subprocess.check_output(
-            ["git", "status", "--porcelain", "--", "L2-Wiki", "L3-网页产物/wiki_data.json"],
+            # ":/" 前缀让 pathspec 相对仓库根解析。原先用 "L2-Wiki" 这类仓库根相对路径
+            # 配合 cwd=SCRIPT_DIR(L3-网页产物)，pathspec 一个都匹配不到 → 恒返回空 → dirty 恒为 False
+            ["git", "status", "--porcelain", "--", ":/L2-Wiki", ":/L3-网页产物/wiki_data.json"],
             cwd=SCRIPT_DIR,
             text=True,
         )
