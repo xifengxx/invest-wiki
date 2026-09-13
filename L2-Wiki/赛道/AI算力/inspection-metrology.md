@@ -92,7 +92,7 @@ companies:
   name: Lasertec Corporation
   role: 龙头
   rev: 85
-- ticker: 8036.T
+- ticker: HITACHI-HIGHTECH
   name: Hitachi High-Tech
   role: 龙头
   rev: 15

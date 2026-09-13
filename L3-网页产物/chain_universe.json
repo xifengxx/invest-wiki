@@ -8,9 +8,9 @@
     "merged_exact_duplicate_records": 0,
     "source_company_links": 494,
     "unique_companies": 326,
-    "overseas_quote_candidates": 173,
+    "overseas_quote_candidates": 172,
     "a_share_mapping_companies": 94,
-    "private_or_untradable": 59
+    "private_or_untradable": 60
   },
   "segments": [
     {
@@ -4896,20 +4896,6 @@
           "in_overseas_heat": true
         },
         {
-          "ticker": "8036.T",
-          "source_tickers": [
-            "8036.T"
-          ],
-          "name": "Hitachi High-Tech",
-          "roles": [
-            "龙头"
-          ],
-          "rev": 15.0,
-          "market_guess": "JP",
-          "tradable": true,
-          "in_overseas_heat": true
-        },
-        {
           "ticker": "AMAT",
           "source_tickers": [
             "AMAT"
@@ -4936,6 +4922,20 @@
           "market_guess": "US_LIKE",
           "tradable": true,
           "in_overseas_heat": true
+        },
+        {
+          "ticker": "HITACHI-HIGHTECH",
+          "source_tickers": [
+            "HITACHI-HIGHTECH"
+          ],
+          "name": "Hitachi High-Tech",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 15.0,
+          "market_guess": "PRIVATE",
+          "tradable": false,
+          "in_overseas_heat": false
         },
         {
           "ticker": "KLAC",
@@ -4982,7 +4982,7 @@
       ],
       "n_source_companies": 11,
       "n_unique_companies": 11,
-      "n_overseas_candidates": 8,
+      "n_overseas_candidates": 7,
       "n_a_share_mapping": 3,
       "a_share": [
         {
@@ -10253,15 +10253,6 @@
         "thin-film-deposition"
       ]
     },
-    "8036.T": {
-      "ticker": "8036.T",
-      "name": "Hitachi High-Tech",
-      "market_guess": "JP",
-      "tradable": true,
-      "segments": [
-        "inspection-metrology"
-      ]
-    },
     "8046.T": {
       "ticker": "8046.T",
       "name": "Nan Ya PCB (南亚电路板)",
@@ -10925,6 +10916,15 @@
       "tradable": true,
       "segments": [
         "semi-cis-sensor"
+      ]
+    },
+    "HITACHI-HIGHTECH": {
+      "ticker": "HITACHI-HIGHTECH",
+      "name": "Hitachi High-Tech",
+      "market_guess": "PRIVATE",
+      "tradable": false,
+      "segments": [
+        "inspection-metrology"
       ]
     },
     "HO.PA": {
@@ -11969,12 +11969,12 @@
       ]
     }
   },
-  "version": "2026-09-14.3",
+  "version": "2026-09-14.4",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-14T00:24:56+08:00",
-  "source_generated_at": "2026-09-14T00:24:56+08:00",
-  "source_sha256": "8b2a61de7386da3ebdd24613f9ea2d937a4a5615be5e9af4dfcf0b113b053887",
-  "source_hash8": "8b2a61de",
-  "source_commit": "22f7bc0c46ac725b79ca580e6182a32c17b0c9cc",
+  "built_at": "2026-09-14T00:37:54+08:00",
+  "source_generated_at": "2026-09-14T00:37:54+08:00",
+  "source_sha256": "4a370790383d303bbb6eef3f626fcebf62e9ecb02c79b769bd9ee7356f0f59f0",
+  "source_hash8": "4a370790",
+  "source_commit": "ef3e8baf1f962eca12d85da1480ebe0fc9e932f1",
   "source_dirty": true
 }

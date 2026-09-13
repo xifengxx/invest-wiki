@@ -98,6 +98,7 @@ TICKER_ALIASES = {
 PRIVATE_TICKERS = {
     "SMEE",        # 上海微电子，未上市
     "ZEISS",       # 蔡司集团非上市
+    "HITACHI-HIGHTECH",  # Hitachi High-Tech，已为Hitachi集团全资子公司，不再上市
     "JSR",         # 2025 年被 JIC 私有化退市，原 4185.T 已不可交易
     "未上市",       # 兼容旧写法；但**不要再新用**——它在 companies 字典里是同一个键，
                    # 多家公司填它会导致互相覆盖（2026-09-13 修：大模型赛道 4 家只剩 1 家）
