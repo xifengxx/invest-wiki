@@ -23,11 +23,8 @@ build/
 .idea/
 
 # AuraKit session data (regenerated per session)
-.aura/logs/
-.aura/agent-memory/
-.aura/governance/
-.aura/instincts/
-.aura/snapshots/
+# 必须用 **/ 前缀：含斜杠的模式默认锚定到仓库根，只写 .aura/logs/ 无法匹配嵌套目录
+**/.aura/
 
 # Secrets
 .env
