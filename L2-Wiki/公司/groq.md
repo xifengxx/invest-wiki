@@ -68,7 +68,8 @@ latest_revenue: 未披露
 market_cap: ~$35亿（2026-08-17 融资估值）；2025-09 曾达 $69亿
 description: Groq 2016年成立，由前Google TPU工程师Jonathan Ross创立，开发LPU（Language Processing Unit）专用推理芯片。2025年12月24日，NVIDIA以约$200亿非独家授权其LPU技术，并聘用Ross及多数高管团队（被称"not-acqui-hire"）。Groq随之从芯片公司转型为AI推理"neocloud"，运行NVIDIA系统并按token销售推理服务，目前运营13个数据中心，服务500-600万开发者。
 website: https://groq.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Groq

@@ -1,7 +1,9 @@
 ---
 name: FPGA
 slug: fpga
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L3
 tam_bn: 9.0
 cagr_pct: 12.0

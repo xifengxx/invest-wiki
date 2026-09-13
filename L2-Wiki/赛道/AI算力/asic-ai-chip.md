@@ -1,7 +1,8 @@
 ---
 name: ASIC/AI定制芯片
 slug: asic-ai-chip
-industry: AI算力
+industries:
+- AI算力
 layer: L3
 tam_bn: 60.0
 cagr_pct: 45.0

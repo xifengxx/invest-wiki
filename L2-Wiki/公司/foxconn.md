@@ -58,7 +58,8 @@ latest_revenue: Q2 2026 NT$2.53T（+41%），FY2026E NT$11T
 market_cap: ~$125B USD（2026.7，一度超越台积电成为台股最高市值）
 description: 鸿海精密（富士康）是全球AI服务器代工的绝对霸主，1974年由郭台铭创立于台湾。从iPhone组装之王转型为AI服务器组装之王——GB200/GB300 NVL72机柜全球市占率~42%。2026年Q2 AI服务器营收首超iPhone成为最大收入来源，标志性转折。SpaceX $52B订单突破Dell/SMCI在美国AI服务器的双寡头垄断。与NVIDIA关系极度紧密：既是GB GPU的"客户"（购买GPU芯片），又是GB系统的"供应商"（组装成完整机柜交付Microsoft/Oracle等最终用户），独特的关系使得Foxconn在GB供应链中不可替代。
 website: https://www.honhai.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # 鸿海精密 (富士康/Foxconn)

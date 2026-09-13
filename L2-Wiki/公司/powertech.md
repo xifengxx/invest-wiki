@@ -49,7 +49,8 @@ latest_revenue: Q2 2026 NT$231.16亿（+28.0% YoY）
 market_cap: ~NT$2,760亿（~$8.8B USD）（2026.7）
 description: 力成科技是全球存储器封装测试龙头，1997年成立于台湾新竹。在DRAM/NAND/SSD存储封装领域全球领先，美光/Kioxia/SanDisk核心封测外包伙伴。HBM/3D NAND堆叠封装精度要求极高，力成的专业化工艺构成差异化护城河。同时布局Fan-Out/2.5D/3D先进封装从存储向AI芯片延伸。
 website: https://www.pti.com.tw
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # 力成科技 (Powertech Technology)

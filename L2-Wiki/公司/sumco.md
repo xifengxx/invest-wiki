@@ -56,7 +56,9 @@ latest_revenue: Q2 FY2026（4-6月）¥1,136亿（+12% QoQ / +10% YoY），H1累
 market_cap: ~¥1.8T（~$10B USD）（2026.7）
 description: SUMCO是全球第二大半导体级硅片制造商，1999年由新日铁和三菱材料硅片部门合并成立。公司与信越化学（Shin-Etsu）形成全球硅片双寡头格局（合计~55%份额），是台积电/Intel/三星/美光等所有先进制程Fab的不可替代供应商。300mm硅片通过LTA（长期供应合同）定价，提供收入稳定性但也在下行周期压缩利润。Q1 2026全球硅片出货量+13.1% YoY（AI需求强劲），但非AI传统应用（手机/PC）仍然疲软，叠加折旧和原材料通胀导致短期经营亏损。中国本土硅片厂商（沪硅产业等）和环球晶圆的产能扩张构成中长期市场份额威胁。
 website: https://www.sumcosi.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # SUMCO Corporation

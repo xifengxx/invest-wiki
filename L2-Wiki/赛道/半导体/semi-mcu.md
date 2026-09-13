@@ -1,7 +1,8 @@
 ---
 name: MCU与嵌入式处理器
 slug: semi-mcu
-industry: 半导体
+industries:
+- 半导体
 layer: L4
 tam_bn: 26.0
 cagr_pct: 7.0

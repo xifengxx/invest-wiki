@@ -1,7 +1,8 @@
 ---
 name: AI服务器
 slug: ai-server
-industry: AI算力
+industries:
+- AI算力
 layer: L3
 tam_bn: 220.0
 cagr_pct: 25.0

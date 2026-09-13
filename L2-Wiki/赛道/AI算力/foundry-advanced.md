@@ -1,7 +1,9 @@
 ---
 name: 晶圆代工(先进制程)
 slug: foundry-advanced
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L2
 tam_bn: 170.0
 cagr_pct: 24.0

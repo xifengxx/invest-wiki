@@ -1,7 +1,8 @@
 ---
 name: 涂胶显影设备(Track)
 slug: semi-track-equipment
-industry: 半导体
+industries:
+- 半导体
 layer: L2
 tam_bn: 4.0
 cagr_pct: 8.0

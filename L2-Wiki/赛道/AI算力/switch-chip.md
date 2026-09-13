@@ -1,7 +1,8 @@
 ---
 name: 网络交换芯片
 slug: switch-chip
-industry: AI算力
+industries:
+- AI算力
 layer: L3
 tam_bn: 12.0
 cagr_pct: 38.0

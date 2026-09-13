@@ -4,6 +4,8 @@ slug: nissin-ion
 country: 日本
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 离子注入设备
 one_liner: ''

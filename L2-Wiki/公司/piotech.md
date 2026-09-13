@@ -65,7 +65,9 @@ latest_revenue: 1H26 29.13亿元（+49.06%）
 market_cap: ~1,951亿元（2026.8.20）；年内涨幅+103.62%
 description: 拓荆科技（688072）2010年成立于沈阳，是国内薄膜沉积设备的龙头企业。公司已形成PECVD、ALD、SACVD、HDPCVD、Flowable CVD等完整产品矩阵，广泛应用于先进存储、先进/成熟逻辑、先进封装、功率器件、Micro-OLED、硅光技术、图像传感器等领域。在三维集成方向布局混合键合与熔融键合全系列设备，是国产先进封装设备的关键供应商。
 website: https://www.piotech.cn
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # 拓荆科技

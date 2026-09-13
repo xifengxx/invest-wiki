@@ -1,7 +1,8 @@
 ---
 name: 先进封装(CoWoS/3D)
 slug: semi-advanced-packaging
-industry: 半导体
+industries:
+- 半导体
 layer: L3
 tam_bn: 30.0
 cagr_pct: 40.0

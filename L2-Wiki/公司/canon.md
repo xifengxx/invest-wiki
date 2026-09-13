@@ -70,7 +70,9 @@ latest_revenue: FY2026 Q2 ¥11,809亿（+3.6%）；H1 ¥22,745亿（+3.5%）
 market_cap: 待补充（搜索未返回可靠市值）
 description: Canon（7751.T）1937年成立于日本东京，是全球领先的光学与影像综合制造商，业务覆盖办公打印、影像系统、半导体光刻设备与医疗设备。在半导体设备领域，Canon提供i-line与KrF光刻机，并推进纳米压印（NIL）这一区别于ASML EUV路线的技术。其光刻设备受益于存储扩产周期，KrF设备需求强劲。
 website: https://global.canon
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # Canon

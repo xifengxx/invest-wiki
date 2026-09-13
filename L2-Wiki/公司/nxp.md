@@ -73,7 +73,9 @@ latest_revenue: Q2 2026 $3.496B（+19% YoY），Q3指引中值$3.75B，FY2026E ~
 market_cap: ~$59B（2026.8）
 description: NXP Semiconductors（恩智浦半导体）是全球最大的汽车MCU供应商（与Infineon并列#1），2006年从荷兰飞利浦半导体部门独立，总部位于埃因霍温。公司在汽车半导体领域拥有最强的产品组合：汽车MCU/处理器（S32平台）、车载网络（汽车以太网/CAN/LIN）、雷达传感器和NFC/安全芯片。工业IoT和数据中心电源管理成为继汽车后的新增长极——i.MX/i.MX RT跨界MCU在工厂自动化和数据中心散热控制中快速渗透，数据中心收入2026年翻倍至$500M+。2025年通过收购Kinara（边缘AI）、TTTech Auto（汽车安全软件）和Aviva Links补强汽车+边缘AI能力。【2026.8.18 海豚研究分析】Q2 2026营收$3.496B（+19% YoY，超预期），GAAP净利$767M（+72% YoY），Non-GAAP EPS $3.61超共识；汽车$1.938B（+12%）仍为主引擎（~55%），工业IoT +38%、通信基础设施 +41%高增长；Q3指引强劲（营收中值$3.75B），但财报后股价跌~6%反映板块"预期透支"担忧。
 website: https://www.nxp.com
-industry: AI算力
+industries:
+- 半导体
+- AI算力
 ---
 
 # NXP Semiconductors

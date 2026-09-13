@@ -1,7 +1,8 @@
 ---
 name: 封装测试(OSAT)
 slug: semi-osat
-industry: 半导体
+industries:
+- 半导体
 layer: L3
 tam_bn: 42.0
 cagr_pct: 8.0

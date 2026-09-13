@@ -4,6 +4,8 @@ slug: sg-micro
 country: 中国
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 模拟芯片
 one_liner: ''

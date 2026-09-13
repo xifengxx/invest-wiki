@@ -57,7 +57,9 @@ revenue_model: 以内存产品销售为主导，DRAM/HBM占半导体营收约80%
 ticker: 005930.KS
 description: 三星电子是全球最大的半导体公司之一，DS（设备解决方案）部门涵盖存储器、晶圆代工和系统LSI三大业务。DRAM与NAND闪存市占率全球第一，HBM高带宽存储器为AI加速器关键组件。3nm GAA工艺率先量产，2nm和1.4nm节点持续推进。公司同时是全球最大的消费电子企业，横跨手机、电视、家电等领域，形成了从芯片设计到制造的全产业链垂直整合能力。
 website: https://semiconductor.samsung.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 founded: 1969
 headquarters: 韩国水原/器兴
 employees: ~270,000（集团半导体DS部门约70,000）

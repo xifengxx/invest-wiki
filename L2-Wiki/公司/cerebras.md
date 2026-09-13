@@ -64,7 +64,9 @@ latest_revenue: Q2 2026 $180.1M（GAAP，+74% YoY）/ core $209.9M（+103%）；
 market_cap: ~$50B（2026.7，较IPO高点跌~47%）
 description: Cerebras Systems是全球唯一实现晶圆级AI芯片（Wafer-Scale Engine）商业化的公司，2016年成立于加州Sunnyvale。其旗舰产品WSE-3将整片300mm硅晶圆作为单一巨型芯片（46,225 mm²，比NVIDIA B200大58倍），集成4万亿晶体管和900,000个AI优化核心，实现125 PFLOPS算力和21 PB/s内存带宽。在AI推理方面，第三方基准测试显示Llama 3.1 70B达到2,100 tokens/s——比主流GPU方案快12-18倍。2026年5月Nasdaq IPO（$185/股，募资$5.5B，开盘$350，市值~$95B）后回落至~$50B。最大客户OpenAI（750MW推理合同可扩展至2GW，合同价值$10-20B+）和AWS（Bedrock集成）提供关键需求锚定。核心风险：客户高度集中（OpenAI主导）、毛利率受权证+数据中心通过成本压缩（36-38%）、TSMC无长期供应协议、NVIDIA CUDA生态碾压。
 website: https://www.cerebras.net
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # Cerebras Systems

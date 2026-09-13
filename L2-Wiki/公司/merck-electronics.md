@@ -4,6 +4,8 @@ slug: merck-electronics
 country: 德国
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 前驱体与ALD/CVD材料
 one_liner: ''

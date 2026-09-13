@@ -4,6 +4,8 @@ slug: kunlunxin
 country: CN
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - ASIC/AI定制芯片
 one_liner: ''

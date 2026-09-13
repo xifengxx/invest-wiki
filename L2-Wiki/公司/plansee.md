@@ -70,7 +70,9 @@ latest_revenue: FY2025/26 €23.5亿（+4% YoY）；总部（Reutte）€8.75亿
 market_cap: 待补充（搜索未返回；公司为未上市集团）
 description: Plansee Group 1921年成立于奥地利罗伊特，是全球领先的难熔金属（钨、钼、钽、铌）制品与溅射靶材制造商。公司专精于高熔点金属的粉末冶金与加工，产品应用于电子、镀膜技术、高温炉与半导体制造。Plansee是全球溅射靶材市场的关键参与者之一，与Materion、JX Nippon Mining & Metals等并列。公司通过持股钨矿企业Almonty（约10%）与钼企Molymet（31%）实现上游垂直整合，钨回收率达92%。
 website: https://www.plansee-group.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # Plansee

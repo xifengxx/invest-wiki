@@ -1,7 +1,8 @@
 ---
 name: 离子注入设备
 slug: semi-ion-implanter
-industry: 半导体
+industries:
+- 半导体
 layer: L2
 tam_bn: 2.5
 cagr_pct: 6.0

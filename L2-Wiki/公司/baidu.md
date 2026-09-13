@@ -4,6 +4,8 @@ slug: baidu
 country: CN
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - AI推理API服务
 - 自动驾驶

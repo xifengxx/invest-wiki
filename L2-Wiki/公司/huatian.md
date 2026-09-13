@@ -4,6 +4,8 @@ slug: huatian
 country: CN
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - 先进封装CoWoS
 one_liner: ''

@@ -4,6 +4,8 @@ slug: mobileye
 country: IL
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - 自动驾驶
 one_liner: ''

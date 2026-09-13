@@ -58,7 +58,8 @@ latest_revenue: Q4 FY2026 $2.05B（单季新高，YoY+34%，FY2026全年$7.12B�
 market_cap: ~$60B（2026.7）
 description: Coherent Corp.是全球光电子和激光系统领导者，1971年成立于宾夕法尼亚州。2022年收购II-VI后成为全球最大的光通信器件和激光器供应商之一。公司在AI数据中心光互联领域占据核心地位：800G/1.6T高速光收发器、EML/DML激光器、InP光芯片、CPO共封装光学和光电路开关（OCS）是NVIDIA AI集群光互联的关键组件。NVIDIA于2026年$2B战略投资+签署多年供应协议，确认Coherent在AI光互联生态中的不可替代性。公司正将InP产能翻倍（Sherman TX新厂+Zurich），受益于CHIPS Act补贴，并已纳入S&P 500（2025.3）。
 website: https://www.coherent.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Coherent Corp.

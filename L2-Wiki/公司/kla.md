@@ -77,7 +77,9 @@ latest_revenue: FY2026 Q4单季$3.66B（FY2026全年$13.58B，+15% YoY）
 market_cap: ~$269B（2026.8，10:1拆股后）
 description: KLA是全球半导体过程控制（Process Control）与良率管理（Yield Management）的绝对龙头，市场份额~57%，拥有行业最完整的检测量测产品线（光学/电子束/深紫外/EUV），产品覆盖从晶圆制造到先进封装的全流程。随着AI芯片复杂度提升和制程微缩，检测量测密度（Process Control Intensity）持续增长，KLA处于AI半导体资本支出的核心受益位置。是Applied Materials检测业务的7倍规模。【2026.8.18 海豚研究】FY2026 Q4营收$3.66B（+15% YoY创纪录）、FY2026全年$13.58B，Q1 FY2027指引营收首次破$4B；盘后因保守指引+毛利率组合担忧跌~9.6%。
 website: https://www.kla.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # KLA Corporation

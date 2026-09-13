@@ -47,7 +47,9 @@ latest_revenue: Q2 2026 NT$1,832.6亿（+47.7% YoY）
 market_cap: ~$160B USD（2026.7，台湾第二大市值公司）
 description: 台达电子（Delta Electronics）是全球AI数据中心电源管理和液冷散热的绝对龙头，1971年成立于台湾。公司从PC电源起家，现转型为AI基础设施核心供应商——提供从电网到GPU芯片的完整电源链（Grid-to-Chip）和液冷散热方案。NVIDIA GB200/GB300 NVL72机柜的电源和液冷系统大量采用Delta方案，Google/Meta也是核心客户。AI数据中心电源效率（~97.5%的PSU转换效率）和功率密度全球领先，液冷方案（直接芯片液冷/浸没式）2026Q1开始贡献营收。台湾母公司市值~$160B（台股#2），泰国子公司市值突破$100B（泰国股市历史性里程碑）。Q2 2026基础设施板块+77% YoY，AI相关+70% YoY。
 website: https://www.deltaww.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # Delta Electronics (台达电子)

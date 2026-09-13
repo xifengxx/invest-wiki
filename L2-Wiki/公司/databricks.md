@@ -76,7 +76,8 @@ latest_revenue: 年化 run-rate 突破 $70亿（Q2 FY2026，+80%以上）
 market_cap: ~$1,900亿（2026-08-13 投后估值；未上市）
 description: Databricks 2013年由Apache Spark的创造者创立，总部位于旧金山，是全球领先的数据与AI平台公司。公司以Lakehouse架构统一数据湖与数据仓库，近年全力转向AI：推出面向AI agent的Lakebase数据库、"AI coworker"Genie，以及Unity AI Gateway多模型治理平台。2026年8月以$1,900亿估值完成$50亿融资，年化收入突破$70亿。
 website: https://www.databricks.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Databricks

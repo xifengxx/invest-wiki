@@ -1,7 +1,9 @@
 ---
 name: 光刻胶与湿化学品
 slug: photoresist
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L1
 tam_bn: 5.0
 cagr_pct: 10.0

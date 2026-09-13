@@ -1,7 +1,8 @@
 ---
 name: CMP设备
 slug: semi-cmp-equipment
-industry: 半导体
+industries:
+- 半导体
 layer: L2
 tam_bn: 3.5
 cagr_pct: 9.0

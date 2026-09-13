@@ -70,7 +70,8 @@ latest_revenue: Q3 FY2026 营收 €4.172B（+12.6% YoY，创历史新高）；F
 market_cap: ~€80B（~$89B USD）（2026.8）
 description: 英飞凌（Infineon Technologies）是全球功率半导体和汽车半导体的双料冠军，1999年从西门子半导体部门独立，总部位于德国慕尼黑。公司在功率半导体领域拥有最完整的材料平台（硅Si、碳化硅SiC、氮化镓GaN），覆盖从电网到AI芯片核心（Grid-to-Core）的完整电源转换链。汽车半导体连续6年全球第一（12.8%份额），汽车MCU市场份额高达36%。AI数据中心电源成为继汽车后的第二大增长引擎，单年目标€1.5B。2025年收购Marvell汽车以太网业务$2.5B，加强汽车连接和数据中心能力。公司受益于三大趋势：汽车电气化/智能化、AI数据中心电力需求爆发、可再生能源/储能投资。
 website: https://www.infineon.com
-industry: AI算力
+industries:
+- 半导体
 ---
 
 # Infineon Technologies

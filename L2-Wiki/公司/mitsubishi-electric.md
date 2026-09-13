@@ -4,6 +4,9 @@ slug: mitsubishi-electric
 country: 日本
 type: company
 updated: 2026-07
+industries:
+- 半导体
+- AI算力
 segments:
 - 功率半导体
 - 服务器电源与UPS

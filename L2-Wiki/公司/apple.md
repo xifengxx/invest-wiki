@@ -93,7 +93,9 @@ latest_revenue: Q3 FY2026 $1,094.2亿（+16% YoY，6月季纪录）；FY2025全�
 market_cap: ~$4.77T（2026.9.11，全球第二，仅次于NVIDIA）
 description: 苹果公司1976年由乔布斯、沃兹尼亚克和韦恩创立，是全球市值最高的消费电子公司之一。以iPhone为核心构建"硬件+软件+服务"封闭生态：2007年iPhone重新定义智能手机，2020年起以M系列自研芯片替代Intel处理器，2024年推出Apple Intelligence切入端侧AI。FY2025营收$4,161亿、净利$1,120亿，服务业务年收入突破$1,091亿。
 website: https://www.apple.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # Apple

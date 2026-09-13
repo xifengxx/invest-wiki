@@ -1,7 +1,8 @@
 ---
 name: 封装设备
 slug: semi-packaging-equipment
-industry: 半导体
+industries:
+- 半导体
 layer: L2
 tam_bn: 6.9
 cagr_pct: 5.8

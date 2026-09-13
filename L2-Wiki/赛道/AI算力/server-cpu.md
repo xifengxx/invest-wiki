@@ -1,7 +1,9 @@
 ---
 name: CPU(服务器级)
 slug: server-cpu
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L3
 tam_bn: 40.0
 cagr_pct: 20.0

@@ -4,6 +4,8 @@ slug: huawei-power
 country: CN
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - 服务器电源与UPS
 one_liner: ''

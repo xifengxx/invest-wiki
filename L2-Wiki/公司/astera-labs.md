@@ -52,7 +52,8 @@ latest_revenue: Q2 2026 $392.4M（YoY+104%，QoQ+27%，超共识），Q3E $540-5
 market_cap: ~$55B（2026.7，较52周高点$499/股跌37%）
 description: Astera Labs是AI服务器高速互联芯片的领先供应商，2017年成立于硅谷。公司核心产品PCIe Retimer（Aries系列）是AI GPU服务器内部高速互联的"信号中继器"——当GPU数量从4颗扩展到8颗、16颗甚至更多时，PCIe信号衰减严重，Retimer重新生成信号确保数据完整性。Astera Retimer被嵌入全球约90%的AI计算服务器，形成事实标准。第二增长引擎Scorpio X-Series（320通道Fabric Switch）2026年量产，用于替代传统PCIe Switch，有望成为公司最大产品线。CXL内存控制器（Leo系列）是第三增长波（2027年起量），支持AI服务器内存池化和扩展。客户高度集中于前3大Hyperscaler（Microsoft/Google/Amazon ~80%），毛利率76%和运营利润率43%证实技术壁垒，但估值极度昂贵（>55x sales）压缩了安全边际。
 website: https://www.asteralabs.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Astera Labs

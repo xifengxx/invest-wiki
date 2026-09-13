@@ -72,7 +72,8 @@ latest_revenue: Q2 FY2026 $3.62B（单季新高，YoY+37%）
 market_cap: ~$190B（2026.8，股价$390.28）
 description: Analog Devices（ADI）是全球第二大模拟芯片制造商（仅次于TI），1965年由MIT毕业生Ray Stata和Matthew Lorber创立于马萨诸塞州。公司专注高性能模拟/混合信号/数字信号处理IC，在数据转换器（ADC/DAC）和精密信号链领域技术领先。通过2017年收购Linear Tech（$14.8B）和2021年收购Maxim Integrated（$20.9B）持续扩大模拟版图。工业（46%）和汽车（30%）为两大核心终端，受益于工厂自动化、电气化和AI数据中心电源管理三大趋势。【2026.8.18更新】Q2 FY2026营收$3.62B创新高（YoY+37%），GAAP净利$1.18B（YoY+106%），Non-GAAP毛利率73%；Q3指引营收$3.9B±$100M；$1.5B收购Empower Semiconductor补强AI数据中心电源。
 website: https://www.analog.com
-industry: AI算力
+industries:
+- 半导体
 ---
 
 # Analog Devices (ADI)

@@ -80,7 +80,9 @@ revenue_model: FY2025营收$37.4B，DRAM占76%（其中HBM约15%），NAND占23%
 ticker: MU
 description: 美光科技（Micron Technology）是全球领先的内存与存储解决方案供应商，总部位于美国爱达荷州博伊西。公司成立于1978年，产品覆盖DRAM（含HBM高带宽内存）、NAND闪存、SSD及多芯片封装，广泛应用于云计算、AI数据中心、移动设备、汽车电子和工业物联网。美光是全球第三大DRAM制造商（仅次于三星和SK海力士），在HBM市场正快速追赶。FY2025营收约373.8亿美元，市值约1万亿美元（2026年中）。公司在美、日、新加坡、马来西亚、中国大陆、台湾和印度拥有15座制造基地，受益于美国CHIPS法案约61亿美元补贴，正大规模扩建美国本土产能。
 website: https://www.micron.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 founded: 1978
 headquarters: 美国爱达荷州博伊西
 employees: ~48,000

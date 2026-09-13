@@ -1,7 +1,9 @@
 ---
 name: 薄膜沉积设备
 slug: thin-film-deposition
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L2
 tam_bn: 20.0
 cagr_pct: 9.0

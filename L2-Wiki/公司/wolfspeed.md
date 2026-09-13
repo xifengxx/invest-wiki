@@ -59,7 +59,9 @@ latest_revenue: Q3 FY2026 $150.2M（YoY -19%）
 market_cap: ~$1.7B（2026.7）
 description: Wolfspeed是全球SiC碳化硅衬底和功率器件的先驱，1987年成立于北卡，前身Cree公司。200mm SiC产能全球最大（Mohawk Valley Fab），是汽车/能源/工业SiC器件的核心供应商。但近年来SiC市场需求疲软（EV增速放缓+中国竞争加剧）导致营收下滑、持续亏损。长期看SiC结构性增长逻辑不变（EV 800V平台+AI数据中心高效电源+新能源），但短期财务压力巨大——负毛利率+$922M债务+YTD股价+274%反映市场在博弈SiC周期拐点。
 website: https://www.wolfspeed.com
-industry: 半导体
+industries:
+- 半导体
+- AI算力
 ---
 
 # Wolfspeed

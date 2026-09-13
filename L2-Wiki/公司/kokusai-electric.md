@@ -4,6 +4,9 @@ slug: kokusai-electric
 country: 日本
 type: company
 updated: 2026-07
+industries:
+- AI算力
+- 半导体
 segments:
 - 薄膜沉积设备
 one_liner: ''

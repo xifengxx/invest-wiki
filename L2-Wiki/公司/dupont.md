@@ -4,6 +4,9 @@ slug: dupont
 country: US
 type: company
 updated: 2026-07
+industries:
+- AI算力
+- 半导体
 segments:
 - 光刻胶与湿化学品
 one_liner: ''

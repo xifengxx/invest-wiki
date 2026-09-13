@@ -5,6 +5,8 @@ country: "中国"
 type: "company"
 ticker: "600183"
 updated: "2026-07"
+industries:
+- AI算力
 segments:
   - "覆铜板与高频材料"
 one_liner: "国内覆铜板(CCL)龙头，专注高频高速覆铜板材料研发与制造，通过为PCB厂商提供高端基材实现盈利，位于产业链L1——AI服务器PCB上游核心材料供应商"

@@ -4,6 +4,9 @@ slug: nikon
 country: JP
 type: company
 updated: 2026-07
+industries:
+- AI算力
+- 半导体
 segments:
 - 光刻机
 one_liner: ''

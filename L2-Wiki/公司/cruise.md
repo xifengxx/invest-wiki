@@ -61,7 +61,8 @@ latest_revenue: 不适用（Robotaxi业务已终止；历史累计收入不足$5
 market_cap: 不适用（GM 100%持股的全资子公司）
 description: Cruise 2013年成立于旧金山，曾是通用汽车旗下最重要的自动驾驶子公司。2023年发生行人拖拽事件后，加州暂停其无人驾驶许可；2024年12月GM宣布停止资助Cruise的robotaxi部门并退出robotaxi业务，2025年2月完成100%股权收购并裁员约50%。公司独立品牌实质退役，工程团队并入GM的驾驶辅助组织，专注ADAS与个人车辆自动驾驶。
 website: https://www.getcruise.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Cruise

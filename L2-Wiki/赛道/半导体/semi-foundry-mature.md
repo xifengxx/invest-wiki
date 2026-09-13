@@ -1,7 +1,8 @@
 ---
 name: 成熟制程代工
 slug: semi-foundry-mature
-industry: 半导体
+industries:
+- 半导体
 layer: L3
 tam_bn: 45.0
 cagr_pct: 8.0

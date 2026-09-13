@@ -92,7 +92,9 @@ ticker: INTC
 description: 英特尔（Intel）成立于1968年，总部位于美国加州圣克拉拉，是全球最大的半导体IDM企业之一，主导x86架构CPU市场。产品覆盖PC、数据中心、网络边缘及AI加速。近年来推动IDM 2.0战略转型，大举投资晶圆代工（Intel Foundry），与台积电、三星竞争先进制程。尽管收入连年下滑、毛利率承压、代工持续亏损，公司凭借深厚技术积累、CHIPS法案资金及新任CEO Lip-Bu
   Tan的领导，力图在AI时代重振。
 website: https://www.intel.com
-industry: 半导体
+industries:
+- 半导体
+- AI算力
 founded: 1968
 headquarters: 美国加州圣克拉拉
 employees: ~125,000

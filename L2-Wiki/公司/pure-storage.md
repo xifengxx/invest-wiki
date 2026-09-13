@@ -111,7 +111,8 @@ latest_revenue: FY2027 Q2 $1,185.9M（+38%，截至2026-08-02）；FY2026 全年
 market_cap: ~$327亿（$32.7B，2026.9.11）
 description: Pure Storage（2026年2月更名 Everpure, Inc.，NYSE代码自2026-04-17由 PSTG 变更为「P」）2009年成立于美国加州，2015年10月上市，是全球全闪存阵列的挑战者与领导者之一，2026 Gartner 企业存储平台魔力象限执行力与愿景完整度双轴最高。公司的差异化在于垂直整合——自行设计并制造 DirectFlash Module（DFM）与控制器系统，绕过通用 SSD 的 FTL 层，宣称容量效率达通用 SSD 阵列约2.5倍。产品线含 FlashArray（块/统一文件，//X //C //E //XL）、FlashBlade（scale-out 非结构化，//S //E //EXA）与 Evergreen 订阅体系（//One //Flex //Forever）。FY2026 营收 $3.66B（+16%）、GAAP 净利 $188.2M；FY2027 Q2 营收 $1,185.9M（+38%），连续8个季度加速。⚠️ 官网为 everpuredata.com（原 purestorage.com）。
 website: https://www.everpuredata.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Pure Storage (Everpure)

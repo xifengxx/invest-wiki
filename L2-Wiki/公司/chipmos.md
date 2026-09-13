@@ -41,7 +41,8 @@ latest_revenue: Q2 2026 合并营收 NT$73.83亿（约$2.32亿美元，+6.5% QoQ
 market_cap: ~NT$350亿（~$1.1B USD）（2026.7）
 description: 南茂科技是全球面板驱动IC（DDI）封装绝对龙头，1997年成立于台湾新竹。COF/COG DDI封装和金凸块制造全球第一——每一片LCD/OLED面板都需要多颗DDI芯片驱动像素，南茂封装了其中最大份额。4K/8K升级+OLED渗透双驱动。
 website: https://www.chipmos.com
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # 南茂科技 (ChipMOS Technologies)

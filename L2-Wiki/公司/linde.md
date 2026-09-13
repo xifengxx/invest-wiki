@@ -49,7 +49,9 @@ latest_revenue: Q2 2026 $9,289M（单季营收，YoY+9%）
 market_cap: ~$240B（2026.7）
 description: Linde plc是全球最大的工业气体和电子特气供应商，1879年由Carl von Linde创立于德国。2018年与Praxair合并成立Linde plc（英国/美国双总部）。在半导体电子气体领域全球份额~23-25%，是台积电/三星/Intel/SK海力士等所有先进Fab的不可替代供应商——芯片制造的数百道工序需要超高纯度（99.9999999%+）的氮气/氩气/氦气等载气和特种气体，Linde通过在现场建造空气分离装置（ASU）和管道直接供气，与Fab签订10-15年长期合同。AI芯片Fab全球扩建潮是核心增长驱动——每座新Fab都是Linde的长期增量收入来源。
 website: https://www.linde.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # Linde plc

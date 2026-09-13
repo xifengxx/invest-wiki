@@ -1,7 +1,9 @@
 ---
 name: 封装基板材料
 slug: package-substrate
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L1
 tam_bn: 5.0
 cagr_pct: 12.0

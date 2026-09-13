@@ -4,6 +4,8 @@ slug: everbright
 country: CN
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - DSP与光芯片
 one_liner: ''

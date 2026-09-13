@@ -79,7 +79,8 @@ latest_revenue: Q2 2026 $3.49B（+26% YoY，GAAP净利$222M扭亏）；Q3 2026E 
 market_cap: ~$50B（2026.8，股价$55.79）
 description: 意法半导体（STMicroelectronics）是全球最大的MCU供应商（STM32生态系统）和Top4 SiC功率半导体厂商，1987年由意大利SGS和法国Thomson半导体部门合并成立，总部设于瑞士日内瓦。公司在欧洲半导体行业具有战略地位，拥有法国Crolles（300mm）、意大利Agrate（300mm）和意大利Catania（SiC）三大核心晶圆厂。STM32 MCU出货量全球#1，开发者生态系统仅次于Arduino/Raspberry Pi。SiC业务经历2025年低谷后2026年拐点复苏（Tesla份额稳定在低50%+BYD/吉利新客户）。AI数据中心电源（$500M→$1B）和SpaceX卫星独家供应（€3B+）为两大差异化增长极。
 website: https://www.st.com
-industry: AI算力
+industries:
+- 半导体
 ---
 
 # 意法半导体 (STMicroelectronics)

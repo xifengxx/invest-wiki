@@ -1,7 +1,8 @@
 ---
 name: 射频芯片
 slug: semi-rf-chip
-industry: 半导体
+industries:
+- 半导体
 layer: L4
 tam_bn: 29.5
 cagr_pct: 10.0

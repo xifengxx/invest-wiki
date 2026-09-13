@@ -1,7 +1,8 @@
 ---
 name: 大模型
 slug: foundation-model
-industry: AI算力
+industries:
+- AI算力
 layer: L4
 tam_bn: 82.0
 cagr_pct: 100.0

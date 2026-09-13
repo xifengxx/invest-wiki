@@ -1,7 +1,9 @@
 ---
 name: Chiplet与异构集成
 slug: chiplet
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L2
 tam_bn: 14.0
 cagr_pct: 50.0

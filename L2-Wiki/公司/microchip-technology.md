@@ -69,7 +69,9 @@ latest_revenue: Q1 FY2027 $1.485B（+38% YoY/+13.2% QoQ），Non-GAAP EPS $0.76
 market_cap: ~$43.6B（2026.8）
 description: Microchip Technology是全球领先的嵌入式控制解决方案供应商，1989年成立于亚利桑那州Chandler。公司拥有业界最完整之一的MCU+模拟+FPGA+连接产品组合，服务~10万客户，工业MCU全球市场份额#1。经过FY2023峰值$8.44B→FY2025低谷$4.40B的剧烈周期波动后，FY2026启动9点复苏计划（库存削减$320M、工厂利用率回升、毛利率从低谷恢复），Q4 FY2026营收+35% YoY确认周期拐点。PolarFire FPGA在航空航天/国防领域占据独特地位（辐射加固/高可靠性），数据中心PCIe Gen6交换机/重定时器成为新增长极（2026E $500M +65%）。$5.5B债务是主要风险但也反映收购Microsemi+Atmel的战略资产。
 website: https://www.microchip.com
-industry: AI算力
+industries:
+- 半导体
+- AI算力
 ---
 
 # Microchip Technology

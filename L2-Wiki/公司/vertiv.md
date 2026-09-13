@@ -52,7 +52,8 @@ latest_revenue: Q2 2026 $3.274B（+24% YoY，GAAP净利$497.8M +53.5%）
 market_cap: ~$120B（2026.7）
 description: Vertiv是全球AI数据中心电源和液冷散热的领导者，2016年从Emerson分拆独立。与NVIDIA Vera Rubin DSX平台深度合作，提供AI工厂的端到端电源+冷却方案。积压订单>$15B，订单暴增252%——AI数据中心建设潮的最直接受益者。
 website: https://www.vertiv.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Vertiv Holdings

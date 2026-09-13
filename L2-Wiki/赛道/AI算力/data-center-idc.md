@@ -1,7 +1,8 @@
 ---
 name: 数据中心IDC
 slug: data-center-idc
-industry: AI算力
+industries:
+- AI算力
 layer: L4
 tam_bn: 83.0
 cagr_pct: 17.0

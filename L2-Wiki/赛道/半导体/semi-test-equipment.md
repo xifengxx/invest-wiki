@@ -1,7 +1,8 @@
 ---
 name: 测试设备
 slug: semi-test-equipment
-industry: 半导体
+industries:
+- 半导体
 layer: L2
 tam_bn: 7.65
 cagr_pct: 7.35

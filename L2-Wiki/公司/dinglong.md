@@ -4,6 +4,9 @@ slug: dinglong
 country: 中国
 type: company
 updated: 2026-07
+industries:
+- 半导体
+- AI算力
 segments:
 - CMP抛光液与抛光垫
 - 高纯硅料与硅片

@@ -61,7 +61,9 @@ market_cap: ~$35B
 ticker: '002371'
 description: 北方华创（Naura Technology）是中国半导体设备龙头，产品覆盖刻蚀、薄膜沉积、氧化扩散、清洗、热处理等七大工艺环节，是国内产品线最完整的半导体设备平台型企业。PVD/CVD/ALD/刻蚀设备已进入中芯国际、长江存储、长鑫存储等国内主流产线，部分性能接近应用材料/泛林同类水平。
 website: https://www.naura.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # 北方华创

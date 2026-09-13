@@ -1,7 +1,8 @@
 ---
 name: CMP抛光液与抛光垫
 slug: semi-cmp-materials
-industry: 半导体
+industries:
+- 半导体
 layer: L1
 tam_bn: 3.5
 cagr_pct: 10.0

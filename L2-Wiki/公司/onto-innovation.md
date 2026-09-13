@@ -67,7 +67,9 @@ latest_revenue: Q2 2026 $3.431亿（+35.3% YoY）
 market_cap: ~$138.0亿（2026-09-11）
 description: Onto Innovation（ONTO）2019年由Rudolph Technologies与Nanometrics合并而成，总部位于美国马萨诸塞州，是全球领先的半导体光学检测与量测设备供应商。公司旗舰产品Dragonfly系统在先进封装检测领域占据领先地位，直接受益于HBM与2.5D/异构封装需求。2026年公司多次上调先进封装增长展望，backlog首次突破$10亿。
 website: https://www.ontoinnovation.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # Onto Innovation

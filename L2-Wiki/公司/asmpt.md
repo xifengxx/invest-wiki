@@ -64,7 +64,8 @@ latest_revenue: 26H1 89.03亿港元（+42.5%）；26Q2 单季 49.36亿港元（+
 market_cap: ~675-680亿港元（2026年，来源口径分歧）
 description: ASMPT（0522.HK）1975年由 ASM International 创始人 Arthur del Prado 与林师庞（Patrick Lam）在香港创立，1989年在港交所上市，原名 ASM Pacific Technology，2022年更名为 ASMPT，现总部位于新加坡。公司是全球半导体封装设备龙头之一，业务分 SEMI（半导体封装设备）与 SMT（表面贴装设备）两大分部，覆盖引线键合、倒装、热压键合（TCB）到混合键合的完整技术演进路线。在TCB领域公司是主要供应商，管理层预计TCB可服务市场2028年前突破16亿美元，远期目标占据35%~40%份额。2024年10月公司曾确认收到独立第三方（传为KKR）初步非约束性私有化收购建议，未推进至完成。
 website: https://www.asmpt.com
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # ASMPT

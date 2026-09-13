@@ -4,6 +4,8 @@ slug: qingyi-photomask
 country: 中国
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 光掩模版
 one_liner: ''

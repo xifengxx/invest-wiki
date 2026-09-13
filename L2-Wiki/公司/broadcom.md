@@ -92,7 +92,9 @@ latest_revenue: Q2 FY2026 $22.19B（同比+48%）
 market_cap: ~$1.8T（2026.7）
 description: 博通公司（Broadcom Inc.）是全球领先的AI基础设施与半导体解决方案巨头。公司起源于HP半导体部门，在CEO Hock Tan“珍珠串”收购战略驱动下，从纯半导体企业转型为半导体与基础软件双轮驱动的科技巨头。2025财年营收达639亿美元、市值突破1.9万亿美元，是定制AI芯片（ASIC）市场的绝对领导者，为Google、Meta、OpenAI等超大规模客户设计AI加速器，同时通过VMware在私有云基础设施软件领域占据主导地位。
 website: https://www.broadcom.com
-industry: AI算力
+industries:
+- 半导体
+- AI算力
 ---
 
 # Broadcom

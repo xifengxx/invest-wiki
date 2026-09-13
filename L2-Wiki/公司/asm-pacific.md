@@ -4,6 +4,8 @@ slug: asm-pacific
 country: 香港/新加坡
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 封装测试(OSAT)
 one_liner: ''

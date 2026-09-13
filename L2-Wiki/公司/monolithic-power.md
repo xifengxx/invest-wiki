@@ -60,7 +60,8 @@ latest_revenue: Q2 CY2026 营收 $980.6M（+47.6% YoY，创纪录）；Q3 CY2026
 market_cap: ~$70B（2026.7）
 description: Monolithic Power Systems（MPS）是全球高性能电源管理IC的领先Fabless设计公司，1997年由Michael Hsing（前ADI工程师）创立于美国华盛顿州Kirkland。公司专注于高集成度、高效率电源管理方案，通过独有BCD工艺（Bipolar-CMOS-DMOS）实现小体积/高效率/低散热，在AI服务器GPU/CPU电源管理领域建立强竞争优势。Enterprise Data业务（AI数据中心）2026年预计增长85%+，正迅速超过通信和汽车成为第一大终端市场。公司轻资产Fabless模式+持续扩产（$4B→$6B产能目标）支撑高增长。
 website: https://www.monolithicpower.com
-industry: AI算力
+industries:
+- 半导体
 ---
 
 # Monolithic Power Systems (MPS)

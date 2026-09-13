@@ -4,6 +4,8 @@ slug: suss-microtec
 country: 德国
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 涂胶显影设备(Track)
 one_liner: ''

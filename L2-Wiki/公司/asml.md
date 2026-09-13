@@ -83,7 +83,9 @@ latest_revenue: Q2 2026 €9.3B（超指引）；全年指引上调至€43-45B
 market_cap: ~$720B（2026.7）
 description: ASML Holding N.V. 是全球唯一的极紫外（EUV）光刻机供应商，垄断先进芯片制造最关键设备。公司1984年由飞利浦与ASM国际合资创立，总部位于荷兰费尔德霍芬，员工超44,000人。ASML的EUV光刻机单台售价约2亿美元，High-NA EUV高达3.8亿美元，全球所有7nm以下先进芯片均依赖其设备生产。主要客户包括台积电、三星、英特尔、SK海力士。2025财年营收327亿欧元，净利润96亿欧元，市值超5,000亿美元，是欧洲最大科技公司。
 website: https://www.asml.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # ASML

@@ -4,6 +4,8 @@ slug: runpod
 country: US
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - AI模型训练平台
 one_liner: ''

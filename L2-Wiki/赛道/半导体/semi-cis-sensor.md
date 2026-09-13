@@ -1,7 +1,8 @@
 ---
 name: CIS图像传感器
 slug: semi-cis-sensor
-industry: 半导体
+industries:
+- 半导体
 layer: L4
 tam_bn: 21.0
 cagr_pct: 8.0

@@ -1,7 +1,8 @@
 ---
 name: PCB与IC载板
 slug: pcb-ic-substrate
-industry: AI算力
+industries:
+- AI算力
 layer: L2
 tam_bn: 12.0
 cagr_pct: 22.0

@@ -4,6 +4,9 @@ slug: semtech
 country: 美国
 type: company
 updated: 2026-07
+industries:
+- AI算力
+- 半导体
 segments:
 - DSP与光芯片
 - 模拟芯片

@@ -72,7 +72,8 @@ latest_revenue: ARR ~$20亿（2026.2）；2026年底预测 $60亿+ run rate
 market_cap: ~$600亿（2026.6 SpaceX 全股票收购价）；此前洽谈估值 ~$500亿（2026.4）
 description: Cursor 由 Anysphere 于2022年由四名MIT学生创立，总部旧金山，是AI编程工具的领军者。其AI原生代码编辑器在三年内将ARR从$1亿推升至$20亿，创下B2B软件最快增长记录。2025年11月推出自研Composer模型后毛利率由负转正。2026年4月完成约$500亿估值的融资洽谈（a16z与Thrive领投、Nvidia战略投资），随后于6月被SpaceX以约$600亿全股票收购，为2026年最大创投支持的创业公司并购。
 website: https://cursor.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Cursor

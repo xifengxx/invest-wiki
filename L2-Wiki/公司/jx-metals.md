@@ -6,6 +6,9 @@ ticker: 5016.T
 type: company
 updated: 2026-08
 data_freshness_date: 2026-08-18
+industries:
+- AI算力
+- 半导体
 segments:
 - 溅射靶材
 one_liner: |

@@ -60,7 +60,9 @@ latest_revenue: Q2 2026 €249.9M（+68.7% YoY，+35.2% QoQ），Q3指引 €275
 market_cap: ~€22B（~$24B USD）（2026.7）
 description: BE Semiconductor Industries（Besi）是全球芯片贴装（Die Attach）和先进封装设备的领导者，总部位于荷兰Duiven。公司在Die Attach设备市场拥有~40%份额，核心产品Hybrid Bonding（混合键合）设备是实现3D芯片堆叠（CoWoS/SoIC/HBM）的关键设备——在室温下将两片晶圆或芯片以100nm精度直接键合，无需焊料。2026年H1订单同比暴增116.5%，受益于台积电/三星/Intel/SK海力士全面扩产先进封装产能。21家客户采用Hybrid Bonding（2025年底15家），AI芯片+存储器+共封装光学（CPO）多应用驱动。高毛利率（64.7%）和净利率（32.3%）反映技术壁垒和议价能力。
 website: https://www.besi.com
-industry: AI算力
+industries:
+- 半导体
+- AI算力
 ---
 
 # BE Semiconductor Industries (Besi)

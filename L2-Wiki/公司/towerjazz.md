@@ -56,7 +56,8 @@ latest_revenue: Q2 2026 $460M（+24% YoY，记录新高），Q3指引$520M（记
 market_cap: ~$30B（2026.7）
 description: Tower Semiconductor（原TowerJazz）是全球模拟/混合信号特色工艺代工的领先者，1993年成立于以色列。公司在SiGe BiCMOS（汽车雷达/5G射频）、硅光子（AI数据中心光互联）和功率BCD（电源管理）三大特色工艺领域拥有独特技术优势。2023年Intel $5.4B收购失败后，Tower转为独立发展并反而受益——硅光子代工成为最强增长引擎（$1.3B合同至2027年），AI数据中心800G/1.6T光模块芯片代工需求爆发。以色列地缘政治风险是主要不确定性因素，但公司通过日本和美国晶圆厂实现产能多元化。
 website: https://www.towersemi.com
-industry: AI算力
+industries:
+- 半导体
 ---
 
 # Tower Semiconductor (TowerJazz)

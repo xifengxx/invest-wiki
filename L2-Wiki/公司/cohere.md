@@ -81,7 +81,8 @@ latest_revenue: 2025 ARR ~$2.4亿（连续四季度QoQ+50%以上）
 market_cap: ~$70亿（2025年8月轮已确认）；洽谈中约$200亿（关联Aleph Alpha合并，未确认）
 description: Cohere 2019年由Aidan Gomez、Ivan Zhang、Nick Frosst创立于多伦多，是纯企业级与主权AI定位的基础模型公司，不提供消费级产品。公司通过私有部署与本地部署的模型服务受监管行业与政府客户，客户包括Oracle、Fujitsu、SAP、Dell、LG、RBC、Notion等。2026年4月与德国主权AI公司Aleph Alpha合并，深化欧洲布局。公司已聘请前Uber CFO出任CFO，被市场广泛视为2026年IPO候选。
 website: https://cohere.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Cohere

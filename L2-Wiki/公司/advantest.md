@@ -68,7 +68,8 @@ latest_revenue: Q1 FY2027 ¥367.5B（单季净销售额，YoY+39.3%）
 market_cap: ~¥21T（~$140B USD）（2026.7）
 description: Advantest（爱德万测试）是全球最大的半导体自动测试设备（ATE）供应商，1954年成立于日本东京。公司在SoC测试（V93000平台成为AI处理器行业标准）和存储器测试（HBM3e/HBM4）两大领域均占据领先地位，全球市场份额~50-55%。AI芯片（NVIDIA Blackwell/Rubin）和HBM存储器的测试复杂度指数级增长，驱动Advantest营收和利润率双升。FY2026营收首次突破¥1万亿日元，运营利润率高达~44%，是日本半导体设备行业盈利能力最强的公司之一。
 website: https://www.advantest.com
-industry: AI算力
+industries:
+- 半导体
 ---
 
 # Advantest

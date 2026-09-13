@@ -52,7 +52,8 @@ latest_revenue: H1 FY2026（2026年1-6月）¥1,396.68亿（+25.1%），中期�
 market_cap: ~¥1.4T（~$7B USD）（2026.7）
 description: 东京应化工业（Tokyo Ohka Kogyo，TOK）是全球第二大半导体光刻胶制造商，1940年成立于日本川崎。公司在ArF浸没式光刻胶领域全球排名第一，同时覆盖EUV/KrF/g-i-Line全波长光刻胶和配套高纯化学品，是台积电/三星/Intel/SK海力士先进制程的不可替代供应商。光刻胶是芯片制造光刻工序的核心材料（决定了电路图案的精度），认证周期长（1-2年），切换成本极高。AI芯片需求暴增驱动ArF/EUV光刻胶营收Q1 +23.6% YoY，股价YTD +67%。与JSR（全球#1，已退市）形成光刻胶双寡头格局。
 website: https://www.tok.co.jp
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # Tokyo Ohka Kogyo (TOK)

@@ -1,7 +1,8 @@
 ---
 name: AI芯片设计(Fabless)
 slug: semi-ai-chip-design
-industry: 半导体
+industries:
+- 半导体
 layer: L4
 tam_bn: 25.0
 cagr_pct: 35.0

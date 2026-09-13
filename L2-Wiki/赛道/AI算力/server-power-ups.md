@@ -1,7 +1,8 @@
 ---
 name: 服务器电源与UPS
 slug: server-power-ups
-industry: AI算力
+industries:
+- AI算力
 layer: L2
 tam_bn: 5.0
 cagr_pct: 20.0

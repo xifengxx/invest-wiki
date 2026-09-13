@@ -70,7 +70,9 @@ latest_revenue: Q2 2026 €1,003M（+20% YoY，首破€10亿，超指引），F
 market_cap: ~€47B（~$50B USD）（2026.7）
 description: ASM International是全球原子层沉积（ALD）设备的绝对龙头，1968年成立于荷兰Almere。ALD是半导体制造中最精密的薄膜沉积技术，以单原子层精度逐层沉积材料，在GAA（Gate-All-Around）晶体管、3D NAND和DRAM电容器制造中不可替代。ASM持有55%+市场份额，是台积电2nm GAA/三星GAA/Intel RibbonFET工艺的ALD设备首选供应商。硅外延（Si Epi）是其第二增长引擎，同样受益于GAA晶体管对Si/SiGe超晶格结构的增量需求。注意：ASM International（ASM.AS）与ASML（ASML.AS）是两家不同的荷兰半导体设备公司——ASML做光刻，ASMI做沉积。
 website: https://www.asm.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # ASM International

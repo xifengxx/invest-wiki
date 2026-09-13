@@ -65,7 +65,9 @@ latest_revenue: 最新一期 ¥1,232亿（+约26% YoY）；营业利润 ¥269亿
 market_cap: 待补充（搜索未返回可靠市值）
 description: Ibiden（4062.T）创立于1912年，总部位于日本岐阜县大垣市，从陶瓷业务起家，现为全球FC-BGA封装基板龙头。公司长期为Intel、NVIDIA等提供高端载板，在大尺寸、高层数FC-BGA领域具备技术与份额优势。AI算力浪潮下，FC-BGA成为AI芯片的关键供应链瓶颈，公司正通过新Ono工厂与Gama基地扩建产能，目标AI服务器载板收入到FY2030达¥4,750亿。
 website: https://www.ibiden.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # Ibiden

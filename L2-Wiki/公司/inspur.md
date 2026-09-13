@@ -4,6 +4,8 @@ slug: inspur
 country: CN
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - AI服务器
 one_liner: ''

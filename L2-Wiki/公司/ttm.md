@@ -4,6 +4,8 @@ slug: ttm
 country: US
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - PCB与IC载板
 one_liner: ''

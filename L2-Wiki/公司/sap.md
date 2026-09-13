@@ -77,7 +77,8 @@ latest_revenue: Q2 2026 总收入€99亿（+9%）；云收入€63亿（+22%）
 market_cap: ~€2,900亿（2026.9，估算；请以实时行情为准）
 description: SAP 1972年成立于德国沃尔多夫，是全球最大的企业应用软件公司，ERP市场份额全球第一。公司自2015年起推动向云订阅转型，S/4HANA与RISE with SAP是转型核心。2026年推出"自主企业"（Autonomous Enterprise）战略，以Business AI Platform与Joule Studio多模型平台为核心，AI已嵌入其前50大交易中的90%以上，是全球企业级AI落地最深入的传统软件厂商。
 website: https://www.sap.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # SAP

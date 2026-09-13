@@ -57,7 +57,8 @@ latest_revenue: Q4 FY2026 $437.0M（+157% YoY，Non-GAAP EPS $1.16，Non-GAAP毛
 market_cap: ~$45B（2026.7）
 description: Credo Technology Group是全球高速互联芯片的领先供应商，2008年成立，专注AI数据中心GPU集群和光互联解决方案。核心产品224G Retimer（Blue Heron，3nm制程）和PCIe 6.0 Retimer（Toucan）是AI服务器内部GPU到GPU高速互联的"信号中继站"——当GPU集群从8卡扩展到256卡甚至更大时，信号完整性维护完全依赖Retimer。$1.3B光芯片供应合同（2026年签订）锁定多年收入。FY2026营收+206% YoY反映Blackwell集群大规模部署对互联芯片的爆炸性需求。收购DustPhotonics（硅光子）补强光互联技术栈。关键风险：NVIDIA Rubin架构延迟→下一代1.6T Retimer收入推迟；客户集中在少数Hyperscaler；与Broadcom/Marvell/Astera Labs多面竞争。
 website: https://www.credosemi.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Credo Technology Group

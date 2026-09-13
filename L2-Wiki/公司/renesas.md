@@ -68,7 +68,9 @@ latest_revenue: Q2 2026 Non-GAAP营收 ¥405.3B（+24.8% YoY，超指引4.5%）�
 market_cap: ~¥7.5T（~$50B USD）（2026.8，区间 ¥6.87T–7.90T）
 description: 瑞萨电子（Renesas Electronics）是全球MCU三巨头之一和日本最大的半导体公司，2003年由日立和三菱电机半导体部门合并成立（2010年整合NEC电子）。公司在汽车MCU市场与Infineon/NXP并列全球前三，在日本汽车供应链中具有近乎垄断的地位（丰田/本田/日产全覆盖）。R-Car系列汽车SoC在ADAS和自动驾驶领域持续获得设计中标（2026年丰田RAV4）。工业/IoT MCU（RA/RX/RL78系列）是第二大支柱，受益于工厂自动化和边缘AI趋势。2026年7月完成时钟业务出售给SiTime（¥443B收益），聚焦核心MCU+嵌入式战略。目标"三阶段火箭"增长：AI基础设施→物理AI/软件定义汽车→边缘智能，2035年营收翻三倍。【2026.8.18更新】Q2 2026（4-6月）Non-GAAP营收 ¥405.3B（+24.8% YoY），Non-GAAP运营利润率 32.7%，IFRS归母净利 ¥149.2B（+350.5% YoY），AI数据中心与汽车双引擎驱动。
 website: https://www.renesas.com
-industry: AI算力
+industries:
+- 半导体
+- AI算力
 ---
 
 # 瑞萨电子 (Renesas Electronics)

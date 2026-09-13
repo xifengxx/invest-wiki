@@ -51,7 +51,8 @@ latest_revenue: Q2 CY2026 $574.1M（+30% YoY），FY2026E 营收增速指引上�
 market_cap: ~$13B（2026.7）
 description: Advanced Energy是全球精密电源转换和等离子电源的领先供应商，1981年成立于科罗拉多州。公司在半导体制造所需的RF射频电源领域是两大核心供应商之一（与MKS Instruments直接竞争），其等离子电源产品用于刻蚀和沉积设备的等离子体生成——没有精准的RF电源就没有精确的芯片刻蚀。AI芯片制造设备支出暴增直接驱动半导体电源需求。同时，公司数据中心电源板块同样受益于AI——AI服务器功耗每代翻倍，对高效电源转换的需求同步增长，形成半导体+数据中心双受益格局。
 website: https://www.advancedenergy.com
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # Advanced Energy Industries

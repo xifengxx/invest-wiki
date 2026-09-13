@@ -4,6 +4,8 @@ slug: kulicke-soffa
 country: 美国
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 封装测试(OSAT)
 one_liner: ''

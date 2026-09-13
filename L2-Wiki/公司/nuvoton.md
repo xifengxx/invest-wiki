@@ -4,6 +4,8 @@ slug: nuvoton
 country: 台湾
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - MCU与嵌入式处理器
 one_liner: ''

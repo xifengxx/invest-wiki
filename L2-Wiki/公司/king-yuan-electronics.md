@@ -4,6 +4,8 @@ slug: king-yuan-electronics
 country: 台湾
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 封装测试(OSAT)
 one_liner: ''

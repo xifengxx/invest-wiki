@@ -4,6 +4,9 @@ slug: hitachi-high-tech
 country: 日本
 type: company
 updated: 2026-07
+industries:
+- AI算力
+- 半导体
 segments:
 - 检测量测设备
 one_liner: ''

@@ -74,7 +74,8 @@ latest_revenue: Q2 FY2027 $469.7亿（+58% YoY）；FY2027 指引 $1,920亿
 market_cap: 待补充（搜索未返回可靠市值）
 description: Dell Technologies（DELL）1984年由Michael Dell创立，总部位于美国德克萨斯州，是全球领先的IT基础设施供应商。公司业务分为基础设施解决方案集团（ISG）、客户端解决方案集团（CSG）与VMware（已分拆）。在AI浪潮中，Dell凭借AI优化服务器业务实现爆发式增长，FY2027第二季度AI服务器收入翻倍至$164亿，AI订单与backlog均创纪录。
 website: https://www.dell.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Dell

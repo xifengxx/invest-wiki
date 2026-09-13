@@ -4,6 +4,8 @@ slug: cyxtera
 country: US
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - 数据中心IDC
 one_liner: ''

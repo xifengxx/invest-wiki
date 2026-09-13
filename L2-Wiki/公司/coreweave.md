@@ -72,7 +72,8 @@ latest_revenue: Q2 2026 $25.8亿（+112% YoY）；FY2026 指引 $124-132亿
 market_cap: ~$590亿（2026，财报后大涨18-19%）
 description: CoreWeave（CRWV）2017年成立，总部位于美国新泽西州，是全球最大的AI专用GPU云服务商。公司从加密货币挖矿转型为AI算力租赁，凭借与NVIDIA的深度绑定（NVIDIA亦为其战略投资者）快速扩张，客户涵盖Microsoft、Meta、OpenAI、Anthropic等。2026年Q2营收同比+112%，营收积压达$1,040亿。公司以高杠杆支撑重资产扩张，总债务约$350亿。
 website: https://www.coreweave.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # CoreWeave

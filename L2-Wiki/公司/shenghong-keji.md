@@ -5,6 +5,8 @@ country: "中国"
 type: "company"
 ticker: "300476"
 updated: "2026-07"
+industries:
+- AI算力
 segments:
   - "PCB与IC载板"
 one_liner: "AI PCB核心标的，专注高密度互连(HDI)与高多层PCB制造，通过AI服务器+光模块PCB批量出货实现盈利，位于产业链L2——国内AI PCB弹性标的"

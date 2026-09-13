@@ -56,7 +56,9 @@ latest_revenue: Q2 2026 $883.2M（+11.5% YoY）
 market_cap: ~$21B（2026.7）
 description: Entegris是全球半导体材料和污染控制解决方案的领导者，1966年成立于马萨诸塞州。公司是台积电/三星/Intel等先进制程Fab的"隐形基础设施"——在芯片制造的数百道工序中，每道工序都离不开Entegris提供的高纯化学品（CVD/ALD前驱体/CMP抛光液）、超纯过滤器和晶圆运输容器（FOUP）。随着制程从28nm→5nm→2nm演进，每片晶圆消耗的材料种类和纯度要求指数级提升，驱动Entegris的Content per Wafer持续增长。约75%营收为消耗品（非CAPEX设备），提供穿越周期的收入稳定性。Design-in认证壁垒（新材料需3-5年客户认证）和极低的切换意愿（良率攸关）构成强大护城河。
 website: https://www.entegris.com
-industry: AI算力
+industries:
+- 半导体
+- AI算力
 ---
 
 # Entegris

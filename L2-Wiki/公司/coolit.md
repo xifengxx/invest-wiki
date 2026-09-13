@@ -4,6 +4,8 @@ slug: coolit
 country: US
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - 散热液冷系统
 one_liner: ''

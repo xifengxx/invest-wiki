@@ -1,7 +1,9 @@
 ---
 name: RISC-V AI芯片
 slug: riscv-ai
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L3
 tam_bn: 2.5
 cagr_pct: 60.0

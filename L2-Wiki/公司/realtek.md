@@ -4,6 +4,8 @@ slug: realtek
 country: 台湾
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - IC设计服务(Fabless)
 one_liner: ''

@@ -1,7 +1,9 @@
 ---
 name: EDA与IP核
 slug: eda-ip
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L2
 tam_bn: 18.0
 cagr_pct: 14.0

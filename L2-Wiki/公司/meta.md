@@ -87,7 +87,8 @@ revenue_model: 广告收入占98%，2025年达1962亿美元（同比增22%），
 ticker: META
 description: Meta Platforms是全球最大社交媒体公司，旗下Facebook、Instagram、WhatsApp月活用户超40亿。公司全面转型AI算力巨头，FY2025资本开支超630亿美元投入AI基础设施，自研MTIA芯片与开源Llama大模型构成完整AI技术栈。通过AI赋能广告精准投放，FY2025营收突破2000亿美元(+22% YoY)，是AI商业化的全球标杆企业。
 website: https://www.meta.com
-industry: AI算力
+industries:
+- AI算力
 founded: 2004
 headquarters: 美国加州门洛帕克
 employees: ~79,000

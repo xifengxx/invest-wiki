@@ -1,7 +1,8 @@
 ---
 name: 存储芯片(DRAM/NAND)
 slug: semi-memory-chips
-industry: 半导体
+industries:
+- 半导体
 layer: L3
 tam_bn: 200.0
 cagr_pct: 18.0

@@ -53,7 +53,8 @@ latest_revenue: H1 2026 CHF 511.9M（-8% YoY），Q3E CHF 355-385M
 market_cap: ~CHF 20B（~$25B USD）（2026.7）
 description: VAT Group是全球半导体真空阀门的绝对垄断者（70-77%份额），1965年成立于瑞士。真空阀门是芯片制造刻蚀/沉积/光刻工序的"看门人"——在接近绝对真空的环境中（比太空更低压），VAT的高精密阀门控制工艺气体的精确进出和隔离，是每一台半导体设备内部不可或缺的核心组件。AI芯片制造设备需求暴增驱动VAT订单翻倍：H1 2026订单CHF 856M（+75% YoY），积压CHF 648M（+121%），产能利用率接近极限。VAT在真空阀门领域的地位类似于ASML在光刻机、Disco在切割机的垄断——都是半导体设备的"瓶颈环节"。2026年新增700+员工扩产，目标季度产能从CHF 300M→CHF 450M（年底）。
 website: https://www.vatgroup.com
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # VAT Group AG

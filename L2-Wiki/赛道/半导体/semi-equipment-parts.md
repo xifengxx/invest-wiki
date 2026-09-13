@@ -1,7 +1,8 @@
 ---
 name: 半导体设备零部件
 slug: semi-equipment-parts
-industry: 半导体
+industries:
+- 半导体
 layer: L4
 tam_bn: 25.0
 cagr_pct: 10.0

@@ -70,7 +70,8 @@ latest_revenue: Q1 CY2026（公司口径FY2026 Q4）$8.083亿（-7% YoY）；后
 market_cap: ~$85.8亿（Q1报告时）；其他口径$79.4-87.4亿
 description: Qorvo（QRVO）由TriQuint与RF Micro Devices于2015年合并而成，是全球领先的射频（RF）芯片供应商，产品用于全球几乎所有智能手机，同时覆盖网络设备、基础设施、国防航空航天与电源管理领域。公司正被Skyworks收购，因此已停止举行电话会与提供前瞻指引。
 website: https://www.qorvo.com
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # Qorvo

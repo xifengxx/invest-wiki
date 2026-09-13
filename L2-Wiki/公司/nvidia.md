@@ -121,7 +121,9 @@ latest_revenue: Q2 FY2027 $96.2B（+106% YoY，历史新高）；Q3 指引$108B�
 market_cap: ~$5.1T（2026.8，全球第一）
 description: 英伟达（NVIDIA）是全球AI算力芯片绝对龙头，1993年由黄仁勋、Chris Malachowsky和Curtis Priem创立于美国加州。1999年发明GPU，2006年推出CUDA并行计算平台，2016年后全面转型AI计算，市值从数百亿美元飙升至超4万亿美元。FY2026营收$2,159亿，数据中心业务占比超90%，是ChatGPT时代最大的基础设施赢家。
 website: https://www.nvidia.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # NVIDIA

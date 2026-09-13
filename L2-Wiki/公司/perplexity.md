@@ -4,6 +4,8 @@ slug: perplexity
 country: US
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - AI Agent
 - AI推理API服务

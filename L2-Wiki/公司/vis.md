@@ -45,7 +45,8 @@ latest_revenue: Q2 2026 NT$14.245B（142.45亿新台币，YoY+21.8%）
 market_cap: ~NT$1,500亿（~$4.8B USD）（2026.7）
 description: 世界先进（VIS）是全球领先的8寸成熟制程特色工艺代工厂，1994年成立于新竹科学园区，台积电持有~28%股权。专注电源管理IC（BCD工艺）、面板驱动IC、MEMS传感器和指纹识别等成熟制程特色工艺，5座8寸厂月产能~282K片。与NXP合资$7.8B新加坡12寸新厂（VSMC）计划2027年投产，实现从8寸→12寸的产能升级和地缘多元化。AI服务器电源管理IC需求暴增驱动BCD工艺代工需求。
 website: https://www.vis.com.tw
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # 世界先进 (VIS)

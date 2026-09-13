@@ -74,7 +74,8 @@ latest_revenue: Q4 FY2026 $10.06亿（+109.3% YoY）；FY2026 全年 $30.14亿�
 market_cap: ~$638.4亿（2026-08 财报日）；另有一说~$800亿
 description: Lumentum（LITE）2015年从JDSU分拆独立，总部位于美国加州圣何塞，是全球领先的光通信器件、激光器与光模块供应商。在AI数据中心浪潮中，公司受益于800G/1.6T光模块、CPO激光器与光电路交换（OCS）需求，Q4 FY2026营收首次突破$10亿。NVIDIA于2026年3月对其作出$20亿战略投资，包含采购承诺与CPO激光器产能获取权。
 website: https://www.lumentum.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Lumentum

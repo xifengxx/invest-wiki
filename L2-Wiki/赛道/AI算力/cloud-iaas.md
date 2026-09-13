@@ -1,7 +1,8 @@
 ---
 name: 云计算IaaS
 slug: cloud-iaas
-industry: AI算力
+industries:
+- AI算力
 layer: L4
 tam_bn: 420.0
 cagr_pct: 28.0

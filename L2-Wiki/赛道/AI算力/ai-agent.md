@@ -1,7 +1,8 @@
 ---
 name: AI Agent
 slug: ai-agent
-industry: AI算力
+industries:
+- AI算力
 layer: L4
 tam_bn: 11.0
 cagr_pct: 50.0

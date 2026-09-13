@@ -1,7 +1,8 @@
 ---
 name: 散热液冷系统
 slug: liquid-cooling
-industry: AI算力
+industries:
+- AI算力
 layer: L2
 tam_bn: 5.0
 cagr_pct: 33.0

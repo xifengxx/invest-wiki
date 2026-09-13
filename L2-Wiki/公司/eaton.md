@@ -49,7 +49,8 @@ latest_revenue: Q2 2026 $8.53B（+21.4%），FY2026E ~$30B
 market_cap: ~$160B（2026.7）
 description: Eaton是全球智能电力管理巨头，1911年成立，115年历史。从工业电气设备转型为AI数据中心电力基础设施核心供应商——UPS/配电/变压器/液冷全线布局。收购Boyd Thermal（$11B）和Dana（$5.1B）补强液冷+工业动力，计划2027年分拆汽车板块聚焦高利润的电气+航空航天主业。
 website: https://www.eaton.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Eaton Corporation

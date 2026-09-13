@@ -1,7 +1,8 @@
 ---
 name: AI模型训练平台
 slug: ai-training-platform
-industry: AI算力
+industries:
+- AI算力
 layer: L4
 tam_bn: 20.0
 cagr_pct: 35.0

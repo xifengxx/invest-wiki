@@ -90,7 +90,8 @@ latest_revenue: ARR ~$250-400亿（2026，口径分歧）；2026 Q1 营收约$57
 market_cap: ~$8,520亿（2026-03-31 投后估值；未上市）
 description: OpenAI 2015年由 Sam Altman、Elon Musk 等人创立于旧金山，2022年11月发布 ChatGPT 引爆生成式AI浪潮。2025年底完成营利性重组，主体变更为公益公司 OpenAI Group PBC，非营利基金会保留控制权。2026年3月以$8,520亿投后估值完成$1,220亿融资（史上最大私募轮），已保密提交S-1，目标以最高$1万亿估值上市。
 website: https://openai.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # OpenAI

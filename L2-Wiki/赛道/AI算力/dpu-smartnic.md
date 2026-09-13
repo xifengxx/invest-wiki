@@ -1,7 +1,8 @@
 ---
 name: DPU/SmartNIC
 slug: dpu-smartnic
-industry: AI算力
+industries:
+- AI算力
 layer: L3
 tam_bn: 6.0
 cagr_pct: 35.0

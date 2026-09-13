@@ -4,6 +4,9 @@ slug: kinsus
 country: TW
 type: company
 updated: 2026-07
+industries:
+- AI算力
+- 半导体
 segments:
 - 封装基板材料
 one_liner: ''

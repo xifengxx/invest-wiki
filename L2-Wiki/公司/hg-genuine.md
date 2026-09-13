@@ -4,6 +4,8 @@ slug: hg-genuine
 country: CN
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - 800G/1.6T光模块
 one_liner: ''

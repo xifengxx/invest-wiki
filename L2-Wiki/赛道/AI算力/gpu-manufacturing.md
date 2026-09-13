@@ -1,7 +1,8 @@
 ---
 name: GPU制造代工
 slug: gpu-manufacturing
-industry: AI算力
+industries:
+- AI算力
 layer: L3
 tam_bn: 55.0
 cagr_pct: 30.0

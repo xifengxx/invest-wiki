@@ -61,7 +61,9 @@ latest_revenue: Q2 FY2026 $2.276B（超指引，+42% YoY）；FY2026 指引上�
 market_cap: ~$83B（2026.7，年初高点$101B）
 description: Synopsys（新思科技）是全球最大的EDA（电子设计自动化）软件供应商，1986年成立于美国硅谷。公司与Cadence形成EDA双寡头格局，几乎全球所有芯片设计公司均依赖Synopsys工具链完成从架构设计到物理实现的完整流程。2025年7月以$35B收购Ansys，从芯片设计延伸至系统级仿真（航空/汽车/工业），构建"硅到系统"全栈工程平台。NVIDIA于2025年12月$2B战略投资，GPU优化EDA工具实现15-20x加速。Synopsys.ai平台近5,000用户，引领AI Agent自主芯片设计新范式。Elliott Management已建仓，董事入驻推动变革。
 website: https://www.synopsys.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # Synopsys

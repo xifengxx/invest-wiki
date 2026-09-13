@@ -42,7 +42,8 @@ latest_revenue: Q2 2026 ₩414.5B（+22.8% YoY）
 market_cap: ~₩3T（~$2B USD）（2026.7）
 description: DB HiTek是韩国最大的纯晶圆代工厂（仅次于三星Foundry），1997年成立，前身为东部电子半导体部门。专注成熟制程特色工艺（BCD/高压CMOS/模拟混合信号/MEMS/功率器件），服务韩国本土Fabless客户和全球模拟芯片设计公司。8寸+12寸产线兼具，受益于全球成熟制程供应紧张、AI服务器电源管理IC需求增长和韩国半导体供应链自主化趋势。
 website: https://www.dbhitek.com
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # DB HiTek

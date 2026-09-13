@@ -1,7 +1,8 @@
 ---
 name: 功率半导体
 slug: semi-power-semiconductor
-industry: 半导体
+industries:
+- 半导体
 layer: L3
 tam_bn: 42.0
 cagr_pct: 12.0

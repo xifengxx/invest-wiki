@@ -222,9 +222,10 @@ def build_universe(source_path):
         companies = {}
 
         for row, _ in rows:
-            industry = row.get("industry")
-            if industry and industry not in industries:
-                industries.append(industry)
+            _row_inds = row.get("industries") or ([row.get("industry")] if row.get("industry") else [])
+            for industry in _row_inds:
+                if industry and industry not in industries:
+                    industries.append(industry)
             source_slugs.append(row.get("slug"))
 
             for raw in row.get("companies") or []:

@@ -54,7 +54,8 @@ latest_revenue: Q2 2026 $644.9M（创纪录，环比+17%，同比+24.31%）
 market_cap: ~$5B（2026.7）
 description: Ultra Clean Holdings（UCT）是全球半导体设备气体/化学输送子系统的最大独立供应商之一，1991年成立于硅谷Hayward。公司为Applied Materials/Lam Research/东京电子等OEM巨头提供"设备内部的管道系统"——精确输送工艺气体、液体化学品、晶圆的模块化子系统。UCT的价值在于：OEM不需要自己设计和制造这些复杂的高纯管路系统，直接采购集成好的模块。AI芯片制造设备支出暴增驱动UCT FY2026E营收+22.9%，产能利用率接近极限。UCT 3.0战略：从低毛利的子系统代工（~15-18% GM）向更高附加值的模块化解决方案升级。
 website: https://www.uct.com
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # Ultra Clean Holdings (UCT)

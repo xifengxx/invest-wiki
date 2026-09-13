@@ -67,7 +67,9 @@ latest_revenue: Q2 2026 $13.29亿（+104% YoY）；H1 2026 $26亿
 market_cap: ~$559.4亿（2026-09-04）
 description: Teradyne（TER）1960年成立于美国马萨诸塞州，是全球最大的半导体自动化测试设备（ATE）供应商。公司产品覆盖SoC测试、存储测试、集成系统测试与产品测试，并通过Universal Robots与MiR布局协作机器人。在AI算力浪潮下，公司AI相关业务已占总营收60%以上，2026年Q2营收同比+104%，并完成与第二家超大规模客户的相关性验证。
 website: https://www.teradyne.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # Teradyne

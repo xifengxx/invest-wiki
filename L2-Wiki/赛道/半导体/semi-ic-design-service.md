@@ -1,7 +1,8 @@
 ---
 name: IC设计服务(Fabless)
 slug: semi-ic-design-service
-industry: 半导体
+industries:
+- 半导体
 layer: L4
 tam_bn: 15.0
 cagr_pct: 15.0

@@ -51,7 +51,9 @@ latest_revenue: Q2 2026 $1.90B（+26% YoY）
 market_cap: ~$18B（2026.7）
 description: Amkor Technology是全球第二大OSAT封测企业，1968年成立于亚利桑那州。在先进封装（HDFO/2.5D/3D）与ASE并列领先，AI芯片先进封装需求暴增驱动2.5D营收翻三倍。Arizona美国本土新厂具有地缘战略价值（美国唯一大型先进封装厂）。CAPEX $2.5-3B创纪录扩产。
 website: https://www.amkor.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # Amkor Technology

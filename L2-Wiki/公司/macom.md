@@ -57,7 +57,9 @@ latest_revenue: Q3 FY2026 $342.2M（+35.8% YoY，+18.4% QoQ，超指引$335M）�
 market_cap: ~$22B（2026.7）
 description: MACOM Technology Solutions是全球领先的化合物半导体（GaAs/GaN/InP）RF/微波/光电子芯片供应商，前身Microwave Associates成立于1950年代。公司在三个领域拥有独特工艺优势：（1）数据中心PAM4光芯片——800G/1.6T光模块所需的EML激光器驱动和TIA跨阻放大器芯片，受益于AI数据中心光互联升级；（2）国防雷达/电子战GaN RF功率放大器——美国本土化合物半导体Fab（Lowell MA+North Carolina），在供应链安全日益受重视的背景下具备差异化优势；（3）5G/6G基站和LEO卫星通信RF芯片。收购Wolfspeed RF业务（2023）后整合GaN on SiC技术，战略投资IQE（UK）确保InP/SiC外延片长期供应。Q3 FY2026指引+40% YoY确认强劲增长加速。
 website: https://www.macom.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # MACOM Technology Solutions

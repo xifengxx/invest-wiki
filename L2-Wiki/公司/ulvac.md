@@ -4,6 +4,9 @@ slug: ulvac
 country: 日本
 type: company
 updated: 2026-07
+industries:
+- AI算力
+- 半导体
 segments:
 - 溅射靶材
 - 薄膜沉积设备

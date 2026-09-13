@@ -4,6 +4,8 @@ slug: sugon
 country: CN
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - AI训练集群/超算
 one_liner: ''

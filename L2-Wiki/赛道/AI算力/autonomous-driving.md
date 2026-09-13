@@ -1,7 +1,8 @@
 ---
 name: 自动驾驶
 slug: autonomous-driving
-industry: AI算力
+industries:
+- AI算力
 layer: L3
 tam_bn: 48.0
 cagr_pct: 30.0

@@ -1,7 +1,8 @@
 ---
 name: 清洗设备
 slug: semi-clean-equipment
-industry: 半导体
+industries:
+- 半导体
 layer: L2
 tam_bn: 5.5
 cagr_pct: 8.0

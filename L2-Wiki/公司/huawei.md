@@ -85,7 +85,9 @@ market_cap: 未上市
 ticker: 未上市
 description: 华为是全球领先的ICT基础设施和智能终端提供商，也是中国AI芯片国产替代的领军企业。昇腾（Ascend）AI芯片系列是国内唯一实现大规模数据中心部署的AI训练/推理芯片，通过Atlas服务器和华为云对外提供服务。受美国制裁下实现全栈自主可控，是中国AI算力自主化的核心底座。
 website: https://www.huawei.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # 华为

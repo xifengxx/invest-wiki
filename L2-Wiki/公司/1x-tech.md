@@ -4,6 +4,8 @@ slug: 1x-tech
 country: 'NO'
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - AI Agent
 one_liner: ''

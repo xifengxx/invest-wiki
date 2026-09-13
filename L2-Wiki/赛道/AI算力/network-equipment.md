@@ -1,7 +1,8 @@
 ---
 name: 网络设备（交换机）
 slug: network-equipment
-industry: AI算力
+industries:
+- AI算力
 layer: L3
 tam_bn: 16.2
 cagr_pct: 8.3

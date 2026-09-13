@@ -62,7 +62,9 @@ latest_revenue: Q3 FY2026 $52亿（+14% YoY）；FY2026 指引营收增长约+15
 market_cap: ~$613.7亿（2026.9.11）
 description: TE Connectivity（TEL）前身为1941年成立的Aircraft-Marine Products，现为全球最大的连接器与传感器制造商，总部位于瑞士沙夫豪森。公司业务分为工业解决方案与交通运输解决方案两大分部，产品覆盖连接器、传感器、继电器与能源连接。AI数据中心浪潮下，高速铜连接成为核心增长点，DDN业务同比+34%。公司通过收购RAM Photonics布局光学连接、收购Astrodyne TDI强化电源管理。
 website: https://www.te.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # TE Connectivity

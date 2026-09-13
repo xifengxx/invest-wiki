@@ -1,7 +1,9 @@
 ---
 name: 溅射靶材
 slug: sputtering-target
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L1
 tam_bn: 2.5
 cagr_pct: 8.0

@@ -42,7 +42,8 @@ latest_revenue: H1 2026 $395.4M（Q2 2026 $199.8M，-7% YoY，环比+2%），TTM
 market_cap: ~$1.2B（2026.7）
 description: X-FAB是全球最大的MEMS/模拟混合信号独立代工厂之一，1992年成立于比利时。6座晶圆厂横跨德国/法国/马来西亚/美国——专注于汽车（AEC-Q100认证）、工业和医疗传感器芯片的"利基代工"。每一辆现代汽车的MEMS传感器（加速度计/陀螺仪/压力传感器）和高压电源管理芯片中，X-FAB的代工份额不可忽视。车规认证周期2-3年，客户一旦锁定极少切换——构成差异化护城河。SiC和硅光子代工为新增量方向。
 website: https://www.xfab.com
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # X-FAB Silicon Foundries

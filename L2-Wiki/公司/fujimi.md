@@ -4,6 +4,8 @@ slug: fujimi
 country: 日本
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - CMP抛光液与抛光垫
 one_liner: ''

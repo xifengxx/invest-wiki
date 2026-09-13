@@ -1,7 +1,8 @@
 ---
 name: AI推理API服务
 slug: ai-inference-api
-industry: AI算力
+industries:
+- AI算力
 layer: L4
 tam_bn: 106.0
 cagr_pct: 50.0

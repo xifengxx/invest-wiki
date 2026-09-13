@@ -1,7 +1,8 @@
 ---
 name: 安全芯片
 slug: semi-security-chip
-industry: 半导体
+industries:
+- 半导体
 layer: L3
 tam_bn: 9.0
 cagr_pct: 9.0

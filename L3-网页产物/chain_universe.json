@@ -1627,7 +1627,8 @@
       "segment_id": "server-cpu",
       "name": "CPU(服务器级)",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 3,
       "source_slugs": [
@@ -1742,7 +1743,8 @@
       "segment_id": "chiplet",
       "name": "Chiplet与异构集成",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 2,
       "source_slugs": [
@@ -2189,7 +2191,8 @@
       "segment_id": "eda-ip",
       "name": "EDA与IP核",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 2,
       "source_slugs": [
@@ -2290,7 +2293,8 @@
       "segment_id": "fpga",
       "name": "FPGA",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 3,
       "source_slugs": [
@@ -3033,7 +3037,8 @@
       "segment_id": "riscv-ai",
       "name": "RISC-V AI芯片",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 3,
       "source_slugs": [
@@ -3542,7 +3547,8 @@
       "segment_id": "lithography",
       "name": "光刻机",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 2,
       "source_slugs": [
@@ -3632,7 +3638,8 @@
       "segment_id": "photoresist",
       "name": "光刻胶与湿化学品",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 1,
       "source_slugs": [
@@ -3818,7 +3825,8 @@
       "segment_id": "etch-equipment",
       "name": "刻蚀设备",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 2,
       "source_slugs": [
@@ -4012,7 +4020,8 @@
       "segment_id": "package-substrate",
       "name": "封装基板材料",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 1,
       "source_slugs": [
@@ -4558,7 +4567,8 @@
       "segment_id": "foundry-advanced",
       "name": "晶圆代工(先进制程)",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 2,
       "source_slugs": [
@@ -4766,7 +4776,8 @@
       "segment_id": "inspection-metrology",
       "name": "检测量测设备",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 2,
       "source_slugs": [
@@ -4956,7 +4967,8 @@
       "segment_id": "sputtering-target",
       "name": "溅射靶材",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 1,
       "source_slugs": [
@@ -5109,7 +5121,8 @@
       "segment_id": "electronic-gas",
       "name": "电子特气",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 1,
       "source_slugs": [
@@ -5792,7 +5805,8 @@
       "segment_id": "thin-film-deposition",
       "name": "薄膜沉积设备",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 2,
       "source_slugs": [
@@ -6137,7 +6151,8 @@
       "segment_id": "silicon-wafer",
       "name": "高纯硅料与硅片",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 1,
       "source_slugs": [
@@ -6323,7 +6338,8 @@
       "segment_id": "high-speed-connector",
       "name": "高速连接器与铜缆",
       "industry_tags": [
-        "AI算力"
+        "AI算力",
+        "半导体"
       ],
       "layer": 2,
       "source_slugs": [
@@ -11751,12 +11767,12 @@
       ]
     }
   },
-  "version": "2026-09-13.11",
+  "version": "2026-09-13.13",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-13T18:20:30+08:00",
-  "source_generated_at": "2026-09-13T18:20:30+08:00",
-  "source_sha256": "db3c267bddd4db22975d17a359f20568ca76f62aa8d9a955ca64cfc9082b99db",
-  "source_hash8": "db3c267b",
-  "source_commit": "83f8c3e503c588ad9ca593028641c73cb9e344ac",
+  "built_at": "2026-09-13T18:23:04+08:00",
+  "source_generated_at": "2026-09-13T18:23:04+08:00",
+  "source_sha256": "21ddedae141c6adf364567f5f987e6c6a899c3878511a36364afc760b00f6bc9",
+  "source_hash8": "21ddedae",
+  "source_commit": "6150105aa795e1dcd5059acf9252db243f0cf537",
   "source_dirty": false
 }

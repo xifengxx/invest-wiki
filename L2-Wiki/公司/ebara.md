@@ -62,7 +62,8 @@ latest_revenue: FY2026 H1 ¥4,907亿（+9.4%）；精密机械分部 ¥1,836亿�
 market_cap: 待补充（搜索未返回可靠市值）
 description: Ebara（6361.T）1912年成立于日本东京，是全球领先的工业机械制造商，业务覆盖半导体设备（CMP、镀铜）、流体机械与环保设备。其中CMP（化学机械抛光）设备全球市占率排名第二，公司目标超越Applied Materials成为第一。FY2026上半年受益于AI驱动的逻辑/代工与存储需求，精密机械分部订单同比增长89.3%。
 website: https://www.ebara.com
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # Ebara

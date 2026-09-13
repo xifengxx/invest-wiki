@@ -1,7 +1,8 @@
 ---
 name: 前驱体与ALD/CVD材料
 slug: semi-precursor
-industry: 半导体
+industries:
+- 半导体
 layer: L1
 tam_bn: 2.2
 cagr_pct: 12.0

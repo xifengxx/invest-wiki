@@ -82,7 +82,9 @@ description: |
 
   【2026.8.18 海豚研究分析】Q1 FY2027营收$2.418B创纪录（+28% YoY），数据中心$1.83B占76%，Non-GAAP毛利率58.9%/净利$718M（EPS $0.80），GAAP净利仅$34.5M受收购摊销与股权激励压缩；Q2指引$2.7B（+35% YoY），FY2027E上调至$11.5B（+40%）、FY2028E $16.5B（+45%）。
 website: https://www.marvell.com
-industry: AI算力
+industries:
+- 半导体
+- AI算力
 ---
 
 # Marvell Technology

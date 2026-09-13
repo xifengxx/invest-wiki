@@ -48,7 +48,9 @@ latest_revenue: Q2 2026 €277.1M（单季，YoY+64.3%，历史纪录）
 market_cap: ~€21B（~$23B USD）（2026.7）
 description: Technoprobe是全球半导体探针卡（Probe Card）双寡头之一，1993年成立于意大利。探针卡是晶圆测试的"最后一公里"——在晶圆切割封装前，数千根微探针同时接触晶圆上的每个芯片，进行电性测试筛选良品。AI芯片（GPU/ASIC/HBM）的测试复杂度远超传统芯片，单卡探针数多达50,000根（传统芯片几千根），探针卡ASP和需求量随之暴增。Technoprobe在高端垂直MEMS探针卡市场拥有~60%份额，与FormFactor双寡头垄断。2026年AI相关营收€330M（~40%），受益于台积电/三星/HBM制造商全面扩产的测试需求。核心风险：市值（€21B）是全球探针卡市场TAM（$2.8B）的7.5倍，市场增长仅6.9% CAGR，估值隐含的增速预期远超行业均值；FormFactor扩产可能挤压定价权；非AI业务可能减速。
 website: https://www.technoprobe.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # Technoprobe

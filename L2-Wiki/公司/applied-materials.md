@@ -84,7 +84,9 @@ market_cap: ~$425B
 ticker: AMAT
 description: 应用材料（Applied Materials）是全球最大的半导体设备制造商，总部位于加州圣克拉拉。公司提供芯片制造全流程设备，涵盖沉积、刻蚀、离子注入、CMP与检测，并以「材料工程」为核心构建EPIC平台（设备+工艺+集成+化学）。FY2025营收$283.7亿，员工36,500人，市场覆盖逻辑代工、DRAM、NAND与先进封装。其独特优势在于将设备、材料与工艺深度整合，成为AI芯片、GAA晶体管与3D封装浪潮的关键赋能者。
 website: https://www.appliedmaterials.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # Applied Materials

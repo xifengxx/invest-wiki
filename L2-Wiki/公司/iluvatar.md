@@ -4,6 +4,8 @@ slug: iluvatar
 country: CN
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - GPU架构设计
 one_liner: ''

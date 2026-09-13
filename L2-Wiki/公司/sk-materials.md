@@ -56,7 +56,9 @@ latest_revenue: 2026H1 4,660亿韩元（约人民币22.6亿元，+38%）；EBITD
 market_cap: 待补充（搜索未返回）
 description: SK Specialty（原SK Materials）是韩国领先的电子特种气体企业，隶属SK集团，主要为SK海力士、三星电子等韩国半导体制造商供应电子特气。公司已由"SK Materials"更名为"SK Specialty"，定位更聚焦于高附加值特种材料。2026上半年受益于半导体行业需求拉动，营业利润已超越去年全年水平，EBITDA利润率从11%大幅提升至29%。
 website: https://www.skspecialty.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # SK Specialty（原 SK Materials）

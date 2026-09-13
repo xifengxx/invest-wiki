@@ -4,6 +4,9 @@ slug: western-digital
 country: US
 type: company
 updated: 2026-07
+industries:
+- AI算力
+- 半导体
 segments:
 - NVMe/存储芯片
 - 存储芯片(DRAM/NAND)

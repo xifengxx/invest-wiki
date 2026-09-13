@@ -30,7 +30,7 @@ class GraphBuilder:
                     if e.entity_type == 'segment']
         if industry:
             segments = [s for s in segments
-                       if s.frontmatter.get('industry') == industry]
+                       if industry in (s.frontmatter.get('industries') or ([s.frontmatter.get('industry')] if s.frontmatter.get('industry') else []))]
 
         return [{
             'name': s.name,
@@ -100,7 +100,7 @@ class GraphBuilder:
                     if e.entity_type == 'segment']
         if industry:
             segments = [s for s in segments
-                       if s.frontmatter.get('industry') == industry]
+                       if industry in (s.frontmatter.get('industries') or ([s.frontmatter.get('industry')] if s.frontmatter.get('industry') else []))]
 
         nodes = [{'name': s.name} for s in segments]
         links = []

@@ -4,6 +4,8 @@ slug: silergy
 country: 中国/台湾
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 功率半导体
 one_liner: ''

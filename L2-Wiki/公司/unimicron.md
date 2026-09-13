@@ -6,6 +6,9 @@ ticker: 3037.TW
 type: company
 updated: 2026-08
 data_freshness_date: 2026-08-18
+industries:
+- AI算力
+- 半导体
 segments:
 - 封装基板材料
 - PCB与IC载板

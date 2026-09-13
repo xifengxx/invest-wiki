@@ -84,7 +84,9 @@ latest_revenue: Q3 FY2026 $9.95B（-4% YoY，汽车$1.6B创新高+61%）
 market_cap: ~$200B（2026.7）
 description: 高通（Qualcomm）是全球移动通信芯片和智能手机SoC的无冕之王，1985年由Irwin Jacobs等人创立于加州San Diego。公司发明了CDMA技术（3G基础），通过芯片销售（QCT）和专利授权（QTL）双轮驱动，在智能手机SoC市场与联发科分庭抗礼。2025年起全面转型：AI PC（Snapdragon X平台）、汽车（Snapdragon Digital Chassis，大众/丰田/中国新势力）、数据中心（Dragonfly CPU），目标FY2029非手机业务$40B+。QTL专利授权业务提供高利润现金流，支撑R&D和新业务投入。
 website: https://www.qualcomm.com
-industry: AI算力
+industries:
+- 半导体
+- AI算力
 ---
 
 # Qualcomm

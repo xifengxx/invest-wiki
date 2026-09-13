@@ -70,7 +70,8 @@ latest_revenue: Q4 FY2026 $192亿（+21%）；FY2026 全年首破 $670亿
 market_cap: ~$5,400亿（2026-06 口径）
 description: Oracle（ORCL）1977年成立，总部位于美国德克萨斯州奥斯汀，是全球最大的企业数据库软件公司，近年转型为云基础设施与云应用供应商。在AI浪潮中，Oracle的OCI云基础设施业务快速扩张，Q4 FY2026收入同比+93%，RPO达到$6,380亿（同比+363%）。公司也是OpenAI Stargate数据中心项目的合作方之一。
 website: https://www.oracle.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Oracle

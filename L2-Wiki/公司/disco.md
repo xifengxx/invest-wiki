@@ -64,7 +64,9 @@ latest_revenue: Q1 FY2027（2026.4-6）¥114.3B（YoY+27.1%）；Q2指引¥128.5
 market_cap: ~¥7T（~$48B USD）（2026.7）
 description: Disco Corporation是全球半导体晶圆切割和研磨减薄设备的绝对垄断者（70-80%全球份额），1937年成立于日本，从研磨材料起家发展为后道半导体设备之王。公司的切割锯（Dicing Saw）和研磨机（Grinder）是每一颗芯片制造的最后一道机械工序——将晶圆切成单颗芯片、将芯片减薄至微米级厚度。AI/HBM时代，先进封装（CoWoS/SoIC/HBM）需要将芯片减薄至50μm甚至更薄，Disco技术和市场份额壁垒更加巩固。在HBM存储器切割领域，Disco拥有100%市场份额。消耗品（金刚石刀片/研磨液）提供稳定经常性收入（~40%营收），形成"设备+耗材"的类剃须刀片商业模式。连续6年出货创纪录。
 website: https://www.disco.co.jp
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # Disco Corporation

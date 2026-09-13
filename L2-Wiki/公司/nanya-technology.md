@@ -59,7 +59,8 @@ latest_revenue: Q2 2026 NT$825.5亿（+68% QoQ / +684% YoY），H1 2026 NT$1,316
 market_cap: ~NT$1.5T（~$46B USD）（2026.7）
 description: 南亚科技（Nanya Technology）是全球第六大DRAM制造商和利基DRAM领域的隐形冠军，1995年成立，隶属台塑集团。公司的核心战略是利用三星/SK海力士/美光三大DRAM巨头将产能加速转向DDR5和HBM所造成的DDR4/DDR3供应缺口——当三巨头减少成熟DRAM产能时，南亚科成为全球为数不多仍在扩大DDR4/DDR3供应的厂商，从而实现了Q2 2026 79.5%的惊人毛利率（超越台积电）。AI服务器DRAM占比已超20%（目标2027年30%），定制高I/O DRAM（WoW晶圆堆叠+3D IC封装）技术和台积电合作，有望2027年起量。4家战略投资者（SanDisk/Cisco/Kioxia/Solidigm）2026年4月私募入股10.19%+LTA锁定~50%产出，降低周期波动。$16B新5A厂（2028年量产）将产能提升69%+。分析师预测2027年EPS NT$127+。
 website: https://www.nanya.com
-industry: AI算力
+industries:
+- 半导体
 ---
 
 # Nanya Technology (南亚科技)

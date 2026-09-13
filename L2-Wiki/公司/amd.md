@@ -93,7 +93,9 @@ market_cap: ~$900B（2026.7）
 description: AMD（Advanced Micro Devices）是一家全球领先的半导体公司，由Jerry Sanders于1969年创立，总部位于加州圣克拉拉。AMD在CEO苏姿丰博士的领导下完成史诗级逆转，凭借Zen架构CPU和Instinct系列AI GPU，成功从英特尔追赶者蜕变为横跨CPU、GPU、FPGA三大赛道的算力巨头。公司通过2022年收购赛灵思（Xilinx）补全自适应计算版图，2025财年营收突破346亿美元，数据中心业务成为第一大收入来源。AMD以chiplet芯粒设计、3D
   V-Cache堆叠和Infinity Fabric互连技术构筑差异化护城河，在AI训练与推理市场持续挑战NVIDIA霸主地位。
 website: https://www.amd.com
-industry: AI算力
+industries:
+- 半导体
+- AI算力
 ---
 
 # AMD

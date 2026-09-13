@@ -4,6 +4,8 @@ slug: phison
 country: 台湾
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 存储芯片(DRAM/NAND)
 one_liner: ''

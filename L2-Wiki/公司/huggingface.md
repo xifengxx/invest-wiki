@@ -4,6 +4,8 @@ slug: huggingface
 country: US
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - AI开发者工具
 one_liner: ''

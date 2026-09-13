@@ -47,7 +47,8 @@ latest_revenue: H1 2026 €21.2B（+14%有机），Q2 2026 €11.46B（+16.5%有
 market_cap: ~€150B（~$165B USD）（2026.7）
 description: Schneider Electric是全球数据中心电力基础设施的绝对王者（#1份额），1836年成立，近190年历史。从电气开关制造商发展为AI数据中心全生命周期解决方案商——UPS/配电/液冷/数字孪生/BMS全栈覆盖。Foxconn合作+Motivair液冷收购+NVIDIA数字孪生三位一体布局AI基础设施。积压€25.4B创历史新高，数据中心+网络订单三位数增长。
 website: https://www.se.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Schneider Electric

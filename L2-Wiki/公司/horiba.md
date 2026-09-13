@@ -4,6 +4,8 @@ slug: horiba
 country: 日本
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 半导体设备零部件
 one_liner: ''

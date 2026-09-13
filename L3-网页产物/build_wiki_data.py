@@ -26,6 +26,15 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from engine.parser import WikiParser
 from engine.graph import GraphBuilder
 
+def _inds(fm):
+    """读取 industries 列表（向后兼容单值 industry）。返回非空列表。"""
+    v = fm.get('industries')
+    if isinstance(v, list) and v:
+        return [str(x) for x in v if x]
+    one = fm.get('industry')
+    return [str(one)] if one else []
+
+
 
 # ---------------------------------------------------------------------------
 # 字段映射 & 正文解析
@@ -251,7 +260,8 @@ def entity_to_dict(entity, max_tam: float, max_backlinks: int) -> dict:
         'name': entity.name,
         'slug': entity.slug,
         'type': entity.entity_type,
-        'industry': fm.get('industry', ''),
+        'industry': (_inds(fm) or [''])[0],
+        'industries': _inds(fm),
         'layer': layer,
         'tam': tam,
         'cagr': cagr,
@@ -453,7 +463,8 @@ def company_to_dict(entity) -> dict:
         'latest_revenue': fm.get('latest_revenue', ''),
         'market_cap': fm.get('market_cap', ''),
         'data_freshness_date': str(fm.get('data_freshness_date', '')),
-        'industry': fm.get('industry', ''),
+        'industry': (_inds(fm) or [''])[0],
+        'industries': _inds(fm),
         'segments': fm.get('segments', []),
         'chain_layer': fm.get('chain_layer', ''),
         'chain_role': fm.get('chain_role', ''),

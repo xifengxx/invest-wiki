@@ -4,6 +4,9 @@ slug: samtec
 country: 美国
 type: company
 updated: 2026-07
+industries:
+- AI算力
+- 半导体
 segments:
 - 高速连接器与铜缆
 one_liner: ''

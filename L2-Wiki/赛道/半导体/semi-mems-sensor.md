@@ -1,7 +1,8 @@
 ---
 name: MEMS传感器
 slug: semi-mems-sensor
-industry: 半导体
+industries:
+- 半导体
 layer: L4
 tam_bn: 16.0
 cagr_pct: 3.7

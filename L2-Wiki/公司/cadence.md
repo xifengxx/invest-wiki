@@ -58,7 +58,9 @@ latest_revenue: Q2 CY2026 $1.584B（+24.2% YoY）
 market_cap: ~$103B（2026.7）
 description: Cadence Design Systems是全球第二大EDA（电子设计自动化）软件供应商，1988年由SDA Systems和ECAD合并成立，总部位于硅谷San Jose。公司与Synopsys形成EDA双寡头格局（合计~60%+全球市场），几乎全球所有芯片设计公司均依赖Cadence和Synopsys工具链的互补使用。数字IC设计（Innovus平台）、定制模拟设计（Virtuoso平台，行业标准超过30年）和功能验证（Palladium仿真）三大支柱。2026年与NVIDIA合作推出Agentic AI芯片设计平台ChipStack——AI Agent可自主执行以前需要数周人工的设计流程，标志着EDA从"工具"向"自主设计平台"的历史性跨越。积压订单$8.0B创新高，首次实现"Rule of 60"。收购Hexagon（多物理场仿真）从芯片设计延伸至系统级仿真（汽车/航空/机器人），与Synopsys+Ansys直接对标。
 website: https://www.cadence.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # Cadence Design Systems

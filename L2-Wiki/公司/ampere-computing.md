@@ -4,6 +4,9 @@ slug: ampere-computing
 country: 美国
 type: company
 updated: 2026-07
+industries:
+- AI算力
+- 半导体
 segments:
 - CPU(服务器级)
 one_liner: ''

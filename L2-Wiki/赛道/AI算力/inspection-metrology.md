@@ -1,7 +1,9 @@
 ---
 name: 检测量测设备
 slug: inspection-metrology
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L2
 tam_bn: 13.0
 cagr_pct: 9.0

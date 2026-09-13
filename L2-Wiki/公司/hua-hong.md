@@ -58,7 +58,8 @@ latest_revenue: Q2 2026 $717.5M（+26.8% YoY，创历史新高），Q3 2026指�
 market_cap: ~HK$412B（~$53B USD）（2026.7）
 description: 华虹半导体是中国第二大纯晶圆代工厂（仅次于中芯国际），2003年成立，专注特色工艺（eNVM/BCD/功率分立器件）成熟制程代工。公司运营4座晶圆厂（3座8寸+1座12寸Fab 9），Q1 2026产能利用率高达99.7%，受益于中国Fabless客户国产替代需求和全球成熟制程供应紧张。12寸占比从FY2024的~50%升至62.7%，驱动ASP和毛利率改善。Huali Micro Fab 5收购（28-55nm 38K wpm，2026H2完成）是近期最大催化剂。远期潜在催化剂：母公司华虹集团Fab 6（7nm先进制程）注入——目前尚未有时间表，但市场已部分定价（YTD +350%涨幅）。毛利率（13%）显著低于UMC（29%）和GF（29%），盈利能力改善是关键观察指标。
 website: https://www.huahonggrace.com
-industry: AI算力
+industries:
+- 半导体
 ---
 
 # 华虹半导体 (Hua Hong Semiconductor)

@@ -72,7 +72,8 @@ latest_revenue: Q4 FY2026 $173亿（+18%）；FY2026 全年 $633亿（+12%）
 market_cap: ~$4,310-4,350亿（2026.9）
 description: Cisco（CSCO）1984年成立于美国加州圣何塞，是全球最大的网络设备供应商。公司近年从传统园区网络向AI数据中心网络延伸，自研Silicon One交换芯片平台与Acacia相干光模块构成核心武器。FY2026 AI基础设施订单达$93亿、约为FY2025的4.5倍，超大规模AI业务占总营收从FY2025的<2%升至6%。公司同时面临毛利率下滑与向AI转型的重组压力。
 website: https://www.cisco.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Cisco

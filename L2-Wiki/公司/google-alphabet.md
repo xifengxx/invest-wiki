@@ -86,7 +86,8 @@ latest_revenue: Q2 FY2026 $1,197.96亿（+24% YoY），H1 ~$2,297亿
 market_cap: ~$2.1T
 description: Google（Alphabet Inc.）是全球AI全栈巨头，拥有从自研TPU芯片→Gemini大模型→Google Cloud→搜索广告的端到端AI能力。Q2 2026是标志性季度：Google Cloud营收+82%创近年最快增速、积压$5,140亿首破5000亿——AI正在从"成本中心"转变为"收入引擎"。但代价同样巨大：CAPEX指引上调至$2,050亿（年内第二次上调）、FCF首次转负、上市以来首次股票发行融资。市场担忧谷歌从轻资产广告公司变为资本密集型AI基建公司，盘后跌逾4%。核心矛盾：AI投资的天文数字 vs 盈利能力的兑现节奏。
 website: https://www.google.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Google(Alphabet)

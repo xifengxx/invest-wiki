@@ -1,7 +1,8 @@
 ---
 name: 先进封装CoWoS
 slug: cowos-advanced-packaging
-industry: AI算力
+industries:
+- AI算力
 layer: L2
 tam_bn: 30.0
 cagr_pct: 40.0

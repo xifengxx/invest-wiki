@@ -1,7 +1,8 @@
 ---
 name: 企业级存储
 slug: enterprise-storage
-industry: AI算力
+industries:
+- AI算力
 layer: L3
 tam_bn: 32.0
 cagr_pct: 6.0

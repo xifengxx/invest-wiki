@@ -1,7 +1,8 @@
 ---
 name: 800G/1.6T光模块
 slug: optical-transceiver
-industry: AI算力
+industries:
+- AI算力
 layer: L2
 tam_bn: 26.0
 cagr_pct: 50.0

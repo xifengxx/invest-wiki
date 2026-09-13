@@ -59,7 +59,9 @@ latest_revenue: FY2026（截至2026.6）营收¥2,304.85亿（-8.3% YoY，超指
 market_cap: ~¥4T（~$27B USD）（2026.7）
 description: Lasertec是全球EUV光掩模缺陷检测设备的绝对垄断者（近100%全球份额），1960年成立于日本横滨。其旗舰ACTIS系列是全球唯一使用13.5nm EUV波长进行光掩模缺陷检测的设备——光掩模上的任何缺陷都会在晶圆上复制数十亿次，因此掩模检测是先进制程良率管理的最后一道防线。每一片用于3nm/2nm芯片制造的EUV光掩模，都必须经过Lasertec ACTIS设备的检测。最新ACTIS A200HiT（2025.10发布）检测速度3x前代，支持High-NA EUV。与ASML互补关系：ASML做光刻曝光，Lasertec检测光掩模。FY2026处于半导体设备周期调整期（营收-31%），但订单已V型反弹。员工仅~1,000人，是日本人均利润最高的半导体设备公司之一。
 website: https://www.lasertec.co.jp
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # Lasertec Corporation

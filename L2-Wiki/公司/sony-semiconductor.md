@@ -4,6 +4,8 @@ slug: sony-semiconductor
 country: 日本
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - CIS图像传感器
 one_liner: ''

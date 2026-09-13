@@ -4,6 +4,9 @@ slug: ibm
 country: US
 type: company
 updated: 2026-07
+industries:
+- 半导体
+- AI算力
 segments:
 - AI芯片设计(Fabless)
 - 云计算IaaS

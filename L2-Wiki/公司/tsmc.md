@@ -95,7 +95,9 @@ latest_revenue: Q2 2026 $40.2B（+36% YoY，达指引上限）；净利NT$706.6B
 market_cap: ~$2.2T（2026.7）
 description: 台积电（TSMC）是全球最大、技术最先进的半导体代工厂，由张忠谋（Morris Chang）于1987年在台湾新竹创立，开创纯晶圆代工（Pure-Play Foundry）商业模式——只制造芯片、不设计芯片，绝不与客户竞争。公司市值约1.9万亿美元，2025年营收突破1,220亿美元，占全球先进芯片制造90%以上份额，客户包括苹果、英伟达、AMD和高通，是AI时代不可或缺的基础设施级企业。
 website: https://www.tsmc.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # TSMC(台积电)

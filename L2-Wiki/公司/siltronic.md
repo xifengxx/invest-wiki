@@ -69,7 +69,9 @@ latest_revenue: Q2 2026 €3.22亿（+4.9% QoQ）；H1 2026 €6.281亿（-6.9% 
 market_cap: 待补充（搜索未返回可靠市值）
 description: Siltronic（WAF.DE）1968年成立于德国，是全球第四大半导体硅片制造商，产品覆盖300mm与200mm及以下抛光片与外延片。公司约2/3业务由长期协议锁定，客户涵盖全球主要晶圆厂。近年在新加坡建设FabNext产能基地，支撑300mm产能扩张。2026年完成€2.73亿增资并重返MDAX指数。当前面临AI需求强劲但硅片价格仍低于再投资水平的行业性矛盾。
 website: https://www.siltronic.com
-industry: 半导体
+industries:
+- AI算力
+- 半导体
 ---
 
 # Siltronic

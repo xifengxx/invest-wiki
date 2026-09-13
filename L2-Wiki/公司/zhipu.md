@@ -4,6 +4,8 @@ slug: zhipu
 country: CN
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - AI推理API服务
 one_liner: ''

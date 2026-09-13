@@ -83,7 +83,8 @@ latest_revenue: run-rate ~$650亿（2026.7）；Q2 2026 单季营收 ~$115亿（
 market_cap: ~$9,650亿（2026-05 底 Series H 投后；未上市）
 description: Anthropic 2021年由前OpenAI研究副总裁 Dario Amodei 与 Daniela Amodei 兄妹创立，总部旧金山，以"可解释、可控制、可信赖的AI"为使命。核心产品 Claude 系列模型在企业级市场占据领先地位，Claude Code 成为AI编码工具的事实标准之一。2026年5月以$9,650亿投后估值完成$650亿融资，为史上最大私募轮，并已保密提交S-1筹备上市。
 website: https://www.anthropic.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Anthropic

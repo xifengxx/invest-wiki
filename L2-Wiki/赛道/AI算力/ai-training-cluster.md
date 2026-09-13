@@ -1,7 +1,8 @@
 ---
 name: AI训练集群/超算
 slug: ai-training-cluster
-industry: AI算力
+industries:
+- AI算力
 layer: L3
 tam_bn: 80.0
 cagr_pct: 50.0

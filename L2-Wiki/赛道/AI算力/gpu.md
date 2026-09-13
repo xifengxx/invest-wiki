@@ -1,7 +1,8 @@
 ---
 name: GPU
 slug: gpu
-industry: AI算力
+industries:
+- AI算力
 layer: L3
 tam_bn: 130.0
 cagr_pct: 40.0

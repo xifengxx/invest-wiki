@@ -1,7 +1,8 @@
 ---
 name: 覆铜板与高频材料
 slug: ccl-high-freq-material
-industry: AI算力
+industries:
+- AI算力
 layer: L1
 tam_bn: 16.0
 cagr_pct: 9.0

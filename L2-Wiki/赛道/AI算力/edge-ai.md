@@ -1,7 +1,8 @@
 ---
 name: 边缘AI
 slug: edge-ai
-industry: AI算力
+industries:
+- AI算力
 layer: L4
 tam_bn: 25.0
 cagr_pct: 35.0

@@ -82,7 +82,9 @@ latest_revenue: 1H26 39.57亿元（+75.95%）
 market_cap: ~663.15亿元（2026.9.11）
 description: 北京君正集成电路股份有限公司（Ingenic Semiconductor，300223.SZ / 03223.HK）2005年成立、2011年5月于深交所创业板上市，是国内少数同时具备存储、计算、模拟三大产品线的芯片设计公司。2020年公司完成对北京矽成半导体（ISSI体系）的收购，获得车规级 SRAM/DRAM/NOR Flash/eMMC 存储产品线与汽车、工业、医疗客户体系；计算芯片基于自研 XBurst（MIPS）与 Victory（RISC-V）CPU 内核，覆盖智能视频监控、AIoT、工业与消费电子。公司自2014年起跟进 RISC-V，自研 RISC-V CPU 核累计出货超1亿颗。2026年8月25日于香港联交所主板上市，形成"A+H"双平台；A股简称自2026年8月13日起变更为"君正股份"。
 website: https://www.ingenic.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # 北京君正

@@ -4,6 +4,9 @@ slug: sifive
 country: 美国
 type: company
 updated: 2026-07
+industries:
+- AI算力
+- 半导体
 segments:
 - RISC-V AI芯片
 one_liner: ''

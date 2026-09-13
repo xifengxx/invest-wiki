@@ -1,7 +1,9 @@
 ---
 name: 高速连接器与铜缆
 slug: high-speed-connector
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L2
 tam_bn: 5.0
 cagr_pct: 30.0

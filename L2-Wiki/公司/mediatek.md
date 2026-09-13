@@ -77,7 +77,9 @@ latest_revenue: Q2 2026 单季 NT$1,521.83亿（约$4.7B USD），+2.0% QoQ / +1
 market_cap: ~NT$6.26T（~$192B USD）（2026.8）
 description: 联发科（MediaTek）是全球最大的智能手机SoC供应商（按出货量计），1997年成立于台湾新竹，从DVD芯片起家发展为全球Fabless Top 5半导体设计公司。手机SoC（天玑Dimensity系列）覆盖小米/vivo/OPPO等安卓厂商，并正在争取三星旗舰机供应权。AI定制芯片（ASIC）业务成为第二增长曲线：拿下Google TPU v9项目主供地位（取代Broadcom），采用TSMC 2nm制程+HBM4e，预计2028年带来$8B+营收。AI ASIC可服务市场（SAM）预计2027年达$700-800B。
 website: https://www.mediatek.com
-industry: AI算力
+industries:
+- 半导体
+- AI算力
 ---
 
 # MediaTek (联发科)

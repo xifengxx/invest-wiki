@@ -77,7 +77,9 @@ latest_revenue: 未公开（未上市公司）
 market_cap: 收购报价 $80-100亿（2026.6 高通洽谈）；2025.11 融资投前估值 $32亿
 description: Tenstorrent 2016年成立于加拿大（后迁册美国），是RISC-V架构AI芯片公司。传奇芯片架构师Jim Keller（曾主导Apple A系列、AMD Zen架构、Tesla自动驾驶芯片）约2020年加入任CTO、2023年任CEO。公司设计Tensix AI核心与Ascalon RISC-V CPU核心，同时销售成品芯片与授权IP。2026年6月，高通被报道正洽谈以$80-100亿收购该公司，为2024年底$26亿估值的约4倍。
 website: https://tenstorrent.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # Tenstorrent

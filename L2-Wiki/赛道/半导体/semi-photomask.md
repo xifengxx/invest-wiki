@@ -1,7 +1,8 @@
 ---
 name: 光掩模版
 slug: semi-photomask
-industry: 半导体
+industries:
+- 半导体
 layer: L1
 tam_bn: 5.5
 cagr_pct: 8.0

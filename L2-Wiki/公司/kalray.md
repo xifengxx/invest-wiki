@@ -4,6 +4,8 @@ slug: kalray
 country: FR
 type: company
 updated: 2026-07
+industries:
+- AI算力
 segments:
 - DPU/SmartNIC
 one_liner: ''

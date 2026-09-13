@@ -1,7 +1,9 @@
 ---
 name: 刻蚀设备
 slug: etch-equipment
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L2
 tam_bn: 25.0
 cagr_pct: 8.0

@@ -1,7 +1,8 @@
 ---
 name: 模拟芯片
 slug: semi-analog-ic
-industry: 半导体
+industries:
+- 半导体
 layer: L4
 tam_bn: 95.0
 cagr_pct: 8.0

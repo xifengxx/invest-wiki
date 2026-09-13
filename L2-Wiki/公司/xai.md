@@ -70,7 +70,8 @@ latest_revenue: 2026年中 ARR ~$5亿；2026 Q1 收入 $8.18亿
 market_cap: ~$2,500亿（2026-02 SpaceX 收购估值）；合并实体 ~$1.25万亿
 description: xAI 由 Elon Musk 于2023年7月创立，是 Grok 大模型的开发者。2025年3月与X平台全股票合并，2026年1月完成$200亿 Series E（估值约$2,300亿，Nvidia、Cisco、Fidelity等参投）。2026年2月2日被SpaceX以全股票收购，xAI估值约$2,500亿，合并实体约$1.25万亿，为史上最大私募公司合并。合并后公司于2026年6月12日以SPCX在纳斯达克上市。xAI自建Colossus超算集群，并自2026年5月起向Anthropic出租算力。
 website: https://x.ai
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # xAI

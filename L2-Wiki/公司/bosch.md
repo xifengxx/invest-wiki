@@ -125,7 +125,8 @@ latest_revenue: FY2025 €91.0B（汇率调整后+4.1%）；EBIT €1.8B（利�
 market_cap: ''
 description: 罗伯特·博世集团（Robert Bosch GmbH）1886年由 Robert Bosch 创立于德国斯图加特，现总部位于格尔林根-施维贝丁根，是**德国未上市集团（法律形式 GmbH），无公开股票、无股票代码、无市值**。集团业务分 Mobility（智能出行）、Industrial Technology、Consumer Goods、Energy and Building Technology 四大事板块，FY2025 营收 €91.0B、员工约 412,774 人。博世是全球最大的 MEMS 传感器供应商（Yole 连续多年列第1），累计 MEMS 出货超 230 亿颗（2025），产品覆盖惯性传感器（ASIL D 级 6 轴 IMU）、压力传感器、环境传感器与毫米波雷达，客户含 Apple、Samsung、Sony 等消费电子厂商与全球整车厂。其独创的 "Bosch process"（DRIE 深反应离子刻蚀）是当代 MEMS 制造的基础工艺。⚠️ 股权结构特殊：Robert Bosch Stiftung GmbH 持股约94%但无投票权，Robert Bosch Industrietreuhand KG 持股约0.01%却掌握约93%投票权，结构上阻止外部收购。⚠️ 切勿将印度上市子公司 Bosch Ltd（NSE 代码 BOSCHLTD）的市值误挂于本集团。
 website: https://www.bosch.com
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # 博世 (Bosch)

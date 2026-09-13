@@ -63,7 +63,8 @@ latest_revenue: Q2 FY2026 $282.4亿（+26% YoY）
 market_cap: ~$1.1T（2026.7）
 description: 特斯拉是全球最大电动车制造商和AI机器人公司，2003年成立，总部位于德州Austin。公司正从电动车公司转型为"AI+机器人"公司——FSD自动驾驶（148万订阅/7城Robotaxi运营）、Optimus人形机器人（2026年内投产）、Dojo自研AI训练芯片。Q2 2026交付量创纪录48万辆，但盈利能力持续恶化：营业利润率仅1.4%、EPS miss 35%、FCF首次转负。市场正在重新定价特斯拉——从"高增长高利润"切换到"高投入低利润"的AI转型期。核心矛盾与谷歌如出一辙：AI CAPEX暴增（+142%）吞噬现金流，但AI收入（FSD/Robotaxi/Optimus）尚未规模化。
 website: https://www.tesla.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # Tesla

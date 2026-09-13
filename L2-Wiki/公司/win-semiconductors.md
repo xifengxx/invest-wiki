@@ -4,6 +4,8 @@ slug: win-semiconductors
 country: 台湾
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 成熟制程代工
 one_liner: ''

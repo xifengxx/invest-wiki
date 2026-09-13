@@ -87,7 +87,9 @@ latest_revenue: Q1 FY2027 $1.29B（+22% YoY，Royalty $715M +22% / Licensing $57
 market_cap: ~$350B（2026.7，全球前40大公司）
 description: Arm Holdings是全球最大的CPU IP核授权商，1990年由Acorn Computers、Apple和VLSI Technology合资成立于英国剑桥。公司设计ARM架构CPU/GPU/NPU核心，授权给全球400+芯片公司（Apple、Qualcomm、NVIDIA、Samsung等），按授权费和芯片版税收费。2016年被SoftBank以$32B收购，2023年9月在纳斯达克IPO（$54.5B估值），截至2026年市值飙升至~$350B。2026年3月发布首款自研AGI CPU，标志从纯IP授权模式向芯片制造的战略转型。
 website: https://www.arm.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # Arm Holdings

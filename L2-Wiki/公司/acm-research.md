@@ -4,6 +4,8 @@ slug: acm-research
 country: 中国/美国
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 清洗设备
 one_liner: ''

@@ -1,7 +1,8 @@
 ---
 name: HBM高带宽内存
 slug: hbm-memory
-industry: AI算力
+industries:
+- AI算力
 layer: L2
 tam_bn: 55.0
 cagr_pct: 40.0

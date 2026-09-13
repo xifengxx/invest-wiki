@@ -64,7 +64,8 @@ latest_revenue: Q2 2026 $1.60B（YoY+9%），Q3指引$1.65-1.75B
 market_cap: ~$32B（2026.8，股价$83.38）
 description: ON Semiconductor（onsemi）是全球Top10模拟与功率半导体IDM，1999年从Motorola半导体部门分拆独立。公司聚焦汽车（~50%营收）和工业（~25-30%）两大终端市场，在SiC功率器件（新EV车型SiC份额~55%）、汽车图像传感器和电源管理领域具有竞争优势。2023-2025经历周期下行（营收从$8.3B缩水至$6.0B），Q1 2026确认周期底部，AI数据中心电源（翻倍YoY）和SiC EV设计中标（NIO/吉利）驱动复苏。GTAT收购实现SiC衬底垂直整合，8寸SiC良率与6寸持平。FY2025净利率仅2%，盈利能力修复是核心观察点。【2026.8.18更新】Q2 2026营收$1.60B（YoY+9%），GAAP净利$226.8M，Non-GAAP毛利率39.3%（连续四季度扩张），AI数据中心营收QoQ+34%；Q3指引营收$1.65-1.75B；全年AI数据中心营收指引上调至较2025年翻倍以上。
 website: https://www.onsemi.com
-industry: AI算力
+industries:
+- 半导体
 ---
 
 # ON Semiconductor (onsemi)

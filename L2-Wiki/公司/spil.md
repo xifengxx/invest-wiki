@@ -4,6 +4,8 @@ slug: spil
 country: 台湾
 type: company
 updated: 2026-07
+industries:
+- 半导体
 segments:
 - 先进封装(CoWoS/3D)
 one_liner: ''

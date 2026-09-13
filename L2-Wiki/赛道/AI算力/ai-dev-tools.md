@@ -1,7 +1,8 @@
 ---
 name: AI开发者工具
 slug: ai-dev-tools
-industry: AI算力
+industries:
+- AI算力
 layer: L4
 tam_bn: 8.0
 cagr_pct: 45.0

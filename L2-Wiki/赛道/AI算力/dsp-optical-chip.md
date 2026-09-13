@@ -1,7 +1,8 @@
 ---
 name: DSP与光芯片
 slug: dsp-optical-chip
-industry: AI算力
+industries:
+- AI算力
 layer: L2
 tam_bn: 3.0
 cagr_pct: 40.0

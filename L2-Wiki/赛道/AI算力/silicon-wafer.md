@@ -1,7 +1,9 @@
 ---
 name: 高纯硅料与硅片
 slug: silicon-wafer
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L1
 tam_bn: 15.0
 cagr_pct: 8.0

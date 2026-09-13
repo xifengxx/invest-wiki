@@ -67,7 +67,9 @@ latest_revenue: Q2 2026 合并营收NT$1,910.64亿（约$6.06B USD，+10% QoQ / 
 market_cap: ~$90B（2026.7）
 description: 日月光投控（ASE Technology Holding）是全球最大的半导体封测（OSAT）服务商，1984年成立于台湾高雄，市占率~44%。公司正经历从低毛利传统封测向高价值AI先进封装（LEAP平台）的战略转型，受益于台积电CoWoS产能供不应求带来的溢出订单，以及AI芯片封装涨价30-50%。2026年资本支出从$5.3B上调至$8.5B创历史新高，产能满载、订单能见度直通2027年后。
 website: https://www.aseglobal.com
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 ---
 
 # 日月光 (ASE Group)

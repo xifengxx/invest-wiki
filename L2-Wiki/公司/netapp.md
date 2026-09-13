@@ -123,7 +123,8 @@ latest_revenue: FY2026 $6,925M（+5%，截至2026-04-24）；FY2027 Q1 $2,025M�
 market_cap: ~$391.4亿（$39.14B，2026.9.11）
 description: NetApp, Inc.（NASDAQ 代码 NTAP）1992年4月成立于美国加州，1995年上市，是全球企业级数据管理与存储厂商。核心资产是 ONTAP 数据管理操作系统——一套 OS 横跨自研硬件（AFF/AFX/ASA/FAS）、公有云托管服务（Azure NetApp Files、Amazon FSx for NetApp ONTAP、Google Cloud NetApp Volumes，均为超大规模云的一方服务）与订阅制交付（Keystone）。FY2026（截至2026-04-24）营收 $6,925M（+5%）、GAAP 净利 $1,276M（+8%）、自由现金流 $1,869M（+40%）；全闪存阵列收入 $4,178M（+11%）。AI 战略以「Intelligent Data Infrastructure」为定位，与 NVIDIA 联合工程化 AIDE（AI Data Engine）与 AFX 平台，Q1 FY2027 AI/数据湖现代化订单约350笔。⚠️ 财年结束于每年4月下旬，与自然年错位约1个季度。
 website: https://www.netapp.com
-industry: AI算力
+industries:
+- AI算力
 ---
 
 # NetApp

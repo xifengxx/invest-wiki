@@ -1,7 +1,9 @@
 ---
 name: 电子特气
 slug: electronic-gas
-industry: AI算力
+industries:
+- AI算力
+- 半导体
 layer: L1
 tam_bn: 6.0
 cagr_pct: 7.0

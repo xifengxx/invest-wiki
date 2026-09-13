@@ -4,6 +4,9 @@ slug: nippon-sanso
 country: 日本
 type: company
 updated: 2026-07
+industries:
+- AI算力
+- 半导体
 segments:
 - 电子特气
 one_liner: ''

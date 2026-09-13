@@ -54,7 +54,8 @@ latest_revenue: Q2 2026 $1.248B（+28% YoY），GAAP净利$175M，毛利率47.6%
 market_cap: ~$23B（2026.7）
 description: MKS Instruments是全球半导体设备子系统的最大独立供应商之一，1961年成立于美国。公司的"Surround the Wafer"（包围晶圆）战略覆盖>85%的晶圆制造设备工艺步骤——从RF射频电源（提供刻蚀/沉积等离子体能量）、气体质量流量控制器MFC（精确控制反应气体）、电容压力计（监控真空腔体压力）到残余气体分析仪（检测工艺气体成分），几乎每道芯片制造工艺都离不开MKS的某一款产品。AI芯片制造资本支出暴增驱动半导体设备出货量增长→MKS子系统需求同步增长。2022年$5.1B收购Atotech（PCB/封装电子化学品）将TAM从半导体设备扩展至封装和电子制造。
 website: https://www.mks.com
-industry: 半导体
+industries:
+- 半导体
 ---
 
 # MKS Instruments

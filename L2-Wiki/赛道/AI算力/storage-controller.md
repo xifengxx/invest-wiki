@@ -1,7 +1,8 @@
 ---
 name: NVMe/存储芯片
 slug: storage-controller
-industry: AI算力
+industries:
+- AI算力
 layer: L3
 tam_bn: 6.0
 cagr_pct: 15.0
