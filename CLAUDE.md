@@ -67,13 +67,60 @@ cd L3-网页产物 && python3 -m http.server 8760
 
 # 7. 提炼模式（质量审计）
 # 见 L1-Schema与Pipeline/CLAUDE.md 维护模式章节
+
+# 8. 上线（推送 → 同步到线上站点 → 验证一致）
+./deploy.sh              # 全流程
+./deploy.sh --no-push    # 已推送过，只触发同步+验证
+./deploy.sh --verify     # 只读验证，不推送不触发
 ```
+
+## 更新后上线（重要）
+
+编译产物要出现在线上页面，需经过**跨仓库同步**：
+
+```
+invest-wiki (master)                    kol-daily (gh-pages)
+  L3-网页产物/wiki_data.json  ──同步──▶  industry-chain/wiki_data.json
+  L3-网页产物/index.html      ──同步──▶  industry-chain/index.html
+                                              │ GitHub Pages 部署
+                                              ▼
+                       https://xifengxx.github.io/kol-daily/industry-chain/index.html
+```
+
+**同步由 kol-daily 的 `sync-modules.yml` + `sync-github.py` 完成**，映射表是 kol-daily 根目录的 `sync-config.json`（config 驱动，新增产物只需在那登记）。
+
+### ⚠️ 必须知道的三个坑
+
+1. **cron 的真实延迟是 2-3 小时，不是配置里写的 30 分钟。** 工作流虽然配置了 `cron: '23,53 * * * *'`，但 GitHub 对 scheduled workflow 有节流。**不要依赖 cron 的时效性。**
+2. **工作流每次 run 都显示 `success`，即使什么都没同步。** 只有日志里的 `✓ 有变化` / `无变化` 能区分——只看 run 状态无法判断同步是否真的发生。
+3. **本地到 `raw.githubusercontent.com` 被拦、到 `xifengxx.github.io` 极慢（会截断下载）。** 验证同步**必须用 git blob 哈希比对**，不要用 curl 抓网页文件（会误判成"文件损坏"）。
+
+### 标准动作
+
+编译产物有变更后（改了 L2 词条 / 赛道 / 论点 → 重编译），推送后跑一次：
+
+```bash
+./deploy.sh
+```
+
+它会：① 推送 master → ② 等 45s 让 raw CDN 刷新（否则同步会拉到旧内容）→ ③ 触发 `sync-modules` 并等待完成（约 11s）→ ④ 等 Pages 部署 → ⑤ 用 blob 哈希验证每个登记产物一致。
+
+**判断"同步是否正常"前，先查源头有没有变**：
+
+```bash
+git log --oneline -3 -- L3-网页产物/wiki_data.json
+```
+
+如果最近一次提交没改这个文件，线上不变是**正确行为**，不是链路故障（曾因此误判过一次：9/11 的提交只改了 `chain_universe.json`）。
+
+> `daily-briefing/scripts/chain_universe.json` 未登记在 `sync-config.json`，由日报链路另行同步，不从本仓库同步。
 
 ## 目录结构
 
 ```
 invest_wiki/
 ├── CLAUDE.md              ← 本文件（项目入口）
+├── deploy.sh              ← 上线脚本（推送 → 同步 kol-daily → 验证一致）
 ├── seed_json_to_md.py     ← 一次性迁移脚本
 ├── engine/                ← Wiki 引擎
 │   ├── parser.py          ← YAML + [[wikilink]] 解析
