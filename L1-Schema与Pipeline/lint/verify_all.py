@@ -291,6 +291,30 @@ def check_index(parser):
          f"index.md 赛道总数记 {m.group(1) if m else '?'}，实际唯一数 {len(segs)}")
 
 
+# ── 7b. 公司 one_liner 质量 ───────────────────────────────────────────────
+def check_one_liner(parser):
+    """`one_liner` 是公司详情页「定位与介绍」块的唯一数据源，为空则整块不渲染。
+
+    2026-09-13 前有 227 家公司（56%）是 invest_kg 迁移残留骨架：`one_liner: ''`、
+    描述只写在 body 的 `## 基本信息` 里，导致点进去像坏掉的空页面。
+    """
+    print("\n7b. 公司 one_liner")
+    empty, broken = [], []
+    for e in parser.entities.values():
+        if e.entity_type != 'company':
+            continue
+        ol = (e.frontmatter.get('one_liner') or '').strip()
+        if not ol:
+            empty.append(e.name)
+        elif re.search(r'位于产业链\s*[（(]|位于产业链\s*$', ol):
+            broken.append(f"{e.name}: {ol[:40]}")
+    # 新建骨架词条可能暂时为空，故只告警不硬拦；但要能看见规模
+    soft(not empty, "所有公司词条都有 one_liner",
+         f"{len(empty)} 家公司 one_liner 为空（详情页「定位与介绍」块不会渲染）: {empty[:8]}")
+    hard(not broken, "one_liner 的「位于产业链」后带层级",
+         f"{len(broken)} 家 one_liner 在「位于产业链」后缺层级（chain_layer 为空时拼接所致）: {broken[:5]}")
+
+
 # ── 8. ticker 规范（chain_universe 的键）─────────────────────────────────
 def check_tickers(parser):
     """ticker 会被 build_chain_universe 直接当作 companies 字典的键。
@@ -369,6 +393,7 @@ def main():
     check_link_edge(data, graph)
     check_universe(universe)
     check_index(parser)
+    check_one_liner(parser)
     check_tickers(parser)
     if '--no-html' not in args:
         check_html()
