@@ -6853,7 +6853,7 @@
           "source_tickers": [
             "ENTG"
           ],
-          "name": "Entegris (CMC Materials)",
+          "name": "Entegris",
           "roles": [
             "龙头"
           ],
@@ -11969,12 +11969,12 @@
       ]
     }
   },
-  "version": "2026-09-14.11",
+  "version": "2026-09-14.12",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-14T22:18:00+08:00",
-  "source_generated_at": "2026-09-14T22:17:54+08:00",
-  "source_sha256": "0397e24dc8be131f67c29b08cb691ade053070567acba76355f82ac9bdbc4a1b",
-  "source_hash8": "0397e24d",
-  "source_commit": "09c50929af0d55afd6787e2a1c609a68f3a7d16b",
+  "built_at": "2026-09-14T23:26:35+08:00",
+  "source_generated_at": "2026-09-14T23:26:34+08:00",
+  "source_sha256": "2cc32d64e2b7272e7175072be68a08e851a32c9a47ef7d6bc5214634fcea4d90",
+  "source_hash8": "2cc32d64",
+  "source_commit": "a668b08c7ff7e15873bdd124631c431f91058d27",
   "source_dirty": true
 }

@@ -60,7 +60,7 @@ price_conduction:
 - 国产替代空间大但进程慢
 companies:
 - ticker: ENTG
-  name: Entegris (CMC Materials)
+  name: Entegris
   role: 龙头
   rev: 80
 - ticker: '688019'
