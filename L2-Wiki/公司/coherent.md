@@ -4,8 +4,8 @@ slug: coherent
 country: US
 ticker: COHR
 type: company
-updated: 2026-08
-data_freshness_date: 2026-08-18
+updated: 2026-09
+data_freshness_date: 2026-09-14
 segments:
 - 800G/1.6T光模块
 - DSP与光芯片
@@ -53,9 +53,9 @@ core_business:
 revenue_model: Q1 CY2026营收$1.81B（+20.5% YoY），Q2指引$1.98B，FY2026E ~$7.1B（+21.5%）。Networking 72-75% + Materials ~15% + Lasers ~10%。Non-GAAP EPS Q1 $1.41，运营利润率从4.8%→11.1%（YoY改善）。NVIDIA $2B投资支持产能扩张，积压订单创历史新高，长期供应协议（LTA）提供收入可见性。
 founded: 1971
 headquarters: 美国宾夕法尼亚州Saxonburg
-employees: ~30,000
+employees: ~51,478
 latest_revenue: Q4 FY2026 $2.05B（单季新高，YoY+34%，FY2026全年$7.12B）
-market_cap: ~$60B（2026.7）
+market_cap: ~$59.80B（2026.9）
 description: Coherent Corp.是全球光电子和激光系统领导者，1971年成立于宾夕法尼亚州。2022年收购II-VI后成为全球最大的光通信器件和激光器供应商之一。公司在AI数据中心光互联领域占据核心地位：800G/1.6T高速光收发器、EML/DML激光器、InP光芯片、CPO共封装光学和光电路开关（OCS）是NVIDIA AI集群光互联的关键组件。NVIDIA于2026年$2B战略投资+签署多年供应协议，确认Coherent在AI光互联生态中的不可替代性。公司正将InP产能翻倍（Sherman TX新厂+Zurich），受益于CHIPS Act补贴，并已纳入S&P 500（2025.3）。
 website: https://www.coherent.com
 industries:
@@ -90,7 +90,27 @@ Coherent财年截至每年6月底。AI数据中心光互联需求爆发驱动强
 
 ## 融资与现金流
 
-- 详见财务状况章节
+| 指标 | 口径 | 数值 |
+|------|------|------|
+| 现金 | FY2026 | $1.99B |
+| 有息负债 | FY2026 | $3.55B |
+| 经营现金流 | FY2026 | $79.5M |
+| 自由现金流 | FY2026 | -$650.0M |
+
+Coherent FY2026扭亏并实现GAAP净利$805M，但经营现金流仅$79.5M，自由现金流为-$650.0M，原因是InP产能翻倍、设备投入和营运资金随收入快速扩张。NVIDIA $2B战略投资与多年供应协议降低扩产风险；后续看点是6英寸InP产线利用率能否把高增长转化为正自由现金流。
+
+## InP产能与客户绑定
+
+| 维度 | 说明 |
+|------|------|
+| InP光芯片 | EML/DML激光器是800G/1.6T光模块的核心成本和产能瓶颈 |
+| 扩产路径 | Sherman TX新厂与Zurich产线扩张，2026年产能提前翻倍 |
+| 材料延伸 | InP衬底、SiC衬底和工程材料形成上游纵深 |
+| 客户绑定 | NVIDIA $2B战略投资，云厂商采用多年供应协议 |
+| 下一代产品 | CPO、OCS和3.2T路线图提升长期单集群价值量 |
+
+光模块竞争通常被视为价格战，但InP晶圆、激光器良率和封装测试产能才是2026年的真正约束。Coherent把材料、光芯片和模块放在一起，能把NVIDIA和云厂商的设计要求更快反馈到衬底尺寸、产线爬坡和产品可靠性认证中。
+
 ## AI光互联核心地位
 
 - **800G→1.6T→3.2T**：光模块速率代际升级驱动ASP增长（1.6T ASP约2x 800G）
