@@ -4,8 +4,8 @@ slug: mediatek
 country: 台湾
 ticker: 2454.TW
 type: company
-updated: 2026-08
-data_freshness_date: 2026-08-18
+updated: 2026-09
+data_freshness_date: 2026-09-14
 segments:
 - AI芯片设计(Fabless)
 - ASIC/AI定制芯片
@@ -15,7 +15,7 @@ segments:
 
 - 网络交换芯片
 one_liner: |
-  全球最大智能手机SoC供应商（出货量#1）和AI ASIC新兴主力，通过手机SoC+Smart Edge+AI定制芯片三大板块实现盈利，2026年AI ASIC营收目标$2B，拿下Google TPU v9主供地位（取代Broadcom），Fabless模式依赖TSMC先进制程代工，市值~$191B。
+  全球最大智能手机SoC供应商（出货量#1）和AI ASIC新兴主力，通过手机SoC+Smart Edge+AI定制芯片三大板块实现盈利，2026年AI ASIC营收目标$2B，拿下Google TPU v9主供地位（取代Broadcom），Fabless模式依赖TSMC先进制程代工，市值~NT$7.14T。
   【2026.8.18更新】Q2 2026营收NT$1,521.83亿(+1.2% YoY)、毛利率46.2%、归母净利NT$243.4亿(-12.6% YoY)、EPS NT$15.28；首颗AI加速器ASIC Q4量产、数据中心营收2026超$2B、2027市占目标上调至15-20%。
 chain_layer: L3
 chain_role: 龙头
@@ -76,8 +76,8 @@ revenue_model: 2026E营收~NT$6,376亿（~$19.5B USD），EPS NT$64.30。手机S
 founded: 1997
 headquarters: 台湾新竹
 employees: ~22,000
-latest_revenue: Q2 2026 单季 NT$1,521.83亿（约$4.7B USD），+2.0% QoQ / +1.2% YoY，超财测高标
-market_cap: ~NT$6.26T（~$192B USD）（2026.8）
+latest_revenue: Q2 2026 单季 NT$1,521.83亿（约$4.7B USD），+2.0% QoQ / +1.2% YoY，超财测高标；FY2025营收NT$5,960亿
+market_cap: ~NT$7.14T（2026.9）
 description: 联发科（MediaTek）是全球最大的智能手机SoC供应商（按出货量计），1997年成立于台湾新竹，从DVD芯片起家发展为全球Fabless Top 5半导体设计公司。手机SoC（天玑Dimensity系列）覆盖小米/vivo/OPPO等安卓厂商，并正在争取三星旗舰机供应权。AI定制芯片（ASIC）业务成为第二增长曲线：拿下Google TPU v9项目主供地位（取代Broadcom），采用TSMC 2nm制程+HBM4e，预计2028年带来$8B+营收。AI ASIC可服务市场（SAM）预计2027年达$700-800B。
 website: https://www.mediatek.com
 industries:
@@ -95,11 +95,11 @@ industries:
 
 ### 核心财务指标
 
-| 指标 | 2025A（估计） | 2026E | Q2 2026（实际） | 同比变化 |
+| 指标 | 2025A | 2026E | Q2 2026（实际） | 同比变化 |
 |------|:-----------:|:-----:|:--------------:|:------:|
-| **营收** | ~NT$5,500亿 | **NT$6,376亿** | NT$1,521.83亿（单季） | +16% |
+| **营收** | **NT$5,960亿** | **NT$6,376亿** | NT$1,521.83亿（单季） | +16% |
 | **毛利率** | ~45% | ~46-48% | **46.2%** | -2.9pp |
-| **EPS** | ~NT$50 | **NT$64.30** | NT$15.28（单季） | +29% |
+| **EPS** | ~NT$65.6 | **NT$64.30** | NT$15.28（单季） | +29% |
 | **AI ASIC营收** | ~$1B | **$2B** | 2026E >$2B（数据中心） | +100% |
 
 ### 业务构成
@@ -129,7 +129,24 @@ industries:
 
 ## 融资与现金流
 
-- 详见财务状况章节
+| 指标 | 口径 | 数值 |
+|------|------|------|
+| 经营现金流 | TTM | NT$110.30B |
+| 自由现金流 | TTM | NT$55.99B |
+| 现金 | 最新报告期 | NT$198.40B |
+| 有息负债 | 最新报告期 | NT$27.05B |
+
+Fabless模式带来轻资产现金流结构：$50亿 discretionary融资预算的核心不是建自有晶圆厂，而是提前锁定TSMC先进制程与封装产能，并覆盖AI ASIC从芯片到整柜系统所需的供应链和验证成本。
+
+## 技术路线与业务结构
+
+| 路线 | 关键节点 | 作用 |
+|------|----------|------|
+| 手机SoC | 天玑D9500 | 支撑安卓旗舰/中高端份额，提高平均售价 |
+| AI ASIC | Google TPU v9，Q4 2026量产 | 采用TSMC 2nm+HBM4e，验证公司承接云厂商大规模定制芯片的能力 |
+| 数据中心系统 | 第二颗ASIC目标2028量产 | 从芯片设计扩展到rack-scale供电、网络与系统级协同 |
+| Smart Edge | 平板/车用/IoT | 平滑手机周期，Q2 2026已占53%营收 |
+
 ## 投资亮点
 
 - **AI ASIC第二曲线**：Google TPU v9+另外2~3个Hyperscaler项目在谈，SAM 2027E $700-800B
@@ -140,3 +157,4 @@ industries:
 ## 动态更新记录
 
 - 2026-08-18：归档 Q2 2026 财报（input_20260818_016）。更新 data_freshness_date→2026-08-18、updated→2026-08、latest_revenue（Q2 单季 NT$1,521.83亿）、market_cap（~NT$6.26T）；one_liner 追加【2026.8.18更新】；财务表加 Q2 2026 列；body 追加「Q2 2026 详情（海豚研究）」。
+- 2026-09-14：E1批次用Yahoo Finance核验FY2025营收NT$5,960亿、净利NT$1,053亿，并刷新市值至~NT$7.14T；补入TTM现金流、资产负债口径和「技术路线与业务结构」段（input_20260914_126）。

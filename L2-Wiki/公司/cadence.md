@@ -4,12 +4,12 @@ slug: cadence
 country: US
 ticker: "CDNS"
 type: company
-updated: 2026-08
-data_freshness_date: 2026-08-18
+updated: 2026-09
+data_freshness_date: 2026-09-14
 segments:
 - EDA与IP核
 one_liner: |-
-  全球第二大EDA（电子设计自动化）软件供应商（市场份额~30%），与Synopsys形成双寡头垄断全球~60%的芯片设计工具市场，Q1 CY2026营收$1.47B（+18.7% YoY），FY2026E ~$6.18B（+17%），NVIDIA合作Agentic AI芯片设计平台ChipStack（自主执行设计流程），积压订单$8.0B创新高，市值~$103B。
+  全球第二大EDA（电子设计自动化）软件供应商（市场份额~30%），与Synopsys形成双寡头垄断全球~60%的芯片设计工具市场，Q2 CY2026营收$1.584B（+24.2% YoY），FY2026E ~$6.18B（+17%），NVIDIA合作Agentic AI芯片设计平台ChipStack（自主执行设计流程），积压订单$8.1B创新高，市值~$79.8B。
   【2026.8.18更新】Q2 CY2026营收$1.584B（+24.2% YoY），GAAP净利$367.1M，GAAP毛利率84.9%
 chain_layer: L2
 chain_role: 龙头
@@ -53,9 +53,9 @@ core_business:
 revenue_model: Q1 CY2026营收$1.47B（+18.7%），FY2026E $6.125-6.225B（+17%）。EDA工具授权~70% + IP核~14% + 系统分析~16%。Non-GAAP EPS $7.85-7.95。Gross Margin ~88-90%，积压订单$8.0B（创新高）。经常性收入~90%+（多年期订阅模式）。Agentic AI新商业模式：订阅+按用量消费（consumption-based），有望提升总体工具使用量和ASP。首次实现"Rule of 60"（营收增速+Non-GAAP OP Margin ≥ 60%）。
 founded: 1988
 headquarters: 美国加州San Jose
-employees: ~13,500
+employees: ~15,445
 latest_revenue: Q2 CY2026 $1.584B（+24.2% YoY）
-market_cap: ~$103B（2026.7）
+market_cap: ~$79.8B（2026.9）
 description: Cadence Design Systems是全球第二大EDA（电子设计自动化）软件供应商，1988年由SDA Systems和ECAD合并成立，总部位于硅谷San Jose。公司与Synopsys形成EDA双寡头格局（合计~60%+全球市场），几乎全球所有芯片设计公司均依赖Cadence和Synopsys工具链的互补使用。数字IC设计（Innovus平台）、定制模拟设计（Virtuoso平台，行业标准超过30年）和功能验证（Palladium仿真）三大支柱。2026年与NVIDIA合作推出Agentic AI芯片设计平台ChipStack——AI Agent可自主执行以前需要数周人工的设计流程，标志着EDA从"工具"向"自主设计平台"的历史性跨越。积压订单$8.0B创新高，首次实现"Rule of 60"。收购Hexagon（多物理场仿真）从芯片设计延伸至系统级仿真（汽车/航空/机器人），与Synopsys+Ansys直接对标。
 website: https://www.cadence.com
 industries:
@@ -71,10 +71,10 @@ industries:
 
 | 指标 | FY2025 | Q1 CY2026 | Q2 CY2026 | FY2026E |
 |------|--------|-----------|-----------|---------|
-| **营收** | $5.30B | **$1.47B** | **$1.584B** | **$6.125-6.225B** |
+| **营收** | **$5.30B** | **$1.47B** | **$1.584B** | **$6.125-6.225B** |
 | **YoY增长** | — | +18.7% | **+24.2%** | **+17%** |
 | **毛利率** | — | — | **84.9%** | — |
-| **净利** | — | — | **$367.1M** | — |
+| **净利** | **$1.11B（全年）** | — | **$367.1M** | — |
 | **Non-GAAP EPS** | — | — | **$2.11** | $7.85-7.95 |
 | **积压订单** | ~$6.5B | **$8.0B** | **$8.1B** | — |
 
@@ -89,7 +89,25 @@ industries:
 
 ## 融资与现金流
 
-- 详见财务状况章节
+| 指标 | 口径 | 数值 |
+|------|------|------|
+| 经营现金流 | TTM | $1.85B |
+| 自由现金流 | TTM | $1.61B |
+| 现金 | 最新报告期 | $1.53B |
+| 有息负债 | 最新报告期 | $2.65B |
+
+与Synopsys的大额并购路径不同，Cadence资产负债表更接近“软件公司+中等规模系统验证资产”。现金流主要用于回购、云化工具栈和硬件仿真扩容；Hexagon级多物理场拓展若继续做大型并购，会改变当前低杠杆结构。
+
+## 产品矩阵与AI路线
+
+| 产品层 | 当前作用 | AI化方向 |
+|--------|----------|----------|
+| Virtuoso/Spectre | 模拟与定制IC设计事实标准 | 模型驱动参数搜索、噪声/功耗敏感点自动收敛 |
+| Innovus/Genus/Tempus | 数字后端、综合与时序签核 | 把PR、时序、IR-drop和物理效应变成闭环优化 |
+| Xcelium/Jasper/Verisium | 仿真、形式验证、AI验证管理 | 用测试意图和覆盖缺口调度仿真资源 |
+| Palladium Z3/Protium | 硬件仿真与原型验证 | 大模型/SoC软件栈提前启动，缩短硅后调试 |
+| Sigrity/Clarity/Hexagon | 封装、电源完整性和多物理场 | 从芯片—封装—板—热—机械做系统级协同 |
+
 ## EDA双寡头对比
 
 | 维度 | Synopsys | Cadence |
@@ -101,4 +119,8 @@ industries:
 | AI Agent | Synopsys.ai | **ChipStack（与NVIDIA合作）** |
 | 仿真/验证 | VCS/Zebu | Xcelium/Palladium |
 | FY2026E营收 | $9.67B | $6.18B |
-| 市值 | ~$83B | **~$103B** |
+| 市值 | ~$76.2B | **~$79.8B** |
+
+## 增长驱动与风险
+
+短期增长来自先进节点 Tape-out 回暖、IP复用率提高和硬件仿真排期紧张；中期看AI Agent能否把EDA从“工具席”升级为“设计流程里的自动执行层”。风险不在单个季度beat，而在三点：客户研发预算如果收缩，订阅合同会顺延而不是消失；AI工具若只提升局部点工具效率，不能转化成多人天节省；系统级多物理场市场进入壁垒高，并购后的整合和定价必须补足工程服务闭环。
