@@ -66,7 +66,7 @@ companies:
   name: 南大光电
   role: 二线弹性
   rev: 40
-- ticker: 092070
+- ticker: 092070.KQ
   name: DNF
   role: 二线弹性
   rev: 90

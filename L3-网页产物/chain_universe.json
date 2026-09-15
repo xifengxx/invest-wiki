@@ -8,8 +8,8 @@
     "merged_exact_duplicate_records": 0,
     "source_company_links": 494,
     "unique_companies": 326,
-    "overseas_quote_candidates": 172,
-    "a_share_mapping_companies": 94,
+    "overseas_quote_candidates": 173,
+    "a_share_mapping_companies": 93,
     "private_or_untradable": 60
   },
   "segments": [
@@ -7430,18 +7430,18 @@
           "in_overseas_heat": false
         },
         {
-          "ticker": "092070",
+          "ticker": "092070.KQ",
           "source_tickers": [
-            "092070"
+            "092070.KQ"
           ],
           "name": "DNF",
           "roles": [
             "二线弹性"
           ],
           "rev": 90.0,
-          "market_guess": "CN",
+          "market_guess": "KR",
           "tradable": true,
-          "in_overseas_heat": false
+          "in_overseas_heat": true
         },
         {
           "ticker": "300346",
@@ -7502,17 +7502,12 @@
       ],
       "n_source_companies": 6,
       "n_unique_companies": 6,
-      "n_overseas_candidates": 3,
-      "n_a_share_mapping": 3,
+      "n_overseas_candidates": 4,
+      "n_a_share_mapping": 2,
       "a_share": [
         {
           "name": "UP Chemical",
           "ticker": "011760",
-          "role": "二线弹性"
-        },
-        {
-          "name": "DNF",
-          "ticker": "092070",
           "role": "二线弹性"
         },
         {
@@ -9167,10 +9162,10 @@
         "cloud-iaas"
       ]
     },
-    "092070": {
-      "ticker": "092070",
+    "092070.KQ": {
+      "ticker": "092070.KQ",
       "name": "DNF",
-      "market_guess": "CN",
+      "market_guess": "KR",
       "tradable": true,
       "segments": [
         "semi-precursor"
@@ -11969,12 +11964,12 @@
       ]
     }
   },
-  "version": "2026-09-15.2",
+  "version": "2026-09-15.3",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-15T22:15:06+08:00",
-  "source_generated_at": "2026-09-15T22:15:06+08:00",
-  "source_sha256": "ff5516a3cf4a925d89398ba181155a25bc0902accc6cc08811764bbcae4502ac",
-  "source_hash8": "ff5516a3",
-  "source_commit": "65ba38cd6e8d60c9e7234d7d00c9e6b80298befe",
+  "built_at": "2026-09-15T22:36:14+08:00",
+  "source_generated_at": "2026-09-15T22:36:14+08:00",
+  "source_sha256": "325433a28ba6a54f9ebabf96b22a541aa60239da4c19804cc97969923b751919",
+  "source_hash8": "325433a2",
+  "source_commit": "e138e4b159f7b8ae1b4868b1cf43191fedbd2499",
   "source_dirty": true
 }
