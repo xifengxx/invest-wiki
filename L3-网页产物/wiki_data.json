@@ -36610,17 +36610,23 @@
       "slug": "cirrus-logic",
       "type": "company",
       "country": "美国",
-      "ticker": "",
-      "one_liner": "音频Codec+触觉驱动IC,Apple iPhone核心供应商，位于产业链L4终端应用与服务（核心参与者）",
-      "description": "音频Codec+触觉驱动IC,Apple iPhone核心供应商",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "ticker": "CRUS",
+      "one_liner": "美国混合信号和音频模拟芯片公司，核心产品包括smart codec、放大器、触觉驱动、高压混合信号和数字信号处理，位于半导体L3芯片设计与制造层。FY2027 Q1营收$459.7M创纪录，FY2026营收约$2.0B。\n",
+      "description": "Cirrus Logic的长期壁垒是把模拟设计、数字控制和声学系统集成进终端整机。它不像通用模拟厂覆盖几十万SKU，而是在音频、高压混合信号和触觉等 niche 上绑定头部客户，客户销量与内容价值量的波动会直接放大业绩。",
+      "core_business": [
+        "音频smart codec与音频放大器",
+        "高性能混合信号和HPMS产品",
+        "触觉反馈驱动IC",
+        "数字信号处理与端侧音频算法配套",
+        "AI PC smart codec、计量AFE、能源监测和下一代相机控制器"
+      ],
+      "revenue_model": "以芯片销售为主，收入集中于移动音频和高压混合信号业务；客户整机销量、产品代际切换和内容价值量决定季度波动。",
+      "founded": 1984,
+      "headquarters": "美国德州奥斯汀",
+      "employees": "未披露",
+      "latest_revenue": "FY2027 Q1（截至2026-06-27）营收$459.7M；FY2026营收约$2.0B",
+      "market_cap": "~$6.4B（2026.9.15，Yahoo Finance口径）",
+      "data_freshness_date": "2026-09-15",
       "industry": "半导体",
       "industries": [
         "半导体"
@@ -36628,18 +36634,74 @@
       "segments": [
         "模拟芯片"
       ],
-      "chain_layer": "L4",
+      "chain_layer": "L3",
       "chain_role": "核心参与者",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "suppliers": [
+        {
+          "company": "晶圆代工供应商",
+          "supplies": "模拟与混合信号晶圆"
+        },
+        {
+          "company": "封装测试供应商",
+          "supplies": "混合信号芯片封装、测试与可靠性服务"
+        }
+      ],
+      "customers": [
+        {
+          "company": "Apple",
+          "note": "智能手机音频与混合信号器件核心供应商"
+        },
+        {
+          "company": "消费电子OEM",
+          "note": "移动设备、智能音箱、穿戴与PC音频系统"
+        },
+        {
+          "company": "AI PC与计算OEM",
+          "note": "智能音频codec与低功耗计算周边"
+        },
+        {
+          "company": "工业与能源设备商",
+          "note": "计量AFE、能源监测和汽车/电网应用"
+        }
+      ],
+      "partners": [
+        {
+          "company": "Apple",
+          "note": "长期大客户，营收集中度高；不等于双方签署独占协议"
+        },
+        {
+          "company": "AI PC与汽车生态OEM",
+          "area": "smart codec、能源平台和下一代相机控制器合作开发"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "Skyworks Solutions",
+          "ticker": "SWKS",
+          "area": "移动终端混合信号与射频前端"
+        },
+        {
+          "company": "Qorvo",
+          "ticker": "QRVO",
+          "area": "移动终端RF与混合信号器件"
+        },
+        {
+          "company": "Analog Devices",
+          "ticker": "ADI",
+          "area": "高性能模拟、混合信号与工业/汽车产品"
+        },
+        {
+          "company": "Texas Instruments",
+          "ticker": "TXN",
+          "area": "模拟与电源管理芯片"
+        }
+      ],
       "tags": [],
-      "website": "N/A",
+      "website": "https://www.cirrus.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Cirrus Logic\n\n音频Codec+触觉驱动IC,Apple iPhone核心供应商",
-      "content_preview": "# Cirrus Logic\n\n> 音频Codec+触觉驱动IC,Apple iPhone核心供应商，位于产业链L4终端应用与服务（核心参与者） | 音频Codec+触觉驱动IC,Apple iPhone核心供应商",
+      "content": "# Cirrus Logic\n\nCirrus Logic的长期壁垒是把模拟设计、数字控制和声学系统集成进终端整机。它不像通用模拟厂覆盖几十万SKU，而是在音频、高压混合信号和触觉等 niche 上绑定头部客户，客户销量与内容价值量的波动会直接放大业绩。\n\n## 财务状况\n\n公司采用财年制，FY2027 Q1对应自然季度截至2026-06-27。\n\n| 指标 | FY2027 Q1 | 说明 |\n|------|-------:|------|\n| 总营收 | **$459.7M** | 季度纪录 |\n| Audio营收 | **$249.0M** | 移动音频、smart codec与放大器 |\n| HPMS营收 | **$210.7M** | 高性能混合信号产品 |\n| GAAP净利 | **$76.9M** | GAAP EPS $1.47 |\n| 非GAAP EPS | **$1.84** | 公司非GAAP口径 |\n| Q2指引 | **$510M-$570M** | FY2027 Q2，截至2026年9月 |\n\n完整财年看，FY2026（截至2026-03-28）营收约$2.0B创纪录，GAAP净利$414.4M，GAAP EPS $7.85，非GAAP EPS $9.26。资产负债表上现金约$810.7M，基本无债务，这是应对客户集中和产品切换的缓冲。FY2027 Q1的增长说明音频内容量和HPMS业务仍在改善，但下季指引区间较宽，仍取决于大客户新机销量和订单节奏。\n\n## 产品与技术路线\n\n- **移动音频**：smart codec、smart amplifier和数字信号处理提升扬声器功率、降噪、语音质量和电池效率。\n- **触觉驱动**：把触觉反馈的幅度、频率和时序控制得更精细，提升交互体验。\n- **HPMS**：高压混合信号IC服务手机、计算和工业场景，正在从传统电源管理向更复杂系统集成演进。\n- **AI PC**：开发面向AI PC的smart codec，服务会议语音、降噪、唤醒词和低功耗音频路径。\n- **能源与工业**：计量AFE已流片，EV充电和电网监测能源平台是中期多元化方向。\n- **相机与smart power**：下一代相机控制器和smart power IC有望提升非音频内容价值量。\n\n## 竞争护城河与风险\n\n**护城河**：Cirrus在高端音频codec和放大器设计上经验深厚，与Apple整机声学系统协同多年；HPMS和音频捆绑提供单点芯片难以替代的系统价值。现金充足、债务极低，可支撑长周期研发。\n\n**风险**：Apple是大客户，任何平台设计变化、销量下滑或内容价值量下修都会显著影响收入；移动音频市场有Skyworks、Qorvo、TI、ADI等竞争；AI PC、汽车和工业项目从流片到放量周期长，短期不能抵消消费电子波动。\n\n## 行业与增长驱动\n\nAI手机、AI PC和智能穿戴对音频、传感、电源和交互提出更高要求，Cirrus有机会从“音频芯片”扩展到“端侧体验控制”。能源计量和EV充电则打开工业第二曲线，但真正确认需要客户设计和量产时间表。投资分析应把FY2027 Q1的创纪录收入与客户集中风险一起看，不能单季线性外推。\n\n## 动态更新记录\n\n### 2026-09-15：薄档升级为全面档\n- **来源**：Cirrus Logic FY2027 Q1与FY2026业绩稿、StockTitan披露页、Yahoo Finance行情，归档于`L0-原始资料池/03-新闻/2026-09-15-F5批次-AI云与模拟组4家-数据溯源.md`（input_20260915_136）。\n- **核心更新**：补齐FY2027 Q1、FY2026财务，Q2指引、现金与债务、产品线、AI PC/能源/汽车方向和竞争格局。\n- **关键区分**：非GAAP EPS是公司非GAAP口径；FY为Cirrus财年，不等于自然年。",
+      "content_preview": "# Cirrus Logic\n\n> 美国混合信号和音频模拟芯片公司，核心产品包括smart codec、放大器、触觉驱动、高压混合信号和数字信号处理，位于半导体L3芯片设计与制造层。FY2027 Q1营收$459.7M创纪录，FY2026营收约$2.0B。\n | Cirrus Logic的长期壁垒是把模拟设计、数字控制和声学系统集成进终端整机。它不像通用模拟厂覆盖几十万SKU，而是在音频、高压混合信号和触觉等 niche 上绑定头部客户，客户销量与内容价值量的波动会直接放大业绩。",
       "sources": ""
     },
     {
@@ -43987,17 +44049,22 @@
       "slug": "lambda-labs",
       "type": "company",
       "country": "US",
-      "ticker": "",
-      "one_liner": "GPU云和AI工作站，NVIDIA H100/B200集群按需租用，位于产业链L4终端应用与服务（核心参与者）",
-      "description": "GPU云和AI工作站，NVIDIA H100/B200集群按需租用",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "ticker": "LAMBDA",
+      "one_liner": "美国私有GPU云和AI基础设施公司，提供按需实例、预留算力、私有AI工厂和Superclusters服务，位于AI算力L4基础设施层。2026年8月关闭$926M高级担保定期贷款B，用于为投资级客户部署GPU；2025年11月披露$1.5B融资，投后估值$5.43B。\n",
+      "description": "Lambda的看点不是简单的“GPU租售”，而是把NVIDIA平台、机房电力、金融工具和集群交付绑成一条AI基础设施供给链。私有公司口径下，最可靠的信息是债务条款、融资轮次和客户部署事件，而不是未经披露的营收推算。",
+      "core_business": [
+        "按需GPU实例与长期预留算力",
+        "私有AI工厂、Superclusters与1-Click Clusters",
+        "训练与推理集群运维、调度和GPU资产管理",
+        "企业与政府AI基础设施交付"
+      ],
+      "revenue_model": "收入主要来自GPU云服务费、预留容量和私有AI工厂/Superclusters交付与运维。公司未在本轮核验中披露GAAP营收；$926M、$1B等融资额是债务工具，不是收入。",
+      "founded": 2012,
+      "headquarters": "美国加州圣何塞",
+      "employees": "未披露",
+      "latest_revenue": "未披露GAAP营收；可用财务信号为2026-08 $926M定期贷款B和2025-11 $1.5B融资",
+      "market_cap": "未上市；2025-11 PitchBook口径投后估值$5.43B，2026-08媒体报道拟$3B pre-IPO、估值约$12B（未经确认）",
+      "data_freshness_date": "2026-09-15",
       "industry": "AI算力",
       "industries": [
         "AI算力"
@@ -44007,16 +44074,78 @@
       ],
       "chain_layer": "L4",
       "chain_role": "核心参与者",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "suppliers": [
+        {
+          "company": "NVIDIA",
+          "ticker": "NVDA",
+          "supplies": "AI GPU与集群平台",
+          "note": "Lambda基于NVIDIA GPU提供云服务和AI工厂"
+        },
+        {
+          "company": "数据中心与电力供应商",
+          "supplies": "GPU集群机房、电力、制冷与网络"
+        },
+        {
+          "company": "摩根士丹利",
+          "supplies": "定期贷款B主承销",
+          "note": "属于融资服务机构，不是传统生产资料供应商"
+        }
+      ],
+      "customers": [
+        {
+          "company": "投资级客户",
+          "note": "官方2026-08公告称$926M贷款用于为其部署GPU，未披露客户名称"
+        },
+        {
+          "company": "Microsoft",
+          "note": "TechCrunch引Bloomberg报道，JPMorgan安排$1B私募债购入GB300并租给Microsoft；该报道为交易背景，不是Lambda官方财报数据"
+        },
+        {
+          "company": "企业、政府与研究机构",
+          "note": "通过实例、预留容量和私有集群采购训练与推理算力"
+        }
+      ],
+      "partners": [
+        {
+          "company": "摩根士丹利",
+          "area": "$926M定期贷款B主承销"
+        },
+        {
+          "company": "JPMorgan",
+          "area": "TechCrunch引Bloomberg报道的私募债安排；口径需与Lambda公告区分"
+        },
+        {
+          "company": "NVIDIA",
+          "ticker": "NVDA",
+          "area": "AI算力生态与GPU平台"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "CoreWeave",
+          "ticker": "CRWV",
+          "area": "GPU专用云与AI基础设施"
+        },
+        {
+          "company": "Nebius",
+          "area": "AI云与GPU算力"
+        },
+        {
+          "company": "Oracle / AWS / Microsoft Azure",
+          "area": "通用云厂商的AI算力与托管实例"
+        },
+        {
+          "company": "Together AI",
+          "ticker": "TOGETHER",
+          "area": "AI原生云与推理/训练算力服务"
+        }
+      ],
       "tags": [],
       "website": "https://www.lambdalabs.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Lambda Labs\n\nGPU云和AI工作站，NVIDIA H100/B200集群按需租用",
-      "content_preview": "# Lambda Labs\n\n> GPU云和AI工作站，NVIDIA H100/B200集群按需租用，位于产业链L4终端应用与服务（核心参与者） | GPU云和AI工作站，NVIDIA H100/B200集群按需租用",
+      "content": "# Lambda Labs\n\nLambda的看点不是简单的“GPU租售”，而是把NVIDIA平台、机房电力、金融工具和集群交付绑成一条AI基础设施供给链。私有公司口径下，最可靠的信息是债务条款、融资轮次和客户部署事件，而不是未经披露的营收推算。\n\n## 财务状况与融资结构\n\nLambda未披露完整GAAP财务报表，当前可用数据集中在融资与债务。\n\n| 指标 | 数值 | 口径说明 |\n|------|------|----------|\n| 定期贷款B | **$926M** | 2026-08-27关闭，高级担保 |\n| 到期日 | 2030-12-31 | Moody's Baa2评级口径 |\n| 利率 | SOFR + 3.00% | 99.5%发行 |\n| 抵押与用途 | GPU资产SPV；为投资级客户部署GPU | 官方公告 |\n| 主承销 | 摩根士丹利 | 官方公告 |\n| 2026-05信贷额度 | 约$1.0B | 担保信贷额度 |\n| 2025-11融资 | $1.5B；投后$5.43B | PitchBook口径 |\n| pre-IPO报道 | 约$3B、投后约$12B | 2026-08媒体报道，未经确认 |\n\n债务融资的好处是比稀释股权更快锁定GPU产能，但AI服务器折旧快、机型更新频繁，若租约期限、上电进度或客户续约不及预期，资产回收周期会显著影响现金流。判断Lambda时，应跟踪租约覆盖倍数、债务摊销、GPU代际转换成本和客户集中度。\n\n## 产品与技术路线\n\n- **按需实例**：面向训练和推理的单卡/多卡GPU实例，强调快速获取NVIDIA算力。\n- **预留容量**：为长期训练任务锁定集群资源，适合大模型预训练、微调和持续推理。\n- **1-Click Clusters与Superclusters**：把GPU节点、网络、存储、调度和运维模板化，缩短大规模集群交付时间。\n- **私有AI工厂**：为企业和政府交付专属基础设施，兼顾数据主权、容量规划和长期运维。\n\n## 竞争定位\n\nLambda处在“超大规模云厂商”和“AI原生云”之间的空白带：Oracle、AWS、Azure有企业客户和全球资源，但高需求机型供给和价格弹性未必灵活；CoreWeave、Nebius等AI云同样专注GPU规模，直接争夺长期租约。Lambda的差异化在于长期AI基础设施交付经验、私有集群产品和金融化GPU扩张。风险也很直接：GPU厂商供给节奏、电力交付、客户集中度和债务成本都会放大经营波动。\n\n## 客户与生态\n\n官方2026-08公告只称$926M贷款用于投资级客户，没有披露客户名。TechCrunch引Bloomberg报道，JPMorgan安排$1B私募债购买GB300并租给Microsoft，这解释了当前AI云中“金融机构出资、GPU资产SPV、AI云运营、大客户承租”的结构。这个事件与Lambda官方公告的$926M贷款是不同口径，正文不把二者合并成一笔资金。NVIDIA参与生态合作，摩根士丹利和JPMorgan则是资金安排方。\n\n## 动态更新记录\n\n### 2026-09-15：薄档升级为全面档\n- **来源**：Lambda官网2026-08-27公告、TechCrunch 2026-08-28报道，归档于`L0-原始资料池/03-新闻/2026-09-15-F5批次-AI云与模拟组4家-数据溯源.md`（input_20260915_136）。\n- **核心更新**：补齐$926M定期贷款B条款、$1.5B融资与$5.43B投后估值、pre-IPO报道、GPU云产品线和竞争格局。\n- **关键区分**：公司未披露GAAP营收；$12B估值报道未经确认；私募债租赁交易不与官方定期贷款混同。",
+      "content_preview": "# Lambda Labs\n\n> 美国私有GPU云和AI基础设施公司，提供按需实例、预留算力、私有AI工厂和Superclusters服务，位于AI算力L4基础设施层。2026年8月关闭$926M高级担保定期贷款B，用于为投资级客户部署GPU；2025年11月披露$1.5B融资，投后估值$5.43B。\n | Lambda的看点不是简单的“GPU租售”，而是把NVIDIA平台、机房电力、金融工具和集群交付绑成一条AI基础设施供给链。私有公司口径下，最可靠的信息是债务条款、融资轮次和客户部署事件，而不是未经披露的营收推算。",
       "sources": ""
     },
     {
@@ -46503,17 +46632,23 @@
       "slug": "impinj",
       "type": "company",
       "country": "美国",
-      "ticker": "",
-      "one_liner": "RAIN RFID标签芯片全球#1(垄断>80%),物联网，位于产业链L4终端应用与服务（核心参与者）",
-      "description": "RAIN RFID标签芯片全球#1(垄断>80%),物联网",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "ticker": "PI",
+      "one_liner": "美国RAIN RFID芯片与物联网平台公司，提供标签芯片、读写器和解决方案，位于半导体L3芯片设计与制造层。2026Q2营收$108.4M创纪录，GAAP净利$12.2M，调整后EBITDA $30.7M；Q3营收指引$105.5M-$108.5M。\n",
+      "description": "Impinj的价值在“芯片+读写器+平台”闭环：标签芯片全球份额高，读写器和软件把海量RFID数据变成企业流程。RFID支出具有周期性，但单件物品的数据化一旦进入零售、行李、物流等核心流程，替换成本会明显提高。",
+      "core_business": [
+        "RAIN RFID标签芯片",
+        "固定与手持读写器",
+        "Impinj平台软件与数据服务",
+        "零售、物流、工业、汽车和资产追踪解决方案",
+        "M800系列与Gen2X端到端平台产品"
+      ],
+      "revenue_model": "收入主要来自标签芯片、读写器和解决方案，并伴随生态中的标签持续放量。2026Q2披露GAAP毛利率58.6%、非GAAP毛利率60.9%，显示芯片加系统组合的盈利能力。",
+      "founded": 2000,
+      "headquarters": "美国西雅图",
+      "employees": "未披露",
+      "latest_revenue": "2026Q2营收$108.371M（+10.7% YoY）；2026H1营收$182.621M",
+      "market_cap": "~$5.4B（2026.9.15，Yahoo Finance口径）",
+      "data_freshness_date": "2026-09-15",
       "industry": "半导体",
       "industries": [
         "半导体"
@@ -46521,18 +46656,69 @@
       "segments": [
         "模拟芯片"
       ],
-      "chain_layer": "L4",
+      "chain_layer": "L3",
       "chain_role": "核心参与者",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "suppliers": [
+        {
+          "company": "晶圆代工与封装测试供应商",
+          "supplies": "半导体晶圆、封装与测试"
+        },
+        {
+          "company": "天线与模组供应商",
+          "supplies": "RAIN RFID标签天线、inlay和模组制造"
+        }
+      ],
+      "customers": [
+        {
+          "company": "零售与服饰品牌",
+          "note": "商品级RFID标签、库存可见性和门店运营"
+        },
+        {
+          "company": "物流、航空与行李管理",
+          "note": "包裹、托盘、行李和资产追踪"
+        },
+        {
+          "company": "汽车与工业客户",
+          "note": "零部件追溯、生产流程和资产管理"
+        },
+        {
+          "company": "政府与企业资产管理者",
+          "note": "文件、设备、车辆和人员流程数字化"
+        }
+      ],
+      "partners": [
+        {
+          "company": "标签inlay与系统解决方案生态",
+          "area": "RAIN RFID标签制造、系统集成与行业解决方案"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "NXP Semiconductors",
+          "ticker": "NXPI",
+          "area": "RFID与连接芯片"
+        },
+        {
+          "company": "STMicroelectronics",
+          "ticker": "STM",
+          "area": "RFID、安全芯片与物联网器件"
+        },
+        {
+          "company": "EM Microelectronic",
+          "area": "低功耗RFID芯片"
+        },
+        {
+          "company": "Zebra Technologies",
+          "ticker": "ZBRA",
+          "area": "RFID读写器与资产追踪系统，和芯片视角互补"
+        }
+      ],
       "tags": [],
-      "website": "N/A",
+      "website": "https://www.impinj.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Impinj\n\nRAIN RFID标签芯片全球#1(垄断>80%),物联网",
-      "content_preview": "# Impinj\n\n> RAIN RFID标签芯片全球#1(垄断>80%),物联网，位于产业链L4终端应用与服务（核心参与者） | RAIN RFID标签芯片全球#1(垄断>80%),物联网",
+      "content": "# Impinj\n\nImpinj的价值在“芯片+读写器+平台”闭环：标签芯片全球份额高，读写器和软件把海量RFID数据变成企业流程。RFID支出具有周期性，但单件物品的数据化一旦进入零售、行李、物流等核心流程，替换成本会明显提高。\n\n## 财务状况\n\nImpinj最新披露的是2026Q2业绩，收入、调整后EBITDA和非GAAP EPS均创纪录。\n\n| 指标 | 2026Q2 | 说明 |\n|------|-------:|------|\n| 营收 | **$108.371M** | 历史季度纪录，同比+10.7% |\n| GAAP毛利率 | **58.6%** | 官方披露 |\n| 非GAAP毛利率 | **60.9%** | 公司非GAAP口径 |\n| GAAP净利 | **$12.2M** | 摊薄EPS $0.39，按31.0M股 |\n| 调整后EBITDA | **$30.7M** | 公司非GAAP口径 |\n| 非GAAP净利 | **$27.0M** | 非GAAP EPS $0.86，按32.2M股 |\n| 2026H1营收 | **$182.621M** | 上年同期$172.171M |\n| Q3营收指引 | **$105.5M-$108.5M** | 截至2026-09-30季度 |\n\n资产负债表方面，2026-06-30现金及等价物$38.6M、短期投资$94.4M、长期投资$130.7M，合计约$263.7M；当期债务包括短期$57.0M和长期$184.9M，总债务约$242M。2026-09-11公司公告计划以现金和新发行普通股回购大部分2027年可转债，这会改善债务结构，但也需跟踪股本稀释。2025财年营收$361.1M、GAAP净亏损$10.8M、调整后EBITDA $69.6M，说明公司正处于从亏损向盈利改善的过渡期。\n\n## 产品与技术路线\n\n- **标签芯片**：RAIN RFID标签的核心芯片，附着到单品、托盘、行李和资产，是最显著的规模化入口。\n- **读写器**：固定式和手持读写器连接物理物品与后台系统，形成数据采集闭环。\n- **Impinj平台**：把RFID事件整理为企业可用的资产、库存和流程数据。\n- **M800与Gen2X**：M800系列是主力产品，Gen2X进一步把芯片、读写器和软件整合成端到端平台，帮助客户降低部署复杂度。\n- **技术趋势**：更强读取灵敏度、更高并发、更低功耗和更丰富数据接口，支持从“识别”向“实时运营”演进。\n\n## 竞争护城河与风险\n\n**护城河**：Impinj在RAIN RFID标签芯片份额和品牌认知上领先，生态中inlay厂商、读写器厂商、系统商和行业客户已经围绕其标准形成协同；芯片加读写器加平台的组合提高了客户黏性。RFID单价低，但进入零售、航空行李、汽车制造等核心流程后，替换成本和数据迁移成本较高。\n\n**风险**：零售和物流有宏观周期，客户采购节奏可能放缓；RFID标签价格竞争激烈，规模必须持续转化为毛利率；读写器与系统业务要面对Zebra等整体方案商；非GAAP指标不等同于GAAP净利润，可转债回购也会影响股本结构。\n\n## 行业与增长驱动\n\nImpinj的增长来自三条线：一是零售和服饰单品级RFID渗透率继续提高；二是物流、行李、供应链和资产管理把RFID从试点扩展到全流程；三是Gen2X和平台软件让客户从“读取数据”升级到“用数据做决策”。RFID数据的边际成本低，且越接近门店、仓库和产线，越难被纯软件方案替代。\n\n## 动态更新记录\n\n### 2026-09-15：薄档升级为全面档\n- **来源**：Impinj 2026Q2官方业绩稿、StockTitan披露页、Yahoo Finance行情，归档于`L0-原始资料池/03-新闻/2026-09-15-F5批次-AI云与模拟组4家-数据溯源.md`（input_20260915_136）。\n- **核心更新**：补齐2026Q2、2026H1、2025财年财务，资产负债表、Q3指引、可转债回购、M800/Gen2X产品线和竞争格局。\n- **关键区分**：调整后EBITDA和非GAAP净利为公司非GAAP口径；市值按2026-09-15 Yahoo Finance数据估算。",
+      "content_preview": "# Impinj\n\n> 美国RAIN RFID芯片与物联网平台公司，提供标签芯片、读写器和解决方案，位于半导体L3芯片设计与制造层。2026Q2营收$108.4M创纪录，GAAP净利$12.2M，调整后EBITDA $30.7M；Q3营收指引$105.5M-$108.5M。\n | Impinj的价值在“芯片+读写器+平台”闭环：标签芯片全球份额高，读写器和软件把海量RFID数据变成企业流程。RFID支出具有周期性，但单件物品的数据化一旦进入零售、行李、物流等核心流程，替换成本会明显提高。",
       "sources": ""
     },
     {
@@ -46897,17 +47083,23 @@
       "slug": "fireworks-ai",
       "type": "company",
       "country": "US",
-      "ticker": "",
-      "one_liner": "AI推理平台，高速大模型API，PyTorch原生推理优化，位于产业链L4终端应用与服务（核心参与者）",
-      "description": "AI推理平台，高速大模型API，PyTorch原生推理优化",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
+      "ticker": "FIREWORKS",
+      "one_liner": "美国AI推理与特化模型平台，提供开源及企业专属模型的高吞吐推理、微调与训练服务，位于AI算力L4应用与平台层。2026-07完成$1.505B Series D，投后估值$17.5B；公告称年化收入run rate超$1B、日处理超40万亿token。\n",
+      "description": "Fireworks AI的商业命题是“企业不要只租通用智能，而要拥有围绕自己数据训练的专属智能”。它把开源模型、推理优化、微调和Training API组合起来，让模型能力绑定在企业工作流和专有数据上，从而提高迁移成本。",
+      "core_business": [
+        "高吞吐开源与定制模型推理API",
+        "企业专有数据模型特化、微调与训练",
+        "推理优化、量化、批处理与集群调度",
+        "Training API与企业级模型托管",
+        "Agent、代码、法律、搜索和RAG等场景模型服务"
+      ],
+      "revenue_model": "收入主要来自按token/API调用计费的推理服务、模型微调与训练订阅。2026-07公告口径为年化收入run rate超$1B；该指标强调年化速度，不等同于经审计GAAP收入或净利润。",
+      "founded": 2022,
+      "headquarters": "美国旧金山",
+      "employees": "未披露",
+      "latest_revenue": "年化收入run rate超$1B（2026-07公司公告口径）",
+      "market_cap": "未上市；Series D投后估值$17.5B（2026.7）",
+      "data_freshness_date": "2026-09-15",
       "industry": "AI算力",
       "industries": [
         "AI算力"
@@ -46917,16 +47109,89 @@
       ],
       "chain_layer": "L4",
       "chain_role": "核心参与者",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "suppliers": [
+        {
+          "company": "NVIDIA",
+          "ticker": "NVDA",
+          "supplies": "AI GPU与推理基础设施",
+          "note": "NVIDIA参与Series D，双方在推理生态协同"
+        },
+        {
+          "company": "云数据中心与基础设施供应商",
+          "supplies": "GPU集群、电力与网络"
+        }
+      ],
+      "customers": [
+        {
+          "company": "Cursor",
+          "note": "AI编程应用，训练专用代码模型"
+        },
+        {
+          "company": "Harvey",
+          "note": "法律AI应用，构建专用智能"
+        },
+        {
+          "company": "Samsung",
+          "note": "企业级特化模型场景客户"
+        },
+        {
+          "company": "GitLab",
+          "note": "开发者工作流与AI功能客户"
+        },
+        {
+          "company": "企业客户",
+          "note": "使用开源模型微调、专有数据特化与托管推理"
+        }
+      ],
+      "partners": [
+        {
+          "company": "Atreides Management",
+          "area": "Series D领投"
+        },
+        {
+          "company": "Index Ventures",
+          "area": "Series D领投"
+        },
+        {
+          "company": "TCV",
+          "area": "Series D领投"
+        },
+        {
+          "company": "NVIDIA",
+          "ticker": "NVDA",
+          "area": "Series D参投与推理算力生态"
+        },
+        {
+          "company": "Microsoft Foundry",
+          "area": "官方博客披露Fireworks接入Microsoft Foundry提供开源模型推理"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "Together AI",
+          "ticker": "TOGETHER",
+          "area": "开源模型推理、微调与AI原生云"
+        },
+        {
+          "company": "Groq",
+          "ticker": "GROQ",
+          "area": "低延迟专用推理云"
+        },
+        {
+          "company": "OpenAI / Anthropic",
+          "area": "前沿闭源模型API"
+        },
+        {
+          "company": "AWS / Azure / Google Cloud",
+          "area": "云厂商托管推理与企业AI平台"
+        }
+      ],
       "tags": [],
-      "website": "https://www.fireworks.ai",
+      "website": "https://fireworks.ai",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# Fireworks AI\n\nAI推理平台，高速大模型API，PyTorch原生推理优化",
-      "content_preview": "# Fireworks AI\n\n> AI推理平台，高速大模型API，PyTorch原生推理优化，位于产业链L4终端应用与服务（核心参与者） | AI推理平台，高速大模型API，PyTorch原生推理优化",
+      "content": "# Fireworks AI\n\nFireworks AI的商业命题是“企业不要只租通用智能，而要拥有围绕自己数据训练的专属智能”。它把开源模型、推理优化、微调和Training API组合起来，让模型能力绑定在企业工作流和专有数据上，从而提高迁移成本。\n\n## 财务状况与融资\n\n公司未披露完整GAAP报表，最新公开经营指标来自2026-07-15融资公告。\n\n| 指标 | 数值 | 口径说明 |\n|------|------|----------|\n| Series D | **$1.505B** | 2026-07-15宣布 |\n| 投后估值 | **$17.5B** | 私募轮估值，非二级市场市值 |\n| 领投方 | Atreides Management、Index Ventures、TCV | Evantic、Lightspeed、NVIDIA、20VC、Bessemer、Menlo等参投 |\n| 年化收入run rate | >$1B | annualized revenue run rate，非经审计GAAP收入 |\n| 日处理token | >40万亿 | 公司公告运营口径 |\n| 专有数据特化模型token占比 | >95% | 公司公告口径，反映工作负载结构 |\n| Training API | 2026-08-31 GA | 官方相关更新 |\n\n$1B ARR说明商业化速度很快，但AI推理平台的核心不是把模型调起来，而是在客户模型、吞吐、延迟、成本和稳定性之间持续保持帕累托优势。后续要看ARR的留存率、推理毛利率、GPU采购节奏和Training API能否带来更高的客单价。\n\n## 产品与技术路线\n\n- **托管推理**：对开源与定制模型提供高吞吐、低延迟API，按token/调用计费。\n- **模型特化**：使用企业客户关系、工作流、文档和专有数据微调模型，让输出贴合业务规则。\n- **Training API**：2026-08-31正式GA，把训练、评测和部署从项目服务推进到可自动化平台能力。\n- **推理优化**：通过量化、批处理、调度和专用运行时提升单位GPU产出，这是和通用云竞争的关键。\n- **场景落地**：Cursor的代码模型、Harvey的法律AI、GitLab的开发者工作流和Samsung的企业场景构成参考客户群。\n\n## 竞争定位\n\nFireworks与Together AI最接近，都在争夺开源模型推理和企业定制训练；与Groq相比，Fireworks更侧重模型工程和专用数据，而不是单一路径的低延迟硬件；与OpenAI、Anthropic相比，它让企业拥有特化模型而非完全依赖闭源API；与三大云相比，它的优势是更新快、优化更深、客户专属模型更容易绑定。风险是云厂商复制托管能力、开源模型快速演进导致技术溢价缩短，以及NVIDIA/GPU供给的价格波动。\n\n## 客户与生态\n\nNVIDIA参与D轮并保持算力生态协同；Microsoft Foundry接入Fireworks，说明开源模型推理能力已被主流云平台吸纳，这既是渠道，也带来合作与竞争边界。Cursor、Harvey、Samsung、GitLab覆盖编程、法律、企业运营和开发者工具，客户类型分散，比单一AI应用客户更能验证平台化需求。\n\n## 动态更新记录\n\n### 2026-09-15：薄档升级为全面档\n- **来源**：Fireworks官方2026-07-15 Series D公告和Training API GA更新，归档于`L0-原始资料池/03-新闻/2026-09-15-F5批次-AI云与模拟组4家-数据溯源.md`（input_20260915_136）。\n- **核心更新**：补齐$17.5B投后估值、$1B ARR、日token量、专有模型占比、领投方、客户与Training API进展。\n- **关键区分**：ARR是年化收入run rate，不是经审计GAAP收入；$17.5B是私募估值，不是市值。",
+      "content_preview": "# Fireworks AI\n\n> 美国AI推理与特化模型平台，提供开源及企业专属模型的高吞吐推理、微调与训练服务，位于AI算力L4应用与平台层。2026-07完成$1.505B Series D，投后估值$17.5B；公告称年化收入run rate超$1B、日处理超40万亿token。\n | Fireworks AI的商业命题是“企业不要只租通用智能，而要拥有围绕自己数据训练的专属智能”。它把开源模型、推理优化、微调和Training API组合起来，让模型能力绑定在企业工作流和专有数据上，从而提高迁移成本。",
       "sources": ""
     },
     {
