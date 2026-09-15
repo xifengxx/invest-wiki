@@ -109,7 +109,6 @@ PRIVATE_TICKERS = {
     "ANTHROPIC",
     "DEEPSEEK",
     "HUGGINGFACE",
-    "MTHREAD",
     "BIREN",
     "ILUVATAR",
     "CXMT",

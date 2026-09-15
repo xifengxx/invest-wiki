@@ -101,7 +101,7 @@ companies:
   role: 二线弹性
   rev: 60
 - ticker: NVMI
-  name: Nova Measuring Instruments
+  name: Nova Ltd
   role: 二线弹性
   rev: 75
 - ticker: '300567'

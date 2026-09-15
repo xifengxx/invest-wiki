@@ -9,8 +9,8 @@
     "source_company_links": 494,
     "unique_companies": 326,
     "overseas_quote_candidates": 173,
-    "a_share_mapping_companies": 93,
-    "private_or_untradable": 60
+    "a_share_mapping_companies": 94,
+    "private_or_untradable": 59
   },
   "segments": [
     {
@@ -2543,6 +2543,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "688795",
+          "source_tickers": [
+            "688795"
+          ],
+          "name": "摩尔线程",
+          "roles": [
+            "概念股"
+          ],
+          "rev": 80.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
           "ticker": "AMD",
           "source_tickers": [
             "AMD"
@@ -2599,20 +2613,6 @@
           "in_overseas_heat": true
         },
         {
-          "ticker": "MTHREAD",
-          "source_tickers": [
-            "MTHREAD"
-          ],
-          "name": "摩尔线程",
-          "roles": [
-            "概念股"
-          ],
-          "rev": 80.0,
-          "market_guess": "PRIVATE",
-          "tradable": false,
-          "in_overseas_heat": false
-        },
-        {
           "ticker": "NVDA",
           "source_tickers": [
             "NVDA"
@@ -2630,11 +2630,16 @@
       "n_source_companies": 7,
       "n_unique_companies": 7,
       "n_overseas_candidates": 3,
-      "n_a_share_mapping": 1,
+      "n_a_share_mapping": 2,
       "a_share": [
         {
           "name": "景嘉微",
           "ticker": "300474",
+          "role": "概念股"
+        },
+        {
+          "name": "摩尔线程",
+          "ticker": "688795",
           "role": "概念股"
         }
       ]
@@ -4956,7 +4961,7 @@
           "source_tickers": [
             "NVMI"
           ],
-          "name": "Nova Measuring Instruments",
+          "name": "Nova Ltd",
           "roles": [
             "二线弹性"
           ],
@@ -10154,6 +10159,15 @@
         "semi-cis-sensor"
       ]
     },
+    "688795": {
+      "ticker": "688795",
+      "name": "摩尔线程",
+      "market_guess": "CN",
+      "tradable": true,
+      "segments": [
+        "gpu-architecture"
+      ]
+    },
     "688981": {
       "ticker": "688981",
       "name": "中芯国际",
@@ -11280,15 +11294,6 @@
         "dpu-smartnic"
       ]
     },
-    "MTHREAD": {
-      "ticker": "MTHREAD",
-      "name": "摩尔线程",
-      "market_guess": "PRIVATE",
-      "tradable": false,
-      "segments": [
-        "gpu-architecture"
-      ]
-    },
     "MTRN": {
       "ticker": "MTRN",
       "name": "Materion",
@@ -11382,7 +11387,7 @@
     },
     "NVMI": {
       "ticker": "NVMI",
-      "name": "Nova Measuring Instruments",
+      "name": "Nova Ltd",
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
@@ -11964,12 +11969,12 @@
       ]
     }
   },
-  "version": "2026-09-16.3",
+  "version": "2026-09-16.6",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-16T00:10:27+08:00",
-  "source_generated_at": "2026-09-16T00:09:56+08:00",
-  "source_sha256": "2db53a49fe44885f1b983161061f7a03906e65e13c790fdd2fd5b7610402bd53",
-  "source_hash8": "2db53a49",
-  "source_commit": "7ddb7672b0bce04d45550f5b86fa189da61b8e62",
+  "built_at": "2026-09-16T00:23:53+08:00",
+  "source_generated_at": "2026-09-16T00:23:16+08:00",
+  "source_sha256": "3519a85b6b9d0c9da37b65af30b5540762beea8348b443060c658f0ad6bf69a8",
+  "source_hash8": "3519a85b",
+  "source_commit": "969f04ff048ac920983274ca580148096bf510b4",
   "source_dirty": false
 }

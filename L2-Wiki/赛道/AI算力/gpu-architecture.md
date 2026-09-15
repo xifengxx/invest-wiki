@@ -43,7 +43,7 @@ competition:
     note: BR100 7nm，未上市
   - name: 摩尔线程
     share: '-'
-    note: MTT S系列全功能GPU，未上市
+    note: 688795 MTT S系列全功能GPU，2025-12-05科创板挂牌
   barriers:
   - item: CUDA生态锁定
     detail: 全球90%+AI框架基于CUDA，新进入者切换成本极高
@@ -88,7 +88,7 @@ companies:
   name: 景嘉微
   role: 概念股
   rev: 60
-- ticker: MTHREAD
+- ticker: '688795'
   name: 摩尔线程
   role: 概念股
   rev: 80
