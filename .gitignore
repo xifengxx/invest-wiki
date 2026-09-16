@@ -37,3 +37,4 @@ L0-原始资料池/_attachments/*.docx
 # Temporary working files
 *_content.json
 !L0-原始资料池/**/*.json
+.claude/
