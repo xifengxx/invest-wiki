@@ -127,6 +127,10 @@ companies:
   name: 北方华创
   role: 国产龙头
   rev: 40
+- ticker: ASM.AS
+  name: ASM International
+  role: 龙头
+  rev: 30
 key_inputs:
 - 溅射靶材
 - 半导体设备零部件
@@ -156,6 +160,7 @@ sources:
   summary: AI驱动存储超级周期，ALD设备黄金发展期，拓荆科技CVD/ALD龙头
   url: https://stock.finance.sina.com.cn/stock/view/paper.php
 ---
+
 
 # 薄膜沉积设备
 

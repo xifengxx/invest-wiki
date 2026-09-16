@@ -92,6 +92,14 @@ companies:
   name: 建龙微纳
   role: 概念相关
   rev: 15
+- ticker: MKSI
+  name: MKS Instruments
+  role: 龙头
+  rev: 85
+- ticker: VACN.SW
+  name: VAT Group AG
+  role: 龙头
+  rev: 90
 sources:
 - title: 华兴证券 SEMICON China 2026解读
   summary: 成熟制程零部件国产化率>50%，先进制程核心件<10%但供不应求
@@ -100,6 +108,8 @@ sources:
   summary: 七大类零部件，机械类占30%国产化最高，光学/电气类极低
   url: https://dxpress.gelonghui.com/p/4270836
 ---
+
+
 
 # 半导体设备零部件
 

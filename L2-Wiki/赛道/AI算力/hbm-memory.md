@@ -86,7 +86,7 @@ companies:
   role: 二线弹性
   rev: 10
 - ticker: CXMT
-  name: CXMT (长鑫存储)
+  name: 长鑫科技
   role: 概念股
   rev: 10
 - ticker: '2344'
@@ -125,6 +125,7 @@ sources:
   summary: ''
   url: ''
 ---
+
 
 # HBM高带宽内存
 

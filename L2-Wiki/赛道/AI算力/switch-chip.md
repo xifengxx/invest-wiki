@@ -108,6 +108,10 @@ companies:
   name: Intel
   role: 二线弹性
   rev: 10
+- ticker: ALAB
+  name: Astera Labs
+  role: 龙头
+  rev: 90
 key_customers:
 - AI训练集群/超算
 sources:
@@ -117,8 +121,11 @@ sources:
 - title: Crehan Research Data Center Switch 2025
   summary: ''
   url: ''
+key_inputs:
+- EDA与IP核
+- 晶圆代工(先进制程)
+---
 
-key_inputs: ["EDA与IP核", "晶圆代工(先进制程)"]---
 
 # 网络交换芯片
 

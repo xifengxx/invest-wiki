@@ -95,7 +95,7 @@ companies:
   role: 二线弹性
   rev: 70
 - ticker: '4091'
-  name: Nippon Sanso (大阳日酸)
+  name: Taiyo Nippon Sanso
   role: 二线弹性
   rev: 12
 - ticker: '688268'
@@ -153,6 +153,7 @@ sources:
   summary: 中国国产化率25%, 华特气体唯一通过ASML认证, 中船特气NF3产能全球第一
   url: https://m.sohu.com/a/969956465_122014422
 ---
+
 
 # 电子特气
 

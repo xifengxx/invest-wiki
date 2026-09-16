@@ -96,6 +96,10 @@ companies:
   name: Texas Instruments
   role: 全球二线
   rev: 20
+- ticker: MCHP
+  name: Microchip Technology
+  role: 龙头
+  rev: 90
 sources:
 - title: Yole Group 2025全球车用半导体排名
   summary: 2025年全球车用半导体744亿美元，英飞凌MCU份额36%遥遥领先
@@ -104,6 +108,7 @@ sources:
   summary: 高端MCU英飞凌/NXP产能紧张，中低端国产替代加速
   url: https://jiweipreview.laoyaoba.com/html/share/news/951280
 ---
+
 
 # MCU与嵌入式处理器
 

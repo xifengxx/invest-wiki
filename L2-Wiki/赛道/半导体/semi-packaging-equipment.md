@@ -74,14 +74,14 @@ companies:
   role: 贴片/混合键合龙头
   rev: 55
 - ticker: 0522.HK
-  name: ASMPT
+  name: ASM Pacific Technology
   role: TCB龙头
   rev: 50
 - ticker: KLIC
   name: Kulicke & Soffa (K&S)
   role: 引线键合龙头
   rev: 45
-- ticker: '6146.T'
+- ticker: 6146.T
   name: Disco Corporation
   role: 划片机龙头
   rev: 60
@@ -90,6 +90,8 @@ sources:
   summary: 2025半导体后端设备约$69亿(CAGR 5.8%)，键合机TCB $5.42亿/混合键合$1.52亿(CAGR 21%)，Besi贴片机份额~39%
   url: https://www.electronicsweekly.com/news/business/back-end-equipment-sales-growing-at-6-cagr-2025-08/
 ---
+
+
 
 # 封装设备
 

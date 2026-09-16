@@ -112,6 +112,10 @@ companies:
   name: 华峰测控
   role: 国产替代
   rev: 50
+- ticker: ''
+  name: Horiba
+  role: 龙头
+  rev: 80
 wikilinks:
 - 晶圆代工(先进制程)
 - 存储芯片(DRAM/NAND)
@@ -148,6 +152,8 @@ sources:
   summary: 产品线覆盖70%市场种类, 累计出货超1000台, KLA核心挑战者
   url: https://www.mycaijing.com/article/detail/553847
 ---
+
+
 
 # 检测量测设备
 

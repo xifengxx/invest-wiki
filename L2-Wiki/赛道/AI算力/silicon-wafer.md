@@ -120,7 +120,7 @@ companies:
   name: 立昂微
   role: 国产龙头
   rev: 50
-- ticker: '002129'
+- ticker: 002129
   name: 中环股份
   role: 国产二线
   rev: 20
@@ -132,6 +132,10 @@ companies:
   name: 上海合晶
   role: 国产替代
   rev: 45
+- ticker: IQE.L
+  name: IQE plc
+  role: 龙头
+  rev: 90
 key_inputs:
 - 多晶硅
 - 拉晶炉
@@ -160,6 +164,7 @@ sources:
   summary: 重掺硅片涨价10-15%，海外仅承接3%增量，80%+增量转向国内
   url: https://xueqiu.com/1115084350/394380086
 ---
+
 
 # 高纯硅料与硅片
 

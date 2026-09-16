@@ -107,6 +107,18 @@ companies:
   name: 闻泰科技(安世)
   role: 国产替代
   rev: 25
+- ticker: 6504.T
+  name: Fuji Electric
+  role: 龙头
+  rev: 70
+- ticker: 6963.T
+  name: ROHM Semiconductor
+  role: 龙头
+  rev: 75
+- ticker: WOLF
+  name: Wolfspeed
+  role: 龙头
+  rev: 95
 sources:
 - title: Yole Group《2026年电力电子行业现状》
   summary: 全球电力电子市场CAGR 7.1%至2031年达413亿美元，英飞凌全产品组合遥遥领先，中国5家进入TOP20
@@ -115,6 +127,9 @@ sources:
   summary: 2025年全球557亿美元，前五占45.5%份额，SiC/GaN至2031年占31%
   url: https://www.gminsights.com/zh/industry-analysis/power-semiconductor-market
 ---
+
+
+
 
 # 功率半导体
 

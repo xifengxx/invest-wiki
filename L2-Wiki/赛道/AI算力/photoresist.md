@@ -125,6 +125,10 @@ companies:
   name: 安集科技
   role: 国产替代
   rev: 30
+- ticker: DD
+  name: DuPont
+  role: 龙头
+  rev: 85
 wikilinks:
 - 晶圆代工(先进制程)
 - 高纯硅料与硅片
@@ -162,6 +166,7 @@ sources:
   summary: i线国产>40%已批量, KrF~10-15%加速替代, ArF南大光电55nm验证通过
   url: https://caifuhao.eastmoney.com/news/20260703073816864176340
 ---
+
 
 # 光刻胶与湿化学品
 

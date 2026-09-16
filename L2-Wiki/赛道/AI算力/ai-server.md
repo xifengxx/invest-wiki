@@ -126,6 +126,10 @@ companies:
   name: 联想
   role: 二线弹性
   rev: 10
+- ticker: 2317.TW
+  name: 鸿海精密 (富士康/Foxconn)
+  role: 龙头
+  rev: 60
 key_customers:
 - 云计算IaaS
 - AI训练集群/超算
@@ -146,6 +150,7 @@ sources:
   summary: ''
   url: ''
 ---
+
 
 # AI服务器
 

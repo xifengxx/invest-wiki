@@ -72,11 +72,11 @@ companies:
   role: 龙头
   rev: 90
 - ticker: CXMT
-  name: CXMT (长鑫存储)
+  name: 长鑫科技
   role: 概念股
   rev: 95
 - ticker: YMTC
-  name: YMTC (长江存储)
+  name: 长江存储
   role: 概念股
   rev: 95
 - ticker: MU
@@ -84,7 +84,7 @@ companies:
   role: 龙头
   rev: 85
 - ticker: KIOXIA
-  name: Kioxia
+  name: Kioxia Holdings
   role: 二线弹性
   rev: 95
 - ticker: WDC
@@ -107,6 +107,10 @@ companies:
   name: Nanya Technology (南亚科技)
   role: 二线弹性
   rev: 80
+- ticker: 688008.SH
+  name: 澜起科技
+  role: 龙头
+  rev: 85
 wikilinks:
 - 光掩模版
 - 电子特气
@@ -144,6 +148,10 @@ sources:
   summary: ''
   url: ''
 ---
+
+
+
+
 
 # 存储芯片(DRAM/NAND)
 

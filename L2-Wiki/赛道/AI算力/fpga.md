@@ -89,6 +89,10 @@ companies:
   name: 安路科技
   role: 国产替代
   rev: 55
+- ticker: XLNX
+  name: Xilinx(AMD)
+  role: 龙头
+  rev: 85
 key_inputs:
 - EDA与IP核
 - 晶圆代工(先进制程)
@@ -120,6 +124,7 @@ sources:
   summary: 国产FPGA研发占比77%, 但<500K逻辑单元vs Xilinx 18,507K差距仍大
   url: https://www.laoyaoba.com/html/share/news/960587
 ---
+
 
 # FPGA
 

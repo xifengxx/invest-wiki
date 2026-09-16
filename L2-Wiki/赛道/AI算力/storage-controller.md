@@ -74,7 +74,7 @@ wikilinks:
 - 企业级存储
 companies:
 - ticker: YMTC
-  name: YMTC (长江存储)
+  name: 长江存储
   role: 二线弹性
   rev: 60
 - ticker: 005930
@@ -82,7 +82,7 @@ companies:
   role: 龙头
   rev: 40
 - ticker: 285A
-  name: Kioxia
+  name: Kioxia Holdings
   role: 二线弹性
   rev: 80
 - ticker: WDC
@@ -106,8 +106,12 @@ sources:
 - title: YMTC Xtacking 4.0 Technology
   summary: ''
   url: ''
+key_inputs:
+- 存储芯片(DRAM/NAND)
+- EDA与IP核
+---
 
-key_inputs: ["存储芯片(DRAM/NAND)", "EDA与IP核"]---
+
 
 # NVMe/存储芯片
 

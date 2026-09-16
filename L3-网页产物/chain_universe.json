@@ -6,10 +6,10 @@
     "source_segments": 67,
     "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
-    "source_company_links": 494,
-    "unique_companies": 326,
-    "overseas_quote_candidates": 173,
-    "a_share_mapping_companies": 94,
+    "source_company_links": 510,
+    "unique_companies": 341,
+    "overseas_quote_candidates": 187,
+    "a_share_mapping_companies": 95,
     "private_or_untradable": 59
   },
   "segments": [
@@ -964,6 +964,20 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "2317.TW",
+          "source_tickers": [
+            "2317.TW"
+          ],
+          "name": "鸿海精密 (富士康/Foxconn)",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 60.0,
+          "market_guess": "TW",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "601138",
           "source_tickers": [
             "601138"
@@ -1062,9 +1076,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 11,
-      "n_unique_companies": 11,
-      "n_overseas_candidates": 6,
+      "n_source_companies": 12,
+      "n_unique_companies": 12,
+      "n_overseas_candidates": 7,
       "n_a_share_mapping": 4,
       "a_share": [
         {
@@ -2372,11 +2386,25 @@
           "market_guess": "US_LIKE",
           "tradable": true,
           "in_overseas_heat": true
+        },
+        {
+          "ticker": "XLNX",
+          "source_tickers": [
+            "XLNX"
+          ],
+          "name": "Xilinx(AMD)",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 85.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 5,
-      "n_unique_companies": 5,
-      "n_overseas_candidates": 3,
+      "n_source_companies": 6,
+      "n_unique_companies": 6,
+      "n_overseas_candidates": 4,
       "n_a_share_mapping": 2,
       "a_share": [
         {
@@ -2718,7 +2746,7 @@
           "source_tickers": [
             "CXMT"
           ],
-          "name": "CXMT (长鑫存储)",
+          "name": "长鑫科技",
           "roles": [
             "概念股"
           ],
@@ -2780,7 +2808,7 @@
           "source_tickers": [
             "285A"
           ],
-          "name": "Kioxia",
+          "name": "Kioxia Holdings",
           "roles": [
             "二线弹性"
           ],
@@ -2836,7 +2864,7 @@
           "source_tickers": [
             "YMTC"
           ],
-          "name": "YMTC (长江存储)",
+          "name": "长江存储",
           "roles": [
             "二线弹性"
           ],
@@ -3780,6 +3808,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "DD",
+          "source_tickers": [
+            "DD"
+          ],
+          "name": "DuPont",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 85.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "JSR",
           "source_tickers": [
             "JSR"
@@ -3794,9 +3836,9 @@
           "in_overseas_heat": false
         }
       ],
-      "n_source_companies": 10,
-      "n_unique_companies": 10,
-      "n_overseas_candidates": 4,
+      "n_source_companies": 11,
+      "n_unique_companies": 11,
+      "n_overseas_candidates": 5,
       "n_a_share_mapping": 5,
       "a_share": [
         {
@@ -4985,7 +5027,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 11,
+      "n_source_companies": 12,
       "n_unique_companies": 11,
       "n_overseas_candidates": 7,
       "n_a_share_mapping": 3,
@@ -5222,7 +5264,7 @@
           "source_tickers": [
             "4091"
           ],
-          "name": "Nippon Sanso (大阳日酸)",
+          "name": "Taiyo Nippon Sanso",
           "roles": [
             "二线弹性"
           ],
@@ -5381,6 +5423,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "ALAB",
+          "source_tickers": [
+            "ALAB"
+          ],
+          "name": "Astera Labs",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 90.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "ANET",
           "source_tickers": [
             "ANET"
@@ -5493,9 +5549,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 9,
-      "n_unique_companies": 9,
-      "n_overseas_candidates": 7,
+      "n_source_companies": 10,
+      "n_unique_companies": 10,
+      "n_overseas_candidates": 8,
       "n_a_share_mapping": 1,
       "a_share": [
         {
@@ -5958,6 +6014,20 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "ASM.AS",
+          "source_tickers": [
+            "ASM.AS"
+          ],
+          "name": "ASM International",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 30.0,
+          "market_guess": "NL",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "LRCX",
           "source_tickers": [
             "LRCX"
@@ -5986,9 +6056,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 9,
-      "n_unique_companies": 9,
-      "n_overseas_candidates": 6,
+      "n_source_companies": 10,
+      "n_unique_companies": 10,
+      "n_overseas_candidates": 7,
       "n_a_share_mapping": 3,
       "a_share": [
         {
@@ -6398,6 +6468,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "IQE.L",
+          "source_tickers": [
+            "IQE.L"
+          ],
+          "name": "IQE plc",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 90.0,
+          "market_guess": "GB",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "SOI.PA",
           "source_tickers": [
             "SOI.PA"
@@ -6426,9 +6510,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 10,
-      "n_unique_companies": 10,
-      "n_overseas_candidates": 5,
+      "n_source_companies": 11,
+      "n_unique_companies": 11,
+      "n_overseas_candidates": 6,
       "n_a_share_mapping": 5,
       "a_share": [
         {
@@ -7085,6 +7169,20 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "MCHP",
+          "source_tickers": [
+            "MCHP"
+          ],
+          "name": "Microchip Technology",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 90.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "NXPI",
           "source_tickers": [
             "NXPI"
@@ -7141,9 +7239,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 5,
-      "n_unique_companies": 5,
-      "n_overseas_candidates": 5,
+      "n_source_companies": 6,
+      "n_unique_companies": 6,
+      "n_overseas_candidates": 6,
       "n_a_share_mapping": 0,
       "a_share": []
     },
@@ -7564,6 +7662,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "6504.T",
+          "source_tickers": [
+            "6504.T"
+          ],
+          "name": "Fuji Electric",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 70.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "688396",
           "source_tickers": [
             "688396"
@@ -7576,6 +7688,20 @@
           "market_guess": "CN",
           "tradable": true,
           "in_overseas_heat": false
+        },
+        {
+          "ticker": "6963.T",
+          "source_tickers": [
+            "6963.T"
+          ],
+          "name": "ROHM Semiconductor",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 75.0,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
         },
         {
           "ticker": "IFX.DE",
@@ -7618,11 +7744,25 @@
           "market_guess": "US_LIKE",
           "tradable": true,
           "in_overseas_heat": true
+        },
+        {
+          "ticker": "WOLF",
+          "source_tickers": [
+            "WOLF"
+          ],
+          "name": "Wolfspeed",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 95.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 6,
-      "n_unique_companies": 6,
-      "n_overseas_candidates": 3,
+      "n_source_companies": 9,
+      "n_unique_companies": 9,
+      "n_overseas_candidates": 6,
       "n_a_share_mapping": 3,
       "a_share": [
         {
@@ -7696,11 +7836,39 @@
           "market_guess": "CN",
           "tradable": true,
           "in_overseas_heat": false
+        },
+        {
+          "ticker": "MKSI",
+          "source_tickers": [
+            "MKSI"
+          ],
+          "name": "MKS Instruments",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 85.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "VACN.SW",
+          "source_tickers": [
+            "VACN.SW"
+          ],
+          "name": "VAT Group AG",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 90.0,
+          "market_guess": "CH",
+          "tradable": true,
+          "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 3,
-      "n_unique_companies": 3,
-      "n_overseas_candidates": 0,
+      "n_source_companies": 5,
+      "n_unique_companies": 5,
+      "n_overseas_candidates": 2,
       "n_a_share_mapping": 3,
       "a_share": [
         {
@@ -7808,7 +7976,7 @@
           "source_tickers": [
             "KIOXIA"
           ],
-          "name": "Kioxia",
+          "name": "Kioxia Holdings",
           "roles": [
             "二线弹性"
           ],
@@ -7816,6 +7984,20 @@
           "market_guess": "JP",
           "tradable": true,
           "in_overseas_heat": true
+        },
+        {
+          "ticker": "688008.SH",
+          "source_tickers": [
+            "688008.SH"
+          ],
+          "name": "澜起科技",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 85.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
         },
         {
           "ticker": "8299.TW",
@@ -7836,7 +8018,7 @@
           "source_tickers": [
             "CXMT"
           ],
-          "name": "CXMT (长鑫存储)",
+          "name": "长鑫科技",
           "roles": [
             "概念股"
           ],
@@ -7878,7 +8060,7 @@
           "source_tickers": [
             "YMTC"
           ],
-          "name": "YMTC (长江存储)",
+          "name": "长江存储",
           "roles": [
             "概念股"
           ],
@@ -7888,11 +8070,17 @@
           "in_overseas_heat": false
         }
       ],
-      "n_source_companies": 11,
-      "n_unique_companies": 11,
+      "n_source_companies": 12,
+      "n_unique_companies": 12,
       "n_overseas_candidates": 9,
-      "n_a_share_mapping": 0,
-      "a_share": []
+      "n_a_share_mapping": 1,
+      "a_share": [
+        {
+          "name": "澜起科技",
+          "ticker": "688008.SH",
+          "role": "龙头"
+        }
+      ]
     },
     {
       "segment_id": "semi-security-chip",
@@ -8138,7 +8326,7 @@
           "source_tickers": [
             "0522.HK"
           ],
-          "name": "ASMPT",
+          "name": "ASM Pacific Technology",
           "roles": [
             "TCB龙头"
           ],
@@ -8615,6 +8803,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "FORM",
+          "source_tickers": [
+            "FORM"
+          ],
+          "name": "FormFactor",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 85.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "TER",
           "source_tickers": [
             "TER"
@@ -8627,11 +8829,25 @@
           "market_guess": "US_LIKE",
           "tradable": true,
           "in_overseas_heat": true
+        },
+        {
+          "ticker": "TPRO.MI",
+          "source_tickers": [
+            "TPRO.MI"
+          ],
+          "name": "Technoprobe S.p.A.",
+          "roles": [
+            "龙头"
+          ],
+          "rev": 80.0,
+          "market_guess": "IT",
+          "tradable": true,
+          "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 4,
-      "n_unique_companies": 4,
-      "n_overseas_candidates": 2,
+      "n_source_companies": 6,
+      "n_unique_companies": 6,
+      "n_overseas_candidates": 4,
       "n_a_share_mapping": 2,
       "a_share": [
         {
@@ -9150,7 +9366,7 @@
     },
     "0522.HK": {
       "ticker": "0522.HK",
-      "name": "ASMPT",
+      "name": "ASM Pacific Technology",
       "market_guess": "HK",
       "tradable": true,
       "segments": [
@@ -9219,6 +9435,15 @@
       "tradable": true,
       "segments": [
         "server-power-ups"
+      ]
+    },
+    "2317.TW": {
+      "ticker": "2317.TW",
+      "name": "鸿海精密 (富士康/Foxconn)",
+      "market_guess": "TW",
+      "tradable": true,
+      "segments": [
+        "ai-server"
       ]
     },
     "2325.TW": {
@@ -9315,7 +9540,7 @@
     },
     "285A.T": {
       "ticker": "285A.T",
-      "name": "Kioxia",
+      "name": "Kioxia Holdings",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9599,7 +9824,7 @@
     },
     "4091.T": {
       "ticker": "4091.T",
-      "name": "Nippon Sanso (大阳日酸)",
+      "name": "Taiyo Nippon Sanso",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -9837,6 +10062,15 @@
         "server-power-ups"
       ]
     },
+    "6504.T": {
+      "ticker": "6504.T",
+      "name": "Fuji Electric",
+      "market_guess": "JP",
+      "tradable": true,
+      "segments": [
+        "semi-power-semiconductor"
+      ]
+    },
     "6525.T": {
       "ticker": "6525.T",
       "name": "Kokusai Electric",
@@ -9872,6 +10106,15 @@
       "segments": [
         "inspection-metrology",
         "semi-test-equipment"
+      ]
+    },
+    "688008.SH": {
+      "ticker": "688008.SH",
+      "name": "澜起科技",
+      "market_guess": "CN",
+      "tradable": true,
+      "segments": [
+        "semi-memory-chips"
       ]
     },
     "688012": {
@@ -10186,6 +10429,15 @@
         "inspection-metrology"
       ]
     },
+    "6963.T": {
+      "ticker": "6963.T",
+      "name": "ROHM Semiconductor",
+      "market_guess": "JP",
+      "tradable": true,
+      "segments": [
+        "semi-power-semiconductor"
+      ]
+    },
     "6967.T": {
       "ticker": "6967.T",
       "name": "Shinko Electric (新光电气)",
@@ -10374,6 +10626,15 @@
         "electronic-gas"
       ]
     },
+    "ALAB": {
+      "ticker": "ALAB",
+      "name": "Astera Labs",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "switch-chip"
+      ]
+    },
     "AMAT": {
       "ticker": "AMAT",
       "name": "Applied Materials",
@@ -10480,6 +10741,15 @@
       "tradable": true,
       "segments": [
         "server-cpu"
+      ]
+    },
+    "ASM.AS": {
+      "ticker": "ASM.AS",
+      "name": "ASM International",
+      "market_guess": "NL",
+      "tradable": true,
+      "segments": [
+        "thin-film-deposition"
       ]
     },
     "ASML": {
@@ -10716,7 +10986,7 @@
     },
     "CXMT": {
       "ticker": "CXMT",
-      "name": "CXMT (长鑫存储)",
+      "name": "长鑫科技",
       "market_guess": "PRIVATE",
       "tradable": false,
       "segments": [
@@ -10759,6 +11029,15 @@
       "tradable": true,
       "segments": [
         "data-center-idc"
+      ]
+    },
+    "DD": {
+      "ticker": "DD",
+      "name": "DuPont",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "photoresist"
       ]
     },
     "DEEPSEEK": {
@@ -10844,6 +11123,15 @@
       "tradable": false,
       "segments": [
         "ai-inference-api"
+      ]
+    },
+    "FORM": {
+      "ticker": "FORM",
+      "name": "FormFactor",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "semi-test-equipment"
       ]
     },
     "FUNGIBLE": {
@@ -11061,6 +11349,15 @@
         "switch-chip"
       ]
     },
+    "IQE.L": {
+      "ticker": "IQE.L",
+      "name": "IQE plc",
+      "market_guess": "GB",
+      "tradable": true,
+      "segments": [
+        "silicon-wafer"
+      ]
+    },
     "JCI": {
       "ticker": "JCI",
       "name": "Johnson Controls",
@@ -11188,6 +11485,15 @@
         "autonomous-driving"
       ]
     },
+    "MCHP": {
+      "ticker": "MCHP",
+      "name": "Microchip Technology",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "semi-mcu"
+      ]
+    },
     "MDTKF": {
       "ticker": "MDTKF",
       "name": "MediaTek (联发科)",
@@ -11218,6 +11524,15 @@
       "tradable": false,
       "segments": [
         "ai-inference-api"
+      ]
+    },
+    "MKSI": {
+      "ticker": "MKSI",
+      "name": "MKS Instruments",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "semi-equipment-parts"
       ]
     },
     "MODAL": {
@@ -11804,6 +12119,15 @@
         "ai-inference-api"
       ]
     },
+    "TPRO.MI": {
+      "ticker": "TPRO.MI",
+      "name": "Technoprobe S.p.A.",
+      "market_guess": "IT",
+      "tradable": true,
+      "segments": [
+        "semi-test-equipment"
+      ]
+    },
     "TSLA": {
       "ticker": "TSLA",
       "name": "Tesla",
@@ -11866,6 +12190,15 @@
         "semi-foundry-mature"
       ]
     },
+    "VACN.SW": {
+      "ticker": "VACN.SW",
+      "name": "VAT Group AG",
+      "market_guess": "CH",
+      "tradable": true,
+      "segments": [
+        "semi-equipment-parts"
+      ]
+    },
     "VANTAGE": {
       "ticker": "VANTAGE",
       "name": "Vantage Data Centers",
@@ -11913,6 +12246,15 @@
         "storage-controller"
       ]
     },
+    "WOLF": {
+      "ticker": "WOLF",
+      "name": "Wolfspeed",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "semi-power-semiconductor"
+      ]
+    },
     "WRD": {
       "ticker": "WRD",
       "name": "文远知行",
@@ -11931,9 +12273,18 @@
         "ai-inference-api"
       ]
     },
+    "XLNX": {
+      "ticker": "XLNX",
+      "name": "Xilinx(AMD)",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "fpga"
+      ]
+    },
     "YMTC": {
       "ticker": "YMTC",
-      "name": "YMTC (长江存储)",
+      "name": "长江存储",
       "market_guess": "PRIVATE",
       "tradable": false,
       "segments": [
@@ -11969,12 +12320,12 @@
       ]
     }
   },
-  "version": "2026-09-16.6",
+  "version": "2026-09-16.8",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-16T00:23:53+08:00",
-  "source_generated_at": "2026-09-16T00:23:16+08:00",
-  "source_sha256": "3519a85b6b9d0c9da37b65af30b5540762beea8348b443060c658f0ad6bf69a8",
-  "source_hash8": "3519a85b",
-  "source_commit": "969f04ff048ac920983274ca580148096bf510b4",
-  "source_dirty": false
+  "built_at": "2026-09-16T14:33:27+08:00",
+  "source_generated_at": "2026-09-16T14:33:27+08:00",
+  "source_sha256": "dcb4339505a57b1362600ea455cf04f6aca0e9e51b685e57c89423253cde3d23",
+  "source_hash8": "dcb43395",
+  "source_commit": "73b10a86827a78e0e074ecfe80a9ec9c221a38e3",
+  "source_dirty": true
 }

@@ -70,7 +70,7 @@ key_customers:
 - 存储芯片(DRAM/NAND)
 - 封装测试(OSAT)
 companies:
-- ticker: '6857.T'
+- ticker: 6857.T
   name: Advantest
   role: 存储测试龙头
   rev: 60
@@ -86,11 +86,21 @@ companies:
   name: 长川科技
   role: 国产二线
   rev: 35
+- ticker: FORM
+  name: FormFactor
+  role: 龙头
+  rev: 85
+- ticker: TPRO.MI
+  name: Technoprobe S.p.A.
+  role: 龙头
+  rev: 80
 sources:
 - title: 雪球《半导体测试设备总览2025》
   summary: 2025全球测试设备约$85亿（ATE 63%/探针台22%/分选机15%），Teradyne+Advantest合计~70%
   url: https://xueqiu.com/4313629558/371788291
 ---
+
+
 
 # 测试设备
 
