@@ -6,11 +6,11 @@
     "source_segments": 67,
     "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
-    "source_company_links": 584,
-    "unique_companies": 358,
-    "overseas_quote_candidates": 201,
-    "a_share_mapping_companies": 98,
-    "private_or_untradable": 59
+    "source_company_links": 589,
+    "unique_companies": 363,
+    "overseas_quote_candidates": 203,
+    "a_share_mapping_companies": 100,
+    "private_or_untradable": 60
   },
   "segments": [
     {
@@ -139,6 +139,20 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "FN",
+          "source_tickers": [
+            "FN"
+          ],
+          "name": "Fabrinet",
+          "roles": [
+            "龙头"
+          ],
+          "rev": null,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "SP",
           "source_tickers": [
             "SP"
@@ -153,9 +167,9 @@
           "in_overseas_heat": false
         }
       ],
-      "n_source_companies": 10,
-      "n_unique_companies": 9,
-      "n_overseas_candidates": 2,
+      "n_source_companies": 11,
+      "n_unique_companies": 10,
+      "n_overseas_candidates": 3,
       "n_a_share_mapping": 6,
       "a_share": [
         {
@@ -4405,6 +4419,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "301018",
+          "source_tickers": [
+            "301018"
+          ],
+          "name": "申菱环境",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": null,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
           "ticker": "601138",
           "source_tickers": [
             "601138"
@@ -4517,10 +4545,10 @@
           "in_overseas_heat": false
         }
       ],
-      "n_source_companies": 10,
-      "n_unique_companies": 10,
+      "n_source_companies": 11,
+      "n_unique_companies": 11,
       "n_overseas_candidates": 3,
-      "n_a_share_mapping": 3,
+      "n_a_share_mapping": 4,
       "a_share": [
         {
           "name": "英维克",
@@ -4530,6 +4558,11 @@
         {
           "name": "高澜股份",
           "ticker": "300499",
+          "role": "二线弹性"
+        },
+        {
+          "name": "申菱环境",
+          "ticker": "301018",
           "role": "二线弹性"
         },
         {
@@ -5730,8 +5763,8 @@
       "source_slugs": [
         "network-equipment"
       ],
-      "description": "数据中心交换机是AI集群Scale-out互联的核心系统级设备，负责GPU服务器之间的高速数据传输。AI训练推动后端网络从InfiniBand向以太网迁移，800G端口主导当前、1.6T即将量产，NVIDIA Spectrum-X凭借GPU捆绑切入，冲击Cisco/Arista传统格局。\n\n### 更新 2026-10-08（补充第二条来源）\n> 来源: 已有 L0 归档提级引用（未新增外部调研）\n> 置信度: 高\n\n- **sources**: 1 → 2 条。补入「Cisco Q4 FY2026 财报」——该来源在 L0 中已存在（`input_20260913_033`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态\n- **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯\n\n### 更新 2026-10-08（补齐 AI 服务器 ODM 环节缺口）\n> 来源: Research 模式（L0 归档 input_20261008_138~142）\n> 置信度: 高\n\n- **companies**: 补入 **Celestica**——此前本赛道缺少 AI 服务器 ODM/整机环节的核心标的，这 5 家是 NVIDIA GB 系列机柜与白盒交换机的实际组装方\n- **说明**: `role` 按各自在 AI 服务器/交换机链中的实际地位标注；**未填 `rev`**（该公司在本赛道的营收占比无可靠来源，按 L1「不推测原则」留空）",
-      "chain_note": "数据中心交换机是AI集群Scale-out互联的核心系统级设备，负责GPU服务器之间的高速数据传输。AI训练推动后端网络从InfiniBand向以太网迁移，800G端口主导当前、1.6T即将量产，NVIDIA Spectrum-X凭借GPU捆绑切入，冲击Cisco/Arista传统格局。\n\n### 更新 2026-10-08（补充第二条来源）\n> 来源: 已有 L0 归档提级引用（未新增外部调研）\n> 置信度: 高\n\n- **sources**: 1 → 2 条。补入「Cisco Q4 FY2026 财报」——该来源在 L0 中已存在（`input_20260913_033`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态\n- **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯\n\n### 更新 2026-10-08（补齐 AI 服务器 ODM 环节缺口）\n> 来源: Research 模式（L0 归档 input_20261008_138~142）\n> 置信度: 高\n\n- **companies**: 补入 **Celestica**——此前本赛道缺少 AI 服务器 ODM/整机环节的核心标的，这 5 家是 NVIDIA GB 系列机柜与白盒交换机的实际组装方\n- **说明**: `role` 按各自在 AI 服务器/交换机链中的实际地位标注；**未填 `rev`**（该公司在本赛道的营收占比无可靠来源，按 L1「不推测原则」留空）",
+      "description": "数据中心交换机是AI集群Scale-out互联的核心系统级设备，负责GPU服务器之间的高速数据传输。AI训练推动后端网络从InfiniBand向以太网迁移，800G端口主导当前、1.6T即将量产，NVIDIA Spectrum-X凭借GPU捆绑切入，冲击Cisco/Arista传统格局。\n\n### 更新 2026-10-08（补充第二条来源）\n> 来源: 已有 L0 归档提级引用（未新增外部调研）\n> 置信度: 高\n\n- **sources**: 1 → 2 条。补入「Cisco Q4 FY2026 财报」——该来源在 L0 中已存在（`input_20260913_033`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态\n- **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯\n\n### 更新 2026-10-08（补齐 AI 服务器 ODM 环节缺口）\n> 来源: Research 模式（L0 归档 input_20261008_138~142）\n> 置信度: 高\n\n- **companies**: 补入 **Celestica**——此前本赛道缺少 AI 服务器 ODM/整机环节的核心标的，这 5 家是 NVIDIA GB 系列机柜与白盒交换机的实际组装方\n- **说明**: `role` 按各自在 AI 服务器/交换机链中的实际地位标注；**未填 `rev`**（该公司在本赛道的营收占比无可靠来源，按 L1「不推测原则」留空）\n\n### 更新 2026-10-09（补齐环节缺口，T1-5）\n> 来源: Research 模式（L0 归档 input_20261008_143~147）\n> 置信度: 高\n\n- **companies**: 补入 **新华三**、**锐捷网络**——补齐本赛道此前缺失的环节位置\n- **说明**: `role` 按各自在本赛道的实际地位标注；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）",
+      "chain_note": "数据中心交换机是AI集群Scale-out互联的核心系统级设备，负责GPU服务器之间的高速数据传输。AI训练推动后端网络从InfiniBand向以太网迁移，800G端口主导当前、1.6T即将量产，NVIDIA Spectrum-X凭借GPU捆绑切入，冲击Cisco/Arista传统格局。\n\n### 更新 2026-10-08（补充第二条来源）\n> 来源: 已有 L0 归档提级引用（未新增外部调研）\n> 置信度: 高\n\n- **sources**: 1 → 2 条。补入「Cisco Q4 FY2026 财报」——该来源在 L0 中已存在（`input_20260913_033`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态\n- **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯\n\n### 更新 2026-10-08（补齐 AI 服务器 ODM 环节缺口）\n> 来源: Research 模式（L0 归档 input_20261008_138~142）\n> 置信度: 高\n\n- **companies**: 补入 **Celestica**——此前本赛道缺少 AI 服务器 ODM/整机环节的核心标的，这 5 家是 NVIDIA GB 系列机柜与白盒交换机的实际组装方\n- **说明**: `role` 按各自在 AI 服务器/交换机链中的实际地位标注；**未填 `rev`**（该公司在本赛道的营收占比无可靠来源，按 L1「不推测原则」留空）\n\n### 更新 2026-10-09（补齐环节缺口，T1-5）\n> 来源: Research 模式（L0 归档 input_20261008_143~147）\n> 置信度: 高\n\n- **companies**: 补入 **新华三**、**锐捷网络**——补齐本赛道此前缺失的环节位置\n- **说明**: `role` 按各自在本赛道的实际地位标注；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）",
       "companies": [
         {
           "ticker": "000063",
@@ -5743,6 +5776,20 @@
             "国产厂商"
           ],
           "rev": 40.0,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
+          "ticker": "301165",
+          "source_tickers": [
+            "301165"
+          ],
+          "name": "锐捷网络",
+          "roles": [
+            "数据中心交换机国产龙头"
+          ],
+          "rev": null,
           "market_guess": "CN",
           "tradable": true,
           "in_overseas_heat": false
@@ -5790,6 +5837,20 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "H3C",
+          "source_tickers": [
+            "H3C"
+          ],
+          "name": "新华三",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": null,
+          "market_guess": "PRIVATE",
+          "tradable": false,
+          "in_overseas_heat": false
+        },
+        {
           "ticker": "NVDA",
           "source_tickers": [
             "NVDA"
@@ -5804,15 +5865,20 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 5,
-      "n_unique_companies": 5,
+      "n_source_companies": 7,
+      "n_unique_companies": 7,
       "n_overseas_candidates": 4,
-      "n_a_share_mapping": 1,
+      "n_a_share_mapping": 2,
       "a_share": [
         {
           "name": "中兴通讯",
           "ticker": "000063",
           "role": "国产厂商"
+        },
+        {
+          "name": "锐捷网络",
+          "ticker": "301165",
+          "role": "数据中心交换机国产龙头"
         }
       ]
     },
@@ -8775,6 +8841,20 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "6770.TW",
+          "source_tickers": [
+            "6770.TW"
+          ],
+          "name": "力积电",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": null,
+          "market_guess": "TW",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "688981",
           "source_tickers": [
             "688981"
@@ -8859,9 +8939,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 10,
-      "n_unique_companies": 9,
-      "n_overseas_candidates": 8,
+      "n_source_companies": 11,
+      "n_unique_companies": 10,
+      "n_overseas_candidates": 9,
       "n_a_share_mapping": 1,
       "a_share": [
         {
@@ -10076,6 +10156,15 @@
         "sputtering-target"
       ]
     },
+    "301018": {
+      "ticker": "301018",
+      "name": "申菱环境",
+      "market_guess": "CN",
+      "tradable": true,
+      "segments": [
+        "liquid-cooling"
+      ]
+    },
     "301070": {
       "ticker": "301070",
       "name": "润泽科技",
@@ -10083,6 +10172,15 @@
       "tradable": true,
       "segments": [
         "data-center-idc"
+      ]
+    },
+    "301165": {
+      "ticker": "301165",
+      "name": "锐捷网络",
+      "market_guess": "CN",
+      "tradable": true,
+      "segments": [
+        "network-equipment"
       ]
     },
     "301269": {
@@ -10469,6 +10567,15 @@
       "tradable": true,
       "segments": [
         "thin-film-deposition"
+      ]
+    },
+    "6770.TW": {
+      "ticker": "6770.TW",
+      "name": "力积电",
+      "market_guess": "TW",
+      "tradable": true,
+      "segments": [
+        "semi-foundry-mature"
       ]
     },
     "6824.T": {
@@ -11555,6 +11662,15 @@
         "ai-inference-api"
       ]
     },
+    "FN": {
+      "ticker": "FN",
+      "name": "Fabrinet",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "optical-transceiver"
+      ]
+    },
     "FORM": {
       "ticker": "FORM",
       "name": "FormFactor",
@@ -11634,6 +11750,15 @@
       "tradable": false,
       "segments": [
         "asic-ai-chip"
+      ]
+    },
+    "H3C": {
+      "ticker": "H3C",
+      "name": "新华三",
+      "market_guess": "PRIVATE",
+      "tradable": false,
+      "segments": [
+        "network-equipment"
       ]
     },
     "HIMX": {
@@ -12786,12 +12911,12 @@
       ]
     }
   },
-  "version": "2026-10-08.8",
+  "version": "2026-10-09.2",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-10-08T23:54:51+08:00",
-  "source_generated_at": "2026-10-08T23:54:51+08:00",
-  "source_sha256": "93822e91a15317831810fce7f4c114b9ebac12d84a5855cfbb8451aa6e629dd2",
-  "source_hash8": "93822e91",
-  "source_commit": "54efde99eeba412842c1163038fc8f881a00d39e",
+  "built_at": "2026-10-09T00:05:49+08:00",
+  "source_generated_at": "2026-10-09T00:05:49+08:00",
+  "source_sha256": "0a65fea40f6bc15b21043b7383b64785e81d42b37515d8bcaa49fa16458d96f7",
+  "source_hash8": "0a65fea4",
+  "source_commit": "3147481e021fdcba6efb54cc2915def8f9c16ce9",
   "source_dirty": true
 }

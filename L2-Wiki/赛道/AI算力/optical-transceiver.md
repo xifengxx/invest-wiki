@@ -117,6 +117,9 @@ companies:
 - ticker: ''
   name: 海信宽带
   role: 直接相关
+- ticker: FN
+  name: Fabrinet
+  role: 龙头
 key_inputs:
 - DSP与光芯片
 sources:
@@ -186,3 +189,10 @@ sources:
 - **companies**: 8 → 10 家。补入 **Credo Technology Group**、**海信宽带**
 - **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
 - **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）
+
+### 更新 2026-10-09（补齐环节缺口，T1-5）
+> 来源: Research 模式（L0 归档 input_20261008_143~147）
+> 置信度: 高
+
+- **companies**: 补入 **Fabrinet**——补齐本赛道此前缺失的环节位置
+- **说明**: `role` 按各自在本赛道的实际地位标注；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

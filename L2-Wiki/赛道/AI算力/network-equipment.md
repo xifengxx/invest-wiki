@@ -90,6 +90,12 @@ companies:
 - ticker: CLS
   name: Celestica
   role: 白盒交换机龙头
+- ticker: H3C
+  name: 新华三
+  role: 国产龙头
+- ticker: '301165'
+  name: 锐捷网络
+  role: 数据中心交换机国产龙头
 sources:
 - title: Dell'Oro《AI后端网络2025》
   summary: 2025数据中心交换机$162亿(CAGR 8.3%)，AI后端以太网翻倍超InfiniBand两倍，Celestica+NVIDIA占~50%
@@ -116,3 +122,10 @@ sources:
 
 - **companies**: 补入 **Celestica**——此前本赛道缺少 AI 服务器 ODM/整机环节的核心标的，这 5 家是 NVIDIA GB 系列机柜与白盒交换机的实际组装方
 - **说明**: `role` 按各自在 AI 服务器/交换机链中的实际地位标注；**未填 `rev`**（该公司在本赛道的营收占比无可靠来源，按 L1「不推测原则」留空）
+
+### 更新 2026-10-09（补齐环节缺口，T1-5）
+> 来源: Research 模式（L0 归档 input_20261008_143~147）
+> 置信度: 高
+
+- **companies**: 补入 **新华三**、**锐捷网络**——补齐本赛道此前缺失的环节位置
+- **说明**: `role` 按各自在本赛道的实际地位标注；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

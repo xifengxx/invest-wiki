@@ -112,6 +112,9 @@ companies:
   name: Johnson Controls
   role: 二线弹性
   rev: 15
+- ticker: '301018'
+  name: 申菱环境
+  role: 二线弹性
 sources:
 - title: ABI Research《Top Data Center Cooling Companies 2025》
   summary: ''
@@ -161,3 +164,10 @@ key_inputs: ["冷却组件", "泵阀管件", "冷板"]---
 
 - **key_trends**: 趋势#5增强——增加HVDC架构+PUE<1.1细节，丰富能源转型与液冷联动逻辑
 - **依据**: 华为2035报告——HVDC架构+PUE<1.1，数据中心从电力消费者转型为能源路由器，进一步强化液冷长期需求确定性
+
+### 更新 2026-10-09（补齐环节缺口，T1-5）
+> 来源: Research 模式（L0 归档 input_20261008_143~147）
+> 置信度: 高
+
+- **companies**: 补入 **申菱环境**——补齐本赛道此前缺失的环节位置
+- **说明**: `role` 按各自在本赛道的实际地位标注；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）
