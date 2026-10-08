@@ -1,6 +1,10 @@
 # Invest Wiki 知识库设计文档
 
-> 版本 2.4 · 2026-07-24 · LLM-Wiki 四层架构 + Phase 2-5 全部完成
+> 版本 2.5 · 2026-10-08 · LLM-Wiki 四层架构 + Phase 2-5 全部完成
+>
+> **v2.5 变更**：数据规模对齐 2026-10-08 实测（502 词条 / 67 赛道 / 405 公司 / L0 331 文件）；
+> 补充 2026-09-13 起的**双产业归属模型**（`industries` 列表 + 16 个双归属赛道）；
+> 补充 `verify_all.py` 统一校验、pre-commit hook、`deploy.sh` 跨仓库同步三套新机制。
 
 ---
 
@@ -38,24 +42,31 @@ The Wiki         →     L2 结构化 Wiki 层
 
 ## 二、数据全景
 
-### 2.1 规模（2026-07-24）
+### 2.1 规模（2026-10-08 实测）
 
 | 类型 | 数量 |
 |------|:--:|
 | 产业 | 2（AI算力 / 半导体） |
-| 赛道（segment） | 74 |
-| 公司（company） | 392（78家深度覆盖 + 312家骨架 + 2家中等） |
+| 赛道（segment） | 67（唯一数；44 在 AI算力视图 / 39 在半导体视图，含 16 个双归属） |
+| 公司（company） | 405（216 全面 + 20 中等 + 169 薄） |
 | 概念卡片（concept） | 10 |
 | 投资论点（thesis） | 18 |
-| **总词条** | **496** |
-| 图谱节点 | 470 |
-| 图谱边 | 249 |
-| L0 归档文件 | 16 |
+| **总词条** | **502** |
+| 图谱节点 | 499 |
+| 图谱边 | 985 |
+| L0 归档文件 | 331 |
+
+> 数据质量基线见 `docs/产业链数据健全度审计.md`（全量扫描）与 `docs/待深化龙头清单.md`（龙头级 164 家：全面 147 / 中等 8 / 薄 9）。
+> ⚠️ 405 家公司中 **169 家字段未填齐**（<20/25），其中 **167 家正文零 `##` 段落**；这 167 家同时缺 `data_freshness_date`，未纳入 90 天保鲜扫描。
 
 ### 2.2 两大产业 · 四层结构
 
-- **AI算力**（40 赛道）：L4 终端应用(8) / L3 核心产品(12) / L2 设备与组件(15) / L1 原材料(5)
-- **半导体**（34 赛道）：L4 终端应用(7) / L3 核心产品(8) / L2 设备与组件(11) / L1 原材料(8)
+- **AI算力**（44 赛道）
+- **半导体**（39 赛道）
+- 其中 **16 个双归属赛道**同时服务两条产业链，在上述两个视图都出现
+
+> 2026-09-13 起赛道用 `industries` **列表**（可多值），编译期派生 `industry`（= 首位）供显示/搜索。
+> 此前这 16 个赛道在两条产业链目录下各存一份独立文件（共 81 文件）并已内容分叉，合并后消除重复节点。
 
 层级逻辑：L1 原材料 → L2 设备/组件 → L3 核心产品 → L4 终端应用。下层为上层提供输入。
 
@@ -110,17 +121,17 @@ invest_wiki/
 │       └── 功能说明.md                     ← 功能说明
 │
 ├── L2-Wiki/                               ← 结构化 Wiki 层（核心数据层）
-│   ├── index.md                           ← 74 赛道总索引（LLM 查询路由入口）
+│   ├── index.md                           ← 67 赛道总索引（LLM 查询路由入口）
 │   ├── 产业/                               ← AI算力.md / 半导体.md
-│   ├── 赛道/                               ← AI算力/(40md) + 半导体/(34md)
-│   ├── 公司/                               ← 392 个公司 MD（78深度+312骨架+2中等）
+│   ├── 赛道/                               ← AI算力/(44md) + 半导体/(23md)，合计 67 个唯一赛道
+│   ├── 公司/                               ← 405 个公司 MD（216全面+20中等+169薄）
 │   ├── 概念/                               ← 10 个概念卡片 MD
 │   ├── 论点/                               ← 18 个投资论点 MD + 审计报告
 │   └── 消化笔记/                           ← L0→L2 中间产物（逐字段影响评估）
 │
 ├── L3-网页产物/                            ← Web Output（编译输出层）
-│   ├── index.html                         ← 单文件 SPA（7页面 + 全局搜索）
-│   ├── wiki_data.json                     ← 编译中间数据（~1.6MB）
+│   ├── index.html                         ← 前端 SPA（7页面 + 全局搜索）；数据经 fetch('wiki_data.json') 加载，本身仅 ~0.13MB
+│   ├── wiki_data.json                     ← 编译中间数据（~3.85MB）
 │   ├── build_wiki_data.py                 ← L2→L3 编译脚本
 │   ├── chain_universe.json                ← 日报可计算产业链宇宙快照（~335KB）
 │   ├── build_chain_universe.py            ← L3→日报 universe 编译脚本
@@ -377,7 +388,7 @@ Step 0: 完整读取原始资料 + 7项QA自检 → QA通过
 
 | # | 借鉴点 | Invest Wiki 落地 |
 |:--:|------|------|
-| 1 | Index 索引页 | `L2-Wiki/index.md` — 74 赛道按产业/层级排列 |
+| 1 | Index 索引页 | `L2-Wiki/index.md` — 67 赛道按产业/层级排列 |
 | 2 | 链接密度提升 | link-enrich Skill + 公司↔赛道双向链接 |
 | 3 | 矛盾持久化 | YAML `contradictions` 字段 + L3 琥珀色卡片渲染 |
 | 4 | 投资论点系统 | 18 条论点 + status/confidence + 季度审计闭环 |
@@ -432,14 +443,14 @@ Invest Wiki 的核心数据层。每个文件包含 YAML frontmatter + Markdown 
 L2-Wiki/**/*.md
   → engine/parser.py（解析 YAML frontmatter + 提取 [[wikilink]] + 计算 backlinks）
   → engine/graph.py（构建 Treemap / Graph / Sankey 数据）
-  → build_wiki_data.py（合并所有实体 → wiki_data.json，~1.6MB）
-  → build_chain_universe.py（编译 81 个原始段 → canonical 产业链宇宙，~335KB）
+  → build_wiki_data.py（合并所有实体 → wiki_data.json，~3.85MB）
+  → build_chain_universe.py（编译 67 个原始段 → canonical 产业链宇宙，~335KB）
   → index.html（fetch wiki_data.json → 前端 SPA 渲染）
 ```
 
 ### 7.2 build_wiki_data.py
 
-编译脚本，读取 L2-Wiki 下所有 MD 文件，调用 engine/parser.py 解析，调用 engine/graph.py 构建图数据。按 entity_type 分派到 `company_to_dict()` / `segment_to_dict()` / `concept_to_dict()` / `thesis_to_dict()` 四个序列化函数。输出 `wiki_data.json` 包含：`entities`（496实体）/ `by_type` / `treemap_ai` / `treemap_semi` / `graph` / `sankey_ai` / `sankey_semi` / `hot` / `thesis_index`。
+编译脚本，读取 L2-Wiki 下所有 MD 文件，调用 engine/parser.py 解析，调用 engine/graph.py 构建图数据。按 entity_type 分派到 `company_to_dict()` / `segment_to_dict()` / `concept_to_dict()` / `thesis_to_dict()` 四个序列化函数。输出 `wiki_data.json` 包含：`entities`（502实体）/ `by_type` / `treemap_ai` / `treemap_semi` / `graph` / `sankey_ai` / `sankey_semi` / `hot` / `thesis_index`。
 
 ### 7.3 validate.py
 
@@ -452,6 +463,18 @@ L2-Wiki/**/*.md
 ### 7.5 freshness_scan.py
 
 Phase 3 数据新鲜度扫描器。读取 wiki_data.json，检查所有公司的 `data_freshness_date` 字段，按 90 天阈值标记过期，按 60 天阈值标记预警。支持 `--days` 自定义阈值、`--json` 输出。财报季（1/4/7/10月）自动提醒。
+
+公司被分入**五个互斥且完备的桶**（五桶之和 == 总词条数，2026-10-08 起）：
+
+| 桶 | 判据 | 是否使退出码为 1 |
+|---|---|---|
+| `fresh` | 有日期且未过期 | 否 |
+| `warn` | 有日期、接近过期（>60天） | 否 |
+| `stale` | 有日期、已过期（>90天） | 是 |
+| `missing` | **有**经营数据（`latest_revenue`/`market_cap`）却无日期 → 真疏漏 | 是 |
+| `skeleton` | **无**任何经营数据 → 尚未建档的骨架条目 | **否** |
+
+`skeleton` 是已知状态而非错误：骨架条目本就不该有 `data_freshness_date`（见「不推测原则」），它们需要的是**建档**而不是**刷新**。旧版实现会把这批条目静默丢弃（既不计入任何桶、也不出现在报告里），导致报告头部写「总词条数 405」而各桶之和仅 237；2026-10-08 修正为显式归类。当前实测：fresh 231 / warn 6 / stale 0 / missing 0 / skeleton 168 = 405。
 
 ### 7.6 前端功能
 

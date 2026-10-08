@@ -1,6 +1,10 @@
 # Invest Wiki 网页设计规范
 
-> 版本 3.0 · 2026-07-21 · 基于 L3-网页产物/index.html 实际实现（Design V3 布局）
+> 版本 3.1 · 2026-10-08 · 基于 L3-网页产物/index.html 实际实现（Design V3 布局）
+>
+> **v3.1 更正**：数据规模对齐 2026-10-08 实测（502 词条 / 67 赛道 / 405 公司）；
+> 更正「内嵌全量 JSON」的错误描述——实际是 `fetch('wiki_data.json')`；
+> 更正第九节两处与实现不符的布局数值（侧边栏 220px、知识库左栏 280px）。
 
 ---
 
@@ -22,7 +26,7 @@
 
 ### 1.3 页面模型
 
-单文件 SPA（`index.html`），内嵌全量 JSON 数据。无路由、无服务端、无构建步骤。部署方式：任意静态文件服务器。
+单文件 SPA（`index.html`），数据经 `fetch('wiki_data.json')` 同目录相对路径加载。无路由、无服务端、无构建步骤。部署方式：任意静态文件服务器。
 
 ---
 
@@ -681,14 +685,18 @@ ECharts 力导向图，展示全知识库实体关联网络。
 
 ---
 
-## 八、数据嵌入格式
+## 八、数据加载格式
 
-### 8.1 JavaScript 数据对象
+> ⚠️ **2026-10-08 更正**：本节原题为「数据嵌入格式」并称 `DATA` 内嵌于 `index.html`，与实现不符。
+> 实际 `index.html` 用 `fetch('wiki_data.json')` 相对路径加载（`index.html` 本身仅 ~0.13MB），
+> `wiki_data.json` 当前 ~3.85MB。下面结构说明仍然准确，但**它是 `wiki_data.json` 的内容，不是页面内嵌的常量**。
+
+### 8.1 JSON 数据结构
 
 ```javascript
 var DATA = {
-  "total": 496,
-  "by_type": {"industry": 2, "segment": 74, "company": 392, "concept": 10, "thesis": 18},
+  "total": 502,
+  "by_type": {"industry": 2, "segment": 67, "company": 405, "concept": 10, "thesis": 18},
   "entities": [
     {
       "name": "GPU",
@@ -728,8 +736,8 @@ var DATA = {
 ## 九、响应式（当前状态）
 
 当前为桌面端优化设计（≥1280px），未实现移动端断点适配。已知限制：
-- 侧边栏固定 260px，小屏会挤压内容区
-- 右侧栏固定 280px，无折叠机制
+- 侧边栏固定 220px（`.sidebar{width:220px}`），小屏会挤压内容区
+- 知识库视图左栏固定 280px（`.kb-left{width:280px}`），右侧 `.kb-right{flex:1}` 弹性、无折叠机制
 - 4 列统计卡片在小屏不会自动折叠
 - 图表最小高度 440px
 
