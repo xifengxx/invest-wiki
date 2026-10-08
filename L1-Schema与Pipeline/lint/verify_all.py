@@ -23,6 +23,8 @@ import sys
 import tempfile
 from pathlib import Path
 
+import yaml
+
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
@@ -367,9 +369,84 @@ def check_tickers(parser):
          f"build_chain_universe.PRIVATE_TICKERS）: {placeholders[:6]}")
 
 
-# ── 9. index.html 结构（复用 validate.py）─────────────────────────────────
+# ── 9. 根文档数字一致性 ───────────────────────────────────────────────────
+def check_doc_numbers(parser, data):
+    """核对 CLAUDE.md / ARCHITECTURE.md 散文里硬写的计数与实测是否一致。
+
+    由来（2026-10-08）：一天内因数据变更（孤儿公司清零、重复页清理）连做了 4 轮
+    根文档数字同步，每次都要人工发现哪几行过期。根因是同一组计数在
+    CLAUDE.md / ARCHITECTURE.md / index.md 各抄一份，权威来源却只有实测——
+    index.md 由 check_index 覆盖，本项补上两篇根文档的散文数字。
+
+    数据一变就在这里报警，不必再靠人工回读文档。
+    """
+    print("\n9. 根文档数字一致性（CLAUDE.md / ARCHITECTURE.md）")
+    n_comp = len(parser.get_by_type('company'))
+    n_seg = len(parser.get_by_type('segment'))
+    n_con = len(parser.get_by_type('concept'))
+    n_the = len(parser.get_by_type('thesis'))
+    n_total = len(parser.entities)
+    g = (data or {}).get('graph') or {}
+    n_node, n_edge = len(g.get('nodes') or []), len(g.get('edges') or [])
+    n_l0 = sum(1 for p in (ROOT / 'L0-原始资料池').rglob('*') if p.is_file())
+
+    # 与「骨架」相关的三个计数（直接读文件，口径同 list_deepening_targets.py）
+    n_nodate = n_unfilled = n_flat = 0
+    for p in (WIKI_DIR / '公司').glob('*.md'):
+        parts = p.read_text(encoding='utf-8').split('---', 2)
+        if len(parts) < 3:
+            continue
+        fm = yaml.safe_load(parts[1]) or {}
+        if not fm.get('data_freshness_date'):
+            n_nodate += 1
+        if len([k for k, v in fm.items() if v not in (None, '', [], {})]) < 20:
+            n_unfilled += 1
+        if not re.search(r'^##\s+', parts[2], re.M):
+            n_flat += 1
+
+    CHECKS = [
+        ('CLAUDE.md', r'(\d+) 词条（', n_total, '状态行·词条数'),
+        ('CLAUDE.md', r'^\| 公司 \| (\d+)（', n_comp, '数据规模表·公司'),
+        ('CLAUDE.md', r'^\| 总词条 \| (\d+)（', n_total, '数据规模表·总词条'),
+        ('CLAUDE.md', r'公司/ \((\d+)\)', n_comp, '目录树·公司'),
+        ('CLAUDE.md', r'覆盖(\d+)家公司', n_comp, '前端功能·公司'),
+        ('CLAUDE.md', r'其余 \*\*(\d+) 家\*\*公司无', n_nodate, 'Phase 3·无数据日期'),
+        ('ARCHITECTURE.md', r'^\| 赛道（segment） \| (\d+)', n_seg, '规模表·赛道'),
+        ('ARCHITECTURE.md', r'^\| 公司（company） \| (\d+)（', n_comp, '规模表·公司'),
+        ('ARCHITECTURE.md', r'^\| 概念卡片（concept） \| (\d+)', n_con, '规模表·概念'),
+        ('ARCHITECTURE.md', r'^\| 投资论点（thesis） \| (\d+)', n_the, '规模表·论点'),
+        ('ARCHITECTURE.md', r'^\| \*\*总词条\*\* \| \*\*(\d+)\*\*', n_total, '规模表·总词条'),
+        ('ARCHITECTURE.md', r'^\| 图谱节点 \| (\d+)', n_node, '规模表·图谱节点'),
+        ('ARCHITECTURE.md', r'^\| 图谱边 \| (\d+)', n_edge, '规模表·图谱边'),
+        ('ARCHITECTURE.md', r'^\| L0 归档文件 \| (\d+)', n_l0, '规模表·L0 文件'),
+        ('ARCHITECTURE.md', r'(\d+) 个公司 MD', n_comp, '目录树·公司'),
+        ('ARCHITECTURE.md', r'`entities`（(\d+)实体）', n_total, '编译说明·实体数'),
+        ('ARCHITECTURE.md', r'(\d+) 家公司中 \*\*(\d+) 家字段未填齐\*\*', (n_comp, n_unfilled),
+         '基线·公司数+未填齐'),
+        ('ARCHITECTURE.md', r'\*\*(\d+) 家正文零', n_flat, '基线·零叙事'),
+    ]
+    stale, unmatched = [], []
+    for rel, pat, actual, label in CHECKS:
+        f = ROOT / rel
+        m = re.search(pat, f.read_text(encoding='utf-8'), re.M) if f.exists() else None
+        if not m:
+            unmatched.append(f'{rel}·{label}')
+            continue
+        got = tuple(int(x) for x in m.groups()) if isinstance(actual, tuple) else int(m.group(1))
+        if got != actual:
+            stale.append(f'{rel}·{label}: 记 {got}，实际 {actual}')
+    soft(not stale,
+         f"根文档 {len(CHECKS)} 处计数与实测一致",
+         f"根文档数字过期 {len(stale)} 处（数据变了但散文没跟上，改数字即可）: {stale}")
+    # 匹配不到 = 有人改了措辞，检查已静默失效——必须报出来，否则会假绿
+    soft(not unmatched,
+         "根文档全部检查模式均匹配到",
+         f"根文档 {len(unmatched)} 处检查模式失效（措辞已改，请同步更新本函数的正则）: {unmatched}")
+
+
+# ── 10. index.html 结构（复用 validate.py）───────────────────────────────
 def check_html():
-    print("\n8. index.html 结构")
+    print("\n10. index.html 结构")
     proc = subprocess.run(
         [sys.executable, str(L3_DIR / 'validate.py')],
         cwd=str(L3_DIR), capture_output=True, text=True,
@@ -395,6 +472,7 @@ def main():
     check_index(parser)
     check_one_liner(parser)
     check_tickers(parser)
+    check_doc_numbers(parser, data)
     if '--no-html' not in args:
         check_html()
 
