@@ -444,9 +444,146 @@ def check_doc_numbers(parser, data):
          f"根文档 {len(unmatched)} 处检查模式失效（措辞已改，请同步更新本函数的正则）: {unmatched}")
 
 
-# ── 10. index.html 结构（复用 validate.py）───────────────────────────────
+# ── 10. 内容完整度 ────────────────────────────────────────────────────────
+# 门槛与推导依据见 docs/内容完整度标准.md。改门槛必须同步该文档。
+MIN_COMPANY_FIELDS = 20        # 沿用现有「全面档」定义
+MIN_COMPANY_SECTIONS = 5
+MIN_COMPANY_CHARS = 1000       # 现有 216 家全面档正文最低 1,111 字
+MIN_TRACK_STRUCT = 500         # 回归守卫：现有最低 581
+MIN_TRACK_SOURCES = 2          # 1 条等于几乎没有证据基础
+MIN_TRACK_TRENDS = 3
+MIN_CONCEPT_CHARS = 2000       # 现有最低 2,931
+MIN_THESIS_CHARS = 600         # 现有最低 898
+MIN_INDUSTRY_CHARS = 300       # 现为 44 字，正是它该被判未达标的原因
+
+TRACK_CORE_FIELDS = ['tam_bn', 'cagr_pct', 'margin', 'cost_share_pct',
+                     'profit_pool_pct', 'value_add', 'layer']
+TRACK_COMPETITION_SUB = ['global', 'china', 'barriers', 'tech_gap']
+
+
+def content_chars(body):
+    """正文字数：**整节**剔除 `## 动态更新记录` 后，去掉全部空白字符的长度。
+
+    必须整节移除而非从该标题处截断——有的论点把变更记录排在正文最前，
+    截断会把真正的内容全部切掉（2026-10-08 用错口径，误判 4 篇论点为「空」）。
+    """
+    out, skip = [], False
+    for line in body.split('\n'):
+        if re.match(r'^##\s+动态更新记录', line):
+            skip = True
+            continue
+        if skip and re.match(r'^##\s+(?!动态更新记录)', line):
+            skip = False
+        if not skip:
+            out.append(line)
+    return len(re.sub(r'\s+', '', '\n'.join(out)))
+
+
+def _ylen(v):
+    if isinstance(v, str):
+        return len(v)
+    if isinstance(v, list):
+        return sum(_ylen(x) for x in v)
+    if isinstance(v, dict):
+        return sum(_ylen(x) for x in v.values())
+    return 0
+
+
+def _read_entry(p):
+    parts = p.read_text(encoding='utf-8').split('---', 2)
+    if len(parts) < 3:
+        return None, ''
+    try:
+        return (yaml.safe_load(parts[1]) or {}), parts[2]
+    except Exception:
+        return None, ''
+
+
+def check_content_depth():
+    """按 docs/内容完整度标准.md 统计各类型的内容达标率。全部为告警，不阻塞。
+
+    存在意义：内容深度是长期唯一无人检查的维度，因此也是唯一持续漂移的维度。
+    2026-10-08 之前没有任何一处写下「写多少才算完整」，导致「169 家薄档」这种
+    数字既无法判断是缺陷还是常态。本项把标准变成可检验的数字。
+    """
+    print("\n10. 内容完整度（门槛依据见 docs/内容完整度标准.md）")
+
+    # 概念卡片 / 投资论点
+    for label, sub, thr, pat in (('概念卡片', '概念', MIN_CONCEPT_CHARS, '*.md'),
+                                 ('投资论点', '论点', MIN_THESIS_CHARS, '*.md')):
+        ok = bad = 0
+        for p in (WIKI_DIR / sub).glob(pat):
+            if 'audit' in p.name.lower():
+                continue
+            _, body = _read_entry(p)
+            if content_chars(body) >= thr:
+                ok += 1
+            else:
+                bad += 1
+        soft(bad == 0, f"{label} {ok}/{ok + bad} 达标（正文 ≥{thr} 字）",
+             f"{label} {ok}/{ok + bad} 达标，{bad} 篇正文 <{thr} 字")
+
+    # 产业
+    ok = bad = 0
+    for p in (WIKI_DIR / '产业').glob('*.md'):
+        _, body = _read_entry(p)
+        (ok, bad) = (ok + 1, bad) if content_chars(body) >= MIN_INDUSTRY_CHARS else (ok, bad + 1)
+    soft(bad == 0, f"产业 {ok}/{ok + bad} 达标（正文 ≥{MIN_INDUSTRY_CHARS} 字）",
+         f"产业 {ok}/{ok + bad} 达标——{bad} 个产业页正文 <{MIN_INDUSTRY_CHARS} 字"
+         f"（四级知识树顶层为空）")
+
+    # 公司
+    ok, bad, tiers = 0, 0, []
+    for p in sorted((WIKI_DIR / '公司').glob('*.md')):
+        fm, body = _read_entry(p)
+        if fm is None:
+            continue
+        nk = len([k for k, v in fm.items() if v not in (None, '', [], {})])
+        ns = len(re.findall(r'^##\s+', body, re.M))
+        n = content_chars(body)
+        if nk >= MIN_COMPANY_FIELDS and ns >= MIN_COMPANY_SECTIONS and n >= MIN_COMPANY_CHARS:
+            ok += 1
+        else:
+            bad += 1
+            tiers.append('中等' if nk >= MIN_COMPANY_FIELDS else '薄')
+    n_c = ok + bad
+    thin_n = tiers.count('薄')
+    soft(bad == 0,
+         f"公司 {ok}/{n_c} 达标（字段≥{MIN_COMPANY_FIELDS} 且 ##≥{MIN_COMPANY_SECTIONS} 且 正文≥{MIN_COMPANY_CHARS}字）",
+         f"公司 {ok}/{n_c} 达标，{bad} 家未达标（薄档 {thin_n} + 中等档 {bad - thin_n}）"
+         f"（字段≥{MIN_COMPANY_FIELDS} 且 ##≥{MIN_COMPANY_SECTIONS} 且 正文≥{MIN_COMPANY_CHARS}字）；"
+         f"按重要性排序的未达标清单见 docs/待深化龙头清单.md 与 docs/内容完整度标准.md"
+         f"（勿按字数排序——字数最少的多是边缘条目，不是最该补的）")
+
+    # 赛道
+    st_ok, ev_ok, n_s, weak_ev = 0, 0, 0, []
+    for p in (WIKI_DIR / '赛道').glob('*/*.md'):
+        fm, _ = _read_entry(p)
+        if not fm or fm.get('type') != 'segment':
+            continue
+        n_s += 1
+        comp = fm.get('competition') or {}
+        if (all(fm.get(k) not in (None, '', []) for k in TRACK_CORE_FIELDS)
+                and all(comp.get(k) not in (None, '', [], {}) for k in TRACK_COMPETITION_SUB)):
+            st_ok += 1
+        n_src = len(fm.get('sources') or [])
+        struct = sum(_ylen(fm.get(k)) for k in
+                     ['key_trends', 'sources', 'key_inputs', 'key_customers',
+                      'price_conduction', 'competition'])
+        if (n_src >= MIN_TRACK_SOURCES and len(fm.get('key_trends') or []) >= MIN_TRACK_TRENDS
+                and struct >= MIN_TRACK_STRUCT):
+            ev_ok += 1
+        else:
+            weak_ev.append(f"{fm.get('name')}(sources={n_src})")
+    soft(st_ok == n_s, f"赛道结构 {st_ok}/{n_s} 达标（核心量化字段 + competition 四子字段）",
+         f"赛道结构 {st_ok}/{n_s} 达标——{n_s - st_ok} 个缺字段")
+    soft(ev_ok == n_s, f"赛道证据 {ev_ok}/{n_s} 达标（sources ≥{MIN_TRACK_SOURCES} 条）",
+         f"赛道证据 {ev_ok}/{n_s} 达标——{n_s - ev_ok} 个证据单薄: {weak_ev[:6]}")
+
+
+# ── 11. index.html 结构（复用 validate.py）───────────────────────────────
 def check_html():
-    print("\n10. index.html 结构")
+    print("\n11. index.html 结构")
     proc = subprocess.run(
         [sys.executable, str(L3_DIR / 'validate.py')],
         cwd=str(L3_DIR), capture_output=True, text=True,
@@ -473,6 +610,7 @@ def main():
     check_one_liner(parser)
     check_tickers(parser)
     check_doc_numbers(parser, data)
+    check_content_depth()
     if '--no-html' not in args:
         check_html()
 
