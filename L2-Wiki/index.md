@@ -216,24 +216,34 @@ IC设计服务（Fabless模式）公司专攻芯片架构和设计——不建�
 
 ## 数据质量基线
 
-> 全量扫描 67 赛道 × 405 公司（2026-09-16）。报告：`docs/产业链数据健全度审计.md`（全站扫描）、
-> `docs/待深化龙头清单.md`（由 `list_deepening_targets.py` 生成，数据变了重跑）。
+> 全量扫描 67 赛道 × 405 公司。报告：`docs/产业链数据健全度审计.md`（时点快照 2026-09-16）、
+> `docs/待深化龙头清单.md`（由 `list_deepening_targets.py` 生成，数据变了重跑，最近重跑 **2026-10-08**）。
 > 独立复核含数据可信度分级与建议动作，见 `docs/数据质量评估报告.html`。
+>
+> ⚠️ 本节的**数字为 2026-10-08 实测**；审计报告内的数字（未达标 193 家、健康度 A26/B31/C10/D0）
+> 是该文档自己的时点快照，不随每次数据变更回填。
 
-### 未达标公司 193 家
+### 龙头级深化缺口
 
-| 分类 | 数量 | 说明 |
-|------|:--:|------|
-| 龙头级 · 薄 | **9** | 字段 <20/25，缺数据，**最高优先** |
-| 龙头级 · 中等 | 8 | 字段齐但叙事 <5 段，只需展开，不需新调研 |
-| 非龙头 · 薄 | 106 | |
-| 非龙头 · 中等 | 4 | |
-| 孤儿非龙头 | 66 | 有页面但不在任何赛道的 `companies` 里 |
-| 孤儿龙头 | 1 | ASMPT 与 ASM Pacific Technology 重复页，需合并 |
+`docs/待深化龙头清单.md` 判据：赛道 `companies[].role` 含「龙头/第一/主导」或公司 `chain_role=龙头`。
+**龙头级公司 173 家** = 全面 148 / 中等 8 / **薄 17**。
 
-**9 家薄档龙头**（字段 11/25、正文 0 段）：FormFactor · 澜起科技 · DuPont · Xilinx(AMD) · Horiba · ROHM Semiconductor · Fuji Electric · ASM Pacific Technology · Taiyo Nippon Sanso
+**17 家薄档龙头**（字段 <20/25，结构性缺数据，**最高优先**）：
 
-**8 家中等龙头**（字段齐、叙事待展开）：Wolfspeed · Microchip · VAT Group · IQE plc · Astera Labs · MKS Instruments · 鸿海精密 · ASM International
+FormFactor · 澜起科技 · DuPont · Xilinx(AMD) · Horiba · ROHM Semiconductor · Fuji Electric · ASM Pacific Technology · Taiyo Nippon Sanso · Dow Electronic · 斯达半导 · 时代电气 · Air Products · SK Siltron · Siemens EDA · Esperanto · SiFive
+
+> 其中 **8 家**（Dow Electronic／斯达半导／时代电气／Air Products／SK Siltron／Siemens EDA／Esperanto／SiFive）
+> 是因 2026-10-08 补齐孤儿公司赛道归属而**新进入**本清单的——它们的词条页早已存在，
+> 只是此前未被任何赛道登记为龙头标的，因此从未出现在深化视野里。
+
+**8 家中等龙头**（字段齐、叙事待展开，不需新调研）：Wolfspeed · Microchip · VAT Group · IQE plc · Astera Labs · MKS Instruments · 鸿海精密 · ASM International
+
+### 孤儿公司 56 家
+
+有词条页、但未被任何赛道的 `companies` 列表登记 → 图谱中无入边、赛道详情页「核心标的」看不到、backlink 恒为 0。
+
+2026-10-08 已把其中 **11 家**「赛道页正文已提及、却未登记」的挂回赛道（**67 → 56**，图边 985→996）。
+**余 56 家需逐家判断**「挂进某赛道 vs 清理」；其中 `ASMPT` 与 `ASM Pacific Technology` 是同一公司的重复页，应先合并。
 
 ### 赛道健康度
 
@@ -244,7 +254,7 @@ A 26 / B 31 / **C 10** / D 0。评分 = 公司全面率×60 + 龙头占比×20 +
 
 ### 已知数据可信度限制
 
-- **`rev` 是估算值**：510 条记录恰好覆盖 5→100 全部 20 个 5 的倍数（占 97.1%），且 44/67 个赛道内存在重复。按 rev 排序的优先级只能当参考，不可当数据事实引用。
+- **`rev` 是业务纯度，不是市场份额**：它记录的是「**该公司自身营收中来自该赛道的占比**」。同一公司在不同赛道取值不同——Apple 在 4 个赛道均为 5、AMD 的 GPU=35 而 DPU=5（80 家跨赛道公司中 **77 家**因赛道而异）；市场份额不会因赛道而变。取值集中在 5 的倍数说明数值经过取整估算，**只能当排序权重，不可当份额数据引用**。定义见 `schemas/field-formats.md` §6（2026-10-08 订正）。
 - **TAM/CAGR 多次改写且口径分歧大**：安全芯片 9.0→**5.7**、覆铜板 16.2→**19.1**、CAGR 8.1→**4.6**；CCL 整体口径 vs 高频口径差 3–5 倍；德勤 $9,750 亿 vs WSTS $1.511 万亿相差 **55%**。
 - **数据日期覆盖 237/405**：其余 168 家是无任何经营数据的骨架条目（=`freshness_scan.py` 的 `skeleton` 桶），它们需要的是**建档**而非刷新。
 

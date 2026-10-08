@@ -111,6 +111,10 @@ def render(depth, targets) -> str:
     L.append(f'- **全面**：YAML 字段 ≥ {FULL_FIELDS}/25 **且** body `##` 段 ≥ {FULL_SECTIONS}')
     L.append(f'- **薄**：YAML 字段 < {THIN_FIELDS}/25（结构性空缺，需要补数据）')
     L.append('- **中等**：字段齐全但叙事薄（数据都在，只需展开成章节）')
+    L.append('- **rev**：该公司**自身营收中来自该赛道的占比**（业务纯度），'
+             '**不是**该公司在该赛道的市场份额。排序取跨赛道 `max(rev)`，'
+             '语义为"它在最核心赛道上的纯度"——衡量纯度，不衡量行业地位'
+             '（详见 `schemas/field-formats.md` §6）。⚠️ 取值经取整估算，仅作排序权重')
     L.append('')
     L.append('> 用「实际 `##` 段数」而非模板的 5 个固定章节名：词条普遍使用')
     L.append('> `业务板块详解` / `产品技术路线` / `竞争护城河` 等自定名，'
@@ -127,7 +131,7 @@ def render(depth, targets) -> str:
     L.append('')
     L.append(f'## 🔴 薄 —— {len(thin)} 家（优先处理，字段都还没填齐）')
     L.append('')
-    L.append('按赛道内营收占比（`rev`）降序。')
+    L.append('按 `rev`（业务纯度：该公司自身营收中来自本赛道的占比，跨赛道取最大值）降序。')
     L.append('')
     L.append('| 公司 | 字段 | body段 | rev | 赛道数 | 龙头定位 |')
     L.append('|------|:--:|:--:|:--:|:--:|------|')

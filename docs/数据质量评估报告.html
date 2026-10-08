@@ -313,7 +313,7 @@ footer code{font-size:12px}
     <p class="sub">对 67 赛道 × 405 公司全量扫描的独立复核：哪些结论可以直接用，哪些必须先打折扣，以及最该先动哪三件事。</p>
     <div class="metaline">
       <span>审计日期 <b>2026-10-08</b></span>
-      <span>数据快照 <b>HEAD 5468d88</b></span>
+      <span>数据快照 <b>2026-10-08</b></span>
       <span>口径 <b>67 赛道 / 405 公司 / 502 词条</b></span>
       <span>QA <b>v1.3</b></span>
     </div>
@@ -371,10 +371,10 @@ footer code{font-size:12px}
         </thead>
         <tbody>
           <tr><td>L2 词条解析</td><td>unknown 实体</td><td class="num">0</td><td><span class="chip good">通过</span></td></tr>
-          <tr><td>图谱密度</td><td>边 : 节点</td><td class="num">1.97</td><td><span class="chip good">通过</span></td></tr>
-          <tr><td>公司入边率</td><td>阈值 &gt;70%</td><td class="num">83.5%</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>图谱密度</td><td>边 : 节点</td><td class="num">2.00</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>公司入边率</td><td>阈值 &gt;70%</td><td class="num">86.2%</td><td><span class="chip good">通过</span></td></tr>
           <tr><td>孤立赛道</td><td>—</td><td class="num">0</td><td><span class="chip good">通过</span></td></tr>
-          <tr><td>wikilink ↔ 图边</td><td>逐条对应</td><td class="num">985</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>wikilink ↔ 图边</td><td>逐条对应</td><td class="num">996</td><td><span class="chip good">通过</span></td></tr>
           <tr><td>L2 → L3 新鲜度</td><td>重编译逐字节比对</td><td class="num">一致</td><td><span class="chip good">通过</span></td></tr>
           <tr><td>chain_universe</td><td>source_sha256</td><td class="num">一致</td><td><span class="chip good">通过</span></td></tr>
           <tr><td>index.md 登记</td><td>三类实体全部登记</td><td class="num">67/405/10/18</td><td><span class="chip good">通过</span></td></tr>
@@ -496,9 +496,10 @@ footer code{font-size:12px}
   <section>
     <div class="sec-head">
       <div class="eyebrow">四 · 数值可信度</div>
-      <h2>rev 是估算值，不是实测值</h2>
+      <h2>rev 是业务纯度，不是市场份额</h2>
     </div>
-    <p class="prose">赛道 YAML 里每家公司的 <code>rev</code>（赛道内营收占比）共 510 条记录、27 个不同取值。其中 <strong>20 个取值恰好是 5 到 100 之间全部 20 个 5 的倍数</strong>，一个不漏地覆盖了 495 条（97.1%）；余下 7 个零散取值合计仅 15 条。取值如此整齐地贴在 5 的倍数网格上，是目测估算的典型特征，而非取自财报的实测份额。</p>
+    <p class="prose">赛道 YAML 里每家公司的 <code>rev</code> 记录的是<strong>该公司自身营收中来自本赛道的占比</strong>（业务纯度／弹性），<strong>不是</strong>该公司在该赛道的市场份额。原始规范只写了「该赛道营收占比」六个字，这一歧义已于 2026-10-08 在 <code>field-formats.md</code> 中订正。</p>
+    <p class="prose">判断依据来自数据本身，三条里任一条按「市场份额」解读都成立不了：<strong>Apple 在「IC设计服务」「AI Agent」「自动驾驶」「边缘AI」四个赛道均为 5</strong>（Apple 几乎不产生半导体营收）；<strong>AMD 的 GPU=35、CPU(服务器级)=30、DPU/SmartNIC=5</strong>（DPU 营收极小）；80 家跨赛道公司里 <strong>77 家的 rev 因赛道而异</strong>。市场份额不会因赛道而变，纯度会。</p>
 
     <figure>
       <div class="chart-title">rev 取值分布 <span class="unit">510 条记录 · 横轴按取值升序 · 条</span></div>
@@ -524,12 +525,12 @@ footer code{font-size:12px}
         <div class="bar-row"><span class="lbl">95</span><span class="track"><span class="fill" style="width:15.2%" data-tip="rev = 95 · 14 条"></span></span><span class="val"><b>14</b> <em>条</em></span></div>
         <div class="bar-row"><span class="lbl">100</span><span class="track"><span class="fill" style="width:1.1%" data-tip="rev = 100 · 1 条"></span></span><span class="val"><b>1</b> <em>条</em></span></div>
       </div>
-      <figcaption>横轴为 <b>rev 取值</b>，条形长度为出现条数。<b>取值恰好覆盖 5 到 100 之间全部 20 个 5 的倍数</b>，无一遗漏；此外只有 7 个零散取值（3 / 8 / 12 / 14 / 16 / 18 / 19），合计 15 条，占 2.9%。另有 <b>44 / 67 个赛道内部存在 rev 重复</b>——同一赛道里两家公司的占比完全相同。</figcaption>
+      <figcaption>横轴为 <b>rev 取值</b>，条形长度为出现条数。<b>取值恰好覆盖 5 到 100 之间全部 20 个 5 的倍数</b>，无一遗漏；此外只有 7 个零散取值（3 / 8 / 12 / 14 / 16 / 18 / 19），合计 15 条，占 2.9%。取值如此整齐地贴在 5 的倍数网格上，说明数值经过取整／估算，<b>不宜作为精确数据引用</b>。但要注意：同一赛道内出现重复取值是这种粗粒度标尺的常态（如 Apple 在四条赛道都是 5），<b>并不构成「数据是编造的」的证据</b>——这是本报告初版的一处论证错误，已订正。</figcaption>
     </figure>
 
     <div class="note warn">
       <span class="nt">对下游的影响</span>
-      <p><code>docs/待深化龙头清单.md</code> 是<b>按 rev 降序排优先级</b>的。既然 rev 是估算，这个优先级排序就建立在估算之上——它仍然可用作「先做哪个」的参考，但不该被当成数据事实引用。</p>
+      <p><code>docs/待深化龙头清单.md</code> 按 <code>rev</code> 降序排优先级，取的是<b>跨赛道最大值</b>。在订正后的语义下，这个排序键衡量的是「该公司在它最核心赛道上的<b>纯度</b>」——<b>纯度，不是行业地位</b>。用纯度决定「先补哪家」是合理的（越纯对赛道越敏感、越值得先写），但把 rev 高读成「这家公司行业地位高」就错了。</p>
     </div>
 
     <h3>同样需要打折扣的数值</h3>
@@ -538,7 +539,7 @@ footer code{font-size:12px}
       <li><strong>口径分歧巨大</strong>：CCL 整体口径与高频口径相差 3–5 倍；德勤 $9,750 亿 与 WSTS $1.511 万亿 相差 <strong>55%</strong>。</li>
       <li><strong>已知低置信条目</strong>：OpenAI ARR（$250–400 亿，口径分歧）、SK Materials（非官方财报，无净利与市值）。</li>
     </ul>
-    <p class="prose">结论：基于流结构、实体数量、图谱关系的判断可以直接采信；<strong>基于 rev / TAM / CAGR 的排序与结论必须先打折扣</strong>。</p>
+    <p class="prose">结论：基于实体数量、图谱结构、编译一致性的判断可以直接采信；<code>rev</code> 与 TAM / CAGR 都是<b>估算值，只能当排序权重</b>——不能当份额数据引用，也不能用来推导行业地位。</p>
   </section>
 
   <section>
@@ -648,7 +649,8 @@ footer code{font-size:12px}
   <footer>
     <span>审计方法：文档全文通读（根目录 4 篇 · docs/ 3 篇 · L1 规范 26 篇 · L2 索引与消化笔记），配合独立脚本复核实体数量、字段覆盖、正文段数、新鲜度分布与 rev 取值。</span>
     <span>复核命令：<code>python3 L1-Schema与Pipeline/lint/verify_all.py</code></span>
-    <span>数据快照 HEAD <code>5468d88</code>（2026-09-16）· 工作区干净 · master 领先 origin 3 个提交</span>
+    <span>数据快照：全量复核于 <code>5468d88</code>（2026-10-08）；图谱数值于 <code>db474e4</code> 复核后更新 · 工作区干净 · master 与 origin 同步</span>
+    <span>订正记录：2026-10-08 修订 <code>rev</code> 语义（业务纯度，非市场份额）并更新图谱数值；修订原因见第四节。</span>
   </footer>
 
 </div>
