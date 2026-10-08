@@ -89,6 +89,9 @@ sources:
 - title: Yole《后端设备市场2025》
   summary: 2025半导体后端设备约$69亿(CAGR 5.8%)，键合机TCB $5.42亿/混合键合$1.52亿(CAGR 21%)，Besi贴片机份额~39%
   url: https://www.electronicsweekly.com/news/business/back-end-equipment-sales-growing-at-6-cagr-2025-08/
+- title: ASMPT(0522.HK) 2026 中期业绩与公司概况
+  summary: 1H2026 持续经营收入 89.03 亿港元（+42.5%）、股东应占纯利 5.89 亿港元（+1.74 倍）、毛利率 41.1%；TCB 与混合键合为增长主力，TCB 远期目标份额 35~40%（L0 input_20260913_081）
+  url: https://uobkh.com.sg/en/research/company-hk-asmpt-30072026
 ---
 
 
@@ -103,3 +106,10 @@ sources:
 
 - **companies 改名**: `ASM Pacific Technology` → **`ASMPT`**。两者是同一公司（0522.HK），保留的 `asmpt.md`（25字段/6段，2026-09 更新）比 `asm-pacific.md`（11字段/0段，2026-07，无 ticker、正文仅重复一句话）完整得多；且该公司 2022 年已由 ASM Pacific Technology 更名 ASMPT。原有条目名所指向的骨架页已删除，故同步改为指向现存页面
 - **说明**: ticker / role / rev 均未改动
+
+### 更新 2026-10-08（补充第二条来源）
+> 来源: 已有 L0 归档提级引用（未新增外部调研）
+> 置信度: 高
+
+- **sources**: 1 → 2 条。补入「ASMPT(0522.HK) 2026 中期业绩与公司概况」——该来源在 L0 中已存在（`input_20260913_081`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态
+- **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯

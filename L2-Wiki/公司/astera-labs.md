@@ -98,3 +98,50 @@ AI服务器高速互联芯片旗帜，PCIe 6.0 Retimer嵌入全球90% AI服务�
 - Non-GAAP 稀释 EPS **$1.16-1.21**（共识 ~$0.81）
 - Non-GAAP 毛利率 ~72%（产品结构向 Switch/模块收入倾斜所致）；Non-GAAP 营业利润率 ~43%
 - Scorpio 预计 Q3 成为最大产品线（比预期提前一个季度），>10 家客户处于量产/预生产/验证阶段，单加速器 content 潜在 >$1,000
+
+## 公司概况
+
+Astera Labs是AI服务器高速互联芯片的领先供应商，2017年成立于硅谷。公司核心产品PCIe Retimer（Aries系列）是AI GPU服务器内部高速互联的"信号中继器"——当GPU数量从4颗扩展到8颗、16颗甚至更多时，PCIe信号衰减严重，Retimer重新生成信号确保数据完整性。Astera Retimer被嵌入全球约90%的AI计算服务器，形成事实标准。第二增长引擎Scorpio X-Series（320通道Fabric Switch）2026年量产，用于替代传统PCIe Switch，有望成为公司最大产品线。CXL内存控制器（Leo系列）是第三增长波（2027年起量），支持AI服务器内存池化和扩展。客户高度集中于前3大Hyperscaler（Microsoft/Google/Amazon ~80%），毛利率76%和运营利润率43%证实技术壁垒，但估值极度昂贵（>55x sales）压缩了安全边际。
+
+（成立于 2017 年；总部 美国加州Santa Clara；员工 ~500）
+
+## 产品线详解
+
+- PCIe 6.0 Retimer（Aries Smart DSP，>1/3营收，90% AI服务器采用，GPU间高速互联核心）
+- Scorpio X-Series Fabric Switch（320通道，2026年量产→预计成为最大产品线）
+- CXL Smart Memory Controller（Leo系列，内存池化/扩展，2027年起量）
+- 智能以太网有源电缆（Taurus系列，数据中心布线）
+
+## 客户与供应链
+
+**主要客户**
+
+- Microsoft/Google/Amazon（hyperscaler前3大客户）（占比 80%；AI服务器PCIe Retimer+CXL+Scorpio Switch）
+- NVIDIA（AI GPU服务器PCIe互联芯片）
+
+**上游供应商**
+
+- 台积电（先进制程晶圆代工（PCIe/CXL芯片）；Fabless模式，依赖代工厂）
+
+**战略伙伴**
+
+- NVIDIA/Microsoft/Google/Amazon（数据中心互联标准；PCIe 6.0/CXL标准制定参与）
+
+## 竞争格局
+
+| 竞争对手 | 代码 | 竞争领域 | 说明 |
+|------|------|------|------|
+| Broadcom | AVGO | PCIe Retimer/Fabric Switch | 高端交换芯片竞争 |
+| Marvell Technology | MRVL | PCIe Retimer | 定制ASIC领域互补竞争 |
+
+## 产业链定位
+
+| 指标 | 值 |
+|------|------|
+| 所属赛道 | [[网络交换芯片]] · [[数据中心IDC]] |
+| 产业链层级 | L2 |
+| 产业链角色 | 龙头 |
+| 所属产业 | AI算力 |
+
+
+- 2026-10-08：**补全叙事章节**（原为「字段齐全但叙事薄」）。新增 5 节：公司概况、产品线详解、客户与供应链、竞争格局、产业链定位——内容全部由现有 YAML 字段展开，未引入新数据、未使用外部调研。`公司概况` 取自此前未进入正文的 `description` 字段。

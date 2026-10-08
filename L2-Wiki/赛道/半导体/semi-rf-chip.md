@@ -91,8 +91,18 @@ sources:
 - title: 2025射频前端产业年终盘点
   summary: 2025全球射频前端约$295.6亿，Skyworks+Qorvo合并后~27%份额登顶，超越Broadcom(16%)
   url: https://www.laoyaoba.com/n/972174
+- title: Qorvo Q1 CY2026 财报与 Skyworks 收购
+  summary: Q1 营收 $8.083 亿（同比 −7%，超共识约 1%）、non-GAAP EPS $1.69（超共识 39.5%）、自由现金流利润率 31.6%（上年 19.6%）；同季宣布被 Skyworks 收购并停止业绩指引（L0 input_20260913_047）
+  url: https://www.barchart.com/story/news/1726027/qorvo-nasdaqqrvo-q1-beats-on-revenue-but-inventory-levels-increase
 ---
 
 # 射频芯片
 
 射频芯片（射频前端RF Front-end）是无线通信的核心芯片，负责信号的收发、放大、滤波与开关切换，涵盖功率放大器（PA）、低噪声放大器（LNA）、滤波器、开关等组件。5G/6G升级和AI手机推动射频前端从分立器件走向高集成模块化（FEM），单机价值量持续提升。
+
+### 更新 2026-10-08（补充第二条来源）
+> 来源: 已有 L0 归档提级引用（未新增外部调研）
+> 置信度: 高
+
+- **sources**: 1 → 2 条。补入「Qorvo Q1 CY2026 财报与 Skyworks 收购」——该来源在 L0 中已存在（`input_20260913_047`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态
+- **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯

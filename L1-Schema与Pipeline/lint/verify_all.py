@@ -33,8 +33,8 @@ from engine.graph import GraphBuilder         # noqa: E402
 
 sys.path.insert(0, str(ROOT / 'L3-网页产物'))
 from build_chain_universe import market_guess, normalize_ticker  # noqa: E402
-# 龙头级判定复用 list_deepening_targets 的同名函数，避免双份实现漂移
-from list_deepening_targets import is_leader  # noqa: E402
+# 龙头级判定与分档复用 list_deepening_targets，避免双份实现漂移
+from list_deepening_targets import is_leader, collect as _ld_collect, tier as _ld_tier  # noqa: E402
 
 WIKI_DIR = ROOT / 'L2-Wiki'
 L3_DIR = ROOT / 'L3-网页产物'
@@ -372,6 +372,18 @@ def check_tickers(parser):
 
 
 # ── 9. 根文档数字一致性 ───────────────────────────────────────────────────
+def _leader_tier_counts():
+    """龙头级公司按「全面/中等/薄」分档计数，直接复用待深化清单的 collect()+tier()（同口径）。
+
+    只此一处实现——该分档逻辑若复制一份，必然与清单漂移。
+    """
+    depth, targets = _ld_collect()
+    c = {'全面': 0, '中等': 0, '薄': 0}
+    for n in targets:
+        c[_ld_tier(depth, n)] += 1
+    return c
+
+
 def check_doc_numbers(parser, data):
     """核对 CLAUDE.md / ARCHITECTURE.md 散文里硬写的计数与实测是否一致。
 
@@ -391,6 +403,8 @@ def check_doc_numbers(parser, data):
     g = (data or {}).get('graph') or {}
     n_node, n_edge = len(g.get('nodes') or []), len(g.get('edges') or [])
     n_l0 = sum(1 for p in (ROOT / 'L0-原始资料池').rglob('*') if p.is_file())
+    _ltc = _leader_tier_counts()
+    l_full, l_mid, l_thin = _ltc['全面'], _ltc['中等'], _ltc['薄']
 
     # 与「骨架」相关的三个计数（直接读文件，口径同 list_deepening_targets.py）
     n_nodate = n_unfilled = n_flat = 0
@@ -426,6 +440,10 @@ def check_doc_numbers(parser, data):
         ('ARCHITECTURE.md', r'(\d+) 家公司中 \*\*(\d+) 家字段未填齐\*\*', (n_comp, n_unfilled),
          '基线·公司数+未填齐'),
         ('ARCHITECTURE.md', r'\*\*(\d+) 家正文零', n_flat, '基线·零叙事'),
+        ('CLAUDE.md', r'薄（(\d+) 家', l_thin, 'Tier 3 清单·龙头级薄档'),
+        ('CLAUDE.md', r'中等（(\d+) 家', l_mid, 'Tier 3 清单·龙头级中等档'),
+        ('ARCHITECTURE.md', r'全面 (\d+) / 中等 (\d+) / 薄 (\d+)',
+         (l_full, l_mid, l_thin), '基线·龙头级分档'),
     ]
     stale, unmatched = [], []
     for rel, pat, actual, label in CHECKS:

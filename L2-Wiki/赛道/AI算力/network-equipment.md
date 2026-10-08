@@ -91,8 +91,18 @@ sources:
 - title: Dell'Oro《AI后端网络2025》
   summary: 2025数据中心交换机$162亿(CAGR 8.3%)，AI后端以太网翻倍超InfiniBand两倍，Celestica+NVIDIA占~50%
   url: https://www.delloro.com/news/ethernet-more-than-doubles-size-of-infiniband-as-the-leading-fabric-for-ai-scale-out-networks-in-2025/
+- title: Cisco Q4 FY2026 财报（2026-08-12）
+  summary: Q4 营收 $173 亿创纪录（+18%），其中网络业务 $97.9 亿（+28%）；产品收入 +24%，超指引与共识（L0 input_20260913_033）
+  url: https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m08/cisco-reports-fourth-quarter-earnings.html
 ---
 
 # 网络设备（交换机）
 
 数据中心交换机是AI集群Scale-out互联的核心系统级设备，负责GPU服务器之间的高速数据传输。AI训练推动后端网络从InfiniBand向以太网迁移，800G端口主导当前、1.6T即将量产，NVIDIA Spectrum-X凭借GPU捆绑切入，冲击Cisco/Arista传统格局。
+
+### 更新 2026-10-08（补充第二条来源）
+> 来源: 已有 L0 归档提级引用（未新增外部调研）
+> 置信度: 高
+
+- **sources**: 1 → 2 条。补入「Cisco Q4 FY2026 财报」——该来源在 L0 中已存在（`input_20260913_033`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态
+- **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯

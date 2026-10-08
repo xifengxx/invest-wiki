@@ -129,8 +129,18 @@ sources:
 - title: Counterpoint《全球LLM收入Q1 2026》
   summary: 2026 Q1全球LLM季度营收$207亿，Anthropic以31.4%份额反超OpenAI(29%)，月活38亿
   url: https://counterpointresearch.com/en/insights/Global-LLM-Adoption-and-Revenue-Snapshot
+- title: OpenAI 估值/融资/营收调研（截至 2026-08）
+  summary: 2026-03 完成 $1,220 亿融资、投后估值 ~$8,520 亿；8 月员工老股转让以同价确认；管理层称 IPO 目标估值最高 $1 万亿（L0 input_20260913_002）
+  url: https://finance.yahoo.com/markets/stocks/articles/openai-closes-122bn-funding-round-093126735.html
 ---
 
 # 大模型
 
 大模型（基础模型/LLM）是生成式AI产业链的核心软件层，提供通用智能能力，通过API订阅和消费订阅变现。2026年商业化进入加速兑现阶段，Anthropic以企业API+开发者路线反超OpenAI成为全球营收第一，行业从"烧钱换规模"转向"收入质量与盈利能力"的分化验证。
+
+### 更新 2026-10-08（补充第二条来源）
+> 来源: 已有 L0 归档提级引用（未新增外部调研）
+> 置信度: 高
+
+- **sources**: 1 → 2 条。补入「OpenAI 估值/融资/营收调研」——该来源在 L0 中已存在（`input_20260913_002`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态
+- **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯
