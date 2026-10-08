@@ -4,6 +4,17 @@
 Phase 3 核心工具：扫描 wiki_data.json 中所有公司，检查 data_freshness_date 字段，
 标记超过 STALE_DAYS 天未更新的条目，输出报告。
 
+公司会被分入五个桶，互斥且完备（五桶之和 == 总词条数）：
+    fresh     有 data_freshness_date 且未过期
+    warn      有日期、接近过期
+    stale     有日期、已过期
+    missing   有经营数据（latest_revenue / market_cap）却没有日期 → 真疏漏，需补
+    skeleton  无任何经营数据 → 尚未建档的骨架条目，无新鲜度可言，跳过
+
+skeleton 是「已知状态」不是错误：骨架条目不该有 data_freshness_date
+（见 L2-Wiki/消化笔记/2026-09-13-骨架公司补全批次.md 的「不推测原则」），
+它们需要的是建档而非刷新，因此既不纳入保鲜监控、也不使退出码为 1。
+
 使用方式:
     python L3-网页产物/freshness_scan.py           # 默认 90 天阈值
     python L3-网页产物/freshness_scan.py --days 60  # 自定义阈值
@@ -99,8 +110,9 @@ def scan(data_path: str, stale_days: int = STALE_DAYS) -> dict:
         'stale_threshold_days': stale_days,
         'fresh': [],       # data_freshness_date 存在且未过期
         'stale': [],        # 超过阈值
-        'missing': [],      # 没有 data_freshness_date 字段
         'warn': [],         # 预警中（接近过期）
+        'missing': [],      # 有经营数据但无 data_freshness_date（真疏漏，需补日期）
+        'skeleton': [],     # 无任何经营数据（尚未建档，无新鲜度可言，跳过）
         'earnings_season': today.month in EARNINGS_MONTHS,
     }
 
@@ -109,8 +121,11 @@ def scan(data_path: str, stale_days: int = STALE_DAYS) -> dict:
         slug = c.get('slug', '?')
         dfs_str = c.get('data_freshness_date', '')
         mcap_str = c.get('market_cap', '')
+        rev_str = c.get('latest_revenue', '')
 
         dfs_date = parse_date(dfs_str)
+        # 「有经营数据」的判据：营收或市值任一有值
+        has_financials = bool((mcap_str or '').strip() or (rev_str or '').strip())
 
         entry = {
             'slug': slug,
@@ -122,22 +137,26 @@ def scan(data_path: str, stale_days: int = STALE_DAYS) -> dict:
         }
 
         if not dfs_date:
-            # 没有 freshness 字段，但有 market_cap（说明是深度覆盖公司）
-            if entry['has_market_cap']:
-                # 尝试从 market_cap 字符串中提取日期作为近似值
-                mcap_date = parse_market_cap_date(mcap_str)
-                if mcap_date:
-                    days = (today - mcap_date).days
-                    entry['approx_date'] = mcap_date.isoformat()
-                    entry['days_old'] = days
-                    if days > stale_days:
-                        results['stale'].append(entry)
-                    else:
-                        entry['label'] = '⚠️ 无data_freshness_date，从market_cap估算'
-                        results['warn'].append(entry)
+            if not has_financials:
+                # 无任何经营数据 → 尚未建档的骨架条目，无新鲜度可言
+                entry['label'] = '⚪ 骨架（无经营数据，未纳入保鲜扫描）'
+                results['skeleton'].append(entry)
+                continue
+            # 有经营数据却没有日期 → 真疏漏
+            # 先尝试从 market_cap 字符串中提取日期作为近似值
+            mcap_date = parse_market_cap_date(mcap_str)
+            if mcap_date:
+                days = (today - mcap_date).days
+                entry['approx_date'] = mcap_date.isoformat()
+                entry['days_old'] = days
+                if days > stale_days:
+                    results['stale'].append(entry)
                 else:
-                    entry['label'] = '❌ 深度覆盖但缺少data_freshness_date'
-                    results['missing'].append(entry)
+                    entry['label'] = '⚠️ 无data_freshness_date，从market_cap估算'
+                    results['warn'].append(entry)
+            else:
+                entry['label'] = '❌ 有经营数据但缺少data_freshness_date'
+                results['missing'].append(entry)
             continue
 
         days_old = (today - dfs_date).days
@@ -172,11 +191,17 @@ def print_report(results: dict):
     warn_count = len(results['warn'])
     stale_count = len(results['stale'])
     missing_count = len(results['missing'])
+    skeleton_count = len(results['skeleton'])
 
     print(f"\n  🟢 新鲜: {fresh_count} 条")
     print(f"  🟡 预警: {warn_count} 条")
     print(f"  🔴 过期: {stale_count} 条")
-    print(f"  ⚠️  缺失: {missing_count} 条")
+    print(f"  ⚠️  缺日期（有经营数据）: {missing_count} 条")
+    print(f"  ⚪ 骨架（无经营数据）: {skeleton_count} 条")
+    classified = fresh_count + warn_count + stale_count + missing_count + skeleton_count
+    print(f"  {'─' * 55}")
+    print(f"  已分类 {classified} / {results['total_companies']} 条"
+          + ("" if classified == results['total_companies'] else "  ⚠️ 有条目未归类，请检查判据"))
 
     if results['stale']:
         print(f"\n  {'─' * 55}")
@@ -192,13 +217,24 @@ def print_report(results: dict):
 
     if results['missing']:
         print(f"\n  {'─' * 55}")
-        print(f"  ⚠️  缺失条目（深度覆盖但无 data_freshness_date）:")
+        print(f"  ⚠️  缺日期条目（有经营数据但无 data_freshness_date，需补）:")
         for e in results['missing']:
             print(f"     {e['name'][:40]:40s} mcap={(e.get('market_cap') or '?')[:40]}")
 
+    if results['skeleton']:
+        print(f"\n  {'─' * 55}")
+        print(f"  ⚪ 骨架条目（无经营数据，不在保鲜范围内；需的是建档，不是刷新）:")
+        shown = results['skeleton'][:12]
+        for e in shown:
+            print(f"     {e['name'][:40]}")
+        if skeleton_count > len(shown):
+            print(f"     … 另 {skeleton_count - len(shown)} 家（完整清单见 --json）")
+
     print(f"\n  {'─' * 55}")
     if stale_count == 0 and missing_count == 0:
-        print(f"  ✅ 数据新鲜度健康 — 所有深度覆盖公司均在 {results['stale_threshold_days']} 天内更新")
+        print(f"  ✅ 数据新鲜度健康 — 所有有经营数据的公司均在 {results['stale_threshold_days']} 天内更新")
+        if skeleton_count:
+            print(f"  ⚪ 另有 {skeleton_count} 家骨架条目尚未建档，不在保鲜范围内")
     else:
         print(f"  ❌ 需要刷新 {stale_count + missing_count} 个条目")
         if results['earnings_season']:
