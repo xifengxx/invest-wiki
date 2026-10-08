@@ -6841,7 +6841,7 @@
         },
         {
           "ticker": "4091",
-          "name": "Taiyo Nippon Sanso",
+          "name": "Nippon Sanso Holdings (日本酸素/大阳日酸)",
           "role": "二线弹性",
           "rev": 12
         },
@@ -6879,11 +6879,6 @@
           "ticker": "",
           "name": "Air Products",
           "role": "龙头"
-        },
-        {
-          "ticker": "",
-          "name": "Nippon Sanso (大阳日酸)",
-          "role": "核心参与者"
         },
         {
           "ticker": "",
@@ -10335,9 +10330,9 @@
             "note": "日本，EUV/ArF/KrF全系列；EUV+ArF双线布局，约18%份额"
           },
           {
-            "name": "DuPont",
+            "name": "Qnity Electronics",
             "share": "-",
-            "note": "美国，EON EUV平台；KrF/ArF/Track，约12%份额"
+            "note": "美国（2025-11 自 DuPont 分拆，NYSE 代码 Q），EON EUV平台；KrF/ArF/Track，约12%份额"
           },
           {
             "name": "Fujifilm",
@@ -10536,8 +10531,13 @@
         {
           "ticker": "DD",
           "name": "DuPont",
-          "role": "龙头",
+          "role": "已退出（电子业务分拆至 Qnity）",
           "rev": 85
+        },
+        {
+          "ticker": "Q",
+          "name": "Qnity Electronics",
+          "role": "龙头"
         },
         {
           "ticker": "",
@@ -20702,37 +20702,101 @@
       "name": "FormFactor",
       "slug": "formfactor",
       "type": "company",
-      "country": "美国",
-      "ticker": "",
-      "one_liner": "探针卡(Probe Card)全球#1,HBM/3D封装测试必需，位于产业链L3核心产品与集成（龙头）",
-      "description": "探针卡(Probe Card)全球#1,HBM/3D封装测试必需",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
-      "industry": "半导体",
+      "country": "US",
+      "ticker": "FORM",
+      "one_liner": "全球探针卡龙头（2024 年份额约 28.4%），为 DRAM/HBM、晶圆代工与逻辑芯片提供晶圆测试探针卡及测试系统；HBM 探针卡接近垄断（管理层称份额近 100%），最大客户 SK 海力士占营收约三成，位于产业链L2设备与组件层。\n【2026.10.9更新】FY2026 Q2 营收创纪录 $258.2M（+31.9% YoY）、非 GAAP 毛利率 53.3%、非 GAAP EPS $0.82；FY2025 全年营收 $785.0M（+2.8%）。\n",
+      "description": "全球探针卡龙头，**AI 存储测试需求的核心受益者**。探针卡是高频更换的晶圆测试耗材——这决定了它既有耗材的经常性收入特征，又在 HBM 世代因测试复杂度上升而毛利率大幅抬升（FY2025 GAAP 39.3% → FY2026 Q2 非 GAAP 53.3%）。",
+      "core_business": [
+        "探针卡（Probe Cards）——占营收约 81%（FY2025 为 6.379 亿美元）；技术涵盖 2D/3D MEMS、SmartMatrix 全晶圆接触器（HBM4 用）",
+        "测试系统（Systems）——约占 19%，含工程探针台与共封装光学（CPO）测试"
+      ],
+      "revenue_model": "探针卡是高频更换的晶圆测试耗材，按客户测试量配套并重复采购，构成经常性收入主体；测试系统为资本性设备销售（含 CPO 测试），约占 19%。收入高度集中于少数大客户（SK 海力士 29.5% + NVIDIA 10.2%），以季度订单驱动，随存储/逻辑晶圆厂资本开支与 AI 需求周期波动。FY2026 Q2 非 GAAP 毛利率升至 53.3%（GAAP 50.7%），显著高于 FY2025 全年 GAAP 39.3%，反映 HBM 相关高价值产品占比提升。",
+      "founded": 1993,
+      "headquarters": "美国加州 Livermore",
+      "employees": "约 2,153~2,238 人（来源间有差异）",
+      "latest_revenue": "FY2026 Q2（截至 2026-06-27）$258.2M（YoY +31.9%、QoQ +14.2%，创纪录）；非 GAAP 毛利率 53.3%、GAAP 50.7%；非 GAAP EPS $0.82、GAAP $0.71；非 GAAP 净利 $65.0M；Q3 指引 $270M±$10M",
+      "market_cap": "约 $109 亿（2026-10-07 收盘 $139.80；52 周区间 $37.14~160.27）",
+      "data_freshness_date": "2026-10-09",
+      "industry": "AI算力",
       "industries": [
+        "AI算力",
         "半导体"
       ],
       "segments": [
-        "封装测试(OSAT)"
+        "测试设备"
       ],
-      "chain_layer": "L3",
+      "chain_layer": "L2",
       "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "suppliers": [
+        {
+          "company": "陶瓷/有机基板、复杂 PCB、接触元件与互连件供应商",
+          "supplies": "探针卡与测试系统关键物料",
+          "note": "⚠️ 10-K 仅披露类别，未列厂商名单；部分物料为单一供应商，以采购订单而非长约采购"
+        }
+      ],
+      "customers": [
+        {
+          "company": "SK 海力士",
+          "ticker": "000660.KS",
+          "note": "最大客户，占营收 29.5%（FY2026 Q1）"
+        },
+        {
+          "company": "NVIDIA",
+          "ticker": "NVDA",
+          "note": "占营收 10.2%（FY2026 Q1）"
+        },
+        {
+          "company": "TSMC / Intel / Samsung",
+          "note": "该期均低于 10%（历史曾超 10%）"
+        },
+        {
+          "company": "三大 HBM 厂（SK 海力士 / 三星 / 美光）",
+          "note": "已量产出货；管理层称 HBM 探针卡份额接近 100%"
+        }
+      ],
+      "partners": [
+        {
+          "company": "Keystone Microtech",
+          "area": "区域组装与服务",
+          "note": "台湾厂商，扩大多年期合作"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "Technoprobe",
+          "area": "探针卡",
+          "note": "意大利厂商，2024 年份额约 18.7%；Teradyne 持有其 10% 股权（行业转向纵向整合）"
+        },
+        {
+          "company": "Micronics Japan (MJC)",
+          "ticker": "6871.T",
+          "area": "探针卡",
+          "note": "日本厂商，份额约 9.5~13%（来源间有差异）"
+        },
+        {
+          "company": "JEM",
+          "area": "探针卡",
+          "note": "日系厂商"
+        },
+        {
+          "company": "Advantest",
+          "ticker": "6857.T",
+          "area": "测试系统（ATE）",
+          "note": "在测试系统端与 FormFactor 竞合"
+        },
+        {
+          "company": "Teradyne",
+          "ticker": "TER",
+          "area": "测试系统（ATE）",
+          "note": "同上；并通过持有 Technoprobe 股权向上游探针卡延伸"
+        }
+      ],
       "tags": [],
-      "website": "N/A",
+      "website": "https://www.formfactor.com",
       "backlinks": 0,
       "wikilinks": [],
-      "content": "# FormFactor\n\n探针卡(Probe Card)全球#1,HBM/3D封装测试必需",
-      "content_preview": "# FormFactor\n\n> 探针卡(Probe Card)全球#1,HBM/3D封装测试必需，位于产业链L3核心产品与集成（龙头） | 探针卡(Probe Card)全球#1,HBM/3D封装测试必需",
+      "content": "# FormFactor\n\n全球探针卡龙头，**AI 存储测试需求的核心受益者**。探针卡是高频更换的晶圆测试耗材——这决定了它既有耗材的经常性收入特征，又在 HBM 世代因测试复杂度上升而毛利率大幅抬升（FY2025 GAAP 39.3% → FY2026 Q2 非 GAAP 53.3%）。\n\n## 财务状况\n\n| 指标 | FY2025 | FY2026 Q2 |\n|------|:------:|:------:|\n| **营收** | **$785.0M**（+2.8%） | **$258.2M**（**+31.9%**，创纪录） |\n| **毛利率** | GAAP 39.3% | **非 GAAP 53.3%** / GAAP 50.7% |\n| **净利** | GAAP $54.361M | 非 GAAP $65.0M |\n| **EPS** | GAAP $0.69 / 非 GAAP $1.30 | **非 GAAP $0.82** / GAAP $0.71 |\n\nFY2024 营收 $763.6M。FY2026 Q3 指引 $270M±$10M。\n⚠️ 财年截至 12 月下旬；FY2026 Q3 财报定于 2026-10-28 盘后披露。\n\n## 产品线详解\n\n| 分部 | 占营收 | 内容 |\n|------|:--:|------|\n| **探针卡** | **约 81%**（FY2025 $637.9M） | 晶圆测试探针卡；技术含 2D/3D MEMS、SmartMatrix 全晶圆接触器（HBM4 用） |\n| **测试系统** | 约 19% | 工程探针台 + 共封装光学（CPO）测试 |\n\n## 技术路线图\n\n- **HBM 方向**：SmartMatrix 全晶圆接触器用于 HBM4；已向三大 HBM 厂量产出货\n- **CPO 测试**：测试系统分部已含共封装光学测试能力\n- **MEMS 技术**：2D/3D MEMS 探针技术为其探针卡的核心工艺\n\n## 客户与供应链\n\n**客户集中度**：SK 海力士 **29.5%**（FY2026 Q1，最大客户）+ NVIDIA **10.2%**；TSMC/Intel/Samsung 该期均低于 10%（历史曾超 10%）。\n> ⚠️ FY2026 Q2 的 >10% 客户明细与地区收入明细未在 8-K 中披露，本词条客户数据为 FY2026 Q1 口径。\n\n**供应链**：陶瓷/有机基板、复杂 PCB、接触元件与互连件，部分为单一供应商；以采购订单而非长约采购。制造基地分布于美国（Livermore/San Jose/Carlsbad/Beaverton/Nevada）、德国（Thiendorf/Munich）、中国苏州、日本横滨。\n\n## 竞争格局\n\n| 公司 | 2024 年份额 | 说明 |\n|------|:--:|------|\n| **FormFactor** | **约 28.4%** | 全球第一 |\n| Technoprobe | 约 18.7% | 意大利；Teradyne 持其 10% 股权 |\n| Micronics Japan (MJC) | 约 9.5~13% | 日本（来源间有差异） |\n| JEM | — | 日系 |\n\nCR3 约 56.6%。ATE 端竞争者 Advantest 与 Teradyne——后者通过持股 Technoprobe 向上游探针卡延伸，行业呈现纵向整合趋势。\n\n## 融资与现金流\n\n⚠️ 本次调研未获取到 FormFactor 的负债水平、自由现金流与股东回报（分红/回购）数据。\n\n## 研发投入与专利\n\n⚠️ **本项在本次调研中未获取到可靠数据**：搜索来源未披露研发费用率、研发投入金额与专利数量。按 L1「不推测原则」留空，不以推测填空。\n\n## 动态更新记录\n\n- 2026-10-09：**骨架升级为完整词条**（原为 11 字段、0 章节的骨架页）。来源 L0 归档 `input_20261009_148`（`L0-原始资料池/03-新闻/2026-10-09-FormFactor-调研.md`）。\n  **调研纠正**：成立年份为 **1993 年**（注册），非先前假设的 1987；IPO 于 2003-06-12。\n  **已知数据缺口**：① 具体供应商名称（10-K 仅披露类别）；② FY2026 Q2 地区收入与 >10% 客户明细；③ FY2026 Q2 各分部营业利润完整拆分；④ 竞争对手精确最新份额（仅有 2024 年估算，且来源间有差异：MJC 9.5% vs 自估 13%）。\n  **时效提醒**：FY2026 Q3 财报定于 2026-10-28 盘后披露，届时需刷新 `data_freshness_date`。",
+      "content_preview": "# FormFactor\n\n> 全球探针卡龙头（2024 年份额约 28.4%），为 DRAM/HBM、晶圆代工与逻辑芯片提供晶圆测试探针卡及测试系统；HBM 探针卡接近垄断（管理层称份额近 100%），最大客户 SK 海力士占营收约三成，位于产业链L2设备与组件层。\n【2026.10.9更新】FY2026 Q2 营收创纪录 $258.2M（+31.9% YoY）、非 GAAP 毛利率 53.3%、非 GAAP EPS $0.82；FY2025 全年营收 $785.0M（+2.8%）。\n | 全球探针卡龙头，**AI 存储测试需求的核心受益者**。探针卡是高频更换的晶圆测试耗材——这决定了它既有耗材的经常性收入特征，又在 HBM 世代因测试复杂度上升而毛利率大幅抬升（FY2025 GAAP 39.3% → FY2026 Q2 非 GAAP 53.3%）。",
       "sources": ""
     },
     {
@@ -23479,44 +23543,6 @@
       "wikilinks": [],
       "content": "# Photronics\n\n芯片制造每一步光刻都离不开掩模\"底片\"——Photronics是独立掩模市场的全球霸主，在先进节点被晶圆厂自留的格局下，守住成熟制程掩模的核心阵地。\n\n## 财务状况\n\nPhotronics财年截至10月底。掩模行业与晶圆厂流片量（design starts）+成熟制程稼动率相关，周期波动较晶圆制造温和。\n\n### 年度核心财务指标\n\n| 指标 | FY2023 | FY2024 | FY2025 |\n|------|--------|--------|--------|\n| **营收** | $892M | $867M | **$849M** |\n| **同比** | +8% | -2.8% | -2.0% |\n| **净利润** | $125M | $131M | **$136M** |\n| **净利率** | 14.1% | 15.1% | 16.1% |\n\n### FY2026季度趋势（截至2026年7月，收入企稳、盈利改善）\n\n| 季度 | 营收 | 净利 | 备注 |\n|------|------|------|------|\n| FQ1 2026（1月止） | $225M | $43M | IC掩模旺季 |\n| FQ2 2026（4月止） | $210M | $31M | — |\n| **FQ3 2026（7月止）** | **$216M** | **$29M** | +2.7% YoY，毛利率33.7% |\n\n营收连续两年小幅下滑（FPD掩模拖累），但净利率持续改善（14.1%→16.1%）——IC掩模占比提升+先进掩模ASP改善+运营效率优化。FY2026最新季度恢复正增长（+2.7% YoY），IC掩模稳增、FPD出清接近尾声。资产负债表净现金、无有息负债。\n\n## 产品线详解\n\n| 产品线 | 营收占比 | 说明 |\n|--------|---------|------|\n| **IC掩模** | ~75% | 成熟节点（180nm-28nm）为主力；Dresden/新加坡厂覆盖先进ArF/EUV；每套$1K-150K+按节点定价 |\n| **FPD掩模** | ~25% | 大尺寸LCD/OLED面板掩模，受面板周期影响波动大 |\n\n按区域：亚太（台湾/韩国/中国）贡献~60%营收，美洲~20%，欧洲~20%。全球约11座掩模工厂覆盖主要晶圆制造集群（美国双厂、台湾高雄、新加坡、中国上海、韩国、德国Dresden等）。\n\n## 技术路线图\n\n- **先进节点掩模**：ArF浸没式28nm以下+EUV掩模（Dresden厂毗邻英飞凌/GlobalFoundries欧洲基地），独立厂在先进掩模的份额受晶圆厂自留挤压，聚焦中段节点\n- **EUV掩模能力**：EUV空白基板（Hoya供应）+多层膜缺陷检测，独立掩模厂EUV产能稀缺\n- **FPD掩模大尺寸化**：G8.5+世代面板掩模，配合OLED需求\n- **核心壁垒**：EBM写入设备产能+掩模数据预处理（MRC/OPC）软件know-how+客户认证粘性（每套掩模绑定具体设计tape-out）\n\n## 融资与现金流\n\n- 年经营现金流~$130M，FCF ~$80-100M（扣除设备资本开支）\n- 净现金资产负债表：无有息负债，现金~$500M+\n- 股东回报：小额股息（年$0.24/股，殖利率~0.8%）+回购\n\n## 研发投入与专利\n\n- 研发聚焦掩模写入工艺、缺陷检测算法、OPC/MRC计算光刻配合\n- 与ASML/NuFlare等设备商联合验证新制程掩模\n- 核心壁垒：写板良率know-how + 客户tape-out绑定（更换掩模厂需重新认证，迁移成本高）\n\n## 动态更新记录\n\n### 2026-09-13（D1批次：待深化龙头清单补全）\n- **来源**：`L0-原始资料池/03-新闻/2026-09-13-D1批次-5家薄档龙头公司-数据溯源.md` (input_20260913_118)\n- **核心更新**：由骨架补全至25字段+5 body段，补入FY2023-2024财务、IC/FPD产品线拆分、掩模供应链（AGC/Hoya/NuFlare）与竞争格局",
       "content_preview": "# Photronics\n\n> 全球最大独立（第三方）光掩模制造商（份额~25%），生产IC用光掩模与平板显示器用掩模，通过向晶圆厂/面板厂销售定制掩模实现盈利，位于半导体L1材料与工具层——芯片制造的\"底片\"，每颗芯片流片都离不开。\n【2026.9.13更新】FY2025营收$849M(-2%)；FQ3 2026营收$216M(+2.7% YoY)，FPD拖累出清、IC掩模稳增。\n | 芯片制造每一步光刻都离不开掩模\"底片\"——Photronics是独立掩模市场的全球霸主，在先进节点被晶圆厂自留的格局下，守住成熟制程掩模的核心阵地。",
-      "sources": ""
-    },
-    {
-      "name": "Taiyo Nippon Sanso",
-      "slug": "taiyo-nippon-sanso",
-      "type": "company",
-      "country": "JP",
-      "ticker": "",
-      "one_liner": "日本最大电子特气，硅烷/磷烷/砷烷，位于产业链L1原材料与资源（龙头）",
-      "description": "日本最大电子特气，硅烷/磷烷/砷烷",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
-      "industry": "AI算力",
-      "industries": [
-        "AI算力",
-        "半导体"
-      ],
-      "segments": [
-        "电子特气"
-      ],
-      "chain_layer": "L1",
-      "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
-      "tags": [],
-      "website": "https://www.tn-sanso.co.jp",
-      "backlinks": 0,
-      "wikilinks": [],
-      "content": "# Taiyo Nippon Sanso\n\n日本最大电子特气，硅烷/磷烷/砷烷",
-      "content_preview": "# Taiyo Nippon Sanso\n\n> 日本最大电子特气，硅烷/磷烷/砷烷，位于产业链L1原材料与资源（龙头） | 日本最大电子特气，硅烷/磷烷/砷烷",
       "sources": ""
     },
     {
@@ -40438,37 +40464,78 @@
       "slug": "dupont",
       "type": "company",
       "country": "US",
-      "ticker": "",
-      "one_liner": "EUV光刻胶EON平台，全球半导体材料领导者，位于产业链L1原材料与资源（龙头）",
-      "description": "EUV光刻胶EON平台，全球半导体材料领导者",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
-      "industry": "AI算力",
+      "ticker": "DD",
+      "one_liner": "成立于 1802 年的美国老牌特种材料商。其电子材料业务（光刻胶、CMP 抛光垫、湿化学品）已于 2025-11-01 整体分拆为独立上市公司 Qnity Electronics（NYSE 代码 Q），本词条仅记录权属沿革；DuPont 现存业务为医疗水务与多元化工业，不在本项目两条产业链内，位于产业链L1基础与材料层（历史）。\n【2026.10.9更新】FY2025 持续经营营收 $68.49 亿（+2%）、调整后 EPS $1.68；2026 Q2 营收 $18.19 亿（+4%）；2026-04-01 另完成 Kevlar/Nomex 芳纶业务剥离。\n",
+      "description": "⚠️ **读这条前请先知道：DuPont 已经不做光刻胶了。**\n\n它于 **2025-11-01 完成电子业务分拆**，光刻胶（g/i-line 到 EUV 全谱）、CMP 抛光垫（全球份额 >70%）与湿化学品业务整体转入独立上市公司 **Qnity Electronics（NYSE: Q）**。本词条保留仅为记录权属沿革，**当前这条赛道的标的请查 [[Qnity Electronics]]**。",
+      "core_business": [
+        "Healthcare & Water Technologies（医疗与水技术）",
+        "Diversified Industrials（多元化工业：建筑技术、工业技术、航空航天、EV 电池胶、印刷包装）",
+        "⚠️ 已剥离：电子材料业务（光刻胶全谱、CMP 抛光垫与抛光液、湿化学品）→ 2025-11-01 分拆为 Qnity Electronics；Aramids（Kevlar / Nomex）→ 2026-04-01 剥离"
+      ],
+      "revenue_model": "工业特种材料与医疗水务产品销售加售后/服务，以短期订单为主，一般不含长期采购承诺。FY2025 持续经营营收 $68.49 亿（+2%；量 +3%、价 −1%）、营业 EBITDA $16.3 亿（+6%，利润率 23.8%）、调整后 EPS $1.68（+16%）、GAAP 净利 $0.98 亿。2026 Q2 营收 $18.19 亿（+4%，有机 +4%）、营业 EBITDA $4.48 亿（+8%，利润率 24.6%，+80bps）、调整后 EPS $1.88（+21%）、GAAP 净利 $1.47 亿。FY2026 指引（2026 Q2 上调）营收 $71.60~71.90 亿、EBITDA $17.50~17.70 亿、调整后 EPS $7.17~7.32。",
+      "founded": 1802,
+      "headquarters": "美国特拉华州 Wilmington",
+      "employees": "约 15,000 人（第三方数据库口径，未经公司官方确认；另有来源记 24,000 人）",
+      "latest_revenue": "2026 Q2 $18.19 亿（YoY +4%）、调整后 EPS $1.88（+21%）；FY2025 持续经营营收 $68.49 亿（+2%）",
+      "market_cap": "约 $175~200 亿（2026 年，多源多时点，无单一口径）",
+      "data_freshness_date": "2026-10-09",
+      "industry": "半导体",
       "industries": [
-        "AI算力",
         "半导体"
       ],
       "segments": [
         "光刻胶与湿化学品"
       ],
       "chain_layer": "L1",
-      "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
+      "chain_role": "已退出（电子业务分拆至 Qnity）",
+      "suppliers": [
+        {
+          "company": "工业特种材料与医疗水务业务的上游供应商",
+          "supplies": "特种材料、水处理部件",
+          "note": "⚠️ 本次调研未获取到具体供应商名单；电子材料业务的相关供应链已随分拆转入 Qnity"
+        }
+      ],
+      "customers": [
+        {
+          "company": "医疗与水技术客户",
+          "note": "Healthcare & Water Technologies 分部"
+        },
+        {
+          "company": "多元化工业客户",
+          "note": "Diversified Industrials 分部（建筑技术、工业技术、航空航天、EV 电池胶、印刷包装）"
+        },
+        {
+          "company": "半导体与显示客户（历史）",
+          "note": "⚠️ 原电子材料客户（三星、台积电等）已随 2025-11-01 分拆转入 Qnity Electronics，本词条不再持有该部分业务"
+        }
+      ],
+      "partners": [
+        {
+          "company": "Qnity Electronics",
+          "ticker": "Q",
+          "area": "分拆后过渡服务",
+          "note": "DuPont 与 Qnity 签有过渡服务协议（服务至 2027 年底，场地租赁至 2040 年）"
+        },
+        {
+          "company": "Arclin / TJC",
+          "area": "资产剥离",
+          "note": "2026-04-01 完成 Aramids（Kevlar / Nomex）业务剥离，对价约 18 亿美元"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "特种材料与工业化学品同业",
+          "note": "⚠️ 本次调研未获取到 DuPont 现存业务的具名竞争对手；原电子材料业务的竞争对手（JSR、TOK、信越化学、Entegris 等）已随分拆转入 Qnity Electronics 词条"
+        }
+      ],
       "tags": [],
       "website": "https://www.dupont.com",
       "backlinks": 0,
-      "wikilinks": [],
-      "content": "# DuPont\n\nEUV光刻胶EON平台，全球半导体材料领导者",
-      "content_preview": "# DuPont\n\n> EUV光刻胶EON平台，全球半导体材料领导者，位于产业链L1原材料与资源（龙头） | EUV光刻胶EON平台，全球半导体材料领导者",
+      "wikilinks": [
+        "Qnity Electronics"
+      ],
+      "content": "# DuPont\n\n⚠️ **读这条前请先知道：DuPont 已经不做光刻胶了。**\n\n它于 **2025-11-01 完成电子业务分拆**，光刻胶（g/i-line 到 EUV 全谱）、CMP 抛光垫（全球份额 >70%）与湿化学品业务整体转入独立上市公司 **Qnity Electronics（NYSE: Q）**。本词条保留仅为记录权属沿革，**当前这条赛道的标的请查 [[Qnity Electronics]]**。\n\n## 财务状况（现存业务）\n\n| 指标 | FY2025 | 2026 Q2 |\n|------|:------:|:------:|\n| **营收** | **$68.49 亿**（持续经营，+2%） | **$18.19 亿**（+4%） |\n| **营业 EBITDA** | $16.3 亿（+6%，利润率 23.8%） | $4.48 亿（+8%，利润率 24.6%） |\n| **调整后 EPS** | **$1.68**（+16%） | **$1.88**（+21%） |\n| **GAAP 净利** | $0.98 亿 | $1.47 亿 |\n\nFY2026 指引（2026 Q2 上调）：营收 $71.60~71.90 亿、EBITDA $17.50~17.70 亿、调整后 EPS $7.17~7.32。\n\n> ⚠️ **两处口径异常，已标注未采信为正式数字**：\n> ① FY2026 调整后 EPS 指引从 Q4 2025 时点的 $2.25~2.30 上调至 $7.17~7.32（差约 3 倍），而同期营收/EBITDA 指引连续——疑为搜索摘要混入不同口径（持续经营 vs 含终止经营）。\n> ② Fortune US 500 2026 记 DuPont 营收 $81.46 亿，与持续经营口径 $68.49 亿不一致（疑含已剥离业务）。\n\n## 业务结构（现状）\n\n| 分部 | 内容 |\n|------|------|\n| **Healthcare & Water Technologies** | 医疗与水技术 |\n| **Diversified Industrials** | 建筑技术、工业技术、航空航天、EV 电池胶、印刷包装 |\n\n## 重组时间线\n\n| 时间 | 事件 |\n|------|------|\n| 2019 | 自 DowDuPont 三分后独立 |\n| **2025-11-01** | **电子业务分拆为 Qnity Electronics（NYSE: Q）**，2025-11-03 上市并纳入标普 500 |\n| **2026-04-01** | Aramids（Kevlar / Nomex）业务剥离给 Arclin / TJC，对价约 18 亿美元 |\n\n分拆对价：每 2 股 DuPont 股票派 1 股 Qnity（共约 2.09 亿股）；Qnity 向 DuPont 支付约 41.22 亿美元现金股息。\n\n## 融资与现金流\n\n- **资产处置收入**：Qnity 分拆时支付的 41.22 亿美元现金股息；Aramids 剥离对价约 18 亿美元\n- **过渡安排**：与 Qnity 的过渡服务协议至 2027 年底，场地租赁至 2040 年\n- ⚠️ 本次调研未获取到 DuPont 的负债水平、自由现金流与股东回报数据\n\n## 研发投入与专利\n\n⚠️ **本项在本次调研中未获取到可靠数据**，且其电子材料相关的研发与专利已随分拆转入 Qnity。按 L1「不推测原则」留空。\n\n## 动态更新记录\n\n- 2026-10-09：**重写**（原为 11 字段、0 章节的骨架页，且其 `segments` 声明为「光刻胶与湿化学品」，已与事实不符）。来源 L0 归档 `input_20261009_150`。\n  **核心订正**：原计划是\"给 DuPont 补数据\"，调研查明 **DuPont 已于 2025-11-01 完成电子业务分拆**，光刻胶/CMP/湿化学品转入 Qnity Electronics（NYSE: Q）。据此同步处置：① 新建 [[Qnity Electronics]] 完整词条；② `光刻胶与湿化学品` 赛道的「龙头」由 DuPont 改标为 Qnity；③ 本词条重写为「权属沿革 + 现存业务」，角色标为「已退出（电子业务分拆至 Qnity）」。\n  **与已有 `dow-electronic` 词条的区别**：`dow-electronic` 指 Dow Inc. 的电子材料业务（独立实体），与本词条无重复关系。\n  **`segments` 字段说明**：保留「光刻胶与湿化学品」以维持赛道登记与声明的一致性（该赛道仍列有本词条，角色标注为已退出），供读者沿革追溯；DuPont 现存业务不在本项目两条产业链内。\n  **已知数据缺口**：① DuPont Q2 2026 毛利率；② FY2025 分部全年逐项数据（仅有 Q4 与 Q2 2026 单季分部）；③ 分拆后员工数的官方口径；④ 现存业务的具名竞争对手。",
+      "content_preview": "# DuPont\n\n> 成立于 1802 年的美国老牌特种材料商。其电子材料业务（光刻胶、CMP 抛光垫、湿化学品）已于 2025-11-01 整体分拆为独立上市公司 Qnity Electronics（NYSE 代码 Q），本词条仅记录权属沿革；DuPont 现存业务为医疗水务与多元化工业，不在本项目两条产业链内，位于产业链L1基础与材料层（历史）。\n【2026.10.9更新】FY2025 持续经营营收 $68.49 亿（+2%）、调整后 EPS $1.68；2026 Q2 营收 $18.19 亿（+4%）；2026-04-01 另完成 Kevlar/Nomex 芳纶业务剥离。\n | ⚠️ **读这条前请先知道：DuPont 已经不做光刻胶了。**\n\n它于 **2025-11-01 完成电子业务分拆**，光刻胶（g/i-line 到 EUV 全谱）、CMP 抛光垫（全球份额 >70%）与湿化学品业务整体转入独立上市公司 **Qnity Electronics（NYSE: Q）**",
       "sources": ""
     },
     {
@@ -40676,7 +40743,7 @@
       "sources": ""
     },
     {
-      "name": "Nippon Sanso (大阳日酸)",
+      "name": "Nippon Sanso Holdings (日本酸素/大阳日酸)",
       "slug": "nippon-sanso",
       "type": "company",
       "country": "日本",
@@ -40710,7 +40777,7 @@
       "backlinks": 0,
       "wikilinks": [],
       "content": "# Nippon Sanso (大阳日酸)\n\n电子特气与大宗气体，收购Praxair欧洲业务",
-      "content_preview": "# Nippon Sanso (大阳日酸)\n\n> 电子特气与大宗气体，收购Praxair欧洲业务，位于产业链L1原材料与资源（核心参与者） | 电子特气与大宗气体，收购Praxair欧洲业务",
+      "content_preview": "# Nippon Sanso Holdings (日本酸素/大阳日酸)\n\n> 电子特气与大宗气体，收购Praxair欧洲业务，位于产业链L1原材料与资源（核心参与者） | 电子特气与大宗气体，收购Praxair欧洲业务",
       "sources": ""
     },
     {
@@ -41116,6 +41183,164 @@
       "wikilinks": [],
       "content": "# Microsoft\n\n从自研AI芯片到Copilot应用的全球最强全栈AI帝国——Azure云年收入$750亿且增速高达34%，作为OpenAI独家算力合作伙伴，M365 Copilot正重塑全球数亿企业用户的工作方式。\n\n## 财务状况\n\n| 指标 | FY2023 | FY2024 | FY2025 | Q4 FY2026 |\n|------|--------|--------|--------|-----------|\n| 总营收 | $2119亿 | $2451亿 | $2817亿 | **$900亿**（单季，+17.7% YoY） |\n| 运营利润 | $977亿 | $1094亿 | $1285亿 | **$406亿**（单季，+18% YoY） |\n| Azure增速 | ~27% | ~29% | **34%** | **43%**（Q4，Q1 FY2027指引45%） |\n| 净利润 | $824亿 | $881亿 | $1018亿 | —（单季未披露） |\n\n**Azure AI成增长主引擎**：Azure年收入突破$750亿，Q4单季增速高达39%。AI服务已连续多个季度贡献Azure增长的显著份额（约12-13个百分点），预计AI年化收入run rate即将突破$150亿。微软云（含Azure+M365 Commercial+其他）Q4单季收入$467亿，同比+27%，是公司营收最大增长极。\n\n### Q4 FY2026 详情（截至2026.6）\n\n- **Capex**：$410亿（含资本租赁），现金性Capex约$365亿；下季度指引$500亿。FY2026自然年从$190B→$175B是会计调整（资本租赁分类变动），实际指引未变。短周期资产（服务器等）占比从50%拉至2/3+，意味着摊销折旧反噬尚未到来\n- **现金流**：经营流入单季$550亿，FCF约$196亿（同比-23%），预计FY2027全年FCF勉强守住\n- **新签合同**：单季签$774亿（恢复增长），RPO积压至$6780亿（+$500亿 QoQ），远超当季确认收入$593亿\n- **经营利润率**：小幅上扬（未降），智慧云板块经营利润率40.4%同比维稳；靠经营杠杆+裁员降本（财年减员5千至12.3万）\n- **生产力板块**：商业M365云+14%，E7定价$99/月（单独买$120的打包折扣），通过做高附加值产品渗透率实现ASP名降实升\n- **个人计算**：-5%（好于预期-10%），Windows OEM -7%（预期-15%+），搜索广告+7%（剔汇率+10%）\n\n## 产品线详解\n\n- **Azure AI**：全球第二大公有云，市场份额约24%，提供OpenAI全系列模型（GPT-4o/o3）、自研Phi小模型及AI Foundry一站式开发平台，作为OpenAI**独家算力供应商**构建了不可复制的竞争壁垒\n- **M365 Copilot**：深度嵌入Word、Excel、Teams、Outlook等办公套件，按月付费每用户$30，面向全球超4亿商用Office用户群体，是企业级AI变现的标杆模式\n- **GitHub Copilot**：开发者AI编程助手，已积累180万+付费用户，牢牢占据AI编码工具赛道第一\n- **Dynamics 365 + Copilot**：CRM与ERP系统内置AI代理，季度增速达23%\n- **全球数据中心**：覆盖60+Azure区域、超300座数据中心，FY2025资本开支突破$500亿用于AI算力基础设施扩建\n\n## 技术路线图\n\n**短期（2025-2026）**：\n- Azure AI加速全球扩容，新增区域以GPU集群（NVIDIA H100/B200）为核心\n- **Maia 100**自研AI芯片量产部署，降低对外部GPU依赖\n- Copilot代理（Agent）功能上线，实现跨应用自动化工作流\n- 与OpenAI合作升级，Stargate超级计算机项目持续推进\n- **【2026.8更新】** Azure Q4 FY2026同增43%→Q1 FY2027指引45%，确定性进入加速通道；Github Copilot 6月起从月费转向按用量计费；OAI 7月GPT 5.6发布将继续拉动云用量；商业M365推E7($99/月打包Copilot+Agent+安全)拉升ASP\n\n**中期（2026-2028）**：\n- Maia 200下一代芯片流片，瞄准训练+推理全场景\n- AI基础设施年CapEx维持$600亿+水平\n- Copilot深度融入Windows/Edge/Bing，AI原生OS雏形显现\n\n\n## 融资与现金流\n\n- 详见财务状况章节\n## 研发投入与专利\n\n- **FY2025研发支出**：约**$320亿+**，占总营收11%+，全球科技公司中绝对金额最大\n- **AI专利布局**：全球AI相关专利超10万项，覆盖大模型训练、推理优化、AI安全对齐、小模型压缩\n- **OpenAI生态壁垒**：累计投资OpenAI超**$130亿**（含算力券），获得其盈利分配权（上限约$920亿），是唯一可将OpenAI模型嵌入全线产品的公司\n- **人才密度**：AI研究团队超5000人，囊括多名图灵奖得主及Transformer核心发明人\n- 研发聚焦五大方向：**AI基础设施、AI应用层、量子计算、混合现实、网络安全**\n\n### 2026.8.5 Q4 FY2026 更新\n\n**Azure确定性重启加速**：Q4同比+43%（超乐观预期42%），Q1 FY2027指引45%，管理层明确下半年整体比上半年加速。催化因素：(1) OAI 7月GPT 5.6发布带动云用量加速；(2) Github Copilot 6月从月费转向按用量计费；(3) RPO $6780亿提供收入确认储备。\n\n**后OAI时代客户多元化见效**：微软与OAI貌合神离后，Azure增速曾放缓、办公软件AI化落地难产。但本季Azure加速+签单回血（$774亿），说明客户多元化策略开始取得成效。模型/芯片自研虽弱，但增长有力+估值折价（相对同行）+利润率稳+现金流不崩=具备性价比。\n\n**Capex与摊销的错配窗口**：短周期资产（服务器等）占比从50%拉到2/3+，意味着现有Capex转化为折旧的速度快于长周期资产（数据中心建筑），但当前摊销折旧额同比几乎零增，折旧反噬尚未到来。需持续关注短周期资产占比变化对后续利润率的影响。\n\n## 动态更新记录\n\n- 2026.8.5: Q4 FY2026财报更新（海豚研究）— Azure 43%加速超预期、Capex $410亿克制、FCF $196亿未崩、签单$774亿回血、RPO $6780亿、经营利润率未降。新增Q4 FY2026详情小节 + 财务状况表Q4列 + revenue_model/one_liner/description/employees字段更新。input_id: input_20260805_002",
       "content_preview": "# Microsoft\n\n> 全球最大软件和云计算公司，运营Azure云+自研Maia AI芯片+Copilot AI助手，通过软件订阅+云计算+AI API实现盈利，位于AI算力L4终端应用层——NVIDIA GPU最大采购方\n【2026.8.5更新】Q4 FY2026营收$900亿(+18%), Azure +43%加速超预期(Q1 FY2027指引45%), 经营利润$406亿(+18%)利润率未降, FCF $196亿唯一未崩云巨头, 签单$774亿回血, RPO $6780亿。\n | 从自研AI芯片到Copilot应用的全球最强全栈AI帝国——Azure云年收入$750亿且增速高达34%，作为OpenAI独家算力合作伙伴，M365 Copilot正重塑全球数亿企业用户的工作方式。",
+      "sources": ""
+    },
+    {
+      "name": "Qnity Electronics",
+      "slug": "qnity",
+      "type": "company",
+      "country": "US",
+      "ticker": "Q",
+      "one_liner": "2025 年 11 月自 DuPont 分拆独立的半导体与互连材料公司，承载原 DuPont 电子的光刻胶全谱（g/i-line、KrF、ArF 干式/浸没、EUV）、CMP 抛光垫与湿化学品业务；CMP 抛光垫 2024 年全球份额超 70%，位于产业链L1基础与材料层。\n【2026.10.9更新】FY2025 营收 $47.5 亿（有机 +10%）、调整后 EPS $3.35；2026 Q2 营收 $14.29 亿（+22% YoY）、调整后 EPS $1.19（+53%）；FY2026 指引 $55.5~56.5 亿。\n",
+      "description": "**这条赛道的实际经营者**。2025 年 11 月自 DuPont 分拆独立，承载原 DuPont 全部电子材料业务——光刻胶全谱（涵盖 g/i-line 到 EUV）、CMP 抛光垫（2024 年全球份额 >70%）与湿化学品。此前本库把这条赛道的「龙头」标在 DuPont 名下，已属过时。",
+      "core_business": [
+        "光刻胶全谱——Megaposit / Microposit（g/i-line）、UV（KrF）、Epic / Epic IM（ArF 干式/浸没）、Eon（EUV）",
+        "光刻配套材料——BARC（底部抗反射涂层）、电子级聚合物与单体",
+        "CMP 材料——抛光垫（Ikonic / IC1000 / Visionpad）与抛光液（Novaplane / Optiplane / Acuplane / Klebosol）",
+        "清洗液与去胶液——CuSolve / PCMPSolv / EKC",
+        "干膜光刻胶——Riston",
+        "先进封装金属化——Intervia / Solderon TS8000 / Cyclotene",
+        "其他——OLED 材料、Kalrez 密封件"
+      ],
+      "revenue_model": "耗材驱动模式——超过 90% 收入来自耗材（consumables），随晶圆厂开工率与制程步数增长而非随资本开支波动，这使其收入稳定性优于设备商。地域高度集中于亚太（约 79%）。盈利结构优良：FY2025 调整后 pro forma 营业 EBITDA $14 亿（利润率 29.5%）、调整后 EPS $3.35（+12%）；2026 Q2 调整后 EBITDA 利润率 30.2%、调整后 EPS $1.19（+53%）。分部结构（FY2025）：Semiconductor Technologies 约占 56%（2026 Q2 有机 +17%，EBITDA 率约 34%）、Interconnect Solutions 约占 44%（2026 Q2 +30% YoY，EBITDA 率约 29%）。分拆对价：每 2 股 DuPont 股票派 1 股 Qnity（共约 2.09 亿股），Qnity 向 DuPont 支付约 41.22 亿美元现金股息。",
+      "founded": 2025,
+      "headquarters": "美国特拉华州 Wilmington",
+      "employees": "10,000 以上",
+      "latest_revenue": "2026 Q2 $14.29 亿（YoY +22%），调整后 EPS $1.19（+53%），调整后 EBITDA 利润率 30.2%；FY2026 指引 $55.5~56.5 亿",
+      "market_cap": "约 $240~340 亿（2026 年多时点读数，区间较大）",
+      "data_freshness_date": "2026-10-09",
+      "industry": "半导体",
+      "industries": [
+        "半导体",
+        "AI算力"
+      ],
+      "segments": [
+        "光刻胶与湿化学品"
+      ],
+      "chain_layer": "L1",
+      "chain_role": "龙头",
+      "suppliers": [
+        {
+          "company": "4-乙酰氧基苯乙烯（ASM）单体",
+          "supplies": "光刻胶单体",
+          "note": "自产，公司自称唯一商业化直工艺厂商"
+        },
+        {
+          "company": "电子级树脂",
+          "supplies": "248nm DUV / 193nm 光刻胶用树脂",
+          "note": "自产，北美唯一规模化工厂"
+        },
+        {
+          "company": "其他原料（单体、光引发剂 PAG、quencher、表面活性剂、交联剂）",
+          "supplies": "光刻胶与湿化学品原料",
+          "note": "主要来自日本、韩国、印度、中国；公司称「专用光聚合物产业绝大部分在日本，本公司是唯一例外」"
+        }
+      ],
+      "customers": [
+        {
+          "company": "Samsung",
+          "ticker": "005930",
+          "note": "最大客户，约占 2025 年营收 11%"
+        },
+        {
+          "company": "TSMC",
+          "ticker": "TSM",
+          "note": "第二大客户，约占 8%"
+        },
+        {
+          "company": "SK hynix",
+          "ticker": "000660.KS"
+        },
+        {
+          "company": "Intel",
+          "ticker": "INTC"
+        },
+        {
+          "company": "Micron",
+          "ticker": "MU"
+        },
+        {
+          "company": "前 10 大客户",
+          "note": "合计约占营收 1/3；公司自称覆盖全球前 20 大半导体厂几乎全部，平均客户关系超 30 年"
+        }
+      ],
+      "partners": [
+        {
+          "company": "SK hynix",
+          "ticker": "000660.KS",
+          "area": "CMP 抛光垫",
+          "note": "2025-10 扩大合作，面向下一代存储"
+        },
+        {
+          "company": "Samsung",
+          "ticker": "005930",
+          "area": "半导体材料",
+          "note": "获其 2024 年度最佳合作伙伴奖（创新）"
+        },
+        {
+          "company": "DuPont",
+          "ticker": "DD",
+          "area": "分拆后过渡服务",
+          "note": "过渡服务协议服务至 2027 年底、场地租赁至 2040 年"
+        }
+      ],
+      "competitors": [
+        {
+          "company": "JSR Corporation",
+          "ticker": "4185.T",
+          "area": "光刻胶",
+          "note": "2024 年 4 月被日本产业革新投资机构（JIC）私有化；持 Inpria（金属氧化物光刻胶）"
+        },
+        {
+          "company": "Tokyo Ohka Kogyo (TOK)",
+          "ticker": "4186.T",
+          "area": "光刻胶",
+          "note": "日系龙头，EUV/ArF/KrF 全系列"
+        },
+        {
+          "company": "信越化学 (Shin-Etsu Chemical)",
+          "ticker": "4063.T",
+          "area": "光刻胶",
+          "note": "日系龙头"
+        },
+        {
+          "company": "住友化学",
+          "ticker": "4005.T",
+          "area": "光刻胶"
+        },
+        {
+          "company": "Fujifilm",
+          "ticker": "4901.T",
+          "area": "光刻胶、CMP 与湿化学品"
+        },
+        {
+          "company": "Dongjin Semichem",
+          "ticker": "005290.KS",
+          "area": "光刻胶"
+        },
+        {
+          "company": "Merck KGaA (EMD Electronics)",
+          "ticker": "MRK.DE",
+          "area": "湿化学品与 CMP（含原 Versum）"
+        },
+        {
+          "company": "Entegris",
+          "ticker": "ENTG",
+          "area": "CMP 与湿化学品（含原 CMC Materials）",
+          "note": "CMP 抛光液领域主要竞争者"
+        },
+        {
+          "company": "Resonac（原昭和电工）",
+          "ticker": "4004.T",
+          "area": "半导体材料"
+        }
+      ],
+      "tags": [],
+      "website": "https://www.qnityelectronics.com",
+      "backlinks": 1,
+      "wikilinks": [],
+      "content": "# Qnity Electronics\n\n**这条赛道的实际经营者**。2025 年 11 月自 DuPont 分拆独立，承载原 DuPont 全部电子材料业务——光刻胶全谱（涵盖 g/i-line 到 EUV）、CMP 抛光垫（2024 年全球份额 >70%）与湿化学品。此前本库把这条赛道的「龙头」标在 DuPont 名下，已属过时。\n\n## 财务状况\n\n| 指标 | FY2025 | 2026 Q2 |\n|------|:------:|:------:|\n| **营收** | **$47.5 亿**（有机 +10%） | **$14.29 亿**（**+22%**） |\n| **调整后 EBITDA 利润率** | 29.5%（pro forma） | **30.2%** |\n| **调整后 EPS** | **$3.35**（+12%） | **$1.19**（**+53%**） |\n\nFY2026 营收指引 **$55.5~56.5 亿**。\n\n**收入结构特征**：**超过 90% 收入来自耗材**（consumables），随晶圆厂开工率与制程步数增长，而非随资本开支波动——这使其收入稳定性优于设备商。地域上约 **79% 来自亚太**。\n\n## 产品线详解\n\n| 分部 | FY2025 占比 | 2026 Q2 表现 |\n|------|:--:|------|\n| **Semiconductor Technologies** | 约 **56%** | 有机 **+17%**，EBITDA 率约 34% |\n| **Interconnect Solutions** | 约 **44%** | **+30%** YoY，EBITDA 率约 29% |\n\n**产品清单**：\n\n- **光刻胶全谱**——Megaposit / Microposit（g/i-line）、UV（KrF）、Epic / Epic IM（ArF 干式/浸没）、Eon（EUV）\n- **光刻配套**——BARC、电子级聚合物与单体\n- **CMP 材料**——抛光垫（Ikonic / IC1000 / Visionpad）与抛光液（Novaplane / Optiplane / Acuplane / Klebosol）\n- **清洗液与去胶液**——CuSolve / PCMPSolv / EKC\n- **干膜光刻胶**——Riston\n- **先进封装金属化**——Intervia / Solderon TS8000 / Cyclotene\n- 其他——OLED 材料、Kalrez 密封件\n\n## 技术路线图\n\n- **EUV 布局**：Eon EUV 光刻胶平台\n- **非含氟（PFAS-free）方向**：UV 26GNF KrF 光刻胶获 2025 R&D 100 Award；计划将非含氟化学从 KrF 扩展至 ArF 与 EUV\n- **CMP 迭代**：Ikonic 9000 CMP 垫获 2025 爱迪生奖铜奖；2025-10 与 SK 海力士扩大面向下一代存储的合作\n- **行业技术格局**：2025 年 EUV 仅占光刻胶市场约 11.2%，DUV 仍占 76%\n\n## 融资与现金流\n\n- **分拆对价**：每 2 股 DuPont 股票派 1 股 Qnity（共约 2.09 亿股）；Qnity 向 DuPont 支付约 **41.22 亿美元**现金股息\n- **过渡安排**：与 DuPont 的过渡服务协议至 2027 年底，场地租赁至 2040 年\n- ⚠️ 本次调研未获取到 Qnity 的自由现金流、负债水平与股东回报（分红/回购）数据\n\n## 研发投入与专利\n\n⚠️ **本项在本次调研中未获取到可靠数据**：搜索来源未披露 Qnity 的研发费用率、研发投入金额与专利数量。按 L1「不推测原则」留空，不以推测填空。\n\n## 市场地位\n\n| 细分 | 份额 | 来源 |\n|------|:--:|------|\n| **CMP 抛光垫** | **>70%**（2024） | TECHCET |\n| 光刻胶 | 全球前六之一（前六合计 83.9~84.6%） | 第三方聚合口径 |\n\n> ⚠️ 光刻胶**官方单一市占率未找到**——仅有「第一梯队」「第三方口径 Top10 第 4」「前六合计 84.6%」等聚合数据。日系厂商 2024 年合计约 75%、美系约 12.25%。\n> 全球光刻胶市场 2025 年约 32.66 亿美元 → 2032 年 51.09 亿美元（CAGR 6.8%）。\n\n## 动态更新记录\n\n- 2026-10-09：**新建词条**。来源 L0 归档 `input_20261009_150`（`L0-原始资料池/03-新闻/2026-10-09-DuPont-调研.md`，24 组搜索词）。\n  **本条目为调研中的重大发现所触发**：原计划是\"给 DuPont 补数据\"，但调研查明 **DuPont 已于 2025-11-01 将电子业务整体分拆为 Qnity**，故本赛道的实际经营者已是 Qnity。同步处置：① 新建本条目；② `光刻胶与湿化学品` 赛道的「龙头」由 DuPont 改标为本公司，DuPont 角色改为「已退出（电子业务分拆至 Qnity）」；③ 该赛道 `competition.global` 中原本挂在 DuPont 名下的 12% 份额条目一并改为 Qnity。\n  **`founded` 口径**：取 2025 年（分拆独立年份）；其业务实体源自 1913 年成立的 Rohm and Haas 电子材料系（2009 年被 Dow 收购、2019 年随 DowDuPont 三分进入 DuPont）。\n  **已知数据缺口**：① DuPont/Qnity 光刻胶的官方市占率；② Qnity 光刻胶单独营收（含在 Semiconductor Technologies 内未拆分）；③ Qnity 的自由现金流与负债数据；④ 分拆后员工数的官方口径。",
+      "content_preview": "# Qnity Electronics\n\n> 2025 年 11 月自 DuPont 分拆独立的半导体与互连材料公司，承载原 DuPont 电子的光刻胶全谱（g/i-line、KrF、ArF 干式/浸没、EUV）、CMP 抛光垫与湿化学品业务；CMP 抛光垫 2024 年全球份额超 70%，位于产业链L1基础与材料层。\n【2026.10.9更新】FY2025 营收 $47.5 亿（有机 +10%）、调整后 EPS $3.35；2026 Q2 营收 $14.29 亿（+22% YoY）、调整后 EPS $1.19（+53%）；FY2026 指引 $55.5~56.5 亿。\n | **这条赛道的实际经营者**。2025 年 11 月自 DuPont 分拆独立，承载原 DuPont 全部电子材料业务——光刻胶全谱（涵盖 g/i-line 到 EUV）、CMP 抛光垫（2024 年全球份额 >70%）与湿化学品。此前本库把这条赛道的「龙头」标在 DuPont 名下，已属过时。",
       "sources": ""
     },
     {
@@ -53664,13 +53889,6 @@
         }
       },
       {
-        "name": "Taiyo Nippon Sanso",
-        "symbolSize": 12,
-        "itemStyle": {
-          "color": "#34C759"
-        }
-      },
-      {
         "name": "Graphcore",
         "symbolSize": 12,
         "itemStyle": {
@@ -55099,7 +55317,7 @@
         }
       },
       {
-        "name": "Nippon Sanso (大阳日酸)",
+        "name": "Nippon Sanso Holdings (日本酸素/大阳日酸)",
         "symbolSize": 12,
         "itemStyle": {
           "color": "#34C759"
@@ -55128,6 +55346,13 @@
       },
       {
         "name": "Microsoft",
+        "symbolSize": 12,
+        "itemStyle": {
+          "color": "#34C759"
+        }
+      },
+      {
+        "name": "Qnity Electronics",
         "symbolSize": 12,
         "itemStyle": {
           "color": "#34C759"
@@ -58022,6 +58247,10 @@
         "target": "数据中心IDC"
       },
       {
+        "source": "DuPont",
+        "target": "Qnity Electronics"
+      },
+      {
         "source": "鸿海精密 (富士康/Foxconn)",
         "target": "AI服务器"
       },
@@ -58803,7 +59032,7 @@
       },
       {
         "source": "电子特气",
-        "target": "Taiyo Nippon Sanso"
+        "target": "Nippon Sanso Holdings (日本酸素/大阳日酸)"
       },
       {
         "source": "电子特气",
@@ -58828,10 +59057,6 @@
       {
         "source": "电子特气",
         "target": "Air Products"
-      },
-      {
-        "source": "电子特气",
-        "target": "Nippon Sanso (大阳日酸)"
       },
       {
         "source": "电子特气",
@@ -59516,6 +59741,10 @@
       {
         "source": "光刻胶与湿化学品",
         "target": "DuPont"
+      },
+      {
+        "source": "光刻胶与湿化学品",
+        "target": "Qnity Electronics"
       },
       {
         "source": "光刻胶与湿化学品",

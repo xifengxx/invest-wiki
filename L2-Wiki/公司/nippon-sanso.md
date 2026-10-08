@@ -1,5 +1,5 @@
 ---
-name: Nippon Sanso (大阳日酸)
+name: Nippon Sanso Holdings (日本酸素/大阳日酸)
 slug: nippon-sanso
 country: 日本
 type: company

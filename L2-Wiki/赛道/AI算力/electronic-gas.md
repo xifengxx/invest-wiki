@@ -95,7 +95,7 @@ companies:
   role: 二线弹性
   rev: 70
 - ticker: '4091'
-  name: Taiyo Nippon Sanso
+  name: Nippon Sanso Holdings (日本酸素/大阳日酸)
   role: 二线弹性
   rev: 12
 - ticker: '688268'
@@ -121,9 +121,6 @@ companies:
 - ticker: ''
   name: Air Products
   role: 龙头
-- ticker: ''
-  name: Nippon Sanso (大阳日酸)
-  role: 核心参与者
 - ticker: ''
   name: Resonac(昭和电工)
   role: 核心参与者
@@ -231,3 +228,11 @@ sources:
 - **companies**: 11 → 15 家。补入 **Nippon Sanso (大阳日酸)**、**Resonac(昭和电工)**、**凯美特气**、**昊华科技**
 - **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
 - **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）
+
+### 更新 2026-10-09（合并大阳日酸重复条目）
+> 来源: Research 模式调研发现（L0 input_20261009_155）
+> 置信度: 高
+
+- **companies**: 15 → 14 家。合并同一公司的两条重复条目——`Taiyo Nippon Sanso`（ticker 4091）与 `Nippon Sanso (大阳日酸)`（无 ticker），两者实为同一公司 4091.T
+- **名称订正**: 上市主体 2020 年已由「大陽日酸株式会社」更名为「日本酸素ホールディングス株式会社 / Nippon Sanso Holdings Corporation」，故统一为 `Nippon Sanso Holdings (日本酸素/大阳日酸)`
+- **成因**: 此重复系 2026-10-08 孤儿公司接线时引入——当时仅按精确名称查重，未识别「大阳日酸」与「Taiyo Nippon Sanso」为同一主体（一事两写）

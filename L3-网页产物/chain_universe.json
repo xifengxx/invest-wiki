@@ -7,8 +7,8 @@
     "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
     "source_company_links": 589,
-    "unique_companies": 363,
-    "overseas_quote_candidates": 203,
+    "unique_companies": 364,
+    "overseas_quote_candidates": 204,
     "a_share_mapping_companies": 100,
     "private_or_untradable": 60
   },
@@ -3959,7 +3959,7 @@
           ],
           "name": "DuPont",
           "roles": [
-            "龙头"
+            "已退出（电子业务分拆至 Qnity）"
           ],
           "rev": 85.0,
           "market_guess": "US_LIKE",
@@ -3979,11 +3979,25 @@
           "market_guess": "PRIVATE",
           "tradable": false,
           "in_overseas_heat": false
+        },
+        {
+          "ticker": "Q",
+          "source_tickers": [
+            "Q"
+          ],
+          "name": "Qnity Electronics",
+          "roles": [
+            "龙头"
+          ],
+          "rev": null,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 13,
-      "n_unique_companies": 11,
-      "n_overseas_candidates": 5,
+      "n_source_companies": 14,
+      "n_unique_companies": 12,
+      "n_overseas_candidates": 6,
       "n_a_share_mapping": 5,
       "a_share": [
         {
@@ -5442,7 +5456,7 @@
           "source_tickers": [
             "4091"
           ],
-          "name": "Taiyo Nippon Sanso",
+          "name": "Nippon Sanso Holdings (日本酸素/大阳日酸)",
           "roles": [
             "二线弹性"
           ],
@@ -5536,7 +5550,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 15,
+      "n_source_companies": 14,
       "n_unique_companies": 10,
       "n_overseas_candidates": 4,
       "n_a_share_mapping": 6,
@@ -10277,7 +10291,7 @@
     },
     "4091.T": {
       "ticker": "4091.T",
-      "name": "Taiyo Nippon Sanso",
+      "name": "Nippon Sanso Holdings (日本酸素/大阳日酸)",
       "market_guess": "JP",
       "tradable": true,
       "segments": [
@@ -12404,6 +12418,15 @@
         "autonomous-driving"
       ]
     },
+    "Q": {
+      "ticker": "Q",
+      "name": "Qnity Electronics",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "photoresist"
+      ]
+    },
     "QCOM": {
       "ticker": "QCOM",
       "name": "Qualcomm",
@@ -12911,12 +12934,12 @@
       ]
     }
   },
-  "version": "2026-10-09.2",
+  "version": "2026-10-09.6",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-10-09T00:05:49+08:00",
-  "source_generated_at": "2026-10-09T00:05:49+08:00",
-  "source_sha256": "0a65fea40f6bc15b21043b7383b64785e81d42b37515d8bcaa49fa16458d96f7",
-  "source_hash8": "0a65fea4",
-  "source_commit": "3147481e021fdcba6efb54cc2915def8f9c16ce9",
+  "built_at": "2026-10-09T00:15:13+08:00",
+  "source_generated_at": "2026-10-09T00:15:13+08:00",
+  "source_sha256": "ecaa7c428464a7dcebddd21dd866a6fc0fba8e6bd3ef3a3b1a14dea798259a85",
+  "source_hash8": "ecaa7c42",
+  "source_commit": "6a182414b12c5d25243b666db10259cb0bbcf96e",
   "source_dirty": true
 }

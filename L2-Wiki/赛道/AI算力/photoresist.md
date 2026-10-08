@@ -29,9 +29,9 @@ competition:
   - name: Shin-Etsu
     share: '-'
     note: 日本，EUV/ArF/KrF全系列；EUV+ArF双线布局，约18%份额
-  - name: DuPont
+  - name: Qnity Electronics
     share: '-'
-    note: 美国，EON EUV平台；KrF/ArF/Track，约12%份额
+    note: 美国（2025-11 自 DuPont 分拆，NYSE 代码 Q），EON EUV平台；KrF/ArF/Track，约12%份额
   - name: Fujifilm
     share: '-'
     note: 日本，负性EUV光刻胶+显影液
@@ -127,8 +127,11 @@ companies:
   rev: 30
 - ticker: DD
   name: DuPont
-  role: 龙头
+  role: 已退出（电子业务分拆至 Qnity）
   rev: 85
+- ticker: 'Q'
+  name: Qnity Electronics
+  role: 龙头
 - ticker: ''
   name: Dongjin Semichem
   role: 核心参与者
@@ -228,3 +231,11 @@ sources:
 - **companies**: 11 → 13 家。补入 **Dongjin Semichem**、**艾森股份**
 - **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
 - **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）
+
+### 更新 2026-10-09（权属主体订正：DuPont → Qnity）
+> 来源: Research 模式调研发现（L0 input_20261009_150）
+> 置信度: 高
+
+- **companies**: 新增 **Qnity Electronics（NYSE: Q）** 为龙头；**DuPont** 角色由「龙头」改为「已退出（电子业务分拆至 Qnity）」
+- **原因**: DuPont 已于 **2025-11-01 完成电子业务分拆**，光刻胶（i-line/KrF/ArF/EUV 全谱）、CMP 抛光垫（2024 年全球份额 >70%）与湿化学品业务整体转入独立上市公司 Qnity Electronics——本赛道的实际经营者已是 Qnity，DuPont 对赛道的直接敞口归零（其现存业务为医疗水务与多元化工业，均不在本项目两条产业链内）
+- **保留 DuPont 条目**的理由: 记录权属沿革，避免读者按旧资料在 DuPont 名下寻找光刻胶业务
