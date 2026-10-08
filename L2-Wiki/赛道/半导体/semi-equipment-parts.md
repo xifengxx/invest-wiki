@@ -109,6 +109,9 @@ companies:
 - ticker: UCTT
   name: Ultra Clean Holdings (UCT)
   role: 核心参与者
+- ticker: 6856.T
+  name: Horiba
+  role: 龙头
 sources:
 - title: 华兴证券 SEMICON China 2026解读
   summary: 成熟制程零部件国产化率>50%，先进制程核心件<10%但供不应求
@@ -158,3 +161,10 @@ sources:
 - **companies**: 5 → 8 家。补入 **Advanced Energy Industries**、**Edwards Vacuum**、**Ultra Clean Holdings (UCT)**
 - **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
 - **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）
+
+### 更新 2026-10-09（补齐 Horiba 双赛道归属）
+> 来源: Research 模式调研（L0 input_20261009_152）
+> 置信度: 高
+
+- **companies**: 补入 **Horiba**（role=龙头）——其质量流量控制器（MFC）产品线占全球约 60% 份额，属本赛道（半导体设备零部件）；此前仅登记在「检测量测设备」赛道（其量测仪器产品线）
+- **说明**: Horiba 在两条赛道都有真实业务，故公司页 `segments` 已同步声明两个赛道；**未填 `rev`**

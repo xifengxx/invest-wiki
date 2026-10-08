@@ -6,9 +6,9 @@
     "source_segments": 67,
     "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
-    "source_company_links": 589,
-    "unique_companies": 364,
-    "overseas_quote_candidates": 204,
+    "source_company_links": 590,
+    "unique_companies": 365,
+    "overseas_quote_candidates": 205,
     "a_share_mapping_companies": 100,
     "private_or_untradable": 60
   },
@@ -8101,6 +8101,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "6856.T",
+          "source_tickers": [
+            "6856.T"
+          ],
+          "name": "Horiba",
+          "roles": [
+            "龙头"
+          ],
+          "rev": null,
+          "market_guess": "JP",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "688357",
           "source_tickers": [
             "688357"
@@ -8185,9 +8199,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 8,
-      "n_unique_companies": 7,
-      "n_overseas_candidates": 4,
+      "n_source_companies": 9,
+      "n_unique_companies": 8,
+      "n_overseas_candidates": 5,
       "n_a_share_mapping": 3,
       "a_share": [
         {
@@ -10601,6 +10615,15 @@
         "semi-ion-implanter"
       ]
     },
+    "6856.T": {
+      "ticker": "6856.T",
+      "name": "Horiba",
+      "market_guess": "JP",
+      "tradable": true,
+      "segments": [
+        "semi-equipment-parts"
+      ]
+    },
     "6857.T": {
       "ticker": "6857.T",
       "name": "Advantest",
@@ -12934,12 +12957,12 @@
       ]
     }
   },
-  "version": "2026-10-09.6",
+  "version": "2026-10-09.8",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-10-09T00:15:13+08:00",
-  "source_generated_at": "2026-10-09T00:15:13+08:00",
-  "source_sha256": "ecaa7c428464a7dcebddd21dd866a6fc0fba8e6bd3ef3a3b1a14dea798259a85",
-  "source_hash8": "ecaa7c42",
-  "source_commit": "6a182414b12c5d25243b666db10259cb0bbcf96e",
+  "built_at": "2026-10-09T00:19:57+08:00",
+  "source_generated_at": "2026-10-09T00:19:57+08:00",
+  "source_sha256": "fce76cb92c96f3080aa03319640d026ea38293a89cb3664baaf57c47c6ba93db",
+  "source_hash8": "fce76cb9",
+  "source_commit": "0da8bdb0a81f085cfbc33889b6af8b9d86a9e988",
   "source_dirty": true
 }
