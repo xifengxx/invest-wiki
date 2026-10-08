@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>invest_wiki 数据质量评估</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+/* ============================================================
+   设计令牌
+   布局：单栏报告，正文 ~64ch；数据区全宽；冷偏中性 + 钢蓝强调
+   ============================================================ */
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#f4f6f9;
+  --surface:#ffffff;
+  --surface-2:#eaedf2;
+  --fg:#12161c;
+  --fg-2:#4b5461;
+  --fg-3:#7b8593;
+  --rule:#dde2e9;
+  --accent:#1c5cab;
+  --accent-ink:#12457f;
+  --accent-soft:#cde2fb;
+  --series-1:#2a78d6;
+  --good:#0ca30c;
+  --warn:#fab219;
+  --crit:#d03b3b;
+  --good-bg:#e6f4e6;
+  --warn-bg:#fdf3dd;
+  --crit-bg:#fae7e7;
+  --shadow:0 1px 2px rgba(18,22,28,.05),0 6px 18px -12px rgba(18,22,28,.18);
+
+  --f-display:"IBM Plex Sans Condensed","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  --f-body:"IBM Plex Sans","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  --f-mono:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,"PingFang SC",monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#14161a; --surface:#1c1f24; --surface-2:#24282f;
+    --fg:#f3f5f8; --fg-2:#b4bcc7; --fg-3:#838d9a; --rule:#2b3038;
+    --accent:#86b6ef; --accent-ink:#a9cbf4; --accent-soft:#1c3153;
+    --series-1:#3987e5;
+    --good-bg:#152a15; --warn-bg:#2e2610; --crit-bg:#2e1717;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 18px -12px rgba(0,0,0,.6);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14161a; --surface:#1c1f24; --surface-2:#24282f;
+  --fg:#f3f5f8; --fg-2:#b4bcc7; --fg-3:#838d9a; --rule:#2b3038;
+  --accent:#86b6ef; --accent-ink:#a9cbf4; --accent-soft:#1c3153;
+  --series-1:#3987e5;
+  --good-bg:#152a15; --warn-bg:#2e2610; --crit-bg:#2e1717;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 18px -12px rgba(0,0,0,.6);
+  color-scheme:dark;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--fg);
+  font-family:var(--f-body);
+  font-size:16px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{
+  max-width:920px;
+  margin-inline:auto;
+  padding-inline:20px;
+  padding-block:0 96px;
+  display:flex;
+  flex-direction:column;
+  gap:56px;
+}
+.prose{max-width:64ch}
+
+/* ---------- 页头 ---------- */
+.masthead{
+  padding-block:56px 32px;
+  display:flex;flex-direction:column;gap:20px;
+  border-bottom:1px solid var(--rule);
+}
+.eyebrow{
+  font-family:var(--f-mono);font-size:11.5px;font-weight:500;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3);
+}
+h1{
+  font-family:var(--f-display);font-weight:700;
+  font-size:clamp(30px,5.2vw,46px);line-height:1.1;
+  letter-spacing:-.015em;text-wrap:balance;margin:0;
+}
+.masthead .sub{
+  color:var(--fg-2);font-size:17px;max-width:60ch;text-wrap:pretty;margin:0;
+}
+.metaline{
+  display:flex;flex-wrap:wrap;gap:9px 24px;
+  font-family:var(--f-mono);font-size:13px;line-height:1.5;color:var(--fg-3);
+  padding-top:6px;
+}
+.metaline b{color:var(--fg-2);font-weight:500}
+
+/* ---------- 区块 ---------- */
+section{display:flex;flex-direction:column;gap:20px}
+.sec-head{display:flex;flex-direction:column;gap:7px}
+h2{
+  font-family:var(--f-display);font-weight:700;
+  font-size:clamp(22px,3vw,28px);line-height:1.2;letter-spacing:-.01em;
+  margin:0;text-wrap:balance;
+}
+h3{
+  font-family:var(--f-body);font-weight:600;font-size:15.5px;
+  margin:0;letter-spacing:.005em;
+}
+p{margin:0}
+section p{color:var(--fg-2)}
+strong{color:var(--fg);font-weight:600}
+
+/* ---------- 判决块 ---------- */
+.verdict{
+  background:var(--surface);border:1px solid var(--rule);
+  border-radius:4px;box-shadow:var(--shadow);
+  padding:26px 24px;display:flex;flex-direction:column;gap:18px;
+}
+.verdict .lead{
+  font-size:18px;line-height:1.5;color:var(--fg);margin:0;
+  text-wrap:pretty;
+}
+.verdict .lead em{font-style:normal;color:var(--accent);font-weight:600}
+
+.grades{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+@media (max-width:720px){.grades{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:430px){.grades{grid-template-columns:minmax(0,1fr)}}
+.grade{background:var(--surface);padding:14px 15px;display:flex;flex-direction:column;gap:5px}
+.grade .k{font-family:var(--f-mono);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--fg-3)}
+.grade .v{font-family:var(--f-display);font-weight:700;font-size:19px;line-height:1.15}
+.grade .n{font-size:12.5px;color:var(--fg-3);line-height:1.4}
+.v-good{color:var(--good)} .v-warn{color:#8a6100} .v-crit{color:var(--crit)}
+:root[data-theme="dark"] .v-warn,
+:root:not([data-theme="light"]) .v-warn{color:var(--warn)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]) .v-warn{color:#8a6100}}
+
+/* ---------- 表格 ---------- */
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:440px}
+caption{
+  caption-side:top;text-align:left;font-family:var(--f-mono);font-size:11.5px;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--fg-3);padding-bottom:9px;
+}
+th,td{padding:9px 13px 9px 0;text-align:left;border-bottom:1px solid var(--rule);vertical-align:top}
+thead th{
+  font-family:var(--f-mono);font-size:11.5px;font-weight:500;
+  letter-spacing:.07em;text-transform:uppercase;color:var(--fg-3);
+  border-bottom:1px solid var(--fg-3);white-space:nowrap;
+}
+tbody tr:last-child td{border-bottom:none}
+td.num,th.num{text-align:right;font-family:var(--f-mono);font-variant-numeric:tabular-nums;padding-right:18px}
+td.num:last-child,th.num:last-child{padding-right:0}
+code,.mono{font-family:var(--f-mono);font-size:12.5px;background:var(--surface-2);padding:1.5px 5px;border-radius:2px;color:var(--fg-2)}
+td strong{font-weight:600}
+
+/* 状态药丸 —— 状态色永远与文字同现，不靠颜色单独传意 */
+.chip{
+  display:inline-flex;align-items:center;gap:6px;
+  font-family:var(--f-mono);font-size:11.5px;font-weight:500;
+  padding:2px 8px 2px 7px;border-radius:99px;white-space:nowrap;
+}
+.chip::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor;flex:none}
+.chip.good{background:var(--good-bg);color:#0a7a0a}
+.chip.warn{background:var(--warn-bg);color:#8a6100}
+.chip.crit{background:var(--crit-bg);color:var(--crit)}
+:root[data-theme="dark"] .chip.good{color:#5cc95c}
+:root[data-theme="dark"] .chip.warn{color:var(--warn)}
+:root[data-theme="dark"] .chip.crit{color:#ef7d7d}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .chip.good{color:#5cc95c}
+  :root:not([data-theme="light"]) .chip.warn{color:var(--warn)}
+  :root:not([data-theme="light"]) .chip.crit{color:#ef7d7d}
+}
+
+/* ---------- 图表 ---------- */
+figure{margin:0;display:flex;flex-direction:column;gap:14px}
+figcaption{font-size:13px;color:var(--fg-3);line-height:1.5}
+figcaption b{color:var(--fg-2);font-weight:500}
+
+.chart-title{
+  font-family:var(--f-body);font-weight:600;font-size:15px;color:var(--fg);
+  display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+}
+.chart-title .unit{font-family:var(--f-mono);font-size:11.5px;font-weight:400;color:var(--fg-3);letter-spacing:.06em;text-transform:uppercase}
+
+/* 堆叠条：状态编码 216/20/169 */
+.stack{display:flex;height:44px;border-radius:3px;overflow:hidden;gap:2px;background:var(--surface-2)}
+.seg{
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--f-mono);font-size:12px;font-weight:500;
+  color:#fff;overflow:hidden;white-space:nowrap;cursor:default;
+  transition:filter .12s ease;
+}
+.seg:hover{filter:brightness(1.08)}
+.seg.s-good{background:var(--good)}
+.seg.s-warn{background:var(--warn);color:#3d2b00}
+.seg.s-crit{background:var(--crit)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:13px;color:var(--fg-2)}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:10px;height:10px;border-radius:2px;flex:none}
+
+/* 水平条形 —— 单序列，量值编码 */
+.bars{display:flex;flex-direction:column;gap:11px}
+.bar-row{display:grid;grid-template-columns:minmax(120px,168px) minmax(0,1fr) auto;align-items:center;gap:12px}
+.bar-row .lbl{font-size:13.5px;color:var(--fg-2);line-height:1.3;min-width:0;overflow-wrap:anywhere}
+.bar-row .lbl code{font-size:12px}
+.track{display:block;height:15px;background:var(--surface-2);border-radius:3px;overflow:hidden}
+.fill{display:block;height:100%;min-width:2px;background:var(--series-1);border-radius:0 4px 4px 0;cursor:default;transition:filter .12s ease}
+.fill:hover{filter:brightness(1.1)}
+.bar-row .val{font-family:var(--f-mono);font-size:12.5px;font-variant-numeric:tabular-nums;color:var(--fg-2);min-width:74px;text-align:right}
+.bar-row .val em{font-style:normal;color:var(--fg-3)}
+
+/* 分布条 —— rev 取值按数值升序，紧凑型 */
+.bars.compact{gap:5px}
+.bars.compact .bar-row{grid-template-columns:52px minmax(0,1fr) 62px;gap:12px}
+.bars.compact .lbl{
+  font-family:var(--f-mono);font-size:12.5px;font-variant-numeric:tabular-nums;
+  color:var(--fg-2);text-align:right;
+}
+.bars.compact .track{height:11px}
+.bars.compact .val{min-width:0;font-size:12px;color:var(--fg-3)}
+.bars.compact .val b{font-weight:500;color:var(--fg-2)}
+.bars.compact .bar-row.is-peak .lbl{color:var(--fg);font-weight:500}
+.bars.compact .bar-row.is-peak .val b{color:var(--fg)}
+
+/* ---------- 说明/引用块 ---------- */
+.note{
+  background:var(--surface);border:1px solid var(--rule);
+  border-left:3px solid var(--accent);border-radius:3px;
+  padding:15px 18px;display:flex;flex-direction:column;gap:8px;
+}
+.note.warn{border-left-color:var(--warn)}
+.note.crit{border-left-color:var(--crit)}
+.note.good{border-left-color:var(--good)}
+.note .nt{
+  font-family:var(--f-mono);font-size:11.5px;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--fg-3);
+}
+.note p{font-size:14.5px;color:var(--fg-2);line-height:1.6}
+
+/* 动作清单 */
+.actions{display:flex;flex-direction:column;gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.action{
+  background:var(--surface);padding:17px 19px;
+  display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start;
+}
+.action .rake{
+  font-family:var(--f-display);font-weight:700;font-size:15px;
+  color:var(--accent);padding-top:1px;white-space:nowrap;
+}
+.action .body{display:flex;flex-direction:column;gap:4px;min-width:0}
+.action .body h3{font-size:15px}
+.action .body p{font-size:14px;color:var(--fg-2);line-height:1.55}
+
+ul.tight{margin:0;padding-left:19px;display:flex;flex-direction:column;gap:7px;color:var(--fg-2);font-size:14.5px}
+ul.tight li::marker{color:var(--fg-3)}
+
+footer{
+  border-top:1px solid var(--rule);padding-top:22px;
+  font-size:13px;color:var(--fg-3);display:flex;flex-direction:column;gap:7px;
+}
+footer code{font-size:12px}
+
+/* 提示气泡 */
+#tip{
+  position:fixed;z-index:99;pointer-events:none;opacity:0;
+  transform:translate(-50%,-124%);transition:opacity .1s ease;
+  background:var(--fg);color:var(--bg);
+  font-family:var(--f-mono);font-size:12px;line-height:1.45;
+  padding:6px 10px;border-radius:3px;white-space:nowrap;
+  box-shadow:0 4px 14px -4px rgba(0,0,0,.4);
+}
+#tip[data-on="1"]{opacity:1}
+
+@media (max-width:480px){
+  .bar-row{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"lbl val" "track track";gap:5px 10px}
+  .bar-row .lbl{grid-area:lbl;min-width:0;overflow-wrap:anywhere}
+  .bar-row .val{grid-area:val;min-width:0}
+  .bar-row .track{grid-area:track}
+  /* 紧凑分布条在窄屏保持单行：标签只是数字，占位很小 */
+  .bars.compact .bar-row{grid-template-columns:32px minmax(0,1fr) 46px;grid-template-areas:none;gap:9px}
+  .bars.compact .bar-row>*{grid-area:auto}
+  .bars.compact .lbl{text-align:left}
+  .bars.compact .val{font-size:11.5px}
+  .bars.compact .val em{display:none}
+  .action{grid-template-columns:1fr;gap:6px}
+  .masthead{padding-block:40px 26px}
+  .wrap{gap:44px;padding-inline:16px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">数据质量审计 · invest_wiki</div>
+    <h1>invest_wiki 数据质量评估</h1>
+    <p class="sub">对 67 赛道 × 405 公司全量扫描的独立复核：哪些结论可以直接用，哪些必须先打折扣，以及最该先动哪三件事。</p>
+    <div class="metaline">
+      <span>审计日期 <b>2026-10-08</b></span>
+      <span>数据快照 <b>HEAD 5468d88</b></span>
+      <span>口径 <b>67 赛道 / 405 公司 / 502 词条</b></span>
+      <span>QA <b>v1.3</b></span>
+    </div>
+  </header>
+
+  <section>
+    <div class="verdict">
+      <p class="lead">工程层面做得扎实、可以放心；但内容层面<em>约四成公司是空骨架</em>，数值层面 <em>rev / TAM / CAGR 属估算</em>不能直接用于排序；文档层面已严重滞后于数据。</p>
+      <div class="grades">
+        <div class="grade">
+          <span class="k">结构 · 编译 · 链接</span>
+          <span class="v v-good">优</span>
+          <span class="n">502 词条零 unknown，图边逐条对应</span>
+        </div>
+        <div class="grade">
+          <span class="k">概念 · 论点</span>
+          <span class="v v-good">优</span>
+          <span class="n">字段 100% 齐，正文充实</span>
+        </div>
+        <div class="grade">
+          <span class="k">赛道词条</span>
+          <span class="v v-warn">中</span>
+          <span class="n">字段齐，正文普遍 ≤3 段</span>
+        </div>
+        <div class="grade">
+          <span class="k">公司词条</span>
+          <span class="v v-crit">差</span>
+          <span class="n">41% 无任何正文叙事</span>
+        </div>
+        <div class="grade">
+          <span class="k">数值可信度</span>
+          <span class="v v-warn">存疑</span>
+          <span class="n">取值贴合 5 的倍数网格，口径未核验</span>
+        </div>
+        <div class="grade">
+          <span class="k">文档一致性</span>
+          <span class="v v-crit">差</span>
+          <span class="n">四篇根文档停在 7 月 / 9 月初</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="eyebrow">一 · 结构质量</div>
+      <h2>编译与一致性检查全部通过</h2>
+    </div>
+    <p class="prose">项目自带 <code>verify_all.py</code> 做统一校验，全部硬检查通过。我另行复算了实体数量、字段覆盖与重复条目，结论与之一致。</p>
+    <div class="tablewrap">
+      <table>
+        <caption>verify_all.py 检查项与实测结果</caption>
+        <thead>
+          <tr><th>检查项</th><th>结果</th><th class="num">实测值</th><th>判定</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>L2 词条解析</td><td>unknown 实体</td><td class="num">0</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>图谱密度</td><td>边 : 节点</td><td class="num">1.97</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>公司入边率</td><td>阈值 &gt;70%</td><td class="num">83.5%</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>孤立赛道</td><td>—</td><td class="num">0</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>wikilink ↔ 图边</td><td>逐条对应</td><td class="num">985</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>L2 → L3 新鲜度</td><td>重编译逐字节比对</td><td class="num">一致</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>chain_universe</td><td>source_sha256</td><td class="num">一致</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>index.md 登记</td><td>三类实体全部登记</td><td class="num">67/405/10/18</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>index.html 结构</td><td>validate.py</td><td class="num">通过</td><td><span class="chip good">通过</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note">
+      <span class="nt">权威口径</span>
+      <p>67 赛道 · 405 公司 · 10 概念 · 18 论点 · <strong>502 词条</strong> · QA v1.3。<code>L2-Wiki/index.md</code> 与 <code>L3-网页产物/wiki_data.json</code> 两个来源完全一致，可直接引用。</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="eyebrow">二 · 内容深度</div>
+      <h2>405 家公司里，167 家只有 YAML 没有正文</h2>
+    </div>
+    <p class="prose">这是全库最大的实际缺口。所谓「零叙事」指词条正文里一个 <code>##</code> 段落都没有——只有结构化字段，没有任何可读的业务说明。</p>
+
+    <figure>
+      <div class="chart-title">公司词条深度分档 <span class="unit">n = 405</span></div>
+      <div class="stack" role="img" aria-label="全面 216 家、中等 20 家、薄 169 家">
+        <div class="seg s-good" style="flex:216" data-tip="全面（字段 ≥20 且正文 ≥5 段）· 216 家 · 53%">216</div>
+        <div class="seg s-warn" style="flex:20" data-tip="中等（字段齐全但叙事不足）· 20 家 · 5%">20</div>
+        <div class="seg s-crit" style="flex:169" data-tip="薄（字段 <20/25，含 167 家零叙事）· 169 家 · 42%">169</div>
+      </div>
+      <div class="legend">
+        <span><i style="background:var(--good)"></i>全面 216 家</span>
+        <span><i style="background:var(--warn)"></i>中等 20 家</span>
+        <span><i style="background:var(--crit)"></i>薄 169 家</span>
+      </div>
+      <figcaption>分档判据来自 <b>list_deepening_targets.py</b>：字段 ≥20/25 且正文 ≥5 段为「全面」。</figcaption>
+    </figure>
+
+    <div class="tablewrap">
+      <table>
+        <caption>四类词条的质量对比</caption>
+        <thead>
+          <tr><th>类型</th><th class="num">数量</th><th class="num">字段（实测 / 标准）</th><th class="num">正文段数（中位）</th><th class="num">零叙事</th><th>评价</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>概念卡片</strong></td><td class="num">10</td><td class="num">15 / 15</td><td class="num">10</td><td class="num">0</td><td><span class="chip good">优</span></td></tr>
+          <tr><td><strong>投资论点</strong></td><td class="num">18</td><td class="num">10 / 10</td><td class="num">7</td><td class="num">0</td><td><span class="chip good">优</span></td></tr>
+          <tr><td><strong>赛道</strong></td><td class="num">67</td><td class="num">22–24 / 27</td><td class="num">3</td><td class="num">7</td><td><span class="chip warn">中</span></td></tr>
+          <tr><td><strong>公司</strong></td><td class="num">405</td><td class="num">11–26 / 25</td><td class="num">5</td><td class="num">167</td><td><span class="chip crit">差</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note crit">
+      <span class="nt">关键交叉发现</span>
+      <p><strong>167 家「零叙事」与 168 家「无 <code>data_freshness_date</code>」几乎完全重合</strong>——交集 167，差集 0。这说明它们是<strong>同一批用同一骨架模板批量建立的条目</strong>：既没有正文，也没有数据日期，整批游离在质量体系之外。</p>
+    </div>
+
+    <p class="prose">67 个赛道词条的字段是齐的（中位 23 个），但<strong>正文段数无一超过 3 段</strong>，且高度同质——赛道页普遍偏薄。反观概念与论点两类，字段和正文都做到 100% 齐整，是全库质量最好的部分。</p>
+
+    <figure>
+      <div class="chart-title">公司关键字段覆盖率 <span class="unit">n = 405 · 百分比越高越齐</span></div>
+      <div class="bars">
+        <div class="bar-row">
+          <span class="lbl"><code>data_freshness_date</code></span>
+          <span class="track"><span class="fill" style="width:59%" data-tip="data_freshness_date · 237/405 有值 · 168 家缺失"></span></span>
+          <span class="val">59% <em>· 缺 168</em></span>
+        </div>
+        <div class="bar-row">
+          <span class="lbl"><code>description</code></span>
+          <span class="track"><span class="fill" style="width:58%" data-tip="description · 236/405 有值 · 169 家缺失"></span></span>
+          <span class="val">58% <em>· 缺 169</em></span>
+        </div>
+        <div class="bar-row">
+          <span class="lbl"><code>core_business</code></span>
+          <span class="track"><span class="fill" style="width:58%" data-tip="core_business · 236/405 有值 · 169 家缺失"></span></span>
+          <span class="val">58% <em>· 缺 169</em></span>
+        </div>
+        <div class="bar-row">
+          <span class="lbl"><code>revenue_model</code></span>
+          <span class="track"><span class="fill" style="width:58%" data-tip="revenue_model · 236/405 有值 · 169 家缺失"></span></span>
+          <span class="val">58% <em>· 缺 169</em></span>
+        </div>
+        <div class="bar-row">
+          <span class="lbl"><code>ticker</code></span>
+          <span class="track"><span class="fill" style="width:52%" data-tip="ticker · 212/405 有值 · 193 家缺失"></span></span>
+          <span class="val">52% <em>· 缺 193</em></span>
+        </div>
+        <div class="bar-row">
+          <span class="lbl"><code>employees</code></span>
+          <span class="track"><span class="fill" style="width:45%" data-tip="employees · 183/405 有值 · 222 家缺失"></span></span>
+          <span class="val">45% <em>· 缺 222</em></span>
+        </div>
+      </div>
+      <figcaption><b>description / core_business / revenue_model</b> 三项缺失数完全相同（169），与「零叙事」的 167 高度吻合——同一批骨架条目缺的是同一组字段。缺 <b>ticker</b> 的 193 家意味着接不进量化管道。</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="eyebrow">三 · 数据新鲜度</div>
+      <h2>六成公司有数据日期，其余四成无从判断</h2>
+    </div>
+    <p class="prose">405 家公司中 <strong>237 家有 <code>data_freshness_date</code></strong>，168 家没有——没有日期的条目不会被 <code>freshness_scan.py</code> 的 90 天保鲜扫描覆盖。</p>
+    <div class="tablewrap">
+      <table>
+        <caption>有日期标注的 237 家的数据月份分布</caption>
+        <thead><tr><th>数据月份</th><th class="num">家数</th><th>说明</th></tr></thead>
+        <tbody>
+          <tr><td><code>2026-09</code></td><td class="num">188</td><td>当月，最新</td></tr>
+          <tr><td><code>2026-08</code></td><td class="num">45</td><td>在 90 天阈值内</td></tr>
+          <tr><td><code>2026-07</code></td><td class="num">4</td><td>接近阈值</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note warn">
+      <span class="nt">文档已过时</span>
+      <p><code>CLAUDE.md</code> 的 Phase 3 章节写「覆盖 <strong>211 家</strong>，其余 <strong>194 家</strong>不纳入扫描」。实测是 <strong>237 / 168</strong>。数字本身在改善，但文档没有跟着更新，会让读者低估或高估覆盖范围。</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="eyebrow">四 · 数值可信度</div>
+      <h2>rev 是估算值，不是实测值</h2>
+    </div>
+    <p class="prose">赛道 YAML 里每家公司的 <code>rev</code>（赛道内营收占比）共 510 条记录、27 个不同取值。其中 <strong>20 个取值恰好是 5 到 100 之间全部 20 个 5 的倍数</strong>，一个不漏地覆盖了 495 条（97.1%）；余下 7 个零散取值合计仅 15 条。取值如此整齐地贴在 5 的倍数网格上，是目测估算的典型特征，而非取自财报的实测份额。</p>
+
+    <figure>
+      <div class="chart-title">rev 取值分布 <span class="unit">510 条记录 · 横轴按取值升序 · 条</span></div>
+      <div class="bars compact">
+        <div class="bar-row"><span class="lbl">5</span><span class="track"><span class="fill" style="width:38.0%" data-tip="rev = 5 · 35 条"></span></span><span class="val"><b>35</b> <em>条</em></span></div>
+        <div class="bar-row is-peak"><span class="lbl">10</span><span class="track"><span class="fill" style="width:100%" data-tip="rev = 10 · 92 条（最高频）"></span></span><span class="val"><b>92</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">15</span><span class="track"><span class="fill" style="width:64.1%" data-tip="rev = 15 · 59 条"></span></span><span class="val"><b>59</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">20</span><span class="track"><span class="fill" style="width:37.0%" data-tip="rev = 20 · 34 条"></span></span><span class="val"><b>34</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">25</span><span class="track"><span class="fill" style="width:28.3%" data-tip="rev = 25 · 26 条"></span></span><span class="val"><b>26</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">30</span><span class="track"><span class="fill" style="width:32.6%" data-tip="rev = 30 · 30 条"></span></span><span class="val"><b>30</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">35</span><span class="track"><span class="fill" style="width:13.0%" data-tip="rev = 35 · 12 条"></span></span><span class="val"><b>12</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">40</span><span class="track"><span class="fill" style="width:28.3%" data-tip="rev = 40 · 26 条"></span></span><span class="val"><b>26</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">45</span><span class="track"><span class="fill" style="width:15.2%" data-tip="rev = 45 · 14 条"></span></span><span class="val"><b>14</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">50</span><span class="track"><span class="fill" style="width:28.3%" data-tip="rev = 50 · 26 条"></span></span><span class="val"><b>26</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">55</span><span class="track"><span class="fill" style="width:18.5%" data-tip="rev = 55 · 17 条"></span></span><span class="val"><b>17</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">60</span><span class="track"><span class="fill" style="width:25.0%" data-tip="rev = 60 · 23 条"></span></span><span class="val"><b>23</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">65</span><span class="track"><span class="fill" style="width:3.3%" data-tip="rev = 65 · 3 条"></span></span><span class="val"><b>3</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">70</span><span class="track"><span class="fill" style="width:18.5%" data-tip="rev = 70 · 17 条"></span></span><span class="val"><b>17</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">75</span><span class="track"><span class="fill" style="width:5.4%" data-tip="rev = 75 · 5 条"></span></span><span class="val"><b>5</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">80</span><span class="track"><span class="fill" style="width:18.5%" data-tip="rev = 80 · 17 条"></span></span><span class="val"><b>17</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">85</span><span class="track"><span class="fill" style="width:25.0%" data-tip="rev = 85 · 23 条"></span></span><span class="val"><b>23</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">90</span><span class="track"><span class="fill" style="width:22.8%" data-tip="rev = 90 · 21 条"></span></span><span class="val"><b>21</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">95</span><span class="track"><span class="fill" style="width:15.2%" data-tip="rev = 95 · 14 条"></span></span><span class="val"><b>14</b> <em>条</em></span></div>
+        <div class="bar-row"><span class="lbl">100</span><span class="track"><span class="fill" style="width:1.1%" data-tip="rev = 100 · 1 条"></span></span><span class="val"><b>1</b> <em>条</em></span></div>
+      </div>
+      <figcaption>横轴为 <b>rev 取值</b>，条形长度为出现条数。<b>取值恰好覆盖 5 到 100 之间全部 20 个 5 的倍数</b>，无一遗漏；此外只有 7 个零散取值（3 / 8 / 12 / 14 / 16 / 18 / 19），合计 15 条，占 2.9%。另有 <b>44 / 67 个赛道内部存在 rev 重复</b>——同一赛道里两家公司的占比完全相同。</figcaption>
+    </figure>
+
+    <div class="note warn">
+      <span class="nt">对下游的影响</span>
+      <p><code>docs/待深化龙头清单.md</code> 是<b>按 rev 降序排优先级</b>的。既然 rev 是估算，这个优先级排序就建立在估算之上——它仍然可用作「先做哪个」的参考，但不该被当成数据事实引用。</p>
+    </div>
+
+    <h3>同样需要打折扣的数值</h3>
+    <ul class="tight">
+      <li><strong>TAM / CAGR 曾多次改写</strong>：安全芯片 TAM 从 9.0 改为 <strong>5.7</strong>；覆铜板 TAM 从 16.2 改为 <strong>19.1</strong>、CAGR 从 8.1 改为 <strong>4.6</strong>（原基数系反推误算）。项目自述「WebSearch 配额耗尽致估算未核验」。</li>
+      <li><strong>口径分歧巨大</strong>：CCL 整体口径与高频口径相差 3–5 倍；德勤 $9,750 亿 与 WSTS $1.511 万亿 相差 <strong>55%</strong>。</li>
+      <li><strong>已知低置信条目</strong>：OpenAI ARR（$250–400 亿，口径分歧）、SK Materials（非官方财报，无净利与市值）。</li>
+    </ul>
+    <p class="prose">结论：基于流结构、实体数量、图谱关系的判断可以直接采信；<strong>基于 rev / TAM / CAGR 的排序与结论必须先打折扣</strong>。</p>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="eyebrow">五 · 文档漂移</div>
+      <h2>四篇根文档停在三个不同的时间点</h2>
+    </div>
+    <p class="prose">项目最新提交是 2026-09-16，但根文档的修改时间分别是 09-14、09-13、09-11、07-24。文档里的数字与实测系统性不符。</p>
+    <div class="tablewrap">
+      <table>
+        <caption>文档声称 vs 实测</caption>
+        <thead><tr><th>文档</th><th>声称</th><th>实测</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><code>CLAUDE.md</code></td>
+            <td>头部 · 503 实体<br>目录结构 · 81 赛道 / 385 公司<br>Phase 3 · 211 覆盖 / 194 未覆盖</td>
+            <td><strong>502</strong>（其自身表格即为 502）<br><strong>67 / 405</strong><br><strong>237 / 168</strong></td>
+          </tr>
+          <tr>
+            <td><code>ARCHITECTURE.md</code></td>
+            <td>74 赛道 / 392 公司 / 496 词条<br>L0 归档 16 个文件<br>编译 81 个原始段</td>
+            <td><strong>67 / 405 / 502</strong><br><strong>331</strong><br><strong>67</strong></td>
+          </tr>
+          <tr>
+            <td><code>ARCHITECTURE.md</code> · <code>DEPLOYMENT_PLAN.md</code></td>
+            <td>wiki_data.json ≈ 1.6 / 1.7 MB</td>
+            <td><strong>3.85 MB</strong></td>
+          </tr>
+          <tr>
+            <td><code>UI_DESIGN.md</code></td>
+            <td>内嵌 DATA total 496</td>
+            <td><strong>502</strong></td>
+          </tr>
+          <tr>
+            <td><code>DEPLOYMENT_PLAN.md</code></td>
+            <td>教用户 <code>git init</code> · Phase 1 REST API</td>
+            <td>项目早已是 git 仓库；方案已被 kol-daily 静态同步取代</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="prose"><code>DEPLOYMENT_PLAN.md</code> 整体已属历史文档。<code>ARCHITECTURE.md</code> 还写着「编译 81 个原始段」，而实际是 67——那个 81 是 9-13 合并 16 组重复赛道<strong>之前</strong>的数字。</p>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="eyebrow">六 · 规范与实现的漂移</div>
+      <h2>文档承诺的检查，有一部分根本没实现</h2>
+    </div>
+    <p class="prose">这一类最隐蔽——因为它不会报错，只是让标准悄悄失效。</p>
+    <ul class="tight">
+      <li><strong><code>segment-schema.md</code> 字段名整体过时</strong>：文档写 <code>industry</code> / <code>tam</code> / <code>cagr</code> / <code>description</code>；实际 <strong>67 / 67</strong> 个赛道文件用的是 <code>industries</code> / <code>tam_bn</code> / <code>cagr_pct</code>。代码只认新名，文档没跟上。</li>
+      <li><strong>lint 承诺的「维度 4 · 格式合规」在 <code>verify_all.py</code> 里零实现</strong>：文档列出 11 条检查规则（competition / key_trends / price_conduction 的类型与旧格式残留等），一条都没写进校验脚本。</li>
+      <li><strong>字段数三处不一致</strong>：<code>company-schema.md</code> 实际 25 个 / <code>L1/CLAUDE.md</code> 说 24 个 / <code>list_deepening_targets.py</code> 按 ≥20 判。</li>
+      <li><strong>正文段数三处不一致</strong>：schema 规定 4 段 / 公司模板给 5 段 / 脚本阈值 5。</li>
+    </ul>
+    <div class="note">
+      <span class="nt">这意味着什么</span>
+      <p>「24 字段」「4 段」这些标准<strong>没有任何工具兜底</strong>，全靠人工自觉。这正是 167 家空骨架能长期存在而无人报警的原因——校验脚本不检查它，所以它永远「通过」。</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="eyebrow">七 · 零碎发现</div>
+      <h2>几处需要清理的杂物</h2>
+    </div>
+    <ul class="tight">
+      <li><strong>AuraKit 遥测目录跑进了内容目录</strong>：<code>L2-Wiki/公司/.aura/</code> 与 <code>L3-网页产物/.aura/</code>，共 10 个非词条文件混在公司目录里。</li>
+      <li><strong>审计文档误放在论点目录</strong>：<code>L2-Wiki/论点/2026-Q3-audit.md</code> 让论点目录看起来有 19 个文件（parser 已正确排除，但目录不干净）。</li>
+      <li><strong>三个空目录</strong>：<code>L2-Wiki/报告/</code>、<code>人物/</code>、<code>事件/</code> 声明了结构但从未使用。</li>
+      <li><strong>19 / 67 个赛道文件的闭合 <code>---</code> 少了换行</strong>（形如 <code>[...]---</code>）。实测 <code>parser.py</code> 的 <code>split('---',2)</code> 能正常消费，<strong>无字段丢失</strong>，属格式不统一而非数据错误。</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <div class="eyebrow">八 · 建议动作</div>
+      <h2>按性价比排序的三件事</h2>
+    </div>
+    <div class="actions">
+      <div class="action">
+        <span class="rake">先做</span>
+        <div class="body">
+          <h3>同步四篇根文档的数字</h3>
+          <p>把 CLAUDE.md / ARCHITECTURE.md / UI_DESIGN.md 的数字改成 67 / 405 / 502 / 237，并把 DEPLOYMENT_PLAN.md 标记为历史文档。纯文字工作，收益是以后不再被错误数字误导。</p>
+        </div>
+      </div>
+      <div class="action">
+        <span class="rake">再做</span>
+        <div class="body">
+          <h3>给 168 家骨架补 data_freshness_date</h3>
+          <p>成本极低（一个字段），能立刻把「质量可见范围」从 59% 提到 100%，让这批条目进入 90 天保鲜扫描。</p>
+        </div>
+      </div>
+      <div class="action">
+        <span class="rake">然后</span>
+        <div class="body">
+          <h3>明确 rev 的定位</h3>
+          <p>要么在字段说明与排序文档里标注「估算值」，要么逐步用真实营收数据替换。这决定了包括每日简报美股产业链产线在内的下游能不能信这些排序。</p>
+        </div>
+      </div>
+    </div>
+    <p class="prose">更远的目标是补那 169 家薄档公司（其中 9 家是龙头级、字段只有 11/25）与 10 个 C 级赛道。但那是内容工程，应当在上述三件事之后排期。</p>
+  </section>
+
+  <footer>
+    <span>审计方法：文档全文通读（根目录 4 篇 · docs/ 3 篇 · L1 规范 26 篇 · L2 索引与消化笔记），配合独立脚本复核实体数量、字段覆盖、正文段数、新鲜度分布与 rev 取值。</span>
+    <span>复核命令：<code>python3 L1-Schema与Pipeline/lint/verify_all.py</code></span>
+    <span>数据快照 HEAD <code>5468d88</code>（2026-09-16）· 工作区干净 · master 领先 origin 3 个提交</span>
+  </footer>
+
+</div>
+
+<div id="tip" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  var tip = document.getElementById('tip');
+  var on = false;
+  function show(el, ev){
+    var t = el.getAttribute('data-tip');
+    if(!t) return;
+    tip.textContent = t;
+    tip.setAttribute('data-on','1');
+    on = true;
+    move(ev);
+  }
+  function move(ev){
+    if(!on) return;
+    var x = ev.clientX, y = ev.clientY;
+    if(typeof x !== 'number') return;
+    var pad = 8;
+    var half = tip.offsetWidth / 2;
+    var cx = Math.min(Math.max(x, half + pad), window.innerWidth - half - pad);
+    tip.style.left = cx + 'px';
+    tip.style.top = Math.max(y, tip.offsetHeight + pad) + 'px';
+  }
+  function hide(){
+    on = false;
+    tip.removeAttribute('data-on');
+  }
+  var marked = document.querySelectorAll('[data-tip]');
+  for(var i = 0; i < marked.length; i++){
+    (function(el){
+      el.addEventListener('mouseenter', function(e){ show(el, e); });
+      el.addEventListener('mousemove', move);
+      el.addEventListener('mouseleave', hide);
+      el.addEventListener('focus', function(e){ show(el, e); });
+      el.addEventListener('blur', hide);
+    })(marked[i]);
+  }
+  window.addEventListener('scroll', hide, {passive:true});
+})();
+</script>
+
+</body>
+</html>
