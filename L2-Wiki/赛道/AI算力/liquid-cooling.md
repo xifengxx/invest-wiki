@@ -115,6 +115,9 @@ companies:
 - ticker: '301018'
   name: 申菱环境
   role: 二线弹性
+- ticker: DOW
+  name: Dow Electronic
+  role: 二线弹性
 sources:
 - title: ABI Research《Top Data Center Cooling Companies 2025》
   summary: ''
@@ -171,3 +174,10 @@ key_inputs: ["冷却组件", "泵阀管件", "冷板"]---
 
 - **companies**: 补入 **申菱环境**——补齐本赛道此前缺失的环节位置
 - **说明**: `role` 按各自在本赛道的实际地位标注；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）
+
+### 更新 2026-10-09（补齐 Dow 真实电子业务归属）
+> 来源: Research 模式调研（L0 input_20261009_156）
+> 置信度: 高
+
+- **companies**: 补入 **Dow Electronic**（role=二线弹性）——Dow Inc. 在电子领域的真实业务是特种有机硅材料（TIM 导热界面材料、数据中心液冷液 ICL-1100/DOWFROST、光模块硅光材料、先进封装硅酮）
+- **说明**: 该词条原为「张冠李戴」——把 Rohm and Haas Electronic Materials 的 CMP/光刻胶业务错记在 Dow 名下，现已改写为 Dow 真实业务并改归本赛道；**未填 rev**

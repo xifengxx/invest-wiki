@@ -79,8 +79,8 @@ companies:
   name: AGC Electronics (旭硝子)
   role: 二线弹性
   rev: 10
-- ticker: ''
-  name: Dow Electronic
+- ticker: 'Q'
+  name: Qnity Electronics
   role: 龙头
 wikilinks:
 - CMP设备
@@ -143,3 +143,11 @@ CMP（化学机械抛光）是芯片制造中实现**纳米级平坦化**的关�
 
 - **companies**: 5 → 6 家。补入 **Dow Electronic**（role=龙头）——词条页早已存在、正文也已写明其"抛光垫全球#1，~20%份额"，但 `companies` 列表未登记
 - **说明**: 未填 `rev`（无可靠来源，按 L1「不推测原则」留空）
+
+### 更新 2026-10-09（权属主体订正：Dow Electronic → Qnity）
+> 来源: Research 模式调研（L0 input_20261009_156 与 input_20261009_150 独立得出同一结论）
+> 置信度: 高
+
+- **companies 改名**: `Dow Electronic` → **`Qnity Electronics`**（ticker 改为 `Q`）
+- **原因**: 本条目的原主体系「张冠李戴」——Dow Inc. 并无 CMP 抛光垫/抛光液业务。Rohm and Haas Electronic Materials（含 CMP 与光刻胶）于 2009 年被陶氏化学收购，但 **2019 年 DowDuPont 三拆时划归 DuPont**（陶氏分拆资产明确不含电子材料业务），再于 **2025-11-01 分拆为 Qnity Electronics**。营运、诉讼与 SDS 托管域名三方证据一致
+- **份额订正**: 原记「抛光垫全球#1（~20%）」——**数字亦错**。真实抛光垫份额为 **>70%**（2024，TECHCET）/ 50.2%（2025 中文口径），均属 Qnity；原 ~20% 疑为「CMP 材料（垫+液合计）2025 年 18.2%」被误抄为抛光垫份额

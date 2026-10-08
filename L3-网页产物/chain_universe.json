@@ -6,9 +6,9 @@
     "source_segments": 67,
     "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
-    "source_company_links": 590,
-    "unique_companies": 365,
-    "overseas_quote_candidates": 205,
+    "source_company_links": 591,
+    "unique_companies": 366,
+    "overseas_quote_candidates": 206,
     "a_share_mapping_companies": 100,
     "private_or_untradable": 60
   },
@@ -4475,6 +4475,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "DOW",
+          "source_tickers": [
+            "DOW"
+          ],
+          "name": "Dow Electronic",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": null,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "ICEOTOPE",
           "source_tickers": [
             "ICEOTOPE"
@@ -4559,9 +4573,9 @@
           "in_overseas_heat": false
         }
       ],
-      "n_source_companies": 11,
-      "n_unique_companies": 11,
-      "n_overseas_candidates": 3,
+      "n_source_companies": 12,
+      "n_unique_companies": 12,
+      "n_overseas_candidates": 4,
       "n_a_share_mapping": 4,
       "a_share": [
         {
@@ -7203,11 +7217,25 @@
           "market_guess": "US_LIKE",
           "tradable": true,
           "in_overseas_heat": true
+        },
+        {
+          "ticker": "Q",
+          "source_tickers": [
+            "Q"
+          ],
+          "name": "Qnity Electronics",
+          "roles": [
+            "龙头"
+          ],
+          "rev": null,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
         }
       ],
       "n_source_companies": 6,
-      "n_unique_companies": 5,
-      "n_overseas_candidates": 3,
+      "n_unique_companies": 6,
+      "n_overseas_candidates": 4,
       "n_a_share_mapping": 2,
       "a_share": [
         {
@@ -11643,6 +11671,15 @@
         "data-center-idc"
       ]
     },
+    "DOW": {
+      "ticker": "DOW",
+      "name": "Dow Electronic",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "liquid-cooling"
+      ]
+    },
     "EDGECONNEX": {
       "ticker": "EDGECONNEX",
       "name": "EdgeConneX",
@@ -12447,7 +12484,8 @@
       "market_guess": "US_LIKE",
       "tradable": true,
       "segments": [
-        "photoresist"
+        "photoresist",
+        "semi-cmp-materials"
       ]
     },
     "QCOM": {
@@ -12957,12 +12995,12 @@
       ]
     }
   },
-  "version": "2026-10-09.8",
+  "version": "2026-10-09.14",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-10-09T00:19:57+08:00",
-  "source_generated_at": "2026-10-09T00:19:57+08:00",
-  "source_sha256": "fce76cb92c96f3080aa03319640d026ea38293a89cb3664baaf57c47c6ba93db",
-  "source_hash8": "fce76cb9",
-  "source_commit": "0da8bdb0a81f085cfbc33889b6af8b9d86a9e988",
+  "built_at": "2026-10-09T00:25:33+08:00",
+  "source_generated_at": "2026-10-09T00:25:32+08:00",
+  "source_sha256": "46596fdcd3bcce68ae945c056cb69a499de4fc5fffbf28ca7f307b9b0d968566",
+  "source_hash8": "46596fdc",
+  "source_commit": "b16ad4fc71c0417d979391333144a1c7aa49e704",
   "source_dirty": true
 }
