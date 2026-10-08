@@ -116,6 +116,9 @@ companies:
   name: Horiba
   role: 龙头
   rev: 80
+- ticker: ONTO
+  name: Onto Innovation
+  role: 二线弹性
 wikilinks:
 - 晶圆代工(先进制程)
 - 存储芯片(DRAM/NAND)
@@ -199,3 +202,10 @@ sources:
 - **competition**: KLA 条目并入 7x第二名份额、毛利率~60%、先进封装收入$635M→$1B；中科飞测条目并入"光学检测国产龙头、成熟制程突破"；华峰测控条目并入"国产测试设备#1"。barriers 与 tech_gap 双方均非空，按规则合并（补入 <1nm 缺陷检测、EBIC/EBI 高通量矛盾、中国差距 7-10 年与国产市占率<5%）
 - **修复**: 原正本 YAML 结尾 `key_inputs: [...]---` 缺少换行导致 frontmatter 分隔符粘连，本次一并修正
 - **依据**: 两份档案自 init 起独立演进，本方为维护中的正本；对方含本方缺失的研究内容，按"保留原文+追加"规则合并
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 12 → 13 家。补入 **Onto Innovation**（ticker=ONTO，role=二线弹性）——词条页早已存在、正文也已在 Top5 中列出（KLA+AMAT+Hitachi+ASML+Onto 占 >57%），但 `companies` 列表未登记
+- **说明**: 未填 `rev`（无可靠来源，按 L1「不推测原则」留空）

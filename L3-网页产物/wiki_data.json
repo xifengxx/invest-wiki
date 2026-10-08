@@ -3090,6 +3090,11 @@
           "name": "AGC Electronics (旭硝子)",
           "role": "二线弹性",
           "rev": 10
+        },
+        {
+          "ticker": "",
+          "name": "Dow Electronic",
+          "role": "龙头"
         }
       ],
       "contradictions": [],
@@ -4717,6 +4722,16 @@
           "name": "Wolfspeed",
           "role": "龙头",
           "rev": 95
+        },
+        {
+          "ticker": "603290",
+          "name": "斯达半导",
+          "role": "国产龙头"
+        },
+        {
+          "ticker": "688187",
+          "name": "时代电气",
+          "role": "国产龙头"
         }
       ],
       "contradictions": [],
@@ -6714,6 +6729,11 @@
           "name": "南大光电",
           "role": "国产替代",
           "rev": 15
+        },
+        {
+          "ticker": "",
+          "name": "Air Products",
+          "role": "龙头"
         }
       ],
       "contradictions": [],
@@ -8797,6 +8817,11 @@
           "name": "IQE plc",
           "role": "龙头",
           "rev": 90
+        },
+        {
+          "ticker": "",
+          "name": "SK Siltron",
+          "role": "龙头"
         }
       ],
       "contradictions": [],
@@ -9247,6 +9272,11 @@
           "name": "图南股份",
           "role": "国产替代",
           "rev": 25
+        },
+        {
+          "ticker": "",
+          "name": "Plansee",
+          "role": "二线弹性"
         }
       ],
       "contradictions": [],
@@ -11077,6 +11107,11 @@
           "name": "Horiba",
           "role": "龙头",
           "rev": 80
+        },
+        {
+          "ticker": "ONTO",
+          "name": "Onto Innovation",
+          "role": "二线弹性"
         }
       ],
       "contradictions": [],
@@ -11971,6 +12006,11 @@
           "name": "概伦电子",
           "role": "国产替代",
           "rev": 45
+        },
+        {
+          "ticker": "",
+          "name": "Siemens EDA",
+          "role": "龙头"
         }
       ],
       "contradictions": [],
@@ -15048,6 +15088,21 @@
           "name": "兆易创新 (GigaDevice)",
           "role": "国产替代",
           "rev": 15
+        },
+        {
+          "ticker": "",
+          "name": "Tenstorrent",
+          "role": "龙头"
+        },
+        {
+          "ticker": "",
+          "name": "Esperanto",
+          "role": "龙头"
+        },
+        {
+          "ticker": "",
+          "name": "SiFive",
+          "role": "龙头"
         }
       ],
       "contradictions": [],
@@ -56206,6 +56261,10 @@
         "target": "AGC Electronics (旭硝子)"
       },
       {
+        "source": "CMP抛光液与抛光垫",
+        "target": "Dow Electronic"
+      },
+      {
         "source": "清洗设备",
         "target": "SCREEN Semiconductor"
       },
@@ -56420,6 +56479,14 @@
       {
         "source": "功率半导体",
         "target": "Wolfspeed"
+      },
+      {
+        "source": "功率半导体",
+        "target": "斯达半导"
+      },
+      {
+        "source": "功率半导体",
+        "target": "时代电气"
       },
       {
         "source": "IC设计服务(Fabless)",
@@ -56732,6 +56799,10 @@
       {
         "source": "电子特气",
         "target": "南大光电"
+      },
+      {
+        "source": "电子特气",
+        "target": "Air Products"
       },
       {
         "source": "PCB与IC载板",
@@ -57106,6 +57177,10 @@
         "target": "IQE plc"
       },
       {
+        "source": "高纯硅料与硅片",
+        "target": "SK Siltron"
+      },
+      {
         "source": "数据中心IDC",
         "target": "Equinix"
       },
@@ -57196,6 +57271,10 @@
       {
         "source": "溅射靶材",
         "target": "图南股份"
+      },
+      {
+        "source": "溅射靶材",
+        "target": "Plansee"
       },
       {
         "source": "薄膜沉积设备",
@@ -57506,6 +57585,10 @@
         "target": "Horiba"
       },
       {
+        "source": "检测量测设备",
+        "target": "Onto Innovation"
+      },
+      {
         "source": "边缘AI",
         "target": "Apple"
       },
@@ -57596,6 +57679,10 @@
       {
         "source": "EDA与IP核",
         "target": "概伦电子"
+      },
+      {
+        "source": "EDA与IP核",
+        "target": "Siemens EDA"
       },
       {
         "source": "先进封装CoWoS",
@@ -58068,6 +58155,18 @@
       {
         "source": "RISC-V AI芯片",
         "target": "兆易创新 (GigaDevice)"
+      },
+      {
+        "source": "RISC-V AI芯片",
+        "target": "Tenstorrent"
+      },
+      {
+        "source": "RISC-V AI芯片",
+        "target": "Esperanto"
+      },
+      {
+        "source": "RISC-V AI芯片",
+        "target": "SiFive"
       },
       {
         "source": "光刻机",

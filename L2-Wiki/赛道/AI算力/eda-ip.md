@@ -104,6 +104,9 @@ companies:
   name: 概伦电子
   role: 国产替代
   rev: 45
+- ticker: ''
+  name: Siemens EDA
+  role: 龙头
 key_inputs:
 - 晶圆代工(先进制程)
 - 成熟制程代工
@@ -170,3 +173,10 @@ sources:
 - **competition**: global 2 → 3 条（补齐 Siemens EDA 独立条目；Synopsys 并入 FY2025 $9.56B/积压$11.4B/100%先进节点/AgentEngineer、Cadence 并入 $5.3B/积压$7.8B/硬件仿真55-60%份额）；china 2 → 5 条（IP市场：ARM、接口IP Synopsys 之外，并入 华大九天(301269)、国微集团、芯华章）
 - **barriers**: 0 → 3 条（并入 全流程工具链完整性、Foundry认证IP库、AI驱动设计效率5x提升）；**tech_gap**: 0 → 1 条（并入 中国国产化率~15%、全流程差距10年+、点工具突破、并购整合加速）
 - **依据**: 两份档案自 init 起独立演进，本方为维护中的正本；对方含本方缺失的研究内容，按"保留原文+追加"规则合并
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 5 → 6 家。补入 **Siemens EDA**（role=龙头）——词条页早已存在、正文也已在"三巨头 CR3>85%"中列出（$2.2-2.5B），`competition.global` 亦有独立条目，但 `companies` 列表只有 Synopsys/Cadence 两家
+- **说明**: 未填 `rev`（无可靠来源，按 L1「不推测原则」留空）；Siemens EDA 为西门子旗下业务，无独立 ticker

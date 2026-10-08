@@ -6,10 +6,10 @@
     "source_segments": 67,
     "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
-    "source_company_links": 510,
-    "unique_companies": 341,
-    "overseas_quote_candidates": 187,
-    "a_share_mapping_companies": 95,
+    "source_company_links": 521,
+    "unique_companies": 344,
+    "overseas_quote_candidates": 188,
+    "a_share_mapping_companies": 97,
     "private_or_untradable": 59
   },
   "segments": [
@@ -2286,7 +2286,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 5,
+      "n_source_companies": 6,
       "n_unique_companies": 5,
       "n_overseas_candidates": 3,
       "n_a_share_mapping": 2,
@@ -3137,7 +3137,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 4,
+      "n_source_companies": 7,
       "n_unique_companies": 4,
       "n_overseas_candidates": 1,
       "n_a_share_mapping": 3,
@@ -5013,6 +5013,20 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "ONTO",
+          "source_tickers": [
+            "ONTO"
+          ],
+          "name": "Onto Innovation",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": null,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "TER",
           "source_tickers": [
             "TER"
@@ -5027,9 +5041,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 12,
-      "n_unique_companies": 11,
-      "n_overseas_candidates": 7,
+      "n_source_companies": 13,
+      "n_unique_companies": 12,
+      "n_overseas_candidates": 8,
       "n_a_share_mapping": 3,
       "a_share": [
         {
@@ -5176,7 +5190,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 8,
+      "n_source_companies": 9,
       "n_unique_companies": 8,
       "n_overseas_candidates": 4,
       "n_a_share_mapping": 4,
@@ -5358,7 +5372,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 10,
+      "n_source_companies": 11,
       "n_unique_companies": 10,
       "n_overseas_candidates": 4,
       "n_a_share_mapping": 6,
@@ -6510,7 +6524,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 11,
+      "n_source_companies": 12,
       "n_unique_companies": 11,
       "n_overseas_candidates": 6,
       "n_a_share_mapping": 5,
@@ -6952,7 +6966,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 5,
+      "n_source_companies": 6,
       "n_unique_companies": 5,
       "n_overseas_candidates": 3,
       "n_a_share_mapping": 2,
@@ -7662,6 +7676,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "603290",
+          "source_tickers": [
+            "603290"
+          ],
+          "name": "斯达半导",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": null,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
           "ticker": "6504.T",
           "source_tickers": [
             "6504.T"
@@ -7674,6 +7702,20 @@
           "market_guess": "JP",
           "tradable": true,
           "in_overseas_heat": true
+        },
+        {
+          "ticker": "688187",
+          "source_tickers": [
+            "688187"
+          ],
+          "name": "时代电气",
+          "roles": [
+            "国产龙头"
+          ],
+          "rev": null,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
         },
         {
           "ticker": "688396",
@@ -7760,10 +7802,10 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 9,
-      "n_unique_companies": 9,
+      "n_source_companies": 11,
+      "n_unique_companies": 11,
       "n_overseas_candidates": 6,
-      "n_a_share_mapping": 3,
+      "n_a_share_mapping": 5,
       "a_share": [
         {
           "name": "士兰微",
@@ -7774,6 +7816,16 @@
           "name": "闻泰科技(安世)",
           "ticker": "600745",
           "role": "国产替代"
+        },
+        {
+          "name": "斯达半导",
+          "ticker": "603290",
+          "role": "国产龙头"
+        },
+        {
+          "name": "时代电气",
+          "ticker": "688187",
+          "role": "国产龙头"
         },
         {
           "name": "华润微电子",
@@ -9970,6 +10022,15 @@
         "ccl-high-freq-material"
       ]
     },
+    "603290": {
+      "ticker": "603290",
+      "name": "斯达半导",
+      "market_guess": "CN",
+      "tradable": true,
+      "segments": [
+        "semi-power-semiconductor"
+      ]
+    },
     "603501": {
       "ticker": "603501",
       "name": "豪威集团（原韦尔股份）",
@@ -10233,6 +10294,15 @@
       "tradable": true,
       "segments": [
         "thin-film-deposition"
+      ]
+    },
+    "688187": {
+      "ticker": "688187",
+      "name": "时代电气",
+      "market_guess": "CN",
+      "tradable": true,
+      "segments": [
+        "semi-power-semiconductor"
       ]
     },
     "688200": {
@@ -11746,6 +11816,15 @@
         "ai-agent"
       ]
     },
+    "ONTO": {
+      "ticker": "ONTO",
+      "name": "Onto Innovation",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "inspection-metrology"
+      ]
+    },
     "OPENAI": {
       "ticker": "OPENAI",
       "name": "OpenAI",
@@ -12320,12 +12399,12 @@
       ]
     }
   },
-  "version": "2026-09-16.8",
+  "version": "2026-10-08.1",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-09-16T14:33:27+08:00",
-  "source_generated_at": "2026-09-16T14:33:27+08:00",
-  "source_sha256": "dcb4339505a57b1362600ea455cf04f6aca0e9e51b685e57c89423253cde3d23",
-  "source_hash8": "dcb43395",
-  "source_commit": "73b10a86827a78e0e074ecfe80a9ec9c221a38e3",
+  "built_at": "2026-10-08T21:55:32+08:00",
+  "source_generated_at": "2026-10-08T21:55:32+08:00",
+  "source_sha256": "354b82821583540ace526f81421a2f1d25f2a9525b6612754364fd8c21b9a57a",
+  "source_hash8": "354b8282",
+  "source_commit": "f6907ac0dba4f71a5398a64a47b0e17b0c453321",
   "source_dirty": true
 }

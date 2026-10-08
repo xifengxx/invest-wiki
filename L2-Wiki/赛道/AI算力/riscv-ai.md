@@ -114,6 +114,15 @@ companies:
   name: 兆易创新 (GigaDevice)
   role: 国产替代
   rev: 15
+- ticker: ''
+  name: Tenstorrent
+  role: 龙头
+- ticker: ''
+  name: Esperanto
+  role: 龙头
+- ticker: ''
+  name: SiFive
+  role: 龙头
 sources:
 - title: RISC-V International 2025 Summit /《2025生态报告》
   summary: 全球RISC-V SoC出货超50亿颗，AI推理与边缘计算成最大增量
@@ -177,3 +186,10 @@ RISC-V是**开源指令集架构(ISA)**——任何人免费使用修改，不�
 - **competition**: global 4 → 4 条（Tenstorrent 补入 Chiplet+Blackhole/Ascalon，Esperanto 补入 ET-SoC-1；对方把"阿里平头哥"列在 global，本方归位到 china）；china 4 → 4 条（阿里平头哥补入 C910/C920 与生态推动者定位、中科院香山并入包云岗团队/学术→产业转化、芯来科技补入 Nuclei/对标SiFive、赛昉科技沿用）
 - **barriers**: 3 → 5 条（软件生态条目并入 Toolchain/OS/Driver 现状；并入 高性能RISC-V核设计、AI加速扩展(RVV Vector 1.0)）；**tech_gap**: 1 → 2 条（并入 中国差距最小/同一代起跑线、中国芯片的「Plan B」）
 - **依据**: 两份档案自 init 起独立演进，本方为维护中的正本；对方含本方缺失的研究内容，按"保留原文+追加"规则合并
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 4 → 7 家。补入 3 家全球 RISC-V 标杆：**Tenstorrent**、**Esperanto**（正文定位"两大标杆"，role=龙头）、**SiFive**（role=龙头，正文中芯来科技"对标 SiFive"）。三者词条页早已存在，但 `companies` 列表原本只有 4 家国产厂商，全球主要玩家一个都没登记
+- **说明**: 未填 `rev`（无可靠来源，按 L1「不推测原则」留空）；三家均为非上市/私营公司，无 ticker

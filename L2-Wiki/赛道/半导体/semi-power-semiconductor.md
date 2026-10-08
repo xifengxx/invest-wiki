@@ -119,6 +119,12 @@ companies:
   name: Wolfspeed
   role: 龙头
   rev: 95
+- ticker: '603290'
+  name: 斯达半导
+  role: 国产龙头
+- ticker: '688187'
+  name: 时代电气
+  role: 国产龙头
 sources:
 - title: Yole Group《2026年电力电子行业现状》
   summary: 全球电力电子市场CAGR 7.1%至2031年达413亿美元，英飞凌全产品组合遥遥领先，中国5家进入TOP20
@@ -161,3 +167,10 @@ sources:
 > 置信度: 高
 
 - **wikilinks**: 增强 — wikilinks从1→6条
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 9 → 11 家。补入 **时代电气**（ticker=688187，role=国产龙头）与 **斯达半导**（ticker=603290，role=国产龙头）——两者词条页早已存在、正文也写明"中车旗下 IGBT 龙头"与"IGBT 模块#1"，但 `companies` 列表未登记
+- **说明**: 未填 `rev`（无可靠来源，按 L1「不推测原则」留空）

@@ -79,6 +79,9 @@ companies:
   name: AGC Electronics (旭硝子)
   role: 二线弹性
   rev: 10
+- ticker: ''
+  name: Dow Electronic
+  role: 龙头
 wikilinks:
 - CMP设备
 - 晶圆代工(先进制程)
@@ -133,3 +136,10 @@ CMP（化学机械抛光）是芯片制造中实现**纳米级平坦化**的关�
 > 置信度: 高
 
 - **wikilinks**: 增强 — wikilinks从3→6条
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 5 → 6 家。补入 **Dow Electronic**（role=龙头）——词条页早已存在、正文也已写明其"抛光垫全球#1，~20%份额"，但 `companies` 列表未登记
+- **说明**: 未填 `rev`（无可靠来源，按 L1「不推测原则」留空）
