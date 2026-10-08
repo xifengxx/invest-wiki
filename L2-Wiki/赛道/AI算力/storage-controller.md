@@ -100,6 +100,9 @@ companies:
 - ticker: ''
   name: Silicon Motion (慧荣)
   role: 直接相关
+- ticker: 2337.TW
+  name: 旺宏电子
+  role: 核心参与者
 key_customers:
 - AI训练集群/超算
 sources:
@@ -146,3 +149,10 @@ NVMe/存储芯片是AI系统的**「仓库」**——负责训练数据存取、
 - **companies**: 6 → 7 家。补入 **Silicon Motion (慧荣)**
 - **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
 - **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 7 → 8 家。补入 **旺宏电子**（role=核心参与者）——其词条页声明本赛道为 `segments`，但 `companies` 列表未登记
+- **说明**: `role` 取公司页自身的 `chain_role`；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

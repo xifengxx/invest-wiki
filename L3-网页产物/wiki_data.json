@@ -1,11 +1,11 @@
 {
-  "total": 502,
+  "total": 501,
   "by_type": {
     "thesis": 18,
     "segment": 67,
     "concept": 10,
     "industry": 2,
-    "company": 405
+    "company": 404
   },
   "entities": [
     {
@@ -4066,9 +4066,9 @@
         "封装测试(OSAT)",
         "检测量测设备"
       ],
-      "content": "# 封装设备\n\n> **** · L2 · TAM **$6.9B** · CAGR **5.8%**\n\n半导体封装设备（键合机/划片机/减薄机/贴片机）是芯片从晶圆到成品的封装环节核心装备，覆盖传统引线键合、倒装、热压键合（TCB）到混合键合（Hybrid Bonding）的演进路线。HBM堆叠和Chiplet异构集成推动先进封装设备成为半导体设备中增速最快的方向。",
+      "content": "# 封装设备\n\n> **** · L2 · TAM **$6.9B** · CAGR **5.8%**\n\n半导体封装设备（键合机/划片机/减薄机/贴片机）是芯片从晶圆到成品的封装环节核心装备，覆盖传统引线键合、倒装、热压键合（TCB）到混合键合（Hybrid Bonding）的演进路线。HBM堆叠和Chiplet异构集成推动先进封装设备成为半导体设备中增速最快的方向。\n\n### 更新 2026-10-08（消除 ASMPT 重复页面）\n> 来源: 数据质量复核（重复页面清理）\n> 置信度: 高\n\n- ",
       "_heat": 4.2,
-      "description": "半导体封装设备（键合机/划片机/减薄机/贴片机）是芯片从晶圆到成品的封装环节核心装备，覆盖传统引线键合、倒装、热压键合（TCB）到混合键合（Hybrid Bonding）的演进路线。HBM堆叠和Chiplet异构集成推动先进封装设备成为半导体设备中增速最快的方向。",
+      "description": "半导体封装设备（键合机/划片机/减薄机/贴片机）是芯片从晶圆到成品的封装环节核心装备，覆盖传统引线键合、倒装、热压键合（TCB）到混合键合（Hybrid Bonding）的演进路线。HBM堆叠和Chiplet异构集成推动先进封装设备成为半导体设备中增速最快的方向。\n\n### 更新 2026-10-08（消除 ASMPT 重复页面）\n> 来源: 数据质量复核（重复页面清理）\n> 置信度: 高\n\n- **companies 改名**: `ASM Pacific Technology` → **`ASMPT`**。两者是同一公司（0522.HK），保留的 `asmpt.md`（25字段/6段，2026-09 更新）比 `asm-pacific.md`（11字段/0段，2026-07，无 ticker、正文仅重复一句话）完整得多；且该公司 2022 年已由 ASM Pacific Technology 更名 ASMPT。原有条目名所指向的骨架页已删除，故同步改为指向现存页面\n- **说明**: ticker / role / rev 均未改动",
       "cost_share_pct": 6,
       "cost_share_context": "半导体后端设备投资",
       "profit_pool_pct": 8,
@@ -4170,7 +4170,7 @@
         },
         {
           "ticker": "0522.HK",
-          "name": "ASM Pacific Technology",
+          "name": "ASMPT",
           "role": "TCB龙头",
           "rev": 50
         },
@@ -5372,7 +5372,7 @@
         },
         {
           "ticker": "2337.TW",
-          "name": "Macronix (旺宏)",
+          "name": "旺宏电子",
           "role": "二线弹性",
           "rev": 85
         },
@@ -12605,6 +12605,11 @@
           "ticker": "",
           "name": "Silicon Motion (慧荣)",
           "role": "直接相关"
+        },
+        {
+          "ticker": "2337.TW",
+          "name": "旺宏电子",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -20179,43 +20184,6 @@
       "wikilinks": [],
       "content": "# Cadence Design Systems\n\n全球EDA双寡头#2（~30%市场份额），Virtuoso模拟设计行业标准30年，NVIDIA合作Agentic AI芯片设计平台ChipStack——AI Agent自主执行设计流程，积压$8.0B创新高，Rule of 60首次实现。\n\n## 财务状况\n\n| 指标 | FY2025 | Q1 CY2026 | Q2 CY2026 | FY2026E |\n|------|--------|-----------|-----------|---------|\n| **营收** | **$5.30B** | **$1.47B** | **$1.584B** | **$6.125-6.225B** |\n| **YoY增长** | — | +18.7% | **+24.2%** | **+17%** |\n| **毛利率** | — | — | **84.9%** | — |\n| **净利** | **$1.11B（全年）** | — | **$367.1M** | — |\n| **Non-GAAP EPS** | — | — | **$2.11** | $7.85-7.95 |\n| **积压订单** | ~$6.5B | **$8.0B** | **$8.1B** | — |\n\n### 业务构成\n\n| 板块 | 占比 | YoY增长 | 核心产品 |\n|------|:--:|:--:|------|\n| **EDA工具** | ~70% | — | Innovus/Virtuoso/Xcelium/Palladium |\n| **IP核** | ~14% | +22% | Star IP系列（PCIe/HBM/USB/DDR） |\n| **系统分析** | ~16% | +18% | Sigrity/Clarity + Hexagon多物理场 |\n\n\n## 融资与现金流\n\n| 指标 | 口径 | 数值 |\n|------|------|------|\n| 经营现金流 | TTM | $1.85B |\n| 自由现金流 | TTM | $1.61B |\n| 现金 | 最新报告期 | $1.53B |\n| 有息负债 | 最新报告期 | $2.65B |\n\n与Synopsys的大额并购路径不同，Cadence资产负债表更接近“软件公司+中等规模系统验证资产”。现金流主要用于回购、云化工具栈和硬件仿真扩容；Hexagon级多物理场拓展若继续做大型并购，会改变当前低杠杆结构。\n\n## 产品矩阵与AI路线\n\n| 产品层 | 当前作用 | AI化方向 |\n|--------|----------|----------|\n| Virtuoso/Spectre | 模拟与定制IC设计事实标准 | 模型驱动参数搜索、噪声/功耗敏感点自动收敛 |\n| Innovus/Genus/Tempus | 数字后端、综合与时序签核 | 把PR、时序、IR-drop和物理效应变成闭环优化 |\n| Xcelium/Jasper/Verisium | 仿真、形式验证、AI验证管理 | 用测试意图和覆盖缺口调度仿真资源 |\n| Palladium Z3/Protium | 硬件仿真与原型验证 | 大模型/SoC软件栈提前启动，缩短硅后调试 |\n| Sigrity/Clarity/Hexagon | 封装、电源完整性和多物理场 | 从芯片—封装—板—热—机械做系统级协同 |\n\n## EDA双寡头对比\n\n| 维度 | Synopsys | Cadence |\n|------|:--:|:--:|\n| EDA市场份额 | ~31% | **~30%** |\n| 收购策略 | Ansys（$35B，系统仿真） | Hexagon（多物理场仿真） |\n| 数字IC优势 | Fusion Compiler | Innovus/Genus |\n| 模拟IC优势 | PrimeSim | **Virtuoso（行业标准）** |\n| AI Agent | Synopsys.ai | **ChipStack（与NVIDIA合作）** |\n| 仿真/验证 | VCS/Zebu | Xcelium/Palladium |\n| FY2026E营收 | $9.67B | $6.18B |\n| 市值 | ~$76.2B | **~$79.8B** |\n\n## 增长驱动与风险\n\n短期增长来自先进节点 Tape-out 回暖、IP复用率提高和硬件仿真排期紧张；中期看AI Agent能否把EDA从“工具席”升级为“设计流程里的自动执行层”。风险不在单个季度beat，而在三点：客户研发预算如果收缩，订阅合同会顺延而不是消失；AI工具若只提升局部点工具效率，不能转化成多人天节省；系统级多物理场市场进入壁垒高，并购后的整合和定价必须补足工程服务闭环。",
       "content_preview": "# Cadence Design Systems\n\n> 全球第二大EDA（电子设计自动化）软件供应商（市场份额~30%），与Synopsys形成双寡头垄断全球~60%的芯片设计工具市场，Q2 CY2026营收$1.584B（+24.2% YoY），FY2026E ~$6.18B（+17%），NVIDIA合作Agentic AI芯片设计平台ChipStack（自主执行设计流程），积压订单$8.1B创新高，市值~$79.8B。\n【2026.8.18更新】Q2 CY2026营收$1.584B（+24.2% YoY），GAAP净利$367.1M，GAAP毛利率84.9% | 全球EDA双寡头#2（~30%市场份额），Virtuoso模拟设计行业标准30年，NVIDIA合作Agentic AI芯片设计平台ChipStack——AI Agent自主执行设计流程，积压$8.0B创新高，Rule of 60首次实现。",
-      "sources": ""
-    },
-    {
-      "name": "ASM Pacific Technology",
-      "slug": "asm-pacific",
-      "type": "company",
-      "country": "香港/新加坡",
-      "ticker": "",
-      "one_liner": "封装设备(引线键合/贴装)+SMT,全球#1引线框架，位于产业链L3核心产品与集成（龙头）",
-      "description": "封装设备(引线键合/贴装)+SMT,全球#1引线框架",
-      "core_business": [],
-      "revenue_model": "",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "latest_revenue": "",
-      "market_cap": "",
-      "data_freshness_date": "",
-      "industry": "半导体",
-      "industries": [
-        "半导体"
-      ],
-      "segments": [
-        "封装测试(OSAT)"
-      ],
-      "chain_layer": "L3",
-      "chain_role": "龙头",
-      "suppliers": [],
-      "customers": [],
-      "partners": [],
-      "competitors": [],
-      "tags": [],
-      "website": "N/A",
-      "backlinks": 0,
-      "wikilinks": [],
-      "content": "# ASM Pacific Technology\n\n封装设备(引线键合/贴装)+SMT,全球#1引线框架",
-      "content_preview": "# ASM Pacific Technology\n\n> 封装设备(引线键合/贴装)+SMT,全球#1引线框架，位于产业链L3核心产品与集成（龙头） | 封装设备(引线键合/贴装)+SMT,全球#1引线框架",
       "sources": ""
     },
     {
@@ -51970,13 +51938,6 @@
         }
       },
       {
-        "name": "ASM Pacific Technology",
-        "symbolSize": 12,
-        "itemStyle": {
-          "color": "#34C759"
-        }
-      },
-      {
         "name": "CoreWeave",
         "symbolSize": 12,
         "itemStyle": {
@@ -56682,7 +56643,7 @@
       },
       {
         "source": "封装设备",
-        "target": "ASM Pacific Technology"
+        "target": "ASMPT"
       },
       {
         "source": "封装设备",
@@ -56899,6 +56860,10 @@
       {
         "source": "存储芯片(DRAM/NAND)",
         "target": "Western Digital"
+      },
+      {
+        "source": "存储芯片(DRAM/NAND)",
+        "target": "旺宏电子"
       },
       {
         "source": "存储芯片(DRAM/NAND)",
@@ -58183,6 +58148,10 @@
       {
         "source": "NVMe/存储芯片",
         "target": "Silicon Motion (慧荣)"
+      },
+      {
+        "source": "NVMe/存储芯片",
+        "target": "旺宏电子"
       },
       {
         "source": "AI推理API服务",

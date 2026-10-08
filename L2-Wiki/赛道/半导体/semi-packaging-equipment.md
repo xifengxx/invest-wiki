@@ -74,7 +74,7 @@ companies:
   role: 贴片/混合键合龙头
   rev: 55
 - ticker: 0522.HK
-  name: ASM Pacific Technology
+  name: ASMPT
   role: TCB龙头
   rev: 50
 - ticker: KLIC
@@ -96,3 +96,10 @@ sources:
 # 封装设备
 
 半导体封装设备（键合机/划片机/减薄机/贴片机）是芯片从晶圆到成品的封装环节核心装备，覆盖传统引线键合、倒装、热压键合（TCB）到混合键合（Hybrid Bonding）的演进路线。HBM堆叠和Chiplet异构集成推动先进封装设备成为半导体设备中增速最快的方向。
+
+### 更新 2026-10-08（消除 ASMPT 重复页面）
+> 来源: 数据质量复核（重复页面清理）
+> 置信度: 高
+
+- **companies 改名**: `ASM Pacific Technology` → **`ASMPT`**。两者是同一公司（0522.HK），保留的 `asmpt.md`（25字段/6段，2026-09 更新）比 `asm-pacific.md`（11字段/0段，2026-07，无 ticker、正文仅重复一句话）完整得多；且该公司 2022 年已由 ASM Pacific Technology 更名 ASMPT。原有条目名所指向的骨架页已删除，故同步改为指向现存页面
+- **说明**: ticker / role / rev 均未改动

@@ -6,7 +6,7 @@
     "source_segments": 67,
     "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
-    "source_company_links": 577,
+    "source_company_links": 578,
     "unique_companies": 353,
     "overseas_quote_candidates": 196,
     "a_share_mapping_companies": 98,
@@ -2832,6 +2832,20 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "2337.TW",
+          "source_tickers": [
+            "2337.TW"
+          ],
+          "name": "旺宏电子",
+          "roles": [
+            "核心参与者"
+          ],
+          "rev": null,
+          "market_guess": "TW",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "285A.T",
           "source_tickers": [
             "285A"
@@ -2902,9 +2916,9 @@
           "in_overseas_heat": false
         }
       ],
-      "n_source_companies": 7,
-      "n_unique_companies": 6,
-      "n_overseas_candidates": 5,
+      "n_source_companies": 8,
+      "n_unique_companies": 7,
+      "n_overseas_candidates": 6,
       "n_a_share_mapping": 0,
       "a_share": []
     },
@@ -8075,7 +8089,7 @@
           "source_tickers": [
             "2337.TW"
           ],
-          "name": "Macronix (旺宏)",
+          "name": "旺宏电子",
           "roles": [
             "二线弹性"
           ],
@@ -8473,15 +8487,15 @@
       "source_slugs": [
         "semi-packaging-equipment"
       ],
-      "description": "半导体封装设备（键合机/划片机/减薄机/贴片机）是芯片从晶圆到成品的封装环节核心装备，覆盖传统引线键合、倒装、热压键合（TCB）到混合键合（Hybrid Bonding）的演进路线。HBM堆叠和Chiplet异构集成推动先进封装设备成为半导体设备中增速最快的方向。",
-      "chain_note": "半导体封装设备（键合机/划片机/减薄机/贴片机）是芯片从晶圆到成品的封装环节核心装备，覆盖传统引线键合、倒装、热压键合（TCB）到混合键合（Hybrid Bonding）的演进路线。HBM堆叠和Chiplet异构集成推动先进封装设备成为半导体设备中增速最快的方向。",
+      "description": "半导体封装设备（键合机/划片机/减薄机/贴片机）是芯片从晶圆到成品的封装环节核心装备，覆盖传统引线键合、倒装、热压键合（TCB）到混合键合（Hybrid Bonding）的演进路线。HBM堆叠和Chiplet异构集成推动先进封装设备成为半导体设备中增速最快的方向。\n\n### 更新 2026-10-08（消除 ASMPT 重复页面）\n> 来源: 数据质量复核（重复页面清理）\n> 置信度: 高\n\n- **companies 改名**: `ASM Pacific Technology` → **`ASMPT`**。两者是同一公司（0522.HK），保留的 `asmpt.md`（25字段/6段，2026-09 更新）比 `asm-pacific.md`（11字段/0段，2026-07，无 ticker、正文仅重复一句话）完整得多；且该公司 2022 年已由 ASM Pacific Technology 更名 ASMPT。原有条目名所指向的骨架页已删除，故同步改为指向现存页面\n- **说明**: ticker / role / rev 均未改动",
+      "chain_note": "半导体封装设备（键合机/划片机/减薄机/贴片机）是芯片从晶圆到成品的封装环节核心装备，覆盖传统引线键合、倒装、热压键合（TCB）到混合键合（Hybrid Bonding）的演进路线。HBM堆叠和Chiplet异构集成推动先进封装设备成为半导体设备中增速最快的方向。\n\n### 更新 2026-10-08（消除 ASMPT 重复页面）\n> 来源: 数据质量复核（重复页面清理）\n> 置信度: 高\n\n- **companies 改名**: `ASM Pacific Technology` → **`ASMPT`**。两者是同一公司（0522.HK），保留的 `asmpt.md`（25字段/6段，2026-09 更新）比 `asm-pacific.md`（11字段/0段，2026-07，无 ticker、正文仅重复一句话）完整得多；且该公司 2022 年已由 ASM Pacific Technology 更名 ASMPT。原有条目名所指向的骨架页已删除，故同步改为指向现存页面\n- **说明**: ticker / role / rev 均未改动",
       "companies": [
         {
           "ticker": "0522.HK",
           "source_tickers": [
             "0522.HK"
           ],
-          "name": "ASM Pacific Technology",
+          "name": "ASMPT",
           "roles": [
             "TCB龙头"
           ],
@@ -9586,7 +9600,7 @@
     },
     "0522.HK": {
       "ticker": "0522.HK",
-      "name": "ASM Pacific Technology",
+      "name": "ASMPT",
       "market_guess": "HK",
       "tradable": true,
       "segments": [
@@ -9677,11 +9691,12 @@
     },
     "2337.TW": {
       "ticker": "2337.TW",
-      "name": "Macronix (旺宏)",
+      "name": "旺宏电子",
       "market_guess": "TW",
       "tradable": true,
       "segments": [
-        "semi-memory-chips"
+        "semi-memory-chips",
+        "storage-controller"
       ]
     },
     "2344.TW": {
@@ -12641,12 +12656,12 @@
       ]
     }
   },
-  "version": "2026-10-08.3",
+  "version": "2026-10-08.4",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-10-08T22:18:10+08:00",
-  "source_generated_at": "2026-10-08T22:18:10+08:00",
-  "source_sha256": "ae4e77c948de0109835ffac10107450ec678c6a33f7bb128fbc8a1006098a600",
-  "source_hash8": "ae4e77c9",
-  "source_commit": "db474e43154171d6407e13d26a0d61a132f0fb76",
+  "built_at": "2026-10-08T22:24:49+08:00",
+  "source_generated_at": "2026-10-08T22:24:49+08:00",
+  "source_sha256": "4865ead1507d0d90562a7fbe2bd13a571bd1db3f5937fd1864e68dd04ed78af1",
+  "source_hash8": "4865ead1",
+  "source_commit": "c66aef2b7dd5a32db3269edf751992e4919ae6af",
   "source_dirty": true
 }

@@ -310,11 +310,11 @@ footer code{font-size:12px}
   <header class="masthead">
     <div class="eyebrow">数据质量审计 · invest_wiki</div>
     <h1>invest_wiki 数据质量评估</h1>
-    <p class="sub">对 67 赛道 × 405 公司全量扫描的独立复核：哪些结论可以直接用，哪些必须先打折扣，以及最该先动哪三件事。</p>
+    <p class="sub">对 67 赛道 × 404 公司全量扫描的独立复核：哪些结论可以直接用，哪些必须先打折扣，以及最该先动哪三件事。</p>
     <div class="metaline">
       <span>审计日期 <b>2026-10-08</b></span>
       <span>数据快照 <b>2026-10-08</b></span>
-      <span>口径 <b>67 赛道 / 405 公司 / 502 词条</b></span>
+      <span>口径 <b>67 赛道 / 404 公司 / 501 词条</b></span>
       <span>QA <b>v1.3</b></span>
     </div>
   </header>
@@ -326,7 +326,7 @@ footer code{font-size:12px}
         <div class="grade">
           <span class="k">结构 · 编译 · 链接</span>
           <span class="v v-good">优</span>
-          <span class="n">502 词条零 unknown，图边逐条对应</span>
+          <span class="n">501 词条零 unknown，图边逐条对应</span>
         </div>
         <div class="grade">
           <span class="k">概念 · 论点</span>
@@ -371,41 +371,41 @@ footer code{font-size:12px}
         </thead>
         <tbody>
           <tr><td>L2 词条解析</td><td>unknown 实体</td><td class="num">0</td><td><span class="chip good">通过</span></td></tr>
-          <tr><td>图谱密度</td><td>边 : 节点</td><td class="num">2.00</td><td><span class="chip good">通过</span></td></tr>
-          <tr><td>公司入边率</td><td>阈值 &gt;70%</td><td class="num">86.2%</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>图谱密度</td><td>边 : 节点</td><td class="num">2.12</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>公司入边率</td><td>阈值 &gt;70%</td><td class="num">100%</td><td><span class="chip good">通过</span></td></tr>
           <tr><td>孤立赛道</td><td>—</td><td class="num">0</td><td><span class="chip good">通过</span></td></tr>
-          <tr><td>wikilink ↔ 图边</td><td>逐条对应</td><td class="num">996</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>wikilink ↔ 图边</td><td>逐条对应</td><td class="num">1054</td><td><span class="chip good">通过</span></td></tr>
           <tr><td>L2 → L3 新鲜度</td><td>重编译逐字节比对</td><td class="num">一致</td><td><span class="chip good">通过</span></td></tr>
           <tr><td>chain_universe</td><td>source_sha256</td><td class="num">一致</td><td><span class="chip good">通过</span></td></tr>
-          <tr><td>index.md 登记</td><td>三类实体全部登记</td><td class="num">67/405/10/18</td><td><span class="chip good">通过</span></td></tr>
+          <tr><td>index.md 登记</td><td>三类实体全部登记</td><td class="num">67/404/10/18</td><td><span class="chip good">通过</span></td></tr>
           <tr><td>index.html 结构</td><td>validate.py</td><td class="num">通过</td><td><span class="chip good">通过</span></td></tr>
         </tbody>
       </table>
     </div>
     <div class="note">
       <span class="nt">权威口径</span>
-      <p>67 赛道 · 405 公司 · 10 概念 · 18 论点 · <strong>502 词条</strong> · QA v1.3。<code>L2-Wiki/index.md</code> 与 <code>L3-网页产物/wiki_data.json</code> 两个来源完全一致，可直接引用。</p>
+      <p>67 赛道 · 404 公司 · 10 概念 · 18 论点 · <strong>501 词条</strong> · QA v1.3。<code>L2-Wiki/index.md</code> 与 <code>L3-网页产物/wiki_data.json</code> 两个来源完全一致，可直接引用。</p>
     </div>
   </section>
 
   <section>
     <div class="sec-head">
       <div class="eyebrow">二 · 内容深度</div>
-      <h2>405 家公司里，167 家只有 YAML 没有正文</h2>
+      <h2>404 家公司里，166 家只有 YAML 没有正文</h2>
     </div>
     <p class="prose">这是全库最大的实际缺口。所谓「零叙事」指词条正文里一个 <code>##</code> 段落都没有——只有结构化字段，没有任何可读的业务说明。</p>
 
     <figure>
-      <div class="chart-title">公司词条深度分档 <span class="unit">n = 405</span></div>
-      <div class="stack" role="img" aria-label="全面 216 家、中等 20 家、薄 169 家">
+      <div class="chart-title">公司词条深度分档 <span class="unit">n = 404</span></div>
+      <div class="stack" role="img" aria-label="全面 216 家、中等 20 家、薄 168 家">
         <div class="seg s-good" style="flex:216" data-tip="全面（字段 ≥20 且正文 ≥5 段）· 216 家 · 53%">216</div>
         <div class="seg s-warn" style="flex:20" data-tip="中等（字段齐全但叙事不足）· 20 家 · 5%">20</div>
-        <div class="seg s-crit" style="flex:169" data-tip="薄（字段 <20/25，含 167 家零叙事）· 169 家 · 42%">169</div>
+        <div class="seg s-crit" style="flex:168" data-tip="薄（字段 <20/25，含 166 家零叙事）· 168 家 · 42%">168</div>
       </div>
       <div class="legend">
         <span><i style="background:var(--good)"></i>全面 216 家</span>
         <span><i style="background:var(--warn)"></i>中等 20 家</span>
-        <span><i style="background:var(--crit)"></i>薄 169 家</span>
+        <span><i style="background:var(--crit)"></i>薄 168 家</span>
       </div>
       <figcaption>分档判据来自 <b>list_deepening_targets.py</b>：字段 ≥20/25 且正文 ≥5 段为「全面」。</figcaption>
     </figure>
@@ -420,53 +420,53 @@ footer code{font-size:12px}
           <tr><td><strong>概念卡片</strong></td><td class="num">10</td><td class="num">15 / 15</td><td class="num">10</td><td class="num">0</td><td><span class="chip good">优</span></td></tr>
           <tr><td><strong>投资论点</strong></td><td class="num">18</td><td class="num">10 / 10</td><td class="num">7</td><td class="num">0</td><td><span class="chip good">优</span></td></tr>
           <tr><td><strong>赛道</strong></td><td class="num">67</td><td class="num">22–24 / 27</td><td class="num">3</td><td class="num">7</td><td><span class="chip warn">中</span></td></tr>
-          <tr><td><strong>公司</strong></td><td class="num">405</td><td class="num">11–26 / 25</td><td class="num">5</td><td class="num">167</td><td><span class="chip crit">差</span></td></tr>
+          <tr><td><strong>公司</strong></td><td class="num">404</td><td class="num">11–26 / 25</td><td class="num">5</td><td class="num">166</td><td><span class="chip crit">差</span></td></tr>
         </tbody>
       </table>
     </div>
 
     <div class="note crit">
       <span class="nt">关键交叉发现</span>
-      <p><strong>167 家「零叙事」与 168 家「无 <code>data_freshness_date</code>」几乎完全重合</strong>——交集 167，差集 0。这说明它们是<strong>同一批用同一骨架模板批量建立的条目</strong>：既没有正文，也没有数据日期，整批游离在质量体系之外。</p>
+      <p><strong>166 家「零叙事」与 167 家「无 <code>data_freshness_date</code>」几乎完全重合</strong>——交集 166，差集 0。这说明它们是<strong>同一批用同一骨架模板批量建立的条目</strong>：既没有正文，也没有数据日期，整批游离在质量体系之外。</p>
     </div>
 
     <p class="prose">67 个赛道词条的字段是齐的（中位 23 个），但<strong>正文段数无一超过 3 段</strong>，且高度同质——赛道页普遍偏薄。反观概念与论点两类，字段和正文都做到 100% 齐整，是全库质量最好的部分。</p>
 
     <figure>
-      <div class="chart-title">公司关键字段覆盖率 <span class="unit">n = 405 · 百分比越高越齐</span></div>
+      <div class="chart-title">公司关键字段覆盖率 <span class="unit">n = 404 · 百分比越高越齐</span></div>
       <div class="bars">
         <div class="bar-row">
           <span class="lbl"><code>data_freshness_date</code></span>
-          <span class="track"><span class="fill" style="width:59%" data-tip="data_freshness_date · 237/405 有值 · 168 家缺失"></span></span>
-          <span class="val">59% <em>· 缺 168</em></span>
+          <span class="track"><span class="fill" style="width:59%" data-tip="data_freshness_date · 237/404 有值 · 167 家缺失"></span></span>
+          <span class="val">59% <em>· 缺 167</em></span>
         </div>
         <div class="bar-row">
           <span class="lbl"><code>description</code></span>
-          <span class="track"><span class="fill" style="width:58%" data-tip="description · 236/405 有值 · 169 家缺失"></span></span>
-          <span class="val">58% <em>· 缺 169</em></span>
+          <span class="track"><span class="fill" style="width:58%" data-tip="description · 236/404 有值 · 168 家缺失"></span></span>
+          <span class="val">58% <em>· 缺 168</em></span>
         </div>
         <div class="bar-row">
           <span class="lbl"><code>core_business</code></span>
-          <span class="track"><span class="fill" style="width:58%" data-tip="core_business · 236/405 有值 · 169 家缺失"></span></span>
-          <span class="val">58% <em>· 缺 169</em></span>
+          <span class="track"><span class="fill" style="width:58%" data-tip="core_business · 236/404 有值 · 168 家缺失"></span></span>
+          <span class="val">58% <em>· 缺 168</em></span>
         </div>
         <div class="bar-row">
           <span class="lbl"><code>revenue_model</code></span>
-          <span class="track"><span class="fill" style="width:58%" data-tip="revenue_model · 236/405 有值 · 169 家缺失"></span></span>
-          <span class="val">58% <em>· 缺 169</em></span>
+          <span class="track"><span class="fill" style="width:58%" data-tip="revenue_model · 236/404 有值 · 168 家缺失"></span></span>
+          <span class="val">58% <em>· 缺 168</em></span>
         </div>
         <div class="bar-row">
           <span class="lbl"><code>ticker</code></span>
-          <span class="track"><span class="fill" style="width:52%" data-tip="ticker · 212/405 有值 · 193 家缺失"></span></span>
+          <span class="track"><span class="fill" style="width:52%" data-tip="ticker · 211/404 有值 · 193 家缺失"></span></span>
           <span class="val">52% <em>· 缺 193</em></span>
         </div>
         <div class="bar-row">
           <span class="lbl"><code>employees</code></span>
-          <span class="track"><span class="fill" style="width:45%" data-tip="employees · 183/405 有值 · 222 家缺失"></span></span>
-          <span class="val">45% <em>· 缺 222</em></span>
+          <span class="track"><span class="fill" style="width:45%" data-tip="employees · 183/404 有值 · 221 家缺失"></span></span>
+          <span class="val">45% <em>· 缺 221</em></span>
         </div>
       </div>
-      <figcaption><b>description / core_business / revenue_model</b> 三项缺失数完全相同（169），与「零叙事」的 167 高度吻合——同一批骨架条目缺的是同一组字段。缺 <b>ticker</b> 的 193 家意味着接不进量化管道。</figcaption>
+      <figcaption><b>description / core_business / revenue_model</b> 三项缺失数完全相同（168），与「零叙事」的 166 高度吻合——同一批骨架条目缺的是同一组字段。缺 <b>ticker</b> 的 193 家意味着接不进量化管道。</figcaption>
     </figure>
   </section>
 
@@ -475,7 +475,7 @@ footer code{font-size:12px}
       <div class="eyebrow">三 · 数据新鲜度</div>
       <h2>六成公司有数据日期，其余四成无从判断</h2>
     </div>
-    <p class="prose">405 家公司中 <strong>237 家有 <code>data_freshness_date</code></strong>，168 家没有——没有日期的条目不会被 <code>freshness_scan.py</code> 的 90 天保鲜扫描覆盖。</p>
+    <p class="prose">404 家公司中 <strong>237 家有 <code>data_freshness_date</code></strong>，167 家没有——没有日期的条目不会被 <code>freshness_scan.py</code> 的 90 天保鲜扫描覆盖。</p>
     <div class="tablewrap">
       <table>
         <caption>有日期标注的 237 家的数据月份分布</caption>
@@ -487,9 +487,9 @@ footer code{font-size:12px}
         </tbody>
       </table>
     </div>
-    <div class="note warn">
-      <span class="nt">文档已过时</span>
-      <p><code>CLAUDE.md</code> 的 Phase 3 章节写「覆盖 <strong>211 家</strong>，其余 <strong>194 家</strong>不纳入扫描」。实测是 <strong>237 / 168</strong>。数字本身在改善，但文档没有跟着更新，会让读者低估或高估覆盖范围。</p>
+    <div class="note">
+      <span class="nt">已于 2026-10-08 修正</span>
+      <p><code>CLAUDE.md</code> 的 Phase 3 章节原写「覆盖 <strong>211 家</strong>，其余 <strong>194 家</strong>不纳入扫描」，实测为 <strong>237 / 167</strong>。该项已同步至实测值，并补记了「零叙事」与「无数据日期」两组高度重合这一事实。</p>
     </div>
   </section>
 
@@ -547,10 +547,10 @@ footer code{font-size:12px}
       <div class="eyebrow">五 · 文档漂移</div>
       <h2>四篇根文档停在三个不同的时间点</h2>
     </div>
-    <p class="prose">项目最新提交是 2026-09-16，但根文档的修改时间分别是 09-14、09-13、09-11、07-24。文档里的数字与实测系统性不符。</p>
+    <p class="prose">审计时（2026-10-08）发现：项目最新提交是 2026-09-16，但根文档的修改时间分别是 09-14、09-13、09-11、07-24，数字与实测系统性不符。<strong>下列漂移已于当日全部修正</strong>——本表保留为漂移的原始记录，其中「实测」列是<strong>审计时点</strong>（HEAD <code>5468d88</code>）的取值，与当前值可能相差 1（如公司数 405 → 404，因当日另清理了一对重复页面）。</p>
     <div class="tablewrap">
       <table>
-        <caption>文档声称 vs 实测</caption>
+        <caption>文档声称 vs 实测（审计时点，均已修正）</caption>
         <thead><tr><th>文档</th><th>声称</th><th>实测</th></tr></thead>
         <tbody>
           <tr>
@@ -598,7 +598,7 @@ footer code{font-size:12px}
     </ul>
     <div class="note">
       <span class="nt">这意味着什么</span>
-      <p>「24 字段」「4 段」这些标准<strong>没有任何工具兜底</strong>，全靠人工自觉。这正是 167 家空骨架能长期存在而无人报警的原因——校验脚本不检查它，所以它永远「通过」。</p>
+      <p>「24 字段」「4 段」这些标准<strong>没有任何工具兜底</strong>，全靠人工自觉。这正是 166 家空骨架能长期存在而无人报警的原因——校验脚本不检查它，所以它永远「通过」。</p>
     </div>
   </section>
 
@@ -617,40 +617,48 @@ footer code{font-size:12px}
 
   <section>
     <div class="sec-head">
-      <div class="eyebrow">八 · 建议动作</div>
-      <h2>按性价比排序的三件事</h2>
+      <div class="eyebrow">八 · 建议动作与执行结果</div>
+      <h2>三条建议的落地情况</h2>
     </div>
     <div class="actions">
       <div class="action">
-        <span class="rake">先做</span>
+        <span class="rake">① 已做</span>
         <div class="body">
           <h3>同步四篇根文档的数字</h3>
-          <p>把 CLAUDE.md / ARCHITECTURE.md / UI_DESIGN.md 的数字改成 67 / 405 / 502 / 237，并把 DEPLOYMENT_PLAN.md 标记为历史文档。纯文字工作，收益是以后不再被错误数字误导。</p>
+          <p>CLAUDE.md / ARCHITECTURE.md / UI_DESIGN.md 的数字已全部对齐实测（67 赛道 / 404 公司 / 501 词条 / 237 覆盖），<code>DEPLOYMENT_PLAN.md</code> 已加失效横幅并标注历史文档。</p>
         </div>
       </div>
       <div class="action">
-        <span class="rake">再做</span>
+        <span class="rake">② 否决</span>
         <div class="body">
-          <h3>给 168 家骨架补 data_freshness_date</h3>
-          <p>成本极低（一个字段），能立刻把「质量可见范围」从 59% 提到 100%，让这批条目进入 90 天保鲜扫描。</p>
+          <h3>给 167 家骨架补 data_freshness_date</h3>
+          <p><strong>复核后不执行——该建议本身是错的。</strong>这 167 家没有任何经营数据（<code>latest_revenue</code> / <code>market_cap</code> 全为空），没有可"保鲜"的对象；硬填日期会让扫描器把它们报成"新鲜"，覆盖率从 59% 虚涨到 100% 而实际覆盖毫无增加，还会掩盖正确信号（它们需要的是<strong>建档</strong>而非<strong>刷新</strong>）。改为给 <code>freshness_scan.py</code> 增加 <code>skeleton</code> 桶。</p>
         </div>
       </div>
       <div class="action">
-        <span class="rake">然后</span>
+        <span class="rake">③ 已做</span>
         <div class="body">
           <h3>明确 rev 的定位</h3>
-          <p>要么在字段说明与排序文档里标注「估算值」，要么逐步用真实营收数据替换。这决定了包括每日简报美股产业链产线在内的下游能不能信这些排序。</p>
+          <p>复查中发现原定义的解读有误：<code>rev</code> 一直被当作"赛道内营收占比"（市场份额），实测却是<strong>该公司自身营收中来自该赛道的占比</strong>（业务纯度）。已在 <code>field-formats.md</code> §6 订正定义与判据，并同步脚本标签与本文第四节。</p>
         </div>
       </div>
     </div>
-    <p class="prose">更远的目标是补那 169 家薄档公司（其中 9 家是龙头级、字段只有 11/25）与 10 个 C 级赛道。但那是内容工程，应当在上述三件事之后排期。</p>
+
+    <h3>顺带查出并处理的问题</h3>
+    <ul class="tight">
+      <li><strong><code>freshness_scan.py</code> 曾静默丢弃 168 家公司</strong>：旧实现把「无经营数据且无日期」的条目直接 <code>continue</code>，报告头部写的总词条数与各桶之和对不上。改为五个互斥且完备的桶，<code>skeleton</code> 不使退出码为 1。</li>
+      <li><strong>孤儿公司 67 家 → 0</strong>：有词条页却未被任何赛道登记 → 图谱中无入边。分三轮清零（11 家 + 54 家补登记，另 2 家经改名与重复页清理），公司入边率 83.5% → 100%。</li>
+      <li><strong>两对重复页面</strong>：<code>ASMPT</code> ↔ <code>ASM Pacific Technology</code>（同一公司 0522.HK，已删骨架页保留完整页）；<code>旺宏电子</code> ↔ 赛道里的悬空名 <code>Macronix (旺宏)</code>（该名字无对应页面，已统一为实际页面名）。</li>
+    </ul>
+
+    <p class="prose">更远的目标是补那 168 家薄档公司（其中 <strong>16 家</strong>已达「龙头级」而字段只有 11/25）与 10 个 C 级赛道，外加 72 家「部分不对称」的赛道归属取舍。这些属内容工程，不在本轮范围。</p>
   </section>
 
   <footer>
     <span>审计方法：文档全文通读（根目录 4 篇 · docs/ 3 篇 · L1 规范 26 篇 · L2 索引与消化笔记），配合独立脚本复核实体数量、字段覆盖、正文段数、新鲜度分布与 rev 取值。</span>
     <span>复核命令：<code>python3 L1-Schema与Pipeline/lint/verify_all.py</code></span>
-    <span>数据快照：全量复核于 <code>5468d88</code>（2026-10-08）；图谱数值于 <code>db474e4</code> 复核后更新 · 工作区干净 · master 与 origin 同步</span>
-    <span>订正记录：2026-10-08 修订 <code>rev</code> 语义（业务纯度，非市场份额）并更新图谱数值；修订原因见第四节。</span>
+    <span>数据快照：全量复核于 <code>5468d88</code>（2026-10-08）；后续订正与数据修复后，图谱数值更新至 <code>c66aef2</code> + 重复页清理 · 工作区干净 · master 与 origin 同步</span>
+    <span>订正记录（均为 2026-10-08）：① <code>rev</code> 语义订正为「业务纯度」而非市场份额（见第四节）；② 图谱数值随孤儿公司清零更新（入边率 86.2% → 100%）；③ 清理 <code>ASMPT</code> / <code>旺宏电子</code> 两对重复与悬空引用，公司数 405 → 404、词条 502 → 501。</span>
   </footer>
 
 </div>

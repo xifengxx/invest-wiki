@@ -2,7 +2,7 @@
 
 > 版本 2.5 · 2026-10-08 · LLM-Wiki 四层架构 + Phase 2-5 全部完成
 >
-> **v2.5 变更**：数据规模对齐 2026-10-08 实测（502 词条 / 67 赛道 / 405 公司 / L0 331 文件）；
+> **v2.5 变更**：数据规模对齐 2026-10-08 实测（501 词条 / 67 赛道 / 404 公司 / L0 331 文件）；
 > 补充 2026-09-13 起的**双产业归属模型**（`industries` 列表 + 16 个双归属赛道）；
 > 补充 `verify_all.py` 统一校验、pre-commit hook、`deploy.sh` 跨仓库同步三套新机制。
 
@@ -48,16 +48,16 @@ The Wiki         →     L2 结构化 Wiki 层
 |------|:--:|
 | 产业 | 2（AI算力 / 半导体） |
 | 赛道（segment） | 67（唯一数；44 在 AI算力视图 / 39 在半导体视图，含 16 个双归属） |
-| 公司（company） | 405（216 全面 + 20 中等 + 169 薄） |
+| 公司（company） | 404（216 全面 + 20 中等 + 168 薄） |
 | 概念卡片（concept） | 10 |
 | 投资论点（thesis） | 18 |
-| **总词条** | **502** |
+| **总词条** | **501** |
 | 图谱节点 | 499 |
 | 图谱边 | 985 |
 | L0 归档文件 | 331 |
 
-> 数据质量基线见 `docs/产业链数据健全度审计.md`（2026-09-16 时点快照）与 `docs/待深化龙头清单.md`（**2026-10-08 重跑**：龙头级 **173 家** = 全面 148 / 中等 8 / 薄 17；孤儿公司 56 家）。
-> ⚠️ 405 家公司中 **169 家字段未填齐**（<20/25），其中 **167 家正文零 `##` 段落**；这 167 家同时缺 `data_freshness_date`，未纳入 90 天保鲜扫描。
+> 数据质量基线见 `docs/产业链数据健全度审计.md`（2026-09-16 时点快照）与 `docs/待深化龙头清单.md`（**2026-10-08 重跑**：龙头级 **173 家** = 全面 149 / 中等 8 / 薄 16；**孤儿公司 0 家**）。
+> ⚠️ 404 家公司中 **168 家字段未填齐**（<20/25），其中 **166 家正文零 `##` 段落**；这 166 家同时缺 `data_freshness_date`，未纳入 90 天保鲜扫描。
 
 ### 2.2 两大产业 · 四层结构
 
@@ -124,7 +124,7 @@ invest_wiki/
 │   ├── index.md                           ← 67 赛道总索引（LLM 查询路由入口）
 │   ├── 产业/                               ← AI算力.md / 半导体.md
 │   ├── 赛道/                               ← AI算力/(44md) + 半导体/(23md)，合计 67 个唯一赛道
-│   ├── 公司/                               ← 405 个公司 MD（216全面+20中等+169薄）
+│   ├── 公司/                               ← 404 个公司 MD（216全面+20中等+168薄）
 │   ├── 概念/                               ← 10 个概念卡片 MD
 │   ├── 论点/                               ← 18 个投资论点 MD + 审计报告
 │   └── 消化笔记/                           ← L0→L2 中间产物（逐字段影响评估）
@@ -450,7 +450,7 @@ L2-Wiki/**/*.md
 
 ### 7.2 build_wiki_data.py
 
-编译脚本，读取 L2-Wiki 下所有 MD 文件，调用 engine/parser.py 解析，调用 engine/graph.py 构建图数据。按 entity_type 分派到 `company_to_dict()` / `segment_to_dict()` / `concept_to_dict()` / `thesis_to_dict()` 四个序列化函数。输出 `wiki_data.json` 包含：`entities`（502实体）/ `by_type` / `treemap_ai` / `treemap_semi` / `graph` / `sankey_ai` / `sankey_semi` / `hot` / `thesis_index`。
+编译脚本，读取 L2-Wiki 下所有 MD 文件，调用 engine/parser.py 解析，调用 engine/graph.py 构建图数据。按 entity_type 分派到 `company_to_dict()` / `segment_to_dict()` / `concept_to_dict()` / `thesis_to_dict()` 四个序列化函数。输出 `wiki_data.json` 包含：`entities`（501实体）/ `by_type` / `treemap_ai` / `treemap_semi` / `graph` / `sankey_ai` / `sankey_semi` / `hot` / `thesis_index`。
 
 ### 7.3 validate.py
 
@@ -474,7 +474,7 @@ Phase 3 数据新鲜度扫描器。读取 wiki_data.json，检查所有公司的
 | `missing` | **有**经营数据（`latest_revenue`/`market_cap`）却无日期 → 真疏漏 | 是 |
 | `skeleton` | **无**任何经营数据 → 尚未建档的骨架条目 | **否** |
 
-`skeleton` 是已知状态而非错误：骨架条目本就不该有 `data_freshness_date`（见「不推测原则」），它们需要的是**建档**而不是**刷新**。旧版实现会把这批条目静默丢弃（既不计入任何桶、也不出现在报告里），导致报告头部写「总词条数 405」而各桶之和仅 237；2026-10-08 修正为显式归类。当前实测：fresh 231 / warn 6 / stale 0 / missing 0 / skeleton 168 = 405。
+`skeleton` 是已知状态而非错误：骨架条目本就不该有 `data_freshness_date`（见「不推测原则」），它们需要的是**建档**而不是**刷新**。旧版实现会把这批条目静默丢弃（既不计入任何桶、也不出现在报告里），导致报告头部写的总词条数与各桶之和对不上（当时是 405 vs 237）；2026-10-08 修正为显式归类。当前实测：fresh 231 / warn 6 / stale 0 / missing 0 / skeleton 167 = 404。
 
 ### 7.6 前端功能
 
