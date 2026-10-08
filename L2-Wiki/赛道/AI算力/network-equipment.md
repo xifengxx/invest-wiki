@@ -87,6 +87,9 @@ companies:
   name: 中兴通讯
   role: 国产厂商
   rev: 40
+- ticker: CLS
+  name: Celestica
+  role: 白盒交换机龙头
 sources:
 - title: Dell'Oro《AI后端网络2025》
   summary: 2025数据中心交换机$162亿(CAGR 8.3%)，AI后端以太网翻倍超InfiniBand两倍，Celestica+NVIDIA占~50%
@@ -106,3 +109,10 @@ sources:
 
 - **sources**: 1 → 2 条。补入「Cisco Q4 FY2026 财报」——该来源在 L0 中已存在（`input_20260913_033`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态
 - **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯
+
+### 更新 2026-10-08（补齐 AI 服务器 ODM 环节缺口）
+> 来源: Research 模式（L0 归档 input_20261008_138~142）
+> 置信度: 高
+
+- **companies**: 补入 **Celestica**——此前本赛道缺少 AI 服务器 ODM/整机环节的核心标的，这 5 家是 NVIDIA GB 系列机柜与白盒交换机的实际组装方
+- **说明**: `role` 按各自在 AI 服务器/交换机链中的实际地位标注；**未填 `rev`**（该公司在本赛道的营收占比无可靠来源，按 L1「不推测原则」留空）

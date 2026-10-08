@@ -2,7 +2,7 @@
 
 > 版本 2.5 · 2026-10-08 · LLM-Wiki 四层架构 + Phase 2-5 全部完成
 >
-> **v2.5 变更**：数据规模对齐 2026-10-08 实测（501 词条 / 67 赛道 / 404 公司 / L0 331 文件）；
+> **v2.5 变更**：数据规模对齐 2026-10-08 实测（506 词条 / 67 赛道 / 409 公司 / L0 336 文件）；
 > 补充 2026-09-13 起的**双产业归属模型**（`industries` 列表 + 16 个双归属赛道）；
 > 补充 `verify_all.py` 统一校验、pre-commit hook、`deploy.sh` 跨仓库同步三套新机制。
 
@@ -48,16 +48,16 @@ The Wiki         →     L2 结构化 Wiki 层
 |------|:--:|
 | 产业 | 2（AI算力 / 半导体） |
 | 赛道（segment） | 67（唯一数；44 在 AI算力视图 / 39 在半导体视图，含 16 个双归属） |
-| 公司（company） | 404（216 全面 + 20 中等 + 168 薄） |
+| 公司（company） | 409（221 全面 + 20 中等 + 168 薄） |
 | 概念卡片（concept） | 10 |
 | 投资论点（thesis） | 18 |
-| **总词条** | **501** |
-| 图谱节点 | 498 |
-| 图谱边 | 1088 |
-| L0 归档文件 | 331 |
+| **总词条** | **506** |
+| 图谱节点 | 503 |
+| 图谱边 | 1094 |
+| L0 归档文件 | 336 |
 
-> 数据质量基线见 `docs/产业链数据健全度审计.md`（2026-09-16 时点快照）与 `docs/待深化龙头清单.md`（**2026-10-08 重跑**：龙头级 **173 家** = 全面 157 / 中等 0 / 薄 16；**孤儿公司 0 家**）。
-> ⚠️ 404 家公司中 **168 家字段未填齐**（<20/25），其中 **166 家正文零 `##` 段落**；这 166 家同时缺 `data_freshness_date`，未纳入 90 天保鲜扫描。
+> 数据质量基线见 `docs/产业链数据健全度审计.md`（2026-09-16 时点快照）与 `docs/待深化龙头清单.md`（**2026-10-08 重跑**：龙头级 **177 家** = 全面 161 / 中等 0 / 薄 16；**孤儿公司 0 家**）。
+> ⚠️ 409 家公司中 **168 家字段未填齐**（<20/25），其中 **166 家正文零 `##` 段落**；这 166 家同时缺 `data_freshness_date`，未纳入 90 天保鲜扫描。
 
 ### 2.2 两大产业 · 四层结构
 
@@ -124,7 +124,7 @@ invest_wiki/
 │   ├── index.md                           ← 67 赛道总索引（LLM 查询路由入口）
 │   ├── 产业/                               ← AI算力.md / 半导体.md
 │   ├── 赛道/                               ← AI算力/(44md) + 半导体/(23md)，合计 67 个唯一赛道
-│   ├── 公司/                               ← 404 个公司 MD（216全面+20中等+168薄）
+│   ├── 公司/                               ← 409 个公司 MD（221全面+20中等+168薄）
 │   ├── 概念/                               ← 10 个概念卡片 MD
 │   ├── 论点/                               ← 18 个投资论点 MD + 审计报告
 │   └── 消化笔记/                           ← L0→L2 中间产物（逐字段影响评估）
@@ -450,7 +450,7 @@ L2-Wiki/**/*.md
 
 ### 7.2 build_wiki_data.py
 
-编译脚本，读取 L2-Wiki 下所有 MD 文件，调用 engine/parser.py 解析，调用 engine/graph.py 构建图数据。按 entity_type 分派到 `company_to_dict()` / `segment_to_dict()` / `concept_to_dict()` / `thesis_to_dict()` 四个序列化函数。输出 `wiki_data.json` 包含：`entities`（501实体）/ `by_type` / `treemap_ai` / `treemap_semi` / `graph` / `sankey_ai` / `sankey_semi` / `hot` / `thesis_index`。
+编译脚本，读取 L2-Wiki 下所有 MD 文件，调用 engine/parser.py 解析，调用 engine/graph.py 构建图数据。按 entity_type 分派到 `company_to_dict()` / `segment_to_dict()` / `concept_to_dict()` / `thesis_to_dict()` 四个序列化函数。输出 `wiki_data.json` 包含：`entities`（506实体）/ `by_type` / `treemap_ai` / `treemap_semi` / `graph` / `sankey_ai` / `sankey_semi` / `hot` / `thesis_index`。
 
 ### 7.3 validate.py
 

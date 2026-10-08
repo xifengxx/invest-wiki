@@ -6,9 +6,9 @@
     "source_segments": 67,
     "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
-    "source_company_links": 578,
-    "unique_companies": 353,
-    "overseas_quote_candidates": 196,
+    "source_company_links": 584,
+    "unique_companies": 358,
+    "overseas_quote_candidates": 201,
     "a_share_mapping_companies": 98,
     "private_or_untradable": 59
   },
@@ -992,6 +992,62 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "2356.TW",
+          "source_tickers": [
+            "2356.TW"
+          ],
+          "name": "英业达",
+          "roles": [
+            "龙头"
+          ],
+          "rev": null,
+          "market_guess": "TW",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "2382.TW",
+          "source_tickers": [
+            "2382.TW"
+          ],
+          "name": "广达电脑",
+          "roles": [
+            "龙头"
+          ],
+          "rev": null,
+          "market_guess": "TW",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "3231.TW",
+          "source_tickers": [
+            "3231.TW"
+          ],
+          "name": "纬创资通",
+          "roles": [
+            "龙头"
+          ],
+          "rev": null,
+          "market_guess": "TW",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "4938.TW",
+          "source_tickers": [
+            "4938.TW"
+          ],
+          "name": "和硕联合科技",
+          "roles": [
+            "二线弹性"
+          ],
+          "rev": null,
+          "market_guess": "TW",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "601138",
           "source_tickers": [
             "601138"
@@ -1016,6 +1072,20 @@
           ],
           "rev": 10.0,
           "market_guess": "HK",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "CLS",
+          "source_tickers": [
+            "CLS"
+          ],
+          "name": "Celestica",
+          "roles": [
+            "龙头"
+          ],
+          "rev": null,
+          "market_guess": "US_LIKE",
           "tradable": true,
           "in_overseas_heat": true
         },
@@ -1090,9 +1160,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 12,
-      "n_unique_companies": 12,
-      "n_overseas_candidates": 7,
+      "n_source_companies": 17,
+      "n_unique_companies": 17,
+      "n_overseas_candidates": 12,
       "n_a_share_mapping": 4,
       "a_share": [
         {
@@ -5660,8 +5730,8 @@
       "source_slugs": [
         "network-equipment"
       ],
-      "description": "数据中心交换机是AI集群Scale-out互联的核心系统级设备，负责GPU服务器之间的高速数据传输。AI训练推动后端网络从InfiniBand向以太网迁移，800G端口主导当前、1.6T即将量产，NVIDIA Spectrum-X凭借GPU捆绑切入，冲击Cisco/Arista传统格局。\n\n### 更新 2026-10-08（补充第二条来源）\n> 来源: 已有 L0 归档提级引用（未新增外部调研）\n> 置信度: 高\n\n- **sources**: 1 → 2 条。补入「Cisco Q4 FY2026 财报」——该来源在 L0 中已存在（`input_20260913_033`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态\n- **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯",
-      "chain_note": "数据中心交换机是AI集群Scale-out互联的核心系统级设备，负责GPU服务器之间的高速数据传输。AI训练推动后端网络从InfiniBand向以太网迁移，800G端口主导当前、1.6T即将量产，NVIDIA Spectrum-X凭借GPU捆绑切入，冲击Cisco/Arista传统格局。\n\n### 更新 2026-10-08（补充第二条来源）\n> 来源: 已有 L0 归档提级引用（未新增外部调研）\n> 置信度: 高\n\n- **sources**: 1 → 2 条。补入「Cisco Q4 FY2026 财报」——该来源在 L0 中已存在（`input_20260913_033`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态\n- **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯",
+      "description": "数据中心交换机是AI集群Scale-out互联的核心系统级设备，负责GPU服务器之间的高速数据传输。AI训练推动后端网络从InfiniBand向以太网迁移，800G端口主导当前、1.6T即将量产，NVIDIA Spectrum-X凭借GPU捆绑切入，冲击Cisco/Arista传统格局。\n\n### 更新 2026-10-08（补充第二条来源）\n> 来源: 已有 L0 归档提级引用（未新增外部调研）\n> 置信度: 高\n\n- **sources**: 1 → 2 条。补入「Cisco Q4 FY2026 财报」——该来源在 L0 中已存在（`input_20260913_033`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态\n- **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯\n\n### 更新 2026-10-08（补齐 AI 服务器 ODM 环节缺口）\n> 来源: Research 模式（L0 归档 input_20261008_138~142）\n> 置信度: 高\n\n- **companies**: 补入 **Celestica**——此前本赛道缺少 AI 服务器 ODM/整机环节的核心标的，这 5 家是 NVIDIA GB 系列机柜与白盒交换机的实际组装方\n- **说明**: `role` 按各自在 AI 服务器/交换机链中的实际地位标注；**未填 `rev`**（该公司在本赛道的营收占比无可靠来源，按 L1「不推测原则」留空）",
+      "chain_note": "数据中心交换机是AI集群Scale-out互联的核心系统级设备，负责GPU服务器之间的高速数据传输。AI训练推动后端网络从InfiniBand向以太网迁移，800G端口主导当前、1.6T即将量产，NVIDIA Spectrum-X凭借GPU捆绑切入，冲击Cisco/Arista传统格局。\n\n### 更新 2026-10-08（补充第二条来源）\n> 来源: 已有 L0 归档提级引用（未新增外部调研）\n> 置信度: 高\n\n- **sources**: 1 → 2 条。补入「Cisco Q4 FY2026 财报」——该来源在 L0 中已存在（`input_20260913_033`），本次仅将其登记为本赛道来源，消除「仅 1 条来源」的证据单薄状态\n- **说明**: 未引入新数据；`summary` 中的数字全部取自该归档的「数据提取清单」，按 L1 规范标注了 `input_id` 以便回溯\n\n### 更新 2026-10-08（补齐 AI 服务器 ODM 环节缺口）\n> 来源: Research 模式（L0 归档 input_20261008_138~142）\n> 置信度: 高\n\n- **companies**: 补入 **Celestica**——此前本赛道缺少 AI 服务器 ODM/整机环节的核心标的，这 5 家是 NVIDIA GB 系列机柜与白盒交换机的实际组装方\n- **说明**: `role` 按各自在 AI 服务器/交换机链中的实际地位标注；**未填 `rev`**（该公司在本赛道的营收占比无可靠来源，按 L1「不推测原则」留空）",
       "companies": [
         {
           "ticker": "000063",
@@ -5687,6 +5757,20 @@
             "数据中心龙头"
           ],
           "rev": 60.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "CLS",
+          "source_tickers": [
+            "CLS"
+          ],
+          "name": "Celestica",
+          "roles": [
+            "白盒交换机龙头"
+          ],
+          "rev": null,
           "market_guess": "US_LIKE",
           "tradable": true,
           "in_overseas_heat": true
@@ -5720,9 +5804,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 4,
-      "n_unique_companies": 4,
-      "n_overseas_candidates": 3,
+      "n_source_companies": 5,
+      "n_unique_companies": 5,
+      "n_overseas_candidates": 4,
       "n_a_share_mapping": 1,
       "a_share": [
         {
@@ -9709,6 +9793,15 @@
         "semi-memory-chips"
       ]
     },
+    "2356.TW": {
+      "ticker": "2356.TW",
+      "name": "英业达",
+      "market_guess": "TW",
+      "tradable": true,
+      "segments": [
+        "ai-server"
+      ]
+    },
     "2379.TW": {
       "ticker": "2379.TW",
       "name": "Realtek (瑞昱)",
@@ -9716,6 +9809,15 @@
       "tradable": true,
       "segments": [
         "semi-ic-design-service"
+      ]
+    },
+    "2382.TW": {
+      "ticker": "2382.TW",
+      "name": "广达电脑",
+      "market_guess": "TW",
+      "tradable": true,
+      "segments": [
+        "ai-server"
       ]
     },
     "2383.TW": {
@@ -10010,6 +10112,15 @@
         "package-substrate"
       ]
     },
+    "3231.TW": {
+      "ticker": "3231.TW",
+      "name": "纬创资通",
+      "market_guess": "TW",
+      "tradable": true,
+      "segments": [
+        "ai-server"
+      ]
+    },
     "3436.T": {
       "ticker": "3436.T",
       "name": "SUMCO Corporation",
@@ -10091,6 +10202,15 @@
       "tradable": true,
       "segments": [
         "photoresist"
+      ]
+    },
+    "4938.TW": {
+      "ticker": "4938.TW",
+      "name": "和硕联合科技",
+      "market_guess": "TW",
+      "tradable": true,
+      "segments": [
+        "ai-server"
       ]
     },
     "5016.T": {
@@ -11188,6 +11308,16 @@
       "tradable": true,
       "segments": [
         "eda-ip"
+      ]
+    },
+    "CLS": {
+      "ticker": "CLS",
+      "name": "Celestica",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "ai-server",
+        "network-equipment"
       ]
     },
     "COHERE": {
@@ -12656,12 +12786,12 @@
       ]
     }
   },
-  "version": "2026-10-08.7",
+  "version": "2026-10-08.8",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-10-08T23:44:49+08:00",
-  "source_generated_at": "2026-10-08T23:44:49+08:00",
-  "source_sha256": "3554fdb85127d1325ce80cc32c3966ccc4222b089af872827232cf3ee81d9083",
-  "source_hash8": "3554fdb8",
-  "source_commit": "d5acb8080386123779ab518eaa34ba1cbc855a80",
+  "built_at": "2026-10-08T23:54:51+08:00",
+  "source_generated_at": "2026-10-08T23:54:51+08:00",
+  "source_sha256": "93822e91a15317831810fce7f4c114b9ebac12d84a5855cfbb8451aa6e629dd2",
+  "source_hash8": "93822e91",
+  "source_commit": "54efde99eeba412842c1163038fc8f881a00d39e",
   "source_dirty": true
 }

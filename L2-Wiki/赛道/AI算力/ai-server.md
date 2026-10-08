@@ -130,6 +130,21 @@ companies:
   name: 鸿海精密 (富士康/Foxconn)
   role: 龙头
   rev: 60
+- ticker: 2382.TW
+  name: 广达电脑
+  role: 龙头
+- ticker: 3231.TW
+  name: 纬创资通
+  role: 龙头
+- ticker: 2356.TW
+  name: 英业达
+  role: 龙头
+- ticker: 4938.TW
+  name: 和硕联合科技
+  role: 二线弹性
+- ticker: CLS
+  name: Celestica
+  role: 龙头
 key_customers:
 - 云计算IaaS
 - AI训练集群/超算
@@ -184,3 +199,10 @@ AI服务器是为深度学习训练和推理**专门优化**的高性能计算�
 - **key_trends**: +1条 "半导体全面涨价潮扩散至AI服务器——涨价从GPU扩散至CPU/PCB/被动元件/高速连接器"
 - **sources**: +1 中原证券2026中期策略
 - **依据**: 中原证券——涨价已从存储蔓延至晶圆代工/封测/CPU/模拟/功率器件，AI硬件产业链通胀从半导体扩散到PCB、被动元件
+
+### 更新 2026-10-08（补齐 AI 服务器 ODM 环节缺口）
+> 来源: Research 模式（L0 归档 input_20261008_138~142）
+> 置信度: 高
+
+- **companies**: 补入 **广达电脑**、**纬创资通**、**英业达**、**和硕联合科技**、**Celestica**——此前本赛道缺少 AI 服务器 ODM/整机环节的核心标的，这 5 家是 NVIDIA GB 系列机柜与白盒交换机的实际组装方
+- **说明**: `role` 按各自在 AI 服务器/交换机链中的实际地位标注；**未填 `rev`**（该公司在本赛道的营收占比无可靠来源，按 L1「不推测原则」留空）
