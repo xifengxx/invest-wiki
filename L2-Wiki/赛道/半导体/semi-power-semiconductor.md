@@ -125,6 +125,27 @@ companies:
 - ticker: '688187'
   name: 时代电气
   role: 国产龙头
+- ticker: ''
+  name: Alpha & Omega Semiconductor (AOS)
+  role: 核心参与者
+- ticker: ''
+  name: Diodes Incorporated
+  role: 核心参与者
+- ticker: ''
+  name: Navitas Semiconductor
+  role: 直接相关
+- ticker: ''
+  name: Power Integrations
+  role: 核心参与者
+- ticker: ''
+  name: Silergy (矽力杰)
+  role: 核心参与者
+- ticker: ''
+  name: Toshiba Electronic Devices
+  role: 直接相关
+- ticker: ''
+  name: Vishay Intertechnology
+  role: 核心参与者
 sources:
 - title: Yole Group《2026年电力电子行业现状》
   summary: 全球电力电子市场CAGR 7.1%至2031年达413亿美元，英飞凌全产品组合遥遥领先，中国5家进入TOP20
@@ -174,3 +195,11 @@ sources:
 
 - **companies**: 9 → 11 家。补入 **时代电气**（ticker=688187，role=国产龙头）与 **斯达半导**（ticker=603290，role=国产龙头）——两者词条页早已存在、正文也写明"中车旗下 IGBT 龙头"与"IGBT 模块#1"，但 `companies` 列表未登记
 - **说明**: 未填 `rev`（无可靠来源，按 L1「不推测原则」留空）
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 11 → 18 家。补入 **Alpha & Omega Semiconductor (AOS)**、**Diodes Incorporated**、**Navitas Semiconductor**、**Power Integrations**、**Silergy (矽力杰)**、**Toshiba Electronic Devices**、**Vishay Intertechnology**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

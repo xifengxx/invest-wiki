@@ -102,6 +102,18 @@ companies:
   role: 间接相关
   note: 电磁屏蔽材料（高速铜缆在机柜内产生强EMI），非铜缆连接器制造商；其AI逻辑实际在液冷
   rev: 15
+- ticker: ''
+  name: JAE(日本航空电子)
+  role: 核心参与者
+- ticker: ''
+  name: Molex (Koch Industries)
+  role: 直接相关
+- ticker: ''
+  name: Rosenberger
+  role: 核心参与者
+- ticker: ''
+  name: Samtec
+  role: 核心参与者
 key_inputs:
 - 铜合金
 - 精密制造
@@ -168,3 +180,11 @@ sources:
 - **competition**: Amphenol 条目补入对方份额(~20%)与"独家供应商"，Molex 补入(~10%, Koch Industries)；立讯条目吸收"进入NVIDIA供应链、消费电子→AI转型"；新增 中航光电；**barriers**: 3 → 4 条（补全信号完整性/精密模具的 detail，并入 AI服务器定制连接器）；**tech_gap**: 1 条（将对方"进入NVIDIA供应链、差距3-5年"并入本方维度）
 - **YAML 修复**: 原 `key_inputs` 与正文分隔符 `---` 同行，已恢复为标准块格式
 - **依据**: 两份档案自 init 起独立演进，本方为维护中的正本；对方含本方缺失的研究内容，按"保留原文+追加"规则合并
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 6 → 10 家。补入 **JAE(日本航空电子)**、**Molex (Koch Industries)**、**Rosenberger**、**Samtec**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

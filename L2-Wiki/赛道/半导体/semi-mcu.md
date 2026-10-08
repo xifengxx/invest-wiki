@@ -100,6 +100,9 @@ companies:
   name: Microchip Technology
   role: 龙头
   rev: 90
+- ticker: ''
+  name: Nuvoton (新唐科技)
+  role: 核心参与者
 sources:
 - title: Yole Group 2025全球车用半导体排名
   summary: 2025年全球车用半导体744亿美元，英飞凌MCU份额36%遥遥领先
@@ -140,3 +143,11 @@ MCU（微控制器）将CPU+内存+闪存+外设集成在单一芯片上——�
 > 置信度: 高
 
 - **wikilinks**: 增强 — wikilinks从0→6条
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 6 → 7 家。补入 **Nuvoton (新唐科技)**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

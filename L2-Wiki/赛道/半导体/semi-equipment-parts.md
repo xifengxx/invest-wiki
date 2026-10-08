@@ -100,6 +100,15 @@ companies:
   name: VAT Group AG
   role: 龙头
   rev: 90
+- ticker: AEIS
+  name: Advanced Energy Industries
+  role: 核心参与者
+- ticker: ''
+  name: Edwards Vacuum
+  role: 直接相关
+- ticker: UCTT
+  name: Ultra Clean Holdings (UCT)
+  role: 核心参与者
 sources:
 - title: 华兴证券 SEMICON China 2026解读
   summary: 成熟制程零部件国产化率>50%，先进制程核心件<10%但供不应求
@@ -141,3 +150,11 @@ sources:
 > 置信度: 高
 
 - **wikilinks**: 增强 — wikilinks从3→9条
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 5 → 8 家。补入 **Advanced Energy Industries**、**Edwards Vacuum**、**Ultra Clean Holdings (UCT)**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

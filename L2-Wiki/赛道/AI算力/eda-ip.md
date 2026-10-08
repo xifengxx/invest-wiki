@@ -107,6 +107,18 @@ companies:
 - ticker: ''
   name: Siemens EDA
   role: 龙头
+- ticker: ''
+  name: Alphawave Semi
+  role: 核心参与者
+- ticker: ''
+  name: Ceva
+  role: 核心参与者
+- ticker: ''
+  name: Imagination
+  role: 核心参与者
+- ticker: ''
+  name: Rambus
+  role: 核心参与者
 key_inputs:
 - 晶圆代工(先进制程)
 - 成熟制程代工
@@ -180,3 +192,11 @@ sources:
 
 - **companies**: 5 → 6 家。补入 **Siemens EDA**（role=龙头）——词条页早已存在、正文也已在"三巨头 CR3>85%"中列出（$2.2-2.5B），`competition.global` 亦有独立条目，但 `companies` 列表只有 Synopsys/Cadence 两家
 - **说明**: 未填 `rev`（无可靠来源，按 L1「不推测原则」留空）；Siemens EDA 为西门子旗下业务，无独立 ticker
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 6 → 10 家。补入 **Alphawave Semi**、**Ceva**、**Imagination**、**Rambus**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

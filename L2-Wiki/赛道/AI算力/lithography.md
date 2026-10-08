@@ -87,6 +87,15 @@ companies:
   role: 国产替代
   note: 未上市，非交易标记键（原为 '-'，会在 companies 字典里生成垃圾键）
   rev: 60
+- ticker: ''
+  name: EV Group
+  role: 核心参与者
+- ticker: ''
+  name: Trumpf (通快)
+  role: 直接相关
+- ticker: ''
+  name: Veeco(Ultratech)
+  role: 核心参与者
 wikilinks:
 - 光掩模版
 - 半导体设备零部件
@@ -179,3 +188,11 @@ sources:
 - **competition**: 补齐 ASML 更具体的财务与出货数据；Nikon/Canon 条目并入对方"EUV已退出竞争""i-line/KrF""Nanoimprint布局"；中国侧 SMEE 条目并入"预计2027年验证"
 - **数据修正**: 原对方档案中 佳能(Canon) ticker 误写为 7731.T（实为尼康），已按 L2-Wiki/公司/canon.md 修正为 7751.T；上海微电子（SMEE，未上市）ticker 由误写的 688012（实为中微公司AMEC）改为 '-'
 - **依据**: 两份档案自 init 起独立演进，本方为维护中的正本；对方含本方缺失的研究内容，按"保留原文+追加"规则合并
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 5 → 8 家。补入 **EV Group**、**Trumpf (通快)**、**Veeco(Ultratech)**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

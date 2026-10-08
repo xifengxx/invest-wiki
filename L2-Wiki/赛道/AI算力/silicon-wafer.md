@@ -139,6 +139,12 @@ companies:
 - ticker: ''
   name: SK Siltron
   role: 龙头
+- ticker: ''
+  name: Wafer Works
+  role: 核心参与者
+- ticker: ''
+  name: 天岳先进
+  role: 核心参与者
 key_inputs:
 - 多晶硅
 - 拉晶炉
@@ -235,3 +241,11 @@ sources:
 
 - **companies**: 11 → 12 家。补入 **SK Siltron**（role=龙头）——词条页早已存在、正文也已列入全球 Top5（第 5 位，9%，$1.4B），但 `companies` 列表只登记了另外四家（信越/SUMCO/Siltronic/环球晶圆）
 - **说明**: 未填 `rev`（无可靠来源，按 L1「不推测原则」留空）；SK Siltron 为 SK Inc. 子公司，未独立上市
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 12 → 14 家。补入 **Wafer Works**、**天岳先进**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

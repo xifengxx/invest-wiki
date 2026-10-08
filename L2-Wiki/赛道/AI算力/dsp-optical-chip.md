@@ -102,6 +102,9 @@ companies:
   name: 长光华芯
   role: 概念股
   rev: 10
+- ticker: CRDO
+  name: Credo Technology Group
+  role: 核心参与者
 wikilinks:
 - 800G/1.6T光模块
 key_customers:
@@ -149,3 +152,11 @@ key_inputs: ["EDA与IP核", "晶圆代工(先进制程)"]---
 > 置信度: 高
 
 - **wikilinks**: 增强 — wikilinks从2→7条
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 9 → 10 家。补入 **Credo Technology Group**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

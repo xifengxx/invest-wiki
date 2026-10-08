@@ -121,6 +121,18 @@ companies:
 - ticker: ''
   name: Air Products
   role: 龙头
+- ticker: ''
+  name: Nippon Sanso (大阳日酸)
+  role: 核心参与者
+- ticker: ''
+  name: Resonac(昭和电工)
+  role: 核心参与者
+- ticker: ''
+  name: 凯美特气
+  role: 核心参与者
+- ticker: ''
+  name: 昊华科技
+  role: 核心参与者
 wikilinks:
 - 晶圆代工(先进制程)
 - 存储芯片(DRAM/NAND)
@@ -211,3 +223,11 @@ sources:
 
 - **companies**: 10 → 11 家。补入 **Air Products**（role=龙头）——该公司的词条页早已存在、本赛道正文也已在"四大巨头"中列出（份额 12-14%），但 `companies` 列表未登记，导致图谱中该公司无入边、赛道详情页「核心标的」看不到它
 - **说明**: 未填 `rev`（无可靠来源，按 L1「不推测原则」留空）
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 11 → 15 家。补入 **Nippon Sanso (大阳日酸)**、**Resonac(昭和电工)**、**凯美特气**、**昊华科技**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

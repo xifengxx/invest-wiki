@@ -111,6 +111,12 @@ companies:
   name: 剑桥科技
   role: 概念股
   rev: 10
+- ticker: CRDO
+  name: Credo Technology Group
+  role: 核心参与者
+- ticker: ''
+  name: 海信宽带
+  role: 直接相关
 key_inputs:
 - DSP与光芯片
 sources:
@@ -172,3 +178,11 @@ sources:
 - **key_trends**: CPO/LPO趋势补充——德勤确认2026年广泛应用，降低30-50%功耗
 - **sources**: +1 德勤2026全球半导体行业趋势报告
 - **依据**: 德勤报告确认CPO/LPO缩短电气路径降低30-50%功耗，AI网络架构支出CAGR 38%
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 8 → 10 家。补入 **Credo Technology Group**、**海信宽带**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

@@ -93,6 +93,12 @@ companies:
   name: Xilinx(AMD)
   role: 龙头
   rev: 85
+- ticker: ''
+  name: Achronix Semiconductor
+  role: 直接相关
+- ticker: ''
+  name: Altera(Intel)
+  role: 核心参与者
 key_inputs:
 - EDA与IP核
 - 晶圆代工(先进制程)
@@ -171,3 +177,11 @@ FPGA是制造后可通过软件**重新配置逻辑电路**的芯片，介于ASI
 - **competition**: global 2 → 3 条。将 Intel(Altera) 从 AMD 条目 note 中拆出为独立条目（share ~28%，Agilex 7nm、独立运营后IPO计划）；AMD 补入 share ~50%、Versal AI Edge、7nm/16nm；Lattice 补入 share ~10% 与 LSCC；china 3 → 3 条（复旦微电补 28nm量产/14nm研发中，安路补 低功耗FPGA，紫光国微并入紫光同创通信FPGA）
 - **barriers**: 3 → 3 条（将对方"可编程逻辑架构设计"并入架构专利条目、"FPGA EDA比ASIC EDA更难"并入配套EDA条目、"7nm需TSMC先进制程"并入出口管制条目）；**tech_gap**: 1 → 2 条（并入 中国FPGA差距5-8年、<16nm完全空白）
 - **依据**: 两份档案自 init 起独立演进，本方为维护中的正本；对方含本方缺失的研究内容，按"保留原文+追加"规则合并
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 6 → 8 家。补入 **Achronix Semiconductor**、**Altera(Intel)**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

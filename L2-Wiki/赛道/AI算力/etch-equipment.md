@@ -91,6 +91,9 @@ companies:
   name: 北方华创
   role: 国产龙头
   rev: 45
+- ticker: ''
+  name: Mattson Technology
+  role: 核心参与者
 wikilinks:
 - 半导体设备零部件
 - 晶圆代工(先进制程)
@@ -178,3 +181,11 @@ sources:
 - **key_inputs**: 1 → 2 条（并入 电子特气）；**key_customers**: 1 → 3 条（并入 成熟制程代工、存储芯片(DRAM/NAND)）
 - **competition**: Lam 条目并入对方"3D NAND高深宽比蚀刻最强、FY2025 +28.4% YoY"；AMAT 条目补入"-1.6%份额被中国蚕食"；中国侧 中微/北方华创 条目并入对方"TSMC 5nm验证""品类最全、PVD+CVD+刻蚀全面开花"
 - **依据**: 两份档案自 init 起独立演进，本方为维护中的正本；对方含本方缺失的研究内容，按"保留原文+追加"规则合并
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 5 → 6 家。补入 **Mattson Technology**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

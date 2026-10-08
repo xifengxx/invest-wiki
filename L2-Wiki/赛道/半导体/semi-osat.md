@@ -109,6 +109,15 @@ companies:
   name: 甬矽电子
   role: 国产替代
   rev: 30
+- ticker: ''
+  name: King Yuan Electronics (京元电子)
+  role: 核心参与者
+- ticker: ''
+  name: 力成 (PTI)
+  role: 核心参与者
+- ticker: 8150.TW
+  name: 南茂科技 (ChipMOS Technologies)
+  role: 核心参与者
 sources:
 - title: 芯思想研究院 2025全球OSAT排名
   summary: 日月光26%/安靠14%/长电科技12.2%三分天下，先进封装占比均超45%
@@ -150,3 +159,11 @@ sources:
 - **key_trends**: +1条 "传统OSAT模式面临商品化风险——共设计芯片组减少独立封测需求"
 - **sources**: +1 德勤2026全球半导体行业趋势报告
 - **依据**: 德勤v1.1——OSAT传统模式面临商品化风险，共设计芯片组趋势使封测环节向设计+代工端整合
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 5 → 8 家。补入 **King Yuan Electronics (京元电子)**、**力成 (PTI)**、**南茂科技 (ChipMOS Technologies)**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

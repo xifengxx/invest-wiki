@@ -120,6 +120,21 @@ companies:
   name: GlobalFoundries
   role: 全球二线
   rev: 45
+- ticker: 000990.KS
+  name: DB HiTek
+  role: 核心参与者
+- ticker: TSEM
+  name: Tower Semiconductor (TowerJazz)
+  role: 核心参与者
+- ticker: ''
+  name: WIN Semiconductors (稳懋)
+  role: 核心参与者
+- ticker: XFAB.PA
+  name: X-FAB Silicon Foundries
+  role: 核心参与者
+- ticker: 5347.TWO
+  name: 世界先进 (VIS)
+  role: 核心参与者
 sources:
 - title: 头豹研究院《2026年中国晶圆代工行业概览》
   summary: 成熟制程国产替代进入决胜阶段，28nm及以上节点国产化率超50%
@@ -151,3 +166,11 @@ sources:
 ## 关联
 
 （待补充）
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 5 → 10 家。补入 **DB HiTek**、**Tower Semiconductor (TowerJazz)**、**WIN Semiconductors (稳懋)**、**X-FAB Silicon Foundries**、**世界先进 (VIS)**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）

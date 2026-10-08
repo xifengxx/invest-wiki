@@ -6,10 +6,10 @@
     "source_segments": 67,
     "canonical_segments": 67,
     "merged_exact_duplicate_records": 0,
-    "source_company_links": 521,
-    "unique_companies": 344,
-    "overseas_quote_candidates": 188,
-    "a_share_mapping_companies": 97,
+    "source_company_links": 577,
+    "unique_companies": 353,
+    "overseas_quote_candidates": 196,
+    "a_share_mapping_companies": 98,
     "private_or_untradable": 59
   },
   "segments": [
@@ -125,6 +125,20 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "CRDO",
+          "source_tickers": [
+            "CRDO"
+          ],
+          "name": "Credo Technology Group",
+          "roles": [
+            "核心参与者"
+          ],
+          "rev": null,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "SP",
           "source_tickers": [
             "SP"
@@ -139,9 +153,9 @@
           "in_overseas_heat": false
         }
       ],
-      "n_source_companies": 8,
-      "n_unique_companies": 8,
-      "n_overseas_candidates": 1,
+      "n_source_companies": 10,
+      "n_unique_companies": 9,
+      "n_overseas_candidates": 2,
       "n_a_share_mapping": 6,
       "a_share": [
         {
@@ -1736,7 +1750,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 6,
+      "n_source_companies": 9,
       "n_unique_companies": 6,
       "n_overseas_candidates": 4,
       "n_a_share_mapping": 2,
@@ -2123,6 +2137,20 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "CRDO",
+          "source_tickers": [
+            "CRDO"
+          ],
+          "name": "Credo Technology Group",
+          "roles": [
+            "核心参与者"
+          ],
+          "rev": null,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "LITE",
           "source_tickers": [
             "LITE"
@@ -2179,9 +2207,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 9,
-      "n_unique_companies": 9,
-      "n_overseas_candidates": 6,
+      "n_source_companies": 10,
+      "n_unique_companies": 10,
+      "n_overseas_candidates": 7,
       "n_a_share_mapping": 3,
       "a_share": [
         {
@@ -2286,7 +2314,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 6,
+      "n_source_companies": 10,
       "n_unique_companies": 5,
       "n_overseas_candidates": 3,
       "n_a_share_mapping": 2,
@@ -2402,7 +2430,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 6,
+      "n_source_companies": 8,
       "n_unique_companies": 6,
       "n_overseas_candidates": 4,
       "n_a_share_mapping": 2,
@@ -2874,7 +2902,7 @@
           "in_overseas_heat": false
         }
       ],
-      "n_source_companies": 6,
+      "n_source_companies": 7,
       "n_unique_companies": 6,
       "n_overseas_candidates": 5,
       "n_a_share_mapping": 0,
@@ -2978,6 +3006,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "300476",
+          "source_tickers": [
+            "300476"
+          ],
+          "name": "胜宏科技",
+          "roles": [
+            "直接相关"
+          ],
+          "rev": null,
+          "market_guess": "CN",
+          "tradable": true,
+          "in_overseas_heat": false
+        },
+        {
           "ticker": "6971.T",
           "source_tickers": [
             "6971"
@@ -3034,10 +3076,10 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 10,
-      "n_unique_companies": 10,
+      "n_source_companies": 11,
+      "n_unique_companies": 11,
       "n_overseas_candidates": 5,
-      "n_a_share_mapping": 5,
+      "n_a_share_mapping": 6,
       "a_share": [
         {
           "name": "东山精密",
@@ -3063,6 +3105,11 @@
           "name": "Simmtech",
           "ticker": "222800",
           "role": "二线弹性"
+        },
+        {
+          "name": "胜宏科技",
+          "ticker": "300476",
+          "role": "直接相关"
         }
       ]
     },
@@ -3137,7 +3184,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 7,
+      "n_source_companies": 8,
       "n_unique_companies": 4,
       "n_overseas_candidates": 1,
       "n_a_share_mapping": 3,
@@ -3661,7 +3708,7 @@
           "in_overseas_heat": false
         }
       ],
-      "n_source_companies": 5,
+      "n_source_companies": 8,
       "n_unique_companies": 5,
       "n_overseas_candidates": 4,
       "n_a_share_mapping": 0,
@@ -3836,7 +3883,7 @@
           "in_overseas_heat": false
         }
       ],
-      "n_source_companies": 11,
+      "n_source_companies": 13,
       "n_unique_companies": 11,
       "n_overseas_candidates": 5,
       "n_a_share_mapping": 5,
@@ -3953,7 +4000,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 5,
+      "n_source_companies": 6,
       "n_unique_companies": 5,
       "n_overseas_candidates": 3,
       "n_a_share_mapping": 2,
@@ -4215,7 +4262,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 7,
+      "n_source_companies": 9,
       "n_unique_companies": 7,
       "n_overseas_candidates": 5,
       "n_a_share_mapping": 2,
@@ -5190,7 +5237,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 9,
+      "n_source_companies": 11,
       "n_unique_companies": 8,
       "n_overseas_candidates": 4,
       "n_a_share_mapping": 4,
@@ -5372,7 +5419,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 11,
+      "n_source_companies": 15,
       "n_unique_companies": 10,
       "n_overseas_candidates": 4,
       "n_a_share_mapping": 6,
@@ -5479,6 +5526,20 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "CRDO",
+          "source_tickers": [
+            "CRDO"
+          ],
+          "name": "Credo Technology Group",
+          "roles": [
+            "核心参与者"
+          ],
+          "rev": null,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "CSCO",
           "source_tickers": [
             "CSCO"
@@ -5563,9 +5624,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 10,
-      "n_unique_companies": 10,
-      "n_overseas_candidates": 8,
+      "n_source_companies": 11,
+      "n_unique_companies": 11,
+      "n_overseas_candidates": 9,
       "n_a_share_mapping": 1,
       "a_share": [
         {
@@ -6070,7 +6131,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 10,
+      "n_source_companies": 11,
       "n_unique_companies": 10,
       "n_overseas_candidates": 7,
       "n_a_share_mapping": 3,
@@ -6524,7 +6585,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 12,
+      "n_source_companies": 14,
       "n_unique_companies": 11,
       "n_overseas_candidates": 6,
       "n_a_share_mapping": 5,
@@ -6655,7 +6716,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 6,
+      "n_source_companies": 10,
       "n_unique_companies": 6,
       "n_overseas_candidates": 3,
       "n_a_share_mapping": 3,
@@ -7253,7 +7314,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 6,
+      "n_source_companies": 7,
       "n_unique_companies": 6,
       "n_overseas_candidates": 6,
       "n_a_share_mapping": 0,
@@ -7802,7 +7863,7 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 11,
+      "n_source_companies": 18,
       "n_unique_companies": 11,
       "n_overseas_candidates": 6,
       "n_a_share_mapping": 5,
@@ -7890,6 +7951,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "AEIS",
+          "source_tickers": [
+            "AEIS"
+          ],
+          "name": "Advanced Energy Industries",
+          "roles": [
+            "核心参与者"
+          ],
+          "rev": null,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "MKSI",
           "source_tickers": [
             "MKSI"
@@ -7899,6 +7974,20 @@
             "龙头"
           ],
           "rev": 85.0,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "UCTT",
+          "source_tickers": [
+            "UCTT"
+          ],
+          "name": "Ultra Clean Holdings (UCT)",
+          "roles": [
+            "核心参与者"
+          ],
+          "rev": null,
           "market_guess": "US_LIKE",
           "tradable": true,
           "in_overseas_heat": true
@@ -7918,9 +8007,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 5,
-      "n_unique_companies": 5,
-      "n_overseas_candidates": 2,
+      "n_source_companies": 8,
+      "n_unique_companies": 7,
+      "n_overseas_candidates": 4,
       "n_a_share_mapping": 3,
       "a_share": [
         {
@@ -8324,6 +8413,20 @@
           "in_overseas_heat": false
         },
         {
+          "ticker": "8150.TW",
+          "source_tickers": [
+            "8150.TW"
+          ],
+          "name": "南茂科技 (ChipMOS Technologies)",
+          "roles": [
+            "核心参与者"
+          ],
+          "rev": null,
+          "market_guess": "TW",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "AMKR",
           "source_tickers": [
             "AMKR"
@@ -8338,9 +8441,9 @@
           "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 5,
-      "n_unique_companies": 5,
-      "n_overseas_candidates": 2,
+      "n_source_companies": 8,
+      "n_unique_companies": 6,
+      "n_overseas_candidates": 3,
       "n_a_share_mapping": 3,
       "a_share": [
         {
@@ -8532,6 +8635,20 @@
       "chain_note": "成熟制程（28nm及以上节点）代工服务于汽车电子、工业MCU、IoT、消费电子等**非前沿应用**——虽然单价低（$2-5K/wafer vs 先进$20K+）但体量巨大，占全球晶圆代工产能的70%+。|**全球成熟制程产能集中在台湾（UMC、力积电）+中国大陆（SMIC、华虹）+美国（GlobalFoundries）**。中国成熟制程产能2027年目标翻倍，全球份额从15%→25%+。|**美国CHIPS Act+中国大基金三期推动成熟制程全球产能分散化**——从台湾向美国、中国、欧洲、日本分流。成熟制程ASP面临下行压力但汽车/IoT/工业需求稳定增长。",
       "companies": [
         {
+          "ticker": "000990.KS",
+          "source_tickers": [
+            "000990.KS"
+          ],
+          "name": "DB HiTek",
+          "roles": [
+            "核心参与者"
+          ],
+          "rev": null,
+          "market_guess": "KR",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "1347.HK",
           "source_tickers": [
             "1347.HK"
@@ -8542,6 +8659,20 @@
           ],
           "rev": 60.0,
           "market_guess": "HK",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
+          "ticker": "5347.TWO",
+          "source_tickers": [
+            "5347.TWO"
+          ],
+          "name": "世界先进 (VIS)",
+          "roles": [
+            "核心参与者"
+          ],
+          "rev": null,
+          "market_guess": "TW",
           "tradable": true,
           "in_overseas_heat": true
         },
@@ -8574,6 +8705,20 @@
           "in_overseas_heat": true
         },
         {
+          "ticker": "TSEM",
+          "source_tickers": [
+            "TSEM"
+          ],
+          "name": "Tower Semiconductor (TowerJazz)",
+          "roles": [
+            "核心参与者"
+          ],
+          "rev": null,
+          "market_guess": "US_LIKE",
+          "tradable": true,
+          "in_overseas_heat": true
+        },
+        {
           "ticker": "TSM",
           "source_tickers": [
             "TSM"
@@ -8600,11 +8745,25 @@
           "market_guess": "US_LIKE",
           "tradable": true,
           "in_overseas_heat": true
+        },
+        {
+          "ticker": "XFAB.PA",
+          "source_tickers": [
+            "XFAB.PA"
+          ],
+          "name": "X-FAB Silicon Foundries",
+          "roles": [
+            "核心参与者"
+          ],
+          "rev": null,
+          "market_guess": "FR",
+          "tradable": true,
+          "in_overseas_heat": true
         }
       ],
-      "n_source_companies": 5,
-      "n_unique_companies": 5,
-      "n_overseas_candidates": 4,
+      "n_source_companies": 10,
+      "n_unique_companies": 9,
+      "n_overseas_candidates": 8,
       "n_a_share_mapping": 1,
       "a_share": [
         {
@@ -9191,6 +9350,15 @@
         "optical-transceiver"
       ]
     },
+    "000990.KS": {
+      "ticker": "000990.KS",
+      "name": "DB HiTek",
+      "market_guess": "KR",
+      "tradable": true,
+      "segments": [
+        "semi-foundry-mature"
+      ]
+    },
     "00100.HK": {
       "ticker": "00100.HK",
       "name": "MiniMax",
@@ -9692,6 +9860,15 @@
         "gpu-architecture"
       ]
     },
+    "300476": {
+      "ticker": "300476",
+      "name": "胜宏科技",
+      "market_guess": "CN",
+      "tradable": true,
+      "segments": [
+        "pcb-ic-substrate"
+      ]
+    },
     "300499": {
       "ticker": "300499",
       "name": "高澜股份",
@@ -9917,6 +10094,15 @@
       "tradable": true,
       "segments": [
         "semi-cmp-materials"
+      ]
+    },
+    "5347.TWO": {
+      "ticker": "5347.TWO",
+      "name": "世界先进 (VIS)",
+      "market_guess": "TW",
+      "tradable": true,
+      "segments": [
+        "semi-foundry-mature"
       ]
     },
     "5384.T": {
@@ -10594,6 +10780,15 @@
         "pcb-ic-substrate"
       ]
     },
+    "8150.TW": {
+      "ticker": "8150.TW",
+      "name": "南茂科技 (ChipMOS Technologies)",
+      "market_guess": "TW",
+      "tradable": true,
+      "segments": [
+        "semi-osat"
+      ]
+    },
     "8299.TW": {
       "ticker": "8299.TW",
       "name": "Phison (群联)",
@@ -10676,6 +10871,15 @@
       "tradable": true,
       "segments": [
         "semi-analog-ic"
+      ]
+    },
+    "AEIS": {
+      "ticker": "AEIS",
+      "name": "Advanced Energy Industries",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "semi-equipment-parts"
       ]
     },
     "AFX.DE": {
@@ -10997,6 +11201,17 @@
       "tradable": false,
       "segments": [
         "liquid-cooling"
+      ]
+    },
+    "CRDO": {
+      "ticker": "CRDO",
+      "name": "Credo Technology Group",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "dsp-optical-chip",
+        "optical-transceiver",
+        "switch-chip"
       ]
     },
     "CRM": {
@@ -12207,6 +12422,15 @@
         "semi-test-equipment"
       ]
     },
+    "TSEM": {
+      "ticker": "TSEM",
+      "name": "Tower Semiconductor (TowerJazz)",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "semi-foundry-mature"
+      ]
+    },
     "TSLA": {
       "ticker": "TSLA",
       "name": "Tesla",
@@ -12258,6 +12482,15 @@
       "segments": [
         "semi-analog-ic",
         "semi-mcu"
+      ]
+    },
+    "UCTT": {
+      "ticker": "UCTT",
+      "name": "Ultra Clean Holdings (UCT)",
+      "market_guess": "US_LIKE",
+      "tradable": true,
+      "segments": [
+        "semi-equipment-parts"
       ]
     },
     "UMC": {
@@ -12352,6 +12585,15 @@
         "ai-inference-api"
       ]
     },
+    "XFAB.PA": {
+      "ticker": "XFAB.PA",
+      "name": "X-FAB Silicon Foundries",
+      "market_guess": "FR",
+      "tradable": true,
+      "segments": [
+        "semi-foundry-mature"
+      ]
+    },
     "XLNX": {
       "ticker": "XLNX",
       "name": "Xilinx(AMD)",
@@ -12399,12 +12641,12 @@
       ]
     }
   },
-  "version": "2026-10-08.1",
+  "version": "2026-10-08.3",
   "logic_version": "canonical-segments-v2",
-  "built_at": "2026-10-08T21:55:32+08:00",
-  "source_generated_at": "2026-10-08T21:55:32+08:00",
-  "source_sha256": "354b82821583540ace526f81421a2f1d25f2a9525b6612754364fd8c21b9a57a",
-  "source_hash8": "354b8282",
-  "source_commit": "f6907ac0dba4f71a5398a64a47b0e17b0c453321",
+  "built_at": "2026-10-08T22:18:10+08:00",
+  "source_generated_at": "2026-10-08T22:18:10+08:00",
+  "source_sha256": "ae4e77c948de0109835ffac10107450ec678c6a33f7bb128fbc8a1006098a600",
+  "source_hash8": "ae4e77c9",
+  "source_commit": "db474e43154171d6407e13d26a0d61a132f0fb76",
   "source_dirty": true
 }

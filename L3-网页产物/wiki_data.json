@@ -1986,6 +1986,11 @@
           "name": "Microchip Technology",
           "role": "龙头",
           "rev": 90
+        },
+        {
+          "ticker": "",
+          "name": "Nuvoton (新唐科技)",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -2602,6 +2607,21 @@
           "name": "VAT Group AG",
           "role": "龙头",
           "rev": 90
+        },
+        {
+          "ticker": "AEIS",
+          "name": "Advanced Energy Industries",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "Edwards Vacuum",
+          "role": "直接相关"
+        },
+        {
+          "ticker": "UCTT",
+          "name": "Ultra Clean Holdings (UCT)",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -2924,6 +2944,21 @@
           "name": "甬矽电子",
           "role": "国产替代",
           "rev": 30
+        },
+        {
+          "ticker": "",
+          "name": "King Yuan Electronics (京元电子)",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "力成 (PTI)",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "8150.TW",
+          "name": "南茂科技 (ChipMOS Technologies)",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -4732,6 +4767,41 @@
           "ticker": "688187",
           "name": "时代电气",
           "role": "国产龙头"
+        },
+        {
+          "ticker": "",
+          "name": "Alpha & Omega Semiconductor (AOS)",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "Diodes Incorporated",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "Navitas Semiconductor",
+          "role": "直接相关"
+        },
+        {
+          "ticker": "",
+          "name": "Power Integrations",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "Silergy (矽力杰)",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "Toshiba Electronic Devices",
+          "role": "直接相关"
+        },
+        {
+          "ticker": "",
+          "name": "Vishay Intertechnology",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -5518,6 +5588,31 @@
           "name": "GlobalFoundries",
           "role": "全球二线",
           "rev": 45
+        },
+        {
+          "ticker": "000990.KS",
+          "name": "DB HiTek",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "TSEM",
+          "name": "Tower Semiconductor (TowerJazz)",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "WIN Semiconductors (稳懋)",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "XFAB.PA",
+          "name": "X-FAB Silicon Foundries",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "5347.TWO",
+          "name": "世界先进 (VIS)",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -6734,6 +6829,26 @@
           "ticker": "",
           "name": "Air Products",
           "role": "龙头"
+        },
+        {
+          "ticker": "",
+          "name": "Nippon Sanso (大阳日酸)",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "Resonac(昭和电工)",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "凯美特气",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "昊华科技",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -6957,6 +7072,11 @@
           "name": "东山精密",
           "role": "二线弹性",
           "rev": 15
+        },
+        {
+          "ticker": "300476",
+          "name": "胜宏科技",
+          "role": "直接相关"
         }
       ],
       "contradictions": [],
@@ -8557,6 +8677,21 @@
           "name": "寒武纪",
           "role": "概念相关",
           "rev": 10
+        },
+        {
+          "ticker": "",
+          "name": "Ampere Computing",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "海光信息",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "飞腾信息",
+          "role": "直接相关"
         }
       ],
       "contradictions": [],
@@ -8822,6 +8957,16 @@
           "ticker": "",
           "name": "SK Siltron",
           "role": "龙头"
+        },
+        {
+          "ticker": "",
+          "name": "Wafer Works",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "天岳先进",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -9277,6 +9422,16 @@
           "ticker": "",
           "name": "Plansee",
           "role": "二线弹性"
+        },
+        {
+          "ticker": "",
+          "name": "TANAKA",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "阿石创",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -9529,6 +9684,11 @@
           "name": "ASM International",
           "role": "龙头",
           "rev": 30
+        },
+        {
+          "ticker": "",
+          "name": "晶盛机电",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -10328,6 +10488,16 @@
           "name": "DuPont",
           "role": "龙头",
           "rev": 85
+        },
+        {
+          "ticker": "",
+          "name": "Dongjin Semichem",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "艾森股份",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -12011,6 +12181,26 @@
           "ticker": "",
           "name": "Siemens EDA",
           "role": "龙头"
+        },
+        {
+          "ticker": "",
+          "name": "Alphawave Semi",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "Ceva",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "Imagination",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "Rambus",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -12410,6 +12600,11 @@
           "name": "Seagate",
           "role": "二线弹性",
           "rev": 10
+        },
+        {
+          "ticker": "",
+          "name": "Silicon Motion (慧荣)",
+          "role": "直接相关"
         }
       ],
       "contradictions": [],
@@ -13281,6 +13476,16 @@
           "name": "剑桥科技",
           "role": "概念股",
           "rev": 10
+        },
+        {
+          "ticker": "CRDO",
+          "name": "Credo Technology Group",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "海信宽带",
+          "role": "直接相关"
         }
       ],
       "contradictions": [],
@@ -13721,6 +13926,16 @@
           "name": "兴森科技",
           "role": "国产二线",
           "rev": 50
+        },
+        {
+          "ticker": "",
+          "name": "景硕科技",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "福莱新材",
+          "role": "直接相关"
         }
       ],
       "contradictions": [
@@ -13931,6 +14146,11 @@
           "name": "Astera Labs",
           "role": "龙头",
           "rev": 90
+        },
+        {
+          "ticker": "CRDO",
+          "name": "Credo Technology Group",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -14125,6 +14345,11 @@
           "name": "长光华芯",
           "role": "概念股",
           "rev": 10
+        },
+        {
+          "ticker": "CRDO",
+          "name": "Credo Technology Group",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -14318,6 +14543,26 @@
           "role": "间接相关",
           "note": "电磁屏蔽材料（高速铜缆在机柜内产生强EMI），非铜缆连接器制造商；其AI逻辑实际在液冷",
           "rev": 15
+        },
+        {
+          "ticker": "",
+          "name": "JAE(日本航空电子)",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "Molex (Koch Industries)",
+          "role": "直接相关"
+        },
+        {
+          "ticker": "",
+          "name": "Rosenberger",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "Samtec",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -14516,6 +14761,16 @@
           "name": "Xilinx(AMD)",
           "role": "龙头",
           "rev": 85
+        },
+        {
+          "ticker": "",
+          "name": "Achronix Semiconductor",
+          "role": "直接相关"
+        },
+        {
+          "ticker": "",
+          "name": "Altera(Intel)",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -14877,6 +15132,11 @@
           "name": "北方华创",
           "role": "国产龙头",
           "rev": 45
+        },
+        {
+          "ticker": "",
+          "name": "Mattson Technology",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -15103,6 +15363,11 @@
           "ticker": "",
           "name": "SiFive",
           "role": "龙头"
+        },
+        {
+          "ticker": "",
+          "name": "Ventana Micro Systems",
+          "role": "直接相关"
         }
       ],
       "contradictions": [],
@@ -15308,6 +15573,21 @@
           "role": "国产替代",
           "note": "未上市，非交易标记键（原为 '-'，会在 companies 字典里生成垃圾键）",
           "rev": 60
+        },
+        {
+          "ticker": "",
+          "name": "EV Group",
+          "role": "核心参与者"
+        },
+        {
+          "ticker": "",
+          "name": "Trumpf (通快)",
+          "role": "直接相关"
+        },
+        {
+          "ticker": "",
+          "name": "Veeco(Ultratech)",
+          "role": "核心参与者"
         }
       ],
       "contradictions": [],
@@ -56137,6 +56417,10 @@
         "target": "Microchip Technology"
       },
       {
+        "source": "MCU与嵌入式处理器",
+        "target": "Nuvoton (新唐科技)"
+      },
+      {
         "source": "CIS图像传感器",
         "target": "Sony Semiconductor"
       },
@@ -56209,6 +56493,18 @@
         "target": "VAT Group AG"
       },
       {
+        "source": "半导体设备零部件",
+        "target": "Advanced Energy Industries"
+      },
+      {
+        "source": "半导体设备零部件",
+        "target": "Edwards Vacuum"
+      },
+      {
+        "source": "半导体设备零部件",
+        "target": "Ultra Clean Holdings (UCT)"
+      },
+      {
         "source": "涂胶显影设备(Track)",
         "target": "Tokyo Electron"
       },
@@ -56239,6 +56535,18 @@
       {
         "source": "封装测试(OSAT)",
         "target": "甬矽电子"
+      },
+      {
+        "source": "封装测试(OSAT)",
+        "target": "King Yuan Electronics (京元电子)"
+      },
+      {
+        "source": "封装测试(OSAT)",
+        "target": "力成 (PTI)"
+      },
+      {
+        "source": "封装测试(OSAT)",
+        "target": "南茂科技 (ChipMOS Technologies)"
       },
       {
         "source": "CMP抛光液与抛光垫",
@@ -56489,6 +56797,34 @@
         "target": "时代电气"
       },
       {
+        "source": "功率半导体",
+        "target": "Alpha & Omega Semiconductor (AOS)"
+      },
+      {
+        "source": "功率半导体",
+        "target": "Diodes Incorporated"
+      },
+      {
+        "source": "功率半导体",
+        "target": "Navitas Semiconductor"
+      },
+      {
+        "source": "功率半导体",
+        "target": "Power Integrations"
+      },
+      {
+        "source": "功率半导体",
+        "target": "Silergy (矽力杰)"
+      },
+      {
+        "source": "功率半导体",
+        "target": "Toshiba Electronic Devices"
+      },
+      {
+        "source": "功率半导体",
+        "target": "Vishay Intertechnology"
+      },
+      {
         "source": "IC设计服务(Fabless)",
         "target": "Qualcomm"
       },
@@ -56599,6 +56935,26 @@
       {
         "source": "成熟制程代工",
         "target": "GlobalFoundries"
+      },
+      {
+        "source": "成熟制程代工",
+        "target": "DB HiTek"
+      },
+      {
+        "source": "成熟制程代工",
+        "target": "Tower Semiconductor (TowerJazz)"
+      },
+      {
+        "source": "成熟制程代工",
+        "target": "WIN Semiconductors (稳懋)"
+      },
+      {
+        "source": "成熟制程代工",
+        "target": "X-FAB Silicon Foundries"
+      },
+      {
+        "source": "成熟制程代工",
+        "target": "世界先进 (VIS)"
       },
       {
         "source": "AI芯片设计(Fabless)",
@@ -56805,6 +57161,22 @@
         "target": "Air Products"
       },
       {
+        "source": "电子特气",
+        "target": "Nippon Sanso (大阳日酸)"
+      },
+      {
+        "source": "电子特气",
+        "target": "Resonac(昭和电工)"
+      },
+      {
+        "source": "电子特气",
+        "target": "凯美特气"
+      },
+      {
+        "source": "电子特气",
+        "target": "昊华科技"
+      },
+      {
         "source": "PCB与IC载板",
         "target": "沪电股份"
       },
@@ -56843,6 +57215,10 @@
       {
         "source": "PCB与IC载板",
         "target": "东山精密"
+      },
+      {
+        "source": "PCB与IC载板",
+        "target": "胜宏科技"
       },
       {
         "source": "DPU/SmartNIC",
@@ -57133,6 +57509,18 @@
         "target": "寒武纪"
       },
       {
+        "source": "CPU(服务器级)",
+        "target": "Ampere Computing"
+      },
+      {
+        "source": "CPU(服务器级)",
+        "target": "海光信息"
+      },
+      {
+        "source": "CPU(服务器级)",
+        "target": "飞腾信息"
+      },
+      {
         "source": "高纯硅料与硅片",
         "target": "信越化学 (Shin-Etsu Chemical)"
       },
@@ -57179,6 +57567,14 @@
       {
         "source": "高纯硅料与硅片",
         "target": "SK Siltron"
+      },
+      {
+        "source": "高纯硅料与硅片",
+        "target": "Wafer Works"
+      },
+      {
+        "source": "高纯硅料与硅片",
+        "target": "天岳先进"
       },
       {
         "source": "数据中心IDC",
@@ -57277,6 +57673,14 @@
         "target": "Plansee"
       },
       {
+        "source": "溅射靶材",
+        "target": "TANAKA"
+      },
+      {
+        "source": "溅射靶材",
+        "target": "阿石创"
+      },
+      {
         "source": "薄膜沉积设备",
         "target": "拓荆科技"
       },
@@ -57315,6 +57719,10 @@
       {
         "source": "薄膜沉积设备",
         "target": "ASM International"
+      },
+      {
+        "source": "薄膜沉积设备",
+        "target": "晶盛机电"
       },
       {
         "source": "GPU",
@@ -57439,6 +57847,14 @@
       {
         "source": "光刻胶与湿化学品",
         "target": "DuPont"
+      },
+      {
+        "source": "光刻胶与湿化学品",
+        "target": "Dongjin Semichem"
+      },
+      {
+        "source": "光刻胶与湿化学品",
+        "target": "艾森股份"
       },
       {
         "source": "AI训练集群/超算",
@@ -57685,6 +58101,22 @@
         "target": "Siemens EDA"
       },
       {
+        "source": "EDA与IP核",
+        "target": "Alphawave Semi"
+      },
+      {
+        "source": "EDA与IP核",
+        "target": "Ceva"
+      },
+      {
+        "source": "EDA与IP核",
+        "target": "Imagination"
+      },
+      {
+        "source": "EDA与IP核",
+        "target": "Rambus"
+      },
+      {
         "source": "先进封装CoWoS",
         "target": "TSMC(台积电)"
       },
@@ -57747,6 +58179,10 @@
       {
         "source": "NVMe/存储芯片",
         "target": "Seagate"
+      },
+      {
+        "source": "NVMe/存储芯片",
+        "target": "Silicon Motion (慧荣)"
       },
       {
         "source": "AI推理API服务",
@@ -57921,6 +58357,14 @@
         "target": "剑桥科技"
       },
       {
+        "source": "800G/1.6T光模块",
+        "target": "Credo Technology Group"
+      },
+      {
+        "source": "800G/1.6T光模块",
+        "target": "海信宽带"
+      },
+      {
         "source": "服务器电源与UPS",
         "target": "Vertiv Holdings"
       },
@@ -57981,6 +58425,14 @@
         "target": "兴森科技"
       },
       {
+        "source": "封装基板材料",
+        "target": "景硕科技"
+      },
+      {
+        "source": "封装基板材料",
+        "target": "福莱新材"
+      },
+      {
         "source": "网络交换芯片",
         "target": "Broadcom"
       },
@@ -58021,6 +58473,10 @@
         "target": "Astera Labs"
       },
       {
+        "source": "网络交换芯片",
+        "target": "Credo Technology Group"
+      },
+      {
         "source": "DSP与光芯片",
         "target": "Broadcom"
       },
@@ -58057,6 +58513,10 @@
         "target": "长光华芯"
       },
       {
+        "source": "DSP与光芯片",
+        "target": "Credo Technology Group"
+      },
+      {
         "source": "高速连接器与铜缆",
         "target": "Broadcom"
       },
@@ -58081,6 +58541,22 @@
         "target": "飞荣达"
       },
       {
+        "source": "高速连接器与铜缆",
+        "target": "JAE(日本航空电子)"
+      },
+      {
+        "source": "高速连接器与铜缆",
+        "target": "Molex (Koch Industries)"
+      },
+      {
+        "source": "高速连接器与铜缆",
+        "target": "Rosenberger"
+      },
+      {
+        "source": "高速连接器与铜缆",
+        "target": "Samtec"
+      },
+      {
         "source": "FPGA",
         "target": "复旦微电"
       },
@@ -58103,6 +58579,14 @@
       {
         "source": "FPGA",
         "target": "Xilinx(AMD)"
+      },
+      {
+        "source": "FPGA",
+        "target": "Achronix Semiconductor"
+      },
+      {
+        "source": "FPGA",
+        "target": "Altera(Intel)"
       },
       {
         "source": "企业级存储",
@@ -58141,6 +58625,10 @@
         "target": "北方华创"
       },
       {
+        "source": "刻蚀设备",
+        "target": "Mattson Technology"
+      },
+      {
         "source": "RISC-V AI芯片",
         "target": "芯原股份"
       },
@@ -58169,6 +58657,10 @@
         "target": "SiFive"
       },
       {
+        "source": "RISC-V AI芯片",
+        "target": "Ventana Micro Systems"
+      },
+      {
         "source": "光刻机",
         "target": "ASML"
       },
@@ -58187,6 +58679,18 @@
       {
         "source": "光刻机",
         "target": "SMEE(上海微电子)"
+      },
+      {
+        "source": "光刻机",
+        "target": "EV Group"
+      },
+      {
+        "source": "光刻机",
+        "target": "Trumpf (通快)"
+      },
+      {
+        "source": "光刻机",
+        "target": "Veeco(Ultratech)"
       }
     ]
   },

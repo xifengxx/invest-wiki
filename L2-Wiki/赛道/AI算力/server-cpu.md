@@ -102,6 +102,15 @@ companies:
   name: 寒武纪
   role: 概念相关
   rev: 10
+- ticker: ''
+  name: Ampere Computing
+  role: 核心参与者
+- ticker: ''
+  name: 海光信息
+  role: 核心参与者
+- ticker: ''
+  name: 飞腾信息
+  role: 直接相关
 key_inputs:
 - 晶圆代工(先进制程)
 - 存储芯片(DRAM/NAND)
@@ -186,3 +195,11 @@ sources:
 - **key_inputs**: 2 → 4 条（并入 高纯硅料与硅片、先进封装(CoWoS/3D)）；**key_customers**: 新增（AI服务器、数据中心IDC）
 - **competition**: 补齐 AMD EPYC 独立条目（share ~41%），Intel 条目并入更具体的制程与涨价信息，ARM 阵营拆为 Graviton / NVIDIA Grace / Ampere 三条
 - **依据**: 两份档案自 init 起独立演进，本方为维护中的正本；对方含本方缺失的研究内容，按"保留原文+追加"规则合并
+
+### 更新 2026-10-08（补齐孤儿公司赛道归属）
+> 来源: 数据质量复核（孤儿公司检测）
+> 置信度: 高
+
+- **companies**: 6 → 9 家。补入 **Ampere Computing**、**海光信息**、**飞腾信息**
+- **原因**: 这些公司的词条页早已存在、并声明本赛道为 `segments`，但 `companies` 列表未反向登记——后果是图谱中无入边、本赛道「核心标的」看不到它们、backlink 恒为 0
+- **说明**: `role` 取公司页自身的 `chain_role`（未自创标签）；**未填 `rev`**（无可靠来源，按 L1「不推测原则」留空）
