@@ -33,6 +33,8 @@ from engine.graph import GraphBuilder         # noqa: E402
 
 sys.path.insert(0, str(ROOT / 'L3-网页产物'))
 from build_chain_universe import market_guess, normalize_ticker  # noqa: E402
+# 龙头级判定复用 list_deepening_targets 的同名函数，避免双份实现漂移
+from list_deepening_targets import is_leader  # noqa: E402
 
 WIKI_DIR = ROOT / 'L2-Wiki'
 L3_DIR = ROOT / 'L3-网页产物'
@@ -499,12 +501,31 @@ def _read_entry(p):
         return None, ''
 
 
+def _leader_names():
+    """龙头级公司名集合：赛道 companies[].role 含龙头/第一/主导，或以下会补公司自身 chain_role。
+
+    判定复用 list_deepening_targets.is_leader，与待深化清单同源。
+    """
+    out = set()
+    for p in (WIKI_DIR / '赛道').glob('*/*.md'):
+        fm, _ = _read_entry(p)
+        if not fm:
+            continue
+        for c in (fm.get('companies') or []):
+            if isinstance(c, dict) and is_leader(c.get('role')):
+                out.add(c.get('name'))
+    return out
+
+
 def check_content_depth():
     """按 docs/内容完整度标准.md 统计各类型的内容达标率。全部为告警，不阻塞。
 
     存在意义：内容深度是长期唯一无人检查的维度，因此也是唯一持续漂移的维度。
     2026-10-08 之前没有任何一处写下「写多少才算完整」，导致「169 家薄档」这种
     数字既无法判断是缺陷还是常态。本项把标准变成可检验的数字。
+
+    公司达标率**必须分重要性两层报**：只报总体会给出误导性的低数字——同一个库
+    按条目数是 53%，按龙头级是 86%。待办是少数龙头级，不是那一百多家尾部。
     """
     print("\n10. 内容完整度（门槛依据见 docs/内容完整度标准.md）")
 
@@ -532,8 +553,10 @@ def check_content_depth():
          f"产业 {ok}/{ok + bad} 达标——{bad} 个产业页正文 <{MIN_INDUSTRY_CHARS} 字"
          f"（四级知识树顶层为空）")
 
-    # 公司
+    # 公司（必须分重要性两层）
+    leaders = _leader_names()
     ok, bad, tiers = 0, 0, []
+    l_ok = l_bad = 0
     for p in sorted((WIKI_DIR / '公司').glob('*.md')):
         fm, body = _read_entry(p)
         if fm is None:
@@ -541,19 +564,22 @@ def check_content_depth():
         nk = len([k for k, v in fm.items() if v not in (None, '', [], {})])
         ns = len(re.findall(r'^##\s+', body, re.M))
         n = content_chars(body)
+        is_lead = (fm.get('name') in leaders) or fm.get('chain_role') == '龙头'
         if nk >= MIN_COMPANY_FIELDS and ns >= MIN_COMPANY_SECTIONS and n >= MIN_COMPANY_CHARS:
             ok += 1
+            l_ok += is_lead
         else:
             bad += 1
+            l_bad += is_lead
             tiers.append('中等' if nk >= MIN_COMPANY_FIELDS else '薄')
-    n_c = ok + bad
+    n_c, n_l, n_non = ok + bad, l_ok + l_bad, (ok + bad) - (l_ok + l_bad)
     thin_n = tiers.count('薄')
     soft(bad == 0,
          f"公司 {ok}/{n_c} 达标（字段≥{MIN_COMPANY_FIELDS} 且 ##≥{MIN_COMPANY_SECTIONS} 且 正文≥{MIN_COMPANY_CHARS}字）",
-         f"公司 {ok}/{n_c} 达标，{bad} 家未达标（薄档 {thin_n} + 中等档 {bad - thin_n}）"
-         f"（字段≥{MIN_COMPANY_FIELDS} 且 ##≥{MIN_COMPANY_SECTIONS} 且 正文≥{MIN_COMPANY_CHARS}字）；"
-         f"按重要性排序的未达标清单见 docs/待深化龙头清单.md 与 docs/内容完整度标准.md"
-         f"（勿按字数排序——字数最少的多是边缘条目，不是最该补的）")
+         f"公司 {ok}/{n_c} = {ok / n_c * 100:.0f}% 达标，{bad} 家未达标（薄档 {thin_n} + 中等档 {bad - thin_n}）；"
+         f"分重要性看：龙头级 {l_ok}/{n_l} = {l_ok / n_l * 100:.0f}% 已达标，未达标的龙头级仅 {l_bad} 家，"
+         f"其余 {bad - l_bad} 家为非龙头尾部——待办以那 {l_bad} 家龙头级为准，勿按条目总数管理"
+         f"（清单见 docs/待深化龙头清单.md，标准见 docs/内容完整度标准.md）")
 
     # 赛道
     st_ok, ev_ok, n_s, weak_ev = 0, 0, 0, []
