@@ -306,7 +306,6 @@ def entity_to_dict(entity, max_tam: float, max_backlinks: int) -> dict:
         'companies': fm.get('companies', []),
         'contradictions': fm.get('contradictions', []),
         'source_confidence': _source_confidence(get_structured('sources')),
-        'related_theses': fm.get('related_theses', []),
         'updated': fm.get('updated', ''),
     }
 

@@ -332,7 +332,6 @@ Step 0: 完整读取原始资料 + 7项QA自检 → QA通过
 | 19 | companies | list | — | 模块9：核心标的 |
 | 20 | contradictions | list | — | 模块2.5：已知矛盾 |
 | 21 | wikilinks | list | ✅ | 模块7：关联关系 |
-| 22 | related_theses | list | — | 模块10：投资论点 |
 
 **Company Schema 18 YAML 字段**（驱动 L3 公司详情页 8 模块）：
 

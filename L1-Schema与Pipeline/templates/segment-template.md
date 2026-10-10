@@ -39,11 +39,6 @@
 ## ⚠️ 已知矛盾
 {{矛盾区块}}
 
-## 关联论点
-{% for thesis_slug in related_theses %}
-- [[论点/{{thesis_slug}}]]
-{% endfor %}
-
 ## 来源
 
 {{来源清单}}

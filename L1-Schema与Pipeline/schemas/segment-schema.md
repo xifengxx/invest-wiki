@@ -28,11 +28,15 @@
 | 20 | key_trends | list | - | `[{title, detail}]` 对象数组 | 模块6：关键趋势 |
 | 21 | sources | list | - | `[{title, summary, url}]` 对象数组 | 模块8：研报与证据 |
 | 22 | companies | list | - | `[{ticker,name,role,rev}]` 对象数组 | 模块9：核心标的 |
-| 23 | key_inputs_detail | str | - | 预留：上游详细说明 | - |
-| 24 | key_customers_detail | str | - | 预留：下游详细说明 | - |
-| 25 | value_add | str | - | 附加值等级：high/medium/low | - |
-| 26 | contradictions | list/null | - | 矛盾追踪列表，格式见 `field-formats.md` §8 | 矛盾提示卡片 |
-| 27 | related_theses | list | - | 关联论点 slug 数组 | 投资论点模块 |
+| 23 | value_add | str | - | 附加值等级：high/medium/low | - |
+| 24 | contradictions | list/null | - | 矛盾追踪列表，格式见 `field-formats.md` §8 | 矛盾提示卡片 |
+
+> **2026-10-10 删除三个从未使用的字段**（经 git 历史核实：自初始提交起从未被填充，
+> 且前端零引用）：
+> - `key_inputs_detail` / `key_customers_detail`——自 init 起标注「预留」，从未实现；
+>   上下游关系的说明改由 `key_inputs`/`key_customers` 的 wikilink 指向对应赛道页承载
+> - `related_theses`——其职责已由编译期生成的 `thesis_index` 承担
+>   （数据源为论点侧的 `affected_segments`，18/18 篇全填、80 条引用），此字段是一份永远为空的副本
 
 ## 字段填充优先级
 
@@ -93,6 +97,5 @@ companies:
   - {ticker: "NVDA", name: "NVIDIA", role: "全球龙头", rev: 85}
   - {ticker: "AMD", name: "AMD", role: "二线厂商", rev: 35}
 contradictions: []
-related_theses: []
 ---
 ```
