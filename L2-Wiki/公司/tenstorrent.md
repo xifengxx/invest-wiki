@@ -70,7 +70,7 @@ core_business:
 - AI 芯片 IP 授权业务
 - Galaxy Blackhole 集群平台（32个加速器）
 - 汽车 RISC-V CPU "Alexandria"（面向 ADAS）
-revenue_model: 双轨模式——既销售成品芯片（如 Galaxy Blackhole 平台，定价$110,000），也对外授权 IP（Tensix AI核心与Ascalon RISC-V CPU核心）。**公司未上市，无公开财务数据**。核心理念是以成本优势切入：避开昂贵的HBM，改用GDDR6+片上SRAM，集群用标准以太网，据称成本仅为NVIDIA DGX的1/3到1/5而效率高数倍。
+revenue_model: 双轨模式——既销售成品芯片（如 Galaxy Blackhole 平台，定价$110,000），也对外授权 IP（Tensix AI核心与Ascalon RISC-V CPU核心）。公司未上市，无公开财务数据。核心理念是以成本优势切入：避开昂贵的HBM，改用GDDR6+片上SRAM，集群用标准以太网，据称成本仅为NVIDIA DGX的1/3到1/5而效率高数倍。
 founded: 2016
 headquarters: 美国（原加拿大多伦多，后迁册美国）
 latest_revenue: 未公开（未上市公司）

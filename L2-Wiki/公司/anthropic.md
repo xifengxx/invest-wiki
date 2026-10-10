@@ -76,7 +76,7 @@ core_business:
 - AI 编码工具（Claude Code，增长最快的产品线）
 - 企业级API与Agent平台（Claude for Enterprise、MCP协议）
 - AI 安全研究（Constitutional AI、可解释性、对齐研究）
-revenue_model: 以 API 按 token 计费与企业级订阅为主，企业客户为收入主体（区别于 OpenAI 的消费端主导）。run-rate 从 2025 年底约$90亿增至 2026 年 7 月约$650亿，2026全年预期$1,000-1,200亿。**Q2 2026 调整后经营利润首次转正（+$5.59亿）**，是头部AI模型公司中首个实现经营层面盈利的。
+revenue_model: 以 API 按 token 计费与企业级订阅为主，企业客户为收入主体（区别于 OpenAI 的消费端主导）。run-rate 从 2025 年底约$90亿增至 2026 年 7 月约$650亿，2026全年预期$1,000-1,200亿。Q2 2026 调整后经营利润首次转正（+$5.59亿），是头部AI模型公司中首个实现经营层面盈利的。
 founded: 2021
 headquarters: 美国加州旧金山
 employees: ~2,000

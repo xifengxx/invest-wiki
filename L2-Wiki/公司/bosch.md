@@ -9,7 +9,7 @@ segments:
 - MEMS传感器
 one_liner: |
   全球最大MEMS传感器供应商与汽车电子Tier1巨头，核心为惯性传感器(IMU/加速度计)、压力传感器、环境传感器及毫米波雷达，通过IDM模式自研自产MEMS器件+ASIC并销售给汽车与消费电子客户实现盈利，位于半导体产业链L4终端应用层——累计MEMS出货超230亿颗，Yole连续多年列全球第1。
-  【2026.9.13更新】FY2025集团营收€91.0B(+4.1%汇率调整后但EBIT利润率仅2.0%、税后净亏损−€400M，为2009年以来首次)，重组拨备€2.7B；MEMS营收2024年$2.0B(+12%)全球第1，**但"13-14%份额"实为$2.0B÷$15.4B的推算值，Yole从未明示该百分比**；累计MEMS出货超230亿颗(2025)；Dresden 300mm厂2026年起生产MEMS；BMI5平台内置可编程Edge-AI分类引擎(CES 2026，2026Q3量产)。**博世为德国未上市集团(Robert Bosch GmbH)，无股票代码、无市值。**
+  【2026.9.13更新】FY2025集团营收€91.0B(+4.1%汇率调整后但EBIT利润率仅2.0%、税后净亏损−€400M，为2009年以来首次)，重组拨备€2.7B；MEMS营收2024年$2.0B(+12%)全球第1，但"13-14%份额"实为$2.0B÷$15.4B的推算值，Yole从未明示该百分比；累计MEMS出货超230亿颗(2025)；Dresden 300mm厂2026年起生产MEMS；BMI5平台内置可编程Edge-AI分类引擎(CES 2026，2026Q3量产)。博世为德国未上市集团(Robert Bosch GmbH)，无股票代码、无市值。
 chain_layer: L4
 chain_role: 龙头
 suppliers:
@@ -117,13 +117,13 @@ core_business:
 - 毫米波雷达与超声波雷达（MRR Gen6 / LRR5 / SRR，属 Mobility 板块）
 - 汽车电子与智能出行（Mobility 分部 FY2025 营收 €55.8B，占集团61.3%）
 - 消费品与电动工具（Consumer Goods 分部 €19.9B）+ 工业技术（€6.5B）+ 能源与建筑技术（€8.5B）
-revenue_model: 以硬件销售与系统集成服务为主，IDM 模式覆盖「传感器设计→工艺→自有晶圆制造→自研ASIC→封测→系统集成」全链条。FY2025 集团营收 **€91.0B**（汇率调整后+4.1%，名义近乎持平），但**EBIT 利润率仅 2.0%（€1.8B）**、**税后净亏损 −€400M**（2009年以来首次），主因 €2.7B 重组拨备。**MEMS 业务不单独披露**（隶属 Mobility 板块下的半导体业务），MEMS 营收 2024 年 **$2.0B（+12%）**、全球第1。
+revenue_model: 以硬件销售与系统集成服务为主，IDM 模式覆盖「传感器设计→工艺→自有晶圆制造→自研ASIC→封测→系统集成」全链条。FY2025 集团营收 €91.0B（汇率调整后+4.1%，名义近乎持平），但EBIT 利润率仅 2.0%（€1.8B）、税后净亏损 −€400M（2009年以来首次），主因 €2.7B 重组拨备。MEMS 业务不单独披露（隶属 Mobility 板块下的半导体业务），MEMS 营收 2024 年 $2.0B（+12%）、全球第1。
 founded: 1886
 headquarters: 德国格尔林根-施维贝丁根（Gerlingen-Schillerhöhe）
 employees: ~412,774（2025年末在册；研发出82,100人）
 latest_revenue: FY2025 €91.0B（汇率调整后+4.1%）；EBIT €1.8B（利润率2.0%）
 market_cap: ''
-description: 罗伯特·博世集团（Robert Bosch GmbH）1886年由 Robert Bosch 创立于德国斯图加特，现总部位于格尔林根-施维贝丁根，是**德国未上市集团（法律形式 GmbH），无公开股票、无股票代码、无市值**。集团业务分 Mobility（智能出行）、Industrial Technology、Consumer Goods、Energy and Building Technology 四大事板块，FY2025 营收 €91.0B、员工约 412,774 人。博世是全球最大的 MEMS 传感器供应商（Yole 连续多年列第1），累计 MEMS 出货超 230 亿颗（2025），产品覆盖惯性传感器（ASIL D 级 6 轴 IMU）、压力传感器、环境传感器与毫米波雷达，客户含 Apple、Samsung、Sony 等消费电子厂商与全球整车厂。其独创的 "Bosch process"（DRIE 深反应离子刻蚀）是当代 MEMS 制造的基础工艺。⚠️ 股权结构特殊：Robert Bosch Stiftung GmbH 持股约94%但无投票权，Robert Bosch Industrietreuhand KG 持股约0.01%却掌握约93%投票权，结构上阻止外部收购。⚠️ 切勿将印度上市子公司 Bosch Ltd（NSE 代码 BOSCHLTD）的市值误挂于本集团。
+description: 罗伯特·博世集团（Robert Bosch GmbH）1886年由 Robert Bosch 创立于德国斯图加特，现总部位于格尔林根-施维贝丁根，是德国未上市集团（法律形式 GmbH），无公开股票、无股票代码、无市值。集团业务分 Mobility（智能出行）、Industrial Technology、Consumer Goods、Energy and Building Technology 四大事板块，FY2025 营收 €91.0B、员工约 412,774 人。博世是全球最大的 MEMS 传感器供应商（Yole 连续多年列第1），累计 MEMS 出货超 230 亿颗（2025），产品覆盖惯性传感器（ASIL D 级 6 轴 IMU）、压力传感器、环境传感器与毫米波雷达，客户含 Apple、Samsung、Sony 等消费电子厂商与全球整车厂。其独创的 "Bosch process"（DRIE 深反应离子刻蚀）是当代 MEMS 制造的基础工艺。⚠️ 股权结构特殊：Robert Bosch Stiftung GmbH 持股约94%但无投票权，Robert Bosch Industrietreuhand KG 持股约0.01%却掌握约93%投票权，结构上阻止外部收购。⚠️ 切勿将印度上市子公司 Bosch Ltd（NSE 代码 BOSCHLTD）的市值误挂于本集团。
 website: https://www.bosch.com
 industries:
 - 半导体

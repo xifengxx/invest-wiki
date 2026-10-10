@@ -77,7 +77,8 @@ python3 L1-Schema与Pipeline/lint/verify_all.py
 # 覆盖：L2 可解析/unknown=0、L2→L3 新鲜度、图谱四检、wikilink↔图边、
 #       chain_universe 新鲜度、index.md 一致性、公司 one_liner、ticker 规范、
 #       根文档数字一致性（CLAUDE.md / ARCHITECTURE.md 散文里的计数 vs 实测）、
-#       内容完整度（按 docs/内容完整度标准.md 统计各类型达标率）、index.html 结构
+#       内容完整度（按 docs/内容完整度标准.md 统计各类型达标率）、index.html 结构、
+#       frontmatter 风格（禁 Markdown 加粗——值以 ** 开头会让整个 frontmatter 解析失败）
 # 已挂 pre-commit hook（一次性安装）：git config core.hooksPath .githooks
 # 绕过：SKIP_WIKI_CHECK=1 git commit ...
 # 详细 Lint 规范见 L1-Schema与Pipeline/lint/执行指令-定期扫描.md

@@ -61,7 +61,7 @@ core_business:
 - 13个数据中心算力（北美/欧洲/中东/亚太）
 - Groq 3 LPX 推理平台（与NVIDIA合作，2026-08-24量产）
 - 原 LPU 技术（已于2025年12月非独家授权给NVIDIA）
-revenue_model: 转型后以**按token计费的AI推理服务**为主（neocloud模式），运行NVIDIA系统。**收入数据未披露**——所有搜索来源均无收入、付费客户规模、数据中心利用率或盈利能力的公开数字。公司行为特征显示高资本投入（目标2027年容量从54MW扩至200+MW）。
+revenue_model: 转型后以按token计费的AI推理服务为主（neocloud模式），运行NVIDIA系统。收入数据未披露——所有搜索来源均无收入、付费客户规模、数据中心利用率或盈利能力的公开数字。公司行为特征显示高资本投入（目标2027年容量从54MW扩至200+MW）。
 founded: 2016
 headquarters: 美国加州山景城
 latest_revenue: 未披露

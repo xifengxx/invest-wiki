@@ -69,7 +69,7 @@ core_business:
 - Unity AI Gateway（多AI治理、模型路由与成本控制，路由超千万亿tokens）
 - CustomerLake（营销/CDP产品，2026年推出）
 - 安全SOC平台（2026年收购 Panther）
-revenue_model: 以**消费型订阅**（按计算用量计费）为主。Q2 FY2026（截至2026-07-31）**年化收入run-rate突破$70亿、同比+80%以上**；**过去12个月调整后自由现金流为正**；**净收入留存>140%**。$1,900亿估值隐含约 **27x 收入run-rate**。
+revenue_model: 以消费型订阅（按计算用量计费）为主。Q2 FY2026（截至2026-07-31）年化收入run-rate突破$70亿、同比+80%以上；过去12个月调整后自由现金流为正；净收入留存>140%。$1,900亿估值隐含约 27x 收入run-rate。
 founded: 2013
 headquarters: 美国加州旧金山
 latest_revenue: 年化 run-rate 突破 $70亿（Q2 FY2026，+80%以上）

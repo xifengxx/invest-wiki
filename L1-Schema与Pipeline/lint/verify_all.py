@@ -637,6 +637,38 @@ def check_html():
          f"validate.py 未通过:\n{proc.stdout.strip()[-500:]}")
 
 
+# ── 12. frontmatter 风格 ──────────────────────────────────────────────────
+def check_frontmatter_style():
+    """L2 词条的 frontmatter 中不得出现 Markdown 加粗（`**`）。
+
+    两条危害，一重一轻：
+    - **致命**：值**以** `**` 开头时，YAML 会把首个 `*` 当作 alias 锚点，
+      导致**整个 frontmatter 解析失败**，该实体在编译产物中退化为 `unknown`
+      （本项目 2026-09-13 与 2026-10-08~09 多次踩到，单日最多七次）。
+    - **轻微**：`**` 出现在值**中间**虽不破坏解析，但前端会把星号原样显示。
+
+    项目规范（L1/CLAUDE.md「禁止操作」章节）统一禁止 frontmatter 使用加粗——
+    正文不受限。2026-10-10 一次性清理了 87 个文件、550 处。
+    """
+    print("\n12. frontmatter 风格（禁 Markdown 加粗）")
+    total = hit = 0
+    for p in sorted(WIKI_DIR.rglob('*.md')):
+        t = p.read_text(encoding='utf-8')
+        if not t.startswith('---'):
+            continue
+        parts = t.split('---', 2)
+        if len(parts) < 3:
+            continue
+        total += 1
+        if '**' in parts[1]:
+            hit += 1
+    soft(hit == 0,
+         f"{total} 个 L2 文件的 frontmatter 均无 Markdown 加粗",
+         f"{hit} 个文件的 frontmatter 含 `**`——值以 `**` 开头会让整个 frontmatter 解析失败"
+         f"（实体退化为 unknown）；清理方式：只对 frontmatter 段（首个 `---` 到第二个 `---`）"
+         f"去掉 `**`，正文保留")
+
+
 def main():
     args = sys.argv[1:]
     quiet = '--quiet' in args
@@ -657,6 +689,7 @@ def main():
     check_content_depth()
     if '--no-html' not in args:
         check_html()
+    check_frontmatter_style()
 
     print("\n" + "=" * 56)
     if warnings and not quiet:

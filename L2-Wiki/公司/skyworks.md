@@ -60,7 +60,7 @@ competitors:
 - company: Qorvo
   ticker: QRVO
   area: "RF前端"
-  note: "全球#3 RF厂商，**2025.10宣布与Skyworks合并**"
+  note: "全球#3 RF厂商，2025.10宣布与Skyworks合并"
 - company: Broadcom
   ticker: AVGO
   area: "BAW滤波器/FEM"

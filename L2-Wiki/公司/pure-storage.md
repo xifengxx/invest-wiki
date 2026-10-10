@@ -10,7 +10,7 @@ segments:
 - 企业级存储
 one_liner: |
   全球全闪存阵列挑战者与自研闪存模块的唯一规模化厂商，核心为FlashArray/FlashBlade全闪存平台与Evergreen订阅制存储服务，通过阵列销售+订阅服务（占营收42%）实现盈利，位于AI算力L3核心产品层——FY2027 Q2营收$1,185.9M(+38%)、订阅ARR $2.1B，连续8个季度加速。
-  【2026.9.13更新】FY2027 Q2营收$1.1859B(+38%)、Non-GAAP EPS $0.70(+63%)、订阅ARR $2.1B(+20%)、Non-GAAP营业利润率19.4%；FY2027指引上调至$5.03-5.07B(+37-38%)。**公司已于2026-02-23更名Everpure, Inc.，2026-04-17起NYSE代码由PSTG变更为「P」，官网迁移至everpuredata.com**（赛道页 ticker 仍为 PSTG，需同步）。Q2经营现金流−$136M、自由现金流−$238M（战略囤积NAND），是财报后股价跌约9%的主因。
+  【2026.9.13更新】FY2027 Q2营收$1.1859B(+38%)、Non-GAAP EPS $0.70(+63%)、订阅ARR $2.1B(+20%)、Non-GAAP营业利润率19.4%；FY2027指引上调至$5.03-5.07B(+37-38%)。公司已于2026-02-23更名Everpure, Inc.，2026-04-17起NYSE代码由PSTG变更为「P」，官网迁移至everpuredata.com（赛道页 ticker 仍为 PSTG，需同步）。Q2经营现金流−$136M、自由现金流−$238M（战略囤积NAND），是财报后股价跌约9%的主因。
 chain_layer: L3
 chain_role: 直接相关
 suppliers:
@@ -103,7 +103,7 @@ core_business:
 - DirectFlash Module（DFM）自研闪存模块（垂直整合，容量效率约通用SSD阵列2.5倍）
 - Portworx（Kubernetes 数据管理）+ Pure1（AI 驱动云管理，AI Copilot）
 - Everpure Cloud / Data Stream / Data Intelligence（AI 数据平台与编排）
-revenue_model: 以「阵列硬件 + 订阅服务」双线收入为主。FY2027 Q2 营收 $1,185.9M（**+38%**），订阅服务收入 $499.1M（**占42%**、+20%）、订阅 ARR **$2.1B**（+20%）。**Non-GAAP 营业利润率 19.4%（+430bp）**，GAAP 营业利润率仅 5.3%——差异来自股权激励。**管理层刻意将产品毛利率运行在 65%–70% 区间下沿以换取份额**（Q2 产品毛利率 66.2%）。hyperscale 业务毛利率 75–85%，是未来结构改善的关键。
+revenue_model: 以「阵列硬件 + 订阅服务」双线收入为主。FY2027 Q2 营收 $1,185.9M（+38%），订阅服务收入 $499.1M（占42%、+20%）、订阅 ARR $2.1B（+20%）。Non-GAAP 营业利润率 19.4%（+430bp），GAAP 营业利润率仅 5.3%——差异来自股权激励。管理层刻意将产品毛利率运行在 65%–70% 区间下沿以换取份额（Q2 产品毛利率 66.2%）。hyperscale 业务毛利率 75–85%，是未来结构改善的关键。
 founded: 2009
 headquarters: 美国加州圣克拉拉
 employees: 约6,400（2026；另有5,100-6,000口径）

@@ -74,7 +74,7 @@ competitors:
   note: GPU生态 vs TPU生态，AI算力竞争+互补
 core_business:
 - Google搜索与AI增强广告（Q2 $632.71亿，+17% YoY，AI功能推动搜索查询量增长）
-- Google Cloud云计算（Q2 $247.68亿，**+82% YoY**，近年最快增速，积压$5,140亿首破5000亿）
+- Google Cloud云计算（Q2 $247.68亿，+82% YoY，近年最快增速，积压$5,140亿首破5000亿）
 - YouTube视频平台（Q2广告$110.55亿，+13%；2026世界杯17亿+独立用户）
 - Google订阅与硬件（Q2 $129.11亿，+15%）
 - 自研TPU AI芯片 + Gemini大模型（Gemini App 9.5亿MAU，Gemini 4下一代旗舰模型训练中）

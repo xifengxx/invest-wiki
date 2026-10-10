@@ -67,7 +67,7 @@ core_business:
 - NPO 合作
 - 商用激光器（Components 分部）
 - 系统业务（Systems 分部，Q4 $3.569亿，+122.6%）
-revenue_model: 以光通信器件与系统销售为主，按模块速率与光器件规格计价。Q4 FY2026 营收$10.06亿（**+109.3% YoY**）、**non-GAAP毛利率50.4%（首破50%，+1,260bps）**、**non-GAAP营业利润率36.6%（+2,160bps）**、non-GAAP EPS $3.23（+267%）。**连续第8个季度收入增长**。
+revenue_model: 以光通信器件与系统销售为主，按模块速率与光器件规格计价。Q4 FY2026 营收$10.06亿（+109.3% YoY）、non-GAAP毛利率50.4%（首破50%，+1,260bps）、non-GAAP营业利润率36.6%（+2,160bps）、non-GAAP EPS $3.23（+267%）。连续第8个季度收入增长。
 founded: 2015
 headquarters: 美国加州圣何塞
 latest_revenue: Q4 FY2026 $10.06亿（+109.3% YoY）；FY2026 全年 $30.14亿（+83.2%）

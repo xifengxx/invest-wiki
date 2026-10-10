@@ -23,7 +23,7 @@ customers:
   - company: "联想 / 戴尔（在华）"
     note: "可信计算芯片（TPM/TCM）核心客户（公司互动平台及媒体报道口径）"
   - company: "华为"
-    note: "MCU 已在华为导入；**MCU 向华为的销售供货已获 BIS 许可**"
+    note: "MCU 已在华为导入；MCU 向华为的销售供货已获 BIS 许可"
   - company: "大疆"
     note: "MCU 客户（媒体报道口径）"
   - company: "宁德时代"

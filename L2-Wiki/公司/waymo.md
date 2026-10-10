@@ -78,7 +78,7 @@ core_business:
 - Waymo Driver 全自动驾驶系统（第六代，对外授权探索中）
 - 无人配送（与 DoorDash 合作）
 - 自动驾驶技术授权与平台合作（Uber/Lyft 分发）
-revenue_model: 按里程计费的无人驾驶出行服务。**年化收入 run rate 超过 $3.5亿**（2026），2026年预测 $7-10.1亿（机构分歧），Morgan Stanley 预计2030年 ≥$25亿。**公司仍未盈利（负EBITDA）**——若按 $1,260亿估值 / $3.5亿 run rate 计算，**收入倍数约 280x**。收入增长的核心变量是车队规模与单城运营效率。
+revenue_model: 按里程计费的无人驾驶出行服务。年化收入 run rate 超过 $3.5亿（2026），2026年预测 $7-10.1亿（机构分歧），Morgan Stanley 预计2030年 ≥$25亿。公司仍未盈利（负EBITDA）——若按 $1,260亿估值 / $3.5亿 run rate 计算，收入倍数约 280x。收入增长的核心变量是车队规模与单城运营效率。
 founded: 2009
 headquarters: 美国加州山景城
 latest_revenue: 年化 run rate >$3.5亿（2026）；2025全年约1,500万次付费订单

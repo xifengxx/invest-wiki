@@ -64,7 +64,7 @@ core_business:
 - 国防与航空航天芯片（HPA 分部）
 - 电源管理芯片
 - 三大分部：High Performance Analog (HPA)、Connectivity and Sensors Group (CSG)、Advanced Cellular Group (ACG)
-revenue_model: 以射频芯片与模块销售为主，按芯片/模组计价。Q1 CY2026 营收$8.083亿元（**同比-7%**、但超预期约1%），non-GAAP EPS $1.69（超共识39.5%），**调整后营业利润率23.5%**、**自由现金流利润率31.6%（上年19.6%，大幅改善）**。长期目标（FY2027）：non-GAAP毛利率 **>50%**、non-GAAP摊薄EPS **接近$7.00**。
+revenue_model: 以射频芯片与模块销售为主，按芯片/模组计价。Q1 CY2026 营收$8.083亿元（同比-7%、但超预期约1%），non-GAAP EPS $1.69（超共识39.5%），调整后营业利润率23.5%、自由现金流利润率31.6%（上年19.6%，大幅改善）。长期目标（FY2027）：non-GAAP毛利率 >50%、non-GAAP摊薄EPS 接近$7.00。
 founded: 2015
 headquarters: 美国北卡罗来纳州格林斯伯勒
 latest_revenue: Q1 CY2026（公司口径FY2026 Q4）$8.083亿（-7% YoY）；后续季度 $7.848亿

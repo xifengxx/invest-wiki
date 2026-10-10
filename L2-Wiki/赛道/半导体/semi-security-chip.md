@@ -24,10 +24,10 @@ competition:
     note: 荷兰，智能卡与安全芯片全球第一（前三NXP/英飞凌/三星合计约66%）；嵌入式安全口径约11-13%。NFC/UWB/安全芯片，Apple等手机客户（占其营收约13%）
   - name: Infineon
     share: '~14%'
-    note: 德国，嵌入式安全全球第一（约13-15%）；**TPM安全芯片全球第一**（安全互联CSS板块约占其营收25%）；汽车HSM领先，AURIX累计出货超3.5亿颗
+    note: 德国，嵌入式安全全球第一（约13-15%）；TPM安全芯片全球第一（安全互联CSS板块约占其营收25%）；汽车HSM领先，AURIX累计出货超3.5亿颗
   - name: Thales
     share: '-'
-    note: 法国HO.PA，银行业非接触智能卡全球份额第一(21.1%)、eSIM Provisioning 综合第一(连续6年)，2025-10 抗量子智能卡首家获 ANSSI EAL6+。⚠️ **口径澄清**：Thales 是智能卡/eSIM 平台与安全服务商，芯片主要外采——市场报告将其列入"安全芯片主要厂商"是按价值链口径，**与 NXP/Infineon 等芯片设计公司非同类比较对象**
+    note: 法国HO.PA，银行业非接触智能卡全球份额第一(21.1%)、eSIM Provisioning 综合第一(连续6年)，2025-10 抗量子智能卡首家获 ANSSI EAL6+。⚠️ 口径澄清：Thales 是智能卡/eSIM 平台与安全服务商，芯片主要外采——市场报告将其列入"安全芯片主要厂商"是按价值链口径，与 NXP/Infineon 等芯片设计公司非同类比较对象
   - name: STMicroelectronics
     share: '-'
     note: 意法，ST33系列eSE/安全MCU，手机与车规；安全加密芯片全球前五成员
@@ -40,7 +40,7 @@ competition:
     note: 002049 智能安全芯片（SIM/金融IC/证件），国产特种安全IC龙头
   - name: 复旦微电
     share: '-'
-    note: 688385 **国内首家获 WPC 认证**，金融NFC读写器芯片规模量产主要厂商，安全与识别芯片1H26收入4.72亿元(+20.1%)
+    note: 688385 国内首家获 WPC 认证，金融NFC读写器芯片规模量产主要厂商，安全与识别芯片1H26收入4.72亿元(+20.1%)
   - name: 华大电子
     share: '-'
     note: 中国电子系，SIM/金融IC/Secure MCU
@@ -60,7 +60,7 @@ competition:
   - item: 安全算法与抗攻击能力
     detail: 抗侧信道/抗故障注入等物理安全设计能力，是长期工艺积累而非单点技术
   tech_gap:
-  - dimension: 中国在SIM卡、二代身份证、中低端金融IC已主导（成本优势+政策推动），但**最高安全等级(CC EAL6+)金融IC、车规HSM、高端TPM仍由NXP/Thales/Infineon主导**；数字人民币与信创是国产替代的主要推动力
+  - dimension: 中国在SIM卡、二代身份证、中低端金融IC已主导（成本优势+政策推动），但最高安全等级(CC EAL6+)金融IC、车规HSM、高端TPM仍由NXP/Thales/Infineon主导；数字人民币与信创是国产替代的主要推动力
     detail: 金融IC卡领域 CR5 达 74.2%、国际巨头占据高端市场约 70% 份额；中国本土厂商在金融IC卡、物联网模组等细分市占已超 60%，但集中在非最高安全等级产品。全球安全加密芯片前五（英飞凌/恩智浦/意法/瑞萨/三星LSI）合计约 67.4%
 key_trends:
 - title: 数字人民币推动金融IC国产化
