@@ -26,6 +26,21 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from engine.parser import WikiParser
 from engine.graph import GraphBuilder
 
+
+# `## 动态更新记录` 是 L1 规范要求的审计轨迹（谁在何时改了什么），但它不是词条内容。
+# 前端把 body 整段渲染到详情页，此前该节会作为正文显示出来。
+# 在编译期剥离：维护日志留在 L2 MD 里供审计，不进 wiki_data.json 的渲染字段。
+_CHANGELOG_RE = re.compile(r'^##[ \t]+动态更新记录[ \t]*$', re.M)
+
+
+def strip_changelog(text: str) -> str:
+    """去掉 `## 动态更新记录` 及其后的全部内容。"""
+    if not text:
+        return text
+    m = _CHANGELOG_RE.search(text)
+    return (text[:m.start()] if m else text).rstrip()
+
+
 def _inds(fm):
     """读取 industries 列表（向后兼容单值 industry）。返回非空列表。"""
     v = fm.get('industries')
@@ -447,7 +462,7 @@ def thesis_to_dict(entity) -> dict:
         'sources': sources,
         'description': claim_brief,  # for compatibility
         'wikilinks': entity.wikilinks,
-        'content': entity.content,  # full body for rendering
+        'content': strip_changelog(entity.content),  # full body for rendering
     }
 
 
@@ -466,7 +481,8 @@ def company_to_dict(entity) -> dict:
     content_preview = f"# {entity.name}\n\n> {' | '.join(parts)}" if parts else f"# {entity.name}"
 
     # Full MD body (去掉 YAML frontmatter 后) for detail page rendering
-    full_body = entity.content if entity.content else content_preview
+    # 维护日志不进渲染：剥离 `## 动态更新记录` 及其后内容
+    full_body = strip_changelog(entity.content) if entity.content else content_preview
 
     return {
         'name': entity.name,
