@@ -66,7 +66,7 @@ def parse_layer(raw) -> int:
     return 0
 
 
-def parse_body_sections(body: str) -> dict:
+def parse_body_sections(body: str, first_paragraph_only: bool = False) -> dict:
     """从 MD 正文中提取结构化字段。
 
     正文结构（以 gpu.md 为例）:
@@ -94,6 +94,14 @@ def parse_body_sections(body: str) -> dict:
 
         ## 数据来源
         <sources text>
+
+    first_paragraph_only: 公司正文专用（company_to_dict 传 True）。
+        公司 MD 的写法是「# H1 → 首段 → `>` 运维提示块 → ## 章节」，段间**没有 `---` 分隔符**，
+        故默认规则（取到 `---` 或下一个 `##` 为止）会把首段之后的整块 `>` 提示一起吞进
+        description——而这里恰好是前端「公司简介」的数据源。2026-10-10 实测 17 家踩坑，
+        最长一条把 649 字的内部备注（含 ticker 变更、待同步项）渲染成了对外的公司简介。
+        置 True 后只取 H1 之后的第一段，遇空行即停。赛道正文（gpu.md 式，靠 `---` 分段）
+        仍走默认规则，行为逐字节不变。
     """
     result = {
         'description': '',
@@ -123,6 +131,20 @@ def parse_body_sections(body: str) -> dict:
     else:
         desc_text = cleaned.strip()
         remainder = ''
+
+    if first_paragraph_only:
+        # 只保留首段：遇空行即停；首段之前的 `>` 引用行（若有）一并丢弃。
+        para = []
+        for line in desc_text.split('\n'):
+            s = line.strip()
+            if not s:
+                if para:
+                    break
+                continue
+            if s.startswith('>'):
+                continue
+            para.append(s)
+        desc_text = ' '.join(para).strip()
 
     result['description'] = desc_text
 
@@ -469,7 +491,7 @@ def thesis_to_dict(entity) -> dict:
 def company_to_dict(entity) -> dict:
     """将 company 类型的 Entity 转换为前端格式。"""
     fm = entity.frontmatter
-    body_sections = parse_body_sections(entity.content)
+    body_sections = parse_body_sections(entity.content, first_paragraph_only=True)
 
     one_liner = fm.get('one_liner', '')
     desc = body_sections.get('description', '') or fm.get('description', '')
