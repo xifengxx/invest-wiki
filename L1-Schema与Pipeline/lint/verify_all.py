@@ -669,6 +669,103 @@ def check_frontmatter_style():
          f"去掉 `**`，正文保留")
 
 
+# ── 13. 证据链（公司 ↔ L0 溯源）────────────────────────────────────────────
+L0_DIR = ROOT / 'L0-原始资料池'
+
+
+def _name_variants(name):
+    """把词条名拆成可匹配源文的变体。
+
+    KB 里的名称常与源文写法不一致，精确匹配会**系统性高估缺口**：
+      `环球晶圆 (GlobalWafers)` → 源文只写「环球晶圆」
+      `SCREEN Semiconductor`    → 源文只写「SCREEN」/「迪恩士」
+      `ON Semiconductor (onsemi)` → 源文只写「onsemi」/「安森美」
+
+    2026-10-10 实测：不做变体拆分时判出「183 家无痕迹」，加入括号拆分与首词变体后
+    真正的「有内容却无据」收敛到 0~1 家 —— 差两个数量级。故此处务必保留变体逻辑。
+    """
+    out = {name}
+    for part in re.split(r'[（(）)]', name):
+        part = part.strip()
+        if len(part) >= 3:
+            out.add(part)
+    # 首词变体：`SCREEN Semiconductor` → `SCREEN`（≥4 字符才安全，避免 ON / 3M 之类误匹配）
+    head = name.split()[0] if name.split() else ''
+    if len(head) >= 4:
+        out.add(head)
+    return out
+
+
+def check_evidence_chain():
+    """核对每家公司能否追溯到 L0 原始资料。只把「有内容却无据」报为告警。
+
+    三档判定（判据经 2026-10-10 四轮迭代验证）：
+      A 有专档 —— 名称变体命中 L0 的文件名 / `source_name` / `tags`
+      B 被覆盖 —— 名称变体只出现在 L0 正文里（含**批次归档**：一份 `{日期}-{批次}-数据溯源.md`
+                  覆盖多家公司，公司名只在正文出现，故必须做正文匹配）
+      C 无痕迹 —— 两者皆无
+
+    只有 **C 档且有实质内容** 才是真问题（数据无出处）；C 档纯骨架属正常（尚未建档）。
+
+    ⚠️ **已知偏差（有意保留）**：3~4 字符的 ASCII 简称（`AMD` / `Meta` / `SAP`）作为子串
+    可能误命中无关文本（如 `AMD` 命中 `AMDOCS`），使本检查**倾向于"多算有据"**。
+    这个方向是安全的——它会让告警偏保守，而不会虚报缺口。反过来（虚报缺口）才是要避免的：
+    2026-10-10 用朴素精确匹配曾虚报「183 家无痕迹」，实际约 0 家。
+    """
+    print("\n13. 证据链（公司 ↔ L0 溯源）")
+    if not L0_DIR.exists():
+        hard(False, "", f"L0 目录不存在: {L0_DIR}")
+        return
+    meta_blobs, body_parts, n_l0 = [], [], 0
+    for p in L0_DIR.rglob('*'):
+        if not p.is_file() or p.suffix not in ('.md', '.txt'):
+            continue
+        n_l0 += 1
+        t = p.read_text(encoding='utf-8', errors='ignore')
+        body_parts.append(t)
+        blob = p.name
+        if t.startswith('---'):
+            try:
+                fm = yaml.safe_load(t.split('---', 2)[1]) or {}
+                blob += ' ' + str(fm.get('source_name') or '') + ' ' + ' '.join(map(str, fm.get('tags') or []))
+            except Exception:
+                pass
+        meta_blobs.append(blob)
+    meta_all = '\n'.join(meta_blobs)
+    body_all = '\n'.join(body_parts)
+
+    a = b = 0
+    orphan = []          # C 档且有实质内容 —— 唯一告警项
+    skeleton_c = 0       # C 档纯骨架 —— 正常，只计数
+    for p in sorted((WIKI_DIR / '公司').glob('*.md')):
+        fm, body = _read_entry(p)
+        if fm is None:
+            continue
+        name = fm.get('name')
+        if not name:
+            continue
+        vs = _name_variants(str(name))
+        tick = str(fm.get('ticker') or '')
+        in_meta = any(v in meta_all for v in vs) or (len(tick) >= 3 and tick.upper() in meta_all.upper())
+        if in_meta:
+            a += 1
+            continue
+        if any(v in body_all for v in vs):
+            b += 1
+            continue
+        nk = len([k for k, v in fm.items() if v not in (None, '', [], {})])
+        if nk >= MIN_COMPANY_FIELDS or re.search(r'^##\s+', body, re.M):
+            orphan.append(f"{name}(字段{nk})")
+        else:
+            skeleton_c += 1
+
+    soft(not orphan,
+         f"证据链完整：{a} 家有专档、{b} 家被批次/主题归档覆盖，无「有内容却无据」的公司"
+         f"（另有 {skeleton_c} 家纯骨架尚未建档，不纳入）",
+         f"{len(orphan)} 家公司已有内容但**追溯不到任何 L0 归档**"
+         f"（数据无出处）：{orphan[:8]}——应为每家补 L0 归档，或降级其数据标注")
+
+
 def main():
     args = sys.argv[1:]
     quiet = '--quiet' in args
@@ -690,6 +787,7 @@ def main():
     if '--no-html' not in args:
         check_html()
     check_frontmatter_style()
+    check_evidence_chain()
 
     print("\n" + "=" * 56)
     if warnings and not quiet:
