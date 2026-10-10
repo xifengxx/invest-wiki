@@ -320,6 +320,9 @@ contradictions:
 
 ### 规则
 
+> **「何时该记一条」的判据见 `L1-Schema与Pipeline/CLAUDE.md`「contradictions（矛盾追踪）记录判据」**
+> （2026-10-10 新增）——本节只定义**格式**，触发条件在那节。
+
 - 一条矛盾**追加**，不覆盖已有条目
 - 赛道已有 `contradictions` 时，新条目追加到数组末尾
 - 矛盾解决后更新 `status` 与 `resolved_date`，**不删除条目**（保留研究过程的痕迹）
