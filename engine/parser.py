@@ -27,6 +27,10 @@ class WikiParser:
         """解析所有 .md 文件"""
         self.entities = {}
         for root, dirs, files in os.walk(self.wiki_dir):
+            # 排序保证解析顺序与文件系统无关：APFS / ext4 的目录枚举顺序不同，
+            # 不排序会让同一份 L2 编译出不同字节，CI 的「产物是否过期」检查随之误报。
+            dirs.sort()
+            files.sort()
             # 排除非实体目录
             rel_root = os.path.relpath(root, self.wiki_dir)
             if rel_root.startswith('消化笔记') or '.aura' in root or '__pycache__' in root:
