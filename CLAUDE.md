@@ -1,6 +1,6 @@
 # Invest Wiki — LLM-Wiki 产业链知识库
 
-> **当前状态**：511 词条（2 产业 + 67 赛道 + 414 公司 + 10 概念 + 18 论点）/ 0 unknown / 全部验证通过（2026-10-08）
+> **当前状态**：511 词条（2 产业 + 67 赛道 + 414 公司 + 10 概念 + 18 论点）/ 0 unknown / 全部验证通过（2026-11-14）
 
 ## 定位
 
@@ -45,7 +45,7 @@ L3-网页产物/         ← Web Output（编译生成 index.html）
 ## 使用方式
 
 ```bash
-cd ~/Claude_projects/5factor_system/invest_wiki
+cd ~/claude/invest_wiki
 
 # 1. 从 invest_kg JSON 迁移（首次，已完成，脚本已归档至 engine/）
 # python engine/seed_json_to_md.py
@@ -91,59 +91,50 @@ python3 L1-Schema与Pipeline/lint/gen_index.py --write   # 落盘
 # 7. 提炼模式（质量审计）
 # 见 L1-Schema与Pipeline/CLAUDE.md 维护模式章节
 
-# 8. 上线（推送 → 同步到线上站点 → 验证一致）
+# 8. 上线（推送 → GitHub Actions 发布 Pages → 验证线上版本）
 ./deploy.sh              # 全流程
-./deploy.sh --no-push    # 已推送过，只触发同步+验证
-./deploy.sh --verify     # 只读验证，不推送不触发
+./deploy.sh --no-push    # 已推送过，只等发布 + 验证
+./deploy.sh --verify     # 只读验证，不推送不等待
 ```
 
 ## 更新后上线（重要）
 
-编译产物要出现在线上页面，需经过**跨仓库同步**：
+线上页面：**https://xifengxx.github.io/invest-wiki/**
 
-```
-invest-wiki (master)                    kol-daily (gh-pages)
-  L3-网页产物/wiki_data.json  ──同步──▶  industry-chain/wiki_data.json
-  L3-网页产物/index.html      ──同步──▶  industry-chain/index.html
-                                              │ GitHub Pages 部署
-                                              ▼
-                       https://xifengxx.github.io/kol-daily/industry-chain/index.html
-```
+由本仓库的 `.github/workflows/pages.yml` 发布：push 到 master → Actions 跑 `verify_all.py` → 取仓库里**已提交**的 `L3-网页产物/index.html` + `wiki_data.json` → `actions/deploy-pages`。单仓库，无中转。
 
-**同步由 kol-daily 的 `sync-modules.yml` + `sync-github.py` 完成**，映射表是 kol-daily 根目录的 `sync-config.json`（config 驱动，新增产物只需在那登记）。
+（历史：2026-11 之前走 kol-daily 的 `sync-modules.yml` 跨仓库同步，落在 `/kol-daily/industry-chain/`。那条链路仍在运行、旧地址会继续按 cron 更新，但已不是主入口；要收口就在 kol-daily 的 `sync-config.json` 删掉那两个 module 并删除 `industry-chain/` 目录。）
 
-### ⚠️ 必须知道的三个坑
+### 工作流的三个设计取舍
 
-1. **cron 的真实延迟是 2-3 小时，不是配置里写的 30 分钟。** 工作流虽然配置了 `cron: '23,53 * * * *'`，但 GitHub 对 scheduled workflow 有节流。**不要依赖 cron 的时效性。**
-2. **工作流每次 run 都显示 `success`，即使什么都没同步。** 只有日志里的 `✓ 有变化` / `无变化` 能区分——只看 run 状态无法判断同步是否真的发生。
-3. **本地到 `raw.githubusercontent.com` 被拦、到 `xifengxx.github.io` 极慢（会截断下载）。** 验证同步**必须用 git blob 哈希比对**，不要用 curl 抓网页文件（会误判成"文件损坏"）。
+1. **不在 CI 重编译。** 只发布已提交的产物。CI 先跑 `verify_all.py`，产物与 L2 不一致就失败、不部署——所以线上永远是 git 里那一字节。
+2. **不用 gh-pages 分支。** 走 artifact 部署，仓库 Settings → Pages → Source 必须是「GitHub Actions」。
+3. **`_site/version.txt` 写 commit SHA。** 验证「线上这份对应哪个提交」只需抓 40 字节，比抓 4MB 的 JSON 便宜，也不会因 CDN 截断误判。
 
 ### 标准动作
 
-编译产物有变更后（改了 L2 词条 / 赛道 / 论点 → 重编译），推送后跑一次：
-
 ```bash
-./deploy.sh
+./deploy.sh            # 校验 → 推送 → 等 Actions → 验证 version.txt == HEAD
+./deploy.sh --no-push  # 已推过，只等发布 + 验证
+./deploy.sh --verify   # 只读验证
 ```
 
-它会：① 推送 master → ② 等 45s 让 raw CDN 刷新（否则同步会拉到旧内容）→ ③ 触发 `sync-modules` 并等待完成（约 11s）→ ④ 等 Pages 部署 → ⑤ 用 blob 哈希验证每个登记产物一致。
-
-**判断"同步是否正常"前，先查源头有没有变**：
+典型延迟：push 后 1 分钟内（首次启用 Pages 会更久）。判断「没更新」之前先看源头：
 
 ```bash
 git log --oneline -3 -- L3-网页产物/wiki_data.json
 ```
 
-如果最近一次提交没改这个文件，线上不变是**正确行为**，不是链路故障（曾因此误判过一次：9/11 的提交只改了 `chain_universe.json`）。
+如果最近一次提交没改这个文件，线上不变是**正确行为**，不是链路故障。
 
-> `daily-briefing/scripts/chain_universe.json` 未登记在 `sync-config.json`，由日报链路另行同步，不从本仓库同步。
+> `L3-网页产物/chain_universe.json` 不发布到网页（只给日报链路用），改它不影响页面。
 
 ## 目录结构
 
 ```
 invest_wiki/
 ├── CLAUDE.md              ← 本文件（项目入口）
-├── deploy.sh              ← 上线脚本（推送 → 同步 kol-daily → 验证一致）
+├── deploy.sh              ← 上线脚本（校验 → 推送 → 等 Actions → 验证线上版本）
 ├── seed_json_to_md.py     ← 一次性迁移脚本
 ├── engine/                ← Wiki 引擎
 │   ├── parser.py          ← YAML + [[wikilink]] 解析
@@ -201,18 +192,19 @@ invest_wiki/
 |------|------|:--:|:--:|
 | Tier 1 | 市值前 50 的半导体/AI 公司 | 51（含3家新建） | ✅ 完成 |
 | Tier 2 | 产业链关键环节龙头 | 26 | ✅ 完成 |
-| Tier 3 | 其余骨架公司 | 256 | ⏳ 按需补充 |
+| Tier 3 | 其余骨架公司 | 151 | ⏳ 按需补充 |
 
 > **Tier 3 的可执行清单**：`docs/待深化龙头清单.md`
 > —— 从「被赛道定位为龙头级」的公司里筛出深度未达 NVIDIA 那一档的，
 > 分「🔴 薄（0 家，字段都没填齐）」与「⚠️ 中等（0 家，只需展开叙事）」两档。
-> 2026-10-08：原中等档 8 家已补全叙事章节、全部移出；薄档 16 家仍需外部取数。
+> 2026-10-08：原中等档 8 家已补全叙事章节、全部移出；薄档 16 家当时仍需外部取数。
+> **2026-10-09 T1-6 批次把最后 16 家薄档龙头全部补齐**，龙头级达标率 178/178 = 100%，当前两档均为 0 家。
 > 由 `L1-Schema与Pipeline/lint/list_deepening_targets.py` 生成，数据变了重跑即可。
 >
 > **全站审计**：`docs/产业链数据健全度审计.md`（**2026-09-16 时点快照**，全量扫描 67 赛道 × 405 公司）
 > —— 当时未达标公司共 193 家（龙头 17 + 非龙头 110 + 孤儿 67）；赛道健康度 A 26 / B 31 / C 10 / D 0，C 级赛道优先补全。
 > **2026-10-08 变化**：孤儿公司 **67 → 0**（分三轮：11 家 + 54 家补登记，另 2 家经改名与重复页清理解决）；
-> 龙头级薄档 9 → **16 家**；公司入边率 83.5% → **100%**。
+> 龙头级薄档 9 → 16 家（**2026-10-09 T1-6 批次后 → 0 家**）；公司入边率 83.5% → **100%**。
 > 当前值以 `docs/待深化龙头清单.md` 为准，审计报告内的数字保留为其自身时点快照、不回填。
 
 Tier 1 完成详情：7 批次（A1-A7），遵循 Research 模式（WebSearch → L0归档 → MD更新 → 编译 → 验证），覆盖全球半导体/AI市值前50强 + 3家新建（Astera Labs/Credo/Technoprobe），每家公司13-14/14字段完整填充。L0归档文件：`L0-原始资料池/03-新闻/2026-07-23-B5批次-5家半导体公司-数据溯源.md` + `B6批次-30家半导体公司-数据溯源.md`。

@@ -2,7 +2,7 @@
 
 > 版本 2.5 · 2026-10-08 · LLM-Wiki 四层架构 + Phase 2-5 全部完成
 >
-> **v2.5 变更**：数据规模对齐 2026-10-08 实测（511 词条 / 67 赛道 / 414 公司 / L0 345 文件）；
+> **v2.5 变更**：数据规模对齐 2026-10-08 实测（511 词条 / 67 赛道 / 414 公司）；
 > 补充 2026-09-13 起的**双产业归属模型**（`industries` 列表 + 16 个双归属赛道）；
 > 补充 `verify_all.py` 统一校验、pre-commit hook、`deploy.sh` 跨仓库同步三套新机制。
 
@@ -54,9 +54,9 @@ The Wiki         →     L2 结构化 Wiki 层
 | **总词条** | **511** |
 | 图谱节点 | 508 |
 | 图谱边 | 1105 |
-| L0 归档文件 | 383 |
+| L0 归档文件 | 386 |
 
-> 数据质量基线见 `docs/产业链数据健全度审计.md`（2026-09-16 时点快照）与 `docs/待深化龙头清单.md`（**2026-10-08 重跑**：龙头级 **180 家** = 全面 178 / 中等 0 / 薄 0；**孤儿公司 0 家**）。
+> 数据质量基线见 `docs/产业链数据健全度审计.md`（2026-09-16 时点快照）与 `docs/待深化龙头清单.md`（**2026-10-09 重跑**：龙头级 **178 家** = 全面 178 / 中等 0 / 薄 0；**孤儿公司 0 家**）。
 > ⚠️ 414 家公司中 **152 家字段未填齐**（<20/25），其中 **150 家正文零 `##` 段落**；这 150 家同时缺 `data_freshness_date`，未纳入 90 天保鲜扫描。
 
 ### 2.2 两大产业 · 四层结构
@@ -473,7 +473,7 @@ Phase 3 数据新鲜度扫描器。读取 wiki_data.json，检查所有公司的
 | `missing` | **有**经营数据（`latest_revenue`/`market_cap`）却无日期 → 真疏漏 | 是 |
 | `skeleton` | **无**任何经营数据 → 尚未建档的骨架条目 | **否** |
 
-`skeleton` 是已知状态而非错误：骨架条目本就不该有 `data_freshness_date`（见「不推测原则」），它们需要的是**建档**而不是**刷新**。旧版实现会把这批条目静默丢弃（既不计入任何桶、也不出现在报告里），导致报告头部写的总词条数与各桶之和对不上（当时是 405 vs 237）；2026-10-08 修正为显式归类。当前实测：fresh 231 / warn 6 / stale 0 / missing 0 / skeleton 151 = 404。
+`skeleton` 是已知状态而非错误：骨架条目本就不该有 `data_freshness_date`（见「不推测原则」），它们需要的是**建档**而不是**刷新**。旧版实现会把这批条目静默丢弃（既不计入任何桶、也不出现在报告里），导致报告头部写的总词条数与各桶之和对不上（当时是 405 vs 237）；2026-10-08 修正为显式归类。当前实测（2026-11-14）：fresh 49 / warn 208 / stale 6 / missing 0 / skeleton 151 = 414。
 
 ### 7.6 前端功能
 
@@ -547,7 +547,7 @@ Phase 3 数据新鲜度扫描器。读取 wiki_data.json，检查所有公司的
 | Phase 3 | 数据保鲜机制（freshness_scan + schema 字段 + UI 徽章） | ✅ 完成（2026-07-23） |
 | Phase 4 | 论点闭环审计（18 条：3 confirmed + 9 active + 4 forming + 2 新） | ✅ 完成（2026-07-24） |
 | Phase 5 | 前端可用性（排序/筛选/新鲜度可视化） | ✅ 完成（2026-07-24） |
-| Tier 3 | 其余 312 家骨架公司 | 按需补充 |
+| Tier 3 | 其余 151 家骨架公司（当前实测） | 按需补充 |
 
 ---
 
@@ -567,10 +567,14 @@ Phase 3 数据新鲜度扫描器。读取 wiki_data.json，检查所有公司的
 
 ## 十二、部署
 
-```bash
-cd ~/Claude_projects/5factor_system/invest_wiki
+线上页面：**https://xifengxx.github.io/invest-wiki/**，由本仓库 `.github/workflows/pages.yml` 发布
+（push master → `verify_all.py` 校验 → 取已提交的 `index.html` + `wiki_data.json` → `actions/deploy-pages`）。
+单仓库，不经中转；Pages Source 必须设为「GitHub Actions」。
 
-# 编译
+```bash
+cd ~/claude/invest_wiki
+
+# 编译（改了 L2 才需要）
 python3 L3-网页产物/build_wiki_data.py
 python3 L3-网页产物/build_chain_universe.py
 
@@ -579,6 +583,11 @@ python3 L3-网页产物/validate.py
 
 # 数据新鲜度扫描
 python3 L3-网页产物/freshness_scan.py
+
+# 上线：校验 → 推送 → 等 Actions → 验证线上 version.txt == HEAD
+./deploy.sh
+./deploy.sh --no-push   # 已推送，只等发布 + 验证
+./deploy.sh --verify    # 只读验证
 
 # 启动本地服务
 cd L3-网页产物 && python3 -m http.server 8760

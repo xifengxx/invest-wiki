@@ -25,6 +25,7 @@ import json
 import sys
 import os
 from datetime import datetime, date
+from typing import Optional
 
 STALE_DAYS = 90
 WARN_DAYS = 60  # 预警阈值（接近过期）
@@ -33,7 +34,7 @@ WARN_DAYS = 60  # 预警阈值（接近过期）
 EARNINGS_MONTHS = {1, 4, 7, 10}
 
 
-def parse_date(date_val) -> date | None:
+def parse_date(date_val) -> Optional[date]:
     """解析 data_freshness_date 字段，支持字符串/date对象/多种格式。"""
     if date_val is None:
         return None
@@ -67,7 +68,7 @@ def parse_date(date_val) -> date | None:
     return None
 
 
-def parse_market_cap_date(mcap_str: str) -> date | None:
+def parse_market_cap_date(mcap_str: str) -> Optional[date]:
     """尝试从 market_cap 字段中提取日期。例如 '~$100B（2026.7）'"""
     if not mcap_str:
         return None

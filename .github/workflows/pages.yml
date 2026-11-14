@@ -1,0 +1,62 @@
+name: pages
+
+# 单仓库发布：push 到 master → 校验 → 取「已提交」的编译产物 → deploy-pages。
+# 不经任何中转仓库。
+#
+# 线上地址：https://xifengxx.github.io/invest-wiki/
+# 前置条件：仓库 Settings → Pages → Source 选 "GitHub Actions"。
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: pip install pyyaml
+
+      # 闸门：L2 可解析 / 产物与 L2 一致 / 图谱完整 / 索引同步 / 内容完整度。
+      # 产物过期（改了 L2 但没重编译）会在这里失败，不部署。
+      - name: 上线前校验
+        run: python3 L1-Schema与Pipeline/lint/verify_all.py
+
+      - name: 组装站点
+        run: |
+          set -euo pipefail
+          mkdir -p _site
+          cp L3-网页产物/index.html _site/
+          cp L3-网页产物/wiki_data.json _site/
+          printf '%s\n' "$GITHUB_SHA" > _site/version.txt
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
