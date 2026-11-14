@@ -103,7 +103,7 @@ python3 L1-Schema与Pipeline/lint/gen_index.py --write   # 落盘
 
 由本仓库的 `.github/workflows/pages.yml` 发布：push 到 master → Actions 跑 `verify_all.py` → 取仓库里**已提交**的 `L3-网页产物/index.html` + `wiki_data.json` → `actions/deploy-pages`。单仓库，无中转。
 
-（历史：2026-11 之前走 kol-daily 的 `sync-modules.yml` 跨仓库同步，落在 `/kol-daily/industry-chain/`。该模块已于 2026-11-14 从 kol-daily 下线：`sync-config.json` 的 `github_modules` 清空、`industry-chain/` 目录删除，旧地址现为 404；kol-daily 首页卡片已改指本页。）
+（历史：2026-11 之前走 kol-daily 的 `sync-modules.yml` 跨仓库同步，落在 `/kol-daily/industry-chain/`。该链路已于 2026-11-14 断开：`sync-config.json` 的 `github_modules` 清空，`industry-chain/` 作为**冻结快照**保留——旧地址仍可访问，内容停在拆链那一刻，不再跟随本仓库更新。kol-daily 首页卡片已改指本页。）
 
 ### 工作流的三个设计取舍
 
